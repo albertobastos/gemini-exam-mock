@@ -279,6 +279,17 @@
         document.getElementById('q-amount').value = Math.min(100, allQuestions.length);
     }
 
+    // --- Array Shuffling Utility (Fisher-Yates) ---
+    function shuffleArray(array) {
+        let currentIndex = array.length, randomIndex;
+        while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+            [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+        }
+        return array;
+    }
+
     // --- Topic Selection Utilities ---
     function selectAllTopics() {
         document.querySelectorAll('.topic-checkbox').forEach(cb => cb.checked = true);
@@ -362,8 +373,9 @@
         
         if (selectedTopics.length === 0) return alert("Please select at least one topic.");
 
+        // Filter and apply true Fisher-Yates shuffle to the questions
         let filtered = allQuestions.filter(q => selectedTopics.includes(q.tema));
-        filtered = filtered.sort(() => 0.5 - Math.random()); 
+        filtered = shuffleArray(filtered);
         
         const amount = parseInt(document.getElementById('q-amount').value);
         examQuestions = filtered.slice(0, amount);
@@ -390,7 +402,8 @@
                 originalIndex 
             }));
             
-            answers = answers.sort(() => 0.5 - Math.random());
+            // Apply true Fisher-Yates shuffle to the answers
+            answers = shuffleArray(answers);
             q.shuffledAnswers = answers; 
 
             const card = document.createElement('div');
