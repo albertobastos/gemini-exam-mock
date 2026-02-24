@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Com es defineix un 'Procés' en el context d'un sistema operatiu?",
+    "respostes": [
+      ["Un component físic de la CPU.", false],
+      ["Un programa en execució, incloent-hi el codi, les dades i l'estat.", true],
+      ["Un fitxer emmagatzemat al disc dur.", false],
+      ["Una instrucció de codi màquina aïllada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quina crida al sistema s'utilitza habitualment en Unix per crear un nou procés duplicant l'existent?",
+    "respostes": [
+      ["create()", false],
+      ["new()", false],
+      ["fork()", true],
+      ["exec()", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què implica la creació d'un procés?",
+    "respostes": [
+      ["Només reservar espai al disc dur.", false],
+      ["Inicialitzar estructures de dades, carregar codi i configurar l'entorn d'execució.", true],
+      ["Apagar i encendre l'ordinador.", false],
+      ["Enviar un correu electrònic a l'administrador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "En quin estat es troba un procés que està esperant un esdeveniment extern, com una entrada d'usuari?",
+    "respostes": [
+      ["Nou.", false],
+      ["En execució.", false],
+      ["Bloquejat.", true],
+      ["Finalitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin estat indica que un procés està llest per executar-se immediatament quan la CPU estigui disponible?",
+    "respostes": [
+      ["Bloquejat.", false],
+      ["Preparat.", true],
+      ["En execució.", false],
+      ["Finalitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin és l'objectiu principal de la planificació de processos?",
+    "respostes": [
+      ["Decidir quin procés ha d'executar-se en un moment donat.", true],
+      ["Emmagatzemar dades al disc dur.", false],
+      ["Gestionar la memòria RAM.", false],
+      ["Controlar els dispositius d'entrada/sortida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "En què consisteix l'algorisme de planificació FCFS (First-Come, First-Served)?",
+    "respostes": [
+      ["Els processos s'executen segons la seva prioritat.", false],
+      ["Els processos s'executen en l'ordre en què arriben.", true],
+      ["Els processos s'executen segons el temps restant.", false],
+      ["Els processos s'executen de manera aleatòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin és un desavantatge de l'algorisme FCFS?",
+    "respostes": [
+      ["És molt complex d'implementar.", false],
+      ["Pot causar temps de resposta llargs si un procés llarg arriba primer (efecte comboi).", true],
+      ["Requereix molta CPU per decidir l'ordre.", false],
+      ["No permet l'execució de processos nous.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Com funciona l'algorisme Round Robin (RR)?",
+    "respostes": [
+      ["Executa el procés més curt primer.", false],
+      ["Assigna un temps fix (quantum) a cada procés de manera rotativa.", true],
+      ["Executa els processos segons la seva prioritat estricta.", false],
+      ["Espera que l'usuari triï quin procés executar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin problema pot tenir l'algorisme de Planificació per Prioritat?",
+    "respostes": [
+      ["Complexitat d'implementació baixa.", false],
+      ["Fam (starvation) dels processos de baixa prioritat.", true],
+      ["Excessiu ús de memòria.", false],
+      ["Impossibilitat d'executar processos en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què és un 'Treball' (Job) en el context de sistemes operatius?",
+    "respostes": [
+      ["Una tasca manual que fa l'operador.", false],
+      ["Una unitat de treball enviada al sistema per ser processada, típicament en lots.", true],
+      ["Un error del sistema.", false],
+      ["Un component de maquinari defectuós.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quina diferència hi ha entre la gestió de processos i la gestió de treballs?",
+    "respostes": [
+      ["La gestió de processos és per a usuaris i la de treballs per a administradors.", false],
+      ["La gestió de processos maneja aplicacions en execució; la de treballs planifica tasques en sistemes de lots.", true],
+      ["Són el mateix concepte amb noms diferents.", false],
+      ["La gestió de treballs només existeix a Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin algorisme de planificació de processos tria el procés amb el menor temps d'execució estimat?",
+    "respostes": [
+      ["FCFS.", false],
+      ["Round Robin.", false],
+      ["SJN (Shortest Job Next).", true],
+      ["Prioritat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què és el 'Temps de turnaround'?",
+    "respostes": [
+      ["El temps que triga la CPU a escalfar-se.", false],
+      ["El temps total des de l'arribada d'un procés fins a la seva finalització.", true],
+      ["El temps que un procés passa bloquejat.", false],
+      ["El temps que triga a arrencar el sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què és el 'Temps d'espera' en les mètriques de rendiment?",
+    "respostes": [
+      ["El temps que l'usuari espera davant la pantalla.", false],
+      ["El temps total que un procés passa en l'estat de preparat.", true],
+      ["El temps que triga a carregar-se el programa des del disc.", false],
+      ["El temps que el procés està en execució.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin sistema operatiu s'esmenta com a exemple de gestió eficient de treballs en entorns de lots?",
+    "respostes": [
+      ["Windows 10.", false],
+      ["Android.", false],
+      ["IBM z/OS.", true],
+      ["macOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "En l'algorisme Round Robin, què passa si el 'quantum' és massa curt?",
+    "respostes": [
+      ["El sistema es bloqueja.", false],
+      ["Augmenta l'overhead pel canvi de context (context switching).", true],
+      ["Els processos s'executen més ràpid.", false],
+      ["No passa res especial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què significa SRT en planificació de processos?",
+    "respostes": [
+      ["System Resource Time.", false],
+      ["Shortest Remaining Time.", true],
+      ["Standard Response Time.", false],
+      ["Sequential Run Task.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin algorisme de planificació de treballs prioritza basant-se en una combinació de temps d'espera i durada estimada?",
+    "respostes": [
+      ["FCFS.", false],
+      ["SJF.", false],
+      ["HRRN (Highest Response Ratio Next).", true],
+      ["Round Robin.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què permet l'algorisme Multilevel Queue Scheduling?",
+    "respostes": [
+      ["Executar tots els processos alhora.", false],
+      ["Dividir els processos en múltiples cues amb diferents algorismes de planificació.", true],
+      ["Utilitzar múltiples processadors físics.", false],
+      ["Eliminar les cues d'espera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quina és la diferència entre Multilevel Queue i Multilevel Feedback Queue?",
+    "respostes": [
+      ["En el Feedback Queue, els processos poden moure's entre cues.", true],
+      ["En el Feedback Queue, només hi ha una cua.", false],
+      ["El Multilevel Queue és més dinàmic.", false],
+      ["No hi ha cap diferència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què implica el 'Monitoratge i control de treballs'?",
+    "respostes": [
+      ["Vigilar els usuaris amb càmeres.", false],
+      ["Seguir l'estat dels treballs, reiniciar-los si fallen i reportar-ne l'execució.", true],
+      ["Controlar la temperatura de la CPU.", false],
+      ["Netejar la pantalla del monitor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin tipus de finalització de procés es produeix quan es detecta un error greu?",
+    "respostes": [
+      ["Voluntària.", false],
+      ["Forçada.", true],
+      ["Programada.", false],
+      ["Temporal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "En un sistema Round Robin, què passa si un procés no acaba dins del seu quantum?",
+    "respostes": [
+      ["El procés es finalitza forçosament.", false],
+      ["El procés continua executant-se fins que acabi.", false],
+      ["Es col·loca al final de la cua de processos preparats.", true],
+      ["Es col·loca en estat bloquejat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin ordre s'utilitza en Unix per finalitzar un procés manualment?",
+    "respostes": [
+      ["stop", false],
+      ["end", false],
+      ["kill", true],
+      ["finish", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què és el 'Temps de resposta'?",
+    "respostes": [
+      ["Temps des de l'arribada d'un procés fins que comença la seva execució.", true],
+      ["Temps total d'execució.", false],
+      ["Temps que triga l'usuari a respondre.", false],
+      ["Temps de càrrega del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin dels següents és un avantatge de l'algorisme SJN (Shortest Job Next)?",
+    "respostes": [
+      ["És fàcil predir el temps d'execució.", false],
+      ["Pot reduir el temps mitjà d'espera.", true],
+      ["Garanteix que els processos llargs s'executin ràpid.", false],
+      ["No té cap desavantatge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin sistema de planificació utilitza Windows segons el text?",
+    "respostes": [
+      ["Estrictament FCFS.", false],
+      ["Estrictament Round Robin.", false],
+      ["Un sistema híbrid que combina elements de FIFO, Round Robin i prioritats.", true],
+      ["Només prioritats estàtiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "En quin estat està un procés 'Nou'?",
+    "respostes": [
+      ["Està sent creat.", true],
+      ["Està esperant E/S.", false],
+      ["Està executant instruccions.", false],
+      ["Ha acabat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quina mètrica mesura el percentatge de temps que la CPU està ocupada?",
+    "respostes": [
+      ["Temps de resposta.", false],
+      ["Temps d'espera.", false],
+      ["Utilització de la CPU.", true],
+      ["Throughput.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin problema intenta solucionar el Multilevel Feedback Queue?",
+    "respostes": [
+      ["La manca de memòria RAM.", false],
+      ["La rigidesa de les cues fixes, permetent ajustar-se a càrregues canviants.", true],
+      ["Els errors de disc dur.", false],
+      ["La lentitud de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què caracteritza un sistema de lots (batch)?",
+    "respostes": [
+      ["Els treballs es processen seqüencialment sense interacció de l'usuari.", true],
+      ["L'usuari interactua constantment amb cada treball.", false],
+      ["S'utilitza principalment per a jocs.", false],
+      ["No permet executar més d'un treball al dia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Què significa IPC en el context de sistemes operatius?",
+    "respostes": [
+      ["Internet Protocol Control.", false],
+      ["Inter-Process Communication (Comunicació entre processos).", true],
+      ["Internal Processor Core.", false],
+      ["Input Process Check.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Per a quin tipus de sistemes és especialment important el 'Temps de resposta'?",
+    "respostes": [
+      ["Sistemes batch purs.", false],
+      ["Sistemes interactius.", true],
+      ["Sistemes d'arxiu.", false],
+      ["Sistemes d'impressió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quin és un desavantatge de l'algorisme SJF (Shortest Job First) en la gestió de treballs?",
+    "respostes": [
+      ["És difícil predir la durada dels treballs.", true],
+      ["No optimitza res.", false],
+      ["És el més lent de tots.", false],
+      ["Consumeix molta energia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 7. El sistema operatiu (II): gestió de processos, gestió de treballs.",
+    "enunciat": "Quina funció té el monitoratge de treballs?",
+    "respostes": [
+      ["Crear nous usuaris.", false],
+      ["Reiniciar treballs fallits i proporcionar informes d'execució.", true],
+      ["Actualitzar el sistema operatiu.", false],
+      ["Gestionar la connexió a internet.", false]
+    ]
+  }
+]

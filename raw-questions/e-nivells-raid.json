@@ -1,0 +1,202 @@
+[
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Què fa la configuració RAID 0 (Striping) amb les dades?",
+    "respostes": [
+      ["Divideix les dades equitativament entre dos o més discos sense incloure informació de paritat ni tolerància a fallades.", true],
+      ["Crea una còpia exacta de les dades en un segon disc de seguretat.", false],
+      ["Emmagatzema tota la informació en un sol disc i utilitza els altres només per a la paritat.", false],
+      ["Comprimeix les dades per ocupar menys espai físic als discs durs.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quina és la tolerància a fallades del RAID 0?",
+    "respostes": [
+      ["Zero tolerància a fallades; si falla un disc, es perden totes les dades del conjunt de manera permanent.", true],
+      ["Pot suportar la fallada d'un sol disc sense perdre dades.", false],
+      ["Pot suportar la fallada de fins a dos discos simultàniament.", false],
+      ["Té tolerància infinita sempre que hi hagi connexió a Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "A quin nivell de RAID se'l coneix habitualment com a 'Mirroring' (Emmirallament)?",
+    "respostes": [
+      ["RAID 1.", true],
+      ["RAID 0.", false],
+      ["RAID 5.", false],
+      ["RAID 10.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quina és l'eficiència de capacitat d'emmagatzematge d'un sistema RAID 1?",
+    "respostes": [
+      ["El 50% de la capacitat total, ja que les dades es dupliquen exactament en un altre disc.", true],
+      ["El 100% de la capacitat total, ja que no perd espai en paritat.", false],
+      ["Entre el 67% i el 94%, depenent del nombre de discos.", false],
+      ["El 25% de la capacitat, ja que fa quatre còpies de cada fitxer.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quin és el nombre mínim de discos necessaris per configurar un RAID 5?",
+    "respostes": [
+      ["3 discos.", true],
+      ["2 discos.", false],
+      ["4 discos.", false],
+      ["6 discos.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Com gestiona la paritat el RAID 5?",
+    "respostes": [
+      ["Utilitza paritat distribuïda, repartint els blocs de dades i de paritat entre tots els discos del conjunt.", true],
+      ["Assigna un únic disc dedicat exclusivament a guardar tota la paritat.", false],
+      ["No utilitza cap mena de paritat, només emmiralla les dades.", false],
+      ["Calcula la doble paritat i l'envia a un servidor extern al núvol.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quina és la característica principal de seguretat del RAID 6 respecte a les fallades de discos?",
+    "respostes": [
+      ["Disposa de doble paritat, cosa que li permet suportar la fallada de fins a 2 discos simultàniament sense pèrdua de dades.", true],
+      ["És immune a qualsevol fallada de disc gràcies a la seva connexió directa a la placa base.", false],
+      ["Pot suportar la fallada d'1 únic disc, exactament igual que el RAID 5.", false],
+      ["Recupera els discos espatllats de forma física mitjançant un braç robòtic intern.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quina és una de les desavantatges principals dels RAID 5 i RAID 6 en comparació amb el RAID 0 o el RAID 10?",
+    "respostes": [
+      ["Tenen un rendiment d'escriptura més lent a causa del càlcul matemàtic necessari per a la paritat (Write penalty).", true],
+      ["No permeten llegir dades, només escriure-les de forma segura com a còpia de seguretat.", false],
+      ["Només funcionen amb discos durs HDD antics i no són compatibles amb SSDs.", false],
+      ["Tenen una eficiència de capacitat de només el 20%, malgastant molt d'espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Què és el RAID 10 (RAID 1+0)?",
+    "respostes": [
+      ["Un nivell híbrid que combina el Mirroring (RAID 1) seguit de Striping (RAID 0), oferint gran rendiment i alta tolerància a fallades.", true],
+      ["Un sistema que utilitza 10 discos exactament per generar una paritat quàdruple.", false],
+      ["Una versió antiga del RAID 1 que ja no s'utilitza als servidors moderns.", false],
+      ["Un RAID 0 al qual se li ha sumat un disc de recanvi (hot spare) adormit.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quin és el requisit mínim de discos per muntar un sistema RAID 10?",
+    "respostes": [
+      ["4 discos.", true],
+      ["2 discos.", false],
+      ["6 discos.", false],
+      ["8 discos.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "En un sistema RAID 10, quants discos poden fallar sense que es perdin dades?",
+    "respostes": [
+      ["Pots perdre 1 disc per cada parella (subconjunt) de mirall.", true],
+      ["Només pot fallar 1 disc en total a tot el conjunt de la matriu.", false],
+      ["Poden fallar tots els discos menys 1 sense perdre dades.", false],
+      ["No pot fallar cap disc; la tolerància a fallades és zero.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Com funciona estructuralment el RAID 50 (RAID 5+0)?",
+    "respostes": [
+      ["Crea múltiples conjunts de RAID 5 independents i després aplica Striping (RAID 0) entre ells per distribuir-hi les dades.", true],
+      ["Combina 50 discos físics en un únic volum lògic per a bases de dades governamentals.", false],
+      ["Crea matrius de doble paritat com un RAID 6 però sense Striping.", false],
+      ["Guarda les dades en un disc i fa 50 còpies exactes del mateix disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quin és el nombre mínim de discos necessaris per a construir un RAID 60?",
+    "respostes": [
+      ["8 discos.", true],
+      ["4 discos.", false],
+      ["6 discos.", false],
+      ["10 discos.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "D'acord amb la taula comparativa de resum, quin és el millor cas d'ús per a un RAID 0?",
+    "respostes": [
+      ["Sistemes de memòria cau, discos de treball temporals (scratch disks) i emmagatzematge de dades no crítiques on prima el rendiment pur.", true],
+      ["Emmagatzematge massiu d'arxius crítics que no es poden perdre sota cap concepte.", false],
+      ["Servidors generals de fitxers d'oficina i servidors web ordinaris.", false],
+      ["Bases de dades d'alta transaccionalitat que requereixen integritat extrema.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quin nivell RAID s'identifica a la taula com a ideal per als discos d'arrencada del sistema operatiu (OS Boot drives) o per a dades comptables molt crítiques on només calen 2 discos?",
+    "respostes": [
+      ["RAID 1.", true],
+      ["RAID 0.", false],
+      ["RAID 5.", false],
+      ["RAID 6.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Segons la taula de casos d'ús, per a quines aplicacions està recomanat de forma òptima el RAID 10?",
+    "respostes": [
+      ["Bases de dades d'alt rendiment i servidors d'aplicacions que necessiten lectures i escriptures molt ràpides i segures.", true],
+      ["Ordinadors domèstics dedicats a l'ofimàtica bàsica.", false],
+      ["Sistemes d'arxiu profund de dades on l'eficiència de capacitat i el baix cost són prioritaris.", false],
+      ["Memòria RAM virtual per a processos de renderització 3D exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Segons la taula, quin nivell RAID proporciona la millor protecció (tolerància a fallades) per a grans conjunts d'emmagatzematge de capacitat massiva (archiving)?",
+    "respostes": [
+      ["RAID 6.", true],
+      ["RAID 0.", false],
+      ["RAID 1.", false],
+      ["RAID 5.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Quin nivell RAID híbrid necessita un mínim de 6 discos i ofereix un millor rendiment d'escriptura i reconstruccions més ràpides que un únic i enorme RAID 5?",
+    "respostes": [
+      ["RAID 50.", true],
+      ["RAID 60.", false],
+      ["RAID 10.", false],
+      ["RAID 1.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "Per què s'utilitza l'Striping (distribució de dades en franges) en els sistemes RAID?",
+    "respostes": [
+      ["Per augmentar de forma extrema el rendiment de lectura i escriptura a l'escriure i llegir de múltiples discos simultàniament.", true],
+      ["Per comprimir les dades de manera que ocupin la meitat d'espai al disc dur.", false],
+      ["Per xifrar les dades de manera que només l'administrador del sistema pugui accedir-hi.", false],
+      ["Per assegurar que les dades no s'esborrin mai en cas de formatar l'ordinador per error.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Nivells RAID.",
+    "enunciat": "En termes de velocitat d'escriptura a la taula resum, per què el RAID 1 té 3 estrelles i el RAID 0 en té 5?",
+    "respostes": [
+      ["Perquè al RAID 1 el sistema ha d'escriure les mateixes dades dues vegades (una a cada disc de la parella emmirallada), limitant la velocitat en comparació al RAID 0 on s'escriu en paral·lel.", true],
+      ["Perquè el RAID 1 només pot utilitzar connexions USB antigues per a funcionar.", false],
+      ["Perquè el RAID 0 no utilitza discos durs, sinó exclusivament memòria memòria cau (RAM).", false],
+      ["Perquè la paritat del RAID 1 ocupa tots els processadors del servidor i alenteix el bus de dades complet.", false]
+    ]
+  }
+]

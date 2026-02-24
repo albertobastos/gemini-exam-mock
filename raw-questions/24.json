@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quina és la funció principal dels llenguatges de programació?",
+    "respostes": [
+      ["Permetre als desenvolupadors escriure instruccions que els ordinadors puguin executar.", true],
+      ["Netejar el maquinari de l'ordinador.", false],
+      ["Augmentar la capacitat física del disc dur.", false],
+      ["Dissenyar la carcassa externa dels dispositius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què caracteritza els llenguatges de primera generació?",
+    "respostes": [
+      ["L'ús de mnemònics com ADD o MOV.", false],
+      ["L'ús de codi binari directament executable per la CPU.", true],
+      ["La independència del maquinari.", false],
+      ["La facilitat de lectura per als humans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge pertany a la segona generació (1950-1960)?",
+    "respostes": [
+      ["Java.", false],
+      ["Llenguatge d'Assemblador.", true],
+      ["Python.", false],
+      ["SQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quina millora van introduir els llenguatges de tercera generació com C o Pascal?",
+    "respostes": [
+      ["La programació directament en binari.", false],
+      ["Un major nivell d'abstracció i independència del maquinari.", true],
+      ["L'ús exclusiu per a bases de dades.", false],
+      ["L'eliminació de variables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin és un exemple clàssic de llenguatge de quarta generació (4GL)?",
+    "respostes": [
+      ["Assembler.", false],
+      ["SQL.", true],
+      ["C++.", false],
+      ["Fortran.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "En què es centren els llenguatges de cinquena generació com Prolog?",
+    "respostes": [
+      ["En la manipulació directa de la memòria.", false],
+      ["En la resolució de problemes mitjançant lògica i regles (declaratiu).", true],
+      ["En la creació de pàgines web estàtiques.", false],
+      ["En la programació de baix nivell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quina característica defineix la sisena generació de llenguatges (anys 90 - present)?",
+    "respostes": [
+      ["L'ús exclusiu de targetes perforades.", false],
+      ["La combinació de múltiples paradigmes i suport per a sistemes distribuïts i IA.", true],
+      ["La tornada al codi màquina.", false],
+      ["L'absència de biblioteques externes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge modern és conegut per la seva seguretat de memòria i concurrència?",
+    "respostes": [
+      ["C.", false],
+      ["Rust.", true],
+      ["Basic.", false],
+      ["Pascal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Com es classifiquen els llenguatges de baix nivell?",
+    "respostes": [
+      ["Són propers al maquinari i ofereixen control directe (ex: Assembler).", true],
+      ["Són molt fàcils de llegir per als humans.", false],
+      ["Són portables automàticament entre qualsevol sistema.", false],
+      ["S'utilitzen principalment per a disseny web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què caracteritza la programació imperativa?",
+    "respostes": [
+      ["Descriure el resultat desitjat sense dir com fer-ho.", false],
+      ["Donar instruccions seqüencials sobre com canviar l'estat del programa.", true],
+      ["L'ús exclusiu de funcions matemàtiques pures.", false],
+      ["L'absència de variables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin paradigma es basa en classes i objectes que encapsulen dades i comportament?",
+    "respostes": [
+      ["Programació Funcional.", false],
+      ["Programació Orientada a Objectes (OOP).", true],
+      ["Programació Lògica.", false],
+      ["Programació Estructurada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què és una funció pura en programació funcional?",
+    "respostes": [
+      ["Una funció que no té paràmetres.", false],
+      ["Una funció que sempre retorna el mateix resultat per als mateixos arguments i no té efectes secundaris.", true],
+      ["Una funció que modifica variables globals.", false],
+      ["Una funció que només s'executa una vegada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "En què es diferencia la programació declarativa de la imperativa?",
+    "respostes": [
+      ["La declarativa se centra en el 'què' (resultat), la imperativa en el 'com' (passos).", true],
+      ["La declarativa és més ràpida sempre.", false],
+      ["La imperativa no utilitza variables.", false],
+      ["No hi ha diferència, són sinònims.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin és un exemple de llenguatge compilat?",
+    "respostes": [
+      ["Python.", false],
+      ["C++.", true],
+      ["JavaScript.", false],
+      ["PHP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què fa un llenguatge interpretat?",
+    "respostes": [
+      ["Es tradueix a codi màquina abans de l'execució.", false],
+      ["Es tradueix i s'executa línia per línia durant el temps d'execució.", true],
+      ["No es pot executar.", false],
+      ["Només funciona en navegadors web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin tipus de llenguatge és Java respecte a l'execució?",
+    "respostes": [
+      ["Purament interpretat.", false],
+      ["Semicompilat (a bytecode) i executat per una màquina virtual (JVM).", true],
+      ["Purament compilat a codi màquina nadiu.", false],
+      ["Un llenguatge de script.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Per a quina tasca és especialment popular Python?",
+    "respostes": [
+      ["Desenvolupament de drivers de baix nivell.", false],
+      ["Intel·ligència Artificial i Ciència de Dades.", true],
+      ["Programació de microcontroladors de 8 bits.", false],
+      ["Creació de sistemes operatius en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge es va dissenyar per a aplicacions de negoci als anys 50?",
+    "respostes": [
+      ["C.", false],
+      ["COBOL.", true],
+      ["Swift.", false],
+      ["Haskell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge desenvolupat per Apple s'utilitza per a iOS i macOS?",
+    "respostes": [
+      ["Kotlin.", false],
+      ["Swift.", true],
+      ["Perl.", false],
+      ["Ruby.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què permet el polimorfisme en la programació orientada a objectes?",
+    "respostes": [
+      ["Que diferents objectes puguin ser tractats com a instàncies de la mateixa classe base.", true],
+      ["Que una variable canviï de tipus aleatòriament.", false],
+      ["Que el codi s'executi més ràpid.", false],
+      ["Que no calgui declarar variables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge s'utilitza principalment per a la gestió de bases de dades relacionals?",
+    "respostes": [
+      ["HTML.", false],
+      ["SQL.", true],
+      ["Java.", false],
+      ["C#.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quina característica tenen els llenguatges d'alt nivell?",
+    "respostes": [
+      ["Són difícils d'aprendre.", false],
+      ["La sintaxi és propera al llenguatge natural i són portables.", true],
+      ["Depenen totalment del processador específic.", false],
+      ["Són menys potents que els de baix nivell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què és l'encapsulació en OOP?",
+    "respostes": [
+      ["Posar el codi en una caixa física.", false],
+      ["Combinar dades i funcions en una unitat (objecte) i amagar els detalls interns.", true],
+      ["Comprimir el fitxer font.", false],
+      ["Enviar dades per la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge funcional es menciona com a exemple d'ús de funcions pures?",
+    "respostes": [
+      ["Haskell.", true],
+      ["C.", false],
+      ["Basic.", false],
+      ["Assembly.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Per a què s'utilitza habitualment C++ en la indústria?",
+    "respostes": [
+      ["Per a scripts web senzills.", false],
+      ["Per a desenvolupament de sistemes operatius i aplicacions d'alt rendiment.", true],
+      ["Per a bases de dades NoSQL.", false],
+      ["Per a disseny gràfic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què és la immutabilitat en programació funcional?",
+    "respostes": [
+      ["Que el codi no es pot esborrar.", false],
+      ["Que les dades no es modifiquen un cop creades; se'n creen de noves.", true],
+      ["Que el programa mai s'atura.", false],
+      ["Que les variables són constants.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin avantatge tenen els llenguatges compilats?",
+    "respostes": [
+      ["No cal compilar-los.", false],
+      ["Major eficiència d'execució i detecció d'errors en temps de compilació.", true],
+      ["Són més fàcils de depurar línia per línia.", false],
+      ["S'executen directament al navegador sense plugins.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge és la base de molts sistemes operatius com Unix/Linux?",
+    "respostes": [
+      ["Python.", false],
+      ["C.", true],
+      ["Java.", false],
+      ["HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què permeten els llenguatges multiparadigma de sisena generació?",
+    "respostes": [
+      ["Utilitzar només un estil de programació.", false],
+      ["Combinar estils (OOP, funcional, etc.) per oferir major flexibilitat.", true],
+      ["Programar sense teclat.", false],
+      ["No utilitzar memòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge s'utilitza sovint per a scripts del costat del client en navegadors web?",
+    "respostes": [
+      ["C++.", false],
+      ["JavaScript.", true],
+      ["Fortran.", false],
+      ["Cobol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què significa que un llenguatge sigui 'portàtil'?",
+    "respostes": [
+      ["Que es pot portar en un USB.", false],
+      ["Que es pot executar en diferents plataformes de maquinari amb pocs o cap canvi.", true],
+      ["Que és molt lleuger.", false],
+      ["Que només funciona en portàtils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin és un exemple de llenguatge de script interpretat?",
+    "respostes": [
+      ["C.", false],
+      ["Ruby.", true],
+      ["Rust.", false],
+      ["Go.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quina generació va introduir llenguatges com Fortran i COBOL?",
+    "respostes": [
+      ["Primera generació.", false],
+      ["Tercera generació.", true],
+      ["Cinquena generació.", false],
+      ["Sisena generació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Per a què s'utilitza Erlang segons el text?",
+    "respostes": [
+      ["Per a pàgines web simples.", false],
+      ["Per a sistemes concurrents i distribuïts d'alta fiabilitat.", true],
+      ["Per a jocs de taula.", false],
+      ["Per a edició de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge combina programació funcional i orientada a objectes i corre sobre la JVM?",
+    "respostes": [
+      ["Scala.", true],
+      ["C.", false],
+      ["Assembly.", false],
+      ["Bash.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Què és la compilació JIT (Just-In-Time)?",
+    "respostes": [
+      ["Compilar el codi anys abans d'executar-lo.", false],
+      ["Compilar o interpretar el bytecode just en el moment de l'execució.", true],
+      ["No compilar mai el codi.", false],
+      ["Escriure el codi molt ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin exemple d'ús de SQL es dona al text?",
+    "respostes": [
+      ["Crear un videojoc 3D.", false],
+      ["Interrogar grans volums de dades en bases de dades relacionals.", true],
+      ["Controlar un robot industrial.", false],
+      ["Dissenyar una imatge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 24. Els llenguatges de programació. Evolució històrica i classificació.",
+    "enunciat": "Quin llenguatge es considera molt eficient però difícil de llegir i mantenir?",
+    "respostes": [
+      ["Python.", false],
+      ["Assembler.", true],
+      ["Java.", false],
+      ["SQL.", false]
+    ]
+  }
+]

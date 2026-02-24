@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què significa l'acrònim OLTP?",
+    "respostes": [
+      ["Online Line Transaction Process.", false],
+      ["Online Transaction Processing (Processament de Transaccions en Línia).", true],
+      ["Offline Transaction Protocol.", false],
+      ["Only Long Term Processing.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la característica principal dels sistemes OLTP?",
+    "respostes": [
+      ["L'anàlisi de dades històriques.", false],
+      ["La gestió d'un alt volum de transaccions en temps real amb baix temps de resposta.", true],
+      ["La generació de gràfics complexos.", false],
+      ["L'ús de dades desnormalitzades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin tipus d'estructura de base de dades utilitzen habitualment els sistemes OLTP?",
+    "respostes": [
+      ["Estructures desnormalitzades.", false],
+      ["Estructures altament normalitzades per evitar redundàncies i assegurar la integritat.", true],
+      ["Fitxers plans.", false],
+      ["Cubs multidimensionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què significa l'acrònim OLAP?",
+    "respostes": [
+      ["Online Analytical Processing (Processament Analític en Línia).", true],
+      ["Offline Analytical Program.", false],
+      ["Only Live Access Processing.", false],
+      ["Online Advanced Protocol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin és l'objectiu principal dels sistemes OLAP?",
+    "respostes": [
+      ["Processar pagaments amb targeta.", false],
+      ["Analitzar grans volums de dades històriques i agregades per a la presa de decisions.", true],
+      ["Gestionar l'inventari en temps real.", false],
+      ["Enviar correus electrònics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Com organitzen les dades els sistemes OLAP per facilitar l'anàlisi?",
+    "respostes": [
+      ["En llistes enllaçades.", false],
+      ["En cubs multidimensionals (on cada dimensió és una variable com temps, producte, regió).", true],
+      ["En taules planes sense relació.", false],
+      ["En fitxers de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és una diferència clau entre OLTP i OLAP respecte a la modificació de dades?",
+    "respostes": [
+      ["OLAP permet moltes modificacions i OLTP només lectura.", false],
+      ["OLTP realitza operacions freqüents d'escriptura/lectura (transaccions), mentre que OLAP s'enfoca principalment en consultes de lectura complexes.", true],
+      ["Tots dos tenen el mateix patró d'escriptura.", false],
+      ["OLTP no permet escriptura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un EIS (Executive Information System)?",
+    "respostes": [
+      ["Un sistema per a empleats de base.", false],
+      ["Una eina de programari que proporciona informació crítica i resumida (KPIs, quadres de comandament) als executius per a decisions estratègiques.", true],
+      ["Un sistema operatiu.", false],
+      ["Un gestor de correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Amb quin tipus de sistema s'integren habitualment els EIS per obtenir dades en temps real?",
+    "respostes": [
+      ["Amb sistemes de fitxers.", false],
+      ["Amb sistemes OLTP.", true],
+      ["Amb fulls de càlcul manuals.", false],
+      ["Amb jocs d'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un DSS (Decision Support System)?",
+    "respostes": [
+      ["Un sistema de suport tècnic.", false],
+      ["Un sistema que ajuda en la presa de decisions tàctiques mitjançant l'anàlisi de dades, simulació d'escenaris i models predictius.", true],
+      ["Un sistema de seguretat.", false],
+      ["Un sistema de venda online.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina funció és característica d'un DSS?",
+    "respostes": [
+      ["Processar nòmines.", false],
+      ["L'anàlisi 'Què passaria si' (What-if) i la simulació d'escenaris.", true],
+      ["Imprimir factures.", false],
+      ["Gestionar l'estoc diari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Amb quin tipus de sistema s'integren sovint els DSS per accedir a dades històriques?",
+    "respostes": [
+      ["Amb OLAP i Data Warehouses.", true],
+      ["Amb OLTP directament.", false],
+      ["Amb xarxes socials.", false],
+      ["Amb sistemes de fitxers locals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un Data Warehouse?",
+    "respostes": [
+      ["Un magatzem físic de discos durs.", false],
+      ["Un repositori centralitzat de dades històriques integrades de diverses fonts, optimitzat per a l'anàlisi.", true],
+      ["Una base de dades transaccional.", false],
+      ["Un programa antivirus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què signifiquen les sigles ETL en el context d'un Data Warehouse?",
+    "respostes": [
+      ["Extract, Transform, Load (Extracció, Transformació i Càrrega).", true],
+      ["Edit, Type, Listen.", false],
+      ["Enter, Test, Log.", false],
+      ["External Transfer Link.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què es fa a la fase de Transformació de l'ETL?",
+    "respostes": [
+      ["Es guarden les dades al disc.", false],
+      ["Es netegen, harmonitzen i normalitzen les dades per assegurar-ne la coherència.", true],
+      ["Es mostren les dades a l'usuari.", false],
+      ["S'esborren les dades originals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és la Mineria de Dades (Data Mining)?",
+    "respostes": [
+      ["Buscar or digital.", false],
+      ["El procés d'exploració de grans volums de dades per descobrir patrons ocults, relacions i anomalies.", true],
+      ["L'esborrat segur de dades.", false],
+      ["La creació de còpies de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina tècnica de mineria de dades s'utilitza per agrupar objectes amb característiques similars?",
+    "respostes": [
+      ["Regressió.", false],
+      ["Agrupament (Clustering).", true],
+      ["Classificació.", false],
+      ["Associació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què permet la tècnica d'Associació en mineria de dades?",
+    "respostes": [
+      ["Identificar regles de relació entre variables (ex: clients que compren A també compren B).", true],
+      ["Predir valors numèrics.", false],
+      ["Classificar en categories predefinides.", false],
+      ["Eliminar dades duplicades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és la Regressió en el context de mineria de dades?",
+    "respostes": [
+      ["Tornar enrere en el temps.", false],
+      ["Analitzar la relació entre variables per predir valors futurs (ex: preu d'un actiu).", true],
+      ["Agrupar clients.", false],
+      ["Detectar fraus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què defineix el Big Data?",
+    "respostes": [
+      ["Dades importants.", false],
+      ["Conjunts de dades tan grans i complexos que superen les capacitats dels sistemes tradicionals (Volum, Varietat, Velocitat...).", true],
+      ["Una base de dades gran.", false],
+      ["Un disc dur extern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quines són les '5 V' que caracteritzen el Big Data?",
+    "respostes": [
+      ["Visió, Valor, Vida, Veritat, Volum.", false],
+      ["Volum, Varietat, Velocitat, Veracitat, Valor.", true],
+      ["Virtual, Viral, Visual, Vital, Variable.", false],
+      ["Voltatge, Vector, Validesa, Veu, Venda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és Hadoop?",
+    "respostes": [
+      ["Un joc.", false],
+      ["Una plataforma de codi obert per a l'emmagatzematge i processament distribuït de grans volums de dades (usant HDFS i MapReduce).", true],
+      ["Un sistema operatiu mòbil.", false],
+      ["Un llenguatge de disseny web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina diferència principal té Spark respecte a Hadoop MapReduce?",
+    "respostes": [
+      ["És més lent.", false],
+      ["Realitza processament en memòria, sent molt més ràpid que el processament en disc de Hadoop.", true],
+      ["Només funciona en Windows.", false],
+      ["No permet processament en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina tecnologia s'utilitza sovint en Big Data per gestionar fluxos de dades en temps real (streaming)?",
+    "respostes": [
+      ["Excel.", false],
+      ["Kafka (o Spark Streaming).", true],
+      ["Word.", false],
+      ["Notepad.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin tipus de bases de dades s'utilitzen habitualment en entorns Big Data per la seva escalabilitat?",
+    "respostes": [
+      ["Access.", false],
+      ["NoSQL (com MongoDB, Cassandra).", true],
+      ["SQLite.", false],
+      ["Paradox.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un 'Data Lake'?",
+    "respostes": [
+      ["Un llac digital.", false],
+      ["Un repositori on s'emmagatzemen dades en el seu format natiu (estructurades i no estructurades) abans de ser processades.", true],
+      ["El mateix que un Data Warehouse.", false],
+      ["Una còpia de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin és l'objectiu de la Classificació en mineria de dades?",
+    "respostes": [
+      ["Ordenar alfabèticament.", false],
+      ["Assignar objectes a categories predefinides (ex: correu brossa o no).", true],
+      ["Calcular la mitjana.", false],
+      ["Crear noves dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "En què consisteix la 'Detecció d'Anomalies'?",
+    "respostes": [
+      ["En trobar errors ortogràfics.", false],
+      ["En identificar elements que no segueixen el patró general (ex: fraus).", true],
+      ["En esborrar dades rares.", false],
+      ["En fer còpies de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina aplicació té el Big Data en el sector retail?",
+    "respostes": [
+      ["Cap.", false],
+      ["Analitzar el comportament del client per personalitzar ofertes i optimitzar l'estoc.", true],
+      ["Imprimir tiquets més ràpid.", false],
+      ["Netejar la botiga.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina diferència hi ha entre dades estructurades i no estructurades?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["Les estructurades tenen un format fix (taules); les no estructurades no (vídeo, text lliure, imatges).", true],
+      ["Les estructurades són més grans.", false],
+      ["Les no estructurades no es poden guardar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina propietat garanteix la integritat de les dades en sistemes OLTP?",
+    "respostes": [
+      ["ACID (Atomicitat, Consistència, Aïllament, Durabilitat).", true],
+      ["BASE.", false],
+      ["CAP.", false],
+      ["SOLID.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin sistema utilitza quadres de comandament (dashboards) per presentar informació?",
+    "respostes": [
+      ["Sistemes de fitxers.", false],
+      ["EIS (Executive Information Systems).", true],
+      ["Sistemes operatius.", false],
+      ["Editors de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què permet fer l'anàlisi 'Drill-down' en sistemes OLAP?",
+    "respostes": [
+      ["Fer forats al disc.", false],
+      ["Navegar des de dades resumides cap a nivells de major detall.", true],
+      ["Resumir dades.", false],
+      ["Esborrar dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin exemple d'ús de Big Data s'aplica a la salut?",
+    "respostes": [
+      ["Fer receptes en paper.", false],
+      ["Anàlisi de dades genòmiques i monitorització de pacients en temps real.", true],
+      ["Netejar quiròfans.", false],
+      ["Comprar medicaments.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la relació entre Data Warehouse i OLAP?",
+    "respostes": [
+      ["Són incompatibles.", false],
+      ["El Data Warehouse actua com a font de dades centralitzada i neta per a les anàlisis OLAP.", true],
+      ["L'OLAP substitueix el Data Warehouse.", false],
+      ["El Data Warehouse és només per a OLTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què implica la 'Velocitat' en les 5 V del Big Data?",
+    "respostes": [
+      ["Que els ordinadors són ràpids.", false],
+      ["La rapidesa amb què es generen i s'han de processar les dades (sovint en temps real).", true],
+      ["La velocitat de la llum.", false],
+      ["La velocitat de tecleig.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un 'Data Mart'?",
+    "respostes": [
+      ["Un mercat de dades.", false],
+      ["Un subconjunt d'un Data Warehouse orientat a una àrea de negoci específica (ex: màrqueting).", true],
+      ["Una base de dades corrupta.", false],
+      ["Un sistema OLTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin esquema de base de dades és comú en Data Warehousing?",
+    "respostes": [
+      ["Esquema de xarxa.", false],
+      ["Esquema en Estrella o Floc de Neu.", true],
+      ["Esquema pla.", false],
+      ["Esquema jeràrquic.", false]
+    ]
+  }
+]

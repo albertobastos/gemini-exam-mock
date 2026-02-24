@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina és la funció principal d'un processador de texts?",
+    "respostes": [
+      ["Organitzar dades en taules i fer càlculs.", false],
+      ["Crear, editar i donar format a documents de text.", true],
+      ["Gestionar bases de dades relacionals complexes.", false],
+      ["Crear diapositives per a presentacions visuals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin dels següents és un exemple de processador de texts al núvol?",
+    "respostes": [
+      ["Microsoft Word (versió escriptori).", false],
+      ["Google Docs.", true],
+      ["LibreOffice Writer.", false],
+      ["Notepad.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Per a què s'utilitzen principalment els fulls de càlcul?",
+    "respostes": [
+      ["Per a l'edició de vídeo.", false],
+      ["Per a l'organització, anàlisi i presentació de dades en format tabular.", true],
+      ["Per enviar correus electrònics.", false],
+      ["Per navegar per Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina funcionalitat permet automatitzar tasques repetitives en un full de càlcul?",
+    "respostes": [
+      ["Les macros.", true],
+      ["Les transicions.", false],
+      ["La navegació per pestanyes.", false],
+      ["La correcció ortogràfica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin programari és un exemple de gestor de bases de dades personals?",
+    "respostes": [
+      ["Microsoft PowerPoint.", false],
+      ["Google Chrome.", false],
+      ["Microsoft Access.", true],
+      ["Adobe Photoshop.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina característica clau ofereixen els navegadors d'Internet moderns?",
+    "respostes": [
+      ["Edició avançada d'imatges.", false],
+      ["Navegació per pestanyes i suport per a estàndards web (HTML5, CSS3).", true],
+      ["Compilació de codi Java.", false],
+      ["Creació de bases de dades SQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quins protocols són típics per a la gestió de correu electrònic?",
+    "respostes": [
+      ["HTTP, FTP, SSH.", false],
+      ["POP3, IMAP, SMTP.", true],
+      ["TCP, IP, UDP.", false],
+      ["ODBC, JDBC, SQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Què és una suite ofimàtica?",
+    "respostes": [
+      ["Un sol programa que fa de tot.", false],
+      ["Una col·lecció de programes ofimàtics integrats que ofereixen un conjunt d'eines de productivitat.", true],
+      ["Un sistema operatiu per a oficines.", false],
+      ["Un tipus d'ordinador portàtil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina és una característica destacada de Microsoft Office?",
+    "respostes": [
+      ["És gratuït i de codi obert.", false],
+      ["Integració estreta entre aplicacions i suport per a macros amb VBA.", true],
+      ["Només funciona en Linux.", false],
+      ["No permet guardar fitxers localment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin és el principal avantatge de Google Workspace?",
+    "respostes": [
+      ["Funciona sense connexió a Internet per defecte.", false],
+      ["Col·laboració en temps real i accés des de qualsevol dispositiu amb Internet.", true],
+      ["Té les funcionalitats més avançades del mercat per a edició de vídeo.", false],
+      ["No requereix un compte de Google.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Què caracteritza la suite LibreOffice?",
+    "respostes": [
+      ["És de pagament per subscripció.", false],
+      ["És lliure, de codi obert i compatible amb formats de Microsoft Office.", true],
+      ["Només funciona al núvol.", false],
+      ["No té processador de textos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Per a què serveixen les eines de gestió de projectes com Trello o Asana?",
+    "respostes": [
+      ["Per editar fotografies.", false],
+      ["Per planificar tasques, cronogrames i coordinar equips de treball.", true],
+      ["Per enviar correus massius.", false],
+      ["Per crear presentacions de diapositives.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina aplicació és un exemple d'eina per a la presa de notes?",
+    "respostes": [
+      ["Microsoft Excel.", false],
+      ["Evernote.", true],
+      ["Mozilla Firefox.", false],
+      ["VLC Media Player.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina funcionalitat és clau en els gestors de tasques i calendaris?",
+    "respostes": [
+      ["La creació de gràfics 3D.", false],
+      ["La creació i seguiment de tasques amb dates límit i recordatoris.", true],
+      ["L'edició de codi HTML.", false],
+      ["La reproducció de música.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin avantatge ofereixen les eines ofimàtiques al núvol respecte a les actualitzacions?",
+    "respostes": [
+      ["S'han de comprar CDs per actualitzar.", false],
+      ["S'actualitzen automàticament, assegurant l'ús de la versió més recent.", true],
+      ["No s'actualitzen mai.", false],
+      ["L'usuari ha de programar el codi d'actualització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin és un possible desavantatge de les eines al núvol?",
+    "respostes": [
+      ["L'accés local és massa ràpid.", false],
+      ["La dependència d'una connexió a Internet per accedir als documents.", true],
+      ["L'excés de capacitat d'emmagatzematge.", false],
+      ["La incompatibilitat amb teclats físics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Què és ODBC (Open Database Connectivity)?",
+    "respostes": [
+      ["Un format de vídeo.", false],
+      ["Un estàndard que permet a les aplicacions accedir a diferents bases de dades de manera uniforme.", true],
+      ["Un protocol de correu electrònic.", false],
+      ["Una marca d'ordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina és la funció principal de JDBC?",
+    "respostes": [
+      ["Connectar aplicacions Java amb bases de dades.", true],
+      ["Editar imatges en Java.", false],
+      ["Crear pàgines web en Java.", false],
+      ["Gestionar el correu en Java.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Per a què serveixen les API d'integració en ofimàtica?",
+    "respostes": [
+      ["Per imprimir documents més ràpid.", false],
+      ["Per permetre la comunicació i intercanvi de dades entre aplicacions ofimàtiques i altres sistemes.", true],
+      ["Per bloquejar virus.", false],
+      ["Per canviar el fons d'escriptori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Què permet la tecnologia OLE (Object Linking and Embedding)?",
+    "respostes": [
+      ["Navegar per internet sense anuncis.", false],
+      ["Inserir i enllaçar documents o objectes dins d'aplicacions diferents (ex: un Excel dins un Word).", true],
+      ["Encriptar el disc dur.", false],
+      ["Crear xarxes privades virtuals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin programa utilitzaries per fer una anàlisi financera amb taules dinàmiques?",
+    "respostes": [
+      ["Microsoft Word.", false],
+      ["Microsoft Excel.", true],
+      ["Microsoft PowerPoint.", false],
+      ["Microsoft Outlook.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina eina seria més adequada per crear un manual d'usuari amb índex i format de text complex?",
+    "respostes": [
+      ["Microsoft PowerPoint.", false],
+      ["Microsoft Word.", true],
+      ["Microsoft Excel.", false],
+      ["Microsoft Access.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin navegador és conegut per ser de codi obert i enfocat a la privadesa?",
+    "respostes": [
+      ["Google Chrome.", false],
+      ["Mozilla Firefox.", true],
+      ["Internet Explorer.", false],
+      ["Safari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin client de correu electrònic és de codi obert i desenvolupat per Mozilla?",
+    "respostes": [
+      ["Outlook.", false],
+      ["Thunderbird.", true],
+      ["Gmail.", false],
+      ["Opera Mail.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin exemple d'eina de presentacions permet treballar en línia i col·laborar en temps real?",
+    "respostes": [
+      ["LibreOffice Impress.", false],
+      ["Google Slides.", true],
+      ["Microsoft PowerPoint 2003.", false],
+      ["Adobe Reader.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina suite ofimàtica és una alternativa econòmica esmentada al document amb aplicacions com Zoho Writer?",
+    "respostes": [
+      ["Zoho Office Suite.", true],
+      ["iWork.", false],
+      ["WPS Office.", false],
+      ["Calligra Suite.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina aplicació s'integra amb productes Microsoft per prendre notes?",
+    "respostes": [
+      ["Evernote.", false],
+      ["Microsoft OneNote.", true],
+      ["Google Keep.", false],
+      ["Notion.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina eina de col·laboració integra xat i videoconferències de Microsoft?",
+    "respostes": [
+      ["Slack.", false],
+      ["Microsoft Teams.", true],
+      ["Zoom.", false],
+      ["Discord.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin format de base de dades permet consultes SQL en aplicacions personals com LibreOffice Base?",
+    "respostes": [
+      ["No suporta SQL.", false],
+      ["Suport per a SQL.", true],
+      ["Només suporta NoSQL.", false],
+      ["Només suporta fitxers de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin benefici aporta l'ús de plantilles en els processadors de text?",
+    "respostes": [
+      ["Fa que el document sigui més difícil de llegir.", false],
+      ["Facilita la creació de documents amb format professional predefinit.", true],
+      ["Augmenta la mida del fitxer innecessàriament.", false],
+      ["Elimina la possibilitat d'editar el text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Com milloren les eines de productivitat la gestió de projectes?",
+    "respostes": [
+      ["Permetent la visualització de projectes amb diagrames de Gantt i taulers Kanban.", true],
+      ["Eliminant la necessitat de fer reunions.", false],
+      ["Fent que els projectes durin més temps.", false],
+      ["Reduint el pressupost del projecte automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin és un exemple real d'ús d'una API d'integració esmentat?",
+    "respostes": [
+      ["Integració d'un sistema ERP amb Microsoft Power BI per visualitzar dades.", true],
+      ["Connectar un ratolí a l'ordinador.", false],
+      ["Instal·lar un joc.", false],
+      ["Canviar la contrasenya del correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Què permet fer Google Keep?",
+    "respostes": [
+      ["Crear notes simples i ràpides.", true],
+      ["Editar vídeo professional.", false],
+      ["Gestionar bases de dades empresarials.", false],
+      ["Programar en C++.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin avantatge té LibreOffice respecte al cost?",
+    "respostes": [
+      ["És molt car.", false],
+      ["És ideal per a pressupostos limitats ja que és gratuït.", true],
+      ["Costa el mateix que Office.", false],
+      ["Requereix pagar per cada document creat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina eina utilitzaria un equip per organitzar tasques amb taulers i targetes?",
+    "respostes": [
+      ["Word.", false],
+      ["Trello.", true],
+      ["VLC.", false],
+      ["WinAmp.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quina tecnologia d'integració és propietat de Microsoft?",
+    "respostes": [
+      ["JDBC.", false],
+      ["OLE.", true],
+      ["Java.", false],
+      ["Linux.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Quin tipus de navegació ofereixen els navegadors moderns per protegir la privadesa?",
+    "respostes": [
+      ["Navegació en mode text.", false],
+      ["Navegació en mode incògnit o privada.", true],
+      ["Navegació sense pantalla.", false],
+      ["Navegació només per veu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 21. Les eines ofimàtiques. Suites ofimàtiques. Eines de productivitat. Integració.",
+    "enunciat": "Què facilita l'ús de OneDrive amb Microsoft Office?",
+    "respostes": [
+      ["La col·laboració en línia.", true],
+      ["La impressió en 3D.", false],
+      ["La navegació per satèl·lit.", false],
+      ["La reproducció de vinils.", false]
+    ]
+  }
+]

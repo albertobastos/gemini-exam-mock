@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina és la funció principal del sistema d'entrada/sortida (E/S)?",
+    "respostes": [
+      ["Processar càlculs matemàtics complexos.", false],
+      ["Gestionar les comunicacions i transferències de dades entre el processador i els perifèrics.", true],
+      ["Emmagatzemar dades a llarg termini de manera permanent.", false],
+      ["Subministrar energia elèctrica a la placa base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Com es classifiquen els perifèrics?",
+    "respostes": [
+      ["Perifèrics ràpids, lents i mitjans.", false],
+      ["Perifèrics d'entrada, de sortida i d'entrada/sortida.", true],
+      ["Perifèrics USB, HDMI i VGA.", false],
+      ["Perifèrics interns i externs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin dels següents és un exemple de perifèric de sortida?",
+    "respostes": [
+      ["Teclat.", false],
+      ["Escàner.", false],
+      ["Monitor.", true],
+      ["Ratolí.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin dels següents dispositius es considera un perifèric d'entrada/sortida?",
+    "respostes": [
+      ["Impressora làser.", false],
+      ["Disc dur.", true],
+      ["Altaveus.", false],
+      ["Micròfon.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què és un Mòdul d'E/S?",
+    "respostes": [
+      ["Un programa antivirus.", false],
+      ["Una interfície entre la CPU i els perifèrics que gestiona les operacions d'E/S.", true],
+      ["Un tipus de cable de connexió.", false],
+      ["La unitat d'alimentació de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina funció realitza el Mòdul d'E/S respecte als senyals?",
+    "respostes": [
+      ["Amplifica el senyal Wi-Fi.", false],
+      ["Converteix senyals digitals de la CPU en senyals adequats per als perifèrics i viceversa.", true],
+      ["Elimina el soroll dels altaveus.", false],
+      ["Genera senyals de ràdio FM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Per a què serveix la gestió de buffers en un Mòdul d'E/S?",
+    "respostes": [
+      ["Per netejar la memòria RAM.", false],
+      ["Per emmagatzemar temporalment dades mentre es transfereixen entre CPU i perifèrics.", true],
+      ["Per accelerar l'arrencada del sistema operatiu.", false],
+      ["Per protegir l'ordinador de virus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què transporta el Bus de Dades?",
+    "respostes": [
+      ["Només les adreces de memòria.", false],
+      ["Les dades entre la CPU, la memòria i els dispositius d'E/S.", true],
+      ["L'electricitat als components.", false],
+      ["Els senyals de control per gestionar lectures.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina és la funció del Bus d'Adreces?",
+    "respostes": [
+      ["Transportar les dades de l'usuari.", false],
+      ["Transportar senyals d'interrupció.", false],
+      ["Transportar les adreces de memòria que la CPU utilitza per llegir o escriure.", true],
+      ["Connectar l'ordinador a Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què transporta el Bus de Control?",
+    "respostes": [
+      ["Senyals d'àudio i vídeo.", false],
+      ["Senyals de control per gestionar les operacions de lectura i escriptura.", true],
+      ["Les adreces IP de la xarxa.", false],
+      ["Els fitxers del sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "En què consisteix la tècnica de Sondeig (Polling)?",
+    "respostes": [
+      ["Els perifèrics avisen la CPU quan acaben.", false],
+      ["La CPU verifica constantment l'estat dels dispositius perifèrics per veure si necessiten atenció.", true],
+      ["Les dades es transfereixen directament a memòria sense la CPU.", false],
+      ["S'utilitzen processadors dedicats exclusivament a l'E/S.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin és el principal desavantatge del Sondeig?",
+    "respostes": [
+      ["És molt difícil d'implementar.", false],
+      ["Requereix maquinari molt car.", false],
+      ["És ineficient perquè la CPU perd temps verificant dispositius constantment.", true],
+      ["No funciona amb teclats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què són les Interrupcions en el context d'E/S?",
+    "respostes": [
+      ["Errors greus que aturen el sistema.", false],
+      ["Talls de corrent elèctric.", false],
+      ["Senyals enviats pels perifèrics a la CPU per indicar que necessiten atenció.", true],
+      ["Pausas que fa l'usuari per descansar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què fa la CPU quan rep una interrupció?",
+    "respostes": [
+      ["Ignora el senyal fins que acaba la tasca actual.", false],
+      ["S'apaga immediatament.", false],
+      ["Suspèn l'execució actual i executa una rutina de servei d'interrupcions (ISR).", true],
+      ["Reinicia l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin avantatge tenen les Interrupcions respecte al Sondeig?",
+    "respostes": [
+      ["No requereixen maquinari especial.", false],
+      ["La CPU només atén els dispositius quan ho necessiten, millorant el rendiment.", true],
+      ["Són més fàcils de programar.", false],
+      ["Eliminen la necessitat de memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què signifiquen les sigles DMA?",
+    "respostes": [
+      ["Direct Memory Access (Accés Directe a Memòria).", true],
+      ["Data Management Authorization.", false],
+      ["Digital Media Audio.", false],
+      ["Disk Memory Allocation.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina és la característica principal del DMA?",
+    "respostes": [
+      ["La CPU ha de controlar cada byte transferit.", false],
+      ["Permet als perifèrics transferir dades a la memòria sense la intervenció de la CPU.", true],
+      ["Només serveix per a dispositius molt lents com teclats.", false],
+      ["Utilitza el processador gràfic per moure dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin benefici aporta el DMA al sistema?",
+    "respostes": [
+      ["Redueix el consum d'energia del monitor.", false],
+      ["Millora la qualitat del so.", false],
+      ["Allibera la CPU per realitzar altres tasques durant la transferència de dades.", true],
+      ["Augmenta la capacitat del disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què són els Canals d'E/S?",
+    "respostes": [
+      ["Cables HDMI d'alta velocitat.", false],
+      ["Processadors especialitzats dedicats a gestionar operacions d'E/S complexes.", true],
+      ["Programes de televisió per streaming.", false],
+      ["Ranures d'expansió de la placa base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "On s'utilitzen habitualment els Canals d'E/S?",
+    "respostes": [
+      ["En grans sistemes mainframe.", true],
+      ["En rellotges intel·ligents.", false],
+      ["En calculadores de butxaca.", false],
+      ["En dispositius USB simples.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin és un desavantatge dels Canals d'E/S?",
+    "respostes": [
+      ["Són molt lents.", false],
+      ["Carreguen massa la CPU principal.", false],
+      ["Requereixen un disseny de sistema més complex i augmenten els costos.", true],
+      ["No permeten connectar impressores.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin tipus de bus és el PCI segons l'exemple del text?",
+    "respostes": [
+      ["Un bus de control exclusivament.", false],
+      ["Un bus d'alta velocitat per connectar perifèrics a la placa base.", true],
+      ["Un bus intern del processador.", false],
+      ["Un bus de memòria cau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina tècnica d'E/S és més simple d'implementar però més ineficient?",
+    "respostes": [
+      ["DMA.", false],
+      ["Interrupcions.", false],
+      ["Sondeig (Polling).", true],
+      ["Canals d'E/S.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin component coordina la transferència de dades per evitar conflictes?",
+    "respostes": [
+      ["El disc dur.", false],
+      ["El Mòdul d'E/S.", true],
+      ["La font d'alimentació.", false],
+      ["El teclat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin és un exemple de perifèric d'entrada?",
+    "respostes": [
+      ["Monitor.", false],
+      ["Impressora.", false],
+      ["Escàner.", true],
+      ["Altaveus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "La CPU dedica cicles de rellotge a verificar l'estat dels dispositius en quina tècnica?",
+    "respostes": [
+      ["DMA.", false],
+      ["Interrupcions.", false],
+      ["Sondeig.", true],
+      ["Multitasca.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què necessiten les interrupcions per funcionar que el sondeig no necessita?",
+    "respostes": [
+      ["Més memòria RAM.", false],
+      ["Suport especial de maquinari.", true],
+      ["Un processador de 64 bits.", false],
+      ["Connexió a Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Com milloren les interrupcions el rendiment del sistema?",
+    "respostes": [
+      ["Fent que el processador funcioni més ràpid.", false],
+      ["Eliminant la necessitat de busos.", false],
+      ["Evitant que la CPU perdi temps verificant dispositius inactius.", true],
+      ["Augmentant la velocitat de transferència del disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin dispositiu sol utilitzar DMA per transferir dades?",
+    "respostes": [
+      ["Un ratolí.", false],
+      ["Un teclat.", false],
+      ["Un disc dur.", true],
+      ["Un micròfon senzill.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina diferència hi ha entre DMA i Canals d'E/S?",
+    "respostes": [
+      ["El DMA és més complex que els Canals d'E/S.", false],
+      ["Els Canals d'E/S són processadors especialitzats que poden executar instruccions pròpies.", true],
+      ["El DMA no permet accés a memòria.", false],
+      ["No hi ha cap diferència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin tipus de bus transporta les dades de memòria que la CPU vol llegir?",
+    "respostes": [
+      ["Bus de control.", false],
+      ["Bus d'adreces.", false],
+      ["Bus de dades.", true],
+      ["Bus PCI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què significa ISR en el context de les interrupcions?",
+    "respostes": [
+      ["Instruction Set Register.", false],
+      ["Interrupt Service Routine (Rutina de Servei d'Interrupcions).", true],
+      ["Internal System Request.", false],
+      ["Input Source Reading.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quina afirmació descriu millor el paper dels busos?",
+    "respostes": [
+      ["Són la font d'energia de l'ordinador.", false],
+      ["Són sistemes de comunicació per transferir dades entre components.", true],
+      ["Són programes que controlen els perifèrics.", false],
+      ["Són dispositius d'emmagatzematge extern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin desavantatge tenen les interrupcions?",
+    "respostes": [
+      ["Són molt lentes.", false],
+      ["Poden complicar el disseny del sistema.", true],
+      ["Consumeixen molta energia.", false],
+      ["No permeten la multitasca.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Quin és un exemple de perifèric que actua tant d'entrada com de sortida?",
+    "respostes": [
+      ["Dispositiu USB.", true],
+      ["Altaveu.", false],
+      ["Teclat.", false],
+      ["Escàner.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador: perifèrics, mòdul d'E/S i bus de dades.",
+    "enunciat": "Què permet que la CPU realitzi altres tasques mentre es transfereixen dades de disc a memòria?",
+    "respostes": [
+      ["El Sondeig.", false],
+      ["El teclat mecànic.", false],
+      ["El DMA.", true],
+      ["El monitor de 144Hz.", false]
+    ]
+  }
+]

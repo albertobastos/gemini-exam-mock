@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què implica la migració d'aplicacions?",
+    "respostes": [
+      ["Esborrar aplicacions antigues sense reemplaçar-les.", false],
+      ["Moure aplicacions d'un entorn operatiu a un altre.", true],
+      ["Canviar el color de la icona de l'aplicació.", false],
+      ["Imprimir el codi font en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin és un objectiu principal de la migració d'aplicacions?",
+    "respostes": [
+      ["Augmentar els costos operatius.", false],
+      ["Millorar el rendiment i reduir costos.", true],
+      ["Mantenir tecnologia obsoleta.", false],
+      ["Reduir la seguretat del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "En què consisteix l'estratègia 'Lift and Shift' (Migració de plataforma)?",
+    "respostes": [
+      ["En reescriure l'aplicació des de zero.", false],
+      ["En moure l'aplicació sense fer canvis significatius en la seva arquitectura.", true],
+      ["En eliminar la base de dades.", false],
+      ["En canviar completament la funcionalitat de l'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què significa 'Refactoring' en el context de la migració?",
+    "respostes": [
+      ["Modificar l'arquitectura i el codi per aprofitar millor la nova plataforma.", true],
+      ["Copiar i enganxar els fitxers sense canvis.", false],
+      ["Comprar un nou servidor físic.", false],
+      ["Canviar el nom de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina estratègia de migració implica reescriure l'aplicació des de zero?",
+    "respostes": [
+      ["Rehosting.", false],
+      ["Rebuilding.", true],
+      ["Retiring.", false],
+      ["Replatforming.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és la 'Migració Big Bang'?",
+    "respostes": [
+      ["Migrar tot el sistema d'una sola vegada.", true],
+      ["Migrar en fases petites durant anys.", false],
+      ["Una migració que sempre falla.", false],
+      ["Migrar només la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin avantatge té la 'Migració Incremental'?",
+    "respostes": [
+      ["És la més ràpida de totes.", false],
+      ["Redueix el risc permetent una transició gradual i controlada.", true],
+      ["No requereix planificació.", false],
+      ["Elimina la necessitat de proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què implica la 'Migració Paral·lela'?",
+    "respostes": [
+      ["Que l'aplicació nova i l'antiga funcionin alhora durant un temps.", true],
+      ["Que es migrin dues aplicacions diferents a la vegada.", false],
+      ["Que es facin servir cables paral·lels.", false],
+      ["Que no es migri res.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina eina d'AWS ajuda a gestionar la migració?",
+    "respostes": [
+      ["AWS Migration Hub.", true],
+      ["Google Drive.", false],
+      ["Azure Migrate.", false],
+      ["Photoshop.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "En què consisteix la migració de dades?",
+    "respostes": [
+      ["En transferir dades d'un sistema d'emmagatzematge a un altre.", true],
+      ["En esborrar dades antigues.", false],
+      ["En crear còpies de seguretat en paper.", false],
+      ["En escriure dades a mà.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què signifiquen les sigles ETL en la migració de dades?",
+    "respostes": [
+      ["Extract, Transform, Load.", true],
+      ["Edit, Type, List.", false],
+      ["Enter, Test, Log.", false],
+      ["Erase, Transfer, Lock.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina fase del procés de migració de dades implica convertir el format de les dades?",
+    "respostes": [
+      ["Extracció.", false],
+      ["Transformació.", true],
+      ["Càrrega.", false],
+      ["Validació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin mètode de migració de dades és més propens a errors humans?",
+    "respostes": [
+      ["Migració Automàtica.", false],
+      ["Migració Manual.", true],
+      ["Migració Híbrida.", false],
+      ["Migració ETL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina eina de codi obert s'esmenta per a l'automatització del moviment de dades?",
+    "respostes": [
+      ["Apache NiFi.", true],
+      ["Microsoft Word.", false],
+      ["Adobe Reader.", false],
+      ["WinRAR.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és la reenginyeria de sistemes?",
+    "respostes": [
+      ["El procés de redissenyar i reestructurar sistemes existents per millorar-los.", true],
+      ["La compra de nous ordinadors.", false],
+      ["La instal·lació d'un antivirus.", false],
+      ["La creació d'una pàgina web senzilla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin és un objectiu de la reenginyeria de sistemes?",
+    "respostes": [
+      ["Mantenir els errors antics.", false],
+      ["Augmentar l'eficiència i reduir costos de manteniment.", true],
+      ["Fer el sistema més lent.", false],
+      ["Eliminar la documentació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina fase de la reenginyeria implica avaluar l'arquitectura i limitacions del sistema existent?",
+    "respostes": [
+      ["Implementació.", false],
+      ["Anàlisi de l'Estat Actual.", true],
+      ["Validació.", false],
+      ["Redisseny.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina eina es menciona per a la modelització UML en reenginyeria?",
+    "respostes": [
+      ["Enterprise Architect.", true],
+      ["Notepad.", false],
+      ["Paint.", false],
+      ["Calculator.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és l'enginyeria inversa?",
+    "respostes": [
+      ["Construir un sistema des de zero sense mirar-ne d'altres.", false],
+      ["Analitzar un sistema existent per descompondre'l i entendre'n el funcionament intern.", true],
+      ["Vendre programari il·legal.", false],
+      ["Invertir els colors de la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Per a què és útil l'enginyeria inversa?",
+    "respostes": [
+      ["Per recuperar dissenys perduts o documentar sistemes antics.", true],
+      ["Per augmentar la velocitat d'internet.", false],
+      ["Per netejar el teclat.", false],
+      ["Per comprar llicències de software.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és l'anàlisi estàtica en enginyeria inversa?",
+    "respostes": [
+      ["L'examen del codi font o binari sense executar el programa.", true],
+      ["L'observació del programa mentre s'executa.", false],
+      ["L'anàlisi de l'electricitat estàtica del servidor.", false],
+      ["L'estudi de la documentació en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què permet fer l'anàlisi dinàmica?",
+    "respostes": [
+      ["Llegir el codi font.", false],
+      ["Observar el comportament del sistema durant la seva execució.", true],
+      ["Mesurar el pes del disc dur.", false],
+      ["Calcular el preu del software.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina eina de descompilació i anàlisi de binaris es menciona?",
+    "respostes": [
+      ["IDA Pro.", true],
+      ["Microsoft Excel.", false],
+      ["VLC Player.", false],
+      ["Google Chrome.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina eina de codi obert per a enginyeria inversa va ser desenvolupada per la NSA?",
+    "respostes": [
+      ["Ghidra.", true],
+      ["Firefox.", false],
+      ["Linux.", false],
+      ["Apache.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin aspecte legal és important en l'enginyeria inversa?",
+    "respostes": [
+      ["El compliment de les lleis de propietat intel·lectual.", true],
+      ["La normativa de seguretat laboral.", false],
+      ["L'impost sobre el valor afegit.", false],
+      ["La regulació del trànsit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és la 'Decompilació'?",
+    "respostes": [
+      ["Convertir codi font en codi màquina.", false],
+      ["Convertir codi binari a un format llegible per humans (codi font).", true],
+      ["Comprimir un arxiu.", false],
+      ["Eliminar virus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin desafiament presenta la reenginyeria de sistemes?",
+    "respostes": [
+      ["Costos inicials elevats i resistència al canvi.", true],
+      ["Massa facilitat d'ús.", false],
+      ["Reducció immediata de beneficis.", false],
+      ["Manca de feina per als desenvolupadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin exemple real de migració d'aplicacions es menciona?",
+    "respostes": [
+      ["Netflix migrant a AWS.", true],
+      ["Apple comprant Microsoft.", false],
+      ["Google tancant el cercador.", false],
+      ["Facebook deixant d'usar servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "En la migració de dades, què garanteix la 'verificació'?",
+    "respostes": [
+      ["Que les dades s'han transferit correctament i són consistents.", true],
+      ["Que el disc dur és de color negre.", false],
+      ["Que l'usuari ha pagat la factura.", false],
+      ["Que l'ordinador està encès.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què permet el 'Replatforming'?",
+    "respostes": [
+      ["Realitzar canvis mínims per aprofitar característiques del nou entorn sense un redisseny complet.", true],
+      ["No fer cap canvi en absolut.", false],
+      ["Canviar completament el llenguatge de programació.", false],
+      ["Comprar una nova plataforma de videojocs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina eina s'esmenta per a la integració de dades i qualitat en codi obert?",
+    "respostes": [
+      ["Talend.", true],
+      ["Notepad++.", false],
+      ["Skype.", false],
+      ["Spotify.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin és un exemple d'aplicació pràctica de l'enginyeria inversa?",
+    "respostes": [
+      ["L'anàlisi de malware per crear proteccions.", true],
+      ["La creació de nous virus.", false],
+      ["La instal·lació de drivers d'impressora.", false],
+      ["L'escriptura de documents de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què facilita la reenginyeria en termes de vida útil del sistema?",
+    "respostes": [
+      ["L'escurça significativament.", false],
+      ["La prolonga, adaptant el sistema a noves necessitats.", true],
+      ["No té cap efecte.", false],
+      ["Fa que el sistema deixi de funcionar immediatament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin risc té l'estratègia 'Big Bang'?",
+    "respostes": [
+      ["Qualsevol problema pot causar una interrupció significativa del servei.", true],
+      ["És massa lenta.", false],
+      ["Costa massa diners en llicències.", false],
+      ["Requereix massa personal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és la 'governança de les dades' durant la migració?",
+    "respostes": [
+      ["El manteniment de la traçabilitat i conformitat amb regulacions com GDPR.", true],
+      ["La decisió de qui mana a l'empresa.", false],
+      ["La velocitat de transferència.", false],
+      ["El tipus de cable utilitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quin exemple de reenginyeria es menciona al text?",
+    "respostes": [
+      ["Sistemes de gestió de línies aèries.", true],
+      ["Sistemes de reg automàtic.", false],
+      ["Sistemes de calefacció domèstica.", false],
+      ["Videojocs antics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Què és 'Hex-Rays'?",
+    "respostes": [
+      ["Un complement per a IDA Pro que descompila a alt nivell.", true],
+      ["Una marca de raigs X.", false],
+      ["Un sistema operatiu.", false],
+      ["Un navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 17. Migració d'aplicacions. Migració de dades. Reenginyeria de sistemes. Enginyeria inversa",
+    "enunciat": "Quina consideració tècnica és important abans de migrar una aplicació?",
+    "respostes": [
+      ["La compatibilitat de versions de programari i bases de dades.", true],
+      ["El color de la carcassa del servidor.", false],
+      ["La marca del monitor.", false],
+      ["L'hora del dia.", false]
+    ]
+  }
+]

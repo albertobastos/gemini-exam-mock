@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què defineix el model d'arquitectura client-servidor?",
+    "respostes": [
+      ["Un sistema on tots els ordinadors tenen el mateix rang i funcions.", false],
+      ["Un model de xarxa on les funcions es divideixen entre clients que sol·liciten serveis i servidors que els proporcionen.", true],
+      ["Un sistema que funciona sense connexió a la xarxa.", false],
+      ["Una arquitectura on l'usuari fa de servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina és la funció principal del 'Client' en aquest model?",
+    "respostes": [
+      ["Emmagatzemar la base de dades central.", false],
+      ["Gestionar la interfície d'usuari i enviar sol·licituds al servidor.", true],
+      ["Processar totes les regles de negoci.", false],
+      ["Gestionar la seguretat de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què fa el 'Servidor' quan rep una sol·licitud?",
+    "respostes": [
+      ["La reenvia a un altre client aleatori.", false],
+      ["Processa la sol·licitud, accedeix a les dades si cal i retorna una resposta.", true],
+      ["Apaga el sistema per estalviar energia.", false],
+      ["Mostra la interfície gràfica a l'usuari localment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin és un exemple típic de funcionament client-servidor?",
+    "respostes": [
+      ["Un navegador web enviant una sol·licitud HTTP a un servidor web.", true],
+      ["Un processador de textos funcionant sense internet.", false],
+      ["Un full de càlcul guardat en un USB.", false],
+      ["Una calculadora de butxaca.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin és un avantatge de la centralització en el model client-servidor?",
+    "respostes": [
+      ["Que els clients no necessiten pantalla.", false],
+      ["Facilita el manteniment, les actualitzacions i la seguretat de les dades.", true],
+      ["Que el servidor mai no s'espatlla.", false],
+      ["Que no calen còpies de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin és un desavantatge important de l'arquitectura client-servidor?",
+    "respostes": [
+      ["La dependència del servidor: si falla, els clients no tenen servei.", true],
+      ["La impossibilitat d'usar contrasenyes.", false],
+      ["L'excés de velocitat en la xarxa.", false],
+      ["La manca de capacitat d'emmagatzematge al servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què és l'arquitectura de N capes?",
+    "respostes": [
+      ["Un model on l'aplicació es divideix en múltiples nivells especialitzats (presentació, lògica, dades).", true],
+      ["Un sistema amb N servidors físics connectats en sèrie.", false],
+      ["Un disseny de xarxa amb N cables.", false],
+      ["Un programari que ocupa N gigabytes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina funció té la 'Capa de Presentació'?",
+    "respostes": [
+      ["Calcular impostos i descomptes.", false],
+      ["Gestionar la interfície d'usuari i capturar les entrades de l'usuari.", true],
+      ["Emmagatzemar les dades al disc dur.", false],
+      ["Connectar amb la base de dades SQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "De què s'encarrega la 'Capa de Lògica de Negoci'?",
+    "respostes": [
+      ["De mostrar els botons i menús.", false],
+      ["De processar les regles de negoci, càlculs i decisions de l'aplicació.", true],
+      ["De guardar físicament els fitxers.", false],
+      ["De dibuixar la pàgina web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina responsabilitat té la 'Capa d'Accés a Dades'?",
+    "respostes": [
+      ["Validar el format del correu electrònic a la interfície.", false],
+      ["Gestionar l'emmagatzematge, recuperació i actualització de dades a la base de dades.", true],
+      ["Enviar el correu electrònic de confirmació.", false],
+      ["Dissenyar el logotip de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què caracteritza una arquitectura de 2 capes?",
+    "respostes": [
+      ["Té tres nivells de seguretat.", false],
+      ["Combina la interfície al client i la base de dades (amb lògica) al servidor.", true],
+      ["No utilitza base de dades.", false],
+      ["És la més complexa de totes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin avantatge aporta l'arquitectura de 3 capes respecte a la de 2?",
+    "respostes": [
+      ["Separa la lògica de negoci en una capa independent, millorant la flexibilitat i mantenibilitat.", true],
+      ["És més barata d'implementar sempre.", false],
+      ["Elimina la necessitat de xarxa.", false],
+      ["Fa que el sistema sigui més lent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què permet l'escalabilitat independent de les capes?",
+    "respostes": [
+      ["Que no es pugui ampliar el sistema.", false],
+      ["Que es pugui augmentar la capacitat d'una capa (ex: lògica) sense afectar les altres.", true],
+      ["Que totes les capes hagin d'estar al mateix ordinador.", false],
+      ["Que s'hagi de reescriure tot el codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin desavantatge pot tenir l'arquitectura de N capes?",
+    "respostes": [
+      ["La comunicació entre múltiples capes pot introduir latència i reduir el rendiment.", true],
+      ["És massa simple per a aplicacions grans.", false],
+      ["No permet la reutilització de codi.", false],
+      ["Només funciona en Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina tasca realitza la 'Validació' a la capa de presentació?",
+    "respostes": [
+      ["Comprovar que els camps obligatoris estan plens abans d'enviar dades.", true],
+      ["Verificar la solvència econòmica del client.", false],
+      ["Guardar la comanda a la base de dades.", false],
+      ["Calcular l'estoc disponible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "On es realitzen els càlculs complexos com descomptes o impostos?",
+    "respostes": [
+      ["A la capa de presentació.", false],
+      ["A la capa de lògica de negoci.", true],
+      ["A la capa d'accés a dades.", false],
+      ["Al navegador del client exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què són les operacions CRUD gestionades per la capa d'accés a dades?",
+    "respostes": [
+      ["Create, Read, Update, Delete.", true],
+      ["Copy, Run, Undo, Done.", false],
+      ["Call, Return, Up, Down.", false],
+      ["Cut, Replace, Underline, Draw.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin component tecnològic s'associa sovint amb la capa d'accés a dades?",
+    "respostes": [
+      ["HTML i CSS.", false],
+      ["Consultes SQL o ORM (Object-Relational Mapping).", true],
+      ["Botons i formularis.", false],
+      ["Fulls d'estil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "En una arquitectura web, quin element actua com a client?",
+    "respostes": [
+      ["El servidor Apache.", false],
+      ["La base de dades MySQL.", false],
+      ["El navegador web (Chrome, Firefox).", true],
+      ["El sistema operatiu del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Per què la reutilització és un avantatge de l'arquitectura per capes?",
+    "respostes": [
+      ["Perquè permet copiar i enganxar codi.", false],
+      ["Perquè una capa (ex: accés a dades) pot ser utilitzada per diferents aplicacions o interfícies.", true],
+      ["Perquè permet utilitzar ordinadors vells.", false],
+      ["Perquè redueix l'espai en disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin problema pot causar un 'coll d'ampolla' al servidor en el model client-servidor?",
+    "respostes": [
+      ["Un excés de sol·licituds dels clients que sobrecarrega el servidor.", true],
+      ["Tenir massa pocs clients.", false],
+      ["Utilitzar cables de xarxa de colors diferents.", false],
+      ["Tenir la pantalla apagada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què facilita la 'Mantenibilitat' en l'arquitectura de N capes?",
+    "respostes": [
+      ["Que tot el codi estigui en un sol fitxer.", false],
+      ["La possibilitat de modificar o actualitzar una capa sense afectar necessàriament les altres.", true],
+      ["Que no calgui documentar el codi.", false],
+      ["Que el sistema no tingui errors mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "En un model de 3 capes, on es situa normalment la capa intermèdia?",
+    "respostes": [
+      ["Al client.", false],
+      ["Al servidor d'aplicacions.", true],
+      ["A la base de dades.", false],
+      ["Al router.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina tecnologia es fa servir típicament a la capa de presentació web?",
+    "respostes": [
+      ["SQL.", false],
+      ["HTML, CSS, JavaScript.", true],
+      ["C++.", false],
+      ["Assembly.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què garanteix la seguretat centralitzada en el model client-servidor?",
+    "respostes": [
+      ["Que cada client hagi de tenir el seu propi antivirus.", false],
+      ["Que les polítiques d'accés i dades es gestionin en un punt únic (servidor).", true],
+      ["Que no es pugui accedir a internet.", false],
+      ["Que les dades estiguin en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin tipus de lògica NO hauria d'estar a la capa de presentació en un bon disseny?",
+    "respostes": [
+      ["La lògica de validació visual bàsica.", false],
+      ["La lògica de negoci complexa i regles empresarials.", true],
+      ["La lògica de renderitzat de la pàgina.", false],
+      ["La lògica de navegació entre pantalles.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què passa si es modifica l'estructura de la base de dades en una arquitectura ben dissenyada?",
+    "respostes": [
+      ["S'ha de canviar tota la interfície d'usuari.", false],
+      ["Només s'hauria d'adaptar la capa d'accés a dades, minimitzant l'impacte en la resta.", true],
+      ["L'aplicació deixa de funcionar per sempre.", false],
+      ["Els clients han de reinstal·lar el navegador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin concepte es refereix a la capacitat d'afegir més servidors per gestionar més càrrega?",
+    "respostes": [
+      ["Redundància.", false],
+      ["Escalabilitat.", true],
+      ["Virtualització.", false],
+      ["Latència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què és un 'Servidor d'Aplicacions' en el context de N capes?",
+    "respostes": [
+      ["Un servidor que només guarda fitxers.", false],
+      ["El servidor que allotja i executa la lògica de negoci.", true],
+      ["El client que fa servir l'aplicació.", false],
+      ["El cable que connecta els ordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina arquitectura permet una millor especialització dels equips de desenvolupament?",
+    "respostes": [
+      ["Monolítica.", false],
+      ["Arquitectura de N capes (equips de frontend, backend, base de dades).", true],
+      ["Client-servidor simple.", false],
+      ["Peer-to-peer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin protocol és estàndard per a la comunicació web client-servidor?",
+    "respostes": [
+      ["FTP.", false],
+      ["HTTP/HTTPS.", true],
+      ["SMTP.", false],
+      ["SNMP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què es busca evitar amb la validació de dades a la capa de presentació?",
+    "respostes": [
+      ["Que el servidor treballi.", false],
+      ["Enviar dades òbviament incorrectes al servidor, millorant l'eficiència i l'experiència d'usuari.", true],
+      ["Que l'usuari escrigui ràpid.", false],
+      ["Que es gasti bateria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "A quina capa pertany la gestió de transaccions de base de dades?",
+    "respostes": [
+      ["Presentació.", false],
+      ["Accés a dades (i sovint coordinada per la lògica de negoci).", true],
+      ["Xarxa.", false],
+      ["Client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què és una aplicació 'Monolítica' en contraposició a N capes?",
+    "respostes": [
+      ["Una aplicació on presentació, lògica i dades estan barrejades en un sol bloc de codi.", true],
+      ["Una aplicació molt ràpida.", false],
+      ["Una aplicació que només funciona en blanc i negre.", false],
+      ["Una aplicació distribuïda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quina capa seria responsable de verificar si un producte té estoc abans de permetre la compra?",
+    "respostes": [
+      ["La capa de presentació.", false],
+      ["La capa de lògica de negoci.", true],
+      ["La capa de xarxa.", false],
+      ["El sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Quin percentatge d'abast del tema indica el document que cobreix?",
+    "respostes": [
+      ["50%.", false],
+      ["75%.", false],
+      ["99%.", true],
+      ["10%.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "Què significa que una aplicació sigui 'Modular'?",
+    "respostes": [
+      ["Que estigui feta de mòduls independents que es poden canviar o millorar per separat.", true],
+      ["Que sigui molt cara.", false],
+      ["Que sigui difícil d'usar.", false],
+      ["Que només funcioni amb mòdems.", false]
+    ]
+  },
+  {
+    "tema": "Tema 18. L'arquitectura client-servidor. Arquitectura de N capes.",
+    "enunciat": "En un sistema de comerç electrònic, quin component és la 'Capa de Dades'?",
+    "respostes": [
+      ["La botiga física.", false],
+      ["El sistema de gestió de bases de dades (ex: Oracle, SQL Server).", true],
+      ["El carret de la compra visual.", false],
+      ["El correu de confirmació.", false]
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quina d'aquestes eines actua com a portal web principal i 'finestreta única' digital de la CAIB?",
+    "respostes": [
+      ["La Seu Electrònica.", true],
+      ["El PORTAFIB.", false],
+      ["El SISTRA.", false],
+      ["La Plataforma PINBAL.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Mitjançant quina eina accessible a la Seu Electrònica pot un ciutadà verificar l'autenticitat dels documents electrònics (CSV)?",
+    "respostes": [
+      ["A través de la pròpia Seu Electrònica de la CAIB.", true],
+      ["A través del NOTIB exclusivament.", false],
+      ["Mitjançant l'aplicació REGWEB instal·lada al seu ordinador.", false],
+      ["A través del Directori Dir3CAIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què és la Carpeta Ciutadana dins de l'estructura d'administració electrònica?",
+    "respostes": [
+      ["L'espai privat i personal de l'usuari dins de la Seu Electrònica on s'agrega tota la seva informació personal i tràmits.", true],
+      ["Un arxiu físic que el ciutadà ha de recollir a l'ajuntament amb els seus certificats en paper.", false],
+      ["L'eina on els funcionaris guarden els esborranys de les normatives públiques.", false],
+      ["Una bústia de correu electrònic externa proporcionada gratuïtament pel Govern.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quin avantatge específic ofereix la Carpeta Ciutadana respecte als justificants de registre?",
+    "respostes": [
+      ["Permet obtenir justificants de registre directament sense haver de cercar expedient per expedient.", true],
+      ["Permet modificar el contingut dels justificants de registre abans de descarregar-los.", false],
+      ["Esborra els justificants de registre automàticament passats 30 dies.", false],
+      ["Només permet visualitzar els justificants de registre de l'Administració Central de l'Estat, no els de la CAIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Com es denomina la passarel·la d'autenticació integrada a la CAIB que permet fer tràmits des del mòbil amb contrasenyes d'un sol ús (PIN)?",
+    "respostes": [
+      ["Cl@ve.", true],
+      ["IBKey.", false],
+      ["SISTRA.", false],
+      ["PORTAFIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "A banda del DNI electrònic i Cl@ve, quin altre mètode s'admet a la passarel·la d'autenticació integrada de la CAIB?",
+    "respostes": [
+      ["Certificat digital (per exemple, de la FNMT).", true],
+      ["Autenticació biomètrica mitjançant veu al telèfon de la CAIB.", false],
+      ["Identificació mitjançant el carnet de biblioteca municipal en físic.", false],
+      ["Usuari i contrasenya de les xarxes socials de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què és PORTAFIB?",
+    "respostes": [
+      ["És l'eina corporativa de signatura electrònica que permet signar documents de manera massiva o individual.", true],
+      ["És un gestor de continguts web per crear microsites d'informació.", false],
+      ["És la plataforma exclusiva de pagament electrònic de taxes.", false],
+      ["És un registre oficial on es troben exclusivament les dades de les empreses licitadores.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quina funció compleix PORTAFIB per als ciutadans quan utilitzen el processador de tràmits?",
+    "respostes": [
+      ["Garanteix la integritat legal del document enviat quan interactuen amb els mòduls de signatura de la sol·licitud telemàtica.", true],
+      ["Els permet crear les seves pròpies pàgines web personals al domini de la CAIB.", false],
+      ["Tradueix els formularis al català de manera automàtica abans de la signatura.", false],
+      ["Els assigna una clau de xifrat simètrica que han de guardar en USB.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quina d'aquestes eines és la plataforma tecnològica core encarregada de la tramitació telemàtica, generant els formularis web i el flux de pantalles?",
+    "respostes": [
+      ["SISTRA (Sistra 2).", true],
+      ["ARXIB.", false],
+      ["REC (Registre Electrònic Comú).", false],
+      ["HELIUM.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Des del punt de vista del ciutadà, com actua la plataforma SISTRA?",
+    "respostes": [
+      ["Com un assistent que guia l'usuari pas a pas durant un tràmit i valida les dades en temps real.", true],
+      ["Com un directori on només pot consultar on es troben les oficines d'assistència presencial.", false],
+      ["Com una passarel·la per descarregar programari lliure al seu ordinador personal.", false],
+      ["Com un sistema exclusiu de missatgeria interna per parlar amb el president autonòmic.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què permet fer el Registre Electrònic Comú (REC / REGAGE)?",
+    "respostes": [
+      ["Presentar una 'Instància Genèrica' amb documents quan no existeix un procediment específic estandarditzat.", true],
+      ["Demanar obligatòriament la signatura presencial del conseller de l'àrea pertinent.", false],
+      ["Validar l'autenticitat dels certificats mèdics de l'IB-Salut únicament.", false],
+      ["Crear una còpia de seguretat diària de l'ordinador del ciutadà cap als servidors del Govern.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "A quin sistema d'interconnexió està connectat el Registre Electrònic Comú (REC), que permet enviar instàncies a CAIB, Consells, Ajuntaments o l'Estat?",
+    "respostes": [
+      ["Al SIR (Sistema d'Interconnexió de Registres).", true],
+      ["Al NOTIB (Sistema de Notificacions Telemàtiques).", false],
+      ["A la xarxa social corporativa ROLSAC.", false],
+      ["Al protocol internacional SWIFT.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quin sistema és l'encarregat de lliurar les notificacions oficials de manera electrònica a la CAIB?",
+    "respostes": [
+      ["NOTIB.", true],
+      ["PINBAL.", false],
+      ["SISTRA.", false],
+      ["PORTAFIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Per a qui és d'ús obligatori el servei de notificacions electròniques oficials (NOTIB)?",
+    "respostes": [
+      ["Per a les persones jurídiques (empreses).", true],
+      ["Per a totes les persones físiques empadronades a les Illes Balears.", false],
+      ["Exclusivament per als ciutadans estrangers.", false],
+      ["Per a cap usuari, sempre és de caràcter purament opcional.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Amb quina eina o plataforma estatal es troba integrat el sistema NOTIB de la CAIB?",
+    "respostes": [
+      ["Amb la DEHú (Direcció Electrònica Habilitada única).", true],
+      ["Amb el BOE (Butlletí Oficial de l'Estat).", false],
+      ["Amb el SEPE (Servei Públic d'Ocupació Estatal).", false],
+      ["Amb el FNMT directament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "A l'hora de fer un tràmit, si el ciutadà marca una casella autoritzant la consulta de dades i s'estalvia pujar el PDF del seu DNI, quin tipus d'eina general està actuant darrere les cortines?",
+    "respostes": [
+      ["Una eina d'Interoperabilitat (com HELIUM o PINBAL).", true],
+      ["Una eina de disseny web per a microsites (com GUSITE).", false],
+      ["Un portafirmes corporatiu massiu.", false],
+      ["L'eina de digitalització de les oficines presencials de registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quina funció bàsica es destaca de la plataforma ARXIB a l'esquema d'administració digital?",
+    "respostes": [
+      ["La custòdia i preservació a llarg termini dels expedients electrònics per garantir que no es perdin amb els anys i mantinguin validesa legal.", true],
+      ["La conversió de qualsevol document de text en un formulari web emplenable.", false],
+      ["L'eliminació automàtica i sense registre d'expedients que tinguin més de tres anys d'antiguitat.", false],
+      ["La impressió en paper oficial de tots els tràmits electrònics realitzats mensualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "En el resum de beneficis per al ciutadà de l'administració electrònica de la CAIB, què implica la 'Traçabilitat'?",
+    "respostes": [
+      ["Que el ciutadà sap en tot moment en quin estat es troba la seva sol·licitud.", true],
+      ["Que els documents passen per diferents províncies abans d'arribar a l'escriptori del funcionari.", false],
+      ["Que tots els tràmits fets seran publicats amb nom i cognoms a les xarxes socials del Govern.", false],
+      ["Que és imprescindible adjuntar el mapa de residència del ciutadà en els tràmits telemàtics.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "D'acord amb el catàleg de programari lliure, quina aplicació s'encarrega d'actuar com el 'tub' o passarel·la específica que connecta els sistemes de la CAIB amb els serveis externs i interns?",
+    "respostes": [
+      ["PINBAL (Plataforma d'Interoperabilitat de les Illes Balears).", true],
+      ["ROLSAC.", false],
+      ["REGWEB.", false],
+      ["GUSITE.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quin principi fa efectiu la tecnologia PINBAL al permetre que el ciutadà no hagi d'aportar dades que l'administració ja té?",
+    "respostes": [
+      ["El principi d'una sola vegada (once-only).", true],
+      ["El principi d'economia circular.", false],
+      ["El principi de finestreta oberta.", false],
+      ["El principi de caducitat normativa.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què és RIPEA dins de l'estructura de la CAIB?",
+    "respostes": [
+      ["Un repositori d'expedients i documents electrònics dissenyat per emmagatzemar la documentació mentre està en fase de tramitació (expedient viu).", true],
+      ["Un arxiu històric definitiu per als expedients tancats fa més de 20 anys.", false],
+      ["Un programari d'edició d'imatges exclusiu de l'administració autonòmica.", false],
+      ["Una base de dades pública on els ciutadans comparteixen ofertes d'ocupació.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quan vas presencialment a una Oficina d'Assistència en Matèria de Registre (OAMR) a portar un document en paper, quina aplicació fa servir el funcionari per digitalitzar-lo i enviar-lo a destí?",
+    "respostes": [
+      ["REGWEB.", true],
+      ["GUSITE.", false],
+      ["PORTAFIB.", false],
+      ["SISTRA.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "L'eina REGWEB garanteix que quan lliures un document presencialment a una oficina de registre...",
+    "respostes": [
+      ["El registre presencial adquireixi la mateixa validesa i rapidesa que el telemàtic, digitalitzant el paper i retornant-te l'original.", true],
+      ["Aquest es quedi guardat en arxivadors de cartró fins a final d'any abans d'escanejar-se.", false],
+      ["Sigui enviat immediatament a la seu del Parlament Balear per ser llegit a la sessió plenària.", false],
+      ["Es destrueixi el paper i no quedi constància oficial fins que no paguis la taxa pertinent.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "L'eina que centralitza la informació necessària per a la contractació pública i evita que les empreses hagin de presentar la mateixa documentació repetidament en cada licitació és el:",
+    "respostes": [
+      ["ROLSAC (Registre Oficial de Licitadors i Empreses Classificades).", true],
+      ["NOTIB (Sistema de Notificacions Telemàtiques).", false],
+      ["Dir3CAIB (Directori Comú).", false],
+      ["ARXIB (Arxiu Històric).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Com s'anomena l'eina utilitzada per crear i gestionar ràpidament pàgines web informatives (microsites) estandarditzades dins del domini caib.es?",
+    "respostes": [
+      ["GUSITE.", true],
+      ["HELIUM.", false],
+      ["SISTRA.", false],
+      ["KitAnibal.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què és IBKey dins de les eines de suport tècnic de l'administració?",
+    "respostes": [
+      ["És un conjunt de mòduls de seguretat i autenticació que proveeix mecanismes tècnics per gestionar usuaris, claus i permisos.", true],
+      ["És l'identificador personal imprès als carnets físics dels funcionaris públics del Govern.", false],
+      ["És una eina de creació de contingut educatiu per a les aules de les Illes Balears.", false],
+      ["És la contrasenya del Wi-Fi utilitzada per a convidats a les seus de l'administració.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quina funció té el servidor local Dir3CAIB per a l'administració autonòmica?",
+    "respostes": [
+      ["Mantenir actualitzat l''organigrama' digital de l'administració per saber exactament a quin departament i codi d'oficina ha d'anar una sol·licitud.", true],
+      ["Signar documents massivament en nom del Govern per agilitzar processos.", false],
+      ["Realitzar el pagament exclusiu dels salaris a través del banc associat a l'administració.", false],
+      ["Funcionar com un cercador tipus Google exclusiu de les dades del Butlletí Oficial (BOIB).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què aporta PluginsIB als desenvolupadors que treballen dins l'ecosistema de la CAIB?",
+    "respostes": [
+      ["Un repositori de components reutilitzables que facilita la creació de nou programari aprofitant peces ja existents.", true],
+      ["Un antivirus obligatori que bloqueja l'accés a pàgines web no governamentals.", false],
+      ["Una col·lecció de temes de disseny exclusivament estètics per a l'aplicació mòbil de cites de salut.", false],
+      ["La llicència comercial tancada de Microsoft per utilitzar en tots els servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Segons s'indica a la descripció de PluginsIB, quina és l'arquitectura de programari base sobre la qual es fonamenten les plataformes de desenvolupament de la CAIB?",
+    "respostes": [
+      ["L'arquitectura KitAnibal.", true],
+      ["L'arquitectura ARM64.", false],
+      ["L'arquitectura Windows Server Core.", false],
+      ["L'arquitectura GNU Hurd.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Quina és la definició tècnica del catàleg per a l'eina HELIUM, de manera més precisa al que veu el ciutadà?",
+    "respostes": [
+      ["És el Gestor d'Expedients Corporatiu o eina de back-office que usen els funcionaris per moure l'expedient, demanar firmes i controlar terminis.", true],
+      ["És la pàgina web informativa amb notícies i avisos de protecció civil.", false],
+      ["És el directori que conté els telèfons dels alts càrrecs del govern.", false],
+      ["És el repositori centralitzat de codi font obert d'Europa.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Segons la matisació final del document, a qui correspon tècnicament ser 'la cara visible' de la tramitació i notificació de cara a interactuar directament amb el ciutadà?",
+    "respostes": [
+      ["A SISTRA.", true],
+      ["A HELIUM.", false],
+      ["A PINBAL.", false],
+      ["A ARXIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "El fet que aquest conjunt d'eines tecnològiques de la CAIB estiguin alliberades al catàleg de programari lliure, què demostra o facilita principalment?",
+    "respostes": [
+      ["Una aposta per la sobirania tecnològica que permet que altres administracions públiques puguin reutilitzar aquests sistemes sense costos de llicències.", true],
+      ["Que el programari està completament descuidat i es pot piratejar lliurement amb facilitat.", false],
+      ["Que la CAIB depèn exclusivament de proveïdors privats estrangers per oferir el servei a la ciutadania.", false],
+      ["Que l'administració ja no destinarà cap recurs al manteniment informàtic dels sistemes lliures.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "En la finestreta única (Seu Electrònica), quina operació permet a qualsevol persona assegurar-se que una resolució o comunicat administratiu en format digital és veritable i no ha estat manipulat?",
+    "respostes": [
+      ["La verificació de l'autenticitat dels documents electrònics mitjançant el CSV (Codi Segur de Verificació).", true],
+      ["El pagament de la taxa de validació documental a la bústia de recaptació.", false],
+      ["La descàrrega automàtica de formularis d'instància genèrica per a firmar-los a mà.", false],
+      ["L'ús d'un lector de codi de barres instal·lat a la pròpia oficina de l'ajuntament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què representa per a un ciutadà disposar d'un model de Disponibilitat 24/7 de l'Administració Electrònica?",
+    "respostes": [
+      ["Que pot iniciar, gestionar o enviar els seus tràmits telemàtics en qualsevol moment i dia de l'any fora de l'horari d'oficina.", true],
+      ["Que un funcionari el trucarà a les 3 de la matinada si hi ha alguna incidència a l'expedient.", false],
+      ["Que el tràmit sempre es resoldrà en menys de 24 hores garantides.", false],
+      ["Que només es pot accedir a la Seu Electrònica durant el cap de setmana i festius.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "Què passaria si un ciutadà no pot utilitzar SISTRA perquè el tràmit que vol demanar no té un formulari habilitat ni previst per la CAIB?",
+    "respostes": [
+      ["Podria utilitzar el Registre Electrònic Comú (REC) redactant una Instància Genèrica amb la seva documentació adjunta.", true],
+      ["No tindria cap via digital; l'hauria d'imprimir en paper obligatòriament i dur-lo personalment.", false],
+      ["Hauria de sol·licitar al Govern mitjançant queixa formal que programin el formulari i esperar que s'habiliti abans d'iniciar el tràmit.", false],
+      ["Només podria enviar un correu electrònic ordinari a un alt càrrec i esperar que actui com a registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines d'administració electrònica CAIB.",
+    "enunciat": "En la fase de tramitació d'una subvenció, quan l'empleat públic vol veure tots els documents aportats i que actualment conformen un expedient actiu, a quin repositori tècnic acudeix segons el sistema corporatiu?",
+    "respostes": [
+      ["A RIPEA, ja que centralitza tota la documentació d'un expedient 'viu'.", true],
+      ["A ARXIB, ja que custodia l'expedient 'viu' per defecte.", false],
+      ["A PORTAFIB, ja que hi guarda les sol·licituds que esperen firma del ciutadà.", false],
+      ["A ROLSAC, on es registren els expedients en tràmit tant si s'és empresa com ciutadà.", false]
+    ]
+  }
+]

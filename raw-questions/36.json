@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és Java Platform, Enterprise Edition (Java EE) o Jakarta EE?",
+    "respostes": [
+      ["Un sistema operatiu per a servidors.", false],
+      ["Una plataforma robusta per al desenvolupament d'aplicacions empresarials a gran escala, distribuïdes i multicapa.", true],
+      ["Un llenguatge de programació per a microcontroladors.", false],
+      ["Una base de dades relacional.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina característica de Java EE permet separar la presentació, la lògica de negoci i les dades?",
+    "respostes": [
+      ["L'estructura monolítica.", false],
+      ["L'estructura multicapa.", true],
+      ["L'ús d'un sol fitxer de codi.", false],
+      ["La manca de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què garanteix la portabilitat en Java EE?",
+    "respostes": [
+      ["Que només funcioni en Windows.", false],
+      ["L'ús de la màquina virtual Java (JVM), permetent executar aplicacions en qualsevol plataforma compatible.", true],
+      ["Que el codi font s'esborri després de compilar.", false],
+      ["L'ús exclusiu de maquinari d'una marca.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin component de Java EE s'encarrega de processar les peticions i generar respostes dinàmiques al servidor?",
+    "respostes": [
+      ["Applets.", false],
+      ["Servlets.", true],
+      ["Fulls d'estil CSS.", false],
+      ["HTML estàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què permet la tecnologia JSP (JavaServer Pages)?",
+    "respostes": [
+      ["Crear pàgines web estàtiques.", false],
+      ["Crear contingut web dinàmic barrejant HTML amb codi Java.", true],
+      ["Dissenyar bases de dades.", false],
+      ["Enviar correus electrònics manualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què són els EJB (Enterprise JavaBeans)?",
+    "respostes": [
+      ["Components de la interfície d'usuari.", false],
+      ["Components de servidor que encapsulen la lògica de negoci de l'aplicació.", true],
+      ["Fitxers de configuració de text.", false],
+      ["Drivers de la targeta gràfica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina API de Java EE s'utilitza per a la persistència de dades (mapatge objecte-relacional)?",
+    "respostes": [
+      ["JMS.", false],
+      ["JPA (Java Persistence API).", true],
+      ["JAX-RS.", false],
+      ["JSP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Per a què serveix JAX-RS?",
+    "respostes": [
+      ["Per crear serveis web basats en SOAP.", false],
+      ["Per crear serveis web RESTful.", true],
+      ["Per enviar missatges asíncrons.", false],
+      ["Per validar formularis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin servei permet la comunicació asíncrona mitjançant missatges en Java EE?",
+    "respostes": [
+      ["JPA.", false],
+      ["JMS (Java Message Service).", true],
+      ["JSF.", false],
+      ["JDBC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és JSF (JavaServer Faces)?",
+    "respostes": [
+      ["Un servidor d'aplicacions.", false],
+      ["Un framework per construir interfícies d'usuari basades en components per a aplicacions web.", true],
+      ["Una base de dades NoSQL.", false],
+      ["Un protocol de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què facilita la tecnologia CDI (Contexts and Dependency Injection)?",
+    "respostes": [
+      ["La injecció de dependències i la gestió del cicle de vida dels objectes.", true],
+      ["La connexió a Internet.", false],
+      ["La impressió de documents.", false],
+      ["La creació de gràfics 3D.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un contenidor en el context de Java EE?",
+    "respostes": [
+      ["Una capsa física per guardar discs.", false],
+      ["Un entorn d'execució que gestiona el cicle de vida dels components i els proporciona serveis (seguretat, transaccions).", true],
+      ["Un fitxer comprimit ZIP.", false],
+      ["Una variable que guarda dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin tipus de component s'executa en el contenidor web?",
+    "respostes": [
+      ["EJB.", false],
+      ["Servlets i pàgines JSP.", true],
+      ["Applets.", false],
+      ["Clients d'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina funció té el contenidor EJB?",
+    "respostes": [
+      ["Mostrar la interfície gràfica.", false],
+      ["Gestionar l'execució dels Enterprise JavaBeans (lògica de negoci).", true],
+      ["Connectar amb el navegador web.", false],
+      ["Gestionar els fitxers estàtics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és JTA (Java Transaction API)?",
+    "respostes": [
+      ["Una API per dibuixar.", false],
+      ["Una API per gestionar transaccions distribuïdes.", true],
+      ["Una API per reproduir so.", false],
+      ["Una API per enviar correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin component representa la Capa de Client en una arquitectura Java EE típica?",
+    "respostes": [
+      ["La base de dades.", false],
+      ["El navegador web o una aplicació d'escriptori.", true],
+      ["El servidor d'aplicacions.", false],
+      ["El sistema operatiu del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina és la funció de la Capa de Negoci?",
+    "respostes": [
+      ["Emmagatzemar dades físicament.", false],
+      ["Processar la lògica de l'aplicació i les regles de negoci.", true],
+      ["Mostrar les dades a l'usuari.", false],
+      ["Gestionar la connexió de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és JAX-WS?",
+    "respostes": [
+      ["Una API per a serveis web basats en XML (SOAP).", true],
+      ["Una API per a serveis REST.", false],
+      ["Una API per a bases de dades.", false],
+      ["Una API per a interfícies gràfiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és l'objectiu de l'estàndard Java EE a la Comunitat Autònoma de les Illes Balears?",
+    "respostes": [
+      ["Prohibir l'ús de Java.", false],
+      ["Homogeneïtzar el desenvolupament d'aplicacions, reduir costos i facilitar el manteniment.", true],
+      ["Obligar a usar programari de pagament.", false],
+      ["Eliminar els servidors Linux.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què especifica l'estàndard balear respecte a les versions?",
+    "respostes": [
+      ["Que s'ha d'usar sempre la versió beta.", false],
+      ["Les versions específiques de JDK i servidors d'aplicacions (com JBoss/WildFly) a utilitzar.", true],
+      ["Que no importa la versió.", false],
+      ["Que cada desenvolupador triï el que vulgui.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin servidor d'aplicacions és habitual en l'estàndard de les Illes Balears?",
+    "respostes": [
+      ["IIS.", false],
+      ["JBoss EAP o WildFly.", true],
+      ["Apache HTTP Server sol.", false],
+      ["Node.js.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina eina de construcció es recomana en aquest entorn?",
+    "respostes": [
+      ["Make.", false],
+      ["Maven.", true],
+      ["Notepad.", false],
+      ["Excel.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què permet l'escalabilitat en Java EE?",
+    "respostes": [
+      ["L'ús de clústers per distribuir la càrrega entre múltiples servidors.", true],
+      ["Fer la lletra més gran.", false],
+      ["Posar més ventiladors al servidor.", false],
+      ["Usar pantalles més grans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què garanteix la seguretat en Java EE?",
+    "respostes": [
+      ["Un candau físic al servidor.", false],
+      ["Un model de seguretat robust amb autenticació, autorització i xifratge integrats.", true],
+      ["L'absència de connexió a internet.", false],
+      ["L'ús de contrasenyes en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un 'Deployment Descriptor' (web.xml, ejb-jar.xml)?",
+    "respostes": [
+      ["Un manual d'usuari.", false],
+      ["Un fitxer de configuració XML que defineix com s'ha de desplegar l'aplicació.", true],
+      ["Un diagrama de l'aplicació.", false],
+      ["Un llistat d'errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què permet la interoperabilitat en Java EE?",
+    "respostes": [
+      ["Que les aplicacions es comuniquin amb altres sistemes mitjançant estàndards (web services, CORBA).", true],
+      ["Que només funcioni amb aplicacions Java.", false],
+      ["Que no es pugui connectar amb res.", false],
+      ["Que funcioni sense sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina funció té el Java Naming and Directory Interface (JNDI)?",
+    "respostes": [
+      ["Reproduir música.", false],
+      ["Permetre a les aplicacions accedir a serveis de nomenament i directori per localitzar recursos.", true],
+      ["Editar imatges.", false],
+      ["Calcular rutes GPS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un arxiu WAR (Web Archive)?",
+    "respostes": [
+      ["Un fitxer de guerra.", false],
+      ["Un fitxer comprimit que conté una aplicació web completa (servlets, JSP, HTML, etc.).", true],
+      ["Un fitxer de text pla.", false],
+      ["Un fitxer d'àudio.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un arxiu EAR (Enterprise Archive)?",
+    "respostes": [
+      ["Una orella digital.", false],
+      ["Un fitxer que agrupa mòduls web (WAR) i mòduls EJB (JAR) en una sola aplicació empresarial.", true],
+      ["Un fitxer d'imatge.", false],
+      ["Un fitxer de configuració del ratolí.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina és la relació entre Java EE i Jakarta EE?",
+    "respostes": [
+      ["Són tecnologies rivals incompatibles.", false],
+      ["Jakarta EE és l'evolució de Java EE després que Oracle transferís el projecte a la Fundació Eclipse.", true],
+      ["Jakarta EE és una versió antiga de Java EE.", false],
+      ["No tenen cap relació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina tecnologia s'utilitza per a la validació de dades en Java EE?",
+    "respostes": [
+      ["Bean Validation.", true],
+      ["Word check.", false],
+      ["Excel validation.", false],
+      ["Notepad.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què permet l'API JavaMail?",
+    "respostes": [
+      ["Enviar i rebre correus electrònics des de l'aplicació.", true],
+      ["Xatejar en temps real.", false],
+      ["Navegar per internet.", false],
+      ["Crear documents PDF.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin benefici aporta l'ús de patrons de disseny (com MVC) en Java EE?",
+    "respostes": [
+      ["Fa el codi més difícil de llegir.", false],
+      ["Millora l'organització, la mantenibilitat i la separació de responsabilitats.", true],
+      ["Redueix la velocitat de l'aplicació.", false],
+      ["Augmenta el cost de desenvolupament innecessàriament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina capa s'encarrega d'interactuar amb la base de dades?",
+    "respostes": [
+      ["Capa de Presentació.", false],
+      ["Capa d'Accés a Dades (o Capa de Persistència).", true],
+      ["Capa de Negoci.", false],
+      ["Capa de Client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un 'Datasource' en un servidor d'aplicacions?",
+    "respostes": [
+      ["Una font de text.", false],
+      ["Un recurs configurat que proporciona connexions a una base de dades.", true],
+      ["Una carpeta de fitxers.", false],
+      ["Un tipus de variable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin avantatge té l'estandardització en l'Administració Pública?",
+    "respostes": [
+      ["Cap.", false],
+      ["Facilita la interoperabilitat entre diferents sistemes i departaments.", true],
+      ["Fa que els sistemes siguin més lents.", false],
+      ["Obliga a canviar d'ordinadors cada any.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina tecnologia de Java EE permet crear aplicacions WebSocket?",
+    "respostes": [
+      ["Java API for WebSocket.", true],
+      ["JPA.", false],
+      ["JSF.", false],
+      ["EJB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 36. L'arquitectura Java EE. Característiques de funcionament. Elements constitutius. L'estàndard Java EE de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és la injecció de dependències (DI)?",
+    "respostes": [
+      ["Un virus.", false],
+      ["Un patró on els objectes reben les seves dependències d'una font externa en lloc de crear-les ells mateixos.", true],
+      ["Una vacuna per al servidor.", false],
+      ["Un error de memòria.", false]
+    ]
+  }
+]

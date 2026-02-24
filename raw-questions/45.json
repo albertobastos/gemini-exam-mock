@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin és un dels objectius principals de l'optimització de dades en una base de dades relacional?",
+    "respostes": [
+      ["Augmentar la mida dels fitxers de dades.", false],
+      ["Millorar l'eficiència en l'accés i manipulació de les dades.", true],
+      ["Eliminar totes les claus foranes.", false],
+      ["Fer que la base de dades sigui més lenta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què implica la normalització en el context de l'optimització de dades?",
+    "respostes": [
+      ["Organitzar les dades per minimitzar la redundància i millorar la integritat.", true],
+      ["Duplicar dades per seguretat.", false],
+      ["Crear una sola taula gegant per a tot.", false],
+      ["Eliminar els índexs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què són els índexs en una base de dades?",
+    "respostes": [
+      ["Estructures que alenteixen les consultes SELECT.", false],
+      ["Estructures que milloren la velocitat de recuperació de dades.", true],
+      ["Còpies de seguretat automàtiques.", false],
+      ["Arxius de configuració de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin efecte pot tenir un excés d'índexs en una taula?",
+    "respostes": [
+      ["Millora el rendiment de les operacions d'escriptura (INSERT, UPDATE).", false],
+      ["Pot degradar el rendiment de les operacions d'escriptura i ocupar massa espai.", true],
+      ["No té cap efecte negatiu.", false],
+      ["Fa que la base de dades no es pugui connectar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què permet el particionament de taules?",
+    "respostes": [
+      ["Dividir taules grans en parts més petites per millorar el rendiment i la gestió.", true],
+      ["Unir taules petites en una de gran.", false],
+      ["Encriptar les dades de la taula.", false],
+      ["Esborrar dades antigues automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quina eina utilitza l'optimitzador de consultes per determinar el millor camí d'execució?",
+    "respostes": [
+      ["El log d'errors.", false],
+      ["Les estadístiques de la base de dades (distribució de dades, cardinalitat).", true],
+      ["La llista d'usuaris connectats.", false],
+      ["La memòria RAM lliure.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és un Pla d'Execució (Explain Plan)?",
+    "respostes": [
+      ["Un document de text amb instruccions per a l'usuari.", false],
+      ["Una descripció dels passos que el SGBD seguirà per executar una consulta SQL.", true],
+      ["Un pla per fer còpies de seguretat.", false],
+      ["Una llista de taules a crear.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què significa que una consulta faci un 'Full Table Scan'?",
+    "respostes": [
+      ["Que utilitza un índex eficientment.", false],
+      ["Que llegeix tota la taula seqüencialment, la qual cosa pot ser ineficient per a taules grans.", true],
+      ["Que escaneja la taula a la recerca de virus.", false],
+      ["Que bloqueja la taula per a altres usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin paràmetre de memòria és crític per al rendiment en Oracle (i similar en altres SGBD)?",
+    "respostes": [
+      ["La mida del tipus de lletra.", false],
+      ["La mida de la SGA (System Global Area) o Buffer Cache.", true],
+      ["La resolució de pantalla.", false],
+      ["L'espai lliure al disc C:.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què fan els processos en segon pla (background processes) en un SGBD?",
+    "respostes": [
+      ["Mostren la interfície gràfica.", false],
+      ["Realitzen tasques de manteniment com escriptura a disc (DBWn) i gestió de logs (LGWR).", true],
+      ["No fan res important.", false],
+      ["Només gestionen la impressió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Per què és important configurar correctament els arxius de log (Redo Logs)?",
+    "respostes": [
+      ["Per estalviar espai en disc.", false],
+      ["Per assegurar la recuperabilitat de les transaccions i evitar colls d'ampolla en l'escriptura.", true],
+      ["Perquè els usuaris puguin llegir el que fan altres.", false],
+      ["Per complir amb la llei de protecció de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin paràmetre del sistema operatiu pot afectar el rendiment de la base de dades?",
+    "respostes": [
+      ["El fons d'escriptori.", false],
+      ["La gestió de la memòria virtual (swap/paginació) i la configuració d'I/O.", true],
+      ["La versió del navegador web.", false],
+      ["El volum dels altaveus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què implica separar els fitxers de dades i els fitxers de log en diferents discos físics?",
+    "respostes": [
+      ["Res, no serveix per a res.", false],
+      ["Millora el rendiment d'E/S en reduir la competència pel capçal del disc.", true],
+      ["És perillós per a la integritat de les dades.", false],
+      ["Només es fa en sistemes antics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin fitxer de configuració de xarxa és clau en entorns Oracle?",
+    "respostes": [
+      ["hosts.txt.", false],
+      ["listener.ora i tnsnames.ora.", true],
+      ["network.conf.", false],
+      ["ipconfig.exe.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (I).",
+    "enunciat": "Quin protocol de xarxa és l'estàndard per a la connexió a bases de dades?",
+    "respostes": [
+      ["HTTP.", false],
+      ["TCP/IP.", true],
+      ["FTP.", false],
+      ["SMTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què permet el 'Connection Pooling' (agrupació de connexions)?",
+    "respostes": [
+      ["Tenir una sola connexió per a tota l'empresa.", false],
+      ["Reutilitzar connexions existents per reduir la sobrecàrrega de crear-ne de noves constantment.", true],
+      ["Connectar-se a internet gratis.", false],
+      ["Nedar a la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quina mesura millora la seguretat de la xarxa de base de dades?",
+    "respostes": [
+      ["Publicar el port de la base de dades a internet.", false],
+      ["Utilitzar xifratge (SSL/TLS) per a les dades en trànsit.", true],
+      ["No posar contrasenya a l'usuari administrador.", false],
+      ["Utilitzar protocols antics com Telnet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és una Còpia de Seguretat Completa (Full Backup)?",
+    "respostes": [
+      ["Una còpia només dels fitxers modificats.", false],
+      ["Una còpia de tota la base de dades.", true],
+      ["Una còpia de la memòria RAM.", false],
+      ["Una còpia dels usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què caracteritza una Còpia de Seguretat Incremental?",
+    "respostes": [
+      ["Copia totes les dades cada vegada.", false],
+      ["Copia només les dades que han canviat des de l'última còpia (sigui completa o incremental).", true],
+      ["Copia dades aleatòries.", false],
+      ["Només copia els índexs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què caracteritza una Còpia de Seguretat Diferencial?",
+    "respostes": [
+      ["Copia només els canvis des de l'última còpia incremental.", false],
+      ["Copia totes les dades que han canviat des de l'última còpia completa.", true],
+      ["És el mateix que una còpia completa.", false],
+      ["No copia res.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin és l'avantatge de les còpies incrementals?",
+    "respostes": [
+      ["Són més ràpides de fer i ocupen menys espai.", true],
+      ["Són més ràpides de restaurar.", false],
+      ["Són més fàcils de gestionar manualment.", false],
+      ["No tenen cap avantatge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin és el desavantatge de les còpies incrementals a l'hora de restaurar?",
+    "respostes": [
+      ["No tenen desavantatges.", false],
+      ["El temps de restauració és més llarg perquè cal aplicar l'última completa i totes les incrementals successives.", true],
+      ["Ocupen massa espai.", false],
+      ["No es poden restaurar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és el RTO (Recovery Time Objective)?",
+    "respostes": [
+      ["La quantitat de dades que es poden perdre.", false],
+      ["El temps màxim objectiu per recuperar el sistema després d'una fallada.", true],
+      ["El temps que triga a fer-se el backup.", false],
+      ["El cost del backup.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és el RPO (Recovery Point Objective)?",
+    "respostes": [
+      ["El temps de recuperació.", false],
+      ["La quantitat màxima de dades (mesurada en temps) que l'organització tolera perdre (punt en el temps al qual es recupera).", true],
+      ["El punt on es guarda el backup.", false],
+      ["El pressupost de recuperació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Per què és important la verificació de les còpies de seguretat?",
+    "respostes": [
+      ["Per gastar temps.", false],
+      ["Per assegurar que les còpies són vàlides i es poden restaurar correctament en cas de necessitat.", true],
+      ["Perquè ocupin més espai.", false],
+      ["No és important.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què permet fer una eina com RMAN (Recovery Manager) en Oracle?",
+    "respostes": [
+      ["Dissenyar taules.", false],
+      ["Gestionar còpies de seguretat, restauració i recuperació de manera eficient.", true],
+      ["Gestionar usuaris.", false],
+      ["Optimitzar consultes SQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és una còpia de seguretat en fred (Cold Backup)?",
+    "respostes": [
+      ["Una còpia feta a l'hivern.", false],
+      ["Una còpia feta amb la base de dades aturada (consistent, però requereix temps d'inactivitat).", true],
+      ["Una còpia feta mentre la base de dades està funcionant.", false],
+      ["Una còpia que es guarda a la nevera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és una còpia de seguretat en calent (Hot Backup)?",
+    "respostes": [
+      ["Una còpia que crema.", false],
+      ["Una còpia feta mentre la base de dades està en funcionament i accessible per als usuaris.", true],
+      ["Una còpia que no funciona.", false],
+      ["Una còpia dels fitxers temporals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quina estratègia de backup s'anomena '3-2-1'?",
+    "respostes": [
+      ["Fer 3 còpies cada 2 dies i guardar-ne 1.", false],
+      ["Mantenir 3 còpies de les dades, en 2 suports diferents, i 1 d'elles fora de l'oficina (off-site).", true],
+      ["Fer còpies a les 3, a les 2 i a la 1.", false],
+      ["Utilitzar 3 servidors, 2 discos i 1 cinta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és el RAID?",
+    "respostes": [
+      ["Un insecticida.", false],
+      ["Un sistema per combinar múltiples discos durs per millorar el rendiment, la redundància o ambdós.", true],
+      ["Un tipus de memòria RAM.", false],
+      ["Un protocol de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin nivell de RAID ofereix 'Mirroring' (mirall) sense paritat?",
+    "respostes": [
+      ["RAID 0.", false],
+      ["RAID 1.", true],
+      ["RAID 5.", false],
+      ["RAID 10.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és l'equilibrament de càrrega (Load Balancing) en serveis de xarxa de bases de dades?",
+    "respostes": [
+      ["Posar pesos als servidors.", false],
+      ["Distribuir les peticions de connexió entre múltiples instàncies o servidors per evitar sobrecarregar-ne un de sol.", true],
+      ["Apagar servidors aleatòriament.", false],
+      ["Utilitzar un sol cable de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quina acció pot ajudar a mantenir el rendiment dels índexs amb el temps?",
+    "respostes": [
+      ["Esborrar-los.", false],
+      ["Reconstruir-los o reorganitzar-los periòdicament per eliminar la fragmentació.", true],
+      ["No fer res.", false],
+      ["Crear més índexs iguals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què s'entén per 'Tuning' de la base de dades?",
+    "respostes": [
+      ["Posar música.", false],
+      ["El procés d'ajustar paràmetres i configuracions per optimitzar el rendiment del sistema.", true],
+      ["Canviar el nom de la base de dades.", false],
+      ["Actualitzar el maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quin paper juguen les estadístiques en l'optimització de consultes?",
+    "respostes": [
+      ["Cap.", false],
+      ["Proporcionen informació a l'optimitzador sobre la distribució de les dades per triar el millor pla.", true],
+      ["Només serveixen per fer gràfics.", false],
+      ["Alenteixen el sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Què és un 'bottleneck' (coll d'ampolla) en el rendiment?",
+    "respostes": [
+      ["Una marca de vi.", false],
+      ["Un recurs limitat (CPU, disc, memòria, xarxa) que frena el rendiment global del sistema.", true],
+      ["Un tipus de cable.", false],
+      ["Un error de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "Quina eina permet monitoritzar el rendiment en temps real?",
+    "respostes": [
+      ["Bloc de notes.", false],
+      ["Monitors de rendiment (com Oracle Enterprise Manager, top, perfmon).", true],
+      ["Calculadora.", false],
+      ["Client de correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment, optimització i còpies de seguretat.",
+    "enunciat": "En què consisteix la 'recuperació point-in-time'?",
+    "respostes": [
+      ["En recuperar l'última còpia completa.", false],
+      ["En restaurar la base de dades a un moment exacte del passat utilitzant backups i logs de redo/arxiu.", true],
+      ["En recuperar dades esborrades manualment.", false],
+      ["En reiniciar el servidor.", false]
+    ]
+  }
+]

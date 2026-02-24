@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quin és l'objectiu principal dels processos de proves de programari?",
+    "respostes": [
+      ["Escriure el codi font més ràpidament.", false],
+      ["Identificar i corregir errors, i verificar que el programari compleix els requisits especificats.", true],
+      ["Dissenyar la base de dades.", false],
+      ["Gestionar el pressupost del projecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quina és la diferència principal entre Proves i Garantia de Qualitat (QA)?",
+    "respostes": [
+      ["Les proves són per a maquinari i QA per a programari.", false],
+      ["Les proves se centren en detectar errors; QA és un procés sistemàtic per prevenir defectes i millorar processos.", true],
+      ["QA es fa només al final del projecte.", false],
+      ["Són exactament el mateix.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "En què consisteixen les Proves Unitàries?",
+    "respostes": [
+      ["En provar tot el sistema de cop.", false],
+      ["En verificar components individuals del codi (funcions, mètodes) de manera aïllada.", true],
+      ["En provar la interfície d'usuari.", false],
+      ["En demanar al client que provi el producte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quin és l'objectiu de les Proves d'Integració?",
+    "respostes": [
+      ["Comprovar la sintaxi del codi.", false],
+      ["Verificar la interacció i comunicació entre diferents mòduls o components.", true],
+      ["Provar el rendiment del servidor.", false],
+      ["Analitzar els requisits de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què verifiquen les Proves de Sistema?",
+    "respostes": [
+      ["Només les funcions matemàtiques.", false],
+      ["El funcionament del sistema completament integrat segons els requisits especificats.", true],
+      ["La qualitat del codi font línia per línia.", false],
+      ["La configuració de l'entorn de desenvolupament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Qui realitza habitualment les Proves d'Acceptació?",
+    "respostes": [
+      ["Els desenvolupadors.", false],
+      ["Els usuaris finals o clients.", true],
+      ["El servidor automàticament.", false],
+      ["L'administrador de la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què caracteritza les Proves Estàtiques?",
+    "respostes": [
+      ["Requereixen executar el programa.", false],
+      ["Impliquen la revisió del codi o documentació sense executar el programari.", true],
+      ["Només es fan en entorns de producció.", false],
+      ["Són proves de rendiment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què defineix les Proves de Caixa Blanca (White-box)?",
+    "respostes": [
+      ["Es fan sense conèixer el codi intern.", false],
+      ["Es basen en el coneixement de l'estructura interna i la lògica del codi.", true],
+      ["Són proves d'usabilitat.", false],
+      ["Sempre són manuals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "En què es basen les Proves de Caixa Negra (Black-box)?",
+    "respostes": [
+      ["En l'anàlisi de la sintaxi del codi.", false],
+      ["En les funcionalitats i requisits, sense considerar l'estructura interna del codi.", true],
+      ["En la revisió de comentaris al codi.", false],
+      ["En l'ús de depuradors (debuggers).", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quina eina s'utilitza habitualment per a l'automatització de proves d'interfícies web?",
+    "respostes": [
+      ["JUnit.", false],
+      ["Selenium.", true],
+      ["SonarQube.", false],
+      ["Git.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Per a què serveix l'eina SonarQube?",
+    "respostes": [
+      ["Per gestionar projectes.", false],
+      ["Per a l'anàlisi contínua de la qualitat del codi (estàtic).", true],
+      ["Per fer proves de càrrega.", false],
+      ["Per dissenyar interfícies.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què són els Criteris d'Acceptació?",
+    "respostes": [
+      ["Una llista de suggeriments.", false],
+      ["Un conjunt de condicions que un producte ha de complir per ser acceptat per l'usuari.", true],
+      ["El pressupost màxim del projecte.", false],
+      ["Les credencials d'accés al sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quan s'han de definir els criteris d'acceptació?",
+    "respostes": [
+      ["Després de lliurar el programari.", false],
+      ["Durant les fases inicials, com a part de l'especificació de requisits.", true],
+      ["Quan es produeix un error.", false],
+      ["Mai, són opcionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quin principi de programació segura recomana donar només els permisos necessaris?",
+    "respostes": [
+      ["Principi de màxima exposició.", false],
+      ["Principi del menor privilegi.", true],
+      ["Principi de codi obert.", false],
+      ["Principi de redundància.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quina pràctica és essencial per evitar atacs d'injecció (com SQL Injection)?",
+    "respostes": [
+      ["Usar contrasenyes curtes.", false],
+      ["Validació rigorosa de totes les entrades de dades.", true],
+      ["Publicar el codi font.", false],
+      ["No utilitzar bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què són les proves de penetració (pentesting)?",
+    "respostes": [
+      ["Instal·lar el programari en molts ordinadors.", false],
+      ["Simular atacs contra un sistema per identificar vulnerabilitats de seguretat.", true],
+      ["Provar la resistència a l'aigua del maquinari.", false],
+      ["Mesurar la velocitat de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és una prova de regressió?",
+    "respostes": [
+      ["Tornar a una versió anterior del programari.", false],
+      ["Verificar que els canvis recents no han trencat funcionalitats existents.", true],
+      ["Provar el sistema des de zero.", false],
+      ["Esborrar la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quina eina s'utilitza per a proves d'API simulant peticions HTTP?",
+    "respostes": [
+      ["Photoshop.", false],
+      ["Postman.", true],
+      ["Excel.", false],
+      ["Word.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què avalua una auditoria de codi?",
+    "respostes": [
+      ["El sou dels programadors.", false],
+      ["El codi font per detectar errors, vulnerabilitats i desviacions d'estàndards.", true],
+      ["L'horari laboral.", false],
+      ["La marca dels monitors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és SAST (Static Application Security Testing)?",
+    "respostes": [
+      ["Proves de seguretat dinàmiques.", false],
+      ["Eines que analitzen el codi font en repòs per trobar vulnerabilitats.", true],
+      ["Un protocol de xarxa.", false],
+      ["Un tipus de base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és DAST (Dynamic Application Security Testing)?",
+    "respostes": [
+      ["Anàlisi de documents en paper.", false],
+      ["Eines que analitzen aplicacions en execució per trobar vulnerabilitats.", true],
+      ["Un llenguatge de programació.", false],
+      ["Un sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què defineix l'estàndard ISO/IEC 25010?",
+    "respostes": [
+      ["Els colors de la interfície.", false],
+      ["Un model de qualitat del programari (fiabilitat, seguretat, usabilitat, etc.).", true],
+      ["El preu del programari.", false],
+      ["La mida del disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què implica la gestió segura de sessions?",
+    "respostes": [
+      ["Tancar la sessió cada 5 minuts.", false],
+      ["Protegir els identificadors de sessió per prevenir el segrest de sessions.", true],
+      ["No utilitzar cookies.", false],
+      ["Obligar l'usuari a reiniciar l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què són les proves exploratòries?",
+    "respostes": [
+      ["Proves basades en un guió estricte.", false],
+      ["Un enfocament flexible on el tester aprèn i dissenya proves simultàniament mentre explora el sistema.", true],
+      ["Proves automatitzades nocturnes.", false],
+      ["Proves de maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Per què és important l'anàlisi de riscos en les proves?",
+    "respostes": [
+      ["Per no fer proves.", false],
+      ["Per prioritzar les àrees més crítiques o propenses a fallades.", true],
+      ["Per espantar als desenvolupadors.", false],
+      ["Per augmentar el cost.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què fa una eina com JMeter?",
+    "respostes": [
+      ["Edita imatges.", false],
+      ["Realitza proves de càrrega i rendiment.", true],
+      ["Gestiona correus electrònics.", false],
+      ["Repara discos durs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és la cobertura de codi?",
+    "respostes": [
+      ["La quantitat de línies de codi escrites.", false],
+      ["El percentatge de codi que s'executa durant les proves automatitzades.", true],
+      ["La mida del fitxer executable.", false],
+      ["El nombre de comentaris al codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quina tècnica de caixa negra divideix les entrades en grups similars?",
+    "respostes": [
+      ["Prova d'estrès.", false],
+      ["Partició d'equivalència.", true],
+      ["Prova de camins.", false],
+      ["Revisió de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què verifiquen les proves de valors límits?",
+    "respostes": [
+      ["El centre de les dades.", false],
+      ["El comportament del sistema en els extrems dels intervals d'entrada.", true],
+      ["La velocitat de càrrega.", false],
+      ["La seguretat de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quina és la funció de 'Mocking' en proves unitàries?",
+    "respostes": [
+      ["Burlar-se del codi.", false],
+      ["Simular dependències externes (com bases de dades) per aïllar la unitat a provar.", true],
+      ["Copiar el codi de producció.", false],
+      ["Esborrar dades reals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què implica el principi de 'Defensa en profunditat'?",
+    "respostes": [
+      ["Tenir una sola contrasenya forta.", false],
+      ["Implementar múltiples capes de seguretat per si una falla.", true],
+      ["Amagar el servidor sota terra.", false],
+      ["No connectar-se a internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és JUnit?",
+    "respostes": [
+      ["Un joc.", false],
+      ["Un marc per a proves unitàries en Java.", true],
+      ["Un sistema operatiu.", false],
+      ["Un navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què garanteix la validació d'entrades en programació segura?",
+    "respostes": [
+      ["Que l'usuari escrigui ràpid.", false],
+      ["Que les dades introduïdes siguin correctes i segures abans de processar-les.", true],
+      ["Que no es pugui esborrar res.", false],
+      ["Que el sistema sigui més bonic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és una prova d'ús (Usability Testing)?",
+    "respostes": [
+      ["Provar si el sistema s'encén.", false],
+      ["Avaluar la facilitat d'ús i intuïció del sistema des de la perspectiva de l'usuari.", true],
+      ["Provar la resistència a caigudes.", false],
+      ["Calcular el consum elèctric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Quin tipus de prova verifica que una funció específica fa el que se suposa que ha de fer?",
+    "respostes": [
+      ["Prova de rendiment.", false],
+      ["Prova funcional.", true],
+      ["Prova d'estrès.", false],
+      ["Prova de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què permeten les eines de gestió de proves com TestRail?",
+    "respostes": [
+      ["Programar automàticament.", false],
+      ["Organitzar casos de prova, executar-los i fer seguiment dels resultats.", true],
+      ["Dissenyar gràfics 3D.", false],
+      ["Enviar factures.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què és una vulnerabilitat de seguretat en el codi?",
+    "respostes": [
+      ["Una característica no documentada.", false],
+      ["Un punt feble que pot ser explotat per atacants.", true],
+      ["Un error gramatical als comentaris.", false],
+      ["Una variable sense utilitzar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 33. Processos de proves i garantia de la qualitat en el desenvolupament de programari.",
+    "enunciat": "Què implica la gestió segura d'errors?",
+    "respostes": [
+      ["Mostrar tots els detalls tècnics a l'usuari.", false],
+      ["No revelar informació sensible en els missatges d'error públics.", true],
+      ["Ignorar els errors.", false],
+      ["Apagar el sistema quan hi ha un error.", false]
+    ]
+  }
+]

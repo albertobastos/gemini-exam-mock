@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "On i quan es va desenvolupar inicialment UNIX?",
+    "respostes": [
+      ["A Microsoft el 1985.", false],
+      ["Als Bell Labs el 1969.", true],
+      ["A la Universitat de Hèlsinki el 1991.", false],
+      ["A Apple el 1976.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin llenguatge de programació va permetre augmentar la portabilitat d'UNIX?",
+    "respostes": [
+      ["Java.", false],
+      ["Python.", false],
+      ["C.", true],
+      ["Ensamblador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Qui va crear el nucli de Linux el 1991?",
+    "respostes": [
+      ["Ken Thompson.", false],
+      ["Dennis Ritchie.", false],
+      ["Linus Torvalds.", true],
+      ["Richard Stallman.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina és la funció principal del Nucli (Kernel)?",
+    "respostes": [
+      ["Proporcionar una interfície gràfica d'usuari.", false],
+      ["Gestionar els recursos del sistema com la CPU, la memòria i els dispositius d'E/S.", true],
+      ["Compilar programes en C.", false],
+      ["Navegar per Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Què és la Shell en un sistema Linux/UNIX?",
+    "respostes": [
+      ["El sistema de fitxers principal.", false],
+      ["Un tipus de virus informàtic.", false],
+      ["La interfície d'usuari que permet comunicar-se amb el nucli.", true],
+      ["El gestor d'arrancada del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin dels següents és un exemple de Shell CLI (Command Line Interface)?",
+    "respostes": [
+      ["Gnome.", false],
+      ["Bash.", true],
+      ["Firefox.", false],
+      ["KDE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina característica defineix un sistema 'Multiusuari'?",
+    "respostes": [
+      ["Pot executar molts processos alhora.", false],
+      ["Permet que múltiples usuaris treballin al mateix temps sense interferir entre ells.", true],
+      ["Té múltiples nuclis de processador.", false],
+      ["És compatible amb Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin sistema de fitxers és comú en entorns Linux?",
+    "respostes": [
+      ["NTFS.", false],
+      ["ext4.", true],
+      ["FAT32.", false],
+      ["APFS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda s'utilitza per crear un nou usuari?",
+    "respostes": [
+      ["newuser.", false],
+      ["useradd.", true],
+      ["createuser.", false],
+      ["addusergroup.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "A quin fitxer es guarda la informació bàsica dels usuaris (com el nom i l'ID)?",
+    "respostes": [
+      ["/etc/shadow.", false],
+      ["/etc/group.", false],
+      ["/etc/passwd.", true],
+      ["/var/users.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda serveix per canviar els permisos d'un fitxer?",
+    "respostes": [
+      ["chown.", false],
+      ["chmod.", true],
+      ["chgrp.", false],
+      ["attrib.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Què fa la comanda 'chown'?",
+    "respostes": [
+      ["Canvia els permisos de lectura/escriptura.", false],
+      ["Canvia el propietari d'un fitxer o directori.", true],
+      ["Canvia el grup d'un fitxer.", false],
+      ["Esborra el fitxer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda permet veure els processos en execució en temps real?",
+    "respostes": [
+      ["ls.", false],
+      ["top.", true],
+      ["cd.", false],
+      ["cp.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina ordre s'utilitza per finalitzar o matar un procés?",
+    "respostes": [
+      ["stop.", false],
+      ["end.", false],
+      ["kill.", true],
+      ["exit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Per a què serveixen les comandes 'nice' i 'renice'?",
+    "respostes": [
+      ["Per fer que la terminal es vegi millor.", false],
+      ["Per ajustar la prioritat dels processos.", true],
+      ["Per netejar la memòria RAM.", false],
+      ["Per programar tasques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina eina s'utilitza per programar tasques automatitzades recurrents?",
+    "respostes": [
+      ["at.", false],
+      ["cron.", true],
+      ["time.", false],
+      ["schedule.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda mostra l'ús d'espai en disc dels sistemes de fitxers?",
+    "respostes": [
+      ["free.", false],
+      ["top.", false],
+      ["df.", true],
+      ["ls.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda mostra l'ús de la memòria RAM?",
+    "respostes": [
+      ["df.", false],
+      ["free.", true],
+      ["mem.", false],
+      ["ram.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin directori conté els fitxers de configuració del sistema?",
+    "respostes": [
+      ["/bin.", false],
+      ["/home.", false],
+      ["/etc.", true],
+      ["/var.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda s'utilitza per muntar un sistema de fitxers?",
+    "respostes": [
+      ["load.", false],
+      ["mount.", true],
+      ["attach.", false],
+      ["insert.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin fitxer configura el muntatge automàtic de sistemes de fitxers a l'inici?",
+    "respostes": [
+      ["/etc/mtab.", false],
+      ["/etc/modules.", false],
+      ["/etc/fstab.", true],
+      ["/etc/boot.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina eina s'esmenta per gestionar regles de tallafocs (firewall)?",
+    "respostes": [
+      ["iptables.", true],
+      ["netstat.", false],
+      ["ifconfig.", false],
+      ["ping.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin gestor de paquets és típic de distribucions com Ubuntu o Debian?",
+    "respostes": [
+      ["yum.", false],
+      ["apt.", true],
+      ["pacman.", false],
+      ["zypper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda permet executar tasques puntuals en un moment futur específic?",
+    "respostes": [
+      ["cron.", false],
+      ["at.", true],
+      ["now.", false],
+      ["later.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Per a què serveix la comanda 'tar'?",
+    "respostes": [
+      ["Per configurar la xarxa.", false],
+      ["Per fer còpies de seguretat i empaquetar fitxers.", true],
+      ["Per editar text.", false],
+      ["Per compilar codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin és l'objectiu principal d'eines com Nagios o Zabbix?",
+    "respostes": [
+      ["Crear usuaris.", false],
+      ["Monitoritzar l'estat i rendiment del sistema.", true],
+      ["Editar imatges.", false],
+      ["Reproduir música.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Què significa l'acrònim LAMP en el context de servidors?",
+    "respostes": [
+      ["Linux, Apple, Mac, PC.", false],
+      ["Linux, Apache, MySQL, PHP.", true],
+      ["Local Area Map Protocol.", false],
+      ["Linux Application Management Process.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda permet establir límits d'ús de recursos per processos?",
+    "respostes": [
+      ["limit.", false],
+      ["ulimit.", true],
+      ["quota.", false],
+      ["restrict.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quin directori conté habitualment les carpetes personals dels usuaris?",
+    "respostes": [
+      ["/usr.", false],
+      ["/var.", false],
+      ["/home.", true],
+      ["/root.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Què permet fer la comanda 'rsync'?",
+    "respostes": [
+      ["Sincronitzar fitxers i directoris de manera eficient.", true],
+      ["Reiniciar el sistema.", false],
+      ["Canviar la resolució de pantalla.", false],
+      ["Enviar correus electrònics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina és una característica del 'Codi obert' en Linux?",
+    "respostes": [
+      ["Que el codi font és secret.", false],
+      ["Que el codi font és accessible i modificable per a tothom.", true],
+      ["Que només el pot modificar el creador original.", false],
+      ["Que és de pagament obligatori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina distribució de Linux es menciona com a exemple per a usuaris novells?",
+    "respostes": [
+      ["Arch Linux.", false],
+      ["Ubuntu.", true],
+      ["Gentoo.", false],
+      ["Slackware.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Per a què serveix el fitxer '/etc/shadow'?",
+    "respostes": [
+      ["Per guardar els noms dels grups.", false],
+      ["Per emmagatzemar les contrasenyes dels usuaris de manera segura.", true],
+      ["Per configurar la xarxa.", false],
+      ["Per llistar els programes instal·lats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina tecnologia s'utilitza sovint en clusters de computació d'alt rendiment (HPC)?",
+    "respostes": [
+      ["Windows 98.", false],
+      ["Sistemes Linux.", true],
+      ["MS-DOS.", false],
+      ["Android.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina eina permet l'ús de llistes de control d'accés (ACL) per a un control més granular?",
+    "respostes": [
+      ["getfacl / setfacl.", true],
+      ["mkdir.", false],
+      ["touch.", false],
+      ["cat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Què és 'OpenWrt'?",
+    "respostes": [
+      ["Un processador de textos.", false],
+      ["Un exemple de Linux per a dispositius embeguts com routers.", true],
+      ["Un joc per a Linux.", false],
+      ["Un servidor web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina comanda permet veure els fitxers d'un directori?",
+    "respostes": [
+      ["cd.", false],
+      ["ls.", true],
+      ["pwd.", false],
+      ["mv.", false]
+    ]
+  },
+  {
+    "tema": "Tema 11. Sistemes operatius LINUX-UNIX. Conceptes generals, administració.",
+    "enunciat": "Quina és la funció de 'htop'?",
+    "respostes": [
+      ["Editar text.", false],
+      ["Monitoritzar l'ús de recursos de manera interactiva.", true],
+      ["Copiar fitxers.", false],
+      ["Connectar-se per SSH.", false]
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què és una Intranet?",
+    "respostes": [
+      ["Una xarxa pública accessible per tothom a Internet.", false],
+      ["Una xarxa privada que utilitza tecnologies d'Internet per a ús intern d'una organització.", true],
+      ["Una xarxa dedicada exclusivament a la connexió amb proveïdors externs.", false],
+      ["Un programari per dissenyar pàgines web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina és la diferència principal entre una Intranet i una Extranet?",
+    "respostes": [
+      ["La Intranet és només per a ús intern, mentre que l'Extranet permet l'accés controlat a usuaris externs.", true],
+      ["La Intranet utilitza protocols web i l'Extranet no.", false],
+      ["L'Extranet és més segura que la Intranet perquè no està connectada a Internet.", false],
+      ["No hi ha cap diferència, són sinònims.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quines tecnologies utilitza principalment una Intranet per a la interfície d'usuari?",
+    "respostes": [
+      ["Tecnologies propietàries antigues.", false],
+      ["Tecnologies i protocols web estàndard com HTML i HTTP/HTTPS.", true],
+      ["Només línies de comandes de terminal.", false],
+      ["Connexions via satèl·lit exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin és un dels objectius principals d'una Extranet?",
+    "respostes": [
+      ["Permetre que qualsevol persona d'Internet accedeixi a les dades de l'empresa.", false],
+      ["Facilitar la col·laboració segura amb socis comercials, proveïdors o clients.", true],
+      ["Substituir la pàgina web pública de l'empresa.", false],
+      ["Eliminar la necessitat de tenir una Intranet interna.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin component de seguretat és essencial per protegir una Intranet d'accessos no autoritzats?",
+    "respostes": [
+      ["Un tallafoc (firewall).", true],
+      ["Un monitor d'alta resolució.", false],
+      ["Un ratolí ergonòmic.", false],
+      ["Una impressora de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Com es garanteix la seguretat de les connexions en una Extranet?",
+    "respostes": [
+      ["No cal seguretat addicional.", false],
+      ["Mitjançant l'ús de VPNs (Virtual Private Networks) i protocols de xifratge.", true],
+      ["Utilitzant cables de fibra òptica només.", false],
+      ["Desconnectant la xarxa d'Internet durant la nit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què és un Gateway de Seguretat en el context d'una Extranet?",
+    "respostes": [
+      ["Un dispositiu que controla l'accés extern a la xarxa.", true],
+      ["La porta d'entrada física a l'edifici de l'empresa.", false],
+      ["Un programa per enviar correus electrònics massius.", false],
+      ["Un servidor dedicat a guardar fitxers de música.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què significa MFA en el context de l'autenticació?",
+    "respostes": [
+      ["Master File Access.", false],
+      ["Multi-Factor Authentication (Autenticació Multifactor).", true],
+      ["Multiple File Allocation.", false],
+      ["Main Frequency Audio.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina funció té un Servidor Web en una Intranet?",
+    "respostes": [
+      ["Gestionar les trucades telefòniques.", false],
+      ["Allotjar aplicacions i llocs web interns accessibles pels empleats.", true],
+      ["Imprimir documents automàticament.", false],
+      ["Controlar la temperatura de la sala de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què fan els Sistemes de Detecció d'Intrusions (IDS)?",
+    "respostes": [
+      ["Bloquegen l'accés a Internet als empleats.", false],
+      ["Monitoren i detecten activitats sospitoses dins de la xarxa.", true],
+      ["Acceleren la velocitat de descàrrega de fitxers.", false],
+      ["Organitzen les carpetes dels usuaris automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Per què és important l'alta disponibilitat en una Intranet?",
+    "respostes": [
+      ["Perquè els empleats puguin jugar a videojocs sense interrupcions.", false],
+      ["Per garantir que les operacions empresarials no es vegin interrompudes i la xarxa estigui sempre accessible.", true],
+      ["Perquè la xarxa sigui accessible des de qualsevol país del món sense VPN.", false],
+      ["Per estalviar energia elèctrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin component gestiona el trànsit de dades dins de la xarxa local?",
+    "respostes": [
+      ["El servidor de correu.", false],
+      ["Els switches i routers.", true],
+      ["El monitor de l'usuari.", false],
+      ["El teclat i el ratolí.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina fase de la implantació inclou la identificació de necessitats de comunicació?",
+    "respostes": [
+      ["Manteniment.", false],
+      ["Planificació i Disseny (Anàlisi de Requisits).", true],
+      ["Implementació.", false],
+      ["Formació d'usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què són les ACLs (Access Control Lists)?",
+    "respostes": [
+      ["Llistes de la compra per al departament de TI.", false],
+      ["Llistes que defineixen permisos d'accés als recursos de la xarxa.", true],
+      ["Llistes de correus brossa.", false],
+      ["Llistes de components de maquinari defectuosos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin protocol s'utilitza habitualment per xifrar les comunicacions web en una Extranet?",
+    "respostes": [
+      ["FTP.", false],
+      ["SSL/TLS (HTTPS).", true],
+      ["HTTP simple.", false],
+      ["Telnet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què permet fer un VPN Gateway?",
+    "respostes": [
+      ["Navegar per Internet més ràpidament.", false],
+      ["Establir connexions segures des de l'exterior cap a la xarxa interna.", true],
+      ["Bloquejar tota la publicitat web.", false],
+      ["Convertir fitxers de Word a PDF.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina és una funció clau del manteniment d'aquestes xarxes?",
+    "respostes": [
+      ["Aplicar parches i actualitzacions de seguretat de manera regular.", true],
+      ["Canviar els fons de pantalla dels usuaris cada dia.", false],
+      ["Netejar la pols dels teclats.", false],
+      ["Reinstal·lar el sistema operatiu cada setmana.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin servei facilita la comunicació en temps real entre empleats?",
+    "respostes": [
+      ["El correu postal.", false],
+      ["La missatgeria instantània o xat corporatiu.", true],
+      ["El tauler d'anuncis al passadís.", false],
+      ["L'enviament de faxos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Per a què serveixen les plataformes de col·laboració com wikis o espais compartits?",
+    "respostes": [
+      ["Per jugar online.", false],
+      ["Per compartir coneixement i treballar conjuntament en projectes.", true],
+      ["Per veure pel·lícules en streaming.", false],
+      ["Per comprar material d'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què permet el control de versions en la gestió de documents?",
+    "respostes": [
+      ["Saber qui ha imprès el document.", false],
+      ["Mantenir un registre de canvis i revertir a versions anteriors si cal.", true],
+      ["Canviar el tipus de lletra automàticament.", false],
+      ["Traduir el document a altres idiomes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin tipus d'accés a recursos permet l'Intranet/Extranet?",
+    "respostes": [
+      ["Accés a aplicacions corporatives com ERP o CRM.", true],
+      ["Accés gratuït a plataformes de streaming de pagament.", false],
+      ["Accés físic a la sala de servidors.", false],
+      ["Accés al compte bancari personal dels empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què s'ha de fer durant la fase d'implementació i integració?",
+    "respostes": [
+      ["Dissenyar el logotip de l'empresa.", false],
+      ["Instal·lar i configurar servidors i dispositius de xarxa.", true],
+      ["Contractar nou personal de neteja.", false],
+      ["Pintar les parets de l'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què és l'escalabilitat en el disseny de xarxes?",
+    "respostes": [
+      ["La capacitat d'adaptar-se al creixement futur afegint usuaris o serveis sense perdre rendiment.", true],
+      ["La capacitat de fer la xarxa més petita.", false],
+      ["La capacitat de funcionar sense electricitat.", false],
+      ["La capacitat de pesar menys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin servei permet reunions virtuals amb participants interns i externs?",
+    "respostes": [
+      ["El correu electrònic.", false],
+      ["Les videoconferències.", true],
+      ["La Viquipèdia.", false],
+      ["El bloc de notes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina eina ajuda a planificar i seguir l'estat de les tasques en equips?",
+    "respostes": [
+      ["El reproductor de música.", false],
+      ["Les aplicacions de gestió de projectes.", true],
+      ["La calculadora.", false],
+      ["L'editor d'imatges.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què implica la migració de dades durant la implantació?",
+    "respostes": [
+      ["Esborrar totes les dades antigues.", false],
+      ["Transferir dades i configuracions a la nova infraestructura de manera segura.", true],
+      ["Moure els ordinadors d'una habitació a una altra.", false],
+      ["Copiar les dades en disquets.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina és una característica clau de la seguretat en una Intranet?",
+    "respostes": [
+      ["L'accés és públic i obert a tothom.", false],
+      ["L'accés està restringit i protegit per mecanismes d'autenticació interns.", true],
+      ["No hi ha cap tipus de control d'accés.", false],
+      ["La seguretat depèn exclusivament dels usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Per què es realitzen auditories de seguretat periòdiques?",
+    "respostes": [
+      ["Per castigar els empleats.", false],
+      ["Per avaluar l'eficàcia de les mesures de seguretat i identificar àrees de millora.", true],
+      ["Per comprovar la velocitat d'Internet.", false],
+      ["Per saber quins empleats treballen més hores.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin component permet la connexió sense fil a la xarxa Intranet?",
+    "respostes": [
+      ["El servidor de fitxers.", false],
+      ["L'Access Point (Punt d'Accés).", true],
+      ["El cable Ethernet.", false],
+      ["El monitor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què permeten fer les llistes de distribució de correu?",
+    "respostes": [
+      ["Enviar correus electrònics a grups específics de persones.", true],
+      ["Bloquejar tot el correu entrant.", false],
+      ["Crear comptes de correu nous automàticament.", false],
+      ["Llegir el correu d'altres persones.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin aspecte es defineix durant el disseny de l'esquema de xarxa?",
+    "respostes": [
+      ["La disposició dels components de la xarxa (servidors, clients, dispositius).", true],
+      ["El color de les parets de l'oficina.", false],
+      ["L'horari laboral dels empleats.", false],
+      ["El menú de la cafeteria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin avantatge té l'emmagatzematge en núvol integrat a la Intranet?",
+    "respostes": [
+      ["Que els documents són accessibles des de qualsevol lloc i dispositiu autoritzat.", true],
+      ["Que no cal tenir connexió a Internet.", false],
+      ["Que els documents s'esborren sols després d'un dia.", false],
+      ["Que només es pot accedir des de l'oficina principal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què permet la integració d'aplicacions corporatives?",
+    "respostes": [
+      ["Que diferents programes empresarials funcionin conjuntament millorant la fluïdesa.", true],
+      ["Que tots els programes tinguin la mateixa icona.", false],
+      ["Que es puguin jugar a jocs dins de l'ERP.", false],
+      ["Que l'ordinador s'apagui més ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Per què és necessària la formació d'usuaris després de la implantació?",
+    "respostes": [
+      ["Per assegurar que puguin utilitzar la nova xarxa de manera eficient i segura.", true],
+      ["Perquè no tenen res més a fer.", false],
+      ["Per ensenyar-los a programar.", false],
+      ["Per explicar-los la història d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què caracteritza l'accés a una Intranet?",
+    "respostes": [
+      ["És obert a tot el públic.", false],
+      ["És limitat als membres de l'organització.", true],
+      ["Només és possible des de dispositius mòbils.", false],
+      ["No requereix cap tipus d'autenticació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quina tecnologia permet connectar l'Extranet amb la Intranet de manera segura?",
+    "respostes": [
+      ["Integració amb protocols de seguretat i control d'accés.", true],
+      ["Un cable directe sense protecció.", false],
+      ["Deixant la xarxa oberta.", false],
+      ["Utilitzant disquets per passar informació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Quin component s'encarrega de protegir la xarxa contra amenaces externes a l'Extranet?",
+    "respostes": [
+      ["El teclat.", false],
+      ["Els Firewalls Externs.", true],
+      ["La impressora.", false],
+      ["El servidor de fitxers intern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 20. Arquitectura de les xarxes intranet i extranet.",
+    "enunciat": "Què fan els plans de contingència?",
+    "respostes": [
+      ["Preparen l'organització per recuperar-se davant de fallades o incidents.", true],
+      ["Planifiquen les vacances dels empleats.", false],
+      ["Organitzen les festes d'empresa.", false],
+      ["Decideixen quin maquinari comprar l'any següent.", false]
+    ]
+  }
+]

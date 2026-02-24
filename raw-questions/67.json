@@ -1,0 +1,332 @@
+[
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Què s'entén per reutilització de la informació del sector públic (PSI)?",
+    "respostes": [
+      ["L'ús de dades generades per les administracions públiques per part de tercers, per a finalitats comercials o no comercials.", true],
+      ["El reciclatge exclusiu de paper i material d'oficina dins dels edificis governamentals.", false],
+      ["La transferència de dades privades de ciutadans a empreses privades per fer màrqueting sense el seu consentiment.", false],
+      ["L'ús intern d'informació únicament entre diferents departaments d'una mateixa administració per estalviar costos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quina va ser la primera directiva europea (Directiva PSI) que va establir les bases per fomentar la reutilització de dades públiques?",
+    "respostes": [
+      ["Directiva 2013/37/UE.", false],
+      ["Directiva (UE) 2019/1024.", false],
+      ["Directiva 2003/98/CE.", true],
+      ["Directiva 95/46/CE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quina novetat important va introduir la Directiva 2013/37/UE respecte a la legislació anterior sobre informació del sector públic?",
+    "respostes": [
+      ["Va prohibir totalment el cobrament per qualsevol tipus de dada pública.", false],
+      ["Va ampliar l'àmbit d'aplicació per incloure les dades de biblioteques, arxius i museus.", true],
+      ["Va establir l'obligatorietat d'usar exclusivament la tecnologia Blockchain.", false],
+      ["Va restringir la reutilització només a empreses europees del sector tecnològic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Segons la Directiva 2013/37/UE i la Llei 18/2015, quin és el límit establert si l'administració decideix cobrar per la reutilització de la informació?",
+    "respostes": [
+      ["Els costos poden ser lliures per tal que l'Estat obtingui beneficis comercials.", false],
+      ["Els costos no poden superar els costos marginals de reproducció, provisió i difusió de documents.", true],
+      ["El cost fix és de 100 euros anuals per a cada conjunt de dades independent de la mida.", false],
+      ["L'administració està obligada a establir subscripcions mensuals d'alt cost per a empreses privades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quina Directiva europea actualitza les normes existents posant especial èmfasi en l'accés a dades dinàmiques mitjançant APIs i definint dades d'alt valor?",
+    "respostes": [
+      ["Directiva 2003/98/CE.", false],
+      ["Reglament eIDAS.", false],
+      ["Directiva (UE) 2019/1024.", true],
+      ["Directiva NIS2.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin Reglament europeu de l'any 2023 especifica quins conjunts de dades s'han de considerar d'alt valor (com mobilitat, energia i medi ambient) i publicar-se de forma gratuïta?",
+    "respostes": [
+      ["Reglament (UE) 2023/138.", true],
+      ["Reglament General de Protecció de Dades (RGPD).", false],
+      ["Reial Decret 4/2010.", false],
+      ["Directiva 2013/37/UE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Com s'anomena el portal a nivell europeu que facilita l'accés centralitzat a dades obertes de les institucions de la UE i dels estats membres?",
+    "respostes": [
+      ["data.europa.eu", true],
+      ["europe-open.org", false],
+      ["transparency.eu", false],
+      ["datos.gob.eu", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quina llei espanyola de l'any 2007 adapta inicialment la primera Directiva europea (2003/98/CE) sobre reutilització de la informació del sector públic?",
+    "respostes": [
+      ["Llei 18/2015.", false],
+      ["Llei 39/2015.", false],
+      ["Llei 37/2007.", true],
+      ["Llei 19/2013.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "El Reial decret 4/2010 aprova l'Esquema Nacional d'Interoperabilitat (ENI). Quin requisit inclou referent a les dades obertes?",
+    "respostes": [
+      ["Exigeix que la informació pública es posi a disposició en formats oberts i estandarditzats per facilitar-ne la reutilització.", true],
+      ["Prohibeix compartir dades governamentals amb països de fora de la Unió Europea.", false],
+      ["Estableix un preu mínim per a la venda de bases de dades públiques a empreses de l'IBEX 35.", false],
+      ["Obliga a imprimir tots els registres digitals per al seu arxiu en biblioteques estatals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quina Llei espanyola aprovada el 2013 promou el dret d'accés a la informació pública i estableix les obligacions de publicitat activa per part de l'administració?",
+    "respostes": [
+      ["Llei 19/2013 (de Transparència, Accés a la Informació Pública i Bon Govern).", true],
+      ["Llei 37/2007.", false],
+      ["Llei 18/2015.", false],
+      ["Reial decret llei 24/2021.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quina és la plataforma oficial del govern espanyol dissenyada per centralitzar i facilitar l'accés a les dades públiques reutilitzables?",
+    "respostes": [
+      ["administracion.gob.es", false],
+      ["transparencia.gob.es", false],
+      ["datos.gob.es", true],
+      ["red.sara.es", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Què exigeix el Reial decret llei 24/2021 a l'Estat espanyol pel que fa a les dades d'alt valor?",
+    "respostes": [
+      ["Que la seva reutilització estigui subjecta a impostos especials.", false],
+      ["Que siguin publicades de forma prioritària, amb accés via API i de manera totalment gratuïta.", true],
+      ["Que només es puguin descarregar presentant el DNI electrònic en un ajuntament físic.", false],
+      ["Que s'enviïn en format PDF exclusivament per correu electrònic a qui ho sol·liciti.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "La Norma Tècnica d'Interoperabilitat de Reutilització (2013) estableix quins són els formats oberts i estandarditzats recomanats. Quins són alguns d'ells?",
+    "respostes": [
+      ["DOCX, XLSX i PPTX.", false],
+      ["CSV, XML i JSON.", true],
+      ["PDF bloquejat, JPG i BMP.", false],
+      ["EXE, BAT i MSI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin repte s'esmenta a nivell europeu que dificulta l'homogeneïtat de la informació pública?",
+    "respostes": [
+      ["La fragmentació, ja que hi ha grans diferències entre estats membres en qualitat, quantitat i actualització de dades.", true],
+      ["L'excés de velocitat en la transmissió de les dades.", false],
+      ["La utilització d'una única llengua per a tots els portals de transparència europeus.", false],
+      ["La prohibició europea de crear aplicacions mòbils amb dades públiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin és un dels grans reptes espanyols assenyalats pel que fa a l'oferta de dades obertes?",
+    "respostes": [
+      ["Que les dades ocupen massa espai en els discs durs dels ciutadans.", false],
+      ["L'excés de programadors sol·licitant dades a la vegada.", false],
+      ["La manca d'actualització constant, ja que moltes dades no es publiquen en temps real.", true],
+      ["La prohibició legal de fer servir dades espanyoles a la resta d'Europa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Com influeixen les tecnologies de Big Data en la gestió de les dades obertes públiques?",
+    "respostes": [
+      ["Només serveixen per crear gràfics en 3D.", false],
+      ["S'encarreguen exclusivament de la traducció automàtica de textos legals.", false],
+      ["Permeten emmagatzemar, processar i analitzar grans volums de dades en temps real per identificar patrons o tendències.", true],
+      ["Bloquegen l'accés massiu a les dades per evitar la saturació dels servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quines plataformes tecnològiques s'esmenten com a eines clau utilitzades en el context del Big Data per gestionar grans conjunts de dades?",
+    "respostes": [
+      ["Word i Excel.", false],
+      ["Hadoop i Spark.", true],
+      ["Photoshop i Illustrator.", false],
+      ["Windows i MacOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin paper pot jugar la tecnologia Blockchain en l'àmbit de les dades obertes?",
+    "respostes": [
+      ["Facilitar la creació de criptomonedes per finançar el deute públic.", false],
+      ["Restringir l'accés a les dades únicament a aquells que tinguin ordinadors potents.", false],
+      ["Proporcionar un registre segur, transparent i traçable de les transaccions de dades, millorant la confiança en la informació.", true],
+      ["Sintetitzar veus humanes per a assistents virtuals del govern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "A què fa referència l'ús de la Intel·ligència Artificial (IA), com l'aprenentatge automàtic, sobre les dades obertes?",
+    "respostes": [
+      ["Ajuda a analitzar les dades de manera eficient, automatitzar processos i detectar anomalies o obtenir 'insights' valuosos.", true],
+      ["Es fa servir per escriure lleis sense necessitat de parlaments.", false],
+      ["Consisteix a encriptar dades personals de manera irreversible.", false],
+      ["S'utilitza exclusivament per generar imatges publicitàries institucionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Per a què serveixen les APIs (Interfícies de Programació d'Aplicacions) en l'ecosistema de dades obertes?",
+    "respostes": [
+      ["Per permetre que l'administració pugui esborrar arxius de l'ordinador del ciutadà.", false],
+      ["Per proporcionar un sistema de pagament telemàtic d'impostos.", false],
+      ["Per facilitar als desenvolupadors un accés programàtic i automatitzat a les dades en temps real.", true],
+      ["Per escanejar documents físics i passar-los a format digital.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Segons el document, com aporta valor l'ús del 'Cloud Computing' (informàtica al núvol) a la gestió de dades obertes?",
+    "respostes": [
+      ["Substitueix la necessitat de tenir contrasenyes per entrar als servidors.", false],
+      ["Proporciona la infraestructura necessària per emmagatzemar i escalar de manera flexible grans quantitats de dades públiques.", true],
+      ["Crea una xarxa desconnectada completament d'Internet per seguretat.", false],
+      ["Força els usuaris a utilitzar un únic navegador web autoritzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin portal estatal concret s'encarrega d'oferir informació com contractacions públiques, pressupostos i subvencions, complint amb l'obligació de publicitat activa?",
+    "respostes": [
+      ["Transparencia.gob.es", true],
+      ["Sede.administracion.es", false],
+      ["BOE.es", false],
+      ["Portal-europeu.es", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Què exigeix el principi de 'No discriminació' en les normatives de reutilització d'informació de l'Administració General de l'Estat?",
+    "respostes": [
+      ["Que totes les dades s'han de publicar obligatòriament en almenys cinc idiomes.", false],
+      ["Que l'administració no pot limitar el format dels arxius que puja.", false],
+      ["Que l'accés a les dades i les condicions han de ser equitatius i iguals per a tots els usuaris, evitant qualsevol privilegi.", true],
+      ["Que està prohibit fer servir dades obertes per a aplicacions de pagament (finalitats comercials).", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "És possible a Espanya reutilitzar la informació pública (Dades Obertes) per a finalitats comercials i generar beneficis?",
+    "respostes": [
+      ["No, l'ús de dades de l'Estat queda restringit de manera estricta a ONG i investigadors acadèmics.", false],
+      ["Sí, la Llei 18/2015 permet la reutilització de dades públiques per a qualsevol finalitat, inclosa la comercial.", true],
+      ["Només si l'empresa paga a l'Estat el 50% dels beneficis generats per l'aplicació creat.", false],
+      ["Sí, però només per a dades relacionades exclusivament amb la informació meteorològica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Com gestiona la Llei 37/2007 (i normatives derivades) la propietat intel·lectual de les dades públiques?",
+    "respostes": [
+      ["La suprimeix completament; tota dada pública passa directament al domini públic absolut lliure de qualsevol dret.", false],
+      ["Reconeix els drets de propietat intel·lectual de l'administració, però estableix condicions per poder reutilitzar la informació respectant aquests drets.", true],
+      ["Otorga la propietat intel·lectual directament a la primera persona que descarrega l'arxiu.", false],
+      ["La cedeix de manera exclusiva a institucions europees.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin impacte principal tenen les dades obertes sobre la Transparència i la rendició de comptes de l'administració?",
+    "respostes": [
+      ["Amaguen les dades compromeses sota grans volums de text il·legible.", false],
+      ["Generen opacitat, ja que els formats estructurats són massa difícils d'entendre per al públic.", false],
+      ["Milloren la confiança en les institucions en permetre als ciutadans un major accés i control sobre la gestió i presa de decisions públiques.", true],
+      ["Obliguen a l'Estat a demanar disculpes diàriament per via telemàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Sota quina condició una administració pot negar l'accés o no permetre la reutilització de certes dades que ha generat?",
+    "respostes": [
+      ["Quan l'administrador del sistema ho trobi convenient.", false],
+      ["Quan l'empresa que les demana no sigui espanyola.", false],
+      ["Quan les dades estiguin subjectes a restriccions legals com la seguretat nacional, la confidencialitat o la protecció de dades personals.", true],
+      ["Mai, la directiva europea obliga a publicar absolutament tota la informació sense excepcions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Segons la informació del Pla d'Acció Europeu per a les Dades Obertes (2020-2025), què es considera essencial per publicar dades en sectors com el transport i la sanitat?",
+    "respostes": [
+      ["La seva emissió exclusivament per canals de televisió.", false],
+      ["L'ús generalitzat d'APIs per oferir aquestes dades en temps real.", true],
+      ["La traducció de totes les dades sanitàries a l'esperanto.", false],
+      ["Que cada metge enviï els expedients per correu certificat als ministeris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Pel que fa als formats de publicació, què requereix específicament la normativa europea (ex. Directiva 2019/1024) per facilitar que màquines i sistemes reutilitzin les dades automàticament?",
+    "respostes": [
+      ["Que les dades s'escriguin a mà i s'escanegin a baixa resolució.", false],
+      ["L'ús de formats tancats com .EXE per evitar que s'alteri l'arxiu.", false],
+      ["L'ús de formats oberts i interoperables com CSV, XML o JSON.", true],
+      ["La compressió de dades exclusivament en format .ZIP sense índex.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Quin tipus de solucions pot potenciar la reutilització de dades obertes a nivell de l'ecosistema emprenedor (Innovació)?",
+    "respostes": [
+      ["Desenvolupament de noves aplicacions mòbils de mobilitat, anàlisi del clima, i solucions de salut basades en dades.", true],
+      ["El desenvolupament de màquines d'escriure mecàniques per als ajuntaments.", false],
+      ["El descens de la digitalització afavorint el treball exclusivament manual a l'administració.", false],
+      ["La clausura massiva de portals webs de l'administració per estalviar costos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Per què és vital la correcta integració d'eines TIC (Infraestructura de dades, Cloud, Seguretat) en la gestió de dades de sanitat o serveis socials segons el text?",
+    "respostes": [
+      ["Per aconseguir que tots els ciutadans puguin veure les malalties dels seus veïns lliurement.", false],
+      ["Per garantir que les dades publicades i gestionades compleixin estrictament amb les normatives de seguretat i protecció de dades personals (RGPD).", true],
+      ["Per augmentar els beneficis de les asseguradores privades de manera opaca.", false],
+      ["Per poder esborrar el registre de pacients cada any i alliberar emmagatzematge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "D'acord amb la Llei 37/2007, estan obligades les administracions a crear nous formats de dades específicament si un usuari ho demana?",
+    "respostes": [
+      ["Sí, l'administració ha de contractar programadors per crear qualsevol format que sol·liciti un ciutadà.", false],
+      ["No, l'administració només està obligada a facilitar la informació en els formats que ja tingui disponibles i no a crear-ne de nous específics.", true],
+      ["Sí, sempre i quan el ciutadà demostri que ho usarà per a finalitats comercials.", false],
+      ["No, l'administració no està obligada a donar informació en cap format digital.", false]
+    ]
+  },
+  {
+    "tema": "Tema 67. Reutilització de la informació en el sector públic a Europa i a Espanya. Paper de les TIC en la implantació de polítiques de dades obertes i transparència.",
+    "enunciat": "Què representa l'acord o extensió de la Directiva 2013/37/UE respecte als usuaris amb privilegis exclusius de dades?",
+    "respostes": [
+      ["Fomenta els privilegis per a les grans multinacionals.", false],
+      ["Reforça la igualtat d'accés, buscant eliminar o reduir dràsticament acords d'exclusivitat o privilegis sobre la informació pública.", true],
+      ["Obliga a les administracions a subhastar en exclusiva les dades anualment.", false],
+      ["Atorga accés prioritari únicament a entitats bancàries.", false]
+    ]
+  }
+]

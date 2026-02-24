@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què és un arxiu en el context d'un sistema operatiu?",
+    "respostes": [
+      ["Una peça de maquinari per guardar dades.", false],
+      ["Una col·lecció de dades o informació identificada amb un nom.", true],
+      ["Un programa per navegar per Internet.", false],
+      ["Un tipus de memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "On es guarden principalment els arxius de manera persistent?",
+    "respostes": [
+      ["En la memòria cau.", false],
+      ["En els registres de la CPU.", false],
+      ["En dispositius d'emmagatzematge secundari com discos durs i SSDs.", true],
+      ["En la memòria RAM volàtil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quina funció tenen els directoris en un sistema d'arxius?",
+    "respostes": [
+      ["Executar programes automàticament.", false],
+      ["Contenir referències a arxius i altres directoris per organitzar-los jeràrquicament.", true],
+      ["Esborrar virus del sistema.", false],
+      ["Encriptar les dades de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què és el Bloc de control d'arxiu (FCB)?",
+    "respostes": [
+      ["Una estructura de dades amb informació sobre l'arxiu (nom, mida, permisos).", true],
+      ["Un bloc de formigó per protegir el servidor.", false],
+      ["Un programa per editar text.", false],
+      ["La unitat mínima d'emmagatzematge físic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quina operació sobre arxius permet recuperar les dades emmagatzemades?",
+    "respostes": [
+      ["Creació.", false],
+      ["Escriptura.", false],
+      ["Lectura.", true],
+      ["Eliminació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin sistema d'arxius és conegut per la seva àmplia compatibilitat i ús en dispositius extraïbles?",
+    "respostes": [
+      ["NTFS.", false],
+      ["FAT (File Allocation Table).", true],
+      ["EXT4.", false],
+      ["HFS+.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin desavantatge té el sistema d'arxius FAT?",
+    "respostes": [
+      ["No és compatible amb Windows.", false],
+      ["És massa complex d'utilitzar.", false],
+      ["No suporta funcions modernes com permisos avançats i encriptació.", true],
+      ["Requereix molta memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin sistema d'arxius utilitza principalment Windows i ofereix seguretat i compressió?",
+    "respostes": [
+      ["EXT3.", false],
+      ["NTFS (New Technology File System).", true],
+      ["HFS+.", false],
+      ["FAT12.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin sistema d'arxius és el predeterminat per a moltes distribucions Linux?",
+    "respostes": [
+      ["NTFS.", false],
+      ["FAT32.", false],
+      ["EXT4 (Extended File System).", true],
+      ["APFS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin sistema d'arxius utilitza macOS i suporta metadades avançades?",
+    "respostes": [
+      ["HFS+ (o APFS).", true],
+      ["NTFS.", false],
+      ["EXT4.", false],
+      ["FAT16.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "En què consisteix l'assignació contigua d'espai d'emmagatzematge?",
+    "respostes": [
+      ["En assignar blocs dispersos pel disc.", false],
+      ["En assignar blocs contigus a cada arxiu.", true],
+      ["En utilitzar una llista enllaçada de blocs.", false],
+      ["En utilitzar un índex centralitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin problema causa l'assignació contigua?",
+    "respostes": [
+      ["Accés molt lent.", false],
+      ["Fragmentació externa.", true],
+      ["Impossibilitat de llegir l'arxiu.", false],
+      ["Pèrdua de dades immediata.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què caracteritza l'assignació enllaçada?",
+    "respostes": [
+      ["Utilitza enllaços entre blocs per formar una cadena.", true],
+      ["Tots els blocs estan junts físicament.", false],
+      ["Utilitza un sol bloc d'índex per a tot.", false],
+      ["És la més ràpida per a accés directe.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin és un desavantatge de l'assignació enllaçada?",
+    "respostes": [
+      ["Causa fragmentació externa.", false],
+      ["L'accés seqüencial és lent i no permet accés directe eficient.", true],
+      ["Ocupa massa espai en disc.", false],
+      ["Només funciona amb arxius de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Com funciona l'assignació indexada?",
+    "respostes": [
+      ["Guarda tot l'arxiu en un sol bloc.", false],
+      ["Utilitza un bloc d'índex que conté les adreces de tots els blocs de dades.", true],
+      ["Connecta cada bloc amb el següent com una cadena.", false],
+      ["Assigna l'espai aleatòriament sense registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quins tres aspectes principals inclou la seguretat en un SO?",
+    "respostes": [
+      ["Velocitat, potència i gràfics.", false],
+      ["Confidencialitat, Integritat i Disponibilitat.", true],
+      ["Preu, marca i model.", false],
+      ["Teclat, ratolí i monitor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què garanteix la confidencialitat?",
+    "respostes": [
+      ["Que la informació estigui disponible sempre.", false],
+      ["Que la informació no es modifiqui.", false],
+      ["Protegir la informació contra l'accés no autoritzat.", true],
+      ["Que l'ordinador no s'apagui.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què defineixen les Llistes de control d'accés (ACL)?",
+    "respostes": [
+      ["La llista de tots els arxius del disc.", false],
+      ["Els permisos d'accés per a cada usuari o grup a un recurs específic.", true],
+      ["Els programes instal·lats.", false],
+      ["Les pàgines web visitades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "En el model de seguretat DAC (Discretionary Access Control), qui determina l'accés?",
+    "respostes": [
+      ["El sistema operatiu automàticament.", false],
+      ["Els propietaris dels recursos.", true],
+      ["Una autoritat central.", false],
+      ["Ningú, és obert a tothom.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "En el model MAC (Mandatory Access Control), com es determinen les polítiques?",
+    "respostes": [
+      ["Els usuaris decideixen lliurement.", false],
+      ["Es determinen centralment segons la classificació de la informació.", true],
+      ["Es basen en l'hora del dia.", false],
+      ["Es decideixen per votació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "En què es basa el model RBAC (Role-Based Access Control)?",
+    "respostes": [
+      ["En l'adreça IP de l'usuari.", false],
+      ["En assignar permisos segons els rols dels usuaris dins l'organització.", true],
+      ["En la contrasenya de l'usuari.", false],
+      ["En el tipus d'ordinador utilitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quina tècnica protegeix la confidencialitat convertint les dades en un format il·legible?",
+    "respostes": [
+      ["Compressió.", false],
+      ["Fragmentació.", false],
+      ["Encriptació.", true],
+      ["Còpia de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Per a què serveixen les còpies de seguretat (backups)?",
+    "respostes": [
+      ["Per restaurar dades en cas de pèrdua o corrupció.", true],
+      ["Per fer que l'ordinador vagi més ràpid.", false],
+      ["Per esborrar dades antigues.", false],
+      ["Per enviar dades per correu electrònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què defineixen els permisos d'arxius en sistemes com UNIX?",
+    "respostes": [
+      ["El color de la icona de l'arxiu.", false],
+      ["Qui pot llegir, escriure o executar un arxiu.", true],
+      ["La mida màxima de l'arxiu.", false],
+      ["La data de creació de l'arxiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què és el registre d'esdeveniments (logs)?",
+    "respostes": [
+      ["Una llista de la compra.", false],
+      ["L'emmagatzematge d'informació sobre les accions realitzades en el sistema.", true],
+      ["Un programa de dibuix.", false],
+      ["El registre de llicència de Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quina és la finalitat de les auditories de seguretat?",
+    "respostes": [
+      ["Netejar la pantalla.", false],
+      ["Revisar els registres per detectar activitats sospitoses i vulnerabilitats.", true],
+      ["Augmentar la velocitat de la CPU.", false],
+      ["Instal·lar jocs nous.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin mecanisme d'encriptació de discs implementa Windows?",
+    "respostes": [
+      ["FileVault.", false],
+      ["BitLocker.", true],
+      ["LUKS.", false],
+      ["VeraCrypt.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què utilitza Linux per implementar MAC (Mandatory Access Control)?",
+    "respostes": [
+      ["SELinux.", true],
+      ["Windows Defender.", false],
+      ["Gatekeeper.", false],
+      ["UAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin sistema utilitza macOS per a còpies de seguretat automàtiques?",
+    "respostes": [
+      ["OneDrive.", false],
+      ["Time Machine.", true],
+      ["Dropbox.", false],
+      ["Google Drive.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què implica la integritat en la seguretat?",
+    "respostes": [
+      ["Que ningú pugui llegir les dades.", false],
+      ["Que les dades i recursos no es modifiquin de manera no autoritzada.", true],
+      ["Que el sistema mai falli.", false],
+      ["Que la contrasenya sigui llarga.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin és un avantatge de l'assignació indexada?",
+    "respostes": [
+      ["Accés directe ràpid i gestió eficient de l'espai.", true],
+      ["No requereix cap espai addicional.", false],
+      ["És la més senzilla de totes.", false],
+      ["No permet fragmentació de cap tipus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quina és la unitat mínima de dades que gestiona el sistema d'arxius al dispositiu?",
+    "respostes": [
+      ["El byte.", false],
+      ["Sectors i blocs.", true],
+      ["El megabyte.", false],
+      ["El directori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Per a què serveix HTTPS segons l'exemple d'encriptació?",
+    "respostes": [
+      ["Per protegir la transmissió de dades en xarxes.", true],
+      ["Per fer pàgines web més boniques.", false],
+      ["Per comprimir imatges.", false],
+      ["Per cercar a Google.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Quin avantatge té el model de seguretat MAC?",
+    "respostes": [
+      ["És molt flexible per a l'usuari.", false],
+      ["Ofereix major seguretat ja que l'usuari no pot canviar les polítiques.", true],
+      ["És fàcil d'implementar a casa.", false],
+      ["Permet compartir tot amb tothom.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què gestiona el sistema d'arxius a més de les dades?",
+    "respostes": [
+      ["La temperatura del disc.", false],
+      ["Els metadades com permisos, propietari i dates.", true],
+      ["La velocitat del ventilador.", false],
+      ["El color de la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 10. El sistema operatiu (V): gestió d'arxius, gestió de la seguretat.",
+    "enunciat": "Què permet la 'disponibilitat' en termes de seguretat?",
+    "respostes": [
+      ["Que els recursos estiguin disponibles per als usuaris autoritzats quan es necessitin.", true],
+      ["Que qualsevol persona pugui entrar al sistema.", false],
+      ["Que les dades esborrades es recuperin soles.", false],
+      ["Que l'ordinador sigui gratis.", false]
+    ]
+  }
+]

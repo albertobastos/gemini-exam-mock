@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quin canvi fonamental descriu la introducció respecte al desenvolupament de programari?",
+    "respostes": [
+      ["El pas de metodologies àgils a models en cascada.", false],
+      ["El pas de models rígids (Cascada) a metodologies àgils que exigeixen lliurament de valor constant.", true],
+      ["L'eliminació total de la documentació.", false],
+      ["La prohibició de l'automatització en entorns crítics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Per què és clau l'automatització en l'Administració Pública segons el text?",
+    "respostes": [
+      ["Per reduir el personal.", false],
+      ["Per garantir la traçabilitat, la seguretat i la reducció d'errors humans en sistemes crítics.", true],
+      ["Per fer que els tràmits siguin més lents.", false],
+      ["Per evitar l'ús de programari lliure.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quin és l'objectiu principal del moviment DevOps?",
+    "respostes": [
+      ["Crear més departaments estancs.", false],
+      ["Trencar els 'silos' entre els equips de desenvolupament (Dev) i operacions (Ops).", true],
+      ["Separar completament els programadors dels administradors de sistemes.", false],
+      ["Eliminar la necessitat de fer proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què signifiquen les sigles CAMS en el model DevOps?",
+    "respostes": [
+      ["Code, Analysis, Monitoring, Security.", false],
+      ["Culture, Automation, Measurement, Sharing.", true],
+      ["Cloud, Applications, Management, Systems.", false],
+      ["Computer, Algorithm, Memory, Storage.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què implica el principi de 'Culture' en el model CAMS?",
+    "respostes": [
+      ["Que cada equip és responsable només de la seva part.", false],
+      ["Responsabilitat compartida; si el codi falla a producció, és un problema de tots.", true],
+      ["Que cal fer moltes reunions culturals.", false],
+      ["Que s'ha d'utilitzar un sol idioma de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quin tipus de sistema de control de versions és Git?",
+    "respostes": [
+      ["Centralitzat (CVCS).", false],
+      ["Distribuït (DVCS).", true],
+      ["Manual.", false],
+      ["Basat en núvol exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és un 'Commit' en Git?",
+    "respostes": [
+      ["Una branca nova.", false],
+      ["Una 'foto' de l'estat del codi en un moment donat amb un identificador únic.", true],
+      ["Un error de programació.", false],
+      ["Una sol·licitud de fusió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què permet fer el 'Branching' (Branques)?",
+    "respostes": [
+      ["Esborrar el codi antic.", false],
+      ["Crear línies de temps paral·leles per desenvolupar funcionalitats aïllades.", true],
+      ["Bloquejar el repositori per a tothom.", false],
+      ["Enviar el codi a producció immediatament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és un 'Pull Request' o 'Merge Request'?",
+    "respostes": [
+      ["Una ordre per esborrar una branca.", false],
+      ["Un mecanisme de revisió on altres desenvolupadors validen el codi abans de fusionar-lo.", true],
+      ["Una descàrrega automàtica del codi.", false],
+      ["Un error de conflicte de versions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina estratègia de treball utilitza branques com develop, master, feature i release?",
+    "respostes": [
+      ["Trunk-based Development.", false],
+      ["GitFlow.", true],
+      ["Waterfall.", false],
+      ["Extreme Programming.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què caracteritza el 'Trunk-based Development'?",
+    "respostes": [
+      ["L'ús de moltes branques de llarga durada.", false],
+      ["Es treballa sobre una única branca (main) i requereix molta automatització.", true],
+      ["No s'utilitza cap branca.", false],
+      ["És ideal per a versions tancades i periòdiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és la Integració Contínua (CI)?",
+    "respostes": [
+      ["Integrar el codi un cop l'any.", false],
+      ["La pràctica d'integrar el codi nou al repositori compartit diverses vegades al dia, verificant-lo automàticament.", true],
+      ["La instal·lació manual del programari en els servidors.", false],
+      ["La reunió diària dels desenvolupadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quin és l'objectiu del concepte 'Fail Fast'?",
+    "respostes": [
+      ["Que el projecte fracassi ràpidament per tancar-lo.", false],
+      ["Detectar errors en minuts en lloc de setmanes.", true],
+      ["Fer que els servidors vagin més ràpids.", false],
+      ["Evitar fer proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què fa l'eina SonarQube en un pipeline de CI?",
+    "respostes": [
+      ["Compila el codi.", false],
+      ["Realitza anàlisi estàtica per detectar codi 'brut' (code smells) o insegur.", true],
+      ["Desplega l'aplicació a producció.", false],
+      ["Gestiona les bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina diferència hi ha entre Continuous Delivery i Continuous Deployment?",
+    "respostes": [
+      ["Són sinònims.", false],
+      ["En Delivery el desplegament a producció és manual; en Deployment és automàtic.", true],
+      ["En Deployment el desplegament és manual; en Delivery és automàtic.", false],
+      ["Delivery és per a codi font i Deployment per a bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "En què consisteix l'estratègia de desplegament Blue-Green?",
+    "respostes": [
+      ["En pintar els servidors de colors.", false],
+      ["En tenir dos entorns (antic i nou) i canviar l'encaminador per apuntar al nou instantàniament.", true],
+      ["En desplegar només els dilluns.", false],
+      ["En desplegar a un 5% dels usuaris primer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és un desplegament 'Canary'?",
+    "respostes": [
+      ["Utilitzar un ocell per detectar gasos.", false],
+      ["Llançar la nova versió només a un petit percentatge d'usuaris per veure si falla.", true],
+      ["Desplegar a les Illes Canàries primer.", false],
+      ["Desplegar sense fer proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què permeten els 'Feature Toggles'?",
+    "respostes": [
+      ["Desplegar codi amb funcionalitats apagades que es poden activar posteriorment.", true],
+      ["Esborrar funcionalitats antigues automàticament.", false],
+      ["Canviar el color de la interfície aleatòriament.", false],
+      ["Bloquejar l'accés als usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és la Infraestructura com a Codi (IaC)?",
+    "respostes": [
+      ["Construir servidors físicament.", false],
+      ["La pràctica de gestionar i aprovisionar la infraestructura mitjançant fitxers de configuració.", true],
+      ["Escriure el codi del sistema operatiu.", false],
+      ["Programar els drivers del maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quines eines són exemples d'IaC?",
+    "respostes": [
+      ["Word, Excel.", false],
+      ["Terraform, Ansible, CloudFormation.", true],
+      ["Photoshop, Illustrator.", false],
+      ["Chrome, Firefox.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és un 'Pipeline as Code'?",
+    "respostes": [
+      ["Una canonada física.", false],
+      ["La definició seqüencial de tasques automatitzades en fitxers (ex: YAML) que es poden versionar.", true],
+      ["Un codi secret per accedir al servidor.", false],
+      ["Un tipus de virus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és DevSecOps?",
+    "respostes": [
+      ["Un departament de seguretat separat.", false],
+      ["Introduir la seguretat dins del pipeline de desenvolupament (Shift Left Security).", true],
+      ["Desenvolupar programari d'antivirus.", false],
+      ["Eliminar la seguretat per anar més ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què significa 'Shift Left Security'?",
+    "respostes": [
+      ["Moure els servidors a l'esquerra de la sala.", false],
+      ["Integrar les proves de seguretat en les fases primerenques del desenvolupament.", true],
+      ["Deixar la seguretat per al final del projecte.", false],
+      ["Utilitzar només la mà esquerra per teclejar contrasenyes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què realitza l'eina SAST?",
+    "respostes": [
+      ["Anàlisi dinàmic de l'aplicació en execució.", false],
+      ["Anàlisi estàtic del codi font per trobar vulnerabilitats.", true],
+      ["Còpies de seguretat.", false],
+      ["Monitoratge de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és GitLeaks utilitzat en CI?",
+    "respostes": [
+      ["Una fuita d'informació a la premsa.", false],
+      ["Una eina per escanejar i detectar secrets (contrasenyes, claus) dins del codi.", true],
+      ["Un error de Git.", false],
+      ["Una versió pirata de Git.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és un SBOM?",
+    "respostes": [
+      ["System Boot On Memory.", false],
+      ["Software Bill Of Materials (llista de components i llibreries del programari).", true],
+      ["Secure Base Of Management.", false],
+      ["Server Build On Module.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina eina permet crear fluxos de treball directament a GitHub?",
+    "respostes": [
+      ["Jenkins.", false],
+      ["GitHub Actions.", true],
+      ["GitLab CI.", false],
+      ["Azure DevOps.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Per a què serveix Ansible segons els exemples de l'annex?",
+    "respostes": [
+      ["Per escriure documentació.", false],
+      ["Per a la configuració i desplegament (playbooks) en servidors.", true],
+      ["Per crear contenidors Docker.", false],
+      ["Per gestionar projectes Scrum.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina eina d'infraestructura com a codi utilitza fitxers `.tf`?",
+    "respostes": [
+      ["Ansible.", false],
+      ["Terraform.", true],
+      ["Docker.", false],
+      ["Kubernetes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què fa l'etapa 'Container Scan' en un pipeline?",
+    "respostes": [
+      ["Comprova si el contenidor està ple.", false],
+      ["Escaneja la imatge del contenidor per trobar vulnerabilitats (ex: amb Trivy).", true],
+      ["Esborra el contenidor.", false],
+      ["Canvia el nom del contenidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què és un 'Jenkinsfile'?",
+    "respostes": [
+      ["Un fitxer de text amb instruccions per a l'administrador.", false],
+      ["La definició del pipeline de Jenkins com a codi (Pipeline as Code).", true],
+      ["El fitxer d'instal·lació de Jenkins.", false],
+      ["Un log d'errors de Jenkins.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina normativa espanyola de seguretat s'ha de complir especialment en l'Administració Pública?",
+    "respostes": [
+      ["HIPAA.", false],
+      ["ENS (Esquema Nacional de Seguretat).", true],
+      ["PCI-DSS.", false],
+      ["SOX.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què significa l'acrònim CI/CD?",
+    "respostes": [
+      ["Computer Interface / Computer Design.", false],
+      ["Continuous Integration / Continuous Delivery (or Deployment).", true],
+      ["Common Infrastructure / Common Data.", false],
+      ["Code Integration / Code Development.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina eina s'esmenta per a la gestió de secrets segura en el checklist?",
+    "respostes": [
+      ["Notepad.", false],
+      ["Vault / Secret Manager.", true],
+      ["Excel.", false],
+      ["Un pòsit a la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quina és la funció de 'Measurement' en CAMS?",
+    "respostes": [
+      ["Mesurar la mida de l'oficina.", false],
+      ["Utilitzar mètriques (KPIs) per avaluar el rendiment i prendre decisions basades en fets.", true],
+      ["Mesurar la temperatura del servidor.", false],
+      ["Comptar les línies de codi manualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què defineix l'estratègia 'Rolling Update' en Kubernetes?",
+    "respostes": [
+      ["Apagar tots els pods i encendre els nous.", false],
+      ["Actualitzar els pods progressivament per assegurar disponibilitat (maxSurge, maxUnavailable).", true],
+      ["No actualitzar mai.", false],
+      ["Actualitzar manualment un per un.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Què es fa a l'etapa 'Build Automation' de la CI?",
+    "respostes": [
+      ["S'escriu el codi.", false],
+      ["Es compila el codi i es resolen les dependències.", true],
+      ["Es desplega a producció.", false],
+      ["S'esborra el repositori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 30. Integració contínua, desplegament continu (CI/CD), repositoris de codi font, DevOps",
+    "enunciat": "Quin concepte es refereix a utilitzar mètriques, logs i traces per entendre l'estat del sistema?",
+    "respostes": [
+      ["Opacitat.", false],
+      ["Observabilitat.", true],
+      ["Encriptació.", false],
+      ["Virtualització.", false]
+    ]
+  }
+]

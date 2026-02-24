@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin és l'objectiu principal de la Llei Orgànica 3/2018 (LOPDGDD)?",
+    "respostes": [
+      ["Adaptar el Reglament General de Protecció de Dades (RGPD) al marc jurídic espanyol i garantir els drets digitals dels ciutadans.", true],
+      ["Substituir completament la legislació europea per crear un mercat únic de dades espanyol.", false],
+      ["Prohibir el tractament de dades personals a empreses privades.", false],
+      ["Regular exclusivament l'ús de les xarxes socials a Espanya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin principi estableix que el tractament de dades només es pot fer amb una base legal vàlida, com el consentiment o una obligació legal?",
+    "respostes": [
+      ["Principi de Licitud.", true],
+      ["Principi d'Exactitud.", false],
+      ["Principi de Minimització.", false],
+      ["Principi de Portabilitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què implica el principi de Minimització de Dades?",
+    "respostes": [
+      ["Que només es poden recollir les dades adequades, pertinents i limitades al que és necessari per a la finalitat.", true],
+      ["Que les dades s'han de comprimir per ocupar el mínim espai al disc dur.", false],
+      ["Que només es pot tractar dades durant un mínim de temps establert.", false],
+      ["Que només una persona de l'empresa pot accedir a les dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Segons el principi de Limitació del Termini de Conservació, en quin cas excepcional es poden conservar les dades més temps del necessari?",
+    "respostes": [
+      ["Únicament per a fins d'arxiu d'interès públic, recerca científica o històrica o fins estadístics.", true],
+      ["Sempre que el responsable del tractament tingui prou capacitat d'emmagatzematge.", false],
+      ["Si el servidor es troba fora de la Unió Europea.", false],
+      ["Només si les dades estan completament xifrades per defecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "En què consisteix el principi de Responsabilitat Proactiva?",
+    "respostes": [
+      ["El responsable del tractament ha d'adoptar mesures per complir la normativa i ser capaç de demostrar aquest compliment.", true],
+      ["L'interessat ha de ser proactiu i demanar que les seves dades no siguin robades.", false],
+      ["L'Agència de Protecció de Dades ha de revisar manualment cada empresa de forma proactiva.", false],
+      ["L'obligació de denunciar qualsevol atac informàtic en menys d'una hora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin dret permet a l'interessat obtenir confirmació sobre si s'estan tractant dades seves i quines són?",
+    "respostes": [
+      ["Dret d'Accés.", true],
+      ["Dret de Rectificació.", false],
+      ["Dret a l'Oblit.", false],
+      ["Dret de Limitació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Com es coneix el dret a obtenir la supressió de les dades personals quan ja no són necessàries?",
+    "respostes": [
+      ["Dret a l'Oblit (Dret de Supressió).", true],
+      ["Dret de Rectificació.", false],
+      ["Dret d'Oposició.", false],
+      ["Dret de Portabilitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin dret permet a l'usuari rebre les seves dades en un format estructurat i transmetre-les a un altre responsable sense impediments?",
+    "respostes": [
+      ["Dret a la Portabilitat.", true],
+      ["Dret d'Oposició.", false],
+      ["Dret a la Limitació del Tractament.", false],
+      ["Dret d'Accés.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què garanteix el dret a la neutralitat d'internet reconegut a la LOPDGDD?",
+    "respostes": [
+      ["Que els proveïdors d'internet no poden bloquejar, limitar o prioritzar el tràfic basant-se en continguts o aplicacions.", true],
+      ["Que tot el programari a internet ha de ser neutre quant a gènere.", false],
+      ["Que només es pot accedir a internet amb una adreça IP anònima.", false],
+      ["Que la connexió a internet ha de ser completament gratuïta per als estudiants.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què regula el 'Testament Digital'?",
+    "respostes": [
+      ["L'accés, gestió i disposició dels continguts digitals d'una persona difunta per part dels seus hereus.", true],
+      ["L'obligació de signar el testament notarial amb certificat digital.", false],
+      ["La transferència de criptomonedes al banc central de l'estat.", false],
+      ["L'eliminació automàtica del disc dur en cas de defunció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin dret garanteix als treballadors poder no atendre comunicacions professionals fora de l'horari laboral?",
+    "respostes": [
+      ["Dret a la desconnexió digital.", true],
+      ["Dret a l'oblit.", false],
+      ["Dret a l'educació digital.", false],
+      ["Dret a l'oposició.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Qui és el Responsable del Tractament?",
+    "respostes": [
+      ["La persona o entitat que decideix els fins i els mitjans del tractament de les dades personals.", true],
+      ["El treballador informàtic que configura la base de dades.", false],
+      ["L'empresa subcontractada per fer les còpies de seguretat.", false],
+      ["L'Agència Espanyola de Protecció de Dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin rol desenvolupa la persona o entitat que tracta dades personals per compte i segons les instruccions del responsable?",
+    "respostes": [
+      ["Encarregat del Tractament.", true],
+      ["Delegat de Protecció de Dades (DPD).", false],
+      ["Interessat.", false],
+      ["Auditor Extern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quina NO és una funció del Delegat de Protecció de Dades (DPD)?",
+    "respostes": [
+      ["Decidir unilateralment la finalitat amb la qual l'empresa explotarà comercialment les dades.", true],
+      ["Supervisar el compliment de la normativa dins l'organització.", false],
+      ["Assessorar el responsable i l'encarregat del tractament.", false],
+      ["Actuar com a punt de contacte amb les autoritats de protecció de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què és el Registre d'Activitats de Tractament (RAT)?",
+    "respostes": [
+      ["Un document on es documenten totes les operacions de tractament, finalitats, destinataris i terminis de conservació.", true],
+      ["Un formulari obligatori per sol·licitar dades al govern.", false],
+      ["Una bústia on s'hi dipositen les reclamacions dels usuaris disconformes.", false],
+      ["Un llibre físic firmat per un notari cada any.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "En quin cas s'ha de realitzar una Avaluació d'Impacte en la Protecció de Dades (AIPD)?",
+    "respostes": [
+      ["Abans de dur a terme un tractament que pugui implicar un alt risc per als drets i llibertats dels interessats.", true],
+      ["Únicament quan s'instal·li un nou antivirus.", false],
+      ["Cada vegada que un empleat canvia de contrasenya.", false],
+      ["Només quan l'empresa sigui denunciada prèviament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "En cas de produir-se una bretxa de seguretat que afecti dades personals i suposi risc, en quin termini màxim s'ha de notificar a l'autoritat competent?",
+    "respostes": [
+      ["En un termini màxim de 72 hores després d'haver-ne tingut constància.", true],
+      ["Abans que passin 24 hores.", false],
+      ["En el termini de 7 dies naturals.", false],
+      ["Durant el primer trimestre de l'any següent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què significa aplicar la 'Privacitat des del Disseny'?",
+    "respostes": [
+      ["Integrar les mesures de seguretat i configuracions de privacitat des del mateix començament del desenvolupament del sistema.", true],
+      ["Afegir clàusules legals després d'haver acabat de desenvolupar l'aplicació.", false],
+      ["Que l'aplicació ha de tenir colors discrets.", false],
+      ["Contractar un advocat perquè revisi el codi font.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què determina el principi de 'Privacitat per Defecte'?",
+    "respostes": [
+      ["Que el sistema, per defecte, només reculli dades estrictament necessàries i apliqui la configuració més restrictiva.", true],
+      ["Que totes les dades del perfil de l'usuari siguin públiques fins que aquest ho desmarqui manualment.", false],
+      ["Que no es poden utilitzar galetes (cookies) mai sota cap concepte.", false],
+      ["Que calgui introduir la contrasenya cada cinc minuts.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quina és la diferència clau entre anonimització i pseudonimització?",
+    "respostes": [
+      ["L'anonimització és irreversible, mentre que la pseudonimització permet reidentificar l'individu usant informació addicional separada.", true],
+      ["Són exactament el mateix procediment tècnic de xifratge.", false],
+      ["La pseudonimització exclou les dades de l'àmbit de la LOPDGDD, mentre que l'anonimització no.", false],
+      ["L'anonimització només s'usa per a imatges i la pseudonimització per a text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "A Espanya, quina és l'edat mínima per donar un consentiment vàlid per al tractament de dades personals (ex. per apuntar-se a una xarxa social)?",
+    "respostes": [
+      ["14 anys.", true],
+      ["16 anys.", false],
+      ["18 anys.", false],
+      ["13 anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què preveu la LOPDGDD sobre les dades de persones difuntes?",
+    "respostes": [
+      ["Permet als familiars o hereus sol·licitar l'accés, rectificació o supressió de les dades, tret que el difunt ho prohibís en vida.", true],
+      ["S'eliminen totes les dades automàticament sense intervenció de ningú.", false],
+      ["Les dades passen a ser domini públic al cap de deu anys.", false],
+      ["Prohibeix explícitament a qualsevol familiar l'accés als comptes i dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin mètode recomana la llei per complir el deure de transparència a l'hora d'informar l'usuari sobre el tractament de les seves dades?",
+    "respostes": [
+      ["L'ús d'un model d'informació per capes (una primera capa amb informació bàsica i una segona més detallada).", true],
+      ["L'enviament obligatori d'una carta certificada al domicili de l'usuari.", false],
+      ["L'ús d'un document complet d'una sola pàgina sense enllaços interns.", false],
+      ["Llegir la política de privacitat per telèfon abans de qualsevol registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "A qui han d'anar dirigides inicialment les sol·licituds d'un ciutadà per exercir el seu dret d'accés o rectificació?",
+    "respostes": [
+      ["Al Responsable del Tractament.", true],
+      ["A l'Agència Espanyola de Protecció de Dades (AEPD) directament.", false],
+      ["Als proveïdors de serveis d'internet.", false],
+      ["A l'Encarregat del Tractament exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "En quin d'aquests supòsits és obligatòria la designació d'un Delegat de Protecció de Dades (DPD)?",
+    "respostes": [
+      ["Quan el tractament de dades el realitza una autoritat o organisme públic, o si hi ha observació sistemàtica a gran escala.", true],
+      ["En qualsevol empresa privada amb més de cinc empleats que tingui pàgina web.", false],
+      ["Quan l'empresa només tracta dades de contacte bàsiques de proveïdors (B2B).", false],
+      ["No és obligatori en cap cas a Espanya, només és recomanable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què s'ha de fer amb les dades quan se sol·licita la seva supressió però han de ser preservades per a possibles exigències de responsabilitat legal?",
+    "respostes": [
+      ["S'ha d'aplicar un bloqueig de les dades, impedint-ne el tractament habitual fins que expiri el termini legal de prescripció.", true],
+      ["S'han d'esborrar físicament destrossant els discs durs de seguida.", false],
+      ["S'han d'anonimitzar per poder vendre-les posteriorment.", false],
+      ["S'han de cedir de forma obligatòria als cossos de seguretat preventivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "En quina situació el responsable del tractament pot exceptuar la notificació d'una bretxa de seguretat a l'AEPD?",
+    "respostes": [
+      ["Quan sigui improbable que aquesta bretxa constitueixi un risc per als drets i llibertats de les persones físiques.", true],
+      ["Quan el cap de setmana o festius estiguin propers.", false],
+      ["Quan les dades afectades siguin d'usuaris que no tenen el correu electrònic actualitzat.", false],
+      ["Quan s'estigui en la meitat d'una auditoria anual rutinària.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què garanteix el dret a no ser objecte de decisions automatitzades (elaboració de perfils)?",
+    "respostes": [
+      ["Dona dret a l'usuari a sol·licitar intervenció humana i expressar el seu punt de vista per impugnar la decisió de la màquina.", true],
+      ["Assegura que cap empresa pot utilitzar algoritmes de cap mena sota cap circumstància.", false],
+      ["Evita que l'usuari rebi correus automàtics per error.", false],
+      ["Obliga a imprimir en paper totes les decisions empresarials.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin tipus de dret és el dret a l'educació digital reconegut a la LOPDGDD?",
+    "respostes": [
+      ["Un dret digital orientat a garantir la formació per a l'ús adequat i responsable de la tecnologia i la protecció de la privacitat.", true],
+      ["Un dret per rebre ordinadors gratuïts a les escoles i universitats públiques.", false],
+      ["Un dret per descarregar programari de forma gratuïta.", false],
+      ["Un dret d'accés permanent a qualsevol xarxa social independentment de l'edat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Què s'identifica a la fase de l''Anàlisi Inicial i Auditoria' quan s'adapta un entorn a la LOPDGDD?",
+    "respostes": [
+      ["S'identifiquen quines dades personals es recullen, com es tracten, on s'emmagatzemen i qui hi té accés.", true],
+      ["Es decideix la distribució estètica de l'aplicació mòbil.", false],
+      ["Es revisen únicament les llicències dels programaris ofimàtics instal·lats.", false],
+      ["Es comproven els pressupostos globals assignats al departament de màrqueting.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Quin principi s'infringeix si una organització sol·licita l'historial clínic per vendre un telèfon mòbil?",
+    "respostes": [
+      ["El principi de Minimització de Dades (s'han de demanar només dades adequades, pertinents i limitades al necessari).", true],
+      ["El dret a la portabilitat.", false],
+      ["El dret d'accés.", false],
+      ["El principi de Responsabilitat Proactiva.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "A què es refereix el concepte de 'Transparència' en relació a les dades personals?",
+    "respostes": [
+      ["A que les persones han de ser informades de manera clara, accessible i senzilla sobre com seran tractades les seves dades.", true],
+      ["A que el codi font de l'aplicació que gestiona la base de dades sigui de domini públic.", false],
+      ["A la necessitat de fer públiques les estadístiques de vendes anuals a la web de l'empresa.", false],
+      ["A obligar als usuaris a signar una pantalla transparent o tauleta digital.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "Si una empresa allotja al núvol les bases de dades amb nòmines per donar servei d'emmagatzematge, però no decideix l'ús d'aquelles dades, com se la categoritza?",
+    "respostes": [
+      ["Com a Encarregat del Tractament.", true],
+      ["Com a Responsable del Tractament.", false],
+      ["Com a Interessat titular de les dades.", false],
+      ["Com a Autoritat de Control autònoma.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "El fet de garantir que les dades són correctes, completes i es mantenen actualitzades reflecteix el principi de:",
+    "respostes": [
+      ["Exactitud.", true],
+      ["Limitació de la finalitat.", false],
+      ["Integritat i Confidencialitat.", false],
+      ["Anonimització obligatòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 53. La Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals.",
+    "enunciat": "A què fa referència la informació continguda en la 'primera capa' del model d'informació de privacitat per capes?",
+    "respostes": [
+      ["A la informació bàsica, que sol incloure la identitat del responsable, la finalitat del tractament i un avís sobre els drets bàsics.", true],
+      ["A un extracte complet i exhaustiu de la directiva europea original aplicable.", false],
+      ["Al protocol tècnic d'encriptació exacte que fan servir els servidors d'allotjament web.", false],
+      ["Als noms dels enginyers que han programat i creat l'arquitectura de la base de dades.", false]
+    ]
+  }
+]

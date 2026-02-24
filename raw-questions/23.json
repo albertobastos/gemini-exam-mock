@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què és el Cicle de Vida del Desenvolupament de Programari (SDLC)?",
+    "respostes": [
+      ["Un programari antivirus.", false],
+      ["Un marc que descriu les etapes per crear i mantenir aplicacions de programari.", true],
+      ["Un tipus de disc dur.", false],
+      ["Una metodologia exclusiva per a maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina és la primera fase del SDLC segons el document?",
+    "respostes": [
+      ["Codificació.", false],
+      ["Planificació i Anàlisi de Requisits.", true],
+      ["Proves.", false],
+      ["Desplegament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què es fa durant la fase de Disseny del Sistema?",
+    "respostes": [
+      ["S'escriu el codi font.", false],
+      ["Es defineix l'arquitectura del sistema i les especificacions tècniques.", true],
+      ["S'instal·la el programari a l'ordinador de l'usuari.", false],
+      ["Es corregeixen els errors de producció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "En quina fase s'escriu el codi del programari?",
+    "respostes": [
+      ["Anàlisi de Requisits.", false],
+      ["Desenvolupament (Codificació).", true],
+      ["Disseny.", false],
+      ["Manteniment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin és l'objectiu de la fase de Proves?",
+    "respostes": [
+      ["Definir els objectius del projecte.", false],
+      ["Verificar que el programari compleix els requisits i corregir errors.", true],
+      ["Formar als usuaris finals.", false],
+      ["Crear l'arquitectura del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina característica defineix el Model en Cascada?",
+    "respostes": [
+      ["Les fases se solapen constantment.", false],
+      ["És una seqüència lineal on cada etapa ha de completar-se abans de començar la següent.", true],
+      ["No requereix documentació.", false],
+      ["Es basa en la improvisació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin és un desavantatge del Model en Cascada?",
+    "respostes": [
+      ["És molt flexible als canvis.", false],
+      ["És poc flexible davant canvis en els requisits un cop iniciat.", true],
+      ["És difícil de gestionar.", false],
+      ["No té etapes definides.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Com funciona el Model Iteratiu?",
+    "respostes": [
+      ["Desenvolupa el producte final en un sol cicle.", false],
+      ["Desenvolupa el sistema a través de cicles repetitius que milloren versions anteriors.", true],
+      ["Ignora el feedback de l'usuari.", false],
+      ["Només serveix per a projectes petits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina diferència té el Model Incremental respecte a l'Iteratiu?",
+    "respostes": [
+      ["No produeix programari funcional.", false],
+      ["Cada increment afegeix noves funcionalitats al producte final.", true],
+      ["És exactament el mateix.", false],
+      ["Esborra el codi anterior en cada fase.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "En què es centra principalment el Model Espiral?",
+    "respostes": [
+      ["En la velocitat de codificació.", false],
+      ["En l'anàlisi i gestió de riscos.", true],
+      ["En evitar la documentació.", false],
+      ["En utilitzar només una fase.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Per a què serveix el Model de Prototipus?",
+    "respostes": [
+      ["Per vendre el producte abans de fer-lo.", false],
+      ["Per crear un model preliminar i entendre millor els requisits de l'usuari.", true],
+      ["Per evitar fer proves.", false],
+      ["Per substituir el producte final permanentment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què caracteritza les Metodologies Àgils?",
+    "respostes": [
+      ["La rigidesa i la documentació exhaustiva.", false],
+      ["El desenvolupament iteratiu, la flexibilitat i la resposta ràpida als canvis.", true],
+      ["L'absència de planificació.", false],
+      ["El treball individual sense equip.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Com organitza el treball la metodologia Scrum?",
+    "respostes": [
+      ["En fases de 6 mesos.", false],
+      ["En iteracions curtes anomenades 'sprints' (2-4 setmanes).", true],
+      ["Sense terminis de temps.", false],
+      ["En una sola fase llarga.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina eina utilitza Kanban per gestionar el treball?",
+    "respostes": [
+      ["Diagrames de Gantt complexos.", false],
+      ["Un sistema visual (taulers) per veure el flux de treball.", true],
+      ["Llistes de correu electrònic.", false],
+      ["Reunions de 4 hores diàries.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què combina la metodologia DevOps?",
+    "respostes": [
+      ["Desenvolupament de programari i Operacions de TI.", true],
+      ["Desenvolupament i Vendes.", false],
+      ["Hardware i Software.", false],
+      ["Disseny gràfic i Màrqueting.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què és Mètrica v3?",
+    "respostes": [
+      ["Un llenguatge de programació.", false],
+      ["Una metodologia de desenvolupament per a les administracions públiques espanyoles.", true],
+      ["Un sistema operatiu.", false],
+      ["Una eina de disseny gràfic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "El procés de Planificació de Sistemes d'Informació (PSI) en Mètrica v3 està cobert per la norma ISO/IEC 12207?",
+    "respostes": [
+      ["Sí, totalment.", false],
+      ["No, però és fonamental per a l'alineació estratègica.", true],
+      ["Només en la versió 2.", false],
+      ["Depèn del projecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què es fa en l'Estudi de Viabilitat del Sistema (EVS) en Mètrica v3?",
+    "respostes": [
+      ["S'escriu el codi final.", false],
+      ["S'avalua la factibilitat tècnica, econòmica i operativa del projecte.", true],
+      ["Es forma als usuaris.", false],
+      ["Es dissenya la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin producte es genera a la fase d'Anàlisi del Sistema d'Informació (ASI)?",
+    "respostes": [
+      ["El manual d'usuari final.", false],
+      ["L'Especificació de Requisits de Software.", true],
+      ["El codi font compilat.", false],
+      ["El pla de màrqueting.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què inclou la fase de Construcció del Sistema d'Informació (CSI)?",
+    "respostes": [
+      ["Només disseny visual.", false],
+      ["Desenvolupament i integració dels components, i proves unitàries.", true],
+      ["Planificació estratègica.", false],
+      ["Anàlisi de riscos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quins processos d'Interfície defineix Mètrica v3?",
+    "respostes": [
+      ["Només gestió de projectes.", false],
+      ["Gestió de Projectes, Seguretat, Assegurament de la Qualitat i Gestió de la Configuració.", true],
+      ["Vendes i Màrqueting.", false],
+      ["Recursos Humans i Finances.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina tècnica s'utilitza en Mètrica v3 per a la planificació temporal?",
+    "respostes": [
+      ["Diagrames de flux de dades.", false],
+      ["Diagrames de Gantt i PERT.", true],
+      ["Diagrames de classes.", false],
+      ["Diagrames de casos d'ús.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Per a què serveixen els diagrames de casos d'ús en l'Anàlisi de Requisits?",
+    "respostes": [
+      ["Per dissenyar la base de dades física.", false],
+      ["Per modelar les funcionalitats del sistema des de la perspectiva de l'usuari.", true],
+      ["Per calcular el pressupost.", false],
+      ["Per programar en Java.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin rol és responsable de la implantació i seguretat del sistema en Mètrica v3?",
+    "respostes": [
+      ["El programador.", false],
+      ["El Cap de Projecte.", true],
+      ["L'usuari final.", false],
+      ["El consultor extern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin és un inconvenient del Model Espiral?",
+    "respostes": [
+      ["No gestiona riscos.", false],
+      ["Pot ser costós i complex de gestionar.", true],
+      ["És massa ràpid.", false],
+      ["No permet fer canvis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què permet la Integració Contínua (CI) en DevOps?",
+    "respostes": [
+      ["Treballar sense ordinadors.", false],
+      ["Compilar i provar el codi automàticament amb cada canvi.", true],
+      ["Eliminar els desenvolupadors.", false],
+      ["Fer proves manuals un cop a l'any.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin desavantatge tenen les metodologies tradicionals com la Cascada?",
+    "respostes": [
+      ["Massa flexibilitat.", false],
+      ["Rigidesa i detecció tardana d'errors.", true],
+      ["Manca de documentació.", false],
+      ["No tenen fases definides.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què és el manteniment correctiu?",
+    "respostes": [
+      ["Afegir noves funcionalitats.", false],
+      ["Corregir errors i defectes descoberts després del desplegament.", true],
+      ["Adaptar el sistema a nous entorns.", false],
+      ["Millorar el rendiment si no hi ha errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "En quin model es lliuren les parts més crítiques del sistema primer?",
+    "respostes": [
+      ["Model en Cascada.", false],
+      ["Model Incremental.", true],
+      ["Model Big Bang.", false],
+      ["Model de Prototipus (només és un model).", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina tècnica s'utilitza en la fase de Disseny per modelar l'arquitectura?",
+    "respostes": [
+      ["Entrevistes.", false],
+      ["Diagrames de classes i seqüència.", true],
+      ["Proves de càrrega.", false],
+      ["Pressupostos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què aporta l'ús de prototips durant el disseny?",
+    "respostes": [
+      ["El producte final acabat.", false],
+      ["La validació del disseny amb els usuaris abans de construir-lo.", true],
+      ["Més errors al codi.", false],
+      ["Res, és una pèrdua de temps.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quina és la funció de la Gestió de la Configuració (GC) en Mètrica v3?",
+    "respostes": [
+      ["Configurar la impressora.", false],
+      ["Controlar els canvis i mantenir la traçabilitat de les versions.", true],
+      ["Configurar el correu electrònic.", false],
+      ["Gestionar les vacances.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "En Mètrica v3, qui és el responsable de desenvolupar i integrar components?",
+    "respostes": [
+      ["El Directiu.", false],
+      ["El Programador.", true],
+      ["El client.", false],
+      ["L'analista de riscos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin avantatge té el model Iteratiu respecte al de Cascada?",
+    "respostes": [
+      ["És més rígid.", false],
+      ["Permet incorporar feedback de l'usuari en cada iteració.", true],
+      ["No requereix planificació.", false],
+      ["És més lent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què es documenta a l'Informe de Proves?",
+    "respostes": [
+      ["El pressupost del projecte.", false],
+      ["Els resultats de les proves i els defectes trobats.", true],
+      ["El codi font complet.", false],
+      ["El manual d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Què és el manteniment evolutiu?",
+    "respostes": [
+      ["Arreglar bugs.", false],
+      ["Incorporar noves funcionalitats per noves necessitats.", true],
+      ["Adaptar-se a un nou Windows.", false],
+      ["Prevenir errors futurs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Quin model de cicle de vida assumeix que tots els requisits es poden recollir al principi?",
+    "respostes": [
+      ["Model Àgil.", false],
+      ["Model en Cascada.", true],
+      ["Model Espiral.", false],
+      ["Model de Prototipus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 23. Etapes del cicle de vida del desenvolupament de programari.",
+    "enunciat": "Mètrica v3 cobreix el manteniment del sistema?",
+    "respostes": [
+      ["No, només el desenvolupament.", false],
+      ["Sí, amb el procés de Manteniment de Sistemes d'Informació (MSI).", true],
+      ["Només si es paga a part.", false],
+      ["Només durant el primer mes.", false]
+    ]
+  }
+]

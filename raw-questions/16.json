@@ -1,0 +1,392 @@
+[
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què és un centre d'assistència a usuaris o help desk?",
+    "respostes": [
+      ["Una unitat organitzativa dissenyada per oferir suport i solucions tecnològiques als usuaris finals.", true],
+      ["Un magatzem central de components de hardware per a la venda.", false],
+      ["Un departament dedicat exclusivament a la programació de codi font.", false],
+      ["Una oficina de recursos humans per a la contractació de tècnics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Com funciona el model de Help Desk 'Reactiu'?",
+    "respostes": [
+      ["S'anticipa als problemes abans que l'usuari se n'adoni.", false],
+      ["Espera que els usuaris informin dels problemes a mesura que es produeixen.", true],
+      ["Utilitza intel·ligència artificial per resoldre incidències de forma autònoma.", false],
+      ["Només actua quan el sistema operatiu cau completament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina és la característica principal del Help Desk 'Proactiu'?",
+    "respostes": [
+      ["Ignora les trucades dels usuaris per centrar-se en el manteniment.", false],
+      ["Busca anticipar-se als problemes mitjançant eines de monitorització.", true],
+      ["Redueix el nombre de tècnics al mínim possible.", false],
+      ["Obliga els usuaris a resoldre els seus propis problemes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "En un model de Help Desk 'Nivellat' (Multi-tier), què tracta generalment el Tier 1?",
+    "respostes": [
+      ["Problemes crítics que requereixen enginyers de software.", false],
+      ["Problemes senzills i comuns, seguint protocols establerts.", true],
+      ["Investigacions detallades que requereixen accés a sistemes crítics.", false],
+      ["La resolució de bugs en el codi font de les aplicacions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "A quin nivell de suport es deriven els problemes si el Tier 2 no els pot resoldre?",
+    "respostes": [
+      ["Al Tier 1 per tornar a començar.", false],
+      ["Al Tier 3, on tècnics altament especialitzats o enginyers proporcionen solucions.", true],
+      ["A l'usuari final per falta de solució.", false],
+      ["Al departament de vendes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què és l'ITIL en el context de la gestió de Help Desk?",
+    "respostes": [
+      ["Un llenguatge de programació per a bases de dades.", false],
+      ["Un marc de bones pràctiques per a la gestió de serveis TI.", true],
+      ["Un tipus de maquinari per a servidors de correu.", false],
+      ["Un protocol de comunicació sense fils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què implica la funció de 'Gestió d'Incidents'?",
+    "respostes": [
+      ["Modificar el codi font per afegir noves funcionalitats.", false],
+      ["Restaurar la normalitat dels serveis el més ràpidament possible després d'una interrupció.", true],
+      ["Identificar la causa arrel de tots els problemes de l'empresa.", false],
+      ["Substituir tot el hardware cada vegada que falla un ratolí.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina és la diferència entre Gestió d'Incidents i Gestió de Problemes?",
+    "respostes": [
+      ["Són sinònims i es gestionen igual.", false],
+      ["La gestió d'incidents busca restaurar el servei ràpidament; la de problemes busca la causa arrel per evitar recurrències.", true],
+      ["La gestió de problemes és només per a hardware i la d'incidències per a software.", false],
+      ["La gestió d'incidències només la fan tècnics externs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què és una 'Sol·licitud de Servei'?",
+    "respostes": [
+      ["Una avaria crítica que atura la producció.", false],
+      ["Una petició de l'usuari per a nous serveis o canvis (com instal·lar programari o crear comptes).", true],
+      ["Un error de connexió a la base de dades.", false],
+      ["Una queixa formal sobre el sou del tècnic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "En què consisteix la 'Gestió del Coneixement' en un Help Desk?",
+    "respostes": [
+      ["En amagar les solucions perquè els usuaris no aprenguin.", false],
+      ["En crear, compartir i mantenir una base de dades de coneixements per a la resolució ràpida de problemes.", true],
+      ["En fer exàmens setmanals als usuaris.", false],
+      ["En llegir llibres de filosofia durant les pauses.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quin és un benefici del model de 'Gestió Interna' del Help Desk?",
+    "respostes": [
+      ["Elimina completament els costos de formació.", false],
+      ["Proporciona un millor coneixement de l'entorn corporatiu i una resposta més personalitzada.", true],
+      ["Permet no tenir personal tècnic en nòmina.", false],
+      ["És sempre l'opció més barata per a qualsevol empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què és l'outsourcing en la gestió de Help Desk?",
+    "respostes": [
+      ["Contractar personal addicional només per Nadal.", false],
+      ["Subcontractar el servei a un proveïdor extern especialitzat.", true],
+      ["Moure l'oficina del Help Desk al soterrani.", false],
+      ["Vendre les eines de ticketing a una altra empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quin avantatge ofereix el 'Model Híbrid'?",
+    "respostes": [
+      ["Obliga a tothom a treballar des de casa.", false],
+      ["Combina elements interns i externs per optimitzar costos mantenint el control d'aspectes crítics.", true],
+      ["Elimina la necessitat de nivells de suport.", false],
+      ["S'utilitza només en empreses que venen cotxes híbrids.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Per a què serveixen els 'Sistemes de Ticketing'?",
+    "respostes": [
+      ["Per vendre entrades per a esdeveniments de l'empresa.", false],
+      ["Per gestionar, assignar i rastrejar les sol·licituds i incidències dels usuaris.", true],
+      ["Per imprimir etiquetes per als servidors físics.", false],
+      ["Per controlar l'horari d'entrada i sortida del personal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Com ajuda la Intel·ligència Artificial als Help Desks moderns?",
+    "respostes": [
+      ["Substituint tots els gestors humans immediatament.", false],
+      ["Mitjançant bots de xat i automatització de tasques repetitives.", true],
+      ["Augmentant el preu de cada tiquet resolt.", false],
+      ["Netejant físicament els teclats dels usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què signifiquen les sigles SLA?",
+    "respostes": [
+      ["System Level Architecture.", false],
+      ["Service Level Agreement (Acord de Nivell de Servei).", true],
+      ["Software Logic Analysis.", false],
+      ["Secure Local Access.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què mesura l'índex CSAT?",
+    "respostes": [
+      ["La velocitat del processador del servidor.", false],
+      ["La satisfacció dels usuaris amb els serveis rebuts.", true],
+      ["El nombre de tiquets que s'han perdut.", false],
+      ["El consum elèctric del centre d'assistència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina mètrica indica l'eficiència de l'help desk en solucionar problemes?",
+    "respostes": [
+      ["Temps de Resolució.", true],
+      ["Nombre de persones a la recepció.", false],
+      ["Quantitat de paper imprès al mes.", false],
+      ["Distància física entre el tècnic i l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Per què és important l'anàlisi de tendències en un Help Desk?",
+    "respostes": [
+      ["Per saber quins tècnics porten la roba més moderna.", false],
+      ["Per identificar patrons en les incidències i millorar els processos de forma contínua.", true],
+      ["Per predir el preu de les accions de l'empresa.", false],
+      ["Per eliminar les bases de dades de coneixement antigues.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quin és un exemple de plataforma de help desk esmentat al document?",
+    "respostes": [
+      ["Zendesk.", true],
+      ["Adobe Photoshop.", false],
+      ["Google Maps.", false],
+      ["Microsoft Excel.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "A quin nivell pertanyen els enginyers que resolen bugs de software o ajustos de configuració avançada?",
+    "respostes": [
+      ["Suport de Primer Nivell.", false],
+      ["Suport de Segon Nivell.", false],
+      ["Suport de Tercer Nivell.", true],
+      ["Atenció al client general.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quin servei ofereix Apple per al suport dels seus dispositius segons el text?",
+    "respostes": [
+      ["AppleCare.", true],
+      ["iHelp.", false],
+      ["MacSupport.", false],
+      ["iClinic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què permet la 'Formació i Educació d'Usuaris'?",
+    "respostes": [
+      ["Que els usuaris siguin més dependents del Help Desk.", false],
+      ["Millorar les competències tècniques dels usuaris per fer-los més autosuficients.", true],
+      ["Eliminar la necessitat de tenir sistemes de seguretat.", false],
+      ["Reduir el sou dels empleats que no saben usar l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què són els SLO (Objectius de Nivell de Servei)?",
+    "respostes": [
+      ["Lleis nacionals sobre informàtica.", false],
+      ["Objectius interns que ajuden a millorar i mesurar la qualitat dels serveis.", true],
+      ["Contractes de compravenda de hardware.", false],
+      ["Sistemes de tancament automàtic de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina funció té la 'Monitorització i Gestió del Rendiment'?",
+    "respostes": [
+      ["Mirar quantes vegades l'usuari surt a fumar.", false],
+      ["Supervisar sistemes per detectar i resoldre problemes abans que afectin els usuaris.", true],
+      ["Gravar les converses telefòniques per a un concurs.", false],
+      ["Controlar la brillantor de tots els monitors de l'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quin és l'objectiu de realitzar 'manteniments preventius' en un model proactiu?",
+    "respostes": [
+      ["Assegurar que els sistemes funcionin de manera òptima i evitar interrupcions.", true],
+      ["Gastar el pressupost sobrant abans de final d'any.", false],
+      ["Provar si les eines de reparació encara funcionen.", false],
+      ["Mantenir els tècnics ocupats quan no hi ha trucades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina mètrica recull el CSAT habitualment?",
+    "respostes": [
+      ["Enquestes posteriors a la resolució d'incidències.", true],
+      ["El temps total que l'ordinador ha estat encès.", false],
+      ["La quantitat de RAM utilitzada pel sistema de ticketing.", false],
+      ["La temperatura mitjana de la sala de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Com es defineix un 'Incident' segons la gestió de serveis?",
+    "respostes": [
+      ["Qualsevol interrupció o reducció de la qualitat d'un servei normal.", true],
+      ["Una petició d'un teclat nou per estètica.", false],
+      ["L'actualització programada del sistema operatiu.", false],
+      ["La compra d'una nova llicència d'antivirus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quin desavantatge té l'outsourcing segons el text?",
+    "respostes": [
+      ["Sempre és més lent que el suport intern.", false],
+      ["Possibles problemes de comunicació o pèrdua de control directe sobre els serveis.", true],
+      ["L'obligació d'utilitzar programari lliure.", false],
+      ["Que el proveïdor extern no sàpiga parlar cap idioma.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina eina ajuda als usuaris a l'autoassistència (self-service)?",
+    "respostes": [
+      ["La Base de Coneixement (Knowledge Base).", true],
+      ["El cable de xarxa.", false],
+      ["El monitor tàctil.", false],
+      ["L'extintor d'incendis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "En el model basat en ITIL, què busca la 'Millora Contínua del Servei'?",
+    "respostes": [
+      ["Assegurar que els processos siguin eficients, consistents i evolucionin amb les necessitats.", true],
+      ["Canviar de sistema de ticketing cada mes.", false],
+      ["Augmentar el nombre d'incidències per justificar la feina.", false],
+      ["Eliminar tots els nivells de suport per un de sol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Qui proporciona el suport en el Tier 3?",
+    "respostes": [
+      ["Personal administratiu.", false],
+      ["Tècnics júnior en pràctiques.", false],
+      ["Experts o enginyers altament qualificats.", true],
+      ["L'usuari que ha tingut el problema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què inclou la funció de 'Suport Tècnic' segons el document?",
+    "respostes": [
+      ["Assistència en hardware, software i xarxes.", true],
+      ["Gestió de la nòmina dels treballadors.", false],
+      ["Venda de productes de màrqueting.", false],
+      ["Neteja de les instal·lacions físiques de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina tecnologia s'esmenta per a la comunicació tècnic-usuari?",
+    "respostes": [
+      ["Aplicacions de xat, correu electrònic i telefonia.", true],
+      ["Senyals de fum.", false],
+      ["Correu postal certificat.", false],
+      ["Telegrafia sense fils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què facilita l'adopció de noves tecnologies dins d'una organització?",
+    "respostes": [
+      ["Un bon centre d'assistència a usuaris.", true],
+      ["Un disc dur amb més capacitat.", false],
+      ["Un cable HDMI de color daurat.", false],
+      ["L'absència total de suport tècnic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "En el resum del tema, quina funció s'encarrega d'identificar 'causes arrel'?",
+    "respostes": [
+      ["Gestió d'Incidències.", false],
+      ["Gestió de Problemes.", true],
+      ["Gestió de Sol·licituds.", false],
+      ["Suport de Primer Nivell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Quina és la pedra angular per a les operacions eficients de TI en les organitzacions?",
+    "respostes": [
+      ["Els ratolins sense fils.", false],
+      ["Els help desks.", true],
+      ["Les cadires ergonòmiques.", false],
+      ["Els fons de pantalla d'escriptori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què permet als tècnics centrar-se en problemes complexos segons les tendències actuals?",
+    "respostes": [
+      ["L'ús d'automatització i IA per a tasques repetitives.", true],
+      ["L'eliminació del descans per al cafè.", false],
+      ["Treballar només de nit.", false],
+      ["No respondre als correus electrònics senzills.", false]
+    ]
+  },
+  {
+    "tema": "Tema 16. Centres d'assistència a usuaris (help desk). Models de gestió. Funcions i serveis.",
+    "enunciat": "Què garanteix que les sol·licituds siguin ateses de manera ordenada?",
+    "respostes": [
+      ["Un bon procés de Gestió de Sol·licituds.", true],
+      ["Tenir un monitor molt gran.", false],
+      ["Cridar més fort que els altres companys.", false],
+      ["Reiniciar l'ordinador cada vegada que s'envia una petició.", false]
+    ]
+  }
+]

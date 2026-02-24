@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quin és l'objectiu principal de l'enginyeria de requisits?",
+    "respostes": [
+      ["Assegurar que el sistema compleixi les necessitats dels usuaris i minimitzar errors futurs.", true],
+      ["Programar el codi font el més ràpid possible.", false],
+      ["Dissenyar la base de dades física.", false],
+      ["Formar els usuaris en l'ús d'ordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què descriuen els requisits funcionals?",
+    "respostes": [
+      ["Les propietats de qualitat com el rendiment.", false],
+      ["Les funcions específiques i activitats que el sistema ha de realitzar.", true],
+      ["Els requisits de maquinari del servidor.", false],
+      ["El pressupost del departament de TI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "A què es refereixen els requisits no funcionals?",
+    "respostes": [
+      ["A les accions concretes de l'usuari.", false],
+      ["Als criteris de qualitat com rendiment, seguretat i usabilitat.", true],
+      ["A la lògica de negoci específica.", false],
+      ["Al nom de les finestres del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què inclouen els requisits del sistema?",
+    "respostes": [
+      ["Només els requisits de xarxa.", false],
+      ["Especificacions detallades de funcionalitats i característiques operatives (infraestructura, compatibilitat).", true],
+      ["La llista d'empleats de l'empresa.", false],
+      ["Els colors corporatius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "En què consisteix la fase d'elicitació de requisits?",
+    "respostes": [
+      ["En validar el codi font.", false],
+      ["En recollir informació dels usuaris i parts interessades sobre què ha de fer el sistema.", true],
+      ["En instal·lar el programari.", false],
+      ["En fer proves d'estrès.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina és la diferència entre validació i verificació en l'enginyeria de requisits?",
+    "respostes": [
+      ["La validació assegura que es fan els requisits correctes (necessitats reals); la verificació que estan ben documentats i sense errors.", true],
+      ["La validació és tècnica i la verificació és funcional.", false],
+      ["Són sinònims.", false],
+      ["La verificació es fa abans de l'elicitació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què implica la gestió de requisits?",
+    "respostes": [
+      ["Mantenir els requisits actualitzats i gestionar els canvis al llarg del cicle de vida.", true],
+      ["Escriure el codi final.", false],
+      ["Comprar les llicències de programari.", false],
+      ["Contractar personal nou.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què és un cas d'ús?",
+    "respostes": [
+      ["Un diagrama de flux de dades.", false],
+      ["Una descripció detallada de com un usuari interactua amb el sistema per aconseguir un objectiu específic.", true],
+      ["Una llista d'errors del sistema.", false],
+      ["Un manual d'instal·lació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què són els 'Actors' en un cas d'ús?",
+    "respostes": [
+      ["Els desenvolupadors del programari.", false],
+      ["Les entitats externes (usuaris o sistemes) que interactuen amb el sistema.", true],
+      ["Els objectes de la base de dades.", false],
+      ["Les pantalles de l'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què defineixen les precondicions d'un cas d'ús?",
+    "respostes": [
+      ["El resultat final.", false],
+      ["L'estat o condicions que han de complir-se abans que es pugui executar el cas d'ús.", true],
+      ["Els errors possibles.", false],
+      ["La durada del cas d'ús.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què descriuen les extensions en un cas d'ús?",
+    "respostes": [
+      ["Mòduls addicionals de pagament.", false],
+      ["Variacions de l'escenari principal, incloent errors o excepcions.", true],
+      ["Les dades de l'usuari.", false],
+      ["La configuració del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què indiquen les postcondicions en un cas d'ús?",
+    "respostes": [
+      ["L'estat del sistema després de completar el cas d'ús.", true],
+      ["Els requisits previs.", false],
+      ["El nom de l'actor.", false],
+      ["La data de creació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quin és un benefici clau dels casos d'ús?",
+    "respostes": [
+      ["Són molt breus i abstractes.", false],
+      ["Proporcionen una descripció clara, detallada i estructurada de les interaccions.", true],
+      ["No requereixen documentació.", false],
+      ["Són exclusius de metodologies àgils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina és una limitació dels casos d'ús?",
+    "respostes": [
+      ["Poden ser complexos de crear i mantenir en sistemes grans.", true],
+      ["No permeten descriure funcionalitats.", false],
+      ["Són massa informals.", false],
+      ["Només serveixen per a requisits no funcionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què és una història d'usuari?",
+    "respostes": [
+      ["Un informe d'errors.", false],
+      ["Una descripció breu i informal d'una funcionalitat des del punt de vista de l'usuari.", true],
+      ["Un diagrama UML complex.", false],
+      ["Un contracte legal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina estructura segueix típicament una història d'usuari?",
+    "respostes": [
+      ["Com a [Rol], vull [Funcionalitat] perquè [Benefici].", true],
+      ["Si [Condició] llavors [Acció].", false],
+      ["Actor -> Sistema -> Resposta.", false],
+      ["Select * from taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina funció tenen els criteris d'acceptació en una història d'usuari?",
+    "respostes": [
+      ["Definir quan la història es considera completa i correcta.", true],
+      ["Decidir qui programarà la història.", false],
+      ["Calcular el cost econòmic.", false],
+      ["Rebutjar la història automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quan es defineixen els criteris d'acceptació?",
+    "respostes": [
+      ["Després de lliurar el projecte.", false],
+      ["Abans de la implementació, com a part del procés de requisits.", true],
+      ["Durant la fase de proves finals.", false],
+      ["Quan l'usuari troba un error.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quin és un avantatge principal de les històries d'usuari?",
+    "respostes": [
+      ["Són extremadament detallades i tècniques.", false],
+      ["Són simples, flexibles i fomenten la col·laboració i l'enfocament en l'usuari.", true],
+      ["No permeten canvis un cop escrites.", false],
+      ["Substitueixen completament la documentació tècnica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina és una limitació de les històries d'usuari?",
+    "respostes": [
+      ["Poden mancar de detall tècnic i ser difícils de gestionar en projectes grans sense desglossament.", true],
+      ["Són massa formals.", false],
+      ["Requereixen molts diagrames.", false],
+      ["Són difícils d'entendre per al client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina és la diferència clau de detall entre casos d'ús i històries d'usuari?",
+    "respostes": [
+      ["Les històries d'usuari són més detallades.", false],
+      ["Els casos d'ús són més detallats i formals; les històries d'usuari són breus i informals.", true],
+      ["Tenen el mateix nivell de detall.", false],
+      ["Cap dels dos descriu funcionalitats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quan és més adequat utilitzar casos d'ús?",
+    "respostes": [
+      ["En projectes àgils molt ràpids.", false],
+      ["En projectes complexos on es necessiten especificacions funcionals detallades.", true],
+      ["Quan no hi ha documentació.", false],
+      ["Per a projectes personals petits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quan és preferible utilitzar històries d'usuari?",
+    "respostes": [
+      ["En entorns àgils (com Scrum) on la flexibilitat és clau.", true],
+      ["En projectes militars amb requisits fixos.", false],
+      ["Quan es necessita un contracte tancat inicialment.", false],
+      ["Per definir l'arquitectura del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "On s'emmagatzemen les històries d'usuari en la metodologia Scrum?",
+    "respostes": [
+      ["Al codi font.", false],
+      ["Al Product Backlog.", true],
+      ["Al manual d'usuari.", false],
+      ["A la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina tècnica d'elicitació implica treballar conjuntament en sessions amb grups d'usuaris?",
+    "respostes": [
+      ["Observació passiva.", false],
+      ["Tallers de requisits.", true],
+      ["Anàlisi de codi.", false],
+      ["Enquestes anònimes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què garanteix la traçabilitat en els requisits?",
+    "respostes": [
+      ["Que els requisits estiguin escrits en anglès.", false],
+      ["La capacitat de relacionar cada requisit amb les seves funcionalitats i proves associades.", true],
+      ["Que el sistema sigui ràpid.", false],
+      ["Que el codi no tingui errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quin rol juga el prototipatge en la validació de requisits?",
+    "respostes": [
+      ["Serveix per vendre el producte.", false],
+      ["Permet visualitzar el sistema i validar els requisits amb els usuaris abans de la construcció final.", true],
+      ["És una pèrdua de temps.", false],
+      ["Substitueix la fase de proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina característica tenen els requisits no funcionals respecte a l'arquitectura?",
+    "respostes": [
+      ["No tenen cap impacte.", false],
+      ["Imposen restriccions que guien el disseny i l'arquitectura del sistema.", true],
+      ["Només afecten els colors de la pantalla.", false],
+      ["Es defineixen després de la implementació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Com s'utilitzen els diagrames UML en l'especificació?",
+    "respostes": [
+      ["Per decorar els informes.", false],
+      ["Per representar visualment les relacions entre components i actors de forma formal.", true],
+      ["Per calcular el cost del projecte.", false],
+      ["Per escriure el codi automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què permet l'anàlisi de requisits?",
+    "respostes": [
+      ["Identificar inconsistències, ambigüitats i conflictes abans de desenvolupar.", true],
+      ["Ignorar els detalls tècnics.", false],
+      ["Començar a programar immediatament.", false],
+      ["Decidir el llenguatge de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "En una història d'usuari, què representa el component 'Benefici'?",
+    "respostes": [
+      ["El nom de l'usuari.", false],
+      ["La raó o valor que l'usuari obté de la funcionalitat.", true],
+      ["La descripció tècnica.", false],
+      ["El temps de desenvolupament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quina relació tenen els casos d'ús amb els requisits funcionals?",
+    "respostes": [
+      ["Són el mateix que els requisits no funcionals.", false],
+      ["Són una tècnica per identificar i documentar els requisits funcionals.", true],
+      ["No tenen relació.", false],
+      ["Els casos d'ús substitueixen el codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què és un 'Sprint Backlog' segons el context de les històries d'usuari?",
+    "respostes": [
+      ["Una llista de requisits descartats.", false],
+      ["Una llista específica d'elements seleccionats per ser implementats en un sprint.", true],
+      ["L'historial de versions.", false],
+      ["Una còpia de seguretat de la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què implica l'avaluació d'impacte en la gestió del canvi?",
+    "respostes": [
+      ["Avaluar com un canvi en un requisit afectarà altres components del sistema.", true],
+      ["Ignorar els canvis sol·licitats.", false],
+      ["Canviar tot el sistema per defecte.", false],
+      ["Mesurar la velocitat de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què és l'escenari principal en un cas d'ús?",
+    "respostes": [
+      ["La seqüència de passos on tot surt bé i s'aconsegueix l'objectiu.", true],
+      ["La llista d'errors possibles.", false],
+      ["La descripció de l'actor.", false],
+      ["El títol del cas d'ús.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quin aspecte defineix la 'Simplicitat' de les històries d'usuari?",
+    "respostes": [
+      ["Que no tenen cap valor.", false],
+      ["Que són fàcils de comprendre i escriure, facilitant la comunicació.", true],
+      ["Que són tècnicament complexes.", false],
+      ["Que requereixen un manual per entendre-les.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Què es fa durant la revisió dels requisits?",
+    "respostes": [
+      ["Sessions amb les parts interessades per revisar i aprovar els requisits documentats.", true],
+      ["Esborrar els requisits antics.", false],
+      ["Escriure codi de prova.", false],
+      ["Instal·lar actualitzacions de Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 31. Enginyeria de requisits. Casos d'ús i històries d'usuari.",
+    "enunciat": "Quin enfocament tenen els casos d'ús respecte a la interacció?",
+    "respostes": [
+      ["Se centren en la seqüència d'interaccions entre l'actor i el sistema.", true],
+      ["Se centren únicament en el resultat final.", false],
+      ["Se centren en l'estructura interna de la base de dades.", false],
+      ["Se centren en el cost econòmic.", false]
+    ]
+  }
+]

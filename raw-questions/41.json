@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quins són els tres tipus principals d'aplicacions mòbils segons la seva arquitectura i desenvolupament?",
+    "respostes": [
+      ["Escriptori, núvol i mòbil.", false],
+      ["Web, híbrides i natives.", true],
+      ["Android, iOS i Windows.", false],
+      ["Lleugeres, pesades i progressives.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què caracteritza principalment una aplicació web mòbil?",
+    "respostes": [
+      ["S'ha de descarregar de la tenda d'aplicacions.", false],
+      ["S'executa directament en un navegador web mòbil sense necessitat d'instal·lació.", true],
+      ["Utilitza llenguatge natiu com Swift o Kotlin.", false],
+      ["Té accés complet a tot el maquinari del dispositiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quines tecnologies estàndard utilitzen habitualment les aplicacions web mòbils?",
+    "respostes": [
+      ["Java i C++.", false],
+      ["HTML5, CSS3 i JavaScript.", true],
+      ["Swift i Objective-C.", false],
+      ["Python i Ruby.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin és un avantatge clau de les aplicacions web mòbils?",
+    "respostes": [
+      ["El rendiment és superior al de les natives.", false],
+      ["La compatibilitat multiplataforma i l'absència de necessitat d'instal·lació.", true],
+      ["L'accés total als sensors del dispositiu.", false],
+      ["El funcionament sense connexió a internet per defecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què és una Progressive Web App (PWA)?",
+    "respostes": [
+      ["Una aplicació nativa que es pot veure al navegador.", false],
+      ["Una aplicació web que ofereix una experiència similar a la nativa (offline, notificacions, icona d'inici).", true],
+      ["Una aplicació híbrida sense contenidor.", false],
+      ["Un navegador web per a desenvolupadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Com funcionen les aplicacions híbrides?",
+    "respostes": [
+      ["Són aplicacions natives que contenen enllaços web.", false],
+      ["Utilitzen tecnologies web però s'executen dins d'un contenidor natiu que permet accedir a funcions del dispositiu.", true],
+      ["Són pàgines web que només funcionen en Android.", false],
+      ["Són aplicacions que no necessiten codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin framework és comú per desenvolupar aplicacions híbrides?",
+    "respostes": [
+      ["Xcode.", false],
+      ["Apache Cordova o Ionic.", true],
+      ["Android Studio.", false],
+      ["SwiftUI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin és un avantatge de les aplicacions híbrides respecte a les natives?",
+    "respostes": [
+      ["Millor rendiment gràfic.", false],
+      ["Desenvolupament d'un sol codi per a múltiples plataformes (Android i iOS).", true],
+      ["Accés directe al nucli del sistema operatiu.", false],
+      ["No requereixen aprovació de les tendes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què són les aplicacions natives?",
+    "respostes": [
+      ["Aplicacions que venen preinstal·lades al mòbil.", false],
+      ["Aplicacions desenvolupades específicament per a una plataforma amb els seus llenguatges i eines pròpies.", true],
+      ["Aplicacions que només funcionen al país d'origen.", false],
+      ["Aplicacions basades exclusivament en HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin és el principal avantatge de les aplicacions natives?",
+    "respostes": [
+      ["El baix cost de desenvolupament.", false],
+      ["El rendiment òptim i l'accés complet a les funcionalitats del dispositiu.", true],
+      ["La portabilitat automàtica entre Android i iOS.", false],
+      ["No requereixen actualitzacions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quins llenguatges s'utilitzen principalment per desenvolupar aplicacions natives a Android?",
+    "respostes": [
+      ["Swift i Objective-C.", false],
+      ["Java i Kotlin.", true],
+      ["C# i .NET.", false],
+      ["Python i Ruby.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quins llenguatges s'utilitzen principalment per desenvolupar aplicacions natives a iOS?",
+    "respostes": [
+      ["Java i Kotlin.", false],
+      ["Swift i Objective-C.", true],
+      ["HTML i CSS.", false],
+      ["PHP i JavaScript.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "En quin nucli es basa el sistema operatiu Android?",
+    "respostes": [
+      ["Windows NT.", false],
+      ["Nucli Linux.", true],
+      ["Nucli XNU.", false],
+      ["Nucli Unix pur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què és la fragmentació en el context d'Android?",
+    "respostes": [
+      ["Trencar la pantalla del mòbil.", false],
+      ["La coexistència de múltiples versions del sistema operatiu en dispositius amb maquinari divers.", true],
+      ["La divisió del disc dur.", false],
+      ["L'ús de múltiples llenguatges de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina és l'eina de desenvolupament (IDE) oficial per a Android?",
+    "respostes": [
+      ["Xcode.", false],
+      ["Android Studio.", true],
+      ["Visual Studio Code.", false],
+      ["Eclipse.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin és l'eina de desenvolupament (IDE) oficial per a iOS?",
+    "respostes": [
+      ["Android Studio.", false],
+      ["Xcode.", true],
+      ["IntelliJ IDEA.", false],
+      ["NetBeans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què caracteritza l'arquitectura d'iOS en comparació amb Android?",
+    "respostes": [
+      ["És de codi obert.", false],
+      ["És un sistema tancat i altament integrat amb el maquinari d'Apple.", true],
+      ["Es basa en el nucli Linux.", false],
+      ["Permet instal·lar-se en qualsevol maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina és la funció dels Google Play Services en Android?",
+    "respostes": [
+      ["Vendre aplicacions.", false],
+      ["Proporcionar API per accedir a serveis de Google (mapes, ubicació) i actualitzacions del sistema.", true],
+      ["Gestionar la bateria.", false],
+      ["Substituir el sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina és la tenda oficial d'aplicacions per a dispositius iOS?",
+    "respostes": [
+      ["Google Play Store.", false],
+      ["Apple App Store.", true],
+      ["Amazon Appstore.", false],
+      ["Cydia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina característica distingeix el procés de publicació a l'App Store d'Apple respecte a Google Play?",
+    "respostes": [
+      ["És automàtic i instantani.", false],
+      ["És un procés de revisió rigorós i exhaustiu centrat en qualitat i seguretat.", true],
+      ["No requereix cap pagament.", false],
+      ["Permet publicar qualsevol tipus de contingut.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina comissió estàndard cobren Google i Apple sobre les vendes d'aplicacions (tot i que hi ha excepcions)?",
+    "respostes": [
+      ["10%.", false],
+      ["30%.", true],
+      ["50%.", false],
+      ["0%.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què és F-Droid?",
+    "respostes": [
+      ["Un antivirus per a Android.", false],
+      ["Una tenda d'aplicacions de codi obert per a Android.", true],
+      ["Un sistema operatiu alternatiu.", false],
+      ["Una eina de desenvolupament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin tipus d'aplicació és inicialment més costosa de desenvolupar si es vol presència en Android i iOS?",
+    "respostes": [
+      ["Web.", false],
+      ["Nativa (ja que requereix desenvolupaments separats).", true],
+      ["Híbrida.", false],
+      ["Totes costen igual.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina limitació tenen les aplicacions web mòbils?",
+    "respostes": [
+      ["Ocupen molt espai al dispositiu.", false],
+      ["No tenen accés complet a totes les funcionalitats del maquinari i requereixen connexió.", true],
+      ["Només funcionen en iOS.", false],
+      ["Són molt cares de desenvolupar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin llenguatge modern va introduir Apple el 2014 per substituir Objective-C?",
+    "respostes": [
+      ["C#.", false],
+      ["Swift.", true],
+      ["Ruby.", false],
+      ["Go.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què és l'Android Runtime (ART)?",
+    "respostes": [
+      ["Una eina de disseny gràfic.", false],
+      ["L'entorn d'execució d'aplicacions a Android.", true],
+      ["La tenda d'aplicacions.", false],
+      ["El navegador per defecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Com es monetitzen habitualment les aplicacions a les tendes?",
+    "respostes": [
+      ["Només amb donacions.", false],
+      ["Compres integrades, subscripcions i publicitat.", true],
+      ["Cobrant per minut d'ús.", false],
+      ["Demanant el número de compte bancari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina tenda d'aplicacions alternativa és popular en dispositius Amazon?",
+    "respostes": [
+      ["Samsung Galaxy Store.", false],
+      ["Amazon Appstore.", true],
+      ["Huawei AppGallery.", false],
+      ["Windows Store.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin avantatge tenen les aplicacions híbrides respecte a les actualitzacions?",
+    "respostes": [
+      ["No es poden actualitzar.", false],
+      ["Poden actualitzar part del contingut dinàmicament sense passar sempre per la revisió de la tenda.", true],
+      ["S'actualitzen soles sense internet.", false],
+      ["No tenen cap avantatge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin exemple d'aplicació nativa s'esmenta pel seu ús intensiu de mapes i GPS?",
+    "respostes": [
+      ["Facebook.", false],
+      ["Google Maps.", true],
+      ["Twitter Lite.", false],
+      ["Wikipedia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin llenguatge es va introduir com a oficial per a Android el 2017?",
+    "respostes": [
+      ["Python.", false],
+      ["Kotlin.", true],
+      ["Scala.", false],
+      ["Perl.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina és la funció de Cocoa Touch a iOS?",
+    "respostes": [
+      ["Gestionar la bateria.", false],
+      ["Proporcionar frameworks d'alt nivell per a la interfície d'usuari.", true],
+      ["Connectar a internet.", false],
+      ["Reproduir música.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin tipus d'aplicació és Twitter Lite?",
+    "respostes": [
+      ["Nativa.", false],
+      ["Web (Progressive Web App).", true],
+      ["Híbrida.", false],
+      ["D'escriptori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Què permet fer l'NDK (Native Development Kit) a Android?",
+    "respostes": [
+      ["Programar en HTML.", false],
+      ["Utilitzar codi C/C++ per a aplicacions d'alt rendiment.", true],
+      ["Dissenyar icones.", false],
+      ["Publicar a l'App Store.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin cost té la inscripció per a desenvolupadors a Google Play (pagament únic)?",
+    "respostes": [
+      ["99 dòlars.", false],
+      ["25 dòlars.", true],
+      ["Gratuït.", false],
+      ["1000 dòlars.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin cost té la inscripció anual a l'Apple Developer Program?",
+    "respostes": [
+      ["25 dòlars.", false],
+      ["99 dòlars.", true],
+      ["Gratuït.", false],
+      ["50 dòlars.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quina tecnologia permet a les aplicacions híbrides accedir a funcions natives?",
+    "respostes": [
+      ["Fulls d'estil.", false],
+      ["Plugins o ponts (bridges) en el contenidor natiu.", true],
+      ["Màgia.", false],
+      ["Connexió Bluetooth.", false]
+    ]
+  },
+  {
+    "tema": "Tema 41. Aplicacions mòbils. Tipus d´aplicacions mòbils: web, híbrides i natives. Plataformes principals: Android, IOS. Tendes d´aplicacions.",
+    "enunciat": "Quin sistema operatiu mòbil és conegut per ser de codi obert?",
+    "respostes": [
+      ["iOS.", false],
+      ["Android.", true],
+      ["Windows Mobile.", false],
+      ["BlackBerry OS.", false]
+    ]
+  }
+]

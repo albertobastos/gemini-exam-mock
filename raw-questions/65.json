@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Què signifiquen les sigles de la Xarxa SARA?",
+    "respostes": [
+      ["Sistemes d'Autenticació i Registres Automàtics.", false],
+      ["Sistemas de Aplicaciones y Redes para las Administraciones.", true],
+      ["Servei d'Administració de Registres Autonòmics.", false],
+      ["Security And Routing Architecture.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quina és la funció principal de la Xarxa SARA?",
+    "respostes": [
+      ["Proporcionar Wi-Fi gratuït a tots els ciutadans espanyols.", false],
+      ["Interconnectar les diferents administracions públiques d'Espanya de manera privada i segura per facilitar la interoperabilitat.", true],
+      ["Emmagatzemar les dades personals de tots els ciutadans europeus en un sol servidor.", false],
+      ["Xifrar els correus electrònics interns de les empreses privades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "És possible accedir lliurement i de forma anònima a la xarxa SARA des de qualsevol ordinador connectat a Internet?",
+    "respostes": [
+      ["Sí, és una xarxa completament oberta al públic general.", false],
+      ["No, és una xarxa privada que requereix un procés d'autenticació i accés restringit a usuaris autoritzats.", true],
+      ["Sí, sempre que s'utilitzi un navegador en mode incògnit.", false],
+      ["No, només s'hi pot accedir des de fora d'Espanya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quins protocols de seguretat s'utilitzen de manera destacada a la xarxa SARA per garantir la protecció i el xifratge de les dades?",
+    "respostes": [
+      ["Només HTTP i FTP.", false],
+      ["IPsec i TLS (Transport Layer Security).", true],
+      ["POP3 i IMAP4.", false],
+      ["WEP i WPA2.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Dins de la infraestructura de la xarxa SARA, per a què s'utilitza principalment el protocol IPsec?",
+    "respostes": [
+      ["Per establir xarxes privades virtuals (VPN) a nivell de xarxa per protegir les comunicacions.", true],
+      ["Per xifrar exclusivament formularis web des del navegador de l'usuari.", false],
+      ["Per crear signatures electròniques en documents PDF.", false],
+      ["Per sincronitzar l'hora dels servidors de les administracions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Per a què s'empra el protocol TLS/SSL a la Xarxa SARA?",
+    "respostes": [
+      ["Per dividir la xarxa en subxarxes aïllades físicament.", false],
+      ["Per garantir la seguretat, l'autenticació i la integritat de les comunicacions a nivell d'aplicació (ex. transaccions web).", true],
+      ["Per reemplaçar l'ús d'adreces IPv6.", false],
+      ["Per emmagatzemar bases de dades sense necessitat de discs durs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Com garanteix la xarxa SARA l'alta disponibilitat?",
+    "respostes": [
+      ["Apagant els servidors durant la nit per estalviar energia.", false],
+      ["Dissenyant la xarxa amb redundància i mecanismes de recuperació automàtica de desastres per evitar interrupcions.", true],
+      ["Connectant tots els sistemes a un únic servidor central sense còpies.", false],
+      ["Limitant l'accés només als dies laborables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin d'aquests serveis NO està proporcionat ni facilitat per la Xarxa SARA?",
+    "respostes": [
+      ["Directori Comú d'Unitats (DIR3).", false],
+      ["Sistema d'Interconnexió de Registres (SIR).", false],
+      ["Cl@ve.", false],
+      ["BitTorrent per a descàrregues públiques de pel·lícules.", true]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin és un exemple pràctic comú d'interoperabilitat dut a terme mitjançant la xarxa SARA esmentat al document?",
+    "respostes": [
+      ["La sincronització de carpetes entre els telèfons personals dels ciutadans.", false],
+      ["L'intercanvi de dades entre Hisenda i la Seguretat Social (ex. en la declaració de la renda).", true],
+      ["El control del trànsit aeri comercial sobre territori espanyol.", false],
+      ["L'enviament de missatges per WhatsApp entre funcionaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin dels següents és un repte de la xarxa SARA identificat al document?",
+    "respostes": [
+      ["La total absència d'actualitzacions de programari des de fa una dècada.", false],
+      ["L'heterogeneïtat de tecnologies que utilitzen les diverses administracions, cosa que en dificulta la integració completa.", true],
+      ["Que només permet intercanviar arxius de text pla.", false],
+      ["La prohibició d'utilitzar certificats digitals per motius legals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Què és la Xarxa sTESTA?",
+    "respostes": [
+      ["Una plataforma exclusiva per a pagar multes de trànsit a Espanya.", false],
+      ["Una infraestructura de comunicació creada per la Unió Europea per facilitar l'intercanvi segur de dades entre administracions dels estats membres.", true],
+      ["Un sistema operatiu de codi obert per a servidors judicials europeus.", false],
+      ["Una xarxa Wi-Fi pública i gratuïta present als aeroports europeus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Com es comuniquen les administracions de l'Estat espanyol (locals, autonòmiques o AGE) amb la xarxa europea sTESTA?",
+    "respostes": [
+      ["Directament connectant-se via navegador amb Google Chrome.", false],
+      ["Mitjançant la xarxa SARA, que actua com a intermediària i facilita la connexió segura amb sTESTA.", true],
+      ["Instal·lant una antena parabòlica a cada ajuntament.", false],
+      ["A través de servidors SMTP sense xifrar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "A nivell tècnic, quin tipus de xarxa és sTESTA?",
+    "respostes": [
+      ["Una Xarxa d'Àrea Local (LAN) sense fils.", false],
+      ["Una Xarxa Privada Virtual (VPN) segura per a comunicacions interadministratives.", true],
+      ["Una Intranet basada únicament en cablejat coaxial.", false],
+      ["Una Xarxa P2P descentralitzada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin sistema utilitzat per sTESTA permet l'intercanvi d'informació sobre antecedents penals a Europa?",
+    "respostes": [
+      ["ECRIS (European Criminal Records Information System).", true],
+      ["VIES (VAT Information Exchange System).", false],
+      ["SIS II (Schengen Information System).", false],
+      ["SIR (Sistema d'Interconnexió de Registres).", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Dins l'ecosistema de sTESTA, què és el VIES?",
+    "respostes": [
+      ["El sistema per a la gestió de la seguretat fronterera de Schengen.", false],
+      ["El sistema per a l'intercanvi d'informació sobre l'IVA entre estats membres.", true],
+      ["La base de dades policial de la Interpol.", false],
+      ["L'Agència Europea de Seguretat de les Xarxes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "És la xarxa sTESTA accessible directament i de manera pública per a qualsevol ciutadà des d'internet?",
+    "respostes": [
+      ["Sí, a través de la pàgina web del Parlament Europeu.", false],
+      ["No, l'accés està restringit a institucions i administracions públiques autoritzades mitjançant canals i credencials específiques.", true],
+      ["Sí, però només amb l'ús d'un lector de DNI electrònic.", false],
+      ["No, però qualsevol empresa privada s'hi pot connectar demanant un usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin protocol és fonamental en sTESTA per garantir la privacitat, autenticació i integritat de les dades de manera que no puguin ser interceptades per tercers?",
+    "respostes": [
+      ["IPsec.", true],
+      ["ICMP.", false],
+      ["Telnet.", false],
+      ["NTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "On s'allotgen els punts de connexió nacional que permeten a l'Estat espanyol accedir a sTESTA?",
+    "respostes": [
+      ["En qualsevol router comercial comprat en una botiga.", false],
+      ["Són infraestructures específiques (passarel·les) que es troben dins de la mateixa xarxa SARA.", true],
+      ["A les oficines de correus locals.", false],
+      ["Dins dels ordinadors personals dels funcionaris de duanes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin és un exemple de col·laboració transfronterera dut a terme per la xarxa sTESTA segons el document?",
+    "respostes": [
+      ["Compartir pel·lícules educatives entre escoles d'Espanya i Alemanya.", false],
+      ["L'intercanvi de dades entre les autoritats duaneres d'Espanya, França i Alemanya per combatre el contraban en temps real.", true],
+      ["El vot electrònic dels ciutadans per a les eleccions europees.", false],
+      ["La sincronització de formularis de l'Agència Tributària espanyola amb l'IRPF autonòmic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin d'aquests problemes s'esmenta com un repte per a la xarxa sTESTA?",
+    "respostes": [
+      ["La manca d'interès per part dels estats membres en intercanviar dades.", false],
+      ["La complexitat en la gestió d'estàndards entre múltiples països amb diferents normatives i tecnologies nacionals.", true],
+      ["La impossibilitat de xifrar les comunicacions internacionals.", false],
+      ["El límit legal d'ample de banda de 10 Mbps imposat per la Unió Europea.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Pot un ciutadà francès utilitzar directament el sistema espanyol 'Cl@ve' per identificar-se a Espanya?",
+    "respostes": [
+      ["Sí, si prèviament ha descarregat l'aplicació al seu mòbil des de França.", false],
+      ["No, Cl@ve és un sistema propi de l'Estat espanyol per als ciutadans espanyols.", true],
+      ["Sí, Cl@ve és el sistema oficial de la Unió Europea i funciona a tot arreu.", false],
+      ["No, perquè França no pertany a la xarxa sTESTA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Tot i no poder utilitzar directament Cl@ve, com es pot autenticar un ciutadà europeu en un servei electrònic espanyol?",
+    "respostes": [
+      ["Emprant el seu propi sistema nacional d'identificació gràcies al reconeixement mutu previst pel reglament eIDAS.", true],
+      ["Sol·licitant obligatòriament un DNI espanyol.", false],
+      ["Utilitzant les seves credencials del perfil de Google o Facebook.", false],
+      ["No ho pot fer en cap cas.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "S'utilitza la xarxa sTESTA per gestionar de manera directa la comunicació entre els sistemes d'autenticació ciutadana dels diferents estats (per exemple, per a validar l'eIDAS d'un grec a Espanya)?",
+    "respostes": [
+      ["Sí, sTESTA centralitza tota la identificació de ciutadans europeus.", false],
+      ["No, l'autenticació eIDAS és gestionada per passarel·les nacionals eIDAS i sTESTA està dedicada a l'intercanvi de dades entre administracions per altres serveis.", true],
+      ["Només quan l'usuari s'autentica des d'una oficina pública físicament.", false],
+      ["Només per validar els permisos de circulació de vehicles estrangers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Com afecta el reglament eIDAS a la interoperabilitat europea?",
+    "respostes": [
+      ["Prohibeix compartir dades d'identitat fora de les fronteres nacionals.", false],
+      ["Permet la reconeixença mútua dels sistemes d'identificació electrònica, de manera que un ciutadà pugui utilitzar el seu ID nacional en altres estats membres.", true],
+      ["Genera una contrasenya universal única per a tota Europa independent del país de residència.", false],
+      ["Sostitueix totes les signatures electròniques pel reconeixement facial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin dels següents sistemes relacionats amb la xarxa sTESTA està dedicat específicament a la seguretat fronterera de l'espai Schengen?",
+    "respostes": [
+      ["Europol.", false],
+      ["SIS II (Schengen Information System).", true],
+      ["VIES.", false],
+      ["ECRIS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Si un ciutadà de les Illes Balears (Espanya) vol fer un tràmit electrònic relacionat amb l'administració central espanyola, pot utilitzar un sistema d'autenticació alemany via eIDAS?",
+    "respostes": [
+      ["Sí, per defecte tots els ciutadans poden usar l'eIDAS de qualsevol país indistintament.", false],
+      ["No, en ser ciutadà amb documentació espanyola, ha d'utilitzar Cl@ve o els mecanismes nacionals pertinents per als serveis espanyols.", true],
+      ["Sí, si primer demana una autorització al govern alemany.", false],
+      ["No, llevat que es connecti a través d'una IP pública alemanya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Quin rol desenvolupa la xarxa SARA envers els serveis municipals i locals d'Espanya?",
+    "respostes": [
+      ["No hi té cap relació, només serveix als ministeris.", false],
+      ["Actua d'eix central que interconnecta fins i tot els ajuntaments (locals) amb altres ens estatals i autonòmics de manera segura.", true],
+      ["Subministra directament equipament ofimàtic a tots els ajuntaments.", false],
+      ["Ofereix exclusivament servei de correu electrònic als alcaldes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "A la taula comparativa del document, quina és la diferència a l'àmbit d'actuació entre SARA i sTESTA?",
+    "respostes": [
+      ["SARA és a nivell Nacional (Espanya) i sTESTA és a nivell Europeu (Unió Europea).", true],
+      ["SARA és a nivell Internacional (Mundial) i sTESTA a nivell Autonòmic.", false],
+      ["SARA opera exclusivament a les comunitats autònomes, sTESTA a nivell estatal.", false],
+      ["Ambdues xarxes operen a nivell Mundial gràcies a l'ONU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "A la taula resum, quin exemple d'ús és exclusiu de la Xarxa sTESTA (i no típic de SARA internament)?",
+    "respostes": [
+      ["L'intercanvi de dades de l'IRPF entre ministeris.", false],
+      ["La interconnexió de registres civils (SIR).", false],
+      ["La col·laboració en justícia, duanes i seguretat a nivell comunitari.", true],
+      ["L'autenticació mitjançant el sistema Cl@ve PIN.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "A la taula resum, quin exemple d'ús és esmentat específicament com a cas pràctic de la Xarxa SARA?",
+    "respostes": [
+      ["Duanes.", false],
+      ["Intercanvi de dades entre Hisenda, Seguretat Social i l'ús de Cl@ve.", true],
+      ["Sistema de visats per viatjar a Àsia.", false],
+      ["El sistema Europeu d'Antecedents Penals (ECRIS).", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "D'acord amb el text sobre eIDAS, què fa una 'passarel·la nacional eIDAS'?",
+    "respostes": [
+      ["Actua com un tallafocs que impedeix que els europeus entrin als portals d'Espanya.", false],
+      ["Permet la comunicació segura i interoperable entre els sistemes d'autenticació dels diferents estats membres per identificar ciutadans.", true],
+      ["Assigna contrasenyes temporals genèriques als turistes per navegar per internet.", false],
+      ["Traduïx el correu electrònic a la llengua nativa del receptor automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "La xarxa sTESTA és una xarxa segura, però s'ha d'entendre com a una xarxa:",
+    "respostes": [
+      ["Pública, on tot usuari connectat a internet hi pot arribar escrivint l'adreça al navegador.", false],
+      ["Privada virtual (VPN), amb connexió restringida entre administracions i institucions governamentals europees autoritzades.", true],
+      ["Aïllada físicament sota terra i desconnectada de cap fibra òptica externa (Air-gapped total).", false],
+      ["Comercial, la qual qualsevol empresa privada pot llogar pagant una quota mensual al Parlament Europeu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "El document assenyala la xarxa SARA com una solució d'interoperabilitat eficient perquè...",
+    "respostes": [
+      ["Evita que els funcionaris de diferents comunitats parlin entre ells.", false],
+      ["Redueix temps de resposta i estalvia costos associats a la gestió i l'intercanvi de dades de forma dispersa o en paper.", true],
+      ["Només funciona per a enviar missatges de correu d'alta importància.", false],
+      ["Permet connectar tots els organismes públics amb la xarxa social X (antiga Twitter).", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Què utilitzen les oficines públiques per establir l'enllaç VPN cap a la infraestructura central de SARA?",
+    "respostes": [
+      ["Mecanismes d'autenticació mútua i xifratge bidireccional per evitar la intercepció i manipulació d'informació.", true],
+      ["Conexions basades únicament en contrasenyes en text pla sense xifratge previ per facilitar la velocitat.", false],
+      ["El protocol HTTP sobre connexions públiques de Wi-Fi obert.", false],
+      ["Mòdems dial-up antics amb trucades telefòniques de tarifació especial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 65. La xarxa SARA. La xarxa sTESTA.",
+    "enunciat": "Com interactuen conjuntament SARA i sTESTA?",
+    "respostes": [
+      ["SARA intenta interceptar els paquets de sTESTA per fer auditoria fiscal a empreses franceses.", false],
+      ["Estan plenament integrades, permetent que una comunicació interna per SARA pugui estendre's de manera fluida i segura cap a altres països a través de sTESTA.", true],
+      ["Competeixen entre si; les administracions han de triar connectar-se exclusivament a l'una o l'altra.", false],
+      ["No tenen cap relació i utilitzen cablejat totalment incompatible que no permet transferir cap dada de manera conjunta.", false]
+    ]
+  }
+]

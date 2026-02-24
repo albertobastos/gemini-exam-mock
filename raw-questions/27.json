@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina és la missió principal de la Direcció d'Informàtica / TI?",
+    "respostes": [
+      ["Reparar els ordinadors dels usuaris.", false],
+      ["Liderar la funció TI i assegurar l'alineació amb l'estratègia de negoci.", true],
+      ["Desenvolupar tot el programari de l'empresa.", false],
+      ["Configurar els tallafocs de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina responsabilitat recau habitualment en la Direcció de TI?",
+    "respostes": [
+      ["La instal·lació de cables de xarxa.", false],
+      ["Decidir sobre pressupostos, inversions i prioritats de projectes.", true],
+      ["L'execució de còpies de seguretat diàries.", false],
+      ["La formació bàsica d'ofimàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què implica 'Impulsar el govern de TI' dins de les funcions directives?",
+    "respostes": [
+      ["Establir el conjunt de regles, processos i estructures de decisió relacionats amb TI.", true],
+      ["Governar el servidor principal.", false],
+      ["Gestionar les llicències de Windows.", false],
+      ["Controlar l'horari dels empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quin càrrec sol encapçalar la funció directiva de TI?",
+    "respostes": [
+      ["El desenvolupador sènior.", false],
+      ["El CIO (Chief Information Officer) o Director de Sistemes d'Informació.", true],
+      ["L'administrador de la base de dades.", false],
+      ["El tècnic de suport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "De què s'ocupa la funció de Planificació i Estratègia de TI?",
+    "respostes": [
+      ["De resoldre incidències diàries.", false],
+      ["De definir el rumb tecnològic a mig i llarg termini alineat amb el negoci.", true],
+      ["De comprar material d'oficina.", false],
+      ["De connectar els nous usuaris a la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què és un 'Full de ruta' (roadmap) en el context de la planificació TI?",
+    "respostes": [
+      ["Un mapa físic de la xarxa.", false],
+      ["Una planificació que ordena les iniciatives i projectes en el temps.", true],
+      ["Una llista d'adreces IP.", false],
+      ["Un manual d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què gestiona el portafoli de projectes de TI?",
+    "respostes": [
+      ["Només els projectes acabats.", false],
+      ["L'equilibri entre costos, riscos i beneficis de les iniciatives.", true],
+      ["Les carpetes personals dels usuaris.", false],
+      ["La llista de contactes del correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina funció s'encarrega de definir l'arquitectura empresarial i els estàndards tecnològics?",
+    "respostes": [
+      ["Sistemes i Comunicacions.", false],
+      ["Planificació i Estratègia.", true],
+      ["Explotació.", false],
+      ["Helpdesk.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què inclou l'àrea de 'Sistemes' dins de Sistemes i Comunicacions?",
+    "respostes": [
+      ["El desenvolupament d'aplicacions mòbils.", false],
+      ["Servidors, emmagatzematge, virtualització i recursos de còmput.", true],
+      ["La gestió de les nòmines.", false],
+      ["La formació en seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina és una tasca habitual de l'administració de sistemes?",
+    "respostes": [
+      ["Dissenyar logotips.", false],
+      ["Gestió de capacitat (CPU, memòria, disc) i planificació d'ampliacions.", true],
+      ["Vendre productes als clients.", false],
+      ["Redactar l'acta de les reunions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "De què s'encarrega l'àrea de 'Comunicacions'?",
+    "respostes": [
+      ["De la comunicació interna de l'empresa (revista, butlletí).", false],
+      ["De les xarxes de dades (LAN, WAN, WiFi) i serveis com la telefonia IP.", true],
+      ["De les xarxes socials de màrqueting.", false],
+      ["De parlar amb els proveïdors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quins dispositius gestiona típicament l'àrea de Comunicacions?",
+    "respostes": [
+      ["Impressores i escàners.", false],
+      ["Enrutadors (routers) i commutadors (switches).", true],
+      ["Ratolins i teclats.", false],
+      ["Monitors i projectors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quin és l'objectiu principal de la Seguretat de la Informació?",
+    "respostes": [
+      ["Que tothom pugui accedir a tot.", false],
+      ["Vetllar per la confidencialitat, integritat i disponibilitat de les dades.", true],
+      ["Fer còpies de seguretat en paper.", false],
+      ["Instal·lar càmeres de vigilància al carrer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina tasca correspon a la funció de Seguretat?",
+    "respostes": [
+      ["Augmentar la memòria RAM dels servidors.", false],
+      ["Realitzar anàlisis de riscos i gestionar incidents de seguretat.", true],
+      ["Comprar llicències d'Office.", false],
+      ["Programar la pàgina web corporativa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què implica la 'concienciació' en l'àmbit de la seguretat?",
+    "respostes": [
+      ["Configurar el tallafoc.", false],
+      ["Formar al personal sobre bones pràctiques i riscos de seguretat.", true],
+      ["Enviar correus brossa.", false],
+      ["Vigilar els empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "En què es centra la funció d''Aplicacions i desenvolupament'?",
+    "respostes": [
+      ["En el maquinari físic.", false],
+      ["En els sistemes d'informació que donen suport als processos de negoci (cicle de vida del programari).", true],
+      ["En la neteja del CPD.", false],
+      ["En la gestió elèctrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què inclou la implantació de programari estàndard (ERP, CRM)?",
+    "respostes": [
+      ["Només la instal·lació de l'executable.", false],
+      ["La parametrització i, si cal, desenvolupaments a mida.", true],
+      ["La compra de l'ordinador.", false],
+      ["La venda de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què és el manteniment evolutiu d'aplicacions?",
+    "respostes": [
+      ["Corregir errors existents.", false],
+      ["Afegir noves funcionalitats al programari.", true],
+      ["Adaptar-se a canvis legals.", false],
+      ["Millorar la qualitat del codi sense canviar funcions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quin tipus de manteniment s'ocupa de la resolució d'errors?",
+    "respostes": [
+      ["Manteniment correctiu.", true],
+      ["Manteniment perfectiu.", false],
+      ["Manteniment adaptatiu.", false],
+      ["Manteniment preventiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quin és l'objectiu de la funció d''Explotació i gestió de serveis TI'?",
+    "respostes": [
+      ["Dissenyar noves aplicacions.", false],
+      ["Garantir el funcionament diari i la disponibilitat dels serveis.", true],
+      ["Definir l'estratègia a 5 anys.", false],
+      ["Vendre els serveis a altres empreses.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què són els processos 'batch' en l'explotació?",
+    "respostes": [
+      ["Processos interactius amb l'usuari.", false],
+      ["Processos periòdics d'execució per lots (ex: tancaments, còpies).", true],
+      ["Processos de disseny gràfic.", false],
+      ["Processos de selecció de personal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina és la diferència entre Gestió d'Incidències i Gestió de Problemes?",
+    "respostes": [
+      ["Són el mateix.", false],
+      ["Incidències resol interrupcions; Problemes busca la causa arrel per evitar recurrències.", true],
+      ["Incidències és per a programari; Problemes per a maquinari.", false],
+      ["Problemes és més ràpid que Incidències.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina és la finalitat de la Gestió de Canvis?",
+    "respostes": [
+      ["Evitar qualsevol canvi.", false],
+      ["Planificar i controlar canvis per minimitzar impactes negatius.", true],
+      ["Canviar de personal constantment.", false],
+      ["Canviar els ordinadors cada mes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què són els SLA (Service Level Agreements)?",
+    "respostes": [
+      ["Sistemes de Llicència d'Aplicacions.", false],
+      ["Acords de Nivell de Servei que defineixen indicadors de disponibilitat i rendiment.", true],
+      ["Sistemes Locals d'Arxiu.", false],
+      ["Servidors de Llarga Abast.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "On s'ubica habitualment el 'Centre d'atenció a usuaris' (Helpdesk)?",
+    "respostes": [
+      ["Dins de la funció d'Explotació i gestió.", true],
+      ["Dins de Planificació estratègica.", false],
+      ["Dins de Desenvolupament d'aplicacions.", false],
+      ["Fora de l'organització sempre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina funció gestiona la relació amb els proveïdors estratègics?",
+    "respostes": [
+      ["El becari.", false],
+      ["La Direcció de TI.", true],
+      ["El servei de neteja.", false],
+      ["Tots els empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina àrea gestiona tècnicament les còpies de seguretat i recuperació?",
+    "respostes": [
+      ["Direcció.", false],
+      ["Sistemes (dins de Sistemes i Comunicacions).", true],
+      ["Desenvolupament.", false],
+      ["Estratègia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina responsabilitat té l'àrea de Comunicacions respecte als enllaços?",
+    "respostes": [
+      ["Crear enllaços web.", false],
+      ["Supervisar l'estat i tràfic dels enllaços de comunicacions.", true],
+      ["Enviar enllaços per correu.", false],
+      ["Esborrar enllaços trencats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Qui assegura el compliment de la normativa de protecció de dades (RGPD)?",
+    "respostes": [
+      ["El departament de vendes.", false],
+      ["La funció de Seguretat de la Informació.", true],
+      ["El departament de manteniment.", false],
+      ["Els usuaris finals exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina funció realitza l'anàlisi de requisits per a noves solucions?",
+    "respostes": [
+      ["Aplicacions i desenvolupament.", true],
+      ["Sistemes i comunicacions.", false],
+      ["Explotació.", false],
+      ["Seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què implica el manteniment adaptatiu?",
+    "respostes": [
+      ["Adaptar l'usuari al sistema.", false],
+      ["Modificar el sistema per canvis tecnològics o legals.", true],
+      ["No fer res.", false],
+      ["Comprar pantalles més grans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Qui monitoritza el control de l'estat dels serveis en temps real?",
+    "respostes": [
+      ["La Direcció.", false],
+      ["L'àrea d'Explotació i gestió.", true],
+      ["L'àrea de Desenvolupament.", false],
+      ["El departament de RH.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina tasca correspon a la definició de l'arquitectura tecnològica?",
+    "respostes": [
+      ["Sistemes.", false],
+      ["Planificació i estratègia.", true],
+      ["Explotació.", false],
+      ["Suport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què proporciona la infraestructura tècnica base per a les aplicacions?",
+    "respostes": [
+      ["La Direcció.", false],
+      ["Sistemes i comunicacions.", true],
+      ["L'equip de desenvolupament.", false],
+      ["El pla estratègic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina funció gestiona els mecanismes d'autenticació i autorització?",
+    "respostes": [
+      ["Planificació.", false],
+      ["Seguretat de la informació.", true],
+      ["Explotació.", false],
+      ["Desenvolupament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Què fa el Service Desk?",
+    "respostes": [
+      ["Reparar cadires.", false],
+      ["Actuar com a punt únic de contacte per a incidències i peticions.", true],
+      ["Desenvolupar l'estratègia.", false],
+      ["Programar en Java.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quina funció treballa transversalment amb totes les altres àrees?",
+    "respostes": [
+      ["Seguretat de la informació.", true],
+      ["Desenvolupament.", false],
+      ["Sistemes.", false],
+      ["Cap.", false]
+    ]
+  },
+  {
+    "tema": "Tema 27. Funcions genèriques informàtiques en una organització.",
+    "enunciat": "Quin bloc s'encarrega d'analitzar la situació actual ('as is') i definir l'objectiu ('to be')?",
+    "respostes": [
+      ["Explotació.", false],
+      ["Planificació i estratègia.", true],
+      ["Sistemes.", false],
+      ["Aplicacions.", false]
+    ]
+  }
+]

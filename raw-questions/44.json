@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és una instància de base de dades?",
+    "respostes": [
+      ["Un arxiu físic al disc dur.", false],
+      ["Una combinació de memòria i processos que treballen conjuntament per gestionar les bases de dades.", true],
+      ["Un usuari amb permisos d'administrador.", false],
+      ["El conjunt de taules de la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina funció té el procés SMON (System Monitor Process)?",
+    "respostes": [
+      ["Escriure dades al disc.", false],
+      ["Responsable de la recuperació automàtica després d'una fallada i de la gestió de l'espai en les tablespaces.", true],
+      ["Gestionar els usuaris connectats.", false],
+      ["Monitoritzar l'ús de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què fa el procés DBWn (Database Writer Process)?",
+    "respostes": [
+      ["Llegeix dades del disc a la memòria.", false],
+      ["Escriu les dades modificades des de la memòria cau de la base de dades fins als arxius de dades.", true],
+      ["Gestiona els permisos d'usuari.", false],
+      ["Neteja els recursos de processos fallits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina és la funció del procés LGWR (Log Writer Process)?",
+    "respostes": [
+      ["Escriu les entrades del log de redo des del buffer de redo fins als arxius de log de redo en disc.", true],
+      ["Escriu les consultes SQL en un fitxer de text.", false],
+      ["Registra els errors de connexió.", false],
+      ["Actualitza els arxius de control.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què emmagatzema la SGA (System Global Area)?",
+    "respostes": [
+      ["Dades privades de cada sessió d'usuari.", false],
+      ["Informació compartida com la memòria cau de la base de dades, el buffer de redo log i la shared pool.", true],
+      ["Els fitxers físics de la base de dades.", false],
+      ["Les contrasenyes dels usuaris en text pla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és la PGA (Program Global Area)?",
+    "respostes": [
+      ["Memòria compartida per tots els processos.", false],
+      ["Memòria privada per a cada procés de servidor, amb dades específiques de la sessió.", true],
+      ["Una àrea per emmagatzemar còpies de seguretat.", false],
+      ["L'espai on es guarden els arxius de control.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Per què són crucials els arxius de control?",
+    "respostes": [
+      ["Perquè contenen les dades dels usuaris.", false],
+      ["Perquè sense ells la base de dades no pot ser iniciada o recuperada, ja que contenen informació estructural essencial.", true],
+      ["Perquè guarden els logs d'errors de l'aplicació.", false],
+      ["Perquè controlen l'accés a internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què emmagatzemen els Arxius de Dades (Datafiles)?",
+    "respostes": [
+      ["La configuració de la xarxa.", false],
+      ["Les dades reals de la base de dades, com les taules i índexs.", true],
+      ["Només els usuaris i contrasenyes.", false],
+      ["L'historial de consultes SQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina és la funció dels Arxius de Logs de Redo?",
+    "respostes": [
+      ["Guardar les consultes SELECT.", false],
+      ["Registrar totes les transaccions per permetre la recuperació en cas de fallada.", true],
+      ["Augmentar la velocitat de lectura.", false],
+      ["Emmagatzemar dades temporals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què implica la rotació de logs?",
+    "respostes": [
+      ["Girar físicament els discos durs.", false],
+      ["Arxivar i eliminar logs antics per evitar l'acumulació excessiva d'arxius.", true],
+      ["Canviar el nom dels arxius cada dia.", false],
+      ["Copiar els logs a la memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és un tablespace?",
+    "respostes": [
+      ["Una taula molt gran.", false],
+      ["Una unitat lògica d'emmagatzematge que agrupa fitxers de dades per facilitar la gestió.", true],
+      ["Un espai físic al servidor.", false],
+      ["Un tipus de dada especial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina és la unitat més petita d'emmagatzematge dins d'una base de dades?",
+    "respostes": [
+      ["El segment.", false],
+      ["El bloc.", true],
+      ["L'extent.", false],
+      ["El fitxer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és un extent?",
+    "respostes": [
+      ["Un fitxer de dades complet.", false],
+      ["Un conjunt de blocs contigus assignats per gestionar l'espai.", true],
+      ["Una taula buida.", false],
+      ["Un índex secundari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és un segment en termes d'emmagatzematge lògic?",
+    "respostes": [
+      ["Un tros de memòria RAM.", false],
+      ["Un conjunt d'extents assignats a un objecte específic (com una taula o índex).", true],
+      ["Una partició de disc.", false],
+      ["Una fila d'una taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina funcionalitat permet als tablespaces créixer automàticament?",
+    "respostes": [
+      ["Autoextend.", true],
+      ["Autogrow.", false],
+      ["Autofill.", false],
+      ["Autospace.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què s'aconsegueix amb la compactació de dades?",
+    "respostes": [
+      ["Eliminar dades antigues.", false],
+      ["Reduir la fragmentació interna i millorar l'eficiència de l'emmagatzematge.", true],
+      ["Encriptar les dades.", false],
+      ["Crear còpies de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina comanda SQL s'utilitza per crear nous usuaris?",
+    "respostes": [
+      ["NEW USER.", false],
+      ["CREATE USER.", true],
+      ["ADD USER.", false],
+      ["INSERT USER.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina comanda SQL s'utilitza per assignar permisos?",
+    "respostes": [
+      ["ALLOW.", false],
+      ["GRANT.", true],
+      ["PERMIT.", false],
+      ["GIVE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina comanda SQL s'utilitza per retirar permisos?",
+    "respostes": [
+      ["DELETE PERMISSION.", false],
+      ["REVOKE.", true],
+      ["REMOVE.", false],
+      ["DENY.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és un rol en la gestió de seguretat de bases de dades?",
+    "respostes": [
+      ["Un tipus d'usuari especial.", false],
+      ["Un conjunt predefinit de permisos que es poden assignar a usuaris.", true],
+      ["Una taula de sistema.", false],
+      ["Una regla de contrasenya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Per què és important aplicar parches de seguretat?",
+    "respostes": [
+      ["Per tenir l'última versió de la interfície.", false],
+      ["Per prevenir que vulnerabilitats conegudes siguin explotades.", true],
+      ["Perquè el sistema vagi més ràpid sempre.", false],
+      ["Per alliberar espai en disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "On s'haurien de provar els parches abans d'aplicar-los a producció?",
+    "respostes": [
+      ["Directament a producció per guanyar temps.", false],
+      ["En un entorn de proves controlat.", true],
+      ["A l'ordinador personal de l'administrador.", false],
+      ["No cal provar-los.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què permet el monitoratge de vulnerabilitats?",
+    "respostes": [
+      ["Saber qui està connectat.", false],
+      ["Identificar i mitigar possibles amenaces abans que siguin explotades.", true],
+      ["Veure les dades de les taules.", false],
+      ["Calcular la mida de la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què emmagatzema el Shared Pool?",
+    "respostes": [
+      ["Les dades de les taules.", false],
+      ["Estructures compartides com consultes SQL parsejades i objectes del diccionari de dades.", true],
+      ["Els fitxers de control.", false],
+      ["Els logs de redo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina funció té el Buffer Cache?",
+    "respostes": [
+      ["Emmagatzemar les contrasenyes.", false],
+      ["Emmagatzemar còpies dels blocs de dades per millorar el rendiment de les consultes.", true],
+      ["Guardar els logs d'errors.", false],
+      ["Controlar l'accés a la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és el Checkpoint Process (CKPT)?",
+    "respostes": [
+      ["Un procés que verifica les contrasenyes.", false],
+      ["Un procés que actualitza els arxius de control i capçaleres amb informació de punts de control per sincronitzar memòria i disc.", true],
+      ["Un procés que fa còpies de seguretat.", false],
+      ["Un procés que gestiona usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què passa quan una transacció modifica dades (abans de confirmar)?",
+    "respostes": [
+      ["S'escriuen directament al datafile immediatament.", false],
+      ["Els canvis s'emmagatzemen primer al log buffer i després passen als redo log files.", true],
+      ["Es guarden en un fitxer de text.", false],
+      ["No es guarden fins que es tanca la sessió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Per a què serveixen els Tempfiles?",
+    "respostes": [
+      ["Per guardar dades permanents.", false],
+      ["Per emmagatzemar dades temporals durant operacions com ordenacions o unions complexes.", true],
+      ["Per guardar la configuració de la instància.", false],
+      ["Per fer backups.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què són els Archivelogs?",
+    "respostes": [
+      ["Logs d'errors antics.", false],
+      ["Còpies dels redo log files antics que permeten la recuperació a un punt en el temps específic.", true],
+      ["Arxius de configuració arxivats.", false],
+      ["Taules esborrades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina estratègia d'emmagatzematge s'utilitza sovint per protegir-se contra fallades de disc?",
+    "respostes": [
+      ["FAT32.", false],
+      ["RAID (Redundant Array of Independent Disks).", true],
+      ["Compressió ZIP.", false],
+      ["Emmagatzematge USB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és la defragmentació en el context de bases de dades?",
+    "respostes": [
+      ["Esborrar dades.", false],
+      ["Reorganitzar dades disperses per optimitzar l'accés.", true],
+      ["Crear índexs nous.", false],
+      ["Canviar el sistema de fitxers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què permet el particionament de taules?",
+    "respostes": [
+      ["Unir dues taules.", false],
+      ["Dividir una taula gran en parts més petites i manejables per millorar rendiment i gestió.", true],
+      ["Crear còpies de la taula.", false],
+      ["Encriptar la taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quin mètode d'autenticació avançada s'esmenta a més de les contrasenyes?",
+    "respostes": [
+      ["Només usuari.", false],
+      ["Autenticació multifactor (MFA) o basada en certificats.", true],
+      ["Accés obert.", false],
+      ["Autenticació per IP només.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què permeten definir els perfils d'usuari?",
+    "respostes": [
+      ["El color de la interfície.", false],
+      ["Límits i restriccions com connexions simultànies, temps de sessió o caducitat de contrasenyes.", true],
+      ["El nom complet de l'usuari.", false],
+      ["L'adreça de correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina eina s'esmenta per al monitoratge en temps real?",
+    "respostes": [
+      ["Microsoft Word.", false],
+      ["Oracle Enterprise Manager o SQL Server Management Studio.", true],
+      ["Paint.", false],
+      ["Notepad.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què fa l'optimitzador de consultes?",
+    "respostes": [
+      ["Executa la consulta ràpidament sense analitzar.", false],
+      ["Determina la millor manera d'executar una consulta basant-se en índexs i estadístiques.", true],
+      ["Escriu el codi SQL per a l'usuari.", false],
+      ["Guarda els resultats en memòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què són les propietats ACID?",
+    "respostes": [
+      ["Un tipus de base de dades.", false],
+      ["Atomicitat, Consistència, Aïllament, Durabilitat (propietats de les transaccions).", true],
+      ["Un llenguatge de programació.", false],
+      ["Un protocol de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què permet fer el Large Pool?",
+    "respostes": [
+      ["Guardar dades d'usuari.", false],
+      ["Dedicar memòria a processos específics com restauració de backups o servidors compartits.", true],
+      ["Emmagatzemar els fitxers de dades.", false],
+      ["Guardar els logs de transaccions.", false]
+    ]
+  }
+]

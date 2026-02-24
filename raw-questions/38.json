@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què significa l'acrònim XML?",
+    "respostes": [
+      ["Extensible Markup Language.", true],
+      ["Extra Modern Language.", false],
+      ["Executable Multiple Language.", false],
+      ["External Markup Link.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin és el propòsit principal de l'XML?",
+    "respostes": [
+      ["Mostrar dades a la pantalla com HTML.", false],
+      ["Emmagatzemar i transportar dades de manera estructurada i llegible tant per humans com per màquines.", true],
+      ["Executar scripts al navegador.", false],
+      ["Dissenyar bases de dades relacionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què caracteritza les etiquetes en XML?",
+    "respostes": [
+      ["Són predefinides com en HTML.", false],
+      ["Són personalitzables i definides per l'usuari.", true],
+      ["No es poden fer servir majúscules.", false],
+      ["Sempre han de començar amb un número.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què és l'element arrel en un document XML?",
+    "respostes": [
+      ["El primer comentari del fitxer.", false],
+      ["L'element únic que conté tots els altres elements.", true],
+      ["L'atribut principal.", false],
+      ["La declaració XML inicial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què defineix un document XML 'ben format'?",
+    "respostes": [
+      ["Que compleix amb un DTD.", false],
+      ["Que compleix les regles sintàctiques bàsiques (etiquetes tancades, niuament correcte, un sol arrel).", true],
+      ["Que té colors bonics.", false],
+      ["Que no té atributs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què és un DTD (Document Type Definition)?",
+    "respostes": [
+      ["Un editor de text.", false],
+      ["Un conjunt de regles que defineix l'estructura i els elements permesos en un document XML.", true],
+      ["Un tipus de dada.", false],
+      ["Un protocol de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què significa que un document XML sigui 'vàlid'?",
+    "respostes": [
+      ["Que és ben format i a més compleix amb les regles definides en un DTD o XSD.", true],
+      ["Que no té errors ortogràfics.", false],
+      ["Que és un fitxer de text.", false],
+      ["Que es pot obrir amb el navegador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "En un DTD, què indica el símbol '+' després d'un element?",
+    "respostes": [
+      ["Que l'element és opcional.", false],
+      ["Que l'element ha d'aparèixer una o més vegades.", true],
+      ["Que l'element no pot aparèixer.", false],
+      ["Que l'element ha de sumar-se.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què és un XSD (XML Schema Definition)?",
+    "respostes": [
+      ["Una alternativa més potent i basada en XML al DTD per definir l'estructura de documents.", true],
+      ["Un llenguatge de programació.", false],
+      ["Un sistema de bases de dades.", false],
+      ["Un format d'imatge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin avantatge té XSD respecte a DTD?",
+    "respostes": [
+      ["És més curt d'escriure.", false],
+      ["Suporta tipus de dades (enters, dates, etc.) i espais de noms.", true],
+      ["No necessita ser validat.", false],
+      ["No utilitza sintaxi XML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què fa l'XSLT (Extensible Stylesheet Language Transformations)?",
+    "respostes": [
+      ["Dibuixa gràfics vectorials.", false],
+      ["Transforma documents XML en altres formats com HTML, text o altres XML.", true],
+      ["Valida l'estructura de l'XML.", false],
+      ["Encripta el document XML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin llenguatge s'utilitza dins de XSLT per navegar pels nodes de l'XML?",
+    "respostes": [
+      ["SQL.", false],
+      ["XPath.", true],
+      ["Java.", false],
+      ["C++.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Per a què serveix CSS amb XML?",
+    "respostes": [
+      ["Per transformar les dades.", false],
+      ["Per aplicar estil i format visual directament al document XML per a la seva presentació al navegador.", true],
+      ["Per validar les dades.", false],
+      ["Per crear la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què significa JSON?",
+    "respostes": [
+      ["Java Source Object Network.", false],
+      ["JavaScript Object Notation.", true],
+      ["Just Some Other Notation.", false],
+      ["Java Standard Output Node.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quina és una diferència clau entre XML i JSON?",
+    "respostes": [
+      ["JSON és més verbós que XML.", false],
+      ["JSON és més lleuger, menys verbós i més fàcil de processar per als navegadors.", true],
+      ["JSON utilitza etiquetes d'obertura i tancament.", false],
+      ["XML no suporta estructures jeràrquiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin tipus de dades suporta JSON de manera nativa que XML no?",
+    "respostes": [
+      ["Text.", false],
+      ["Arrays i tipus com booleans o null.", true],
+      ["Atributs.", false],
+      ["Comentaris (estàndard).", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Per a quin ús és ideal XML en comparació amb JSON?",
+    "respostes": [
+      ["Per a intercanvis ràpids en aplicacions mòbils.", false],
+      ["Per a documents complexos amb metadades riques, validació estricta i estructura mixta.", true],
+      ["Per a arrays de números simples.", false],
+      ["Per a fitxers de configuració mínims.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què és un 'espai de noms' (namespace) en XML?",
+    "respostes": [
+      ["Un lloc físic per guardar fitxers.", false],
+      ["Un mecanisme per evitar conflictes de noms d'elements barrejant diferents vocabularis XML.", true],
+      ["Una carpeta buida.", false],
+      ["Un error de sintaxi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin format s'utilitza sovint per a fitxers de configuració com alternativa a XML i JSON per ser més llegible?",
+    "respostes": [
+      ["HTML.", false],
+      ["YAML.", true],
+      ["Binary.", false],
+      ["CSV.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "En un XSD, com es defineix un element que ha de contenir text i res més?",
+    "respostes": [
+      ["ComplexType.", false],
+      ["SimpleType (o tipus de dada simple com xs:string).", true],
+      ["AnyType.", false],
+      ["NoType.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quina instrucció de processament vincula un full d'estil CSS a un XML?",
+    "respostes": [
+      ["<?xml-stylesheet type=\"text/css\" href=\"estil.css\"?>", true],
+      ["<link rel=\"stylesheet\">", false],
+      ["<style src=\"estil.css\">", false],
+      ["import \"estil.css\"", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què significa CDATA en XML?",
+    "respostes": [
+      ["Dades corruptes.", false],
+      ["Character Data: blocs de text que no han de ser analitzats pel parser (permet caràcters especials).", true],
+      ["Compressed Data.", false],
+      ["Common Data.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "En JSON, com es representen els objectes?",
+    "respostes": [
+      ["Amb parèntesis ().", false],
+      ["Amb claus {} i parells clau-valor.", true],
+      ["Amb claudàtors [].", false],
+      ["Amb etiquetes <>.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "En JSON, com es representen els arrays?",
+    "respostes": [
+      ["Amb claus {}.", false],
+      ["Amb claudàtors [] i valors separats per comes.", true],
+      ["Amb parèntesis ().", false],
+      ["Amb punt i coma ;.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin és l'element arrel d'un document XSLT?",
+    "respostes": [
+      ["<root>", false],
+      ["<xsl:stylesheet> o <xsl:transform>", true],
+      ["<xml>", false],
+      ["<template>", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què permet definir l'atribut 'minOccurs' en XSD?",
+    "respostes": [
+      ["El valor mínim d'un número.", false],
+      ["El nombre mínim de vegades que un element ha d'aparèixer.", true],
+      ["La longitud mínima d'un string.", false],
+      ["L'hora mínima.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què és el DOM (Document Object Model) en relació amb XML?",
+    "respostes": [
+      ["Un model d'objectes en memòria que representa l'estructura de l'arbre del document.", true],
+      ["Un format de compressió.", false],
+      ["Un protocol de transferència.", false],
+      ["Un editor d'XML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin parser d'XML llegeix el document seqüencialment i dispara esdeveniments (més eficient en memòria)?",
+    "respostes": [
+      ["DOM.", false],
+      ["SAX (Simple API for XML).", true],
+      ["XSLT.", false],
+      ["JSON Parser.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Com es defineix un atribut en DTD?",
+    "respostes": [
+      ["!ELEMENT", false],
+      ["!ATTLIST", true],
+      ["!ATTRIBUTE", false],
+      ["!PROP", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què significa que un atribut sigui #REQUIRED en DTD?",
+    "respostes": [
+      ["Que és opcional.", false],
+      ["Que ha d'aparèixer obligatòriament en l'element.", true],
+      ["Que té un valor per defecte.", false],
+      ["Que està prohibit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin llenguatge s'utilitza principalment per consultar dades dins de documents JSON?",
+    "respostes": [
+      ["XPath.", false],
+      ["JSONPath.", true],
+      ["SQL.", false],
+      ["XQuery.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quina és la sintaxi correcta per a un comentari en XML?",
+    "respostes": [
+      ["// Comentari", false],
+      ["", true],
+      ["/* Comentari */", false],
+      ["# Comentari", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què és una 'entitat' en XML?",
+    "respostes": [
+      ["Un error.", false],
+      ["Una variable o drecera per definir contingut reutilitzable (ex: &lt; per <).", true],
+      ["Un element buit.", false],
+      ["Un atribut numèric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin format és més adequat per a fitxers de configuració llegibles per humans segons la comparativa?",
+    "respostes": [
+      ["XML.", false],
+      ["YAML.", true],
+      ["Binary.", false],
+      ["HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "En XSLT, quina etiqueta s'utilitza per iterar sobre un conjunt de nodes?",
+    "respostes": [
+      ["<xsl:loop>", false],
+      ["<xsl:for-each>", true],
+      ["<xsl:iterate>", false],
+      ["<xsl:repeat>", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Què indica l'atribut 'standalone=\"yes\"' en la declaració XML?",
+    "respostes": [
+      ["Que el document depèn d'altres fitxers.", false],
+      ["Que el document no depèn de cap DTD o entitat externa.", true],
+      ["Que és un esborrany.", false],
+      ["Que està en mode de prova.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "Quin tipus de validació ofereix XML Schema (XSD) per a cadenes de text?",
+    "respostes": [
+      ["Cap.", false],
+      ["Patrons d'expressions regulars (regex), longitud, enumeracions.", true],
+      ["Només longitud màxima.", false],
+      ["Només comprovació d'ortografia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 38. XML: conceptes generals, DTD i XSD. Fulls d'estil. XML vs JSON",
+    "enunciat": "En la comparativa, quin format és 'nadiu' per a JavaScript?",
+    "respostes": [
+      ["XML.", false],
+      ["JSON.", true],
+      ["YAML.", false],
+      ["CSV.", false]
+    ]
+  }
+]

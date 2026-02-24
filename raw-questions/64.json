@@ -1,0 +1,302 @@
+[
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quin és l'objectiu principal de les infraestructures i serveis comuns per a la interoperabilitat?",
+    "respostes": [
+      ["Aïllar els sistemes informàtics de cada administració per motius de seguretat.", false],
+      ["Facilitar la interoperabilitat entre diferents entitats per millorar l'eficiència, reduir costos i oferir serveis de qualitat.", true],
+      ["Eliminar la necessitat de connexió a Internet per a tràmits oficials.", false],
+      ["Centralitzar tota la recaptació d'impostos de l'estat en una sola plataforma.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Dels següents, quin és un exemple de plataforma d'autenticació i autorització comuna?",
+    "respostes": [
+      ["Cl@ve.", true],
+      ["Directori DIR3.", false],
+      ["Sistema SIR.", false],
+      ["Xarxa SARA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Què és el sistema Cl@ve?",
+    "respostes": [
+      ["Un programari antivirus per a ordinadors de l'estat.", false],
+      ["Un sistema comú d'identificació, autenticació i signatura electrònica per a les administracions públiques espanyoles.", true],
+      ["Una plataforma per a realitzar videotrucades entre funcionaris.", false],
+      ["Un directori que llista les seus físiques dels ajuntaments.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quin component del sistema Cl@ve funciona enviant un codi temporal via SMS o aplicació mòbil per a accessos esporàdics?",
+    "respostes": [
+      ["Cl@ve Firma.", false],
+      ["Cl@ve Permanent.", false],
+      ["Cl@ve PIN.", true],
+      ["Cl@ve Mòbil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "A quin tipus d'usuaris està especialment dirigit el sistema Cl@ve Permanent?",
+    "respostes": [
+      ["A usuaris que fan un únic tràmit a la vida i no tornen a accedir.", false],
+      ["A usuaris que necessiten accedir als serveis públics de manera recurrent o freqüent.", true],
+      ["Exclusivament als ciutadans estrangers fora de la UE.", false],
+      ["Als funcionaris de justícia exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Què requereix obligatòriament el sistema Cl@ve Firma per garantir l'autenticitat i integritat d'un document signat?",
+    "respostes": [
+      ["Un codi QR generat en el moment.", false],
+      ["Un certificat digital associat a la identitat de l'usuari.", true],
+      ["La presència física de l'usuari a l'oficina.", false],
+      ["Una signatura manuscrita escanejada en PDF.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "En registrar-se a Cl@ve, quin dels següents mètodes proporciona un nivell de 'Registre Bàsic'?",
+    "respostes": [
+      ["A través d'Internet amb certificat electrònic o DNIe.", false],
+      ["Presencialment en una oficina de registre.", false],
+      ["A través d'Internet per videotrucada o amb carta d'invitació.", true],
+      ["Mitjançant trucada telefònica de veu sense vídeo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quina limitació té un ciutadà que només disposa del Registre Bàsic a Cl@ve?",
+    "respostes": [
+      ["No pot accedir a determinats serveis que requereixen nivell avançat ni utilitzar Cl@ve Firma.", true],
+      ["No pot rebre missatges SMS al seu telèfon mòbil.", false],
+      ["Ha de canviar la seva contrasenya cada 24 hores.", false],
+      ["Només pot fer tràmits durant l'horari d'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Què és la 'Signatura remota' que ofereix Cl@ve Signatura?",
+    "respostes": [
+      ["Signar un document imprimint-lo, signant-lo a mà i enviant-lo per correu postal.", false],
+      ["Permet signar documents sense instal·lar cap certificat al dispositiu de l'usuari, ja que aquest està emmagatzemat en un servidor segur.", true],
+      ["Signar un document dictant el consentiment per telèfon.", false],
+      ["L'ús d'un certificat instal·lat exclusivament al disc dur de l'ordinador de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quin requisit d'autenticació prèvia s'exigeix per utilitzar el mecanisme de signatura remota de Cl@ve Signatura?",
+    "respostes": [
+      ["Només cal introduir l'adreça de correu electrònic.", false],
+      ["S'ha d'autenticar amb Cl@ve Permanent, ja que ofereix un nivell de seguretat suficient.", true],
+      ["Es requereix introduir un Cl@ve PIN bàsic sense certificat.", false],
+      ["Cal una empremta dactilar a la pantalla del mòbil exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Segons els nivells de seguretat de la Seu Electrònica, quin nivell (del 0 al 3) requereix obligatòriament l'ús de signatura electrònica per als serveis associats?",
+    "respostes": [
+      ["Nivell 0.", false],
+      ["Nivell 1.", false],
+      ["Nivell 2.", false],
+      ["Nivell 3.", true]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "A quin marc regulador europeu s'adapta Cl@ve per garantir la interoperabilitat i permetre l'autenticació de ciutadans d'altres països de la UE?",
+    "respostes": [
+      ["Al Reglament General de Protecció de Dades (RGPD).", false],
+      ["Al Reglament eIDAS.", true],
+      ["A la Directiva de Drets d'Autor (Copyright Directive).", false],
+      ["A l'Acord de Schengen.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Què és la Carpeta Ciutadana?",
+    "respostes": [
+      ["Un arxiu físic de paper que s'entrega a l'ajuntament.", false],
+      ["Una plataforma digital que permet als ciutadans accedir a la seva informació personal i gestionar tràmits administratius de forma centralitzada.", true],
+      ["Un programari d'edició de documents PDF gratuït per a ciutadans.", false],
+      ["El correu electrònic oficial que l'estat assigna a cada naixement.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quina d'aquestes és una funcionalitat principal de la Carpeta Ciutadana?",
+    "respostes": [
+      ["Seguiment de l'estat dels tràmits i sol·licituds en temps real.", true],
+      ["Emissió de targetes de crèdit estatals.", false],
+      ["Publicació de comentaris i queixes públiques anònimes.", false],
+      ["Gestió i compra d'accions del Tresor Públic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Es poden gestionar les notificacions electròniques oficials directament i exclusivament des de la Carpeta Ciutadana?",
+    "respostes": [
+      ["Sí, la Carpeta Ciutadana emmagatzema i gestiona internament totes les notificacions.", false],
+      ["No, la Carpeta Ciutadana enllaça a la Dirección Electrónica Habilitada Única (DEHú) per a consultar-les i gestionar-les.", true],
+      ["Sí, però només les notificacions dels ajuntaments, no les de l'Estat.", false],
+      ["No, les notificacions oficials només s'envien per correu postal tradicional.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quina és la funció de la Dirección Electrónica Habilitada Única (DEHú)?",
+    "respostes": [
+      ["Centralitzar la recepció de notificacions electròniques emeses per totes les administracions públiques, atorgant-hi validesa jurídica.", true],
+      ["Generar contrasenyes d'un sol ús (OTP) per a usuaris registrats a Cl@ve.", false],
+      ["Signar digitalment documents sense necessitat de tenir certificat.", false],
+      ["Emmagatzemar els antecedents penals dels ciutadans a la vista del públic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Com pot un ciutadà saber que té una nova notificació a la DEHú sense haver d'entrar-hi diàriament?",
+    "respostes": [
+      ["L'administració el trucarà personalment per telèfon.", false],
+      ["Configurant alertes perquè se li notifiqui via correu electrònic o SMS quan arribi una nova notificació.", true],
+      ["A través de correu postal ordinari que s'envia abans de cada notificació.", false],
+      ["El navegador web llançarà un avís emergent de forma automàtica arreu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quin és l'objectiu del Sistema d'Interconnexió de Registres (SIR)?",
+    "respostes": [
+      ["Substituir la plataforma de l'Agència Tributària.", false],
+      ["Permetre l'intercanvi segur i eficient de registres electrònics i documents entre les diferents administracions públiques.", true],
+      ["Connectar els registres mèdics dels hospitals públics de forma pública.", false],
+      ["Generar certificats de naixement de manera automàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quins protocols i arquitectures tècniques utilitza el SIR per al flux de dades de registres entre administracions?",
+    "respostes": [
+      ["Connexions per xarxes de ràdio freqüència d'ona curta.", false],
+      ["Protocols segurs com HTTPS, que es poden utilitzar tant en serveis SOAP com en arquitectures REST.", true],
+      ["Intercanvi d'arxius exclusivament a través d'USB o discs durs xifrats.", false],
+      ["Bases de dades descentralitzades basades en tecnologia Blockchain pública.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Com garanteix el SIR que les transaccions de documents entre administracions no siguin manipulades i tinguin traçabilitat?",
+    "respostes": [
+      ["Fent que un supervisor humà revisi cada document abans de l'enviament.", false],
+      ["Mitjançant l'ús de certificats digitals i segellat de temps.", true],
+      ["Esborrant el document original de la base de dades a l'instant.", false],
+      ["Utilitzant contrasenyes de 4 dígits que canvien cada mes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quin benefici clau aporta el SIR directament en el funcionament de les administracions públiques i ciutadans?",
+    "respostes": [
+      ["Disminueix la velocitat de tramitació per a garantir una millor revisió humana.", false],
+      ["Facilita que els ciutadans no hagin de presentar els mateixos documents físics a diferents administracions.", true],
+      ["Cobra una taxa administrativa automàtica per cada registre realitzat.", false],
+      ["Dona accés directe al ciutadà als expedients complets d'altres persones.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Què representa el Directori Comú d'Unitats (DIR3)?",
+    "respostes": [
+      ["Un cercador de lleis espanyoles.", false],
+      ["Un catàleg unificat que identifica les unitats administratives, oficines de registre i altres oficines públiques espanyoles.", true],
+      ["Una plataforma per a realitzar pagaments d'impostos de forma unificada.", false],
+      ["Un directori actiu que desa les contrasenyes dels funcionaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Com assegura el DIR3 que un expedient o document arribi a l'oficina correcta en sistemes com el SIR?",
+    "respostes": [
+      ["A través de geolocalització per GPS.", false],
+      ["Proporcionant una codificació unificada amb un codi identificador únic per a cada unitat i oficina.", true],
+      ["Enviant el document a totes les unitats simultàniament perquè la correcta el processi.", false],
+      ["Revisant el nom del carrer de forma automàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Què passa al directori DIR3 quan una administració canvia la seva estructura organitzativa (ex: es crea un departament nou)?",
+    "respostes": [
+      ["El sistema té capacitat d'actualització automàtica per mantenir la informació i els codis al dia.", true],
+      ["El directori s'ha de donar de baixa completament i reconstruir des de zero.", false],
+      ["S'ha d'enviar una carta certificada als ciutadans informant-los de l'error del sistema.", false],
+      ["Els documents es perden temporalment durant 6 mesos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "A part del codi identificador, quina altra informació bàsica conté el DIR3 sobre una unitat administrativa?",
+    "respostes": [
+      ["El nombre exacte de funcionaris treballant a l'oficina.", false],
+      ["Nom, adreça, telèfon, correu electrònic i un catàleg de competències o funcions.", true],
+      ["Els antecedents dels responsables polítics de l'àrea.", false],
+      ["El pressupost econòmic anual assignat a la unitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "A l'hora d'implementar aquestes infraestructures per a la interoperabilitat, quin és un dels reptes tecnològics més grans assenyalats?",
+    "respostes": [
+      ["La decisió d'imprimir tots els documents per seguretat d'arxiu.", false],
+      ["L'heterogeneïtat tecnològica de les diferents administracions, que requereixen adaptacions per a integrar-se plenament.", true],
+      ["El fet que Cl@ve només funciona en el sistema operatiu Linux.", false],
+      ["La incapacitat d'emetre certificats digitals ràpidament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Quin repte humà i organitzatiu es destaca respecte a l'adopció d'aquestes infraestructures electròniques comunes?",
+    "respostes": [
+      ["La formació del personal (treballadors públics) perquè coneguin i utilitzin correctament les eines digitals de manera eficient.", true],
+      ["La reducció excessiva de sous a causa de l'automatització informàtica.", false],
+      ["Que els ciutadans ja no han d'anar a les oficines físiques, cosa que avorreix als funcionaris.", false],
+      ["La falta de motivació dels programadors de l'Estat per crear els portals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Si un usuari vol fer un tràmit electrònic, el candat que es mostra obert en iniciar sessió al costat del servei, què significa?",
+    "respostes": [
+      ["Que la pàgina és totalment lliure i no es demana cap dada personal.", false],
+      ["Que s'ha identificat amb un mètode que garanteix el nivell de seguretat requerit per aquell tràmit en concret.", true],
+      ["Que el sistema pateix actualment una bretxa de seguretat.", false],
+      ["Que l'ordinador local de l'usuari no té un bon antivirus instal·lat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "El DIR3 està directament integrat amb la Carpeta Ciutadana i amb el SIR. Què permet això al ciutadà?",
+    "respostes": [
+      ["Permet que els ciutadans puguin consultar l'estat dels seus tràmits amb diferents administracions, ja que tot s'orienta cap a codis unificats i rutes d'intercanvi de documents clares.", true],
+      ["Els permet saber el nom de tots els funcionaris involucrats a la seva localitat.", false],
+      ["Els permet modificar i esborrar registres antics de les administracions lliurement.", false],
+      ["No té cap relació amb la Carpeta Ciutadana.", false]
+    ]
+  },
+  {
+    "tema": "Tema 64. Infraestructures, serveis comuns i compartits per a la interoperabilitat entre administracions públiques.",
+    "enunciat": "Com redueix el SIR la càrrega administrativa segons el text?",
+    "respostes": [
+      ["Permetent que qualsevol ciutadà s'ocupi personalment dels tràmits interns entre diferents oficines.", false],
+      ["Mitjançant l'eliminació de documents i registres en paper, reduint els temps de resposta i els costos associats a la seva gestió.", true],
+      ["Limitant el nombre de peticions que un ciutadà pot fer mensualment.", false],
+      ["Suprimint tota forma de comunicació que no provingui exclusivament de la Carpeta Ciutadana.", false]
+    ]
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quin és el doble objecte de la Llei Orgànica 3/2018 (LOPDGDD) establert a l'article 1?",
+    "respostes": [
+      ["Adaptar l'ordenament espanyol al Reglament (UE) 2016/679 (RGPD) i garantir els drets digitals de la ciutadania.", true],
+      ["Regular exclusivament les telecomunicacions i la firma electrònica avançada a l'Administració.", false],
+      ["Crear un registre únic de ciutadans i establir impostos sobre el comerç electrònic.", false],
+      ["Derogar el RGPD a Espanya i establir una normativa nacional completament independent.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Segons l'article 3, qui pot sol·licitar l'accés a les dades personals d'una persona morta?",
+    "respostes": [
+      ["Les persones vinculades per raons familiars o de fet i els seus hereus, tret que el difunt ho hagués prohibit expressament.", true],
+      ["Qualsevol ciutadà que pagui la taxa corresponent a l'Agència Espanyola de Protecció de Dades.", false],
+      ["Exclusivament l'Administració Pública per a finalitats estadístiques.", false],
+      ["Ningú, ja que la mort extingeix absolutament qualsevol accés a les dades personals.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "D'acord amb el principi d'exactitud (Art. 4), quan NO serà imputable al responsable la inexactitud de les dades personals tractades?",
+    "respostes": [
+      ["Quan les dades hagin estat obtingudes directament de l'afectat, d'un mediador, d'un registre públic o per dret a la portabilitat.", true],
+      ["Quan el responsable les hagi comprat a una empresa privada de màrqueting sense verificar-les.", false],
+      ["Quan l'error hagi estat comès per un empleat del propi responsable a l'hora de teclejar-les.", false],
+      ["Sempre és imputable al responsable, sense cap tipus d'excepció legal.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Pel que fa al deure de confidencialitat (Art. 5), fins quan es manté l'obligació de guardar secret?",
+    "respostes": [
+      ["Es manté fins i tot quan hagi finalitzat la relació de l'obligat amb el responsable o encarregat del tractament.", true],
+      ["Finalitza exactament l'endemà de la rescissió del contracte laboral.", false],
+      ["Caduca automàticament als dos anys de la recollida de les dades.", false],
+      ["Es manté només si es rep una compensació econòmica mensual per part del responsable.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Si un responsable pretén basar el tractament en el consentiment de l'afectat per a diverses finalitats diferents, què exigeix l'article 6.2 de la LOPDGDD?",
+    "respostes": [
+      ["Que consti de manera específica i inequívoca que el consentiment s'atorga per a totes i cadascuna d'elles.", true],
+      ["Que n'hi ha prou amb una única casella premarcada que englobi totes les finalitats de l'empresa.", false],
+      ["Que no és necessari el consentiment si les finalitats es publiquen al BOE.", false],
+      ["Que el consentiment es renovi obligatòriament per via notarial cada sis mesos.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "A partir de quina edat es pot fonamentar el tractament de dades d'un menor d'edat exclusivament en el seu propi consentiment (Art. 7)?",
+    "respostes": [
+      ["A partir dels catorze anys.", true],
+      ["A partir dels setze anys.", false],
+      ["A partir dels divuit anys.", false],
+      ["A partir dels dotze anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Segons l'article 9 referent a les categories especials de dades, n'hi ha prou amb el consentiment de l'afectat per tractar dades la finalitat principal de les quals sigui identificar la seva ideologia o religió?",
+    "respostes": [
+      ["No, el sol consentiment de l'afectat no basta per aixecar la prohibició de tractament d'aquestes dades per evitar situacions discriminatòries.", true],
+      ["Sí, el consentiment per escrit i signat permet qualsevol tipus de tractament sense excepció.", false],
+      ["Sí, sempre que l'afectat sigui major de divuit anys i pagui una quota.", false],
+      ["No, excepte si el tractament el realitza exclusivament una empresa de màrqueting telefònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Fora dels supòsits de prevenció o investigació d'infraccions, qui pot tractar dades referides a condemnes penals segons l'article 10.3?",
+    "respostes": [
+      ["Els advocats i procuradors, quan tinguin per objecte recollir informació facilitada pels seus clients per a l'exercici de les seves funcions.", true],
+      ["Qualsevol empresa privada per decidir si contracta o no un treballador.", false],
+      ["Les agències de viatges per denegar bitllets d'avió.", false],
+      ["Els mitjans de comunicació digitals sense cap tipus de restricció.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Com pot el responsable donar compliment al deure d'informació a l'afectat utilitzant el sistema conegut com a 'informació per capes' (Art. 11)?",
+    "respostes": [
+      ["Facilitant la informació bàsica (identitat, finalitat, drets) i indicant una adreça electrònica per accedir de forma senzilla a la resta de la informació.", true],
+      ["Enviant un llibre imprès de 50 pàgines per correu postal certificat.", false],
+      ["Llegint tota la informació legal per telèfon i gravant la trucada.", false],
+      ["Ometent l'explicació si el client marca la casella de 'No vull ser informat'.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "En referència a l'exercici de drets per part de l'afectat (Art. 12), quina afirmació és correcta quant al cost per a l'interessat?",
+    "respostes": [
+      ["Les actuacions dutes a terme pel responsable per atendre les sol·licituds d'exercici d'aquests drets seran gratuïtes, amb les excepcions previstes legalment.", true],
+      ["El responsable sempre ha de cobrar una taxa fixa de 20 euros per sol·licitud.", false],
+      ["L'exercici de drets només és gratuït si l'afectat demostra manca de recursos econòmics.", false],
+      ["El dret d'accés és gratuït, però el de supressió té sempre un cost establert pel Ministeri d'Hisenda.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "A l'efecte de l'exercici del dret d'accés (Art. 13), quan es podrà considerar que la sol·licitud és repetitiva?",
+    "respostes": [
+      ["Quan s'exerceixi el dret d'accés en més d'una ocasió durant el termini de sis mesos, llevat que hi hagi causa legítima.", true],
+      ["Quan s'exerceixi el dret dues vegades en un mateix lustre.", false],
+      ["Quan l'usuari pregunti més d'una vegada durant el primer mes de contracte.", false],
+      ["Mai, la llei prohibeix expressament considerar cap sol·licitud com a repetitiva.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "D'acord amb l'article 19, quin requisit cal complir perquè es presumeixi lícit el tractament de dades de contacte de persones que presten serveis en una persona jurídica?",
+    "respostes": [
+      ["Que el tractament es refereixi únicament a les dades necessàries per a la seva localització professional i la finalitat sigui mantenir relacions amb la persona jurídica.", true],
+      ["Que es demani una autorització expressa i per escrit al Ministeri de Treball abans d'enviar el correu.", false],
+      ["Que les dades s'incloguin automàticament en llistes de publicitat massiva de tercers sense avís.", false],
+      ["Que el contacte s'usi per oferir-li productes de consum domèstic i personal exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quin és el termini màxim que les dades relatives a l'incompliment d'obligacions dineràries (morosos) poden mantenir-se en els sistemes d'informació creditícia (Art. 20)?",
+    "respostes": [
+      ["El límit màxim és de cinc anys des de la data de venciment de l'obligació dinerària, financera o de crèdit.", true],
+      ["Les dades es mantenen de forma indefinida i perpètua fins que el deutor mor.", false],
+      ["Deu anys des de la sentència judicial que condemni l'afectat.", false],
+      ["Trenta dies a comptar des de la notificació de la inclusió al sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "En el cas de la videovigilància (Art. 22), en quin termini màxim han de ser suprimides les imatges gravades (excepte si s'han de conservar per acreditar delictes)?",
+    "respostes": [
+      ["En el termini màxim d'un mes des de la seva captació.", true],
+      ["Als tres mesos des de l'inici de la gravació.", false],
+      ["Han de ser conservades obligatòriament durant 5 anys per motius fiscals.", false],
+      ["Es poden mantenir indefinidament si no ocupen molt d'espai al disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Què exigeix l'article 23 als que pretenguin realitzar comunicacions de mercadotècnia directa (publicitat)?",
+    "respostes": [
+      ["Han de consultar prèviament els sistemes d'exclusió publicitària i excloure les dades dels afectats que hagin manifestat la seva oposició o negativa.", true],
+      ["Han d'enviar almenys tres correus d'avís abans de donar de baixa l'usuari.", false],
+      ["Han d'adquirir les dades de contacte obligatòriament a través del BOE.", false],
+      ["No exigeix res, l'enviament de publicitat massiva és completament lliure a Espanya.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "A l'efecte d'atendre les rectificacions o supressions, què és l'obligació de 'bloqueig de dades' (Art. 32)?",
+    "respostes": [
+      ["La identificació i reserva de les dades per impedir-ne el tractament, excepte per a la posada a disposició a jutges, tribunals, Ministeri Fiscal o AEPD per exigència de responsabilitats.", true],
+      ["Esborrar de forma irreversible els discs durs amb eines de destrucció magnètica.", false],
+      ["Publicar les dades al portal web de l'empresa de manera encriptada.", false],
+      ["La devolució immediata del fitxer en paper a l'interessat sense guardar-ne cap registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Si un Encarregat del Tractament utilitza les dades de l'encàrrec per a les seves pròpies finalitats, quina condició adquireix segons l'article 33.2?",
+    "respostes": [
+      ["Tindrà la consideració de Responsable del Tractament.", true],
+      ["Tindrà la condició de Delegat de Protecció de Dades extern.", false],
+      ["Perdrà automàticament la llicència d'operador tecnològic de l'Estat.", false],
+      ["No canvia de condició, però se li augmenta la quota de manteniment.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quina d'aquestes entitats està OBLIGADA a designar un Delegat de Protecció de Dades (Art. 34)?",
+    "respostes": [
+      ["Els centres docents, les entitats asseguradores i les empreses de seguretat privada.", true],
+      ["Les petites botigues de queviures que no tracten dades a gran escala.", false],
+      ["Les comunitats de propietaris d'un bloc de pisos estàndard.", false],
+      ["Qualsevol ciutadà que tingui càmeres de videovigilància exclusivament dins de casa seva.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quina protecció atorga l'article 36.2 a la figura del Delegat de Protecció de Dades (DPD) dins l'organització?",
+    "respostes": [
+      ["No podrà ser remogut ni sancionat pel responsable o encarregat per exercir les seves funcions, tret de dol o negligència greu.", true],
+      ["Adquireix automàticament immunitat diplomàtica davant dels tribunals ordinaris.", false],
+      ["El seu salari s'ha de triplicar obligatòriament respecte a la resta d'empleats.", false],
+      ["No pot ser acomiadat mai sota cap concepte mentre la companyia existeixi.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Si un afectat presenta una reclamació davant l'AEPD i hi ha un Delegat de Protecció de Dades designat, quant de temps té aquest DPD per respondre abans que l'AEPD continuï el procediment (Art. 37.2)?",
+    "respostes": [
+      ["Un termini d'un mes.", true],
+      ["Deu dies naturals.", false],
+      ["Sis mesos.", false],
+      ["Un any lectiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Com es configura jurídicament l'Agència Espanyola de Protecció de Dades (AEPD) segons l'article 44 de la LOPDGDD?",
+    "respostes": [
+      ["Com a una autoritat administrativa independent d'àmbit estatal, amb personalitat jurídica i plena capacitat, que actua amb plena independència dels poders públics.", true],
+      ["Com a una Direcció General dependent i sotmesa orgànicament a les instruccions del Ministeri de l'Interior.", false],
+      ["Com a una associació empresarial de caràcter privat finançada per les grans empreses tecnològiques.", false],
+      ["Com a un Tribunal de justícia integrat directament al Consell General del Poder Judicial.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quina és la durada del mandat de la Presidència de l'AEPD segons l'article 48.5?",
+    "respostes": [
+      ["Té una durada de cinc anys i pot ser renovat per un altre període d'igual durada.", true],
+      ["Té caràcter vitalici un cop ha estat ratificat pel Congrés dels Diputats.", false],
+      ["Canvia cada vegada que hi ha unes eleccions generals al Govern.", false],
+      ["La durada és de dos anys, sense cap possibilitat de renovació.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quina consideració té el personal de l'AEPD que desenvolupa activitats d'investigació o inspecció (Art. 51)?",
+    "respostes": [
+      ["Tenen la consideració d'agents de l'autoritat en l'exercici de les seves funcions.", true],
+      ["Tenen la consideració de pèrits judicials privats externs.", false],
+      ["No tenen cap estatus oficial, són simples assessors tècnics.", false],
+      ["Són considerats oficials de la policia nacional uniformada.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "D'acord amb l'article 64.2, quina és la durada màxima del procediment per a l'exercici de la potestat sancionadora a comptar des de la data de l'acord d'inici?",
+    "respostes": [
+      ["Una durada màxima de dotze mesos.", true],
+      ["Una durada màxima de sis setmanes.", false],
+      ["No hi ha cap límit màxim de temps.", false],
+      ["Una durada màxima de vint-i-quatre mesos.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "El règim sancionador tipifica les infraccions en molt greus, greus i lleus. Quin és el termini de prescripció de les infraccions MOLT GREUS (Art. 72)?",
+    "respostes": [
+      ["Prescriuran als tres anys.", true],
+      ["Prescriuran a l'any.", false],
+      ["Prescriuran als dos anys.", false],
+      ["No prescriuen mai atesa la seva gravetat.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quin termini de prescripció tenen les infraccions considerades GREUS establertes a l'article 73?",
+    "respostes": [
+      ["Prescriuran als dos anys.", true],
+      ["Prescriuran al cap de sis mesos.", false],
+      ["Prescriuran als cinc anys.", false],
+      ["Prescriuran al cap de deu anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Què succeeix en el cas que una administració pública o òrgan constitucional cometi una infracció (Art. 77 Règim aplicable a determinades categories)?",
+    "respostes": [
+      ["L'autoritat dictarà resolució declarant la infracció i les mesures a adoptar, i proposarà actuacions disciplinàries, però no s'imposarà una multa econòmica.", true],
+      ["L'AEPD els imposarà directament la multa econòmica més alta prevista al RGPD sense excepció.", false],
+      ["S'arxivarà el cas immediatament perquè l'administració té immunitat legal davant el RGPD.", false],
+      ["Se sancionarà directament el President del Govern i els ministres de l'àrea.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Segons l'article 78.1, quin és el termini de prescripció de les sancions imposades per un import superior a 300.000 euros?",
+    "respostes": [
+      ["Prescriuen als tres anys.", true],
+      ["Prescriuen a l'any.", false],
+      ["Prescriuen als dos anys.", false],
+      ["Són imprescriptibles.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "En virtut de l'article 80 (Dret a la neutralitat d'Internet), què han de proporcionar els proveïdors de serveis d'Internet?",
+    "respostes": [
+      ["Una oferta transparent de serveis sense discriminació per motius tècnics o econòmics.", true],
+      ["L'obligatorietat de tallar la connexió en hores de màxima audiència.", false],
+      ["Filtres de continguts culturals per donar prioritat a productes americans.", false],
+      ["Una línia gratuïta per a qualsevol ciutadà d'origen europeu.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Què estableix l'article 83 en relació amb el Dret a l'educació digital en el sistema educatiu?",
+    "respostes": [
+      ["Que les administracions educatives han d'incloure en el desenvolupament del currículum la competència digital i la formació sobre un ús segur d'Internet.", true],
+      ["Que s'ha de prohibir totalment l'ús d'ordinadors als instituts fins als setze anys.", false],
+      ["Que només es pot ensenyar ofimàtica utilitzant el sistema operatiu privatiu de Windows.", false],
+      ["Que la seguretat digital no és responsabilitat dels professors, sinó només dels pares.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "El dret a la desconnexió digital en l'àmbit laboral (Art. 88) té com a finalitat:",
+    "respostes": [
+      ["Garantir el respecte al temps de descans, permisos i vacances, així com a la intimitat personal i familiar fora del temps de treball establert.", true],
+      ["Obligar el treballador a mantenir el mòbil de l'empresa encès només per a emergències.", false],
+      ["Apagar el router de les oficines físiques automàticament a les sis de la tarda.", false],
+      ["Prohibir enviar correus electrònics entre treballadors fins i tot durant el matí.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "L'article 89 regula l'ús de dispositius de videovigilància al lloc de treball. On està totalment INADMESA la seva instal·lació?",
+    "respostes": [
+      ["En llocs destinats al descans o esbarjo, com vestidors, lavabos, menjadors i anàlegs.", true],
+      ["A l'entrada principal de l'edifici de l'empresa.", false],
+      ["Als passadissos que connecten els diferents despatxos.", false],
+      ["A les caixes de cobrament i zones de magatzem d'un supermercat.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quina obligació imposa l'article 90 als ocupadors abans d'utilitzar sistemes de geolocalització per controlar els treballadors?",
+    "respostes": [
+      ["Informar amb caràcter previ de forma expressa, clara i inequívoca als treballadors i els seus representants sobre la seva existència i característiques.", true],
+      ["Demanar permís de forma confidencial a la Guàrdia Civil de la localitat.", false],
+      ["Fer-los signar una renúncia explícita al seu dret a la intimitat per a tota la vida.", false],
+      ["Instal·lar xips físics a la roba d'uniforme de manera oculta per avaluar la seva eficàcia.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "El dret a l'oblit en cerques d'Internet (Art. 93) permet sol·licitar als motors de cerca eliminar els enllaços obtinguts a partir del nom d'una persona quan aquests siguin:",
+    "respostes": [
+      ["Inadequats, inexactes, no pertinents, no actualitzats o excessius tenint en compte els fins i el temps transcorregut.", true],
+      ["Únicament imatges on la persona surti de perfil i no de cara.", false],
+      ["Articles i llibres d'història aprovats pels tribunals penals.", false],
+      ["Qualsevol enllaç, fins i tot quan existeix un interès públic general i actual i la informació sigui del tot precisa i rellevant.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "D'acord amb el dret al testament digital (Art. 96), qui pot decidir sobre el manteniment o eliminació dels perfils de xarxes socials d'una persona morta?",
+    "respostes": [
+      ["Els familiars, persones vinculades de fet i hereus, a menys que el difunt hagués decidit una altra cosa a les seves instruccions.", true],
+      ["Exclusivament el CEO de la xarxa social, de manera unilateral.", false],
+      ["Els contactes i amics de la xarxa que ho demanin en votació oberta.", false],
+      ["La llei exigeix que els perfils es mantinguin sempre oberts i inalterats com a patrimoni històric digital.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Segons la Disposició addicional sisena, no s'incorporaran a sistemes d'informació creditícia deutes en què la quantia del principal sigui inferior a:",
+    "respostes": [
+      ["Cinquanta euros.", true],
+      ["Cent euros.", false],
+      ["Dos-cents euros.", false],
+      ["Quatre-cents euros.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Si una Administració ha de publicar un acte administratiu (p. ex. BOP o BOE) que conté dades personals, com s'ha d'identificar a l'afectat segons la Disposició addicional setena?",
+    "respostes": [
+      ["Mitjançant el nom i cognoms, afegint quatre xifres numèriques aleatòries del DNI, NIE o passaport.", true],
+      ["Amb el nom de pila i la primera lletra del cognom, sense cap número.", false],
+      ["Publicant exclusivament el DNI sencer juntament amb l'adreça postal del seu domicili.", false],
+      ["Amb el nom complet i una fotografia de carnet extreta de l'expedient policial.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Quan es tracti de notificacions a través d'anuncis (ex. a l'efecte de l'Art 44 de la LPAC), l'afectat s'identificarà segons la LOPDGDD:",
+    "respostes": [
+      ["Exclusivament mitjançant el número complet del seu DNI, NIE, passaport o document equivalent (sense el nom i cognoms de forma conjunta).", true],
+      ["Amb el nom i els dos cognoms sencers marcats en negreta.", false],
+      ["Ometent el DNI completament i utilitzant només el correu electrònic.", false],
+      ["Amb les inicials del nom i el número de telèfon fix.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Segons la Disposició addicional setzena, quina de les següents accions es considera una 'pràctica agressiva' en matèria de protecció de dades?",
+    "respostes": [
+      ["Actuar amb la intenció de suplantar la identitat de l'Agència Espanyola de Protecció de Dades (AEPD) per realitzar comunicacions als responsables.", true],
+      ["Oferir cursos voluntaris i gratuïts sobre l'ús del RGPD en horari no comercial.", false],
+      ["Contractar un Delegat de Protecció de Dades a través d'un portal d'ocupació pública.", false],
+      ["Escriure un correu electrònic a un client informant d'un canvi a la política de privacitat del lloc web.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. LOPDGDD.",
+    "enunciat": "Pel que fa als tractaments en la investigació en salut i biomèdica (DA 17a), quin ús es considera lícit garantint certes mesures?",
+    "respostes": [
+      ["L'ús de dades personals seudonimitzades, sempre que hi hagi una separació tècnica i funcional entre l'equip investigador i els qui realitzin la seudonimització.", true],
+      ["L'ús de dades no encriptades acompanyades de la fotografia del pacient lliurades a la indústria publicitària.", false],
+      ["L'ús de dades genètiques lliures sense haver d'incorporar cap delegat de protecció de dades al comitè d'ètica.", false],
+      ["Està totalment prohibit l'ús de cap dada biomèdica, encara que la persona hagi signat el consentiment previ.", false]
+    ]
+  }
+]

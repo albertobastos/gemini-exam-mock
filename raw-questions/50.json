@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és la Identificació Electrònica?",
+    "respostes": [
+      ["El procés de comprar per internet.", false],
+      ["El procés d'utilitzar dades en format electrònic per representar i verificar la identitat d'una persona o entitat en un entorn digital.", true],
+      ["El número del DNI en paper.", false],
+      ["Una contrasenya escrita en un pòsit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és l'objectiu principal de la Signatura Electrònica?",
+    "respostes": [
+      ["Escriure el nom al final d'un correu.", false],
+      ["Assegurar l'autenticitat, la integritat i el no-repudi d'un document o transacció digital.", true],
+      ["Fer dibuixos en una tauleta.", false],
+      ["Crear documents PDF.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què garanteix el 'No-repudi' en una signatura electrònica?",
+    "respostes": [
+      ["Que el signant pot negar haver firmat.", false],
+      ["Que el signant no pot negar haver realitzat la signatura, ja que aquesta està vinculada únicament a ell.", true],
+      ["Que el document es pot esborrar.", false],
+      ["Que la signatura és anònima.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina normativa europea regula la identificació electrònica i els serveis de confiança?",
+    "respostes": [
+      ["Reglament General de Protecció de Dades (RGPD).", false],
+      ["Reglament (UE) Núm. 910/2014 (eIDAS).", true],
+      ["Directiva de Serveis.", false],
+      ["Tractat de Lisboa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin tipus de signatura electrònica té la mateixa validesa legal que la signatura manuscrita?",
+    "respostes": [
+      ["La signatura electrònica simple.", false],
+      ["La signatura electrònica qualificada.", true],
+      ["La signatura electrònica avançada (sense certificat qualificat).", false],
+      ["Cap signatura electrònica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què requereix una Signatura Electrònica Avançada segons eIDAS?",
+    "respostes": [
+      ["Només un nom d'usuari.", false],
+      ["Estar vinculada al signant de manera única, permetre la seva identificació i detectar qualsevol canvi posterior de les dades.", true],
+      ["Estar escrita en paper.", false],
+      ["No requereix res especial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina llei espanyola regula determinats aspectes dels serveis electrònics de confiança?",
+    "respostes": [
+      ["Llei de Propietat Intel·lectual.", false],
+      ["Llei 6/2020, reguladora de determinats aspectes dels serveis electrònics de confiança.", true],
+      ["Llei d'Enjudiciament Civil.", false],
+      ["Codi Penal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és un Certificat Digital?",
+    "respostes": [
+      ["Un diploma universitari.", false],
+      ["Un document electrònic que vincula unes dades de validació d'una signatura (clau pública) amb una persona física o jurídica.", true],
+      ["Un fitxer de text pla.", false],
+      ["Una imatge del DNI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Qui emet els certificats digitals?",
+    "respostes": [
+      ["Qualsevol usuari.", false],
+      ["Un Prestador de Serveis de Confiança (o Autoritat de Certificació).", true],
+      ["L'ajuntament.", false],
+      ["El fabricant de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és la Criptografia Asimètrica?",
+    "respostes": [
+      ["Un sistema que utilitza una sola clau per xifrar i desxifrar.", false],
+      ["Un sistema que utilitza un parell de claus (pública i privada) per xifrar i desxifrar la informació.", true],
+      ["Un sistema sense claus.", false],
+      ["Un mètode de compressió de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina funció té la Clau Privada en la signatura electrònica?",
+    "respostes": [
+      ["És la clau que es comparteix amb tothom.", false],
+      ["És la clau que utilitza el signant per crear la signatura digital (xifrar el resum del document).", true],
+      ["És la clau per obrir la porta de casa.", false],
+      ["És la clau que verifica la signatura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina funció té la Clau Pública en la signatura electrònica?",
+    "respostes": [
+      ["Crear la signatura.", false],
+      ["Permetre a qualsevol receptor verificar la validesa de la signatura creada amb la clau privada corresponent.", true],
+      ["Guardar-se en secret.", false],
+      ["Esborrar el document.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és la Criptografia Simètrica?",
+    "respostes": [
+      ["Un sistema amb dues claus diferents.", false],
+      ["Un sistema on l'emissor i el receptor comparteixen una única clau secreta (clau concertada) per xifrar i desxifrar.", true],
+      ["Un sistema per a signatures digitals.", false],
+      ["Un sistema obsolet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és un exemple de sistema d'identificació basat en el coneixement?",
+    "respostes": [
+      ["L'empremta dactilar.", false],
+      ["Una contrasenya o PIN.", true],
+      ["Una targeta intel·ligent.", false],
+      ["Un certificat digital.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és un exemple de sistema d'identificació basat en la possessió?",
+    "respostes": [
+      ["El reconeixement facial.", false],
+      ["Una targeta de coordenades, un token USB o un telèfon mòbil.", true],
+      ["Una contrasenya.", false],
+      ["Una pregunta de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és la biometria en identificació?",
+    "respostes": [
+      ["Un tipus de contrasenya llarga.", false],
+      ["Un sistema basat en característiques físiques úniques de l'usuari (empremta, iris, cara).", true],
+      ["Un sistema de claus públiques.", false],
+      ["Un document en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què defineix l'estàndard X.509?",
+    "respostes": [
+      ["El format dels fitxers de text.", false],
+      ["L'estructura estàndard dels certificats digitals de clau pública.", true],
+      ["La velocitat d'internet.", false],
+      ["El disseny de pàgines web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina és la funció d'una Llista de Revocació de Certificats (CRL)?",
+    "respostes": [
+      ["Llistar els certificats nous.", false],
+      ["Publicar els certificats que han estat revocats abans de la seva data de caducitat i, per tant, ja no són vàlids.", true],
+      ["Guardar les claus privades.", false],
+      ["Generar noves claus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és el protocol OCSP?",
+    "respostes": [
+      ["Un protocol de correu.", false],
+      ["Un protocol en línia per verificar l'estat de validesa d'un certificat digital en temps real.", true],
+      ["Un protocol de transferència de fitxers.", false],
+      ["Un format de signatura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin format de signatura electrònica és específic per a documents PDF?",
+    "respostes": [
+      ["CAdES.", false],
+      ["PAdES (PDF Advanced Electronic Signatures).", true],
+      ["XAdES.", false],
+      ["HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin format de signatura electrònica es basa en XML?",
+    "respostes": [
+      ["CAdES.", false],
+      ["XAdES (XML Advanced Electronic Signatures).", true],
+      ["PAdES.", false],
+      ["JSON.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin format de signatura és adequat per a fitxers binaris i genera un fitxer de signatura separat o incrustat (CMS/PKCS#7)?",
+    "respostes": [
+      ["XAdES.", false],
+      ["CAdES (CMS Advanced Electronic Signatures).", true],
+      ["PAdES.", false],
+      ["PDF.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és la PKI (Public Key Infrastructure)?",
+    "respostes": [
+      ["Un programa antivirus.", false],
+      ["El conjunt de maquinari, programari, persones, polítiques i procediments necessaris per crear, gestionar, distribuir, utilitzar, emmagatzemar i revocar certificats digitals.", true],
+      ["Una clau mestra.", false],
+      ["Un tipus de signatura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és l'avantatge de l'autenticació multifactor (MFA)?",
+    "respostes": [
+      ["És més ràpida.", false],
+      ["Augmenta significativament la seguretat en requerir més d'una evidència d'identitat.", true],
+      ["És gratuïta.", false],
+      ["No requereix dispositius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què garanteix la Integritat en un document signat?",
+    "respostes": [
+      ["Que el document està ben escrit.", false],
+      ["Que el contingut del document no ha estat alterat des del moment de la signatura.", true],
+      ["Que el document té moltes pàgines.", false],
+      ["Que l'autor és famós.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és un DNI electrònic (DNIe)?",
+    "respostes": [
+      ["Un document només per viatjar.", false],
+      ["Un document d'identitat que incorpora un xip amb certificats digitals per a la identificació i signatura electrònica.", true],
+      ["Un DNI de paper.", false],
+      ["Una targeta de crèdit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina és la diferència entre signatura electrònica i signatura digital (tècnicament)?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["La signatura electrònica és el concepte legal general; la signatura digital és la implementació tècnica criptogràfica.", true],
+      ["La signatura digital és legal i l'electrònica no.", false],
+      ["La signatura electrònica es fa amb bolígraf.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és un ús comú de la clau concertada?",
+    "respostes": [
+      ["Signar correus.", false],
+      ["L'autenticació i xifratge en sistemes tancats o sessions segures (com SSL/TLS després de l'intercanvi de claus), on ambdues parts comparteixen el secret.", true],
+      ["Publicar a la web.", false],
+      ["Crear certificats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és Cl@ve?",
+    "respostes": [
+      ["Una contrasenya.", false],
+      ["Una plataforma comuna del Sector Públic Administratiu Estatal per a la identificació i autenticació electrònica.", true],
+      ["Un tipus de virus.", false],
+      ["Un programa de dibuix.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què permet fer l'eIDAS respecte a la identificació entre països de la UE?",
+    "respostes": [
+      ["Res.", false],
+      ["Permet el reconeixement mutu dels sistemes d'identificació electrònica notificats pels estats membres.", true],
+      ["Obliga a tothom a parlar anglès.", false],
+      ["Crea un únic DNI europeu obligatori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina informació conté un certificat digital a més de la clau pública?",
+    "respostes": [
+      ["La clau privada.", false],
+      ["La identitat del titular, l'emissor, el període de validesa i la signatura de l'autoritat de certificació.", true],
+      ["El historial de navegació.", false],
+      ["La contrasenya de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és un segell de temps (Timestamping)?",
+    "respostes": [
+      ["Un rellotge.", false],
+      ["Un mecanisme que demostra que una sèrie de dades existien en un moment determinat i no han estat alterades des de llavors.", true],
+      ["Una marca d'aigua.", false],
+      ["Una signatura caducada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin algoritme s'utilitza comunament per generar el 'hash' o resum en una signatura?",
+    "respostes": [
+      ["Caesar cipher.", false],
+      ["SHA-256.", true],
+      ["Rot13.", false],
+      ["XOR.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin algoritme asimètric és el més utilitzat per a la signatura digital?",
+    "respostes": [
+      ["AES.", false],
+      ["RSA.", true],
+      ["DES.", false],
+      ["Blowfish.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Per què és important protegir la clau privada?",
+    "respostes": [
+      ["Perquè és bonica.", false],
+      ["Perquè si algú altre la té, pot suplantar la identitat del titular i signar en el seu nom.", true],
+      ["No és important.", false],
+      ["Perquè costa diners.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina entitat actua com a tercer de confiança en la PKI?",
+    "respostes": [
+      ["L'usuari.", false],
+      ["L'Autoritat de Certificació (CA).", true],
+      ["El proveïdor d'internet.", false],
+      ["El fabricant del xip.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què permet la signatura 'Long-Term Validation' (LTV)?",
+    "respostes": [
+      ["Signar ràpidament.", false],
+      ["Verificar la validesa de la signatura anys després de ser realitzada, fins i tot si el certificat ha caducat (guardant informació de revocació).", true],
+      ["Signar documents molt llargs.", false],
+      ["Signar sense certificat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és l'objectiu de la Llei 39/2015 a Espanya en relació amb l'administració?",
+    "respostes": [
+      ["Tancar oficines.", false],
+      ["Implantar l'administració electrònica i l'ús de la identificació i signatura electrònica en les relacions amb els ciutadans.", true],
+      ["Prohibir el paper.", false],
+      ["Augmentar els impostos.", false]
+    ]
+  }
+]

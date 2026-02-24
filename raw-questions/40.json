@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què és l'accessibilitat web?",
+    "respostes": [
+      ["La velocitat de càrrega de la pàgina.", false],
+      ["La pràctica de dissenyar llocs web perquè siguin utilitzables per tothom, incloent persones amb discapacitats.", true],
+      ["La capacitat d'accedir a internet sense fils.", false],
+      ["El disseny de logotips atractius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Qui desenvolupa les directrius WCAG?",
+    "respostes": [
+      ["Google.", false],
+      ["El W3C (World Wide Web Consortium).", true],
+      ["Microsoft.", false],
+      ["Mozilla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quins són els quatre principis fonamentals (POUR) de les WCAG?",
+    "respostes": [
+      ["Potent, Operatiu, Útil, Ràpid.", false],
+      ["Perceptible, Operable, Comprensible, Robust.", true],
+      ["Públic, Obert, Universal, Real.", false],
+      ["Pràctic, Original, Usuari, Responsiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què significa el principi 'Perceptible' de les WCAG?",
+    "respostes": [
+      ["Que la informació s'ha de presentar de manera que els usuaris la puguin percebre (ex: text alternatiu).", true],
+      ["Que la web ha de carregar ràpid.", false],
+      ["Que el codi ha de ser robust.", false],
+      ["Que s'ha de poder navegar amb teclat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin principi WCAG es compleix assegurant que totes les funcions es poden realitzar amb un teclat?",
+    "respostes": [
+      ["Perceptible.", false],
+      ["Operable.", true],
+      ["Comprensible.", false],
+      ["Robust.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què implica el principi 'Comprensible'?",
+    "respostes": [
+      ["Que el contingut es vegi bé en mòbils.", false],
+      ["Que la informació i l'operació de la interfície siguin clares i previsibles.", true],
+      ["Que el lloc web tingui moltes imatges.", false],
+      ["Que es facin servir colors brillants.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què defineix el principi 'Robust' a les WCAG?",
+    "respostes": [
+      ["Que el lloc web no caigui mai.", false],
+      ["Que el contingut pugui ser interpretat fiable per diversos agents d'usuari, incloses tecnologies assistives.", true],
+      ["Que s'utilitzin lletres negretes.", false],
+      ["Que el disseny sigui rígid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin és el nivell de conformitat més bàsic de les WCAG?",
+    "respostes": [
+      ["Nivell A.", true],
+      ["Nivell B.", false],
+      ["Nivell AA.", false],
+      ["Nivell AAA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin nivell de conformitat és considerat el més equilibrat i comunament acceptat?",
+    "respostes": [
+      ["Nivell A.", false],
+      ["Nivell AA.", true],
+      ["Nivell AAA.", false],
+      ["Nivell B.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Per a què serveix el text alternatiu en les imatges?",
+    "respostes": [
+      ["Per decorar la pàgina.", false],
+      ["Perquè els usuaris amb discapacitats visuals comprenguin el contingut visual mitjançant lectors de pantalla.", true],
+      ["Per fer que la imatge carregui més ràpid.", false],
+      ["Per canviar el color de la imatge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què és la usabilitat?",
+    "respostes": [
+      ["La capacitat de programar en Java.", false],
+      ["La facilitat amb què els usuaris poden utilitzar una interfície per assolir objectius de manera eficaç i satisfactòria.", true],
+      ["La connexió entre el client i el servidor.", false],
+      ["L'ús exclusiu de programari lliure.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quina és la relació entre accessibilitat i usabilitat?",
+    "respostes": [
+      ["Són conceptes oposats.", false],
+      ["Un lloc web accessible també hauria de ser usable (fàcil i intuïtiu) per a tots els usuaris.", true],
+      ["L'accessibilitat només afecta els colors.", false],
+      ["La usabilitat és només per a experts.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què significa 'Eficiència' en el context de la usabilitat?",
+    "respostes": [
+      ["Que el lloc sigui bonic.", false],
+      ["Que els usuaris puguin realitzar tasques ràpidament i amb el mínim esforç.", true],
+      ["Que el lloc web tingui moltes funcions.", false],
+      ["Que el codi ocupi poc espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què implica el principi d'aprenentatge fàcil (Learnability)?",
+    "respostes": [
+      ["Que els usuaris han d'estudiar un manual.", false],
+      ["Que els usuaris han de poder aprendre a utilitzar la interfície amb facilitat i rapidesa.", true],
+      ["Que la interfície canvia cada dia.", false],
+      ["Que només els experts poden usar el sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què són les heurístiques de Nielsen?",
+    "respostes": [
+      ["Un tipus de virus informàtic.", false],
+      ["Un conjunt de deu principis per avaluar la usabilitat d'una interfície.", true],
+      ["Una eina de disseny gràfic.", false],
+      ["Un llenguatge de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "En què consisteixen els testos d'usuaris per avaluar la usabilitat?",
+    "respostes": [
+      ["En passar un antivirus.", false],
+      ["En observar com usuaris reals interactuen amb la interfície per identificar problemes.", true],
+      ["En preguntar als programadors.", false],
+      ["En fer servir eines automàtiques només.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què és el Disseny Universal?",
+    "respostes": [
+      ["Dissenyar només per a l'espai exterior.", false],
+      ["Crear productes i entorns accessibles i usables per a tothom, independentment de les seves capacitats.", true],
+      ["Dissenyar un sol producte per a una sola persona.", false],
+      ["Dissenyar sense fer servir ordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin principi del Disseny Universal es refereix a 'Ús Equitatiu'?",
+    "respostes": [
+      ["Que el disseny ha de ser útil per a persones amb diverses capacitats.", true],
+      ["Que tothom ha de pagar el mateix.", false],
+      ["Que el disseny ha de ser simètric.", false],
+      ["Que s'ha d'usar el mateix color.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què implica el principi de 'Tolerància a l'Error' en el Disseny Universal?",
+    "respostes": [
+      ["Que el sistema s'apagui si hi ha un error.", false],
+      ["Minimitzar els riscos i conseqüències adverses d'accions accidentals.", true],
+      ["Que l'usuari no pugui cometre errors.", false],
+      ["Ignorar els errors de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què és el Disseny Responsiu (Responsive Design)?",
+    "respostes": [
+      ["Un disseny que respon verbalment a l'usuari.", false],
+      ["Un únic disseny flexible que s'adapta dinàmicament a qualsevol mida de pantalla.", true],
+      ["Un disseny fix per a mòbils.", false],
+      ["Un disseny que requereix múltiples URL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quina tecnologia és clau per al Disseny Responsiu?",
+    "respostes": [
+      ["Java Applets.", false],
+      ["Media Queries en CSS.", true],
+      ["Flash Player.", false],
+      ["Taules HTML fixes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què és el Disseny Adaptatiu (Adaptive Design)?",
+    "respostes": [
+      ["Un disseny que canvia de color aleatòriament.", false],
+      ["La creació de diverses versions fixes d'un lloc web, cadascuna per a una mida de pantalla específica.", true],
+      ["Un disseny fluid que s'estira com una goma.", false],
+      ["El mateix que el disseny responsiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin és un desavantatge del Disseny Adaptatiu?",
+    "respostes": [
+      ["No es pot veure en mòbils.", false],
+      ["Requereix més esforç de desenvolupament i manteniment en haver de crear múltiples maquetes.", true],
+      ["És massa ràpid.", false],
+      ["Utilitza un sol codi CSS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin és un avantatge del Disseny Responsiu?",
+    "respostes": [
+      ["Permet tenir URLs diferents per a mòbil.", false],
+      ["Més fàcil de mantenir, ja que només requereix un sol disseny i conjunt d'estils.", true],
+      ["Carrega imatges més grans sempre.", false],
+      ["No utilitza CSS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Com funciona el Disseny Adaptatiu per seleccionar la versió a mostrar?",
+    "respostes": [
+      ["L'usuari ha de triar manualment.", false],
+      ["El servidor o navegador detecta la mida de pantalla i carrega la maqueta adequada.", true],
+      ["Sempre carrega la versió d'escriptori.", false],
+      ["Utilitza flexbox per ajustar-se.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què significa 'Baix Esforç Físic' en el Disseny Universal?",
+    "respostes": [
+      ["Que el disseny ha de pesar poc.", false],
+      ["Que el disseny ha de poder ser utilitzat eficientment i còmodament amb un mínim de fatiga.", true],
+      ["Que l'usuari ha de fer exercici.", false],
+      ["Que el ratolí ha de ser lleuger.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què evita el disseny accessible respecte a les convulsions?",
+    "respostes": [
+      ["L'ús de colors vermells.", false],
+      ["Contingut amb llums o animacions que parpellegen ràpidament.", true],
+      ["L'ús de so.", false],
+      ["El text petit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Per què és important el contrast de color en l'accessibilitat?",
+    "respostes": [
+      ["Perquè queda més bonic.", false],
+      ["Per millorar la llegibilitat per a persones amb discapacitats visuals.", true],
+      ["Per estalviar bateria.", false],
+      ["Per complir amb la moda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què es busca amb la 'Coherència i Consistència' en la usabilitat?",
+    "respostes": [
+      ["Que cada pàgina sigui diferent.", false],
+      ["Que els usuaris puguin anticipar com funcionarà la interfície (colors, menús predictibles).", true],
+      ["Que el lloc web sigui monòton.", false],
+      ["Que no hi hagi canvis mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què permet el disseny responsiu en termes de SEO?",
+    "respostes": [
+      ["Res, és dolent per al SEO.", false],
+      ["Millor rendiment en mantenir una única URL per a totes les versions.", true],
+      ["Duplicar contingut en diferents URL.", false],
+      ["Amagar contingut als cercadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quina tècnica de disseny utilitza graelles (Grids) i caixes flexibles (Flexbox)?",
+    "respostes": [
+      ["Disseny Adaptatiu rígid.", false],
+      ["Disseny Responsiu.", true],
+      ["Disseny en paper.", false],
+      ["Disseny només HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què implica la 'Flexibilitat en l'Ús' (Disseny Universal)?",
+    "respostes": [
+      ["Que el disseny sigui elàstic.", false],
+      ["Que el disseny acomodi una àmplia gamma de preferències i habilitats individuals.", true],
+      ["Que es pugui doblegar la pantalla.", false],
+      ["Que només es pugui usar amb la mà dreta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin mètode d'avaluació de la usabilitat utilitza experts en lloc d'usuaris reals?",
+    "respostes": [
+      ["Test A/B.", false],
+      ["Avaluació heurística.", true],
+      ["Test d'usuaris.", false],
+      ["Enquesta de satisfacció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quina diferència hi ha en la complexitat de desenvolupament inicial entre Adaptatiu i Responsiu?",
+    "respostes": [
+      ["El Responsiu és més complex perquè requereix crear moltes maquetes.", false],
+      ["L'Adaptatiu sol ser més complex inicialment ja que implica crear diverses maquetes fixes.", true],
+      ["Són iguals.", false],
+      ["L'Adaptatiu no requereix desenvolupament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què significa que una interfície tingui 'Memòria Fàcil'?",
+    "respostes": [
+      ["Que ocupa poca RAM.", false],
+      ["Que els usuaris recorden com utilitzar-la després d'haver-la fet servir anteriorment.", true],
+      ["Que guarda les contrasenyes.", false],
+      ["Que té molta memòria cau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què és la 'Satisfacció de l'Usuari' en usabilitat?",
+    "respostes": [
+      ["Que l'usuari compri el producte.", false],
+      ["La percepció de l'usuari sobre la facilitat d'ús i l'agradabilitat de la interfície.", true],
+      ["Que l'usuari no es queixi.", false],
+      ["Que l'usuari torni a visitar la web immediatament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Quin enfocament de disseny optimitza millor l'experiència per a un dispositiu específic com un mòbil antic?",
+    "respostes": [
+      ["Disseny Responsiu.", false],
+      ["Disseny Adaptatiu (perquè carrega una versió específica).", true],
+      ["Disseny Universal.", false],
+      ["Disseny gràfic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 40. Accessibilitat (WCAG). Usabilitat. Disseny universal. Disseny adaptatiu i responsiu.",
+    "enunciat": "Què implica 'Informació Perceptible' en el Disseny Universal?",
+    "respostes": [
+      ["Que la lletra sigui molt gran.", false],
+      ["Que el disseny comuniqui la informació necessària independentment de les condicions ambientals o capacitats sensorials.", true],
+      ["Que hi hagi so sempre.", false],
+      ["Que la informació estigui en anglès.", false]
+    ]
+  }
+]

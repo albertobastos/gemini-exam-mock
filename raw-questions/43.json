@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què significa l'acrònim NoSQL?",
+    "respostes": [
+      ["No SQL allowed.", false],
+      ["Not Only SQL.", true],
+      ["New SQL.", false],
+      ["Non-Standard Query Language.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin va ser un dels motius principals per al desenvolupament de les bases de dades NoSQL?",
+    "respostes": [
+      ["La necessitat de millorar la interfície gràfica.", false],
+      ["Les limitacions de les bases relacionals en escalabilitat i flexibilitat davant grans volums de dades (Big Data).", true],
+      ["La manca de bases de dades gratuïtes.", false],
+      ["La necessitat de guardar dades en disquets.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina característica d'escalabilitat defineix habitualment les bases de dades NoSQL?",
+    "respostes": [
+      ["Escalabilitat vertical (més potència a un servidor).", false],
+      ["Escalabilitat horitzontal (distribuir dades en múltiples servidors).", true],
+      ["No escalen.", false],
+      ["Escalabilitat diagonal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què implica la 'Flexibilitat d'Esquema' en NoSQL?",
+    "respostes": [
+      ["Que l'esquema es defineix al principi i no es pot canviar.", false],
+      ["Que es poden emmagatzemar dades sense un esquema predefinit rígid (schema-less).", true],
+      ["Que només accepta fitxers de text.", false],
+      ["Que l'esquema es genera automàticament cada dia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin model de consistència segueixen sovint les bases de dades NoSQL en contraposició a ACID?",
+    "respostes": [
+      ["SOLID.", false],
+      ["BASE (Basically Available, Soft state, Eventual consistency).", true],
+      ["CRUD.", false],
+      ["REST.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quins són els quatre tipus principals de bases de dades NoSQL?",
+    "respostes": [
+      ["Relacionals, d'objectes, jeràrquiques i de xarxa.", false],
+      ["Clau-valor, Documents, Columnes amples i Grafs.", true],
+      ["SQL, MySQL, Oracle i PostgreSQL.", false],
+      ["Text, Imatge, Vídeo i Àudio.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Com s'emmagatzemen les dades en una base de dades Clau-Valor?",
+    "respostes": [
+      ["En taules amb files i columnes.", false],
+      ["Com una col·lecció de parelles clau única i valor associat.", true],
+      ["En documents XML.", false],
+      ["En nodes i arestes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és un cas d'ús típic per a bases de dades Clau-Valor?",
+    "respostes": [
+      ["Consultes complexes amb molts JOINs.", false],
+      ["Emmagatzematge en memòria cau (caching) i gestió de sessions d'usuari.", true],
+      ["Gestió de relacions socials complexes.", false],
+      ["Emmagatzematge de documents legals llargs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és un exemple popular de base de dades Clau-Valor?",
+    "respostes": [
+      ["MongoDB.", false],
+      ["Redis.", true],
+      ["Neo4j.", false],
+      ["Cassandra.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "En quin format solen emmagatzemar dades les bases de dades de Documents?",
+    "respostes": [
+      ["CSV.", false],
+      ["JSON o BSON.", true],
+      ["Binari pur.", false],
+      ["Taules relacionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina base de dades de Documents és àmpliament utilitzada i coneguda?",
+    "respostes": [
+      ["Redis.", false],
+      ["MongoDB.", true],
+      ["HBase.", false],
+      ["Neo4j.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què permet fer una base de dades de Documents respecte a l'estructura de les dades?",
+    "respostes": [
+      ["Res, l'estructura és fixa.", false],
+      ["Emmagatzemar dades semi-estructurades on cada document pot tenir camps diferents.", true],
+      ["Només permet guardar text pla.", false],
+      ["Obliga a normalitzar les dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Com s'organitzen les dades en una base de dades de Columnes Amples (Wide Column)?",
+    "respostes": [
+      ["En documents JSON.", false],
+      ["En famílies de columnes, on cada fila pot tenir un conjunt diferent de columnes.", true],
+      ["En grafs.", false],
+      ["En fitxers plans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin exemple de base de dades de Columnes Amples s'esmenta, utilitzada per Facebook?",
+    "respostes": [
+      ["MongoDB.", false],
+      ["Apache Cassandra.", true],
+      ["Redis.", false],
+      ["CouchDB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Per a quin tipus d'aplicacions són ideals les bases de dades de Columnes Amples?",
+    "respostes": [
+      ["Aplicacions petites.", false],
+      ["Big Data, anàlisi en temps real i emmagatzematge de grans volums de dades distribuïdes.", true],
+      ["Gestió de contactes personals.", false],
+      ["Jocs de taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quins són els components principals d'una base de dades de Grafs (Gràfics)?",
+    "respostes": [
+      ["Taules i files.", false],
+      ["Nodes, arestes (relacions) i propietats.", true],
+      ["Claus i valors.", false],
+      ["Documents i col·leccions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és el punt fort de les bases de dades de Grafs?",
+    "respostes": [
+      ["Emmagatzemar imatges.", false],
+      ["Representar i consultar relacions complexes i interconnectades (ex: xarxes socials).", true],
+      ["Fer càlculs matemàtics simples.", false],
+      ["Guardar logs lineals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és l'exemple més popular de base de dades de Grafs?",
+    "respostes": [
+      ["Cassandra.", false],
+      ["Neo4j.", true],
+      ["MongoDB.", false],
+      ["Redis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina limitació poden tenir les bases de dades clau-valor?",
+    "respostes": [
+      ["Són massa ràpides.", false],
+      ["Tenen funcionalitat limitada per a consultes complexes o cerques que no siguin per clau.", true],
+      ["No es poden escalar.", false],
+      ["Ocupen massa espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què significa 'Consistència Eventual' en el model BASE?",
+    "respostes": [
+      ["Que les dades mai seran consistents.", false],
+      ["Que el sistema garanteix que, si no hi ha noves actualitzacions, totes les còpies de les dades acabaran sent consistents (però no immediatament).", true],
+      ["Que les dades es perden eventualment.", false],
+      ["Que la consistència és opcional.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin tipus de base de dades utilitza Amazon per al seu servei de compres (DynamoDB)?",
+    "respostes": [
+      ["Grafs.", false],
+      ["Clau-Valor (i documents).", true],
+      ["Relacional pura.", false],
+      ["Columnes amples exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és HBase?",
+    "respostes": [
+      ["Una base de dades de grafs.", false],
+      ["Una base de dades de columnes amples que forma part de l'ecosistema Hadoop.", true],
+      ["Un editor de text.", false],
+      ["Un sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina base de dades de documents permet replicació distribuïda i és tolerant a fallades (CouchDB)?",
+    "respostes": [
+      ["Redis.", false],
+      ["CouchDB.", true],
+      ["Neo4j.", false],
+      ["HBase.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és un desavantatge de les bases de dades de documents?",
+    "respostes": [
+      ["Són molt rígides.", false],
+      ["Poden tenir sobrecàrrega d'espai si els documents contenen molts camps repetits o no utilitzats.", true],
+      ["No permeten guardar text.", false],
+      ["Són lentes per definició.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és Amazon Neptune?",
+    "respostes": [
+      ["Una botiga en línia.", false],
+      ["Una base de dades de grafs gestionada per AWS.", true],
+      ["Un riu.", false],
+      ["Un tipus de servidor web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Per a què serveix Riak?",
+    "respostes": [
+      ["Per editar fotos.", false],
+      ["És una base de dades clau-valor dissenyada per a alta disponibilitat i tolerància a fallades.", true],
+      ["Per jugar a videojocs.", false],
+      ["Per escriure documents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què permet fer MongoDB amb les dades?",
+    "respostes": [
+      ["Només guardar-les.", false],
+      ["Indexar i consultar els documents basant-se en el contingut dels seus camps.", true],
+      ["Res, és una base de dades passiva.", false],
+      ["Només permet cerques per ID.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin tipus de base de dades és ideal per a sistemes de recomanació?",
+    "respostes": [
+      ["Clau-Valor simple.", false],
+      ["Bases de dades de Grafs (per analitzar relacions).", true],
+      ["Fitxers plans.", false],
+      ["Bases de dades relacionals antigues.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina diferència hi ha entre escalabilitat vertical i horitzontal?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["La vertical millora un sol servidor; l'horitzontal afegeix més servidors.", true],
+      ["La vertical és per a bases de dades petites; l'horitzontal per a grans.", false],
+      ["La vertical és més barata.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què vol dir que una base de dades sigui 'Schema-less'?",
+    "respostes": [
+      ["Que no té dades.", false],
+      ["Que no requereix definir l'estructura de les dades abans d'inserir-les.", true],
+      ["Que no té seguretat.", false],
+      ["Que no té administradors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és un repte de les bases de dades NoSQL?",
+    "respostes": [
+      ["Són massa fàcils d'usar.", false],
+      ["La manca d'estandardització (cada una té el seu propi llenguatge de consulta) i la gestió de la consistència.", true],
+      ["No funcionen a internet.", false],
+      ["Només funcionen en Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és BSON?",
+    "respostes": [
+      ["Un tipus de so.", false],
+      ["Una extensió binària de JSON utilitzada per MongoDB.", true],
+      ["Un format de vídeo.", false],
+      ["Un protocol de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina base de dades NoSQL utilitza Netflix per escalar el seu servei?",
+    "respostes": [
+      ["Access.", false],
+      ["Cassandra (i Redis).", true],
+      ["SQLite.", false],
+      ["FileMaker.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Per què són útils les bases de dades NoSQL en aplicacions mòbils?",
+    "respostes": [
+      ["Perquè ocupen poc espai al mòbil.", false],
+      ["Per la gestió eficient de sessions, dades d'usuari i contingut dinàmic amb escalabilitat.", true],
+      ["Perquè no necessiten bateria.", false],
+      ["Perquè són gratis sempre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és la tolerància a fallades en NoSQL?",
+    "respostes": [
+      ["Que el sistema s'atura si falla alguna cosa.", false],
+      ["La capacitat de continuar operant fins i tot si alguns servidors o nodes fallen.", true],
+      ["Que no permet errors d'usuari.", false],
+      ["Que esborra les dades si hi ha error.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin tipus de dades gestionen millor les bases de dades relacionals comparat amb NoSQL?",
+    "respostes": [
+      ["Dades no estructurades.", false],
+      ["Dades altament estructurades amb relacions complexes i necessitat d'ACID estricte.", true],
+      ["Dades de xarxes socials massives.", false],
+      ["Logs de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és un 'node' en una base de dades de grafs?",
+    "respostes": [
+      ["Una connexió.", false],
+      ["Una entitat (com una persona o objecte).", true],
+      ["Una taula.", false],
+      ["Una clau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és una 'aresta' en una base de dades de grafs?",
+    "respostes": [
+      ["Una entitat.", false],
+      ["La relació o connexió entre dos nodes.", true],
+      ["Una columna.", false],
+      ["Un document.", false]
+    ]
+  }
+]

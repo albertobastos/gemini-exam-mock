@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin és l'objectiu principal d'establir criteris de valoració per a la selecció d'un paquet informàtic?",
+    "respostes": [
+      ["Garantir que la solució escollida sigui la més adequada en termes de funcionalitat, cost, seguretat i facilitat d'ús.", true],
+      ["Aconseguir exclusivament el programari més econòmic del mercat sense importar les seves funcionalitats.", false],
+      ["Obligar l'organització a realitzar sempre un desenvolupament propi per evitar dependències.", false],
+      ["Assegurar que el proveïdor del programari resideixi físicament a la mateixa ciutat que l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Dins dels criteris tècnics, a què fa referència el concepte d''escalabilitat'?",
+    "respostes": [
+      ["A la capacitat d'un sistema per créixer o adaptar-se a més demanda (tant en dades com en usuaris) sense perdre rendiment.", true],
+      ["A la velocitat d'arrencada del sistema operatiu sobre el qual s'instal·la el paquet.", false],
+      ["Al nivell d'encriptació que ofereix el programari per evitar atacs externs.", false],
+      ["A la facilitat per canviar el color i el disseny gràfic de la interfície d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Què implica l'escalabilitat vertical en un sistema?",
+    "respostes": [
+      ["Augmentar la capacitat d'un sol servidor afegint-hi més recursos, com ara memòria RAM, processadors més potents o emmagatzematge.", true],
+      ["Afegir més servidors físics independents per repartir la càrrega de treball entre ells.", false],
+      ["Augmentar el nombre de llicències d'usuari disponibles sense tocar el maquinari.", false],
+      ["Connectar el sistema a una xarxa elèctrica redundant per evitar apagades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "En què consisteix l'escalabilitat horitzontal?",
+    "respostes": [
+      ["En afegir més servidors o instàncies al sistema per distribuir la càrrega de treball i treballar en paral·lel.", true],
+      ["En substituir el processador antic del servidor per un de nova generació molt més ràpid.", false],
+      ["En moure els servidors d'una habitació a una altra més gran.", false],
+      ["En comprimir les bases de dades per ocupar menys espai al disc dur existent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Com es facilita habitualment la integració d'un nou paquet informàtic amb els sistemes i solucions tecnològiques existents a l'organització?",
+    "respostes": [
+      ["A través de la disponibilitat i l'ús d'interfícies de programació (APIs) i connectors específics.", true],
+      ["Mitjançant l'eliminació completa de tots els sistemes antics abans d'instal·lar el nou.", false],
+      ["Demanant als treballadors que introdueixin manualment les dades duplicades als dos sistemes.", false],
+      ["Comprant exclusivament programari que no requereixi connexió a internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin indicador econòmic valora no només el cost inicial d'adquisició, sinó també els costos de manteniment, suport, formació i altres despeses ocultes durant la vida útil del programari?",
+    "respostes": [
+      ["El Cost Total de Propietat (TCO - Total Cost of Ownership).", true],
+      ["El Retorn de la Inversió (ROI).", false],
+      ["El marge de benefici net de l'aplicació.", false],
+      ["La taxa d'interès interbancària del proveïdor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Dins de l'avaluació econòmica d'un paquet informàtic, què indica el ROI (Retorn de la Inversió)?",
+    "respostes": [
+      ["El benefici econòmic o valor que es generarà en comparació amb la inversió realitzada i el temps de recuperació.", true],
+      ["L'impost que s'ha de pagar a l'Estat per la compra de llicències informàtiques internacionals.", false],
+      ["El percentatge de codi lliure que conté l'aplicació seleccionada.", false],
+      ["La penalització econòmica en cas de cancel·lar el contracte de manteniment anticipadament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin model de llicenciament implica pagaments recurrents i continus per l'ús del programari, típic dels serveis al núvol?",
+    "respostes": [
+      ["La Llicència Subscrita (Model SaaS).", true],
+      ["La Llicència Perpètua.", false],
+      ["La Llicència de Codi Obert (Open Source).", false],
+      ["La Llicència de Desenvolupador Únic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Per què és fonamental avaluar l'Experiència d'Usuari (UX) dins dels criteris operacionals?",
+    "respostes": [
+      ["Perquè una interfície massa complexa redueix la productivitat, augmenta el temps d'aprenentatge i genera errors operatius.", true],
+      ["Perquè determina exclusivament el nivell de seguretat davant dels ciberatacs externs.", false],
+      ["Perquè és l'únic paràmetre que influeix en el cost total de la llicència del proveïdor.", false],
+      ["Perquè sense UX el programari no pot connectar-se a la xarxa local de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Pel que fa a l'accessibilitat d'un paquet informàtic, què es pretén aconseguir amb característiques com la compatibilitat amb lectors de pantalla i l'ús de tecles d'accés ràpid?",
+    "respostes": [
+      ["Assegurar que persones amb discapacitats visuals, auditives, físiques o cognitives puguin utilitzar el sistema sense problemes.", true],
+      ["Bloquejar l'accés als usuaris que no tenen el rol d'administrador del sistema.", false],
+      ["Augmentar la resolució de la pantalla exclusivament per a monitors grans.", false],
+      ["Evitar que es puguin realitzar captures de pantalla del programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin criteri tècnic comprova si el programari s'alinea amb les normatives vigents, com el Reglament General de Protecció de Dades (GDPR)?",
+    "respostes": [
+      ["La Seguretat (Compliment Normatiu).", true],
+      ["L'Escalabilitat.", false],
+      ["El Rendiment.", false],
+      ["La Modularitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Què implica el criteri de 'Modularitat' en un programari?",
+    "respostes": [
+      ["La capacitat per afegir o treure funcionalitats específiques segons les necessitats i el creixement de l'organització.", true],
+      ["El fet que el programari es ven exclusivament en caixes físiques modulars.", false],
+      ["Que el codi font es pot editar lliurement pels treballadors de l'empresa.", false],
+      ["Que només es pot executar en ordinadors mòbils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Per què és important comprovar la reputació i l'estabilitat financera del proveïdor del paquet informàtic?",
+    "respostes": [
+      ["Per assegurar-se que té un bon historial de servei i que podrà seguir oferint suport i actualitzacions a llarg termini.", true],
+      ["Per poder exigir-li descomptes directes de més del 50% en totes les compres.", false],
+      ["Perquè la llei prohibeix contractar empreses que portin menys de 10 anys al mercat.", false],
+      ["Per obligar el proveïdor a contractar empleats de la nostra pròpia organització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin és un dels principals avantatges de seleccionar un paquet informàtic comercial prefabricat en lloc de desenvolupar-lo internament?",
+    "respostes": [
+      ["El temps reduït de desplegament, ja que està disponible per a la seva implementació immediata.", true],
+      ["La capacitat infinita de modificar l'estructura del codi font al gust de l'empresa.", false],
+      ["Que no requereix mai de cap pagament per llicències o manteniment futur.", false],
+      ["L'eliminació total de la necessitat de formar els empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "En general, com es comparen els costos inicials d'un paquet comercial enfront del desenvolupament propi?",
+    "respostes": [
+      ["El cost inicial d'un paquet comercial sol ser molt més baix, ja que la despesa de creació es reparteix entre molts clients del mercat.", true],
+      ["El cost inicial del paquet comercial és sempre extremadament més alt, obligant a recórrer als bancs.", false],
+      ["Són exactament iguals, ja que es factura pel mateix nombre d'hores de programació en ambdós casos.", false],
+      ["El desenvolupament propi no té mai cap cost inicial si es fa amb empleats ja contractats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Per què un paquet informàtic comercial sol oferir més estabilitat i maduresa des del primer dia?",
+    "respostes": [
+      ["Perquè ja ha estat provat, depurat i validat prèviament per altres usuaris i en múltiples entorns reals.", true],
+      ["Perquè estan escrits en un llenguatge de programació secret i indesxifrable.", false],
+      ["Perquè no es connecten mai a Internet, evitant qualsevol error de xarxa.", false],
+      ["Perquè estan dissenyats exclusivament per a empreses del sector bancari que no accepten errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin és un inconvenient freqüent a l'hora d'implantar un paquet informàtic comercial respecte a l'operativa de l'empresa?",
+    "respostes": [
+      ["Sovint requereix que els processos interns i operatius de l'empresa s'adaptin a la manera de funcionar del programari.", true],
+      ["Obliga l'empresa a contractar un gran equip de desenvolupadors per refer-lo.", false],
+      ["Sempre es borren les dades antigues de l'empresa durant la instal·lació inicial.", false],
+      ["Impedeix que els usuaris puguin accedir a l'aplicació des de més d'un ordinador físic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Què significa l'inconvenient de la 'Dependència del Proveïdor' en optar per paquets comercials?",
+    "respostes": [
+      ["L'organització queda subjecta a les decisions estratègiques del proveïdor pel que fa al suport, actualitzacions, continuïtat i llicències del producte.", true],
+      ["El proveïdor té dret a prendre el control accionarial de l'empresa client si no paga la llicència.", false],
+      ["Només els empleats del proveïdor poden utilitzar l'aplicació al dia a dia.", false],
+      ["Que el paquet comercial només funciona als ordinadors fabricats pel mateix proveïdor de programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Què pot generar la falta d'integració d'un paquet comercial amb altres sistemes existents (com un ERP o CRM antic)?",
+    "respostes": [
+      ["L'aparició de costos addicionals, ja que caldria invertir en el desenvolupament de connectors o adaptacions de programari específiques.", true],
+      ["L'obligatorietat de tancar la companyia i liquidar-ne els actius físics.", false],
+      ["El bloqueig exclusiu i immediat dels sistemes de facturació per imperatiu legal.", false],
+      ["La millora directa del rendiment general a causa de l'aïllament del programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quins s'identifiquen com a 'costos ocults o despeses no previstes' freqüents en la implantació de paquets comercials?",
+    "respostes": [
+      ["Costos com les despeses d'integració, la formació necessària, la llicència d'usuaris extres o les tarifes de manteniment imprevistes.", true],
+      ["Els impostos indirectes sobre el consum d'electricitat del servidor que cobra l'ajuntament local.", false],
+      ["El sou d'un nou director executiu per a l'organització, que el proveïdor obliga a contractar.", false],
+      ["Només el cost dels bitllets d'avió de l'equip tècnic per venir a instal·lar l'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin és l'avantatge més destacat que aporta el 'Desenvolupament Propi' per sobre d'un paquet informàtic?",
+    "respostes": [
+      ["Ofereix una personalització completa, permetent crear una solució totalment i exactament adaptada als processos i necessitats únics de l'organització.", true],
+      ["És sempre la solució més ràpida del mercat de tenir enllestida per començar a treballar a l'endemà.", false],
+      ["Garanteix per llei l'absència de vulnerabilitats de seguretat sense necessitar fer cap manteniment.", false],
+      ["Té un cost inicial pràcticament nul, independentment de l'esforç i les hores dels empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "A nivell de gestió tecnològica, què assegura optar pel desenvolupament propi pel que fa al producte final?",
+    "respostes": [
+      ["L'organització ostenta el control total sobre el codi font, les actualitzacions, i el ritme de les futures millores, eliminant dependències de proveïdors externs.", true],
+      ["Exigeix que l'organització lliuri el codi font complet al domini públic de manera gratuïta i obligatòria.", false],
+      ["Condiciona l'empresa a utilitzar exclusivament servidors físics i impedeix l'adopció de tecnologies al núvol.", false],
+      ["Elabora un sistema rígid on cap nou mòdul pot ser implementat en els propers 5 anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quin és el desavantatge principal del desenvolupament propi referent als terminis (cronograma)?",
+    "respostes": [
+      ["Requereix un temps de desenvolupament considerablement llarg (des del disseny fins a les proves), el que pot generar desavantatges competitius si es necessita urgència.", true],
+      ["Es realitza tan de pressa que els programadors solen oblidar incloure la interfície visual.", false],
+      ["Els terminis són tan rígids que provoquen el bloqueig automàtic de la xarxa corporativa fins que s'acaba.", false],
+      ["L'únic problema és l'obligació legal d'esperar 6 mesos per a registrar la patent un cop acabat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "El desenvolupament propi suposa uns 'Riscos de Projecte'. Quins exemples clars d'aquests riscos assenyala el document?",
+    "respostes": [
+      ["El desbordament o excés de costos imprevistos, els retards respecte al calendari i la possibilitat de falta de qualitat en el resultat final si es gestiona malament.", true],
+      ["La fallida immediata i automàtica de tota l'empresa només pel fet de contractar programadors externs.", false],
+      ["La certesa que qualsevol programari desenvolupat de zero serà inevitablement robat i es venut a l'estranger el primer dia.", false],
+      ["L'obligatorietat d'enfrontar denúncies legals per part d'empreses de programari ja establertes de la competència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "En termes de recursos humans, per què el desenvolupament propi presenta una gran barrera de dificultat per a certes empreses?",
+    "respostes": [
+      ["Perquè fa necessari disposar d'equips o professionals altament qualificats i especialitzats, els quals poden ser molt costosos i difícils de trobar i mantenir.", true],
+      ["Perquè l'Estat prohibeix contractar desenvolupadors a empreses de menys de 500 treballadors.", false],
+      ["Perquè implica que tota la plantilla, des del gerent fins al comercial, hagi de saber programar.", false],
+      ["Perquè només es permet treballar amb enginyers que tinguin 30 anys d'experiència mínima acreditable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Al comparar costos i el TCO a llarg termini, quina situació financera es pot donar a favor del desenvolupament propi malgrat la seva elevada despesa inicial?",
+    "respostes": [
+      ["Pot ser més rendible a llarg termini perquè l'empresa evita el pagament de renovacions o costoses llicències recurrents pròpies dels paquets comercials.", true],
+      ["Sempre serà infinitament més car durant tots els anys d'existència de l'empresa sense excepció.", false],
+      ["Rep subvencions estatals obligatòries mensuals que n'eliminen tot el cost un cop publicat.", false],
+      ["Com que ningú fora de l'empresa l'utilitza, els servidors de producció funcionen sense cost elèctric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Segons la taula resum del final del document, com és l'escalabilitat d'un Paquet Informàtic comercial comparada amb el Desenvolupament Propi?",
+    "respostes": [
+      ["L'escalabilitat del paquet comercial depèn del que ofereixi el paquet (és limitada per disseny), mentre que en el desenvolupament propi és alta i es dissenya a mida.", true],
+      ["Ambdues opcions ofereixen una escalabilitat nul·la, ja que el programari sempre necessita nou maquinari.", false],
+      ["El paquet comercial permet escalar cap a l'infinit de forma lliure, mentre que el codi propi mai no es pot escalar si es fa internament.", false],
+      ["Tots els programaris tenen una escalabilitat fixa marcada únicament pel sistema operatiu del client, no per com estiguin desenvolupats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "En referència als criteris tècnics de 'Rendiment', quins dos aspectes es mencionen que cal avaluar?",
+    "respostes": [
+      ["L'eficiència en gestionar recursos i la velocitat en el temps de resposta durant l'execució de processos i consultes.", true],
+      ["La resolució gràfica màxima i l'estètica dels botons de la interfície de control.", false],
+      ["Exclusivament la velocitat a la qual l'equip comercial respon als correus d'atenció al client.", false],
+      ["El preu de venda recomanat dividit pel nombre de gigabytes que ocupa el programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Per a les empreses que operen en sectors molt regulats, quin desavantatge destaquen els paquets informàtics estandarditzats?",
+    "respostes": [
+      ["La dificultat i, sovint, impossibilitat de complir o adaptar-se de manera específica a certes normatives i reglaments locals o industrials molt concrets.", true],
+      ["El cost reduït, que fa desconfiar els auditors oficials de l'estat.", false],
+      ["La inestabilitat jurídica, atès que l'ús de programari comercial prefabricat és completament il·legal a Espanya en tots els sectors.", false],
+      ["El fet de requerir la supervisió directa d'un organisme governamental internacional per poder ser instal·lat amb normalitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Quan s'adquireix un paquet informàtic, el suport i manteniment estan garantits per una entitat. Quina?",
+    "respostes": [
+      ["Solen estar recolzats i garantits d'origen per un servei de suport professional procedent del mateix proveïdor del programari comercial.", true],
+      ["Per obligació ha de ser l'equip informàtic de l'empresa compradora qui n'assumeixi el suport sencer prescindint del venedor de la llicència.", false],
+      ["Per un ens regulador europeu, de manera gratuïta per a tota aplicació en el continent.", false],
+      ["Sempre se subcontracta i delega la solució a un grup obert d'usuaris voluntaris o fòrums d'internet de caràcter col·laboratiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Què dictamina el control sobre les actualitzacions d'un sistema al comparar un Paquet Informàtic amb el Desenvolupament Propi (Taula Resum)?",
+    "respostes": [
+      ["En el paquet comercial, el control està limitat i sotmès a la política o full de ruta del proveïdor; en el desenvolupament propi el control per aplicar canvis és total i exclusiu.", true],
+      ["En tots dos l'usuari pot actualitzar el codi de la base de dades sense previ avís al proveïdor respectiu.", false],
+      ["El desenvolupament propi mai requereix actualitzacions de seguretat, només ho necessiten els comercials degut als virus específics.", false],
+      ["Cap de les dues opcions admet noves versions una vegada instal·lada la llicència bàsica per evitar desestabilitzacions del nucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "A més de la pròpia instal·lació i compatibilitat tècnica, els Criteris Operacionals destaquen la necessitat de preveure aspectes pedagògics per a l'ús de l'eina. Quins?",
+    "respostes": [
+      ["La disponibilitat de programes i plans de formació, així com l'existència de documentació completa (manuals, guies tècniques).", true],
+      ["La incorporació automàtica d'un títol universitari acreditatiu per a cada usuari amb l'adquisició del programa de gestió.", false],
+      ["El costum generalitzat de reduir la jornada laboral perquè l'empleat pugui aprendre l'aplicació per compte propi en les estones de descans personal.", false],
+      ["Que els usuaris es comprometin per contracte a llegir el codi font en programació Java com a l'única guia formativa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "La capacitat que permet a l'organització un cert grau d'adaptació, evolució futura i personalització menor sobre un paquet de programari tancat sol donar-se a través de l'ús de...",
+    "respostes": [
+      ["L'aplicació d'extensions (plugins), mòduls addicionals programables o la configuració d'scripts associats al sistema base comercial.", true],
+      ["La substitució física de tota la xarxa d'encaminadors (routers) i el canvi del tipus de memòria RAM a cada usuari final.", false],
+      ["Demanar verbalment als programadors del proveïdor extern que treballin gratis en torns de cap de setmana sense alterar la llicència prèvia.", false],
+      ["Modificar directament amb editor de text els fitxers arrel i binaris compilats del programa trencat per defecte el sistema de la llicència de pagament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "Respecte al grau de personalització, per què s'assenyala que les limitacions formen part dels principals inconvenients d'adquirir un paquet comercial enfront d'un desenvolupament a mida?",
+    "respostes": [
+      ["Atès que estan dissenyats per atendre a un mercat general, generalment no poden donar resposta ni adaptar-se a la perfecció als processos funcionals de negoci estrictament únics de l'organització client.", true],
+      ["Ja que permeten a tots i cadascun dels usuaris de l'empresa client redissenyar lliurement la base de dades provocant constants fallades massives sense control previ.", false],
+      ["A causa que la majoria del programari està programat només en llengües minoritàries no traduïbles pels sistemes del mercat tecnològic convencional.", false],
+      ["Perquè imposen que totes les icones del sistema siguin exclusivament dissenyades pel departament gràfic de l'organització que efectua la compra limitant la velocitat del projecte en general.", false]
+    ]
+  },
+  {
+    "tema": "Tema 69. Selecció de paquets informàtics: criteris de valoració. Inconvenients i avantatges davant el desenvolupament propi.",
+    "enunciat": "En què conclou principalment el document respecte a la tria del desenvolupament propi versus la tria de paquets comercials?",
+    "respostes": [
+      ["La decisió ha de basar-se i derivar d'una avaluació detallada, acurada i adaptada a la realitat respecte als requisits empresarials, flexibilitat necessària, riscos operatius i costos analitzats a llarg termini.", true],
+      ["Dictamina de manera definitiva que totes les entitats i empreses sense excepció es veuen obligades a desenvolupar el seu programari per assolir la modernització imposada per Europa.", false],
+      ["Aconsella fugir sistemàticament del desenvolupament i només arrendar solucions gratuïtes obertes existents al mercat prescindint de qualsevol formació prèvia del personal corporatiu per estalviar de seguida.", false],
+      ["Postula l'impossibilitat pràctica d'adoptar cap mena de criteri de qualitat establert prèviament fent dependre tot l'èxit de les recomanacions particulars d'altres directius d'empreses diferents competidores.", false]
+    ]
+  }
+]

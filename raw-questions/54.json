@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què és una xarxa de comunicacions?",
+    "respostes": [
+      ["Un conjunt d'elements interconnectats que permeten la transmissió de dades entre dispositius.", true],
+      ["Un programari dissenyat per protegir dades personals.", false],
+      ["Un dispositiu d'emmagatzematge massiu d'informació.", false],
+      ["Un protocol de seguretat informàtica exclusiu per a empreses.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "A quina classificació per extensió geogràfica correspon una xarxa que cobreix grans distàncies, com per exemple Internet?",
+    "respostes": [
+      ["WAN (Wide Area Network).", true],
+      ["LAN (Local Area Network).", false],
+      ["PAN (Personal Area Network).", false],
+      ["MAN (Metropolitan Area Network).", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Dins dels cables de parell trenat, què diferencia el cable UTP de l'STP?",
+    "respostes": [
+      ["El cable UTP no té cap tipus d'apantallament, mentre que l'STP incorpora un apantallament al voltant de cada parell de fils.", true],
+      ["El cable UTP utilitza llum per transmetre dades, i l'STP utilitza senyals de ràdio.", false],
+      ["El cable UTP té una làmina (foil) general, mentre que l'STP no té protecció.", false],
+      ["El cable UTP s'utilitza exclusivament per a connexions de llarga distància superiors a 80 km.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin medi de transmissió és pràcticament immune a les interferències electromagnètiques (EMI) i permet velocitats de múltiples terabits?",
+    "respostes": [
+      ["La fibra òptica.", true],
+      ["El cable coaxial.", false],
+      ["El cable UTP.", false],
+      ["Les microones.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin és un dels principals avantatges dels mitjans no guiats (sense fils)?",
+    "respostes": [
+      ["La mobilitat i flexibilitat per als usuaris dins de l'àrea de cobertura.", true],
+      ["La seva total immunitat a les interferències de senyal.", false],
+      ["La latència constantment nul·la (0 ms).", false],
+      ["La dependència exclusiva de connexions físiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "En què consisteix la commutació de circuits?",
+    "respostes": [
+      ["Es crea un camí físic dedicat entre el transmissor i el receptor que es manté durant tota la sessió.", true],
+      ["Les dades es divideixen en fragments petits que segueixen rutes independents i es reagrupen al final.", false],
+      ["S'utilitza exclusivament per a l'enviament de correus electrònics intermitents.", false],
+      ["Es difon la mateixa informació a tots els nodes de la xarxa simultàniament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin és el principal inconvenient de la commutació de paquets?",
+    "respostes": [
+      ["Pot introduir latència i variabilitat (jitter) en el temps de lliurament, afectant serveis en temps real.", true],
+      ["Només funciona per a trucades de veu tradicionals.", false],
+      ["Manté els recursos de xarxa ocupats fins i tot quan no s'estan transmetent dades.", false],
+      ["No permet la redirecció de paquets en cas de fallada d'un enllaç.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "A quin tipus de protocol d'encaminament pertanyen RIP i OSPF?",
+    "respostes": [
+      ["Protocols d'Encaminament Interior (IGP).", true],
+      ["Protocols d'Encaminament Exterior (EGP).", false],
+      ["Protocols de Transport Lògic.", false],
+      ["Protocols de Resolució d'Adreces MAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quina mètrica utilitza el protocol RIP (Routing Information Protocol) per determinar la millor ruta?",
+    "respostes": [
+      ["El nombre de salts (hops), amb un màxim de 15 salts.", true],
+      ["L'ample de banda de la connexió.", false],
+      ["La latència mesurada en mil·lisegons.", false],
+      ["L'estat de congestió de la xarxa en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quina és una diferència clau entre els protocols RIP i OSPF pel que fa a les actualitzacions?",
+    "respostes": [
+      ["RIP envia la taula completa cada 30 segons, mentre que OSPF només envia actualitzacions quan hi ha canvis en la topologia.", true],
+      ["RIP només s'actualitza manualment i OSPF cada 30 segons.", false],
+      ["OSPF envia tota la taula d'encaminament a la xarxa global d'internet contínuament, mentre que RIP no ho fa.", false],
+      ["RIP és més ràpid a convergir que OSPF gràcies a les seves actualitzacions massives.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin protocol d'encaminament és essencial per intercanviar informació de rutes entre diferents sistemes autònoms (AS) a Internet?",
+    "respostes": [
+      ["BGP (Border Gateway Protocol).", true],
+      ["OSPF (Open Shortest Path First).", false],
+      ["RIP (Routing Information Protocol).", false],
+      ["TCP (Transmission Control Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què caracteritza l'encaminament estàtic?",
+    "respostes": [
+      ["Les rutes es configuren manualment per l'administrador i no canvien dinàmicament davant fallades.", true],
+      ["El protocol OSPF calcula les rutes automàticament sense intervenció humana.", false],
+      ["Les adreces MAC s'assignen aleatòriament a cada reinici del router.", false],
+      ["Únicament s'utilitza en xarxes WAN globals i sistemes autònoms.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què és ADSL (Asymmetric Digital Subscriber Line)?",
+    "respostes": [
+      ["Una tecnologia que utilitza les línies telefòniques de coure existents separant les freqüències de veu i de dades.", true],
+      ["Una tecnologia que envia llum polsada a través de fils de vidre per connectar les llars a Internet.", false],
+      ["Un protocol d'enllaç sense fil que substitueix el Wi-Fi en àrees metropolitanes.", false],
+      ["Un sistema d'encaminament basat en l'algorisme de Dijkstra.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "En què es diferencien les xarxes NGN (Next Generation Networks) de les xarxes tradicionals?",
+    "respostes": [
+      ["Integren múltiples serveis (dades, veu i vídeo) en una única infraestructura basada en protocols IP amb garanties de QoS.", true],
+      ["Utilitzen exclusivament commutació de circuits per a totes les comunicacions.", false],
+      ["Són completament gratuïtes i de codi obert per a tothom.", false],
+      ["Són incapaços de suportar televisió per Internet (IPTV) ni telefonia IP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quina funció té un 'Switch' (commutador) a la xarxa?",
+    "respostes": [
+      ["Opera a la capa 2 per connectar múltiples dispositius dins d'una mateixa xarxa local (LAN), enviant els paquets al destí adequat.", true],
+      ["Regenera el senyal sense filtrar cap paquet per allargar la distància màxima del cable.", false],
+      ["Interconnecta xarxes diferents resolent rutes i traduint IPs mitjançant NAT.", false],
+      ["Emet ràdio freqüències per permetre l'accés sense fils als usuaris d'una ciutat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin dispositiu opera a la capa de xarxa per interconnectar diferents xarxes LAN o WAN?",
+    "respostes": [
+      ["L'Enrutador (Router).", true],
+      ["El Repetidor.", false],
+      ["El Switch (Commutador).", false],
+      ["El Cable Coaxial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quina funció realitza una Passarel·la (Gateway)?",
+    "respostes": [
+      ["Actua com a punt de connexió entre diferents tipus de xarxes, convertint protocols i formats de dades.", true],
+      ["Repeteix un senyal Wi-Fi per donar més cobertura a una casa.", false],
+      ["Calcula la ruta més curta mitjançant la distància de salts a la LAN.", false],
+      ["Limita la quantitat de dades mensuals que un usuari pot descarregar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "A la topologia en Bus, quin protocol s'utilitza principalment en xarxes Ethernet tradicionals per gestionar col·lisions?",
+    "respostes": [
+      ["CSMA/CD (Carrier Sense Multiple Access with Collision Detection).", true],
+      ["OSPF (Open Shortest Path First).", false],
+      ["BGP (Border Gateway Protocol).", false],
+      ["RSVP (Resource Reservation Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què caracteritza a una Topologia en Malla (Mesh)?",
+    "respostes": [
+      ["Cada dispositiu està connectat a diversos altres, oferint alta redundància, però amb un cost i complexitat elevats.", true],
+      ["Tots els dispositius estan connectats en un bucle tancat que va en una sola direcció.", false],
+      ["Tots els dispositius es connecten exclusivament a un únic commutador central.", false],
+      ["Tots els ordinadors depenen d'un únic cable troncal principal sense commutadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Dels següents protocols de transport, quin proporciona una connexió fiable amb control de flux i de congestió?",
+    "respostes": [
+      ["TCP (Transmission Control Protocol).", true],
+      ["UDP (User Datagram Protocol).", false],
+      ["IP (Internet Protocol).", false],
+      ["RIP (Routing Information Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Per què el protocol UDP sol ser escollit per a aplicacions de veu o vídeo en temps real?",
+    "respostes": [
+      ["Perquè és un protocol sense connexió, lleuger i ràpid, on la velocitat és més crítica que no perdre algun paquet.", true],
+      ["Perquè garanteix que els paquets s'entreguin perfectament en l'ordre original mitjançant retransmissions.", false],
+      ["Perquè xifra totes les dades del vídeo automàticament.", false],
+      ["Perquè ajusta la velocitat de transmissió si detecta congestió al router.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quantes capes defineix el model de referència teòric OSI?",
+    "respostes": [
+      ["7 capes.", true],
+      ["4 capes.", false],
+      ["5 capes.", false],
+      ["3 capes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quantes capes té el model pràctic TCP/IP utilitzat a Internet?",
+    "respostes": [
+      ["4 capes (Xarxa, Transport, Internet, Aplicació).", true],
+      ["7 capes.", false],
+      ["5 capes.", false],
+      ["2 capes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "En el context de la Qualitat de Servei (QoS), què és el 'Jitter'?",
+    "respostes": [
+      ["És la variabilitat en el temps de lliurament dels paquets de dades (quan no tots arriben amb la mateixa latència).", true],
+      ["És la quantitat màxima de dades transmeses per segon.", false],
+      ["És el temps absolut que triga el primer paquet en arribar al destí.", false],
+      ["És la pèrdua permanent d'un paquet a causa d'un router defectuós.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin paràmetre de la xarxa mesurem quan parlem de la capacitat de transmissió en bits per segon (bps)?",
+    "respostes": [
+      ["L'ample de banda.", true],
+      ["La latència.", false],
+      ["El jitter.", false],
+      ["La taxa de pèrdua de paquets.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què fa el mecanisme d'Encuament i Programació (Priority Queuing) a nivell de QoS?",
+    "respostes": [
+      ["Col·loca els paquets de trànsit crític en una cua d'alta prioritat assegurant que es processin abans que la resta.", true],
+      ["Denega automàticament qualsevol accés de vídeo en cas de saturació del router.", false],
+      ["Assigna rutes alternatives físiques mitjançant xarxes 5G de seguretat.", false],
+      ["Baixa l'ample de banda general a la meitat per equilibrar a tots els usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin protocol s'esmenta com a mecanisme de Reserva de Recursos per garantir QoS en una xarxa?",
+    "respostes": [
+      ["RSVP (Resource Reservation Protocol).", true],
+      ["CSMA/CD.", false],
+      ["BGP.", false],
+      ["RIPv2.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Per a quin tipus d'aplicacions és especialment crítica una baixa latència i un mínim jitter?",
+    "respostes": [
+      ["Videoconferències, VoIP i jocs en línia.", true],
+      ["Descarregar arxius grans de dades per FTP.", false],
+      ["Navegació per pàgines web basades en text pla.", false],
+      ["L'enviament de correus electrònics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "El protocol IP s'encarrega principalment de:",
+    "respostes": [
+      ["Adreçar i encaminar els paquets entre xarxes mitjançant adreces IP, sense garantir l'entrega.", true],
+      ["Garantir el control de congestió i el flux de dades a internet.", false],
+      ["Definir la forma dels polsos de llum dins de les fibres òptiques.", false],
+      ["Evitar col·lisions en entorns Ethernet tradicionals en forma de bus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Dins d'una xarxa LAN, la funció de permetre l'intercanvi de paquets entre dispositius connectats enviant la informació només al port destinatari recau en el:",
+    "respostes": [
+      ["Commutador (Switch).", true],
+      ["Cable Coaxial.", false],
+      ["Model OSI.", false],
+      ["Protocols EGP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Si s'ha de dissenyar una xarxa sotmesa a grans quantitats de soroll electromagnètic i la fibra no és una opció, quin cable de parell trenat seria el més adequat?",
+    "respostes": [
+      ["STP (Shielded Twisted Pair).", true],
+      ["UTP (Unshielded Twisted Pair).", false],
+      ["Cables de línia telefònica simple (sense apantallament).", false],
+      ["Cables paral·lels de potència elèctrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què utilitza un router de frontera de la xarxa local per convertir les adreces IP privades en una adreça IP pública per accedir a internet?",
+    "respostes": [
+      ["NAT (Network Address Translation).", true],
+      ["DNSSEC.", false],
+      ["MAC address resolution.", false],
+      ["Encaminament Vectorial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Quin algoritme matemàtic subjeu al darrere del funcionament del protocol d'encaminament dinàmic OSPF per calcular la ruta més curta?",
+    "respostes": [
+      ["L'algorisme de Dijkstra.", true],
+      ["L'algorisme de Bellman-Ford.", false],
+      ["L'algorisme RSA.", false],
+      ["L'algorisme de compressió LZ77.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què és WiMAX?",
+    "respostes": [
+      ["Una tecnologia de xarxa sense fils dissenyada per oferir connexions de banda ampla a llargues distàncies (com zones rurals).", true],
+      ["Un estàndard exclusiu per a xarxes d'infraroig de curta distància.", false],
+      ["Una variació d'ADSL que utilitza múltiples cables de coure de manera paral·lela.", false],
+      ["Un protocol de qualitat de servei per al streaming en xarxes LAN cablejades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Com funciona, en termes d'establiment de sessió, la connexió TCP?",
+    "respostes": [
+      ["Utilitza un procés d'encaix de mans (handshake) de tres passos per establir la connexió abans de la transmissió.", true],
+      ["Inicia directament la descàrrega sense cap negociació prèvia per ser més ràpid.", false],
+      ["Només respon després d'haver rebut tot l'arxiu sencer per assegurar-se del pes de les dades.", false],
+      ["Aprofita la transmissió d'ones de ràdio sense necessitat de ports informàtics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 54. Xarxes de comunicacions. Conceptes generals. Mitjans de transmissió. Commutació de circuits i de paquets. Protocols d'encaminament. Infraestructures d'accés. Interconnexió de xarxes. Qualitat de servei.",
+    "enunciat": "Què sol passar en una xarxa Wi-Fi o qualsevol mitjà no guiat si la distància al punt d'accés augmenta i hi ha presència de parets o obstacles?",
+    "respostes": [
+      ["Pateix d'atenuació alta de senyal, reduint-ne significativament el rang efectiu i l'estabilitat.", true],
+      ["La velocitat de connexió es manté intacta fins que s'arriba exactament al metre 50, on es talla bruscament.", false],
+      ["L'encaminament canvia al protocol BGP automàticament per corregir l'error.", false],
+      ["La xarxa es converteix en un sistema commutat de circuits.", false]
+    ]
+  }
+]

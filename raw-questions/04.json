@@ -1,0 +1,372 @@
+[
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Com es defineix la tolerància a errors segons el document?",
+    "respostes": [
+      ["La capacitat d'un sistema per predir errors abans que succeeixin.", false],
+      ["La capacitat d'un sistema per continuar funcionant correctament en presència de fallades en alguns components.", true],
+      ["La capacitat d'ignorar les instruccions de l'usuari.", false],
+      ["La capacitat de reiniciar-se automàticament cada hora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què implica la tècnica de la redundància?",
+    "respostes": [
+      ["Esborrar dades antigues per fer espai.", false],
+      ["Reduir el nombre de components per simplificar el disseny.", false],
+      ["Duplicar components crítics del sistema perquè un altre pugui assumir les funcions si el principal falla.", true],
+      ["Utilitzar sempre el component més barat disponible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin dels següents és un exemple de redundància en el maquinari?",
+    "respostes": [
+      ["Checkpointing.", false],
+      ["Sistemes operatius diferents.", false],
+      ["Processadors, discs durs i fonts d'alimentació duplicats.", true],
+      ["Erasure Coding.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què és RAID en el context de la tolerància a errors?",
+    "respostes": [
+      ["Una tecnologia per duplicar la memòria RAM.", false],
+      ["Una tecnologia que combina múltiples discs durs per millorar la fiabilitat i el rendiment.", true],
+      ["Un protocol de xarxa sense fils.", false],
+      ["Un tipus de virus informàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin nivell RAID és conegut com 'mirroring'?",
+    "respostes": [
+      ["RAID 0.", false],
+      ["RAID 1.", true],
+      ["RAID 5.", false],
+      ["RAID 10.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En què consisteix la redundància en el programari?",
+    "respostes": [
+      ["En utilitzar múltiples còpies de programari per garantir que si una falla, una altra assumeixi el control.", true],
+      ["En fer còpies de seguretat de les dades.", false],
+      ["En utilitzar dos ratolins alhora.", false],
+      ["En instal·lar el mateix programa dues vegades al mateix disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què és el 'Checkpointing'?",
+    "respostes": [
+      ["La revisió manual del codi per part d'un programador.", false],
+      ["La creació de punts de recuperació periòdics del sistema per reprendre l'execució en cas de fallada.", true],
+      ["Un tipus de disc dur.", false],
+      ["El procés d'arrencada de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què implica la 'Diversitat del Programari'?",
+    "respostes": [
+      ["Tenir molts programes instal·lats.", false],
+      ["Utilitzar diferents versions de programari desenvolupades independentment que fan la mateixa funció.", true],
+      ["Utilitzar diferents sistemes operatius a la mateixa xarxa.", false],
+      ["Canviar de llenguatge de programació cada setmana.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En què consisteix el 'Mirroring' de dades?",
+    "respostes": [
+      ["Mantenir una còpia exacta de les dades en un dispositiu diferent.", true],
+      ["Mirar les dades a través d'un monitor.", false],
+      ["Comprimir les dades per estalviar espai.", false],
+      ["Enviar les dades per correu electrònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què és l'Erasure Coding?",
+    "respostes": [
+      ["Una tècnica per esborrar dades de manera segura.", false],
+      ["Una tècnica que divideix dades en fragments i afegeix paritat per permetre la reconstrucció.", true],
+      ["Un tipus de virus que esborra el disc dur.", false],
+      ["Un codi secret per accedir al sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Com es defineix la Clusterització?",
+    "respostes": [
+      ["L'ús d'un sol superordinador molt potent.", false],
+      ["L'agrupació de diversos ordinadors per formar un únic sistema cohesionat.", true],
+      ["La divisió d'un disc dur en moltes particions petites.", false],
+      ["La connexió a Internet d'alta velocitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin tipus de clúster s'utilitza per a simulacions científiques i anàlisi de dades massives?",
+    "respostes": [
+      ["Clústers de balanç de càrrega.", false],
+      ["Clústers d'alta disponibilitat (HA).", false],
+      ["Clústers d'alt rendiment (HPC).", true],
+      ["Clústers de fitxers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin és l'objectiu principal dels clústers d'Alta Disponibilitat (HA)?",
+    "respostes": [
+      ["Maximitzar la velocitat de processament.", false],
+      ["Garantir que les aplicacions continuïn funcionant fins i tot en cas de fallada.", true],
+      ["Emmagatzemar la màxima quantitat de dades possible.", false],
+      ["Reduir el consum energètic al mínim.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què fan els clústers de balanç de càrrega?",
+    "respostes": [
+      ["Distribueixen la càrrega de treball entre diversos nodes per millorar el rendiment.", true],
+      ["Carreguen les bateries dels portàtils connectats.", false],
+      ["Pesen els components del servidor.", false],
+      ["Equilibren el pes físic dels armaris de servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què és un 'Node' en un clúster?",
+    "respostes": [
+      ["El cable que connecta els ordinadors.", false],
+      ["Cada ordinador individual (físic o virtual) que forma part del clúster.", true],
+      ["El programa principal que controla el clúster.", false],
+      ["L'usuari que administra el sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què és el 'Middleware' en un clúster?",
+    "respostes": [
+      ["El maquinari de xarxa.", false],
+      ["El sistema operatiu dels nodes.", false],
+      ["Programari que gestiona la comunicació i coordinació entre els nodes.", true],
+      ["Els cables de fibra òptica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En què consisteix el mecanisme de 'Failover'?",
+    "respostes": [
+      ["En apagar el sistema quan hi ha un error.", false],
+      ["En la transferència automàtica de tasques d'un node fallit a un altre disponible.", true],
+      ["En reiniciar manualment el servidor.", false],
+      ["En enviar un informe d'error a l'administrador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què és el 'Heartbeat' en un clúster?",
+    "respostes": [
+      ["El ritme del rellotge de la CPU.", false],
+      ["Un sistema de monitoratge que envia senyals periòdics per detectar fallades.", true],
+      ["El so que fan els ventiladors.", false],
+      ["La font d'alimentació principal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin és l'objectiu de la 'Replication' en clústers?",
+    "respostes": [
+      ["Duplicar serveis i dades entre nodes per assegurar la continuïtat si un node falla.", true],
+      ["Copiar fitxers a un USB extern.", false],
+      ["Imprimir dues còpies de cada document.", false],
+      ["Tenir dos teclats connectats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin exemple real de clúster de supercomputació s'esmenta al text?",
+    "respostes": [
+      ["El clúster de la NASA.", false],
+      ["MareNostrum a Barcelona.", true],
+      ["Summit als EUA.", false],
+      ["Fugaku al Japó.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què utilitza Google Cloud Platform per garantir disponibilitat segons el document?",
+    "respostes": [
+      ["Tècniques avançades de redundància i clústers.", true],
+      ["Un sol servidor molt potent.", false],
+      ["Còpies de seguretat en cinta magnètica.", false],
+      ["Connexions via satèl·lit exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina característica té RAID 5?",
+    "respostes": [
+      ["Només fa mirroring.", false],
+      ["Fa striping amb paritat.", true],
+      ["No ofereix cap redundància.", false],
+      ["Necessita un sol disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què fan les 'Backups i snapshots'?",
+    "respostes": [
+      ["Permeten mantenir versions anteriors de les dades.", true],
+      ["Augmenten la velocitat del processador.", false],
+      ["Són programes de xat.", false],
+      ["Netejen la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què permet la diversitat del programari en termes de desenvolupament?",
+    "respostes": [
+      ["Que tots els programadors utilitzin el mateix ordinador.", false],
+      ["Que les versions siguin creades per equips diferents amb metodologies diferents.", true],
+      ["Que es faci servir un sol llenguatge de programació.", false],
+      ["Que es copiï el codi d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin component interconnecta els nodes en un clúster?",
+    "respostes": [
+      ["Storage.", false],
+      ["Network.", true],
+      ["Middleware.", false],
+      ["Power Supply.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina és una funció del Middleware MPI (Message Passing Interface)?",
+    "respostes": [
+      ["Gestionar la comunicació en clústers d'alt rendiment.", true],
+      ["Reproduir música.", false],
+      ["Editar imatges.", false],
+      ["Navegar per Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què fan les zones de disponibilitat d'AWS?",
+    "respostes": [
+      ["Ofereixen descomptes als usuaris.", false],
+      ["Proporcionen alta disponibilitat mitjançant distribució geogràfica.", true],
+      ["Són zones on no hi ha cobertura.", false],
+      ["Permeten l'accés físic als servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin és l'avantatge de tenir servidors duplicats amb balanç de càrrega?",
+    "respostes": [
+      ["Estalviar electricitat.", false],
+      ["Millorar la fiabilitat i el rendiment.", true],
+      ["Ocupar menys espai al rack.", false],
+      ["Reduir el soroll.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què permet fer l'emmagatzematge compartit (Storage) en un clúster?",
+    "respostes": [
+      ["Que cada node tingui les seves dades privades inaccessibles.", false],
+      ["Que els nodes accedeixin a les dades necessàries per a les operacions.", true],
+      ["Que es pugui desconnectar la xarxa.", false],
+      ["Que l'usuari guardi les seves fotos personals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Per a quins sistemes és essencial la tolerància a errors?",
+    "respostes": [
+      ["Per a consoles de videojocs domèstiques.", false],
+      ["Per a sistemes crítics com servidors i aplicacions industrials.", true],
+      ["Per a reproductors MP3.", false],
+      ["Per a calculadores solars.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin mecanisme de tolerància a errors fa servir un senyal periòdic?",
+    "respostes": [
+      ["Failover.", false],
+      ["Replication.", false],
+      ["Heartbeat.", true],
+      ["Checkpointing.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què permet fer el nivell RAID 1?",
+    "respostes": [
+      ["Dividir les dades sense còpia.", false],
+      ["Mirroring (mirall) de les dades.", true],
+      ["Només utilitzar un disc.", false],
+      ["Augmentar la capacitat total sumant els discs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què passa si una font d'alimentació falla en un servidor amb redundància?",
+    "respostes": [
+      ["El servidor s'apaga immediatament.", false],
+      ["El servidor continua funcionant amb l'altra font.", true],
+      ["Es perden totes les dades.", false],
+      ["S'ha de reiniciar manualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina tècnica divideix les dades en fragments i hi afegeix paritat?",
+    "respostes": [
+      ["Mirroring.", false],
+      ["Erasure Coding.", true],
+      ["Replication.", false],
+      ["Failover.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina és una aplicació típica dels clústers HPC?",
+    "respostes": [
+      ["Servidors web simples.", false],
+      ["Simulacions científiques.", true],
+      ["Emmagatzematge d'arxius personals.", false],
+      ["Gestió de correu electrònic domèstic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què permet fer la redundància en les dades?",
+    "respostes": [
+      ["Garantir la disponibilitat en cas de pèrdua o corrupció.", true],
+      ["Processar dades més ràpidament.", false],
+      ["Estalviar espai al disc.", false],
+      ["Eliminar dades duplicades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin component d'un clúster pot ser físic o virtual?",
+    "respostes": [
+      ["Network.", false],
+      ["Storage.", false],
+      ["Node.", true],
+      ["Middleware.", false]
+    ]
+  }
+]

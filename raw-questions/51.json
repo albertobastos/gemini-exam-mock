@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin és l'objectiu principal de la identificació electrònica en la prestació de serveis públics?",
+    "respostes": [
+      ["Augmentar la recaptació d'impostos.", false],
+      ["Permetre als ciutadans accedir a serveis de l'administració de manera segura i eficient sense necessitat de presència física.", true],
+      ["Eliminar els funcionaris públics.", false],
+      ["Obligar a tothom a tenir ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què garanteix la signatura electrònica en els tràmits administratius?",
+    "respostes": [
+      ["Que el document sigui bonic.", false],
+      ["La integritat i autenticitat dels documents presentats, així com el no-repudi.", true],
+      ["Que el document es pugui esborrar fàcilment.", false],
+      ["Que el tràmit sigui gratuït.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Com beneficia la identificació digital als serveis privats (ex: banca)?",
+    "respostes": [
+      ["Fa que els serveis siguin més lents.", false],
+      ["Permet oferir serveis segurs en línia, reduint el frau i millorant l'experiència de l'usuari.", true],
+      ["Elimina la necessitat de tenir diners.", false],
+      ["No té cap benefici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és la PKI (Public Key Infrastructure)?",
+    "respostes": [
+      ["Un programa de xat.", false],
+      ["El conjunt de maquinari, programari, persones, polítiques i procediments necessaris per gestionar certificats digitals i claus públiques.", true],
+      ["Una clau mestra per a tot internet.", false],
+      ["Un tipus de virus informàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quina entitat dins de la PKI s'encarrega d'emetre els certificats digitals?",
+    "respostes": [
+      ["L'Usuari Final.", false],
+      ["L'Autoritat de Certificació (CA).", true],
+      ["L'Autoritat de Registre (RA).", false],
+      ["El Repositori.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quina és la funció de l'Autoritat de Registre (RA) en una PKI?",
+    "respostes": [
+      ["Crear les claus criptogràfiques.", false],
+      ["Verificar la identitat dels sol·licitants de certificats abans que la CA els emeti.", true],
+      ["Guardar les còpies de seguretat.", false],
+      ["Revocar els certificats automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "On s'emmagatzemen els certificats i les llistes de revocació (CRL) en una PKI?",
+    "respostes": [
+      ["Al disc dur de l'usuari només.", false],
+      ["Al Repositori (o directori), accessible públicament per a la seva consulta.", true],
+      ["A la paperera de reciclatge.", false],
+      ["En un servidor secret.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és @firma?",
+    "respostes": [
+      ["Una xarxa social.", false],
+      ["La plataforma de validació i signatura electrònica del Govern d'Espanya.", true],
+      ["Un programa de dibuix.", false],
+      ["Una marca de bolígrafs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin és l'objectiu principal de la plataforma @firma?",
+    "respostes": [
+      ["Vendre certificats.", false],
+      ["Facilitar als serveis públics la validació de signatures i certificats de múltiples prestadors de serveis de confiança.", true],
+      ["Emetre DNI electrònics.", false],
+      ["Guardar documents en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin servei ofereix @firma relacionat amb el temps?",
+    "respostes": [
+      ["Un rellotge d'alarma.", false],
+      ["Serveis de segellat de temps (Timestamping) per garantir l'existència de dades en un moment donat.", true],
+      ["Predicció meteorològica.", false],
+      ["Cronòmetre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és una Smart Card (targeta intel·ligent)?",
+    "respostes": [
+      ["Una targeta de plàstic normal.", false],
+      ["Una targeta amb un circuit integrat (xip) capaç de processar informació i emmagatzemar claus criptogràfiques de manera segura.", true],
+      ["Una targeta de visita.", false],
+      ["Una targeta magnètica antiga.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Per què són segures les targetes intel·ligents per a la signatura digital?",
+    "respostes": [
+      ["Perquè són dures.", false],
+      ["Perquè la clau privada es genera i s'emmagatzema dins del xip i mai surt d'ell (la signatura es fa dins la targeta).", true],
+      ["Perquè tenen un PIN curt.", false],
+      ["Perquè no es poden perdre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és el DNI electrònic (DNIe)?",
+    "respostes": [
+      ["Un document només per identificar-se visualment.", false],
+      ["La targeta d'identitat espanyola que incorpora un xip amb certificats digitals per autenticació i signatura electrònica.", true],
+      ["Un carnet de conduir.", false],
+      ["Un passaport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quins dos certificats conté principalment el DNIe?",
+    "respostes": [
+      ["Certificat de naixement i de matrimoni.", false],
+      ["Certificat d'Autenticació i Certificat de Signatura.", true],
+      ["Certificat d'estudis i de treball.", false],
+      ["Certificat mèdic i de residència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què es necessita per utilitzar el DNIe en un ordinador?",
+    "respostes": [
+      ["Només l'ordinador.", false],
+      ["Un lector de targetes intel·ligents i el programari (drivers) corresponent.", true],
+      ["Una càmera web.", false],
+      ["Un micròfon.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "En què es basa l'autenticació biomètrica?",
+    "respostes": [
+      ["En alguna cosa que saps (contrasenya).", false],
+      ["En característiques físiques o de comportament úniques de l'individu (empremta, iris, veu).", true],
+      ["En alguna cosa que tens (targeta).", false],
+      ["En el teu nom.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin és un avantatge de la biometria?",
+    "respostes": [
+      ["Es pot oblidar.", false],
+      ["És intransferible i sempre va amb l'usuari (no es pot perdre com una targeta).", true],
+      ["És fàcil de canviar si es compromet.", false],
+      ["No requereix maquinari especial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin és el sistema biomètric més estès en dispositius mòbils actualment?",
+    "respostes": [
+      ["Anàlisi d'ADN.", false],
+      ["Reconeixement d'empremta dactilar i reconeixement facial.", true],
+      ["Escaner de retina.", false],
+      ["Reconeixement de la forma de caminar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què permet fer la tecnologia NFC (Near Field Communication) amb el DNIe 3.0 i 4.0?",
+    "respostes": [
+      ["Res.", false],
+      ["Llegir el DNIe sense contacte físic, apropant-lo a dispositius mòbils compatibles.", true],
+      ["Carregar la bateria del mòbil.", false],
+      ["Fer fotos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què garanteix el no-repudi en una transacció signada digitalment?",
+    "respostes": [
+      ["Que es pot cancel·lar la transacció.", false],
+      ["Que l'emissor no pot negar haver realitzat l'acció o signat el document.", true],
+      ["Que el receptor pot rebutjar el document.", false],
+      ["Que ningú més ho ha vist.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quina funció té el PIN en l'ús del DNI electrònic?",
+    "respostes": [
+      ["És el número del DNI.", false],
+      ["És la clau d'accés personal que protegeix l'ús dels certificats privats del xip.", true],
+      ["És un codi postal.", false],
+      ["No té PIN.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és la validació de certificats?",
+    "respostes": [
+      ["Imprimir el certificat.", false],
+      ["El procés de verificar que un certificat és vàlid, està vigent i no ha estat revocat.", true],
+      ["Crear un certificat nou.", false],
+      ["Esborrar un certificat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin protocol permet a @firma verificar l'estat dels certificats en temps real?",
+    "respostes": [
+      ["HTTP.", false],
+      ["OCSP (Online Certificate Status Protocol).", true],
+      ["FTP.", false],
+      ["SMTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és un certificat d'atribut?",
+    "respostes": [
+      ["Un certificat d'identitat.", false],
+      ["Un certificat que vincula privilegis o qualitats (càrrec, títol) a una identitat, però no la identitat en si mateixa.", true],
+      ["Un certificat caducat.", false],
+      ["Un certificat fals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin mecanisme de seguretat física tenen les targetes intel·ligents?",
+    "respostes": [
+      ["Cap.", false],
+      ["Són resistents a la manipulació (tamper-resistant) per evitar l'extracció de claus privades.", true],
+      ["Són de metall.", false],
+      ["Tenen un cadenat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Com actua @firma respecte a les diferents Autoritats de Certificació?",
+    "respostes": [
+      ["Només en reconeix una.", false],
+      ["Actua com a 'multi-PKI', validant certificats de molts prestadors diferents de manera transparent per a l'aplicació.", true],
+      ["Rebutja tots els certificats.", false],
+      ["Crea les seves pròpies CA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és el reconeixement d'iris?",
+    "respostes": [
+      ["Mirar fixament.", false],
+      ["Un sistema biomètric molt precís que analitza els patrons únics de l'iris de l'ull.", true],
+      ["Un tipus de flor.", false],
+      ["Un sistema de veu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què permet la interoperabilitat en la identificació electrònica europea (eIDAS)?",
+    "respostes": [
+      ["Res.", false],
+      ["Que un ciutadà pugui utilitzar la seva identificació nacional (ex: DNIe) per accedir a serveis públics d'altres països de la UE.", true],
+      ["Viatjar sense passaport.", false],
+      ["Pagar amb el mòbil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és un HSM (Hardware Security Module)?",
+    "respostes": [
+      ["Un monitor.", false],
+      ["Un dispositiu maquinari dedicat a generar i emmagatzemar claus criptogràfiques de manera segura al servidor.", true],
+      ["Un mòdul de memòria.", false],
+      ["Un disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quina diferència hi ha entre identificació i autenticació?",
+    "respostes": [
+      ["Són el mateix.", false],
+      ["La identificació és dir qui ets (usuari); l'autenticació és demostrar que ets qui dius ser (contrasenya, biometria).", true],
+      ["La identificació és privada.", false],
+      ["L'autenticació és pública.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què fa l'aplicació 'Autofirma' del govern espanyol?",
+    "respostes": [
+      ["Escriu automàticament.", false],
+      ["Permet realitzar signatures electròniques en l'escriptori de l'usuari o des del navegador web.", true],
+      ["Gestiona contrasenyes.", false],
+      ["Crea PDFs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és la signatura biomètrica (manuscrita digitalitzada)?",
+    "respostes": [
+      ["Una foto de la signatura.", false],
+      ["La captura de la signatura manuscrita en una tauleta, enregistrant dades com pressió, velocitat i traç (dades biomètriques).", true],
+      ["Signar amb el ratolí.", false],
+      ["Escriure el nom.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quina és la validesa temporal d'un certificat del DNIe (normalment)?",
+    "respostes": [
+      ["Per sempre.", false],
+      ["Té un període de validesa limitat (ex: 30 o 60 mesos) i s'ha de renovar.", true],
+      ["Un dia.", false],
+      ["100 anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què succeeix si es bloqueja el PIN del DNIe?",
+    "respostes": [
+      ["Es destrueix el DNI.", false],
+      ["S'ha d'anar a un Punt d'Actualització del DNI (PAD) a una comissaria per desbloquejar-lo mitjançant l'empremta dactilar.", true],
+      ["Cal comprar un ordinador nou.", false],
+      ["S'ha de trucar per telèfon.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quin tipus de servei és Cl@ve PIN?",
+    "respostes": [
+      ["Un certificat permanent.", false],
+      ["Un sistema d'identificació basat en claus concertades de validesa limitada en el temps (temporal).", true],
+      ["Un antivirus.", false],
+      ["Una xarxa Wi-Fi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què és Cl@ve Permanent?",
+    "respostes": [
+      ["Un tatuatge.", false],
+      ["Un sistema d'identificació basat en usuari i contrasenya, reforçat amb claus d'un sol ús per SMS, per a accessos freqüents.", true],
+      ["Una targeta de crèdit.", false],
+      ["Un DNI de paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Què permet fer el 'Portasignatures'?",
+    "respostes": [
+      ["Portar papers.", false],
+      ["Gestionar i realitzar signatures de documents electrònics en fluxos de treball administratius (acumular documents per signar).", true],
+      ["Guardar bolígrafs.", false],
+      ["Imprimir documents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura.",
+    "enunciat": "Quina importància té la custòdia de claus en la signatura al núvol (signatura centralitzada)?",
+    "respostes": [
+      ["Cap.", false],
+      ["La clau privada de l'usuari es guarda de forma segura en un servidor (HSM) en lloc del seu dispositiu, permetent signar des de qualsevol lloc.", true],
+      ["La clau es guarda en un paper.", false],
+      ["La clau es comparteix amb tothom.", false]
+    ]
+  }
+]

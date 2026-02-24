@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què és la programació funcional?",
+    "respostes": [
+      ["Un paradigma que es basa exclusivament en l'ús de classes i objectes.", false],
+      ["Un paradigma on els programes es construeixen principalment a partir de funcions.", true],
+      ["Un estil de programació que prioritza el canvi d'estat de les variables.", false],
+      ["Un llenguatge de programació específic creat per Google.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin és l'èmfasi principal en la descripció del codi en programació funcional?",
+    "respostes": [
+      ["Detallar pas a pas com es realitzen les accions (imperatiu).", false],
+      ["Descriure quin resultat es vol obtenir aplicant transformacions (declaratiu).", true],
+      ["Gestionar manualment la memòria de l'ordinador.", false],
+      ["Utilitzar bucles 'for' i 'while' per a tot.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què s'intenta evitar en la mesura del possible en la programació funcional?",
+    "respostes": [
+      ["L'ús de funcions.", false],
+      ["Els canvis d'estat i els efectes secundaris.", true],
+      ["La immutabilitat de les dades.", false],
+      ["L'ús de la recursivitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què significa que les funcions siguin 'ciutadanes de primera classe'?",
+    "respostes": [
+      ["Que tenen prioritat d'execució sobre la resta de codi.", false],
+      ["Que es poden emmagatzemar en variables, passar com a paràmetres i retornar com a resultats.", true],
+      ["Que només es poden definir dins d'una classe principal.", false],
+      ["Que no poden rebre arguments.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quina característica defineix una funció pura?",
+    "respostes": [
+      ["Sempre produeix el mateix resultat per als mateixos arguments i no té efectes secundaris.", true],
+      ["Modifica variables globals per guardar l'estat.", false],
+      ["Escriu dades en fitxers o bases de dades directament.", false],
+      ["Retorna resultats diferents cada vegada que es crida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin és un avantatge de les funcions pures?",
+    "respostes": [
+      ["Són més difícils de provar.", false],
+      ["Són més fàcils de raonar i es poden provar de forma aïllada.", true],
+      ["Depenen d'estats compartits complexos.", false],
+      ["No es poden executar en paral·lel.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "En què consisteix el principi d'immutabilitat?",
+    "respostes": [
+      ["En evitar la modificació d'estructures de dades una vegada creades.", true],
+      ["En fer que totes les variables siguin globals.", false],
+      ["En no permetre la creació de noves variables.", false],
+      ["En bloquejar la memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Com es gestionen els canvis en les dades si s'aplica la immutabilitat?",
+    "respostes": [
+      ["Es sobreescriu la variable original.", false],
+      ["Es crea una nova versió de les dades amb les modificacions desitjades.", true],
+      ["Es llança una excepció d'error.", false],
+      ["No es poden fer canvis mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin problema redueix la immutabilitat?",
+    "respostes": [
+      ["L'aparició d'errors per canvis inesperats en les dades.", true],
+      ["La velocitat de compilació del codi.", false],
+      ["La capacitat d'usar funcions.", false],
+      ["L'ús de disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què facilita la immutabilitat en entorns concurrents?",
+    "respostes": [
+      ["Res, ho fa més difícil.", false],
+      ["Disminueix els problemes de sincronització sobre dades compartides.", true],
+      ["Augmenta la necessitat de bloquejos (locks).", false],
+      ["Fa que els processadors s'escalfin més.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què és la composició de funcions?",
+    "respostes": [
+      ["Escriure funcions molt llargues.", false],
+      ["Construir funcions complexes encadenant funcions més simples.", true],
+      ["Barrejar codi objecte amb codi font.", false],
+      ["Utilitzar classes heretades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin estil promou el disseny basat en composició?",
+    "respostes": [
+      ["Un estil imperatiu i rígid.", false],
+      ["Un estil declaratiu i reutilitzable.", true],
+      ["Un estil desordenat.", false],
+      ["Un estil basat en sentències 'goto'.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin avantatge aporta l'estil declaratiu de la programació funcional?",
+    "respostes": [
+      ["Es centra en el 'què' (resultat) en lloc del 'com' (control de flux).", true],
+      ["Permet controlar cada registre de la CPU.", false],
+      ["És més difícil de llegir per als humans.", false],
+      ["Requereix més línies de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Per què millora el suport per a concurrència la programació funcional?",
+    "respostes": [
+      ["Perquè utilitza més fils d'execució sempre.", false],
+      ["Perquè minimitza l'estat compartit i els efectes secundaris.", true],
+      ["Perquè bloqueja tot el sistema.", false],
+      ["Perquè només s'executa en un nucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quines operacions són típiques en el processament de col·leccions de dades en aquest paradigma?",
+    "respostes": [
+      ["Bucle for-each amb modificació de variables.", false],
+      ["Map, filter i reduce.", true],
+      ["Insert, update i delete directes.", false],
+      ["While true.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin tipus de funcions s'utilitzen per a operacions com 'map' o 'filter'?",
+    "respostes": [
+      ["Funcions d'ordre superior.", true],
+      ["Funcions de baix nivell.", false],
+      ["Procediments emmagatzemats.", false],
+      ["Funcions void.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què és Scala?",
+    "respostes": [
+      ["Un llenguatge exclusivament orientat a objectes.", false],
+      ["Un llenguatge que combina programació orientada a objectes i funcional.", true],
+      ["Un sistema operatiu.", false],
+      ["Una base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Sobre quina màquina virtual s'executa Scala?",
+    "respostes": [
+      ["Sobre la JVM (Java Virtual Machine).", true],
+      ["Sobre .NET CLR.", false],
+      ["Sobre el motor V8 de JavaScript.", false],
+      ["Directament sobre el maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "A partir de quina versió Java va incorporar elements funcionals importants?",
+    "respostes": [
+      ["Java 1.0.", false],
+      ["Java 8.", true],
+      ["Java 5.", false],
+      ["Encara no en té.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què són les expressions lambda en Java?",
+    "respostes": [
+      ["Errors de compilació.", false],
+      ["Mecanismes per definir funcions de forma compacta.", true],
+      ["Variables globals.", false],
+      ["Classes abstractes complexes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quina API de Java proporciona operacions d'estil funcional sobre col·leccions?",
+    "respostes": [
+      ["Swing API.", false],
+      ["Stream API.", true],
+      ["JDBC API.", false],
+      ["Socket API.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "És Java un llenguatge purament funcional?",
+    "respostes": [
+      ["Sí, completament.", false],
+      ["No, però permet adoptar el paradigma funcional en moltes parts.", true],
+      ["No, està prohibit usar funcions.", false],
+      ["Només en la versió 1.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin tipus de llenguatge és Python segons el text?",
+    "respostes": [
+      ["Només imperatiu.", false],
+      ["Multiparadigma (imperatiu, orientat a objectes, funcional).", true],
+      ["Només funcional pur.", false],
+      ["De baix nivell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quines estructures de Python s'utilitzen molt en l'estil funcional?",
+    "respostes": [
+      ["Els punters.", false],
+      ["Les comprensions de llistes, diccionaris i conjunts.", true],
+      ["Les sentències 'goto'.", false],
+      ["Els fitxers binaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Imposa Python l'ús de la programació funcional?",
+    "respostes": [
+      ["Sí, és obligatori.", false],
+      ["No, però permet utilitzar-la quan resulta convenient.", true],
+      ["No, no té cap característica funcional.", false],
+      ["Sí, si no el codi no compila.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què es facilita en el processament de dades en paral·lel i distribuït amb aquest paradigma?",
+    "respostes": [
+      ["L'execució simultània de transformacions sobre grans volums de dades.", true],
+      ["L'escriptura en disc.", false],
+      ["La creació de finestres gràfiques.", false],
+      ["La instal·lació del sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què permet definir el comportament de funcions generals com 'filtratge'?",
+    "respostes": [
+      ["Passar altres funcions com a paràmetres.", true],
+      ["Escriure el codi dins de la funció principal sempre.", false],
+      ["Utilitzar variables globals booleanes.", false],
+      ["Canviar el nom de la funció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quina aplicació pràctica té la programació funcional en sistemes reactius?",
+    "respostes": [
+      ["Cap.", false],
+      ["Maneig de fluxos de dades i esdeveniments de forma declarativa.", true],
+      ["Creació de bases de dades SQL.", false],
+      ["Disseny d'interfícies gràfiques estàtiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quina característica de Scala el fa adequat per a Big Data?",
+    "respostes": [
+      ["El seu fort suport per l'estil funcional i col·leccions immutables.", true],
+      ["Que és un llenguatge interpretat lent.", false],
+      ["Que no té objectes.", false],
+      ["Que només funciona en Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quina és una interfície funcional en Java?",
+    "respostes": [
+      ["Una interfície sense mètodes.", false],
+      ["Una interfície amb un únic mètode abstracte.", true],
+      ["Una interfície amb molts mètodes implementats.", false],
+      ["Una classe normal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Què es evita amb les funcions pures respecte a l'entorn?",
+    "respostes": [
+      ["L'ús de la CPU.", false],
+      ["Efectes secundaris observables com modificar variables externes o escriure en sortida.", true],
+      ["El retorn de valors.", false],
+      ["L'ús de paràmetres.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Com ajuda la immutabilitat al raonament sobre el codi?",
+    "respostes": [
+      ["Fa que el codi sigui impredictible.", false],
+      ["Simplifica el raonament sobre l'estat del programa al no haver canvis inesperats.", true],
+      ["Obliga a llegir tot el codi font.", false],
+      ["No ajuda gens.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quin concepte permet descompondre problemes en petites transformacions?",
+    "respostes": [
+      ["La composició de funcions.", true],
+      ["L'herència múltiple.", false],
+      ["Els bucles anidats.", false],
+      ["Les variables globals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "Quina funcionalitat d'ordre superior s'esmenta per transformar dades?",
+    "respostes": [
+      ["Map.", true],
+      ["If-else.", false],
+      ["While.", false],
+      ["Break.", false]
+    ]
+  },
+  {
+    "tema": "Tema 25. Programació funcional: principis, avantatges i ús modern.",
+    "enunciat": "En resum, com construeix programes la programació funcional?",
+    "respostes": [
+      ["Principalment a partir de funcions.", true],
+      ["A partir de diagrames de flux.", false],
+      ["A partir de sentències de salt.", false],
+      ["A partir de modificacions de memòria directa.", false]
+    ]
+  }
+]

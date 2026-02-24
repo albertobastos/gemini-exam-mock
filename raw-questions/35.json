@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quin és un dels lemes més coneguts de Java que destaca la seva portabilitat?",
+    "respostes": [
+      ["Just do it.", false],
+      ["Write Once, Run Anywhere (Escriu un cop, executa a tot arreu).", true],
+      ["Think different.", false],
+      ["Compile once, debug everywhere.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quin és el punt d'entrada principal per a l'execució d'un programa Java?",
+    "respostes": [
+      ["El mètode start().", false],
+      ["El mètode main (public static void main).", true],
+      ["La primera línia del fitxer.", false],
+      ["El constructor de la classe.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina extensió tenen els fitxers de codi font en Java?",
+    "respostes": [
+      [".js", false],
+      [".java", true],
+      [".class", false],
+      [".exe", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Com s'indica un comentari de documentació en Java?",
+    "respostes": [
+      ["// Comentari", false],
+      ["/** Comentari */", true],
+      ["/* Comentari */", false],
+      ["# Comentari", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina és la funció principal dels paquets (packages) en Java?",
+    "respostes": [
+      ["Compilar el codi més ràpid.", false],
+      ["Organitzar classes relacionades i evitar conflictes de noms.", true],
+      ["Encriptar el codi font.", false],
+      ["Augmentar la memòria disponible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina paraula clau s'utilitza per crear una nova instància d'una classe (un objecte)?",
+    "respostes": [
+      ["create", false],
+      ["new", true],
+      ["make", false],
+      ["instance", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què és un constructor en una classe Java?",
+    "respostes": [
+      ["Un mètode per destruir l'objecte.", false],
+      ["Un mètode especial per inicialitzar els atributs de l'objecte quan es crea.", true],
+      ["Una variable estàtica.", false],
+      ["Un tipus de bucle.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quants tipus de dades primitius té Java?",
+    "respostes": [
+      ["4", false],
+      ["8", true],
+      ["10", false],
+      ["Infinits", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quin tipus primitiu s'utilitza per emmagatzemar un valor lògic (veritable o fals)?",
+    "respostes": [
+      ["bit", false],
+      ["boolean", true],
+      ["logic", false],
+      ["int", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina mida en bits té el tipus de dada 'int'?",
+    "respostes": [
+      ["16 bits", false],
+      ["32 bits", true],
+      ["64 bits", false],
+      ["8 bits", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina diferència principal hi ha entre tipus primitius i tipus de referència?",
+    "respostes": [
+      ["Els primitius ocupen més memòria.", false],
+      ["Els primitius emmagatzemen el valor real; els de referència emmagatzemen l'adreça de memòria.", true],
+      ["Els de referència no poden ser null.", false],
+      ["No hi ha cap diferència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quin operador s'utilitza per obtenir el residu d'una divisió (mòdul)?",
+    "respostes": [
+      ["/", false],
+      ["%", true],
+      ["#", false],
+      ["mod", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quin operador lògic representa l'AND?",
+    "respostes": [
+      ["||", false],
+      ["&&", true],
+      ["!", false],
+      ["&", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què fa l'operador '==' quan es comparen tipus primitius?",
+    "respostes": [
+      ["Assigna un valor.", false],
+      ["Compara si els valors són iguals.", true],
+      ["Compara si les adreces de memòria són iguals.", false],
+      ["Concatena els valors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina sentència de control permet seleccionar un bloc de codi entre múltiples opcions basades en un valor?",
+    "respostes": [
+      ["if-else", false],
+      ["switch", true],
+      ["for", false],
+      ["while", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina característica té el bucle 'do-while' respecte al 'while'?",
+    "respostes": [
+      ["No permet condicions complexes.", false],
+      ["Garanteix que el bloc de codi s'executi almenys una vegada.", true],
+      ["S'executa infinitament.", false],
+      ["Només funciona amb enters.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què fa la sentència 'break' dins d'un bucle?",
+    "respostes": [
+      ["Salta a la següent iteració.", false],
+      ["Finalitza immediatament l'execució del bucle.", true],
+      ["Reinicia el bucle.", false],
+      ["Imprimeix un error.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què fa la sentència 'continue'?",
+    "respostes": [
+      ["Atura el programa.", false],
+      ["Salta la resta del codi de la iteració actual i passa a la següent.", true],
+      ["Surt del bucle.", false],
+      ["Torna al principi del programa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què defineix una 'interfície' en Java (abans de Java 8)?",
+    "respostes": [
+      ["Una classe amb tots els mètodes implementats.", false],
+      ["Una col·lecció de mètodes abstractes sense implementació.", true],
+      ["Una variable global.", false],
+      ["Un tipus de dada primitiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina paraula clau s'utilitza perquè una classe implementi una interfície?",
+    "respostes": [
+      ["extends", false],
+      ["implements", true],
+      ["uses", false],
+      ["inherits", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Es poden instanciar objectes directament d'una classe abstracta?",
+    "respostes": [
+      ["Sí, sempre.", false],
+      ["No, no es poden crear objectes directament d'una classe abstracta.", true],
+      ["Només si té un constructor públic.", false],
+      ["Sí, però només un.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina paraula clau s'utilitza per a l'herència de classes?",
+    "respostes": [
+      ["implements", false],
+      ["extends", true],
+      ["inherits", false],
+      ["super", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què permet el polimorfisme en temps de compilació?",
+    "respostes": [
+      ["Sobreescriptura de mètodes (Overriding).", false],
+      ["Sobrecàrrega de mètodes (Overloading).", true],
+      ["Herència múltiple.", false],
+      ["Encapsulació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què permet el polimorfisme en temps d'execució?",
+    "respostes": [
+      ["Definir mètodes amb el mateix nom però diferents paràmetres.", false],
+      ["Sobreescriure un mètode de la superclasse a la subclasse (Overriding).", true],
+      ["Canviar el tipus de variable dinàmicament.", false],
+      ["Crear interfícies.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina és la visibilitat d'un membre declarat com a 'private'?",
+    "respostes": [
+      ["Accessible des de qualsevol lloc.", false],
+      ["Accessible només des de dins de la mateixa classe.", true],
+      ["Accessible des del mateix paquet.", false],
+      ["Accessible des de les subclasses.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina és la visibilitat d'un membre declarat com a 'protected'?",
+    "respostes": [
+      ["Només la pròpia classe.", false],
+      ["La pròpia classe, classes del mateix paquet i subclasses.", true],
+      ["Tothom (públic).", false],
+      ["Ningú.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quin tipus de dades s'utilitza per a nombres decimals de doble precisió?",
+    "respostes": [
+      ["float", false],
+      ["double", true],
+      ["decimal", false],
+      ["real", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina convenció de nomenclatura se segueix per als noms de les classes en Java?",
+    "respostes": [
+      ["camelCase (comença amb minúscula).", false],
+      ["CamelCase (PascalCase, comença amb majúscula).", true],
+      ["snake_case (amb guions baixos).", false],
+      ["TOT_MAJÚSCULES.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina convenció de nomenclatura se segueix per als noms de mètodes i variables?",
+    "respostes": [
+      ["PascalCase.", false],
+      ["camelCase (comença amb minúscula).", true],
+      ["snake_case.", false],
+      ["kebab-case.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina paraula clau s'utilitza per definir una constant en Java?",
+    "respostes": [
+      ["const", false],
+      ["final", true],
+      ["static", false],
+      ["constant", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què fa la sentència 'return'?",
+    "respostes": [
+      ["Imprimeix un valor per pantalla.", false],
+      ["Finalitza l'execució d'un mètode i opcionalment retorna un valor.", true],
+      ["Reinicia l'ordinador.", false],
+      ["Declara una variable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Pot una classe en Java heretar de múltiples classes (herència múltiple de classes)?",
+    "respostes": [
+      ["Sí, sempre.", false],
+      ["No, Java no suporta herència múltiple de classes (només una superclasse).", true],
+      ["Sí, però només si són abstractes.", false],
+      ["Depèn de la versió de Java.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Pot una classe implementar múltiples interfícies?",
+    "respostes": [
+      ["No, només una.", false],
+      ["Sí, una classe pot implementar múltiples interfícies.", true],
+      ["Només si no té mètodes.", false],
+      ["Només en classes abstractes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina és la mida del tipus 'char' en Java?",
+    "respostes": [
+      ["8 bits.", false],
+      ["16 bits (Unicode).", true],
+      ["32 bits.", false],
+      ["64 bits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina estructura de control utilitzaries per repetir un bloc un nombre conegut de vegades?",
+    "respostes": [
+      ["while", false],
+      ["for", true],
+      ["if", false],
+      ["switch", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Què és l'àmbit (scope) d'una variable?",
+    "respostes": [
+      ["El tipus de dada que conté.", false],
+      ["La part del codi on la variable és accessible.", true],
+      ["El valor inicial de la variable.", false],
+      ["El nom de la variable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Com es defineix un array d'enters en Java?",
+    "respostes": [
+      ["array int numeros;", false],
+      ["int[] numeros;", true],
+      ["int numeros[];", false],
+      ["Totes les anteriors són incorrectes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 35. El llenguatge de programació Java",
+    "enunciat": "Quina és la funció de l'operador '!'?",
+    "respostes": [
+      ["Comparar igualtat.", false],
+      ["Negació lògica (NOT).", true],
+      ["Incrementar un valor.", false],
+      ["Declarar un comentari.", false]
+    ]
+  }
+]

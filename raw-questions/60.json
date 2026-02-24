@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "A quina capa del model OSI pertanyen protocols com HTTP, FTP, Telnet i SSH?",
+    "respostes": [
+      ["A la Capa 7 (Capa d'Aplicació).", true],
+      ["A la Capa 4 (Capa de Transport).", false],
+      ["A la Capa 3 (Capa de Xarxa).", false],
+      ["A la Capa 2 (Capa d'Enllaç de Dades).", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què vol dir que HTTP és un protocol 'sense estat' (stateless)?",
+    "respostes": [
+      ["Que cada petició i resposta són independents i el servidor no guarda informació de sol·licituds anteriors.", true],
+      ["Que no permet establir connexions segures amb el servidor.", false],
+      ["Que no pot transferir imatges ni arxius multimèdia, només text pla.", false],
+      ["Que només es pot utilitzar en països sense restriccions d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Com pot gestionar sessions l'HTTP si és un protocol sense estat per defecte?",
+    "respostes": [
+      ["Utilitzant mecanismes com les cookies emmagatzemades al navegador.", true],
+      ["Mantenint la IP de l'usuari en una base de dades local del router.", false],
+      ["Descarregant certificats digitals per cada pàgina web visitada.", false],
+      ["No es pot gestionar l'estat de cap manera en HTTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què permet la 'connexió persistent' (Keep-Alive) introduïda a HTTP/1.1?",
+    "respostes": [
+      ["Mantenir oberta la connexió TCP per enviar múltiples sol·licituds successives, millorant l'eficiència sense alterar la naturalesa stateless d'HTTP.", true],
+      ["Guardar l'historial del client al servidor de forma permanent.", false],
+      ["Mantenir l'ordinador encès en mode d'espera mentre descarrega fitxers.", false],
+      ["Evitar l'ús d'adreces IP en les peticions POST.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin mètode HTTP s'utilitza per enviar dades al servidor, sovint per crear o actualitzar un recurs mitjançant formularis web?",
+    "respostes": [
+      ["POST.", true],
+      ["GET.", false],
+      ["HEAD.", false],
+      ["DELETE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quina diferència principal hi ha entre els mètodes HTTP PUT i PATCH?",
+    "respostes": [
+      ["PUT s'utilitza per crear o substituir completament un recurs, mentre que PATCH l'actualitza només parcialment.", true],
+      ["PUT esborra el recurs abans de crear-lo, i PATCH només l'esborra si hi ha un error.", false],
+      ["PATCH només retorna les capçaleres del recurs, i PUT retorna el cos complet.", false],
+      ["No hi ha cap diferència, fan exactament el mateix de formes diferents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Per a què és especialment útil el mètode HEAD en HTTP?",
+    "respostes": [
+      ["Per obtenir informació sobre un recurs (com la mida o data de modificació) llegint només les capçaleres sense descarregar-ne el cos.", true],
+      ["Per obtenir l'adreça IP del servidor DNS associat.", false],
+      ["Per forçar l'eliminació d'una cookie al navegador del client.", false],
+      ["Per carregar noves dades en un formulari amagat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què indiquen els codis d'estat HTTP de la família 4xx (com el 404)?",
+    "respostes": [
+      ["Un error per part del client.", true],
+      ["Un error intern del servidor.", false],
+      ["Un èxit en la sol·licitud.", false],
+      ["Una redirecció a una altra pàgina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quines de les següents funcionalitats van ser introduïdes a HTTP/2?",
+    "respostes": [
+      ["El multiplexing de sol·licituds sobre una sola connexió, la compressió d'headers i el Server Push.", true],
+      ["La connexió persistent (keep-alive) i el suport per contingut dinàmic.", false],
+      ["El protocol QUIC i la transmissió exclusiva basada en UDP.", false],
+      ["L'adopció de xifratge de manera obligatòria i el format JSON en lloc d'HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quina característica tècnica defineix la innovació principal de HTTP/3?",
+    "respostes": [
+      ["Està basat en el protocol QUIC, que funciona sobre UDP en lloc de TCP, combinant velocitat, baixa latència i fiabilitat.", true],
+      ["Substitueix les IPs per noms d'usuari globals en la web profunda.", false],
+      ["Elimina el mètode GET per fer la web completament dinàmica.", false],
+      ["Transmet totes les dades en text pla sense possibilitat de TLS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quins ports utilitza per defecte HTTP i HTTPS respectivament?",
+    "respostes": [
+      ["Port 80 (HTTP) i Port 443 (HTTPS).", true],
+      ["Port 21 (HTTP) i Port 22 (HTTPS).", false],
+      ["Port 8080 (HTTP) i Port 4433 (HTTPS).", false],
+      ["Port 23 (HTTP) i Port 25 (HTTPS).", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin protocol d'aplicació utilitza dos canals de comunicació diferents (un de control i un de dades) habitualment als ports 21 i 20?",
+    "respostes": [
+      ["FTP (File Transfer Protocol).", true],
+      ["SSH (Secure Shell).", false],
+      ["Telnet.", false],
+      ["HTTP (HyperText Transfer Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "A l'hora de transferir fitxers per FTP, quin avantatge té utilitzar el 'Mode Passiu'?",
+    "respostes": [
+      ["El client inicia totes les connexions (tant de control com de dades), oferint millor compatibilitat amb firewalls i NAT.", true],
+      ["El servidor pren el control de l'ordinador del client per accelerar la descàrrega.", false],
+      ["Garanteix l'encriptació automàtica de les dades mitjançant RSA de 4096 bits.", false],
+      ["S'utilitza només per a transferir arxius de text ASCII de poc pes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "En el protocol FTP, quina comanda sol·licita recuperar o descarregar un fitxer del servidor al client?",
+    "respostes": [
+      ["RETR.", true],
+      ["STOR.", false],
+      ["LIST.", false],
+      ["CWD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quina diferència tècnica i de seguretat hi ha entre FTPS i SFTP?",
+    "respostes": [
+      ["SFTP es basa en SSH i utilitza un sol port (22), mentre que FTPS és una extensió de FTP amb SSL/TLS que utilitza múltiples ports.", true],
+      ["SFTP no xifra les contrasenyes, però FTPS sí.", false],
+      ["FTPS és compatible amb qualsevol firewall per defecte, mentre que SFTP està obsolet.", false],
+      ["Són el mateix protocol però amb noms comercials diferents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin és el principal problema de seguretat del protocol Telnet?",
+    "respostes": [
+      ["Transmet totes les dades, incloent les credencials d'autenticació, en text pla sense xifrar.", true],
+      ["No permet executar comandes, només visualitzar text.", false],
+      ["Requereix la generació prèvia de certificats SSL extremadament costosos.", false],
+      ["Satura ràpidament el servidor amb connexions en bucle.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin protocol criptogràfic ha reemplaçat de facto a Telnet per realitzar connexions a dispositius remots?",
+    "respostes": [
+      ["SSH (Secure Shell).", true],
+      ["FTP (File Transfer Protocol).", false],
+      ["SMTP (Simple Mail Transfer Protocol).", false],
+      ["HTTP (HyperText Transfer Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quina versió de SSH es recomana actualment i inclou millores com suport per canals múltiples i autenticació avançada?",
+    "respostes": [
+      ["SSH-2.", true],
+      ["SSH-1.", false],
+      ["SSH-3.", false],
+      ["SSH-TLS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin mètode d'autenticació en SSH es considera més segur i recomanat en entorns crítics per ser resistent als atacs de força bruta?",
+    "respostes": [
+      ["L'autenticació basada en clau pública i privada.", true],
+      ["L'autenticació tradicional per usuari i contrasenya curta.", false],
+      ["L'autenticació basada en adreces MAC.", false],
+      ["L'autenticació mitjançant codis CAPTCHA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què és i per a què serveix un 'Túnel dinàmic' (proxy SOCKS) en l'entorn SSH?",
+    "respostes": [
+      ["Permet crear un proxy que gestiona múltiples connexions (navegadors, correu) de manera que tot el trànsit d'aquelles aplicacions surti pel servidor remot de forma segura.", true],
+      ["Serveix per bloquejar l'accés a determinats llocs web als empleats.", false],
+      ["Consisteix en enviar paquets maliciosos a un servidor per provar la seva defensa.", false],
+      ["Es tracta d'una funció física del cable de xarxa per protegir-lo de l'aigua.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Entre el protocol SCP i el protocol SFTP, quin ofereix una interfície més rica i robusta per llistar directoris i canviar permisos de fitxers?",
+    "respostes": [
+      ["SFTP.", true],
+      ["SCP.", false],
+      ["Tots dos tenen exactament la mateixa funcionalitat.", false],
+      ["Cap dels dos, només FTP pot llistar directoris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Entre quines capes del model OSI opera la suite de protocols SSL/TLS?",
+    "respostes": [
+      ["Entre la Capa de Transport (Capa 4) i la Capa d'Aplicació (Capa 7).", true],
+      ["Entre la Capa Física (Capa 1) i la Capa d'Enllaç de Dades (Capa 2).", false],
+      ["Només exclusivament a la Capa de Xarxa (Capa 3).", false],
+      ["Són protocols exclusius del maquinari, fora del model OSI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Dins de l'arquitectura SSL/TLS, quin sub-protocol s'encarrega exclusivament d'establir i negociar els paràmetres de seguretat entre client i servidor a l'inici?",
+    "respostes": [
+      ["El Handshake Protocol.", true],
+      ["El Record Protocol.", false],
+      ["El Alert Protocol.", false],
+      ["El Change Cipher Spec Protocol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "En una connexió segura (com HTTPS), quan té lloc el procés d'acord (handshake) d'SSL/TLS?",
+    "respostes": [
+      ["Immediatament després d'haver-se completat amb èxit el handshake TCP inicial.", true],
+      ["Abans d'establir cap connexió TCP, a nivell d'encaminador.", false],
+      ["Durant la transferència del darrer paquet de dades de la pàgina web.", false],
+      ["Només després que el servidor rebi la contrasenya de l'usuari web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin missatge envia inicialment el client al servidor per iniciar el handshake SSL/TLS amb les seves capacitats criptogràfiques?",
+    "respostes": [
+      ["Client Hello.", true],
+      ["Server Request.", false],
+      ["Key Exchange Init.", false],
+      ["Start Cipher.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què utilitzen tant el client com el servidor en el protocol TLS per generar la 'clau de sessió' simètrica final?",
+    "respostes": [
+      ["La clau premestra (pre-master secret) juntament amb els números aleatoris generats durant el handshake.", true],
+      ["El número d'IP del router del client exclusivament.", false],
+      ["Un arxiu .txt enviat per FTP al principi de la connexió.", false],
+      ["El DNI de l'usuari combinat amb el nom del domini.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Com s'autentica un servidor web davant del client durant el handshake HTTPS?",
+    "respostes": [
+      ["Enviant el seu certificat digital, que conté la seva clau pública, emès per una Autoritat de Certificació (CA).", true],
+      ["Validant un SMS enviat al número de telèfon del client.", false],
+      ["Responent a un ping amb menys de 10 ms de latència.", false],
+      ["Utilitzant exclusivament un mètode de xifratge simètric anomenat AES.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què és Heartbleed?",
+    "respostes": [
+      ["Una vulnerabilitat o bug històric en la implementació d'OpenSSL que permetia la lectura no autoritzada de la memòria del servidor.", true],
+      ["Un atac de denegació de servei (DDoS) dirigit exclusivament a servidors FTP.", false],
+      ["El nom d'un algoritme de xifrat simètric creat per Apple.", false],
+      ["Un protocol de transferència ràpida de fitxers de codi obert.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quina pràctica es recomana per aconseguir una configuració segura de SSL/TLS quant a versions i protocols?",
+    "respostes": [
+      ["Deshabilitar protocols obsolets com SSL 3.0 i TLS 1.0, utilitzant preferiblement TLS 1.2 o 1.3.", true],
+      ["Configurar el servidor perquè forci sempre l'ús de SSL 2.0 per assegurar retrocompatibilitat total.", false],
+      ["Utilitzar xifratge simètric per al handshake i xifrat asimètric per a les dades de sessió.", false],
+      ["Permetre intercanvis de claus exclusivament amb funcions hash MD5 per millorar la velocitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Per a què serveix habilitar el PFS (Perfect Forward Secrecy) en SSL/TLS?",
+    "respostes": [
+      ["Assegura que encara que es comprometi la clau privada del servidor a llarg termini, no es puguin desxifrar les sessions passades gravades.", true],
+      ["Impedeix que els clients amb navegadors vells puguin accedir a la web, protegint el servidor d'ordinadors antics.", false],
+      ["Comprimeix la mida dels certificats digitals per agilitzar el handshake inicial.", false],
+      ["Neteja automàticament l'historial del navegador del client quan tanca la pestanya HTTPS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "El protocol SSL/TLS s'utilitza només per a navegació web HTTP?",
+    "respostes": [
+      ["No, també es combina amb altres protocols com FTP (FTPS), SMTP, IMAP, POP3 i VoIP per aportar-los seguretat.", true],
+      ["Sí, només s'utilitza juntament amb HTTP per crear l'HTTPS. Les altres tecnologies fan servir IPsec.", false],
+      ["No, però només funciona per a correus electrònics en servidors Linux.", false],
+      ["Sí, i a més és completament incompatible amb protocols de transferència d'arxius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Què utilitza el client Telnet per connectar-se remotament amb un servidor?",
+    "respostes": [
+      ["Una interfície interactiva de línia de comandes on s'intercanvia text amb el host remot a través del port TCP 23.", true],
+      ["Una interfície gràfica tipus Escriptori Remot a través del port UDP 3389.", false],
+      ["L'intercanvi de certificats X.509 de manera transparent pel navegador.", false],
+      ["El descàrrega de documents indexats a través d'una VPN local.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "Quin algoritme asimètric (de clau pública i privada) s'utilitza comunament en el handshake de TLS per a intercanviar claus de sessió o autenticar el servidor?",
+    "respostes": [
+      ["RSA.", true],
+      ["AES.", false],
+      ["SHA-256.", false],
+      ["QUIC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "En HTTP/2, per què és beneficiós que el servidor utilitzi 'Server Push'?",
+    "respostes": [
+      ["Permet enviar recursos essencials (com CSS o JS) al client abans que els demani explícitament, reduint el temps de càrrega global.", true],
+      ["Bloqueja automàticament atacs de denegació de servei enviant falses alarmes a l'atacant.", false],
+      ["Obliga al navegador del client a processar vídeos abans que imatges per estalviar memòria RAM.", false],
+      ["Esborra el contingut de la memòria cau per garantir la versió més actualitzada de l'HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 60. Protocols d'aplicació de la xarxa Internet (I): HTTP/HTTPS, FTP, Telnet, SSH, SSL/TLS.",
+    "enunciat": "D'on prové SSL inicialment?",
+    "respostes": [
+      ["Va ser desenvolupat per l'empresa Netscape a la dècada dels 90 per xifrar les primeres comunicacions web.", true],
+      ["Va ser creat pel govern dels Estats Units per a l'exèrcit (ARPANET).", false],
+      ["Va ser creat pel CERN conjuntament amb la primera versió d'HTTP per Tim Berners-Lee.", false],
+      ["Va ser dissenyat el 2005 exclusivament per als serveis financers internacionals.", false]
+    ]
+  }
+]

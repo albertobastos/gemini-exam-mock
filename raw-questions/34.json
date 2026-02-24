@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quin és l'objectiu principal del manteniment de sistemes d'informació?",
+    "respostes": [
+      ["Assegurar que els sistemes funcionin de manera òptima, corregint errors i adaptant-los a nous requisits.", true],
+      ["Instal·lar nous sistemes operatius cada mes.", false],
+      ["Eliminar els usuaris inactius de la base de dades.", false],
+      ["Reduir el nombre de servidors físics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què implica el Manteniment Correctiu?",
+    "respostes": [
+      ["Afegir noves funcionalitats.", false],
+      ["Identificar i corregir errors o problemes que ja han sorgit (reactiu).", true],
+      ["Millorar el rendiment abans que falli res.", false],
+      ["Adaptar el sistema a una nova llei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quin tipus de manteniment es realitza per evitar problemes futurs, com actualitzacions de seguretat?",
+    "respostes": [
+      ["Manteniment Correctiu.", false],
+      ["Manteniment Preventiu.", true],
+      ["Manteniment Perfectiu.", false],
+      ["Manteniment Evolutiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "En què consisteix el Manteniment Perfectiu?",
+    "respostes": [
+      ["En corregir bugs crítics.", false],
+      ["En millorar l'eficiència, funcionalitat o usabilitat del sistema (optimització).", true],
+      ["En fer còpies de seguretat.", false],
+      ["En adaptar-se a un canvi de maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quan s'aplica el Manteniment Adaptatiu?",
+    "respostes": [
+      ["Quan l'usuari vol un color diferent a la pantalla.", false],
+      ["Quan cal adaptar el sistema a canvis en l'entorn tecnològic (SO, maquinari) o normatiu.", true],
+      ["Quan el sistema va lent.", false],
+      ["Quan es vol afegir un mòdul nou.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina diferència hi ha entre Manteniment Evolutiu i Perfectiu?",
+    "respostes": [
+      ["L'evolutiu afegeix noves funcionalitats per noves necessitats; el perfectiu millora les existents.", true],
+      ["Són el mateix.", false],
+      ["L'evolutiu és per corregir errors.", false],
+      ["El perfectiu és obligatori per llei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què inclou la planificació del manteniment?",
+    "respostes": [
+      ["Només la llista de telèfons del suport tècnic.", false],
+      ["Definició d'objectius, assignació de recursos, creació d'un calendari i establiment de procediments.", true],
+      ["La compra de llicències de jocs.", false],
+      ["La neteja física dels equips.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és la Gestió de la Configuració del programari?",
+    "respostes": [
+      ["Configurar la pantalla de l'ordinador.", false],
+      ["Identificació, control i seguiment de tots els components (codi, entorns, dades) per assegurar coherència.", true],
+      ["Instal·lar drivers d'impressora.", false],
+      ["Gestionar els correus electrònics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quin és l'objectiu del Control de Versions?",
+    "respostes": [
+      ["Controlar l'accés a internet.", false],
+      ["Gestionar canvis al codi font permetent treball col·laboratiu i recuperació de versions anteriors.", true],
+      ["Evitar que els usuaris instal·lin programes.", false],
+      ["Monitoritzar la temperatura del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina característica defineix Git com a sistema de control de versions?",
+    "respostes": [
+      ["És centralitzat.", false],
+      ["És distribuït, permet treball desconnectat i fusió de branques eficient.", true],
+      ["No permet fer branques.", false],
+      ["Només funciona a Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "En què es diferencia Subversion (SVN) de Git?",
+    "respostes": [
+      ["SVN és distribuït i Git centralitzat.", false],
+      ["SVN és centralitzat (un sol repositori principal) i Git és distribuït.", true],
+      ["SVN no guarda historial.", false],
+      ["Git no permet etiquetes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és un Element de Configuració (EC)?",
+    "respostes": [
+      ["Un cable de xarxa.", false],
+      ["Qualsevol component del sistema necessari per al seu funcionament i subjecte a canvi (codi, documentació, dades).", true],
+      ["Un error de programació.", false],
+      ["Una reunió de seguiment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina eina d'automatització utilitza fitxers YAML i no requereix agents instal·lats?",
+    "respostes": [
+      ["Puppet.", false],
+      ["Ansible.", true],
+      ["Chef.", false],
+      ["Nagios.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina eina utilitza 'receptes' i 'cuines' per definir l'estat del sistema?",
+    "respostes": [
+      ["Ansible.", false],
+      ["Chef.", true],
+      ["Docker.", false],
+      ["Git.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina és la funció de l'Entorn de Desenvolupament?",
+    "respostes": [
+      ["Servir l'aplicació als usuaris finals.", false],
+      ["Permetre als desenvolupadors crear i modificar codi, sovint localment.", true],
+      ["Fer còpies de seguretat.", false],
+      ["Monitoritzar el tràfic de xarxa real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Per a què serveix l'Entorn de Prova (Testing)?",
+    "respostes": [
+      ["Per escriure el codi inicial.", false],
+      ["Per verificar que el codi funciona correctament en condicions similars a producció abans de desplegar-lo.", true],
+      ["Per emmagatzemar dades antigues.", false],
+      ["Per formar nous empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què caracteritza l'Entorn de Producció?",
+    "respostes": [
+      ["És on es fan les proves experimentals.", false],
+      ["És on el sistema s'utilitza realment pels usuaris finals (alta estabilitat i seguretat).", true],
+      ["No té mesures de seguretat.", false],
+      ["Es reinicia cada hora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina eina permet crear contenidors lleugers per assegurar la coherència entre entorns?",
+    "respostes": [
+      ["VirtualBox.", false],
+      ["Docker.", true],
+      ["Ansible.", false],
+      ["Jenkins.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què fa Kubernetes?",
+    "respostes": [
+      ["Edita text.", false],
+      ["Orquestra contenidors, gestionant el desplegament i l'escalabilitat automàtica.", true],
+      ["Compila codi Java.", false],
+      ["Dissenya bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina eina s'associa amb 'Infraestructura com a Codi' (IaC) per provisionar recursos?",
+    "respostes": [
+      ["Word.", false],
+      ["Terraform.", true],
+      ["Excel.", false],
+      ["Photoshop.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és l'estratègia de 'Feature Branching' en el control de versions?",
+    "respostes": [
+      ["Crear una branca per a cada nova funcionalitat i fusionar-la al final.", true],
+      ["Treballar tots en la mateixa branca principal sempre.", false],
+      ["No utilitzar branques.", false],
+      ["Esborrar el codi antic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què implica el 'Manteniment Reactiu'?",
+    "respostes": [
+      ["Prevenir errors abans que passin.", false],
+      ["Corregir errors immediatament després que es detecten.", true],
+      ["Planificar millores a llarg termini.", false],
+      ["Ignorar els problemes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què mesura el KPI 'Temps de Resposta' en manteniment?",
+    "respostes": [
+      ["El temps total per arreglar el problema.", false],
+      ["La rapidesa amb què s'identifica i es comença a treballar en un problema.", true],
+      ["El temps que triga l'ordinador a engegar-se.", false],
+      ["El temps de descans dels tècnics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina és la funció de la traçabilitat en el manteniment?",
+    "respostes": [
+      ["Saber qui ha entrat a l'oficina.", false],
+      ["Rastrejar cada canvi des de la identificació fins a la implementació.", true],
+      ["Dibuixar línies al diagrama.", false],
+      ["Seguir els cables de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què permet la Integració Contínua (CI)?",
+    "respostes": [
+      ["Integrar nous empleats.", false],
+      ["Fusionar freqüentment el codi al repositori central i provar-lo automàticament.", true],
+      ["Connectar dos cables de xarxa.", false],
+      ["Unir dos departaments.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és la Distribució Contínua (CD)?",
+    "respostes": [
+      ["Repartir correu a l'oficina.", false],
+      ["El desplegament automàtic de canvis a producció un cop passen les proves.", true],
+      ["Vendre programari en CD-ROM.", false],
+      ["Distribuir la càrrega manualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Per què és important l'automatització en la gestió d'entorns?",
+    "respostes": [
+      ["Perquè queda més modern.", false],
+      ["Per reduir errors humans i assegurar la coherència entre entorns.", true],
+      ["Per eliminar tots els llocs de treball.", false],
+      ["Per gastar més diners en llicències.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què fa una eina de monitorització com Prometheus?",
+    "respostes": [
+      ["Gestiona usuaris.", false],
+      ["Supervisa l'ús de recursos i el rendiment del sistema en temps real.", true],
+      ["Edita vídeo.", false],
+      ["Envia correus de màrqueting.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què implica el 'Hotfix Branching'?",
+    "respostes": [
+      ["Crear una branca específica per corregir un error crític immediatament.", true],
+      ["Prendre cafè calent mentre es programa.", false],
+      ["Canviar tot el codi de cop.", false],
+      ["Esperar a la següent versió gran per arreglar l'error.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és un entorn de Preproducció?",
+    "respostes": [
+      ["Un entorn de desenvolupament inicial.", false],
+      ["Un entorn molt similar a producció per a proves finals abans del desplegament.", true],
+      ["Un entorn obsolet.", false],
+      ["L'ordinador personal del client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina utilitat té l'etiquetatge (tagging) en el control de versions?",
+    "respostes": [
+      ["Posar noms divertits al codi.", false],
+      ["Identificar versions específiques o estables per al desplegament.", true],
+      ["Ocultar codi.", false],
+      ["Esborrar branques antigues.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és l'escalabilitat en un entorn d'operació?",
+    "respostes": [
+      ["La capacitat de pujar escales.", false],
+      ["La capacitat d'adaptar-se a un augment de la demanda (ex: afegint servidors).", true],
+      ["La resistència a l'aigua.", false],
+      ["La velocitat del disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què permeten els logs del sistema?",
+    "respostes": [
+      ["Res, ocupen espai.", false],
+      ["Identificar patrons de comportament, rastrejar errors i avaluar el manteniment.", true],
+      ["Jugar a jocs.", false],
+      ["Veure vídeos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què és Puppet?",
+    "respostes": [
+      ["Un titella.", false],
+      ["Una eina de gestió de configuracions amb llenguatge declaratiu.", true],
+      ["Un sistema operatiu.", false],
+      ["Un navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quin és un benefici de l'automatització del desplegament?",
+    "respostes": [
+      ["Fa que el procés sigui més lent.", false],
+      ["Redueix el temps de posada en marxa i minimitza errors.", true],
+      ["Requereix més personal manual.", false],
+      ["Augmenta la complexitat per a l'usuari final.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina estratègia de desplegament permet reverteix fàcilment si hi ha errors?",
+    "respostes": [
+      ["Desplegament manual sense còpia.", false],
+      ["Blue-Green deployment o Canary releases.", true],
+      ["Esborrar el servidor i començar de nou.", false],
+      ["No actualitzar mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Quina eina permet gestionar múltiples repositoris de codi com GitHub o GitLab?",
+    "respostes": [
+      ["Git.", true],
+      ["Word.", false],
+      ["Paint.", false],
+      ["Calculator.", false]
+    ]
+  },
+  {
+    "tema": "Tema 34. Manteniment de sistemes d'informació. Planificació i gestió. Gestió de la configuració i de versions del programari. Gestió d'entorns d'operació.",
+    "enunciat": "Què inclou la documentació del manteniment?",
+    "respostes": [
+      ["La descripció del problema, la solució i els resultats.", true],
+      ["El menú del dia.", false],
+      ["Opinions personals sobre el clima.", false],
+      ["Res, no cal documentar.", false]
+    ]
+  }
+]

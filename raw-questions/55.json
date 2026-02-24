@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Què són els protocols de comunicació de dades?",
+    "respostes": [
+      ["Un programari antivirus per protegir les xarxes.", false],
+      ["Un conjunt de regles i convencions que defineixen com es transmeten les dades entre dispositius en una xarxa.", true],
+      ["L'equipament físic necessari per connectar ordinadors.", false],
+      ["Un sistema de xifrat exclusiu per al correu electrònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quins són els tres components principals dels protocols de comunicació?",
+    "respostes": [
+      ["Ordinador, Encaminador i Commutador.", false],
+      ["Sintaxi, Semàntica i Temporalitat.", true],
+      ["Ample de banda, Latència i Jitter.", false],
+      ["TCP, IP i UDP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Dins dels components d'un protocol, què defineix la 'Sintaxi'?",
+    "respostes": [
+      ["El significat de cada part del missatge.", false],
+      ["El format de les dades i el seu ordre.", true],
+      ["El sincronisme entre transmissor i receptor.", false],
+      ["La ruta física que seguiran les dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Què defineix la 'Temporalitat' en un protocol de comunicació?",
+    "respostes": [
+      ["El temps que es triga a instal·lar la xarxa.", false],
+      ["El sincronisme entre el transmissor i el receptor.", true],
+      ["L'hora i data de la creació del missatge.", false],
+      ["La caducitat dels paquets IP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quin és un dels principals avantatges de l'arquitectura en capes (nivells)?",
+    "respostes": [
+      ["Modularitat, que permet desenvolupar i actualitzar cada capa de manera independent sense afectar les altres.", true],
+      ["Elimina la necessitat d'utilitzar adreces IP.", false],
+      ["Fa que totes les dades viatgin per un sol cable físic ininterromput.", false],
+      ["Evita completament que els pirates informàtics puguin interceptar els missatges.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Què són les 'Primitives' en els models de comunicació per capes?",
+    "respostes": [
+      ["Dades corruptes que s'han de descartar.", false],
+      ["Operacions o funcions bàsiques que permeten la comunicació i interacció entre les capes d'un model.", true],
+      ["Els primers ordinadors creats per a xarxes locals.", false],
+      ["Dispositius físics d'interconnexió com repetidors i hubs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina primitive s'utilitza perquè una capa superior iniciï una acció sol·licitant un servei a la capa inferior?",
+    "respostes": [
+      ["INDICATION (Indicació).", false],
+      ["REQUEST (Sol·licitud).", true],
+      ["RESPONSE (Resposta).", false],
+      ["CONFIRM (Confirmació).", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina primitive utilitza una capa inferior per notificar a la capa superior que ha succeït un esdeveniment?",
+    "respostes": [
+      ["REQUEST (Sol·licitud).", false],
+      ["INDICATION (Indicació).", true],
+      ["RESPONSE (Resposta).", false],
+      ["CONFIRM (Confirmació).", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Què signifiquen les sigles PDU?",
+    "respostes": [
+      ["Process Data Unit.", false],
+      ["Protocol Data Units.", true],
+      ["Packet Distribution Utility.", false],
+      ["Private Data User.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina informació conté una PDU en transmetre's per la xarxa?",
+    "respostes": [
+      ["Exclusivament dades d'usuari sense cap altre paràmetre.", false],
+      ["Dades d'usuari i informació de control com capçaleres o peus de pàgina.", true],
+      ["Només codi font del sistema operatiu del router.", false],
+      ["El registre d'errors físics de la connexió a internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quin procés ocorre quan les dades es mouen cap avall a través de les capes al dispositiu emissor?",
+    "respostes": [
+      ["Desencapsulament.", false],
+      ["Encapsulament, afegint informació de control en cada capa.", true],
+      ["Compressió ZIP.", false],
+      ["Compilació de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Com s'anomena la PDU a la Capa Física (Capa 1)?",
+    "respostes": [
+      ["Trama.", false],
+      ["Bit.", true],
+      ["Paquet.", false],
+      ["Segment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Com s'anomena la PDU a la Capa d'Enllaç de Dades (Capa 2)?",
+    "respostes": [
+      ["Bit.", false],
+      ["Trama.", true],
+      ["Paquet.", false],
+      ["Datagrama.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Com s'anomena la PDU a la Capa de Xarxa (Capa 3)?",
+    "respostes": [
+      ["Trama.", false],
+      ["Paquet.", true],
+      ["Segment.", false],
+      ["Dada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Com s'anomena la PDU a la Capa de Transport (Capa 4)?",
+    "respostes": [
+      ["Paquet.", false],
+      ["Segment o Datagrama.", true],
+      ["Bit.", false],
+      ["Trama.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Què és el Model OSI?",
+    "respostes": [
+      ["Un protocol de seguretat informàtica d'alta complexitat.", false],
+      ["Un model teòric de referència de set capes que descriu els processos de comunicació de xarxa.", true],
+      ["Un dispositiu de commutació de paquets desenvolupat per Cisco.", false],
+      ["Un sistema operatiu de xarxa exclusiu de les administracions públiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quantes capes té el model de referència OSI?",
+    "respostes": [
+      ["4", false],
+      ["7", true],
+      ["5", false],
+      ["3", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina és la funció de la Capa Física del model OSI?",
+    "respostes": [
+      ["L'encaminament de paquets entre xarxes autònomes.", false],
+      ["Definir les característiques elèctriques, mecàniques i la senyalització per a la transmissió de bits pel medi.", true],
+      ["Xifrar i comprimir les dades de l'usuari final.", false],
+      ["Establir i mantenir sessions entre aplicacions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina capa del model OSI proporciona un enllaç de dades fiable entre dos dispositius connectats directament i utilitza el control MAC?",
+    "respostes": [
+      ["Capa de Xarxa.", false],
+      ["Capa d'Enllaç de Dades.", true],
+      ["Capa Física.", false],
+      ["Capa de Transport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quines són les dues subcapes que formen part de la Capa d'Enllaç de Dades?",
+    "respostes": [
+      ["TCP i UDP.", false],
+      ["MAC (Media Access Control) i LLC (Logical Link Control).", true],
+      ["IP i ICMP.", false],
+      ["HTTP i FTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina capa s'encarrega de l'encaminament de paquets i de determinar la ruta utilitzant adreces IP?",
+    "respostes": [
+      ["Capa de Presentació.", false],
+      ["Capa de Xarxa.", true],
+      ["Capa d'Enllaç de Dades.", false],
+      ["Capa de Sessió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quin d'aquests protocols pertany a la Capa de Xarxa?",
+    "respostes": [
+      ["Ethernet.", false],
+      ["IP (Internet Protocol).", true],
+      ["HTTP.", false],
+      ["TCP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina capa assegura la transferència de dades entre sistemes finals controlant el flux, els errors i la segmentació?",
+    "respostes": [
+      ["Capa d'Aplicació.", false],
+      ["Capa de Transport.", true],
+      ["Capa de Xarxa.", false],
+      ["Capa Física.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina característica destaca el protocol TCP de la Capa de Transport?",
+    "respostes": [
+      ["És un protocol orientat a connexió, fiable i amb control de flux.", true],
+      ["És un protocol sense connexió, lleuger però no fiable.", false],
+      ["S'encarrega d'encaminar paquets basant-se en l'adreça IP.", false],
+      ["Controla l'accés físic al medi a través d'adreces MAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina característica destaca el protocol UDP respecte al TCP?",
+    "respostes": [
+      ["Garanteix l'entrega ordenada de tots els paquets sense cap error.", false],
+      ["És un protocol sense connexió, més ràpid i lleuger, però sense garanties de lliurament.", true],
+      ["Realitza un 'handshake' de tres passos abans de transmetre les dades.", false],
+      ["Utilitza l'algoritme de Dijkstra per calcular les rutes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina capa del model OSI gestiona l'establiment, manteniment i tancament de diàlegs entre aplicacions?",
+    "respostes": [
+      ["Capa d'Enllaç de Dades.", false],
+      ["Capa de Sessió.", true],
+      ["Capa d'Aplicació.", false],
+      ["Capa de Transport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "A quina capa del model OSI li correspon la traducció, compressió i xifratge (com ara TLS o formats com JPEG) de les dades?",
+    "respostes": [
+      ["Capa de Transport.", false],
+      ["Capa de Presentació.", true],
+      ["Capa de Sessió.", false],
+      ["Capa Física.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina capa connecta directament amb les aplicacions de l'usuari final per proporcionar serveis com navegació web (HTTP) o correu (SMTP)?",
+    "respostes": [
+      ["Capa d'Aplicació.", true],
+      ["Capa de Xarxa.", false],
+      ["Capa de Presentació.", false],
+      ["Capa d'Enllaç de Dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "En el dispositiu receptor, quin procés es duu a terme a mesura que les dades pugen per les capes del model OSI?",
+    "respostes": [
+      ["Empaquetament.", false],
+      ["Desencapsulament (eliminant capçaleres i peus de pàgina seqüencialment).", true],
+      ["Xifratge asimètric absolut.", false],
+      ["Codificació en format binari d'ona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quin altre model pràctic de comunicació, estretament vinculat a Internet, s'esmenta com a alternativa al model teòric OSI?",
+    "respostes": [
+      ["Model de Bus.", false],
+      ["Model TCP/IP.", true],
+      ["Model X.25.", false],
+      ["Model AppleTalk.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quantes capes conformen el model TCP/IP?",
+    "respostes": [
+      ["7", false],
+      ["4", true],
+      ["3", false],
+      ["5", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "A quines capes del model OSI equival la 'Capa d'Accés a la Xarxa' del model TCP/IP?",
+    "respostes": [
+      ["A la Capa Física i la Capa d'Enllaç de Dades.", true],
+      ["A la Capa de Sessió i la Capa de Presentació.", false],
+      ["A la Capa de Transport i la Capa de Xarxa.", false],
+      ["A la Capa d'Aplicació només.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "En el model TCP/IP, quina capa agrupa les funcions que al model OSI realitzen les capes de Sessió, Presentació i Aplicació?",
+    "respostes": [
+      ["Capa d'Internet.", false],
+      ["Capa d'Aplicació.", true],
+      ["Capa de Transport.", false],
+      ["Capa de Representació General.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "Quina operació fa una primitive 'RESPONSE'?",
+    "respostes": [
+      ["Inicia l'enviament de senyals físics.", false],
+      ["Permet a la capa superior respondre a una indicació (INDICATION) provinent de la capa inferior.", true],
+      ["Obliga l'encaminador a esborrar la seva taula de rutes.", false],
+      ["Confirma que un procés al nivell 7 ha finalitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 55. Protocols de comunicació de dades. Nivells, primitives i PDU. El model OSI de comunicació de dades.",
+    "enunciat": "D'acord al document, quin avantatge té l'estandardització en capes envers l'interoperabilitat?",
+    "respostes": [
+      ["Aconsegueix que la memòria utilitzada al servidor es redueixi al mínim indispensable.", false],
+      ["Permet que dispositius i sistemes de diferents fabricants puguin comunicar-se entre ells en un entorn global.", true],
+      ["Imposa que tots els dispositius del mercat utilitzin únicament sistemes operatius oberts.", false],
+      ["Garanteix directament la qualitat de servei (QoS) per vídeo i VoIP sense latència.", false]
+    ]
+  }
+]

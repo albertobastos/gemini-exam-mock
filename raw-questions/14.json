@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què defineix principalment la informàtica en el núvol (cloud computing)?",
+    "respostes": [
+      ["La fabricació de servidors físics per a empreses.", false],
+      ["L'accés remot a recursos informàtics a través d'internet de manera flexible i escalable.", true],
+      ["L'ús exclusiu de cables de fibra òptica per a connexions locals.", false],
+      ["La instal·lació de programari només en discs durs físics locals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin dels següents és un recurs típicament ofert pels proveïdors de serveis en el núvol?",
+    "respostes": [
+      ["Escriptoris de fusta per a oficines.", false],
+      ["Servidors, emmagatzematge, bases de dades i xarxes.", true],
+      ["Maquinària pesant industrial.", false],
+      ["Electricitat per a tota la ciutat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què significa el model IaaS (Infraestructura com a Servei)?",
+    "respostes": [
+      ["Lloguer d'aplicacions web ja acabades.", false],
+      ["Provisió de recursos informàtics virtualitzats com servidors i xarxes sota demanda.", true],
+      ["Oferir només serveis de neteja de CPD.", false],
+      ["Un entorn on no es pot instal·lar cap sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin nivell de control té l'usuari en un model IaaS?",
+    "respostes": [
+      ["Cap, el proveïdor ho controla tot fins a l'aplicació.", false],
+      ["Control complet sobre la infraestructura virtual, incloent sistemes operatius.", true],
+      ["Només pot canviar el color de la interfície.", false],
+      ["Només pot accedir a una base de dades tancada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin és un exemple típic de servei IaaS?",
+    "respostes": [
+      ["Google Workspace.", false],
+      ["Amazon Web Services (AWS) EC2.", true],
+      ["Salesforce.", false],
+      ["Microsoft Office 365.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin és l'objectiu principal del model PaaS (Plataforma com a Servei)?",
+    "respostes": [
+      ["Llogar espai físic en un magatzem.", false],
+      ["Oferir un entorn de desenvolupament i desplegament sense gestionar la infraestructura subjacent.", true],
+      ["Vendre ordinadors portàtils a gran escala.", false],
+      ["Proporcionar només cables de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "A qui va dirigit principalment el model PaaS?",
+    "respostes": [
+      ["A usuaris finals que només volen enviar correus.", false],
+      ["A desenvolupadors que volen crear i provar aplicacions ràpidament.", true],
+      ["A personal de neteja del centre de dades.", false],
+      ["A venedors de maquinari físic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin servei es considera un exemple de PaaS?",
+    "respostes": [
+      ["Heroku o Google App Engine.", true],
+      ["Un disc dur extern USB.", false],
+      ["Gmail.", false],
+      ["Windows 7 instal·lat localment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què caracteritza el model SaaS (Software com a Servei)?",
+    "respostes": [
+      ["L'usuari ha d'instal·lar el programa al seu propi servidor.", false],
+      ["L'accés a aplicacions a través d'internet mitjançant un navegador, sense instal·lacions locals.", true],
+      ["L'usuari ha de programar l'aplicació des de zero.", false],
+      ["El pagament és obligatoriament mitjançant intercanvi de maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin d'aquests és un exemple de SaaS?",
+    "respostes": [
+      ["Microsoft Azure Virtual Machines.", false],
+      ["Google Workspace (Gmail, Google Drive).", true],
+      ["Un cable Ethernet.", false],
+      ["Un compilador de C++ instal·lat al PC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què és un 'núvol privat'?",
+    "respostes": [
+      ["Un núvol que només es veu quan plou.", false],
+      ["Una infraestructura de núvol exclusiva per a una sola organització.", true],
+      ["Un servidor compartit per totes les empreses del món.", false],
+      ["L'ús d'internet pública sense cap seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin és un desavantatge potencial del núvol privat?",
+    "respostes": [
+      ["La manca de seguretat.", false],
+      ["Costos més alts degut a la inversió en maquinari i personal tècnic propi.", true],
+      ["Que tothom pot veure les dades de l'empresa.", false],
+      ["Que no permet cap personalització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què defineix un 'núvol públic'?",
+    "respostes": [
+      ["Infraestructura compartida entre múltiples organitzacions i gestionada per un tercer.", true],
+      ["Un servidor que està al mig del carrer.", false],
+      ["Una xarxa que no té contrasenyes.", false],
+      ["Un sistema que no permet el pagament per ús.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin és un avantatge clau del núvol públic?",
+    "respostes": [
+      ["El control físic total sobre els servidors per part de l'empresa.", false],
+      ["Escalabilitat i flexibilitat sense inversió inicial significativa.", true],
+      ["Que les dades no viatgen mai per internet.", false],
+      ["L'absència total de proveïdors externs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què és un 'núvol híbrid'?",
+    "respostes": [
+      ["Un núvol que només funciona a l'hivern.", false],
+      ["La combinació d'elements de núvol privat i públic que permeten compartir dades i aplicacions.", true],
+      ["Un sistema que no utilitza internet.", false],
+      ["Un servidor que funciona amb benzina i electricitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Per a què podria utilitzar una empresa de salut un núvol híbrid?",
+    "respostes": [
+      ["Per esborrar totes les dades dels pacients.", false],
+      ["Per tenir dades sensibles en un núvol privat i aplicacions administratives al públic.", true],
+      ["Per no haver de complir cap regulació.", false],
+      ["Per eliminar la connexió amb el client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin d'aquests és un benefici del cloud computing?",
+    "respostes": [
+      ["L'obligació de comprar maquinari nou cada mes.", false],
+      ["Escalabilitat: capacitat per augmentar o reduir recursos segons la necessitat.", true],
+      ["Dependència total d'un cable de coure local.", false],
+      ["Dificultat per accedir a les dades des de fora de l'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin és un dels desafiaments de la informàtica en el núvol?",
+    "respostes": [
+      ["La reducció de costos.", false],
+      ["La dependència de la qualitat i fiabilitat de la connexió a internet.", true],
+      ["La facilitat d'innovació.", false],
+      ["L'excés de servidors físics buits a l'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Com utilitza Netflix el cloud computing segons el document?",
+    "respostes": [
+      ["Gestiona tota la seva infraestructura amb AWS per oferir vídeo sota demanda escalable.", true],
+      ["Utilitza només discs DVD enviats per correu.", false],
+      ["No utilitza serveis en el núvol per seguretat.", false],
+      ["Té un sol ordinador a la seva seu que ho fa tot.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin model de desplegament prefereix una empresa financera amb dades extremadament sensibles?",
+    "respostes": [
+      ["Núvol públic obert a tothom.", false],
+      ["Núvol privat per tenir control complet i seguretat.", true],
+      ["No utilitzar mai cap tipus de xarxa.", false],
+      ["Fer servir només xarxes socials per a les dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què permet el model de pagament 'pay-as-you-go'?",
+    "respostes": [
+      ["Pagar una quota fixa per sempre encara que no s'utilitzi.", false],
+      ["Pagar només pels recursos informàtics que realment s'utilitzen.", true],
+      ["No pagar mai pel servei.", false],
+      ["Pagar abans de saber què es necessita.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "En el model PaaS, qui s'encarrega de la gestió automàtica de la infraestructura i el middleware?",
+    "respostes": [
+      ["L'usuari final.", false],
+      ["El proveïdor del servei.", true],
+      ["L'administrador local de l'empresa.", false],
+      ["El fabricant del processador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quina és una característica del SaaS?",
+    "respostes": [
+      ["Requereix instal·lar controladors complexos al PC.", false],
+      ["Gestió i actualitzacions automàtiques per part del proveïdor.", true],
+      ["L'usuari ha de fer el manteniment del servidor físic.", false],
+      ["No es pot accedir des d'un navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin risc s'associa a la 'dependència del proveïdor' (vendor lock-in)?",
+    "respostes": [
+      ["Que el proveïdor et regali massa serveis.", false],
+      ["Riscos associats a la dificultat de canviar de proveïdor si cal.", true],
+      ["Que el proveïdor no tingui internet.", false],
+      ["Que l'empresa creixi massa ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "A què es refereix el terme 'elasticitat' en el núvol?",
+    "respostes": [
+      ["A la flexibilitat física dels cables.", false],
+      ["A la capacitat d'adaptar els recursos ràpidament segons els pics de demanda.", true],
+      ["A que els preus sempre baixen.", false],
+      ["A que els servidors es poden doblegar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin servei de Dropbox es menciona com a exemple de canvi d'estratègia?",
+    "respostes": [
+      ["Va passar de núvol públic a una infraestructura de núvol privat per optimitzar costos.", true],
+      ["Va deixar d'oferir emmagatzematge.", false],
+      ["Va tancar els seus servidors per fer servir només USB.", false],
+      ["Només funciona amb paquets enviats físicament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "En un núvol públic, qui gestiona el manteniment de la infraestructura?",
+    "respostes": [
+      ["Cada client de manera individual.", false],
+      ["El proveïdor de serveis en núvol (com AWS o Google).", true],
+      ["El govern local.", false],
+      ["L'usuari que fa servir el navegador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què proporciona la 'accessibilitat' en el cloud computing?",
+    "respostes": [
+      ["Poder entrar al centre de dades físicament.", false],
+      ["Accés a aplicacions i dades des de qualsevol lloc amb internet.", true],
+      ["Que el ratolí funcioni sense mans.", false],
+      ["Que les dades només es puguin llegir des d'un sol PC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quina és la principal diferència de control entre IaaS i SaaS?",
+    "respostes": [
+      ["A IaaS l'usuari controla la infraestructura virtual; a SaaS només utilitza l'aplicació.", true],
+      ["A SaaS es controla el maquinari físic; a IaaS no.", false],
+      ["Són exactament el mateix.", false],
+      ["IaaS només és per a mòbils i SaaS per a PCs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Com millora el cloud computing la productivitat dels desenvolupadors en el model PaaS?",
+    "respostes": [
+      ["Els obliga a treballar més hores.", false],
+      ["Els permet centrar-se en el codi sense preocupar-se de la gestió del servidor.", true],
+      ["Els dóna cafè gratuït.", false],
+      ["Redueix la velocitat de les proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què s'entén per 'compliment normatiu' en els desafiaments del núvol?",
+    "respostes": [
+      ["Assegurar que les dades compleixen les lleis i estàndards de protecció.", true],
+      ["Seguir les ordres del cap de l'empresa.", false],
+      ["Pagar les factures d'internet puntualment.", false],
+      ["No fer servir programes il·legals al PC de casa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "En el núvol públic, els recursos són...",
+    "respostes": [
+      ["D'ús exclusiu i tancats.", false],
+      ["Compartits entre diversos clients (multi-usuari).", true],
+      ["Propietat del client que els lloga.", false],
+      ["Limitats a un sol GB d'espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quina configuració del núvol híbrid és més complexa de gestionar?",
+    "respostes": [
+      ["La que utilitza només un llapis de memòria.", false],
+      ["La que implica coordinar diferents tipus d'infraestructures (pública i privada).", true],
+      ["La que no té seguretat.", false],
+      ["Un núvol que no té dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin és un exemple de model de subscripció típic de SaaS?",
+    "respostes": [
+      ["Pagar per cada bit que es mou pel cable.", false],
+      ["Models com Microsoft Office 365 o Salesforce.", true],
+      ["Pagar per la compra física del CD-ROM.", false],
+      ["No pagar mai res.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quina relació té l'escalabilitat amb els costos?",
+    "respostes": [
+      ["Escalar sempre és més car que comprar servidors físics.", false],
+      ["Permet optimitzar costos pagant només per l'increment necessari en moments puntuals.", true],
+      ["No té cap relació.", false],
+      ["Escalar redueix la qualitat del servei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Què facilita l'expansió global ràpida d'Airbnb segons el document?",
+    "respostes": [
+      ["L'ús de serveis de núvol com AWS.", true],
+      ["La compra d'hotels físics.", false],
+      ["No utilitzar tecnologia.", false],
+      ["L'ús de taxis locals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "En el resum del tema, quins són els tres models principals de servei?",
+    "respostes": [
+      ["IaaS, PaaS, SaaS.", true],
+      ["CPU, RAM, HDD.", false],
+      ["LAN, WAN, MAN.", false],
+      ["HTML, CSS, JS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 14. La informàtica en núvol (cloud computing). IaaS, PaaS, SaaS. Núvols privats, públics i híbrids.",
+    "enunciat": "Quin tipus de núvol ofereix control total i personalització màxima per a una sola empresa?",
+    "respostes": [
+      ["Núvol públic.", false],
+      ["Núvol privat.", true],
+      ["Núvol híbrid.", false],
+      ["Núvol de tempesta.", false]
+    ]
+  }
+]

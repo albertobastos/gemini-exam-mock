@@ -1,0 +1,372 @@
+[
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin principi fonamental de la seguretat en xarxes es garanteix mitjançant l'encriptació de les dades transmeses?",
+    "respostes": [
+      ["La confidencialitat.", true],
+      ["La disponibilitat.", false],
+      ["L'autoria.", false],
+      ["La redundància.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin mecanisme s'utilitza per preservar la integritat de les dades durant la transmissió en una xarxa?",
+    "respostes": [
+      ["L'ús de funcions hash i signatures digitals.", true],
+      ["La implementació de sistemes redundants de maquinari.", false],
+      ["La segmentació de la xarxa en subxarxes.", false],
+      ["L'ocultació de l'adreça IP mitjançant proxys anònims.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Com s'aconsegueix principalment el principi de disponibilitat en xarxes?",
+    "respostes": [
+      ["A través de sistemes redundants, plans de recuperació i protecció contra atacs DoS.", true],
+      ["Mitjançant l'encriptació de punta a punta de totes les comunicacions.", false],
+      ["Amb l'ús exclusiu de certificats digitals per a tots els dispositius.", false],
+      ["Desactivant el tràfic d'entrada no sol·licitat en els tallafocs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "A què fa referència el principi d'Autoria en la seguretat de xarxes?",
+    "respostes": [
+      ["A permetre la traçabilitat i l'auditoria de totes les accions realitzades a la xarxa.", true],
+      ["A garantir que el creador de la xarxa té accés de superusuari.", false],
+      ["A encriptar el codi font de les aplicacions distribuïdes.", false],
+      ["A bloquejar missatges de correu no desitjats (spam).", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina és la diferència clau entre un atac DoS i un atac DDoS?",
+    "respostes": [
+      ["El DoS prové d'una única font i el DDoS utilitza múltiples dispositius coordinats (sovint una botnet).", true],
+      ["El DoS altera dades i el DDoS esborra les dades.", false],
+      ["El DoS es dirigeix al maquinari i el DDoS al programari.", false],
+      ["No hi ha cap diferència tècnica, són sinònims.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Què és una botnet?",
+    "respostes": [
+      ["Una xarxa de dispositius compromesos controlats per un atacant per llançar atacs coordinats.", true],
+      ["Un programari antivirus intel·ligent que actua de manera autònoma.", false],
+      ["Un servidor intermediari dissenyat per guardar catxé de pàgines web.", false],
+      ["Una xarxa corporativa altament segmentada per aïllar amenaces.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina estratègia s'utilitza per mitigar un atac DDoS dispersant el contingut per minimitzar-ne l'impacte?",
+    "respostes": [
+      ["L'ús de Content Delivery Networks (CDN).", true],
+      ["L'SSL Stripping.", false],
+      ["L'ús de DNSSEC.", false],
+      ["L'Autenticació Multifactor (MFA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Què implica un atac de suplantació o spoofing?",
+    "respostes": [
+      ["La falsificació de dades (com IP, DNS o ARP) per fer-se passar per una entitat de confiança a la xarxa.", true],
+      ["El segrest de les dades del sistema a canvi del pagament d'un rescat.", false],
+      ["La infecció d'un fitxer executable que s'autoreplica automàticament.", false],
+      ["La saturació de l'amplada de banda d'una connexió a internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina tecnologia ajuda a prevenir atacs de DNS Spoofing garantint que les respostes DNS són autèntiques?",
+    "respostes": [
+      ["DNSSEC (DNS Security Extensions).", true],
+      ["Dynamic ARP Inspection (DAI).", false],
+      ["IPsec (Internet Protocol Security).", false],
+      ["Inspecció profunda de paquets (DPI).", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin atac consisteix a enviar respostes falses per associar una adreça MAC maliciosa amb una IP legítima?",
+    "respostes": [
+      ["ARP Spoofing.", true],
+      ["IP Spoofing.", false],
+      ["SSL Stripping.", false],
+      ["Phishing.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "En què consisteix un atac Man-in-the-Middle (MitM)?",
+    "respostes": [
+      ["L'atacant intercepta i pot modificar la comunicació entre dues parts sense que cap d'elles ho sàpiga.", true],
+      ["L'atacant satura el servidor de peticions TCP fins a fer-lo caure.", false],
+      ["L'atacant esbrina la contrasenya provant milions de combinacions.", false],
+      ["L'atacant infecta el disc dur de la víctima xifrant-lo immediatament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina tècnica utilitzen els atacs MitM per forçar la desviació d'una connexió HTTPS a HTTP, interceptant la comunicació no xifrada?",
+    "respostes": [
+      ["SSL Stripping.", true],
+      ["Reenvio d'Autenticació.", false],
+      ["SYN flood.", false],
+      ["Quid Pro Quo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina és una de les principals mesures defensives contra atacs Man-in-the-Middle?",
+    "respostes": [
+      ["L'encriptació de punta a punta (E2EE) i l'ús de certificats SSL/TLS correctes.", true],
+      ["Tenir excés de capacitat d'amplada de banda a la xarxa.", false],
+      ["Instal·lar un proxy invers de catxé de continguts.", false],
+      ["Realitzar anàlisis de vulnerabilitats físiques de l'equipament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Què diferencia la tècnica de Spear Phishing del Phishing tradicional?",
+    "respostes": [
+      ["El Spear Phishing personalitza els missatges dirigint-los a un objectiu específic per fer-los molt més convincents.", true],
+      ["El Spear Phishing ataca exclusivament a servidors web comercials.", false],
+      ["El Spear Phishing s'envia sempre de manera massiva i aleatòria.", false],
+      ["El Spear Phishing no utilitza mai el correu electrònic com a mitjà d'atac.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "En l'àmbit de l'enginyeria social, què és el 'Whaling'?",
+    "respostes": [
+      ["Un atac de phishing altament dirigit a individus de gran nivell dins d'una organització (ex: executius).", true],
+      ["Un programari dissenyat per interceptar i capturar grans volums de paquets de dades en una xarxa corporativa.", false],
+      ["L'explotació d'una vulnerabilitat zero-day a la base de dades de l'empresa.", false],
+      ["Una tècnica de bloqueig d'adreces IP utilitzada per tallafocs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina tàctica d'enginyeria social enganxa les víctimes a través de promeses de recompenses (com descarregar un fitxer gratuït)?",
+    "respostes": [
+      ["Baiting.", true],
+      ["Pretexting.", false],
+      ["Quid Pro Quo.", false],
+      ["Spear Phishing.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina és la característica principal dels cucs (worms) informàtics en comparació amb els virus tradicionals?",
+    "respostes": [
+      ["Són autoreplicants i es propaguen a través de xarxes sense necessitat de cap interacció humana ni lligar-se a programes legítims.", true],
+      ["Necessiten que l'usuari els executi manualment per començar la infecció.", false],
+      ["Es disfressen de programari legítim per enganyar a l'usuari.", false],
+      ["Només afecten l'arxiu de configuració de xarxa de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin tipus de malware xifra les dades del sistema d'una víctima i exigeix el pagament d'un rescat per proporcionar-ne la clau?",
+    "respostes": [
+      ["Ransomware.", true],
+      ["Spyware.", false],
+      ["Troià.", false],
+      ["Adware.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina d'aquestes és una de les estratègies clau i més efectives de defensa prèvia contra un atac devastador de ransomware?",
+    "respostes": [
+      ["Mantenir còpies de seguretat regulars fora de línia de totes les dades crítiques.", true],
+      ["Instal·lar xifratge addicional als discs durs dels usuaris.", false],
+      ["Deshabilitar els tallafocs interns per evitar conflictes.", false],
+      ["Configurar tots els servidors amb adreces IP públiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Com actua un tallafoc (firewall) d'estat (Stateful Inspection)?",
+    "respostes": [
+      ["Manté un registre de les connexions actives i permet el tràfic només si forma part d'una connexió legítima establerta.", true],
+      ["Exclusivament filtra els paquets basant-se en l'adreça IP d'origen o destinació, de forma aïllada.", false],
+      ["Filtra completament en base al contingut d'alt nivell de les aplicacions de l'usuari.", false],
+      ["Oculta la IP de la xarxa local envers l'exterior, sense analitzar fluxos de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "En quin nivell del model OSI opera principalment un Tallafocs de Capa d'Aplicació (Proxy Firewall)?",
+    "respostes": [
+      ["A la capa d'aplicació (Capa 7).", true],
+      ["A la capa d'enllaç de dades (Capa 2).", false],
+      ["A la capa de xarxa (Capa 3).", false],
+      ["A la capa física (Capa 1).", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina capacitat avançada s'integra comunament dins dels Tallafocs de Nova Generació (NGFW)?",
+    "respostes": [
+      ["La inspecció profunda de paquets (DPI) i capacitats de prevenció d'intrusions integrades.", true],
+      ["El servei DHCP primari exclusiu per a xarxes IoT.", false],
+      ["Funcions només de proxy invers asíncron.", false],
+      ["Un entorn de modelatge 3D de l'arquitectura de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina és la funció principal d'un Proxy Invers (Reverse Proxy)?",
+    "respostes": [
+      ["Dirigir les peticions dels clients externs cap als servidors interns per equilibrar la càrrega i protegir-los de l'exposició directa.", true],
+      ["Ocultar l'adreça IP dels treballadors de l'organització quan naveguen per pàgines web d'internet.", false],
+      ["Xifrar tots els correus sortints de l'empresa de forma obligatòria.", false],
+      ["Generar signatures d'atacs a temps real basades en el comportament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "A nivell d'eficiència, quin benefici directe proporciona l'ús d'un Proxy de Caché a la xarxa corporativa?",
+    "respostes": [
+      ["Redueix el consum d'ample de banda i accelera l'accés en emmagatzemar còpies de pàgines web o recursos sol·licitats freqüentment.", true],
+      ["Detecta connexions anòmales dins de les xarxes WiFi de convidats.", false],
+      ["Modifica les adreces IP malicioses entrant a la xarxa cap a la paperera de reciclatge.", false],
+      ["Proporciona connexions VPN xifrades per teletreballadors remots.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina diferència fonamental hi ha entre un IDS i un IPS a l'hora de respondre a una amenaça detectada?",
+    "respostes": [
+      ["L'IDS és reactiu i només avisa mitjançant alertes; l'IPS és proactiu i pot bloquejar el tràfic maliciós en temps real.", true],
+      ["L'IDS pot bloquejar paquets directament a l'encaminador, mentre que l'IPS només envia correus d'avís als administradors.", false],
+      ["L'IDS s'instal·la al dispositiu de l'usuari final i l'IPS únicament al núvol públic.", false],
+      ["L'IDS filtra només en base a regles d'IP i port, mentre l'IPS actua exclusivament a nivell 2 d'enllaç de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Com operen els Sistemes de Detecció d'Intrusions (IDS) basats exclusivament en l'anàlisi de signatures?",
+    "respostes": [
+      ["Comparen el tràfic de la xarxa amb una base de dades que conté patrons i signatures d'atacs prèviament coneguts.", true],
+      ["Analitzen els desviament estadístics sobre un ús considerat \"normal\" per detectar qualsevol comportament inesperat.", false],
+      ["Inspeccionen l'interior de paquets xifrats mitjançant l'ús de claus privades concertades automàticament.", false],
+      ["Desvien el tràfic automàticament cap a entorns aïllats anomenats Honeypots.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin desafiament o desavantatge és inherent a l'ús d'IDS basats en anàlisi heurística i de comportament?",
+    "respostes": [
+      ["Tendeixen a produir un nombre més alt de falsos positius, ja que el tràfic inusual no sempre equival a un atac maliciós.", true],
+      ["Són totalment incapaços de detectar amenaces noves de tipus zero-day.", false],
+      ["Solament poden monitoritzar el correu electrònic entrant per SMTP.", false],
+      ["Requereixen obligatòriament actualitzacions diàries de signatures per poder funcionar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Com pot integrar-se un sistema DLP (Data Loss Prevention) amb el filtratge de continguts de la xarxa?",
+    "respostes": [
+      ["Detectant i bloquejant la sortida de dades o informació sensible a través de canals com correu o llocs web no autoritzats.", true],
+      ["Aïllant els virus un cop s'han descarregat a l'ordinador de l'empleat.", false],
+      ["Comprimint la informació entrant per estalviar espai a les bases de dades internes.", false],
+      ["Assegurant que els dominis públics d'internet no canvien d'adreça IP (Prevenció d'Spoofing).", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "En el context d'atacs DDoS de \"Capacitat de Connexió\", què intenta col·lapsar un atac SYN Flood?",
+    "respostes": [
+      ["La taula de connexions i l'estat TCP del servidor, impedint que aquest accepti noves connexions legítimes d'altres usuaris.", true],
+      ["El processador del router del client per aturar el Wi-Fi.", false],
+      ["L'espai lliure als discs durs del centre de dades.", false],
+      ["Les sol·licituds als servidors DNS d'arrel d'internet mundials únicament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Segons l'explicació sobre tendències futures, quin model de seguretat és essencial en la Computació en el Núvol, on cap petició es tracta com a confiable per defecte?",
+    "respostes": [
+      ["El model de Confiança Zero (Zero Trust).", true],
+      ["El model del Perímetre de Castell (Castle-and-Moat).", false],
+      ["El model de Línia Base Dèbil.", false],
+      ["El model de Xarxa Descentralitzada Anònima.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Què és la tàctica d'enginyeria social coneguda com a 'Pretexting'?",
+    "respostes": [
+      ["L'atacant inventa un escenari o es fa passar per una figura d'autoritat/entitat per justificar la sol·licitud d'informació confidencial.", true],
+      ["L'atacant infecta USBs abandonats en pàrquings corporatius per introduir codi maliciós en el sistema intern.", false],
+      ["L'atacant promet regals o favors a canvi que l'usuari reveli contrasenyes.", false],
+      ["L'atacant falsifica massivament la capçalera del correu perquè sembli provenir del CEO exclusivament a tota l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quina dificultat o repte de seguretat introdueixen especialment els dispositius IoT (Internet de les Coses) a la xarxa?",
+    "respostes": [
+      ["Molts tenen capacitats limitades de processament, presentant seguretat feble per defecte i servint de punts vulnerables per crear botnets.", true],
+      ["Sempre utilitzen encriptació complexa i de consum energètic massiu que frena tota la xarxa Wi-Fi local.", false],
+      ["Estan completament aïllats i són incapaços de comunicar-se amb el tallafocs principal.", false],
+      ["Actualitzen el seu firmware automàticament introduint errors en l'encaminador de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Per què l'adopció de les xarxes 5G representa un nou repte en ciberseguretat?",
+    "respostes": [
+      ["Perquè l'augment de l'amplada de banda i el massiu increment de dispositius connectats introdueixen superfícies d'atac molt més àmplies.", true],
+      ["Perquè utilitza freqüències de ràdio que danyen els tallafocs basats en maquinari si són exposats.", false],
+      ["Perquè només suporta adreces IPv4, les quals són ja invulnerables al spoofing de paquets.", false],
+      ["Perquè el 5G no permet la connexió als serveis en el núvol (Cloud Computing).", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin és l'objectiu dels troians en la categoria d'atacs de malware?",
+    "respostes": [
+      ["Disfressar-se com programari o aplicació inofensiva i legítima per enganyar els usuaris, amagant funcionalitats malicioses a dins.", true],
+      ["Esborrar i reescriure el sector d'arrencada del disc de l'ordinador (MBR) a l'instant de la descàrrega.", false],
+      ["Xifrar l'historial del navegador de manera que exigeix un pagament en criptomonedes exclusivament per desbloquejar-lo.", false],
+      ["Replicar-se de manera viral per enviar correus de phishing de la llibreta d'adreces de l'usuari a internet sense el seu permís.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Què amaga un proxy anònim quan un client accedeix a un recurs a través d'ell?",
+    "respostes": [
+      ["Oculta la identitat original de l'usuari bloquejant la seva adreça IP i presentant la del proxy al servidor de destinació.", true],
+      ["Oculta el domini de la web de destí al proveïdor de serveis d'internet (ISP) usant VPN encapsulat.", false],
+      ["Amaga les claus de sessió TLS utilitzades, de manera que ni tan sols el propi usuari les pot visualitzar en clar.", false],
+      ["Amaga els possibles virus dins dels paquets, fent que el tallafocs intern els ignori completament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Què significa aplicar el procediment de 'Overprovisioning' dins de la mitigació d'atacs DDoS?",
+    "respostes": [
+      ["Disposar d'una capacitat de xarxa i recursos tècnics que superi les necessitats habituals, permetent absorbir pujades de trànsit massives o un atac.", true],
+      ["Subcontractar un tercer equip tècnic per sobrecarregar el canal i contraatacar a la botnet atacant directament.", false],
+      ["Aïllar el servidor en una xarxa local desconnectada totalment de l'accés extern a internet quan es preveu un atac massiu.", false],
+      ["Pagar múltiples vegades els serveis de connexió a internet redundant que mai s'encenen tret de quan hi ha apagades elèctriques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 52. La seguretat i protecció en xarxes de comunicacions.",
+    "enunciat": "Quin comportament pot delatar un programa espia o Spyware dins un sistema?",
+    "respostes": [
+      ["La recopilació silenciosa d'informació sensible o sobre l'activitat de l'usuari sense que aquest en tingui coneixement, per a espionatge o venda.", true],
+      ["L'aparició de múltiples pestanyes negres en terminal enviant atacs de volumetria UDP cap a altres ordinadors d'internet massivament.", false],
+      ["El bloqueig absolut de la pantalla amb un missatge clar, amenaçador i visible que exigeix un rescat ràpid de rescat financer.", false],
+      ["L'adopció d'una MAC externa en els registres de taules ARP, modificant directament els paquets d'encaminament intern cap a les impressores.", false]
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què signifiquen les sigles RAID?",
+    "respostes": [
+      ["Rapid Access of Independent Data.", false],
+      ["Redundant Array of Independent Disks.", true],
+      ["Reliable Allocation of Internal Drives.", false],
+      ["Random Access Integrated Devices.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina és la característica principal del RAID 0?",
+    "respostes": [
+      ["Duplica les dades en dos discos.", false],
+      ["Utilitza paritat per protegir les dades.", false],
+      ["Distribueix les dades en blocs entre dos o més discos sense redundància.", true],
+      ["Permet la fallada de fins a dos discos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin és el principal desavantatge del RAID 0?",
+    "respostes": [
+      ["És molt lent en escriptura.", false],
+      ["Només utilitza el 50% de la capacitat.", false],
+      ["No proporciona tolerància a fallades; si un disc falla, es perden totes les dades.", true],
+      ["Requereix un mínim de tres discos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "En què consisteix el RAID 1?",
+    "respostes": [
+      ["En la distribució de paritat.", false],
+      ["En la duplicació (mirroring) de les dades en dos discos.", true],
+      ["En la combinació de striping i mirroring.", false],
+      ["En l'ús de discos virtuals al núvol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin percentatge de capacitat d'emmagatzematge útil ofereix un RAID 1?",
+    "respostes": [
+      ["100%.", false],
+      ["50%.", true],
+      ["75%.", false],
+      ["33%.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quants discos, com a mínim, es necessiten per implementar un RAID 5?",
+    "respostes": [
+      ["Un.", false],
+      ["Dos.", false],
+      ["Tres.", true],
+      ["Quatre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina afirmació descriu millor el RAID 5?",
+    "respostes": [
+      ["Distribueix dades i paritat entre tres o més discos, suportant la fallada d'un disc.", true],
+      ["Duplica les dades en tots els discos disponibles.", false],
+      ["No té paritat i és el més ràpid de tots.", false],
+      ["Suporta la fallada simultània de dos discos sense pèrdua de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina diferència principal hi ha entre RAID 5 i RAID 6?",
+    "respostes": [
+      ["RAID 6 no utilitza paritat.", false],
+      ["RAID 6 té paritat addicional distribuïda i permet la fallada de dos discos.", true],
+      ["RAID 5 és més segur que RAID 6.", false],
+      ["RAID 6 requereix menys discos que RAID 5.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin desavantatge té el RAID 6 respecte al RAID 5?",
+    "respostes": [
+      ["Té menys tolerància a fallades.", false],
+      ["És més lent en escriptura degut a la computació addicional de paritat.", true],
+      ["No permet reconstruir les dades.", false],
+      ["Només funciona amb discos SSD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Com funciona el RAID 10 (RAID 1+0)?",
+    "respostes": [
+      ["Primer fa striping i després mirroring.", false],
+      ["Combina mirroring i striping: les dades es dupliquen i després es distribueixen.", true],
+      ["Utilitza paritat doble sense mirroring.", false],
+      ["És una combinació de RAID 5 i RAID 6.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin és l'ordre d'operacions en un RAID 01?",
+    "respostes": [
+      ["Primer mirroring, després striping.", false],
+      ["Primer paritat, després striping.", false],
+      ["Primer es distribueixen les dades (striping) i després es dupliquen (mirroring).", true],
+      ["Només fa striping.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Per què el RAID 01 es considera menys eficient que el RAID 10?",
+    "respostes": [
+      ["Perquè és més lent.", false],
+      ["Perquè si falla un disc d'un parell, l'altre disc del parell és vulnerable i la tolerància és menor.", true],
+      ["Perquè utilitza més discos.", false],
+      ["Perquè no suporta discos SATA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què combina el nivell RAID 50?",
+    "respostes": [
+      ["RAID 5 i RAID 1.", false],
+      ["RAID 5 i RAID 0.", true],
+      ["RAID 1 i RAID 0.", false],
+      ["RAID 6 i RAID 5.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin avantatge ofereix el RAID 50 respecte al RAID 5?",
+    "respostes": [
+      ["Major rendiment amb millor redundància.", true],
+      ["Menor cost.", false],
+      ["Menys complexitat.", false],
+      ["No necessita controladora RAID.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina és la definició d'una SAN (Storage Area Network)?",
+    "respostes": [
+      ["Una xarxa local sense fils.", false],
+      ["Un tipus de disc dur extern.", false],
+      ["Una xarxa d'alta velocitat que connecta servidors i dispositius d'emmagatzematge permetent accés a nivell de bloc.", true],
+      ["Un programari de còpies de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin protocol de comunicació és típic en les xarxes SAN per a transferència ràpida?",
+    "respostes": [
+      ["HTTP.", false],
+      ["Fibre Channel.", true],
+      ["FTP.", false],
+      ["SMTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què són els 'Targets' en una xarxa SAN?",
+    "respostes": [
+      ["Els servidors que demanen dades.", false],
+      ["Els dispositius de xarxa com switches.", false],
+      ["Els dispositius d'emmagatzematge com discs i tapes.", true],
+      ["Els usuaris finals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què fa la tècnica de 'Zoning' en una SAN?",
+    "respostes": [
+      ["Cifra totes les dades del disc.", false],
+      ["Segrega l'accés a diferents parts de la SAN, limitant la visibilitat als hosts autoritzats.", true],
+      ["Augmenta la velocitat de rotació dels discs.", false],
+      ["Fa còpies de seguretat automàtiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "En què consisteix el 'LUN Masking'?",
+    "respostes": [
+      ["En ocultar els errors del sistema.", false],
+      ["En restringir l'accés a unitats lògiques (LUNs) específiques només a servidors autoritzats.", true],
+      ["En crear màscares de xarxa IP.", false],
+      ["En comprimir les dades per estalviar espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin protocol s'utilitza habitualment per a l'autenticació en SAN?",
+    "respostes": [
+      ["CHAP (Challenge Handshake Authentication Protocol).", true],
+      ["DHCP.", false],
+      ["DNS.", false],
+      ["POP3.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què és la virtualització de l'emmagatzematge?",
+    "respostes": [
+      ["L'ús de realitat virtual per veure els discs.", false],
+      ["El procés d'abstraure múltiples dispositius físics en una sola unitat lògica.", true],
+      ["La instal·lació de màquines virtuals en un servidor.", false],
+      ["L'emulació de consoles de videojocs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin és un avantatge de la virtualització de l'emmagatzematge?",
+    "respostes": [
+      ["Gestió simplificada i centralitzada.", true],
+      ["Augment del consum energètic.", false],
+      ["Reducció de la capacitat total.", false],
+      ["Major dificultat per afegir nous recursos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què caracteritza la 'Block-level virtualization'?",
+    "respostes": [
+      ["Agrupa sistemes d'arxius.", false],
+      ["Proporciona emmagatzematge com a servei web.", false],
+      ["Agrupa dispositius d'emmagatzematge a nivell de bloc, independentment del maquinari.", true],
+      ["Només funciona amb fitxers de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin exemple es dóna de virtualització a nivell de fitxer (File-level virtualization)?",
+    "respostes": [
+      ["Amazon S3.", false],
+      ["IBM SAN Volume Controller.", false],
+      ["NetApp V-Series.", true],
+      ["RAID 5.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin tipus de virtualització proporciona emmagatzematge com a servei (StaaS)?",
+    "respostes": [
+      ["RAID 10.", false],
+      ["Virtualització al núvol.", true],
+      ["Block-level virtualization.", false],
+      ["LUN Masking.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Per a quines aplicacions és ideal el RAID 10?",
+    "respostes": [
+      ["Sistemes on el rendiment no importa.", false],
+      ["Còpies de seguretat domèstiques barates.", false],
+      ["Bases de dades grans i aplicacions crítiques que requereixen alta disponibilitat i rendiment.", true],
+      ["Arxiu de dades a llarg termini sense accés freqüent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin nivell RAID híbrid combina RAID 6 i RAID 0?",
+    "respostes": [
+      ["RAID 10.", false],
+      ["RAID 50.", false],
+      ["RAID 60.", true],
+      ["RAID 01.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què fan els 'Switches' en una SAN?",
+    "respostes": [
+      ["Emmagatzemen les dades.", false],
+      ["Interconnecten els components de la xarxa SAN.", true],
+      ["Executen les aplicacions de l'usuari.", false],
+      ["Generen paritat per als discs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina tècnica de seguretat protegeix les dades en trànsit i en repòs?",
+    "respostes": [
+      ["Zoning.", false],
+      ["LUN Masking.", false],
+      ["Encriptació.", true],
+      ["Striping.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què permet Amazon S3 segons el text?",
+    "respostes": [
+      ["Emmagatzematge en cintes magnètiques.", false],
+      ["Emmagatzematge d'objectes escalable i d'alta disponibilitat al núvol.", true],
+      ["Accés exclusiu a nivell de bloc local.", false],
+      ["RAID 0 físic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin RAID utilitzaries per a edició de vídeo on el rendiment és crític i la pèrdua de dades acceptable?",
+    "respostes": [
+      ["RAID 1.", false],
+      ["RAID 5.", false],
+      ["RAID 0.", true],
+      ["RAID 6.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin component de la SAN accedeix a l'emmagatzematge?",
+    "respostes": [
+      ["Target.", false],
+      ["Host.", true],
+      ["Switch.", false],
+      ["Router.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin és el principal inconvenient del RAID 60?",
+    "respostes": [
+      ["Poca tolerància a errors.", false],
+      ["Molt complex i costós en maquinari i gestió.", true],
+      ["Baixa capacitat d'emmagatzematge.", false],
+      ["No permet striping.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què permet la 'Escalabilitat' en la virtualització de l'emmagatzematge?",
+    "respostes": [
+      ["Facilita l'addició de nous recursos sense interrupcions.", true],
+      ["Redueix la velocitat del sistema.", false],
+      ["Elimina la necessitat de còpies de seguretat.", false],
+      ["Fa que els discs siguin més petits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin nivell RAID té com a desavantatge una reconstrucció lenta després d'una fallada?",
+    "respostes": [
+      ["RAID 0.", false],
+      ["RAID 1.", false],
+      ["RAID 5.", true],
+      ["RAID 10.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin exemple de producte de virtualització a nivell de bloc s'esmenta?",
+    "respostes": [
+      ["NetApp V-Series.", false],
+      ["Amazon S3.", false],
+      ["IBM SAN Volume Controller.", true],
+      ["Windows Storage Spaces.", false]
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin és l'objectiu principal de la gestió de memòria en un sistema operatiu?",
+    "respostes": [
+      ["Augmentar la capacitat física del disc dur.", false],
+      ["Optimitzar l'ús de la memòria principal per garantir l'eficiència i la seguretat.", true],
+      ["Eliminar la necessitat de memòria cau.", false],
+      ["Gestionar exclusivament la memòria de la targeta gràfica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què caracteritza la memòria primària (RAM)?",
+    "respostes": [
+      ["És on es guarden les dades de manera permanent quan s'apaga l'ordinador.", false],
+      ["És la memòria que la CPU pot accedir directament per executar instruccions.", true],
+      ["És més lenta que la memòria secundària.", false],
+      ["No permet emmagatzemar dades temporals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin tipus de memòria s'utilitza per a l'emmagatzematge permanent de programes i dades?",
+    "respostes": [
+      ["Memòria cau.", false],
+      ["Registres.", false],
+      ["Memòria secundària (discos durs, SSD).", true],
+      ["Memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "En la jerarquia de memòria, quin és el component més ràpid i de menor capacitat?",
+    "respostes": [
+      ["La memòria principal.", false],
+      ["El disc dur.", false],
+      ["La memòria cau.", false],
+      ["Els registres de la CPU.", true]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quina funció té la memòria cau (Cache)?",
+    "respostes": [
+      ["Emmagatzemar còpies de seguretat.", false],
+      ["Actuar com a memòria intermèdia per accelerar l'accés a la RAM.", true],
+      ["Substituir completament la memòria RAM.", false],
+      ["Gestionar els permisos d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "En què consisteix la tècnica d'assignació contigua?",
+    "respostes": [
+      ["En dividir la memòria en blocs de mida fixa.", false],
+      ["En assignar un únic bloc contigu de memòria a cada procés.", true],
+      ["En utilitzar el disc dur com a memòria principal.", false],
+      ["En dividir el programa en segments lògics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin és un desavantatge principal de l'assignació contigua?",
+    "respostes": [
+      ["És molt lenta d'accedir.", false],
+      ["Requereix maquinari molt complex.", false],
+      ["Pot causar fragmentació externa.", true],
+      ["No permet executar cap procés.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Com divideix la memòria la tècnica de Paginació?",
+    "respostes": [
+      ["En segments de mida variable segons la lògica del programa.", false],
+      ["En blocs de mida fixa anomenats pàgines (lògica) i marcs (física).", true],
+      ["En un sol bloc continu.", false],
+      ["En fitxers temporals al disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin tipus de fragmentació elimina la Paginació?",
+    "respostes": [
+      ["Fragmentació interna.", false],
+      ["Fragmentació externa.", true],
+      ["Fragmentació de disc.", false],
+      ["Fragmentació de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin desavantatge pot presentar la Paginació?",
+    "respostes": [
+      ["Fragmentació interna, si l'última pàgina no s'omple.", true],
+      ["Impossibilitat d'utilitzar memòria virtual.", false],
+      ["Lentitud extrema en l'accés a dades.", false],
+      ["Incompatibilitat amb Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "En què es basa la Segmentació?",
+    "respostes": [
+      ["En dividir la memòria en blocs de mida fixa.", false],
+      ["En dividir la memòria en segments de mida variable que representen unitats lògiques (codi, dades, pila).", true],
+      ["En copiar tot el programa al disc dur.", false],
+      ["En eliminar la protecció de memòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin avantatge ofereix la Segmentació?",
+    "respostes": [
+      ["Elimina totalment la fragmentació.", false],
+      ["Permet la protecció i compartició de segments lògics entre processos.", true],
+      ["És la tècnica més senzilla d'implementar.", false],
+      ["No requereix suport de maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què combina la tècnica de Paginació amb Segmentació?",
+    "respostes": [
+      ["L'ús exclusiu de memòria cau.", false],
+      ["Els avantatges de reduir la fragmentació (paginació) i millorar la protecció lògica (segmentació).", true],
+      ["L'emmagatzematge en cinta magnètica.", false],
+      ["L'ús de processadors de 8 bits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què és la memòria virtual?",
+    "respostes": [
+      ["Una memòria que només existeix en la imaginació de l'usuari.", false],
+      ["Una tècnica que utilitza la memòria secundària per estendre la capacitat de la memòria principal.", true],
+      ["Un tipus de memòria RAM molt cara.", false],
+      ["La memòria de la targeta gràfica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin és un benefici clau de la memòria virtual?",
+    "respostes": [
+      ["Permet executar processos més grans que la memòria física disponible.", true],
+      ["Fa que el disc dur sigui més ràpid.", false],
+      ["Elimina la necessitat de tenir disc dur.", false],
+      ["Consumeix menys energia elèctrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què pot passar si s'abusa de la memòria virtual (ús excessiu de swap)?",
+    "respostes": [
+      ["L'ordinador explota.", false],
+      ["El rendiment es degrada significativament.", true],
+      ["La pantalla es torna negra.", false],
+      ["S'esborren les dades de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Com funciona l'algorisme de substitució de pàgines FIFO?",
+    "respostes": [
+      ["Substitueix la pàgina que fa més temps que no s'utilitza.", false],
+      ["Substitueix la pàgina que ha estat carregada primer (First-In, First-Out).", true],
+      ["Substitueix la pàgina que es farà servir més tard.", false],
+      ["Substitueix una pàgina a l'atzar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin algorisme de substitució es considera teòricament òptim però impossible de predir exactament?",
+    "respostes": [
+      ["FIFO.", false],
+      ["LRU.", false],
+      ["Algorisme òptim (substituir la pàgina que no s'usarà durant més temps).", true],
+      ["Round Robin.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què fa l'algorisme LRU (Least Recently Used)?",
+    "respostes": [
+      ["Substitueix la pàgina menys recentment utilitzada.", true],
+      ["Substitueix la pàgina més utilitzada.", false],
+      ["Substitueix la primera pàgina que va entrar.", false],
+      ["Esborra totes les pàgines.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què és la fragmentació externa?",
+    "respostes": [
+      ["Quan hi ha espai lliure dins d'un bloc assignat.", false],
+      ["Quan hi ha espai lliure total suficient, però no està contigu.", true],
+      ["Quan el disc dur està trencat físicament.", false],
+      ["Quan la memòria RAM és massa petita.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què és la fragmentació interna?",
+    "respostes": [
+      ["L'espai de memòria dins d'un bloc assignat que no s'utilitza.", true],
+      ["L'espai lliure entre processos.", false],
+      ["Un error del sistema operatiu.", false],
+      ["La pèrdua de dades per un virus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quins mecanismes s'utilitzen per protegir la memòria?",
+    "respostes": [
+      ["Un tallafoc (firewall).", false],
+      ["Taules de pàgines, registres base/límit i permisos.", true],
+      ["Contrasenyes d'usuari.", false],
+      ["Còpies de seguretat diàries.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què permet l'ús de registres base i límit?",
+    "respostes": [
+      ["Que el processador vagi més ràpid.", false],
+      ["Assegurar que un procés només accedeixi a la seva memòria assignada.", true],
+      ["Augmentar la capacitat de la RAM.", false],
+      ["Connectar-se a Internet de forma segura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin sistema de seguretat implementa Windows relacionat amb la memòria?",
+    "respostes": [
+      ["DEP (Data Execution Prevention).", true],
+      ["UAC (User Account Control).", false],
+      ["Windows Defender.", false],
+      ["BitLocker.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin sistema de gestió de memòria utilitza Linux principalment?",
+    "respostes": [
+      ["Assignació contigua simple.", false],
+      ["Paginació amb segmentació.", true],
+      ["Només segmentació pura.", false],
+      ["No gestiona la memòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quina és una funció de les taules de pàgines?",
+    "respostes": [
+      ["Controlar l'accés a la memòria i traduir adreces.", true],
+      ["Guardar les contrasenyes.", false],
+      ["Organitzar l'escriptori.", false],
+      ["Imprimir documents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què representa un 'marc' (frame) en la paginació?",
+    "respostes": [
+      ["Un bloc de memòria lògica.", false],
+      ["Un bloc de memòria física de mida fixa.", true],
+      ["La vora de la pantalla.", false],
+      ["Un segment de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Per què l'algorisme FIFO pot no ser eficient?",
+    "respostes": [
+      ["Perquè és molt difícil de programar.", false],
+      ["Perquè no considera la freqüència d'ús de les pàgines.", true],
+      ["Perquè requereix molta CPU.", false],
+      ["Perquè només funciona en Windows.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quina tècnica ajuda a mitigar la fragmentació però no l'elimina completament?",
+    "respostes": [
+      ["Reiniciar l'ordinador.", false],
+      ["La paginació i la segmentació.", true],
+      ["Comprar més memòria RAM.", false],
+      ["L'assignació contigua.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin recurs utilitza la memòria virtual com a extensió?",
+    "respostes": [
+      ["La memòria ROM.", false],
+      ["La memòria cau L1.", false],
+      ["La memòria secundària (disc).", true],
+      ["El processador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin problema de seguretat evita la protecció de memòria?",
+    "respostes": [
+      ["Que els processos interfereixin entre ells.", true],
+      ["Que el disc dur s'ompli.", false],
+      ["Que la pantalla es trenqui.", false],
+      ["Que l'usuari oblidi la contrasenya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin segment lògic sol contenir les variables locals en la segmentació?",
+    "respostes": [
+      ["El segment de codi.", false],
+      ["La pila (stack).", true],
+      ["El segment de dades globals.", false],
+      ["El registre base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què permet aïllar els processos uns dels altres?",
+    "respostes": [
+      ["La memòria virtual i els mecanismes de protecció.", true],
+      ["L'ús d'un sol nucli de processador.", false],
+      ["Tenir molta memòria RAM.", false],
+      ["No connectar-se a la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin exemple d'ús de segments s'esmenta al text?",
+    "respostes": [
+      ["Separar imatges i vídeos.", false],
+      ["Separar codi, dades i pila.", true],
+      ["Separar usuaris i administradors.", false],
+      ["Separar fitxers de text i fulls de càlcul.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quina és la relació entre la memòria lògica i la física en la paginació?",
+    "respostes": [
+      ["La lògica es divideix en pàgines i la física en marcs de la mateixa mida.", true],
+      ["La lògica és sempre més petita que la física.", false],
+      ["No tenen cap relació.", false],
+      ["La física depèn del tipus de monitor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quin sistema operatiu utilitza una combinació de paginació i tècniques avançades segons el text?",
+    "respostes": [
+      ["MS-DOS.", false],
+      ["MacOS.", true],
+      ["Windows 3.1.", false],
+      ["Basic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Què passa quan un procés necessita més memòria de la disponible físicament?",
+    "respostes": [
+      ["El sistema es penja.", false],
+      ["S'utilitza la memòria virtual (swap).", true],
+      ["El processador s'atura.", false],
+      ["S'esborra el procés automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 8. El sistema operatiu (III): gestió de memòria.",
+    "enunciat": "Quina és la definició de memòria secundària segons el document?",
+    "respostes": [
+      ["Memòria volàtil dins de la CPU.", false],
+      ["Dispositius d'emmagatzematge permanent com discos durs i SSDs.", true],
+      ["Memòria d'accés aleatori.", false],
+      ["Memòria cau.", false]
+    ]
+  }
+]

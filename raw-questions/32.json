@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què implica la direcció i gestió de projectes de TI?",
+    "respostes": [
+      ["Només la programació del codi.", false],
+      ["La coordinació de múltiples disciplines per assegurar l'èxit del projecte (planificació, recursos, seguiment, decisions).", true],
+      ["La reparació de maquinari exclusivament.", false],
+      ["La venda de productes informàtics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quin és l'objectiu de la planificació estratègica?",
+    "respostes": [
+      ["Definir la direcció i els objectius a llarg termini del projecte o organització.", true],
+      ["Resoldre problemes diaris de l'equip.", false],
+      ["Comprar material d'oficina.", false],
+      ["Configurar els servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què identifica l'anàlisi DAFO (SWOT)?",
+    "respostes": [
+      ["Dades, Arxius, Formats i Ordinadors.", false],
+      ["Fortaleses, Debilitats, Oportunitats i Amenaces.", true],
+      ["Factors Polítics i Econòmics.", false],
+      ["Errors de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quins factors examina l'anàlisi PESTEL?",
+    "respostes": [
+      ["Primaris, Estàtics, Secundaris, Tècnics, Elegants, Llargs.", false],
+      ["Polítics, Econòmics, Socials, Tecnològics, Ecològics i Legals.", true],
+      ["Personals, Empresarials, Socials, Tècnics, Econòmics, Laborals.", false],
+      ["Cap de les anteriors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què significa l'acrònim SMART per als objectius?",
+    "respostes": [
+      ["Simple, Major, Artistic, Real, Total.", false],
+      ["Specific, Measurable, Achievable, Relevant, Time-bound.", true],
+      ["Sustainable, Manageable, Affordable, Reliable, Tested.", false],
+      ["Small, Medium, Average, Rare, Tall.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què significa que un objectiu sigui 'Measurable' (Mesurable)?",
+    "respostes": [
+      ["Que sigui realista.", false],
+      ["Que tingui criteris concrets per avaluar el progrés.", true],
+      ["Que tingui una data límit.", false],
+      ["Que estigui alineat amb l'estratègia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què implica el desenvolupament d'estratègies?",
+    "respostes": [
+      ["Identificar les accions necessàries per assolir els objectius (tecnologies, processos, recursos).", true],
+      ["Contractar personal immediatament.", false],
+      ["Fer una festa d'inici de projecte.", false],
+      ["Ignorar els riscos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quina activitat forma part de la implementació del pla estratègic?",
+    "respostes": [
+      ["Definir la missió de l'empresa.", false],
+      ["Coordinació de recursos i establiment d'un calendari.", true],
+      ["Realitzar l'anàlisi DAFO.", false],
+      ["Tancar el projecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Per a què serveixen les reunions de revisió en la fase d'avaluació?",
+    "respostes": [
+      ["Per avaluar el progrés i discutir possibles desviacions.", true],
+      ["Per decidir el menú del dinar.", false],
+      ["Per presentar nous empleats.", false],
+      ["Per fer formació tècnica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què inclou la gestió de recursos humans en un projecte?",
+    "respostes": [
+      ["La compra d'ordinadors.", false],
+      ["Selecció, contractació, formació, motivació i retenció del personal.", true],
+      ["La gestió del pressupost de màrqueting.", false],
+      ["La instal·lació de programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quin és el primer pas en el procés de selecció de personal?",
+    "respostes": [
+      ["L'entrevista final.", false],
+      ["La definició dels rols i descripció dels llocs de treball.", true],
+      ["La formació.", false],
+      ["El pagament de la nòmina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quin tipus de formació es considera necessària per a l'equip?",
+    "respostes": [
+      ["Només formació tècnica.", false],
+      ["Tècnica, en gestió de projectes i en competències suaus (soft skills).", true],
+      ["Formació en cuina.", false],
+      ["Cap formació és necessària.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quins elements ajuden a la motivació i retenció del talent?",
+    "respostes": [
+      ["Salaris baixos.", false],
+      ["Incentius financers, reconeixement, creixement professional i bon ambient.", true],
+      ["Jornades laborals de 14 hores.", false],
+      ["Manca de comunicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què inclou un pressupost de projecte típic?",
+    "respostes": [
+      ["Només el cost del programari.", false],
+      ["Salaris, eines, equips, formació i altres despeses.", true],
+      ["Els beneficis de l'empresa.", false],
+      ["Els impostos personals dels empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què implica el control de costos?",
+    "respostes": [
+      ["Gastar el mínim possible sempre.", false],
+      ["Seguir els costos reals, comparar-los amb el pressupost i corregir desviacions.", true],
+      ["No pagar als proveïdors.", false],
+      ["Demanar més diners al client constantment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quins factors cal considerar en la selecció de tecnologies?",
+    "respostes": [
+      ["El color del logotip.", false],
+      ["Cost, compatibilitat, escalabilitat i facilitat d'ús.", true],
+      ["L'opinió d'un amic.", false],
+      ["La tecnologia més antiga disponible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Per què és important el manteniment i actualització tecnològica?",
+    "respostes": [
+      ["Per gastar pressupost.", false],
+      ["Per assegurar l'eficiència i la seguretat dels sistemes.", true],
+      ["Per canviar la interfície cada setmana.", false],
+      ["Per avorrir als usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què implica el seguiment de projectes?",
+    "respostes": [
+      ["Mirar com treballen els empleats.", false],
+      ["La supervisió contínua del progrés per assegurar l'assoliment d'objectius.", true],
+      ["Llegir el correu electrònic.", false],
+      ["Fer reunions socials.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quina eina és un exemple de programari de gestió de projectes?",
+    "respostes": [
+      ["Photoshop.", false],
+      ["Jira, Trello o Microsoft Project.", true],
+      ["VLC Media Player.", false],
+      ["WinZip.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què són els KPIs (Key Performance Indicators)?",
+    "respostes": [
+      ["Errors del sistema.", false],
+      ["Mètriques que ajuden a avaluar el rendiment del projecte.", true],
+      ["Claus d'accés al servidor.", false],
+      ["Tipus de fitxers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quin és un exemple de KPI?",
+    "respostes": [
+      ["El nom del projecte.", false],
+      ["El percentatge de tasques completades o la satisfacció del client.", true],
+      ["El color de la carpeta.", false],
+      ["La marca de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quina és la diferència entre 'Milestones' i 'Deliverables'?",
+    "respostes": [
+      ["Són el mateix.", false],
+      ["Els Milestones marquen punts importants o fases; els Deliverables són productes tangibles lliurats.", true],
+      ["Els Deliverables són reunions; els Milestones són documents.", false],
+      ["Els Milestones són pagaments; els Deliverables són errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què inclou la gestió de riscos?",
+    "respostes": [
+      ["Ignorar els problemes.", false],
+      ["Identificació, anàlisi, plans de contingència i monitorització de riscos.", true],
+      ["Crear riscos intencionadament.", false],
+      ["Assegurar el cotxe de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Per què és important la comunicació en el seguiment?",
+    "respostes": [
+      ["Per fer amics.", false],
+      ["Per mantenir tothom alineat amb els objectius i el progrés mitjançant informes i reunions.", true],
+      ["Per enviar acudits.", false],
+      ["Per omplir la bústia d'entrada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "En què consisteix la presa de decisions en gestió de projectes?",
+    "respostes": [
+      ["En llançar una moneda a l'aire.", false],
+      ["En seleccionar les millors opcions per assolir objectius basant-se en dades i anàlisi.", true],
+      ["En fer el que digui el client sense qüestionar.", false],
+      ["En endarrerir les decisions al màxim.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què caracteritza les decisions estratègiques?",
+    "respostes": [
+      ["Tenen un impacte a curt termini.", false],
+      ["Tenen un impacte a llarg termini i defineixen la direcció general.", true],
+      ["Són decisions sobre tasques diàries.", false],
+      ["No són importants.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què són les decisions operatives?",
+    "respostes": [
+      ["Decisions a llarg termini.", false],
+      ["Decisions amb impacte a curt termini que afecten operacions diàries.", true],
+      ["Decisions sobre la visió de l'empresa.", false],
+      ["Decisions financeres globals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què avalua l'anàlisi de costos-beneficis?",
+    "respostes": [
+      ["Només els beneficis.", false],
+      ["Els costos associats comparats amb els beneficis esperats per determinar el valor net.", true],
+      ["La popularitat de la decisió.", false],
+      ["El temps que es triga a decidir.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què permet l'anàlisi de sensibilitat?",
+    "respostes": [
+      ["Saber com se sent l'equip.", false],
+      ["Explorar com els canvis en variables clau afecten el resultat d'una decisió.", true],
+      ["Mesurar la temperatura de l'oficina.", false],
+      ["Detectar emocions en els correus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Per a què serveixen els diagrames de decisió?",
+    "respostes": [
+      ["Per decorar la paret.", false],
+      ["Per visualitzar opcions, resultats, probabilitats i riscos en decisions complexes.", true],
+      ["Per dibuixar l'organigrama.", false],
+      ["Per fer mapes mentals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què és la presa de decisions basada en dades (DDDM)?",
+    "respostes": [
+      ["Decidir segons la intuïció.", false],
+      ["Utilitzar dades quantitatives i qualitatives per informar les decisions.", true],
+      ["Ignorar les dades.", false],
+      ["Decidir a l'atzar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quin paper juga el Big Data en la gestió de projectes?",
+    "respostes": [
+      ["Cap paper.", false],
+      ["Permet analitzar grans volums de dades per identificar patrons i tendències.", true],
+      ["Només serveix per ocupar espai.", false],
+      ["Fa que els projectes siguin més lents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què permeten els Dashboards i eines de BI?",
+    "respostes": [
+      ["Jugar a videojocs.", false],
+      ["Visualitzar KPIs en temps real per tenir una visió clara del rendiment.", true],
+      ["Escriure codi font.", false],
+      ["Dissenyar logotips.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quin és un repte comú en la gestió de projectes de TI esmentat al text?",
+    "respostes": [
+      ["La manca d'ordinadors.", false],
+      ["L'evolució tecnològica constant i la incertesa en els requisits.", true],
+      ["L'excés de pressupost.", false],
+      ["La facilitat de les tasques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què és el Mètode del Valor Guanyat (EVM)?",
+    "respostes": [
+      ["Una tècnica per guanyar diners.", false],
+      ["Una tècnica que integra temps, cost i abast per mesurar el rendiment del projecte.", true],
+      ["Un premi per a l'empleat del mes.", false],
+      ["Una metodologia àgil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "En la gestió de riscos, què es fa després d'identificar-los?",
+    "respostes": [
+      ["Res.", false],
+      ["Analitzar-ne la probabilitat i l'impacte.", true],
+      ["Amagar-los.", false],
+      ["Celebrar-ho.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Quina metodologia ajuda a alinear els projectes amb els objectius estratègics globals?",
+    "respostes": [
+      ["Cap.", false],
+      ["El Mapa Estratègic.", true],
+      ["El diagrama de classes.", false],
+      ["El codi binari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 32. Direcció i gestió de projectes de tecnologies de la informació.",
+    "enunciat": "Què facilita la gestió de canvis en un projecte?",
+    "respostes": [
+      ["El caos.", false],
+      ["Un procés estructurat per avaluar, aprovar i implementar canvis minimitzant impactes.", true],
+      ["Canviar les coses sense avisar.", false],
+      ["No permetre cap canvi.", false]
+    ]
+  }
+]

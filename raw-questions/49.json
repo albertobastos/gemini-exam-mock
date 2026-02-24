@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què es busca preservar principalment amb la seguretat en els sistemes d'informació?",
+    "respostes": [
+      ["La velocitat del processador.", false],
+      ["La confidencialitat, integritat i disponibilitat de la informació.", true],
+      ["El disseny gràfic de la interfície.", false],
+      ["La quantitat de dades emmagatzemades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què garanteix el principi de Confidencialitat?",
+    "respostes": [
+      ["Que la informació estigui disponible sempre.", false],
+      ["Que la informació només sigui accessible a les persones autoritzades.", true],
+      ["Que la informació no hagi estat modificada.", false],
+      ["Que es registri qui ha accedit a la informació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin principi de seguretat assegura que la informació és exacta, completa i no ha estat alterada de manera no autoritzada?",
+    "respostes": [
+      ["Disponibilitat.", false],
+      ["Integritat.", true],
+      ["Autenticitat.", false],
+      ["Traçabilitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què implica el principi de Disponibilitat?",
+    "respostes": [
+      ["Que les dades estiguin xifrades.", false],
+      ["Que la informació i els sistemes estiguin accessibles per als usuaris autoritzats quan es necessitin.", true],
+      ["Que ningú pugui accedir al sistema.", false],
+      ["Que es pugui saber qui ha fet què.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin principi garanteix que una entitat (persona o sistema) és qui diu ser?",
+    "respostes": [
+      ["Integritat.", false],
+      ["Autenticitat.", true],
+      ["Confidencialitat.", false],
+      ["Proporcionalitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què assegura la Traçabilitat?",
+    "respostes": [
+      ["Que el sistema sigui ràpid.", false],
+      ["Que totes les accions i esdeveniments siguin registrats per poder ser auditats posteriorment.", true],
+      ["Que les dades no es perdin.", false],
+      ["Que el sistema no tingui errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què és l'Esquema Nacional de Seguretat (ENS)?",
+    "respostes": [
+      ["Un antivirus.", false],
+      ["Un marc normatiu que estableix els requisits mínims de seguretat per als sistemes d'informació del sector públic.", true],
+      ["Una empresa de seguretat privada.", false],
+      ["Un programari de gestió de bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "A qui s'aplica l'ENS?",
+    "respostes": [
+      ["Només a empreses privades.", false],
+      ["A totes les entitats del sector públic i empreses privades que hi col·laboren.", true],
+      ["Només als ciutadans particulars.", false],
+      ["Només a l'exèrcit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin principi bàsic de l'ENS implica identificar i gestionar de manera proactiva els perills?",
+    "respostes": [
+      ["Vigilància contínua.", false],
+      ["Gestió de riscos.", true],
+      ["Línies de defensa.", false],
+      ["Seguretat integral.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què significa el principi de 'Seguretat Integral' en l'ENS?",
+    "respostes": [
+      ["Que la seguretat només importa al final del projecte.", false],
+      ["Que la seguretat ha de ser considerada en totes les fases del cicle de vida del sistema.", true],
+      ["Que només cal protegir el servidor.", false],
+      ["Que la seguretat és responsabilitat d'una sola persona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "En què consisteix el principi de 'Línies de Defensa'?",
+    "respostes": [
+      ["En tenir un sol tallafoc molt potent.", false],
+      ["En establir múltiples capes de protecció de manera que si una falla, les altres continuïn protegint.", true],
+      ["En atacar els pirates informàtics.", false],
+      ["En desconnectar el sistema d'internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin principi destaca la necessitat de monitoritzar constantment per detectar activitats anòmales?",
+    "respostes": [
+      ["Gestió de riscos.", false],
+      ["Vigilància contínua.", true],
+      ["Proporcionalitat.", false],
+      ["Reevaluació periòdica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què estableix el principi de 'Proporcionalitat'?",
+    "respostes": [
+      ["Que s'ha de gastar tot el pressupost en seguretat.", false],
+      ["Que les mesures de seguretat han de ser adequades al nivell de risc i a la importància dels actius.", true],
+      ["Que tots els sistemes han de tenir les mateixes mesures.", false],
+      ["Que la seguretat ha de ser proporcional a la mida de l'edifici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quines són les categories de sistemes segons l'ENS?",
+    "respostes": [
+      ["Petit, Mitjà, Gran.", false],
+      ["Bàsic, Mitjà, Alt.", true],
+      ["Intern, Extern, Mixt.", false],
+      ["Públic, Privat, Híbrid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quina és la primera fase del procés d'adequació a l'ENS segons el diagrama?",
+    "respostes": [
+      ["Realitzar anàlisi de riscos.", false],
+      ["Preparar i aprovar la política de seguretat.", true],
+      ["Auditar el sistema.", false],
+      ["Implantar mesures.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què implica l'etapa de 'Valorar/Categoritzar el sistema'?",
+    "respostes": [
+      ["Posar preu al sistema.", false],
+      ["Determinar el nivell de sensibilitat de la informació i serveis per establir el nivell de protecció necessari.", true],
+      ["Decidir qui utilitzarà el sistema.", false],
+      ["Comprar nou maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quines eines es mencionen per realitzar l'anàlisi de riscos?",
+    "respostes": [
+      ["Word i Excel.", false],
+      ["Magerit, Pilar i µPILAR.", true],
+      ["Photoshop i Illustrator.", false],
+      ["Java i Python.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què és la 'Declaració d'Aplicabilitat'?",
+    "respostes": [
+      ["Un document legal per obrir l'empresa.", false],
+      ["Un document que detalla les mesures de seguretat que s'aplicaran en funció dels riscos detectats.", true],
+      ["Una llista d'empleats.", false],
+      ["Un manual d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Amb quina freqüència s'han de realitzar les auditories segons l'ENS?",
+    "respostes": [
+      ["Cada mes.", false],
+      ["Cada dos anys.", true],
+      ["Un cop a la vida del sistema.", false],
+      ["Quan hi hagi un incident.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin tipus de mesures de seguretat inclouen la formació i conscienciació del personal?",
+    "respostes": [
+      ["Mesures de protecció.", false],
+      ["Mesures organitzatives.", true],
+      ["Mesures operatives.", false],
+      ["Mesures de recuperació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin tipus de mesures de seguretat inclouen els tallafocs i l'encriptació?",
+    "respostes": [
+      ["Mesures organitzatives.", false],
+      ["Mesures de protecció.", true],
+      ["Mesures de recuperació.", false],
+      ["Mesures legals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què inclouen les mesures de recuperació?",
+    "respostes": [
+      ["La instal·lació d'antivirus.", false],
+      ["La implementació de plans de continuïtat del negoci i gestió de còpies de seguretat.", true],
+      ["La definició de rols.", false],
+      ["El control d'accés físic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què permet obtenir l'autenticació multifactor (MFA)?",
+    "respostes": [
+      ["Un accés més ràpid.", false],
+      ["Una major seguretat en la verificació de la identitat de l'usuari.", true],
+      ["L'eliminació de contrasenyes.", false],
+      ["Accés sense internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quina funció té la signatura digital en termes de seguretat?",
+    "respostes": [
+      ["Només decorar el document.", false],
+      ["Garantir la integritat i l'autenticitat del document.", true],
+      ["Xifrar tot el contingut per a que ningú el llegeixi.", false],
+      ["Comprimir el fitxer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què és un sistema SIEM?",
+    "respostes": [
+      ["Un sistema de gestió d'inventari.", false],
+      ["Un sistema de gestió d'informació i esdeveniments de seguretat per monitoritzar i detectar amenaces.", true],
+      ["Un tipus de cable de xarxa.", false],
+      ["Un protocol de correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què implica el control d'accés basat en rols (RBAC)?",
+    "respostes": [
+      ["Que tothom té accés a tot.", false],
+      ["Que els permisos es concedeixen segons la funció o rol de l'usuari dins l'organització.", true],
+      ["Que cada usuari decideix els seus permisos.", false],
+      ["Que l'accés depèn de l'hora del dia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Per a què serveix un Pla d'Adequació?",
+    "respostes": [
+      ["Per demanar pressupost.", false],
+      ["Per planificar les accions necessàries per complir amb els requisits de l'ENS detectats en el diagnòstic.", true],
+      ["Per contractar personal.", false],
+      ["Per comprar ordinadors nous.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quina diferència hi ha entre autenticació i autorització?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["L'autenticació verifica qui ets; l'autorització determina què pots fer.", true],
+      ["L'autorització és per a usuaris externs i l'autenticació per a interns.", false],
+      ["L'autenticació es fa al final de la sessió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin element és clau per assegurar la confidencialitat de les dades en trànsit?",
+    "respostes": [
+      ["La compressió ZIP.", false],
+      ["El xifratge (ex: TLS, VPN).", true],
+      ["L'ús de cables de fibra òptica.", false],
+      ["L'enviament per correu postal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què es necessita per obtenir la certificació de conformitat amb l'ENS?",
+    "respostes": [
+      ["Pagar una taxa i prou.", false],
+      ["Superar una auditoria realitzada per una entitat certificadora independent.", true],
+      ["Enviar una carta al govern.", false],
+      ["No tenir cap incident de seguretat en 10 anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin document ha de definir les directrius generals de seguretat de l'organització?",
+    "respostes": [
+      ["El manual de l'empleat.", false],
+      ["La Política de Seguretat de la Informació (PSI).", true],
+      ["El pressupost anual.", false],
+      ["La llista de vacances.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què és una suma de verificació (checksum)?",
+    "respostes": [
+      ["Una suma de diners.", false],
+      ["Un valor calculat a partir de dades per detectar si han estat alterades (integritat).", true],
+      ["Una contrasenya mestra.", false],
+      ["Un tipus de virus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què implica el principi de 'Mínim Privilegi'?",
+    "respostes": [
+      ["Que ningú tingui accés a res.", false],
+      ["Que els usuaris només tinguin els permisos estrictament necessaris per fer la seva feina.", true],
+      ["Que els usuaris tinguin privilegis mínims d'oci.", false],
+      ["Que els administradors tinguin pocs privilegis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin tipus de mesura de seguretat és la gestió de parches i actualitzacions?",
+    "respostes": [
+      ["Organitzativa.", false],
+      ["Operativa (o operacional).", true],
+      ["De recuperació física.", false],
+      ["Administrativa pura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quina norma ISO es menciona com a referència relacionada amb l'ENS (en el diagrama)?",
+    "respostes": [
+      ["ISO 9001.", false],
+      ["ISO/IEC 27001.", true],
+      ["ISO 14001.", false],
+      ["ISO 50001.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què permet la segmentació de la xarxa?",
+    "respostes": [
+      ["Fer la xarxa més lenta.", false],
+      ["Aïllar diferents parts de la infraestructura per limitar els danys en cas d'atac.", true],
+      ["Unir totes les xarxes en una de sola.", false],
+      ["Eliminar els cables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Què es fa a la fase de 'Diagnòstic inicial'?",
+    "respostes": [
+      ["Es compra el programari.", false],
+      ["S'avalua l'estat actual dels sistemes respecte als requisits de l'ENS.", true],
+      ["Es contracta personal nou.", false],
+      ["S'esborren els discos durs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat",
+    "enunciat": "Quin és l'objectiu de les còpies de seguretat regulars?",
+    "respostes": [
+      ["Ocupar espai innecessari.", false],
+      ["Garantir la disponibilitat i recuperació de les dades en cas d'incident.", true],
+      ["Enviar dades a la competència.", false],
+      ["Alentir el sistema.", false]
+    ]
+  }
+]

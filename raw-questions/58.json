@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què és l'accés remot a sistemes corporatius?",
+    "respostes": [
+      ["La capacitat de connectar-se a sistemes i recursos corporatius des de qualsevol lloc fora de l'oficina física a través d'Internet.", true],
+      ["L'ús exclusiu d'ordinadors portàtils dins de la mateixa sala de l'oficina.", false],
+      ["La connexió d'un ratolí o teclat sense fils a l'ordinador de la feina.", false],
+      ["La instal·lació d'un servidor a casa per emmagatzemar dades personals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin és un dels principals avantatges de l'accés remot i el teletreball?",
+    "respostes": [
+      ["Aïlla completament els treballadors per evitar qualsevol comunicació.", false],
+      ["Millora la conciliació laboral i assegura la continuïtat del negoci en situacions d'emergència.", true],
+      ["Elimina la necessitat de tenir contrasenyes a la xarxa.", false],
+      ["Redueix a zero els riscos de ciberatacs a l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin és un repte de seguretat important introduït pel teletreball?",
+    "respostes": [
+      ["El sobreescalfament dels servidors de l'oficina.", false],
+      ["L'ús de dispositius remots que poden ser vulnerables a atacs i exposar dades sensibles.", true],
+      ["L'excés d'actualitzacions del sistema operatiu Windows.", false],
+      ["La impossibilitat tècnica de xifrar arxius a distància.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què és una Xarxa Privada Virtual (VPN)?",
+    "respostes": [
+      ["Una tecnologia que crea una connexió segura i xifrada (un túnel) a través d'Internet entre un dispositiu i una xarxa corporativa.", true],
+      ["Una xarxa d'àrea local composta exclusivament per ordinadors Apple.", false],
+      ["Un programari per fer videoconferències amb companys de feina.", false],
+      ["Una eina d'antivirus que neteja el disc dur remotament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin tipus de VPN s'utilitza habitualment perquè un usuari individual es connecti a la xarxa de l'empresa des de casa seva?",
+    "respostes": [
+      ["VPN Site-to-Site.", false],
+      ["VPN d'Accés Remot.", true],
+      ["VPN Local.", false],
+      ["VPN d'Escriptori Exclusiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què fa una VPN Site-to-Site?",
+    "respostes": [
+      ["Connecta dues o més xarxes locals (LAN) de diferents ubicacions geogràfiques creant una xarxa unificada i segura.", true],
+      ["Permet a un empleat amb el mòbil connectar-se al correu de l'empresa de forma aïllada.", false],
+      ["Uneix un ratolí Bluetooth amb l'ordinador portàtil.", false],
+      ["Aïlla la xarxa de convidats de la xarxa principal dins del mateix edifici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quina característica destaca d'una VPN SSL?",
+    "respostes": [
+      ["Utilitza exclusivament la capa 1 del model OSI per a connectar cables físics a distància.", false],
+      ["S'utilitza per establir connexions segures generalment a través d'un navegador web sense necessitat d'un client VPN dedicat.", true],
+      ["Només funciona per a connectar impressores remotes.", false],
+      ["No ofereix cap tipus de xifratge de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin protocol s'utilitza per proporcionar seguretat a nivell de xarxa xifrant i autenticant els paquets de dades a través d'Internet en moltes VPN?",
+    "respostes": [
+      ["IPsec (Internet Protocol Security).", true],
+      ["SMTP (Simple Mail Transfer Protocol).", false],
+      ["HTTP (HyperText Transfer Protocol).", false],
+      ["DHCP (Dynamic Host Configuration Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin protocol VPN sovint es combina amb IPsec per afegir un nivell addicional de seguretat encapsulant les dades?",
+    "respostes": [
+      ["L2TP (Layer 2 Tunneling Protocol).", true],
+      ["SSH (Secure Shell).", false],
+      ["POP3.", false],
+      ["BGP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què és OpenVPN?",
+    "respostes": [
+      ["Un estàndard de maquinari tancat per a servidors de correu.", false],
+      ["Un protocol obert molt flexible que utilitza SSL/TLS per establir una connexió segura.", true],
+      ["Una plataforma de xarxes socials per a professionals d'IT.", false],
+      ["Un format de compressió d'arxius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin protocol VPN de desenvolupament recent destaca per ser més ràpid, lleuger i tenir un codi font petit que en facilita l'auditoria?",
+    "respostes": [
+      ["IPsec clàssic.", false],
+      ["WireGuard.", true],
+      ["L2TP v1.", false],
+      ["Telnet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin és un possible desavantatge de l'ús de les VPN?",
+    "respostes": [
+      ["Permeten a tothom veure les dades en text pla.", false],
+      ["Poden disminuir la velocitat de connexió a causa del procés de xifratge i gestió del trànsit pel túnel.", true],
+      ["Només es poden utilitzar en ordinadors d'escriptori fixes.", false],
+      ["Impedeixen completament l'ús del correu electrònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Per assegurar l'accés VPN, què és l'Autenticació Multifactorial (MFA)?",
+    "respostes": [
+      ["Requerir més d'una prova d'identitat (ex: contrasenya + codi al telèfon) abans de permetre l'accés.", true],
+      ["Permetre l'accés a múltiples usuaris amb la mateixa contrasenya.", false],
+      ["Donar accés utilitzant només una adreça de correu.", false],
+      ["Bloquejar tots els accessos des de l'estranger.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què implica la Gestió d'Identitats (Identity Management)?",
+    "respostes": [
+      ["Sortejar adreces IP entre els usuaris connectats a la Wi-Fi.", false],
+      ["Identificar, autenticar i autoritzar els usuaris, gestionant els seus comptes i accessos als recursos corporatius.", true],
+      ["Gestionar els dominis i subdominis web de l'empresa.", false],
+      ["Monitoritzar el tràfic físic de persones a l'entrada de l'edifici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Dins de la gestió d'identitats, quina és la diferència entre Autenticació i Autorització?",
+    "respostes": [
+      ["L'autenticació verifica qui és l'usuari; l'autorització concedeix els permisos d'accés a recursos segons la identitat.", true],
+      ["Són sinònims que descriuen exactament el mateix procés.", false],
+      ["L'autenticació permet esborrar usuaris i l'autorització només els crea.", false],
+      ["L'autorització verifica la contrasenya i l'autenticació dona els permisos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin mètode d'autorització concedeix permisos en funció del càrrec o funció de l'usuari dins de l'empresa?",
+    "respostes": [
+      ["Control d'accés aleatori.", false],
+      ["Control d'accés basat en rols (RBAC).", true],
+      ["Autenticació biomètrica.", false],
+      ["Gestió d'adreces MAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "En el cicle de vida d'una identitat, quina acció s'ha de dur a terme quan un usuari deixa l'organització?",
+    "respostes": [
+      ["Deixar la contrasenya per defecte perquè la utilitzi el seu substitut.", false],
+      ["Desactivar o eliminar immediatament el compte per evitar accessos no autoritzats.", true],
+      ["Publicar les seves credencials al panell d'anuncis.", false],
+      ["Canviar el seu nom d'usuari a 'Antic Empleat'.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin servei de Microsoft proporciona autenticació i autorització de manera centralitzada per a usuaris i dispositius en una xarxa Windows?",
+    "respostes": [
+      ["Microsoft Word.", false],
+      ["Directori Actiu (Active Directory).", true],
+      ["Microsoft Excel.", false],
+      ["Windows Defender.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què és LDAP (Lightweight Directory Access Protocol)?",
+    "respostes": [
+      ["Un protocol que s'utilitza per accedir, consultar i gestionar informació d'usuaris en un servei de directori jeràrquic.", true],
+      ["Un protocol per enviar correus electrònics en massa.", false],
+      ["Una tecnologia de memòria RAM d'alta velocitat.", false],
+      ["Una eina d'ofimàtica per redactar manuals d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què permet fer l'Inici de Sessió Única (SSO)?",
+    "respostes": [
+      ["Obliga l'usuari a introduir una contrasenya diferent per a cada programa de l'ordinador.", false],
+      ["Permet als usuaris autenticar-se una sola vegada i accedir a múltiples aplicacions o sistemes sense reintroduir credencials.", true],
+      ["Només permet iniciar sessió un cop al dia; després es bloqueja.", false],
+      ["Exigeix l'ús d'una targeta física per encendre el monitor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Com sol funcionar el Single Sign-On (SSO) un cop s'ha realitzat l'autenticació inicial?",
+    "respostes": [
+      ["L'aplicació guarda la contrasenya en un document de text pla obert a tots els servidors.", false],
+      ["El sistema SSO genera un token (o utilitza cookies) que verifica la identitat de l'usuari davant d'altres aplicacions que hi confien.", true],
+      ["L'usuari ha de tornar a enviar el seu correu electrònic a cada clic.", false],
+      ["El sistema canvia la contrasenya de l'usuari cada vegada que obre un nou programa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin és un dels avantatges principals d'utilitzar Single Sign-On (SSO) per a l'usuari?",
+    "respostes": [
+      ["Només cal memoritzar i gestionar un únic conjunt de credencials, reduint la fricció i la fatiga de contrasenyes.", true],
+      ["Permet connectar-se a internet sense pagar factura telefònica.", false],
+      ["Dona permisos d'administrador absoluts a qualsevol empleat nou.", false],
+      ["Desactiva la necessitat d'ús d'antivirus a l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin és un risc important o desavantatge del sistema SSO?",
+    "respostes": [
+      ["És un punt únic de fallada: si les credencials es veuen compromeses, l'atacant té accés a totes les aplicacions associades.", true],
+      ["Augmenta la quantitat de contrasenyes que l'usuari ha de memoritzar.", false],
+      ["Alenteix extremadament la descàrrega d'arxius.", false],
+      ["Impedeix que es pugui utilitzar l'autenticació multifactor (MFA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què és SAML (Security Assertion Markup Language)?",
+    "respostes": [
+      ["Un tipus de virus d'ordinador.", false],
+      ["Un estàndard basat en XML per intercanviar informació d'autenticació i autorització, molt usat per SSO entre plataformes.", true],
+      ["Un llenguatge exclusiu per maquetar pàgines web com HTML.", false],
+      ["Un mètode d'escriptura per crear documents ofimàtics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quina funció té principalment el protocol OAuth?",
+    "respostes": [
+      ["Serveix per establir un túnel VPN xifrat directament a la capa d'enllaç de dades.", false],
+      ["És un estàndard d'autorització que permet a aplicacions accedir a recursos en nom de l'usuari sense revelar les seves credencials.", true],
+      ["Canvia la targeta gràfica per processar vídeos més de pressa.", false],
+      ["Xifra les trucades telefòniques d'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Com complementa OpenID Connect a OAuth 2.0?",
+    "respostes": [
+      ["Afegeix una capa d'identitat (autenticació) per sobre de l'OAuth 2.0, permetent verificar la identitat de l'usuari i facilitar l'SSO.", true],
+      ["Substitueix completament OAuth 2.0 per un sistema basat només en maquinari.", false],
+      ["Esborra els tokens d'OAuth 2.0 cada hora.", false],
+      ["Impedeix qualsevol connexió de xarxa exterior.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Dins de l'arquitectura d'un sistema SSO, quin element s'encarrega d'emetre els tokens d'autenticació gestionant la identitat?",
+    "respostes": [
+      ["El Proveïdor de Serveis (SP).", false],
+      ["El Proveïdor d'Identitat (IdP).", true],
+      ["El Navegador Web exclusivament.", false],
+      ["L'Antivirus del client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què representa un Proveïdor de Serveis (SP) en l'entorn de l'Inici de Sessió Única?",
+    "respostes": [
+      ["Són les aplicacions o serveis que accepten els tokens emesos per l'IdP i donen accés a l'usuari confiant-hi.", true],
+      ["És la companyia que proveeix la fibra òptica d'Internet.", false],
+      ["És el dispositiu físic (router) que distribueix la Wi-Fi a l'oficina.", false],
+      ["És l'usuari final que s'acaba de registrar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quina pràctica es considera una solució tècnica clau per als reptes de seguretat derivats dels dispositius en el teletreball?",
+    "respostes": [
+      ["Ús d'escriptoris remots o virtuals, on les dades i l'execució romanen als servidors corporatius i no al dispositiu de l'empleat.", true],
+      ["Deixar que cada treballador es descarregui tota la base de dades al seu mòbil personal.", false],
+      ["Desactivar les contrasenyes per evitar bloquejos per oblit.", false],
+      ["Utilitzar l'encaminador domèstic sense contrasenya de Wi-Fi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què permet reduir la sobrecàrrega al departament de suport tècnic mitjançant la implementació del SSO?",
+    "respostes": [
+      ["Hi ha molta menys necessitat de reiniciar i recuperar contrasenyes oblidades, ja que només n'hi ha una principal.", true],
+      ["El departament ja no ha de fer cap tasca de manteniment informàtic.", false],
+      ["Els usuaris resolen els problemes de maquinari sols.", false],
+      ["Es redueix el temps d'arrencada físic de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "A quin tipus de tecnologia corresponen plataformes com Microsoft Azure AD i Okta?",
+    "respostes": [
+      ["Sistemes operatius de codi obert.", false],
+      ["Plataformes d'Identity and Access Management (IAM) que faciliten la gestió centralitzada d'identitats i accessos.", true],
+      ["Eines per a l'edició de gràfics i disseny.", false],
+      ["Programari per fer VPNs locals exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Com es pot mitigar la vulnerabilitat del risc concentrat en l'SSO (on un atacant compromet la clau única)?",
+    "respostes": [
+      ["No s'hi pot fer absolutament res un cop s'ha implementat.", false],
+      ["Integrant el sistema SSO amb mecanismes de seguretat addicionals i forts com l'Autenticació Multifactorial (MFA).", true],
+      ["Eliminant el SSO i tornant a posar 50 contrasenyes per usuari.", false],
+      ["Forçant l'usuari a teclejar la contrasenya molt a poc a poc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quin concepte recull l'ús de serveis web i programari alojat a servidors externs perquè l'empleat teletreballador accedeixi als recursos sense una VPN completa?",
+    "respostes": [
+      ["Discs durs USB extraïbles.", false],
+      ["Aplicacions en el núvol.", true],
+      ["Maquinari de mineria criptogràfica.", false],
+      ["Targetes perforades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Què utilitza un SSO basat en cookies per funcionar?",
+    "respostes": [
+      ["Cookies emmagatzemades al navegador per mantenir l'estat d'autenticació entre diverses aplicacions web.", true],
+      ["Dispositius físics tipus 'token USB' entregats en mà.", false],
+      ["Connexions VPN IPsec dedicades per a cada pestanya.", false],
+      ["Mòduls Bluetooth interns de l'ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 58. Accés remot a sistemes corporatius: teletreball i xarxes privades virtuals (VPN). Gestió d'identitats. Inici de sessió única (single sign-on).",
+    "enunciat": "Quina afirmació és certa sobre el cicle de vida de les identitats d'usuari a les empreses?",
+    "respostes": [
+      ["Els permisos assignats al crear l'usuari mai es poden modificar en tota la seva vida laboral.", false],
+      ["Els permisos i accessos poden ser ajustats dinàmicament segons necessitats com canvis de rol o projectes (fase de gestió).", true],
+      ["El compte d'usuari s'ha de mantenir obert i actiu per sempre després de la jubilació.", false],
+      ["Només es permet un únic perfil per a tots els treballadors d'un mateix departament.", false]
+    ]
+  }
+]

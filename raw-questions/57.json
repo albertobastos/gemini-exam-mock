@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Què és una xarxa d'àrea local (LAN)?",
+    "respostes": [
+      ["Una xarxa de comunicació que connecta dispositius dins d'una àrea geogràfica limitada, com una oficina o edifici.", true],
+      ["Una xarxa global que connecta diferents continents.", false],
+      ["Una xarxa sense fils dissenyada exclusivament per a zones rurals extenses.", false],
+      ["Un programari utilitzat per xifrar comunicacions a Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "En l'arquitectura estàndard de xarxes LAN, quina és la funció de la capa d'accés (Access Layer)?",
+    "respostes": [
+      ["És la capa on els dispositius finals, com ordinadors i impressores, es connecten a la xarxa.", true],
+      ["Agrega el trànsit i aplica polítiques de seguretat globals.", false],
+      ["Forma la columna vertebral de la xarxa proporcionant connexions d'alta velocitat entre edificis.", false],
+      ["S'encarrega d'encaminar paquets cap a Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Dins de l'arquitectura LAN jeràrquica, què fa la capa de distribució (Distribution Layer)?",
+    "respostes": [
+      ["Actua com a intermediari entre la capa d'accés i la de nucli, agregant trànsit i aplicant polítiques de seguretat o encaminament local.", true],
+      ["Connecta directament els dispositius dels usuaris mitjançant punts d'accés.", false],
+      ["Proporciona únicament l'enllaç físic de fibra òptica entre seus d'altres ciutats.", false],
+      ["Configura les adreces MAC de tots els dispositius de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina capa de l'arquitectura LAN s'optimitza per a la transmissió ràpida i eficient de dades servint com a columna vertebral?",
+    "respostes": [
+      ["La capa de nucli (Core Layer).", true],
+      ["La capa d'accés (Access Layer).", false],
+      ["La capa de distribució (Distribution Layer).", false],
+      ["La capa física.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina característica defineix la topologia en Bus?",
+    "respostes": [
+      ["Tots els dispositius estan connectats a un únic cable principal.", true],
+      ["Els dispositius es connecten en forma d'anell.", false],
+      ["Cada dispositiu està connectat a un commutador central.", false],
+      ["Cada dispositiu està connectat a tots els altres directament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin és el principal inconvenient de la topologia en Estrella?",
+    "respostes": [
+      ["Si el dispositiu central falla, tota la xarxa pot quedar inoperativa.", true],
+      ["És la més difícil i complexa de gestionar.", false],
+      ["Té una alta probabilitat de col·lisions constants de paquets.", false],
+      ["Només suporta un màxim de dos ordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin avantatge ofereix la topologia en Malla respecte a les altres?",
+    "respostes": [
+      ["Alta fiabilitat i redundància; la fallada d'un enllaç no interromp la comunicació.", true],
+      ["És la topologia més econòmica i senzilla d'implementar.", false],
+      ["Elimina completament la necessitat d'encaminadors.", false],
+      ["Utilitza un únic cable lineal molt fàcil d'estendre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Què diferencia el cable UTP de l'STP?",
+    "respostes": [
+      ["L'UTP no té apantallament, mentre que l'STP inclou una pantalla per reduir interferències.", true],
+      ["L'UTP utilitza fibra de vidre i l'STP utilitza coure.", false],
+      ["L'UTP és molt més costós de fabricar que l'STP.", false],
+      ["L'UTP només s'utilitza en exteriors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina categoria de cable de parell trenat suporta velocitats de fins a 10 Gbps a distàncies curtes (fins a 55 metres)?",
+    "respostes": [
+      ["CAT6.", true],
+      ["CAT5e.", false],
+      ["CAT3.", false],
+      ["CAT5.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina és l'aplicació ideal per a la fibra òptica monomode?",
+    "respostes": [
+      ["Transmissions de llarga distància, com connexions inter-edificis, a causa del seu nucli estret.", true],
+      ["Transmissions a l'interior d'una habitació exclusivament.", false],
+      ["Xarxes de televisió per cable analògiques.", false],
+      ["Connectar dispositius perifèrics com ratolins o teclats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Per què el cable coaxial ja no és el principal mitjà de transmissió en xarxes LAN modernes tot i tenir bona capacitat?",
+    "respostes": [
+      ["Perquè és menys flexible i més costós d'instal·lar en comparació amb el parell trenat.", true],
+      ["Perquè la seva velocitat màxima està limitada a 10 Mbps.", false],
+      ["Perquè és extremadament sensible a les interferències electromagnètiques.", false],
+      ["Perquè no pot transmetre dades a més de 5 metres de distància.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Com funciona el mètode d'accés CSMA/CD en xarxes Ethernet?",
+    "respostes": [
+      ["El dispositiu escolta el medi abans de transmetre; si hi ha col·lisió, atura l'enviament, avisa i espera un temps aleatori.", true],
+      ["Passa un testimoni o 'token' entre tots els dispositius de la xarxa.", false],
+      ["El servidor interroga cada dispositiu de forma seqüencial per veure si té dades a enviar.", false],
+      ["Reserva el canal enviant una sol·licitud prèvia abans de començar a parlar sempre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin mètode d'accés s'utilitza en xarxes Wi-Fi per evitar col·lisions utilitzant paquets RTS i CTS?",
+    "respostes": [
+      ["CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance).", true],
+      ["CSMA/CD (Carrier Sense Multiple Access with Collision Detection).", false],
+      ["Token Ring.", false],
+      ["Polling.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "En el mètode d'accés Token Ring, què ha de fer un dispositiu abans de poder transmetre dades?",
+    "respostes": [
+      ["Esperar fins que rep el paquet especial anomenat 'token'.", true],
+      ["Emetre un senyal de col·lisió i esperar un temps aleatori.", false],
+      ["Fer una petició al servidor central (hub).", false],
+      ["Enviar un missatge d'RTS (Request to Send).", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "En què consisteix el mètode d'accés anomenat Polling?",
+    "respostes": [
+      ["Un dispositiu central interroga seqüencialment cada dispositiu per veure si té dades per transmetre.", true],
+      ["Tots els dispositius emeten dades alhora i l'encaminador descarta les corruptes.", false],
+      ["S'assignen franges de freqüència diferents per a cada estació de treball.", false],
+      ["Un senyal lluminós guia els paquets per la fibra òptica automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Què és un sistema de cablejat estructurat?",
+    "respostes": [
+      ["Un sistema estandarditzat de cables i connectors dissenyat per suportar múltiples xarxes de manera modular i organitzada.", true],
+      ["Un mètode per unir cables de fibra òptica amb soldadures permanents a les parets.", false],
+      ["Un protocol de programari que assigna adreces IP dinàmicament.", false],
+      ["Una configuració on tots els cables pengen lliurement sense panells per estalviar costos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Dins del cablejat estructurat, quina és la funció d'un panell de connexió (Patch Panel)?",
+    "respostes": [
+      ["Organitzar i centralitzar els cables que vénen de les preses de paret abans de connectar-los als switches.", true],
+      ["Proporcionar electricitat directament als ordinadors (PoE).", false],
+      ["Amplificar els senyals de xarxa perquè arribin més lluny.", false],
+      ["Filtrar els atacs de virus de la xarxa local.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Com s'anomenen els cables curts que s'utilitzen per connectar dispositius individuals als panells de connexió o als switches?",
+    "respostes": [
+      ["Patch Cords (cables d'enllaç).", true],
+      ["Cables de nucli.", false],
+      ["Cables coaxials primaris.", false],
+      ["Fils de fibra multimode verticals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina normativa internacional especifica els requisits generals per al cablejat estructurat en edificis comercials?",
+    "respostes": [
+      ["ISO/IEC 11801.", true],
+      ["IEEE 802.11ax.", false],
+      ["IPv6.", false],
+      ["CSMA/CD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "En quina capa del model OSI opera principalment un repetidor?",
+    "respostes": [
+      ["A la capa 1 (Física).", true],
+      ["A la capa 2 (Enllaç de dades).", false],
+      ["A la capa 3 (Xarxa).", false],
+      ["A la capa 4 (Transport).", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Per a què serveix un Hub (concentrador) a diferència d'un commutador?",
+    "respostes": [
+      ["El hub reenvia les dades que rep a tots els altres dispositius connectats, sense tenir en compte el destinatari real.", true],
+      ["El hub filtra els paquets analitzant l'adreça MAC de destí.", false],
+      ["El hub tradueix adreces IP privades a públiques.", false],
+      ["El hub proporciona exclusivament connectivitat sense fils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Com redueix un commutador (Switch) les col·lisions en comparació amb un Hub?",
+    "respostes": [
+      ["Examinant l'adreça MAC i enviant la trama només al port on està connectat el dispositiu destinatari.", true],
+      ["Utilitzant un token que impedeix a la resta transmetre.", false],
+      ["Assignant temps de transmissió rotatoris a cada port de forma fixa.", false],
+      ["Eliminant els paquets que superen una mida determinada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina és la funció principal d'un Enrutador (Router) en una xarxa LAN?",
+    "respostes": [
+      ["Encaminar el trànsit de dades entre diferents xarxes basant-se en les adreces IP.", true],
+      ["Regenerar el senyal elèctric dels cables UTP.", false],
+      ["Connectar exclusivament equips dins de la mateixa subxarxa MAC.", false],
+      ["Proporcionar energia elèctrica als telèfons VoIP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin dispositiu d'interconnexió s'encarrega de convertir protocols i formats de dades per comunicar xarxes tecnològicament diferents?",
+    "respostes": [
+      ["La Passarel·la (Gateway).", true],
+      ["El Repetidor.", false],
+      ["El Punt d'Accés.", false],
+      ["El Patch Panel.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Què facilita un Punt d'Accés (Access Point)?",
+    "respostes": [
+      ["Connectivitat sense fils, actuant com a pont entre la xarxa cablejada i els dispositius mòbils.", true],
+      ["La unió de dues xarxes de fibra òptica interurbanes.", false],
+      ["La prevenció total i garantida d'atacs informàtics.", false],
+      ["La substitució de tots els routers de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Segons la informació proporcionada, quina categoria de cable està obsoleta actualment per oferir només 10 Mbps (10BASE-T)?",
+    "respostes": [
+      ["CAT 3.", true],
+      ["CAT 5e.", false],
+      ["CAT 6.", false],
+      ["CAT 7.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina tecnologia sense fils rep el nom de Wi-Fi 6 i ofereix altes velocitats i eficiència en entorns amb molts dispositius?",
+    "respostes": [
+      ["802.11ax.", true],
+      ["802.11b.", false],
+      ["802.11g.", false],
+      ["802.11a.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Què implica el nou enfocament de xarxes SDN (Software-Defined Networking)?",
+    "respostes": [
+      ["Desconnectar el pla de control del pla de dades per permetre una gestió més flexible i programable de la xarxa.", true],
+      ["Substituir tots els cables de coure per fibra òptica monomode.", false],
+      ["Desactivar la seguretat en favor d'una velocitat superior.", false],
+      ["Utilitzar únicament maquinari antic reciclat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina d'aquestes amenaces de seguretat s'enfoca a bloquejar l'accés als recursos de la xarxa?",
+    "respostes": [
+      ["L'atac de DoS (Denial of Service).", true],
+      ["L'autenticació 802.1X.", false],
+      ["El Token Ring.", false],
+      ["El xifratge WPA3.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "A nivell de seguretat LAN, per a què serveix la 'Segmentació de Xarxa'?",
+    "respostes": [
+      ["Per limitar l'abast de possibles atacs separant la xarxa en parts més petites.", true],
+      ["Per augmentar la freqüència de col·lisions de dades.", false],
+      ["Per eliminar els enrutadors de l'empresa.", false],
+      ["Per unificar diferents edificis en un mateix cable coaxial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin estàndard proporciona un mecanisme d'autenticació robusta utilitzat comunament per controlar l'accés en xarxes LAN?",
+    "respostes": [
+      ["802.1X.", true],
+      ["802.3.", false],
+      ["TIA/EIA-568.", false],
+      ["IPv4.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quina topologia LAN és considerada com una combinació de la d'estrella i la de bus, en la qual els dispositius es connecten jeràrquicament?",
+    "respostes": [
+      ["Topologia d'Arbre.", true],
+      ["Topologia d'Anell.", false],
+      ["Topologia Lineal.", false],
+      ["Topologia Aïllada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin problema presenta una topologia en bus clàssica en entorns amb molt de trànsit?",
+    "respostes": [
+      ["L'alt risc de col·lisions que redueix el rendiment i té una escalabilitat limitada.", true],
+      ["L'elevat cost de comprar el cable principal (bus).", false],
+      ["Que cada ordinador ha de tenir un encaminador propi.", false],
+      ["La impossibilitat d'enviar missatges a la impressora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Segons la norma, quin cable de parell trenat és l'opció recomanada en centres de dades per donar suport a velocitats de 40 Gbps?",
+    "respostes": [
+      ["CAT 8.", true],
+      ["CAT 5e.", false],
+      ["CAT 6.", false],
+      ["CAT 3.", false]
+    ]
+  },
+  {
+    "tema": "Tema 57. Xarxes d'àrea local. Arquitectura. Topologia. Mitjans de transmissió. Mètodes d'accés. Sistemes de cablejat i dispositius d'interconnexió.",
+    "enunciat": "Quin dispositiu opera a la capa d'enllaç de dades i permet connectar diferents segments d'una xarxa filtrant part del trànsit?",
+    "respostes": [
+      ["El Pont (Bridge).", true],
+      ["El Hub (Concentrador).", false],
+      ["El Repetidor.", false],
+      ["El Rack de comunicacions.", false]
+    ]
+  }
+]

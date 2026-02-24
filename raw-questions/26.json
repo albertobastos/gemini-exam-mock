@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és l'orientació a objectes (OO)?",
+    "respostes": [
+      ["Un llenguatge de programació específic.", false],
+      ["Un paradigma de desenvolupament de programari que utilitza 'objectes' per modelar dades i comportaments.", true],
+      ["Una metodologia per gestionar bases de dades relacionals.", false],
+      ["Un sistema operatiu per a servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què representa una 'Classe' en OO?",
+    "respostes": [
+      ["Una instància concreta d'un objecte.", false],
+      ["Una plantilla o plànol que defineix les propietats i comportaments comuns a un grup d'objectes.", true],
+      ["Una funció matemàtica.", false],
+      ["Una variable global.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és un 'Objecte'?",
+    "respostes": [
+      ["Un fitxer de text.", false],
+      ["Una instància d'una classe, amb el seu propi estat i comportament.", true],
+      ["Una línia de codi.", false],
+      ["Un error de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "En què consisteix l'Encapsulació?",
+    "respostes": [
+      ["En mostrar totes les dades a l'usuari.", false],
+      ["En ocultar els detalls interns d'un objecte i exposar només el necessari a través d'una interfície pública.", true],
+      ["En heretar propietats d'altres classes.", false],
+      ["En repetir el codi moltes vegades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què permet l'Herència?",
+    "respostes": [
+      ["Crear noves classes basades en classes existents, heretant-ne atributs i mètodes.", true],
+      ["Esborrar classes antigues automàticament.", false],
+      ["Executar el codi més ràpid.", false],
+      ["Evitar l'ús de mètodes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és el Polimorfisme?",
+    "respostes": [
+      ["La capacitat d'un objecte de prendre moltes formes (diferents classes poden ser tractades com una de sola).", true],
+      ["La capacitat de canviar de color.", false],
+      ["L'ús de molts llenguatges de programació alhora.", false],
+      ["La duplicació de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què estableix el Principi de Responsabilitat Única (SRP) de SOLID?",
+    "respostes": [
+      ["Que una classe ha de tenir moltes responsabilitats.", false],
+      ["Que una classe ha de tenir només una raó per canviar (una única responsabilitat).", true],
+      ["Que totes les classes han de dir-se igual.", false],
+      ["Que no es poden usar classes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin principi SOLID diu que les entitats han d'estar obertes a l'extensió però tancades a la modificació?",
+    "respostes": [
+      ["Principi Obert/Tancat (OCP).", true],
+      ["Principi de Substitució de Liskov (LSP).", false],
+      ["Principi de Segregació de la Interfície (ISP).", false],
+      ["Principi d'Inversió de Dependència (DIP).", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és l'Anàlisi Orientada a Objectes (OOA)?",
+    "respostes": [
+      ["Escriure el codi final.", false],
+      ["Identificar els requisits i modelar el sistema en termes d'objectes i conceptes del domini del problema.", true],
+      ["Dissenyar la base de dades física.", false],
+      ["Provar el programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin diagrama UML s'utilitza principalment durant l'anàlisi per capturar els requisits funcionals?",
+    "respostes": [
+      ["Diagrama de Classes.", false],
+      ["Diagrama de Casos d'Ús.", true],
+      ["Diagrama de Components.", false],
+      ["Diagrama de Desplegament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què es defineix durant el Disseny Orientat a Objectes (OOD)?",
+    "respostes": [
+      ["Els requisits de l'usuari.", false],
+      ["Com s'implementarà el sistema, definint l'arquitectura, les interfícies i els detalls dels components.", true],
+      ["El pressupost del projecte.", false],
+      ["L'horari laboral dels programadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin diagrama UML mostra la interacció entre objectes al llarg del temps?",
+    "respostes": [
+      ["Diagrama de Classes.", false],
+      ["Diagrama de Seqüència.", true],
+      ["Diagrama de Paquets.", false],
+      ["Diagrama d'Estats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és la Programació Orientada a Objectes (OOP)?",
+    "respostes": [
+      ["La implementació del disseny OO utilitzant un llenguatge de programació com Java o C++.", true],
+      ["L'ús exclusiu de llenguatge ensamblador.", false],
+      ["La creació de diagrames en paper.", false],
+      ["L'administració de sistemes operatius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quins són els tres pilars fonamentals de la programació orientada a objectes?",
+    "respostes": [
+      ["Variables, funcions i bucles.", false],
+      ["Encapsulació, Herència i Polimorfisme.", true],
+      ["HTML, CSS i JavaScript.", false],
+      ["Client, Servidor i Xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què són els Patrons de Disseny?",
+    "respostes": [
+      ["Dibuixos decoratius per al codi.", false],
+      ["Solucions estandarditzades i reutilitzables a problemes comuns de disseny de programari.", true],
+      ["Errors de programació freqüents.", false],
+      ["Llenguatges de programació nous.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Com es classifiquen els patrons de disseny segons el 'Gang of Four' (GoF)?",
+    "respostes": [
+      ["Bons, dolents i regulars.", false],
+      ["Creacionals, Estructurals i de Comportament.", true],
+      ["Fàcils, mitjans i difícils.", false],
+      ["Locals, remots i híbrids.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin patró de disseny assegura que una classe tingui una única instància i proporciona un punt d'accés global a ella?",
+    "respostes": [
+      ["Factory Method.", false],
+      ["Singleton.", true],
+      ["Observer.", false],
+      ["Adapter.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin és l'objectiu del patró Factory Method?",
+    "respostes": [
+      ["Crear una única instància d'una classe.", false],
+      ["Definir una interfície per crear objectes, però deixar que les subclasses decideixin quina classe instanciar.", true],
+      ["Notificar canvis d'estat a altres objectes.", false],
+      ["Adaptar una interfície a una altra.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Per a què serveix el patró Observer?",
+    "respostes": [
+      ["Per crear objectes complexos.", false],
+      ["Per definir una dependència un-a-molts entre objectes, de manera que quan un canvia d'estat, els seus dependents són notificats.", true],
+      ["Per restringir l'accés a una classe.", false],
+      ["Per connectar classes incompatibles.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és UML (Unified Modeling Language)?",
+    "respostes": [
+      ["Un llenguatge de programació executables.", false],
+      ["Un llenguatge estàndard per visualitzar, especificar, construir i documentar els artefactes d'un sistema de programari.", true],
+      ["Un sistema operatiu.", false],
+      ["Una base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin diagrama UML descriu l'estructura estàtica del sistema (classes, atributs, mètodes i relacions)?",
+    "respostes": [
+      ["Diagrama de Seqüència.", false],
+      ["Diagrama de Classes.", true],
+      ["Diagrama d'Activitats.", false],
+      ["Diagrama d'Estats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què modela un Diagrama d'Activitats?",
+    "respostes": [
+      ["L'estructura de la base de dades.", false],
+      ["El flux de treball o d'activitats dins del sistema (similar a un diagrama de flux).", true],
+      ["La disposició física dels servidors.", false],
+      ["Les versions del programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin diagrama representa els diferents estats pels quals passa un objecte i les transicions entre ells?",
+    "respostes": [
+      ["Diagrama de Classes.", false],
+      ["Diagrama d'Estats (Statechart).", true],
+      ["Diagrama de Components.", false],
+      ["Diagrama de Desplegament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quina relació representa una línia amb un rombe buit al final en un diagrama de classes?",
+    "respostes": [
+      ["Herència.", false],
+      ["Agregació (relació 'té un', però feble).", true],
+      ["Composició (relació forta).", false],
+      ["Dependència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què significa una línia amb un rombe ple (negre) en un diagrama de classes?",
+    "respostes": [
+      ["Associació simple.", false],
+      ["Composició (el tot és responsable de les parts, relació forta).", true],
+      ["Herència.", false],
+      ["Implementació d'interfície.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin principi SOLID suggereix que les classes d'alt nivell no haurien de dependre de classes de baix nivell?",
+    "respostes": [
+      ["Principi de Responsabilitat Única.", false],
+      ["Principi d'Inversió de Dependència (DIP).", true],
+      ["Principi d'Obert/Tancat.", false],
+      ["Principi de Segregació de la Interfície.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què facilita la modularitat en l'orientació a objectes?",
+    "respostes": [
+      ["Fer tot el codi en un sol fitxer.", false],
+      ["Dividir el programa en parts més petites i independents (classes/objectes).", true],
+      ["Utilitzar variables globals.", false],
+      ["No fer servir funcions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin patró de disseny és de tipus 'Estructural'?",
+    "respostes": [
+      ["Singleton.", false],
+      ["Adapter.", true],
+      ["Observer.", false],
+      ["Factory Method.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin avantatge té l'ús de patrons de disseny?",
+    "respostes": [
+      ["Permet escriure codi sense pensar.", false],
+      ["Proporciona un llenguatge comú i solucions provades que milloren la qualitat i mantenibilitat del codi.", true],
+      ["Fa que el programa ocupi menys espai en disc.", false],
+      ["Elimina la necessitat de fer proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quina és la visibilitat d'un atribut 'privat' en una classe?",
+    "respostes": [
+      ["Accessible des de qualsevol lloc.", false],
+      ["Accessible només des de la pròpia classe.", true],
+      ["Accessible des de les subclasses.", false],
+      ["Accessible des del paquet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quina és la visibilitat d'un atribut 'protegit' (protected)?",
+    "respostes": [
+      ["Accessible només des de la pròpia classe.", false],
+      ["Accessible des de la pròpia classe i les seves subclasses (i sovint el paquet).", true],
+      ["Accessible públicament.", false],
+      ["No és accessible mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin diagrama UML s'utilitza per modelar el comportament d'un cas d'ús concret pas a pas?",
+    "respostes": [
+      ["Diagrama de Classes.", false],
+      ["Diagrama de Seqüència.", true],
+      ["Diagrama de Components.", false],
+      ["Diagrama de Desplegament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és una classe abstracta?",
+    "respostes": [
+      ["Una classe que no es pot instanciar i pot contenir mètodes sense implementar.", true],
+      ["Una classe sense mètodes.", false],
+      ["Una classe que no té nom.", false],
+      ["Una classe final.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quina és la diferència entre una classe abstracta i una interfície (en termes generals)?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["Una interfície només defineix contractes (mètodes sense cos, tot i que això varia en llenguatges moderns), mentre que una classe abstracta pot tenir implementació parcial i estat.", true],
+      ["Les interfícies poden tenir atributs privats.", false],
+      ["Les classes abstractes no poden tenir herència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin avantatge té l'herència múltiple (si el llenguatge la suporta)?",
+    "respostes": [
+      ["Permet heretar comportament de més d'una classe pare.", true],
+      ["Fa que el codi sigui més lent.", false],
+      ["Impedeix l'ús de polimorfisme.", false],
+      ["Redueix la reutilització de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Què és el 'Binding dinàmic' o enllaç tardà?",
+    "respostes": [
+      ["Decidir quin mètode executar en temps de compilació.", false],
+      ["Decidir quin mètode executar en temps d'execució segons l'objecte real.", true],
+      ["Un error d'enllaç.", false],
+      ["Connectar a una base de dades tard.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "En UML, com es representa l'herència?",
+    "respostes": [
+      ["Amb una línia puntejada.", false],
+      ["Amb una línia sòlida acabada en un triangle buit que apunta a la classe pare.", true],
+      ["Amb un cercle.", false],
+      ["Amb un rombe negre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 26. Orientació a objectes. Fonaments teòrics. Anàlisi, disseny i programació. Patrons de disseny. UML.",
+    "enunciat": "Quin principi SOLID ajuda a evitar classes 'Déu' (God Objects) que fan massa coses?",
+    "respostes": [
+      ["Principi de Responsabilitat Única (SRP).", true],
+      ["Principi d'Obert/Tancat.", false],
+      ["Patró Singleton.", false],
+      ["Herència múltiple.", false]
+    ]
+  }
+]

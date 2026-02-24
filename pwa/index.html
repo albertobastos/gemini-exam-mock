@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Simulator PWA</title>
+    <link rel="manifest" href="./manifest.json">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --success: #16a34a;
+            --success-bg: #dcfce7;
+            --error: #dc2626;
+            --error-bg: #fee2e2;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #0f172a;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 1rem;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+
+        /* Views */
+        #setup-view, #exam-view, #results-view { display: none; }
+        .active-view { display: block !important; }
+
+        /* Typography & Inputs */
+        h1, h2, h3 { margin-top: 0; color: var(--primary); }
+        hr { border: 0; height: 1px; background: #e2e8f0; margin: 1.5rem 0; }
+        
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            touch-action: manipulation;
+        }
+        button:hover { background: var(--primary-hover); }
+        button:disabled { background: #94a3b8; cursor: not-allowed; }
+        
+        .btn-secondary { background: #64748b; }
+        .btn-secondary:hover { background: #475569; }
+        
+        .btn-danger { background: var(--error); }
+        .btn-danger:hover { background: #b91c1c; }
+
+        .btn-small { padding: 0.25rem 0.75rem; font-size: 0.85rem; }
+
+        .form-group { margin-bottom: 1.5rem; }
+        .topic-header-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+        
+        .topic-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 6px;
+            background: #f1f5f9;
+        }
+        input[type="number"] {
+            padding: 0.5rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 1rem;
+            width: 100px;
+        }
+
+        /* History Table */
+        .history-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px dashed #e2e8f0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th { background: #f8fafc; color: #64748b; }
+        .score-good { color: var(--success); font-weight: bold; }
+        .score-bad { color: var(--error); font-weight: bold; }
+
+        /* Exam UI */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            background: var(--surface);
+            padding: 1rem 0;
+            border-bottom: 2px solid #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+            margin-bottom: 1.5rem;
+        }
+        
+        .timer { font-size: 1.25rem; font-weight: bold; font-variant-numeric: tabular-nums; }
+
+        .question-card {
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .question-text { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        
+        .option {
+            display: block;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: var(--surface);
+        }
+        .option:hover:not(.locked) { border-color: var(--primary); background: #f8fafc; }
+        .option.selected { border-color: var(--primary); background: #eff6ff; }
+        
+        /* Feedback states */
+        .option.locked { cursor: default; pointer-events: none; }
+        .option.correct { border-color: var(--success) !important; background: var(--success-bg) !important; }
+        .option.incorrect { border-color: var(--error) !important; background: var(--error-bg) !important; }
+
+        #score-display {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="setup-view" class="active-view">
+        <h1>Configuració de l'Examen</h1>
+        <button onclick="loadQuestions(true)" class="btn-secondary" style="margin-bottom: 1rem;">🔄 Force questions reload</button>
+        
+        <div class="form-group">
+            <div class="topic-header-flex">
+                <h3 style="margin: 0;">1. Select Topics</h3>
+                <div>
+                    <button type="button" class="btn-secondary btn-small" onclick="selectAllTopics()">All</button>
+                    <button type="button" class="btn-secondary btn-small" onclick="selectNoneTopics()">None</button>
+                </div>
+            </div>
+            <div id="topics-container">Loading topics...</div>
+        </div>
+
+        <div class="form-group">
+            <h3>2. Number of Questions</h3>
+            <input type="number" id="q-amount" value="100" min="1">
+        </div>
+
+        <button onclick="startExam()">Start Exam</button>
+
+        <div class="history-section">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3>Exam History</h3>
+                <button onclick="clearHistory()" class="btn-danger btn-small">🗑️ Reset History</button>
+            </div>
+            <div id="history-container">
+                <p style="color: #64748b;">No past exams found.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="exam-view">
+        <div class="sticky-header">
+            <div class="timer" id="timer-display">00:00</div>
+            <button onclick="finishExam()" id="finish-btn">Finish Exam</button>
+        </div>
+        <div id="questions-container"></div>
+    </div>
+
+    <div id="results-view">
+        <h1>Exam Results</h1>
+        <div id="score-display">-- / 10</div>
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <p id="stats-display" style="font-size: 1.1rem;"></p>
+            <p id="time-display" style="color: #64748b; margin-bottom: 1.5rem;"></p>
+            <button onclick="location.reload()">Return to Menu</button>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<script>
+    let allQuestions = [];
+    let examQuestions = [];
+    let userAnswers = {}; 
+    
+    let timerInterval = null;
+    let secondsElapsed = 0;
+    let timerStarted = false;
+
+    // --- Initialization & Data Loading ---
+    window.onload = async () => {
+        registerServiceWorker();
+        renderHistory();
+        await loadQuestions();
+    };
+
+    async function loadQuestions(forceReload = false) {
+        const localData = localStorage.getItem('pwa_exam_questions');
+        
+        if (!forceReload && localData) {
+            allQuestions = JSON.parse(localData);
+            populateSetup();
+            return;
+        }
+
+        try {
+            const response = await fetch('./questions.json');
+            if (!response.ok) throw new Error("Could not fetch questions.json");
+            const data = await response.json();
+            localStorage.setItem('pwa_exam_questions', JSON.stringify(data));
+            allQuestions = data;
+            populateSetup();
+            if(forceReload) alert("Questions reloaded successfully!");
+        } catch (error) {
+            console.error(error);
+            alert("Error loading questions.json. Make sure the file exists in the same directory.");
+        }
+    }
+
+    function populateSetup() {
+        const topics = [...new Set(allQuestions.map(q => q.tema))];
+        const container = document.getElementById('topics-container');
+        container.innerHTML = '';
+        
+        topics.forEach((topic, index) => {
+            const label = document.createElement('label');
+            label.className = 'topic-label';
+            label.innerHTML = `
+                <input type="checkbox" value="${index}" checked class="topic-checkbox">
+                <span>${topic}</span>
+            `;
+            container.appendChild(label);
+        });
+        
+        document.getElementById('q-amount').max = allQuestions.length;
+        document.getElementById('q-amount').value = Math.min(100, allQuestions.length);
+    }
+
+    // --- Topic Selection Utilities ---
+    function selectAllTopics() {
+        document.querySelectorAll('.topic-checkbox').forEach(cb => cb.checked = true);
+    }
+
+    function selectNoneTopics() {
+        document.querySelectorAll('.topic-checkbox').forEach(cb => cb.checked = false);
+    }
+
+    // --- History Logic ---
+    function saveHistory(score, right, wrong, blank, total, timeStr) {
+        let history = JSON.parse(localStorage.getItem('pwa_exam_history')) || [];
+        
+        const now = new Date();
+        const dateString = now.toLocaleDateString() + ' ' + now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+        history.push({
+            date: dateString,
+            score: score,
+            right: right,
+            wrong: wrong,
+            blank: blank,
+            total: total,
+            time: timeStr
+        });
+
+        localStorage.setItem('pwa_exam_history', JSON.stringify(history));
+        renderHistory();
+    }
+
+    function renderHistory() {
+        const history = JSON.parse(localStorage.getItem('pwa_exam_history')) || [];
+        const container = document.getElementById('history-container');
+        
+        if (history.length === 0) {
+            container.innerHTML = '<p style="color: #64748b;">No past exams found.</p>';
+            return;
+        }
+
+        let html = `
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Score</th>
+                        <th>R / W / B</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        for(let i = history.length - 1; i >= 0; i--) {
+            const h = history[i];
+            const scoreClass = parseFloat(h.score) >= 5.0 ? 'score-good' : 'score-bad';
+            html += `
+                <tr>
+                    <td>${h.date}</td>
+                    <td class="${scoreClass}">${h.score} / 10</td>
+                    <td style="font-size: 0.85em;">✅ ${h.right} | ❌ ${h.wrong} | ⬜ ${h.blank}</td>
+                    <td style="color: #64748b;">${h.time}</td>
+                </tr>
+            `;
+        }
+
+        html += `</tbody></table>`;
+        container.innerHTML = html;
+    }
+
+    function clearHistory() {
+        if(confirm("Are you sure you want to permanently delete your exam history?")) {
+            localStorage.removeItem('pwa_exam_history');
+            renderHistory();
+        }
+    }
+
+    // --- Exam Logic ---
+    function startExam() {
+        const checkboxes = document.querySelectorAll('.topic-checkbox:checked');
+        const selectedTopics = Array.from(checkboxes).map(cb => cb.nextElementSibling.innerText);
+        
+        if (selectedTopics.length === 0) return alert("Please select at least one topic.");
+
+        let filtered = allQuestions.filter(q => selectedTopics.includes(q.tema));
+        filtered = filtered.sort(() => 0.5 - Math.random()); 
+        
+        const amount = parseInt(document.getElementById('q-amount').value);
+        examQuestions = filtered.slice(0, amount);
+
+        if(examQuestions.length === 0) return alert("No questions available for selected topics.");
+
+        renderExam();
+        switchView('exam-view');
+        
+        secondsElapsed = 0;
+        timerStarted = false;
+        document.getElementById('timer-display').innerText = "00:00";
+    }
+
+    function renderExam() {
+        const container = document.getElementById('questions-container');
+        container.innerHTML = '';
+        userAnswers = {};
+
+        examQuestions.forEach((q, qIndex) => {
+            let answers = q.respostes.map((ans, originalIndex) => ({ 
+                text: ans[0], 
+                isCorrect: ans[1], 
+                originalIndex 
+            }));
+            
+            answers = answers.sort(() => 0.5 - Math.random());
+            q.shuffledAnswers = answers; 
+
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.id = `q-card-${qIndex}`;
+            
+            let optionsHTML = '';
+            answers.forEach((ans, aIndex) => {
+                optionsHTML += `
+                    <div class="option" id="opt-${qIndex}-${aIndex}" 
+                         onclick="selectAnswer(${qIndex}, ${aIndex}, ${ans.isCorrect})">
+                        ${ans.text}
+                    </div>
+                `;
+            });
+
+            card.innerHTML = `
+                <div class="question-text">${qIndex + 1}. ${q.enunciat}</div>
+                <div class="options-container">${optionsHTML}</div>
+            `;
+            container.appendChild(card);
+        });
+        
+        window.scrollTo(0, 0);
+    }
+
+    function selectAnswer(qIndex, aIndex, isCorrect) {
+        if (!timerStarted) startTimer();
+
+        const card = document.getElementById(`q-card-${qIndex}`);
+        const options = card.querySelectorAll('.option');
+        
+        options.forEach(opt => opt.classList.remove('selected'));
+        document.getElementById(`opt-${qIndex}-${aIndex}`).classList.add('selected');
+
+        userAnswers[qIndex] = { selectedIndex: aIndex, isCorrect: isCorrect };
+    }
+
+    // --- Timer ---
+    function startTimer() {
+        timerStarted = true;
+        timerInterval = setInterval(() => {
+            secondsElapsed++;
+            const m = String(Math.floor(secondsElapsed / 60)).padStart(2, '0');
+            const s = String(secondsElapsed % 60).padStart(2, '0');
+            document.getElementById('timer-display').innerText = `${m}:${s}`;
+        }, 1000);
+    }
+
+    // --- Evaluation ---
+    function finishExam() {
+        if(!confirm("Are you sure you want to finish the exam?")) return;
+        
+        clearInterval(timerInterval);
+        document.getElementById('finish-btn').style.display = 'none';
+        
+        const finalTimeStr = document.getElementById('timer-display').innerText;
+
+        let right = 0;
+        let wrong = 0;
+        let blank = 0;
+        const N = examQuestions.length;
+
+        examQuestions.forEach((q, qIndex) => {
+            const card = document.getElementById(`q-card-${qIndex}`);
+            const options = card.querySelectorAll('.option');
+            
+            options.forEach(opt => {
+                opt.classList.add('locked');
+                opt.removeAttribute('onclick'); 
+            });
+
+            const userAnswer = userAnswers[qIndex];
+            const correctIndex = q.shuffledAnswers.findIndex(a => a.isCorrect);
+
+            if (!userAnswer) {
+                blank++;
+                document.getElementById(`opt-${qIndex}-${correctIndex}`).classList.add('correct');
+            } else {
+                if (userAnswer.isCorrect) {
+                    right++;
+                    document.getElementById(`opt-${qIndex}-${userAnswer.selectedIndex}`).classList.add('correct');
+                } else {
+                    wrong++;
+                    document.getElementById(`opt-${qIndex}-${userAnswer.selectedIndex}`).classList.add('incorrect');
+                    document.getElementById(`opt-${qIndex}-${correctIndex}`).classList.add('correct');
+                }
+            }
+        });
+
+        let rawScore = ((right - (wrong / 3)) / N) * 10;
+        let finalScore = Math.max(0, rawScore).toFixed(2);
+
+        document.getElementById('score-display').innerText = `${finalScore} / 10`;
+        document.getElementById('stats-display').innerHTML = 
+            `<strong>Correct:</strong> ${right} &nbsp;|&nbsp; <strong>Incorrect:</strong> ${wrong} &nbsp;|&nbsp; <strong>Blank:</strong> ${blank}`;
+        document.getElementById('time-display').innerText = `Time spent: ${finalTimeStr}`;
+        
+        saveHistory(finalScore, right, wrong, blank, N, finalTimeStr);
+        
+        const resultsView = document.getElementById('results-view');
+        resultsView.style.display = 'block';
+        
+        const examContainer = document.getElementById('exam-view');
+        examContainer.insertBefore(resultsView, document.getElementById('questions-container'));
+        
+        window.scrollTo(0, 0);
+    }
+
+    // --- Utilities ---
+    function switchView(viewId) {
+        document.querySelectorAll('.container > div').forEach(el => el.classList.remove('active-view'));
+        document.getElementById(viewId).classList.add('active-view');
+    }
+
+    function registerServiceWorker() {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .catch(err => console.error('Service Worker Registration Failed', err));
+        }
+    }
+</script>
+</body>
+</html>

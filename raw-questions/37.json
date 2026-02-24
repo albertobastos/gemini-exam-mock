@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin és l'objectiu principal de l'arquitectura de desenvolupament d'aplicacions web?",
+    "respostes": [
+      ["Assegurar una separació clara de responsabilitats, facilitant el manteniment i l'escalabilitat.", true],
+      ["Instal·lar el navegador web a l'ordinador del client.", false],
+      ["Dissenyar només la base de dades.", false],
+      ["Crear una única pàgina HTML estàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què significa l'acrònim MVC?",
+    "respostes": [
+      ["Model-Visualització-Codi.", false],
+      ["Model-Vista-Controlador.", true],
+      ["Mètode-Variable-Classe.", false],
+      ["Motor-Ventilador-Cable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina responsabilitat té el component 'Model' en l'arquitectura MVC?",
+    "respostes": [
+      ["Gestionar la interfície d'usuari.", false],
+      ["Representar les dades i la lògica de negoci, gestionant l'estat de l'aplicació.", true],
+      ["Processar les peticions HTTP.", false],
+      ["Dibuixar els botons a la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina funció realitza la 'Vista' en MVC?",
+    "respostes": [
+      ["Presentar les dades a l'usuari i capturar les seves interaccions.", true],
+      ["Connectar amb la base de dades.", false],
+      ["Calcular impostos.", false],
+      ["Gestionar la seguretat del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què fa el 'Controlador' en l'arquitectura MVC?",
+    "respostes": [
+      ["Emmagatzemar les dades al disc dur.", false],
+      ["Gestionar la interacció entre la vista i el model, processant les sol·licituds de l'usuari.", true],
+      ["Dissenyar els colors de la web.", false],
+      ["Compilar el codi font.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin és un benefici clau de l'arquitectura MVC?",
+    "respostes": [
+      ["Fa que el codi sigui impossible de llegir.", false],
+      ["Facilita la reutilització de codi i el desenvolupament en equip gràcies a la separació de responsabilitats.", true],
+      ["Elimina la necessitat de tenir un servidor.", false],
+      ["Només serveix per a aplicacions petites.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és el desenvolupament web Front-End?",
+    "respostes": [
+      ["La programació de la base de dades.", false],
+      ["La part de l'aplicació que interactua directament amb l'usuari (interfície).", true],
+      ["La configuració del sistema operatiu.", false],
+      ["El cablejat de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina característica tècnica millora el rendiment en React?",
+    "respostes": [
+      ["L'ús d'un DOM virtual.", true],
+      ["L'ús de bases de dades SQL.", false],
+      ["L'absència de JavaScript.", false],
+      ["L'ús exclusiu d'HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin framework de Google utilitza 'Two-way data binding' i injecció de dependències?",
+    "respostes": [
+      ["React.", false],
+      ["Angular.", true],
+      ["Flask.", false],
+      ["Django.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és Vue.js?",
+    "respostes": [
+      ["Un servidor web.", false],
+      ["Un framework progressiu de JavaScript per a la construcció d'interfícies d'usuari.", true],
+      ["Un llenguatge de base de dades.", false],
+      ["Un sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què implica el 'Two-way data binding'?",
+    "respostes": [
+      ["Que cal guardar les dades dues vegades.", false],
+      ["Que els canvis a la interfície d'usuari s'actualitzen automàticament al model de dades i viceversa.", true],
+      ["Que només es poden enviar dades, no rebre-les.", false],
+      ["Que es necessiten dos servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "De què s'encarrega el desenvolupament web Back-End?",
+    "respostes": [
+      ["De dissenyar els logos.", false],
+      ["De la lògica de negoci, gestió de dades i processament de sol·licituds al servidor.", true],
+      ["Dels colors de la pàgina web.", false],
+      ["De la instal·lació del navegador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina característica destaca en el Spring Framework per a Java?",
+    "respostes": [
+      ["No permet accés a dades.", false],
+      ["Ofereix inversió de control (IoC) i programació orientada a aspectes (AOP).", true],
+      ["Només serveix per a aplicacions d'escriptori.", false],
+      ["És un framework de JavaScript.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és Node.js?",
+    "respostes": [
+      ["Un editor de text.", false],
+      ["Una plataforma de servidor basada en JavaScript, asíncrona i orientada a esdeveniments.", true],
+      ["Una base de dades relacional.", false],
+      ["Un navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin framework de Python segueix la filosofia 'batteries included'?",
+    "respostes": [
+      ["Flask.", false],
+      ["Django.", true],
+      ["React.", false],
+      ["Vue.js.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina és la funció principal d'un servidor web?",
+    "respostes": [
+      ["Executar lògica de negoci complexa.", false],
+      ["Servir pàgines web i contingut estàtic als usuaris a través d'HTTP.", true],
+      ["Dissenyar gràfics.", false],
+      ["Escriure codi font.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què proporciona un servidor d'aplicacions?",
+    "respostes": [
+      ["Només fitxers HTML.", false],
+      ["Una plataforma per executar lògica de negoci complexa, gestionar transaccions i seguretat.", true],
+      ["Connexió a internet.", false],
+      ["Un editor d'imatges.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin és un exemple de servidor web molt utilitzat?",
+    "respostes": [
+      ["Microsoft Word.", false],
+      ["Apache HTTP Server o Nginx.", true],
+      ["Oracle Database.", false],
+      ["Adobe Flash.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin és un exemple de servidor d'aplicacions Java EE?",
+    "respostes": [
+      ["Notepad.", false],
+      ["JBoss EAP o WildFly.", true],
+      ["Chrome.", false],
+      ["Linux.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és JDBC?",
+    "respostes": [
+      ["Un llenguatge de programació.", false],
+      ["Una API que permet connectar aplicacions Java amb bases de dades relacionals.", true],
+      ["Un format de vídeo.", false],
+      ["Un tipus de pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin és l'objectiu de JPA (Java Persistence API)?",
+    "respostes": [
+      ["Enviar correus electrònics.", false],
+      ["Facilitar el mapatge entre objectes Java i taules de bases de dades relacionals.", true],
+      ["Crear pàgines web.", false],
+      ["Encriptar dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què permet fer l'ORM (Object-Relational Mapping)?",
+    "respostes": [
+      ["Dibuixar mapes.", false],
+      ["Treballar amb bases de dades utilitzant objectes en lloc d'escriure SQL manualment.", true],
+      ["Connectar dos ordinadors.", false],
+      ["Imprimir documents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és el patró DAO (Data Access Object)?",
+    "respostes": [
+      ["Un objecte volador.", false],
+      ["Un patró de disseny que encapsula l'accés a dades, separant-lo de la lògica de negoci.", true],
+      ["Un tipus d'error.", false],
+      ["Una funció matemàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és una SPA (Single Page Application)?",
+    "respostes": [
+      ["Un balneari.", false],
+      ["Una aplicació web on tota la interfície es carrega en una sola pàgina i la navegació és dinàmica sense recarregar.", true],
+      ["Una aplicació amb moltes pàgines.", false],
+      ["Un llibre digital.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és el DOM (Document Object Model)?",
+    "respostes": [
+      ["Un model de cotxe.", false],
+      ["Una representació estructurada en arbre dels documents HTML que permet la seva manipulació dinàmica.", true],
+      ["Un protocol de xarxa.", false],
+      ["Un llenguatge de servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què caracteritza el framework Flask?",
+    "respostes": [
+      ["És molt pesat.", false],
+      ["És un microframework lleuger per a desenvolupament web amb Python.", true],
+      ["És exclusiu de Java.", false],
+      ["No permet crear aplicacions web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina tecnologia de servidor utilitza el motor V8 de Google?",
+    "respostes": [
+      ["PHP.", false],
+      ["Node.js.", true],
+      ["Ruby.", false],
+      ["Perl.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què permet el patró Repository?",
+    "respostes": [
+      ["Guardar fitxers al disc.", false],
+      ["Proporcionar una interfície per a la gestió de col·leccions d'objectes de domini, sovint combinat amb ORM.", true],
+      ["Crear repositoris de Git.", false],
+      ["Enviar dades al núvol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin component MVC gestiona les transaccions en una aplicació Java EE?",
+    "respostes": [
+      ["La Vista.", false],
+      ["El Model (mitjançant EJBs).", true],
+      ["El navegador.", false],
+      ["El CSS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què permeten les PWA (Progressive Web Apps)?",
+    "respostes": [
+      ["Només funcionen en ordinadors vells.", false],
+      ["Oferir experiències semblants a aplicacions natives (notificacions, offline) utilitzant tecnologies web.", true],
+      ["Substituir el sistema operatiu.", false],
+      ["Crear jocs de consola.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina diferència principal hi ha entre un servidor web i un d'aplicacions?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["El servidor web gestiona contingut estàtic i peticions HTTP; el d'aplicacions executa lògica de negoci complexa.", true],
+      ["El servidor web és més car.", false],
+      ["El d'aplicacions no necessita xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què simplifica Spring Boot?",
+    "respostes": [
+      ["Res, ho fa tot més complicat.", false],
+      ["La creació d'aplicacions Spring autònomes amb una configuració mínima necessària.", true],
+      ["La instal·lació de Windows.", false],
+      ["El disseny de logotips.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin llenguatge s'utilitza principalment per a l'estil i disseny visual al Front-End?",
+    "respostes": [
+      ["Python.", false],
+      ["CSS.", true],
+      ["SQL.", false],
+      ["C++.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és Hibernate?",
+    "respostes": [
+      ["Un estat d'hivernació.", false],
+      ["Un framework ORM popular per a Java.", true],
+      ["Un navegador d'internet.", false],
+      ["Un editor de vídeo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quin avantatge té la separació de capes (Client-Side vs Server-Side)?",
+    "respostes": [
+      ["Fa que el sistema falli més.", false],
+      ["Permet minimitzar interdependències, millorar l'escalabilitat i facilitar el manteniment.", true],
+      ["No té cap avantatge.", false],
+      ["Obliga a usar el mateix llenguatge a tot arreu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina tecnologia Java s'utilitza típicament per a la 'Vista' en MVC clàssic?",
+    "respostes": [
+      ["JDBC.", false],
+      ["JSP (JavaServer Pages) o JSF.", true],
+      ["EJB.", false],
+      ["Hibernate.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Què és JSX en el context de React?",
+    "respostes": [
+      ["Un error de sintaxi.", false],
+      ["Una extensió de sintaxi que permet escriure estructura semblant a HTML dins de JavaScript.", true],
+      ["Un fitxer d'imatge.", false],
+      ["Un protocol de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 37. Arquitectura de desenvolupament d'aplicacions web. L´arquitectura Model-Vista-Controlador (MVC). Desenvolupament web front-end i back-end.",
+    "enunciat": "Quina funció té la injecció de dependències en frameworks com Angular o Spring?",
+    "respostes": [
+      ["Crear virus.", false],
+      ["Gestionar les dependències entre components de manera desacoblada i modular.", true],
+      ["Fer que l'aplicació vagi més lenta.", false],
+      ["Impedir l'ús de classes.", false]
+    ]
+  }
+]

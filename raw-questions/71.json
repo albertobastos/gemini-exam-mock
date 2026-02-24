@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com es defineix la Intel·ligència Artificial (IA) en el document?",
+    "respostes": [
+      ["La capacitat de les màquines per imitar funcions cognitives que els humans associen amb altres ments humanes, com ara aprendre i resoldre problemes.", true],
+      ["Un programari capaç de connectar-se a qualsevol base de dades sense necessitat de contrasenyes.", false],
+      ["El procés pel qual els robots adquireixen consciència pròpia i sentiments.", false],
+      ["La capacitat d'un ordinador de funcionar sense cap tipus de maquinari físic associat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin és un dels objectius principals de la IA esmentats al text?",
+    "respostes": [
+      ["Automatització de tasques repetitives per reduir la necessitat d'intervenció humana.", true],
+      ["Substituir completament la presa de decisions humanes en l'àmbit creatiu.", false],
+      ["Eliminar la necessitat d'utilitzar xarxes de comunicació a internet.", false],
+      ["Crear exclusivament sistemes basats en l'emulació de la força física humana.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Dins de la IA, què és l'Aprenentatge Automàtic (Machine Learning)?",
+    "respostes": [
+      ["Una subdisciplina que se centra en el desenvolupament d'algoritmes que permeten a les màquines aprendre a partir de dades, sense ser programats explícitament per a cada tasca.", true],
+      ["Un mètode on els humans ensenyen teòricament a la màquina mitjançant la introducció manual de regles IF-THEN.", false],
+      ["El procés mecànic pel qual un robot aprèn a caminar mitjançant l'equilibri de pesos.", false],
+      ["L'aplicació d'una capa de seguretat en els servidors d'internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En l'aprenentatge automàtic, per a què s'utilitza la tècnica de la regressió?",
+    "respostes": [
+      ["Per predir un valor continu basat en una o més variables independents (com predir el preu d'una casa).", true],
+      ["Per assignar etiquetes discretes a instàncies, com classificar correus en 'spam' o 'no spam'.", false],
+      ["Per ordenar elements en una seqüència segons la seva prioritat o rellevància.", false],
+      ["Per trobar patrons ocults en dades que no tenen cap etiqueta prèvia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quina tècnica de machine learning es fa servir quan l'objectiu és assignar etiquetes o classes a les dades, amb una sortida discreta?",
+    "respostes": [
+      ["Classificació.", true],
+      ["Regressió polinòmica.", false],
+      ["Clustering.", false],
+      ["Combinació SECI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En quina tasca de machine learning s'ordenarien els resultats d'un motor de cerca segons la seva rellevància en funció de la consulta?",
+    "respostes": [
+      ["Rànquing.", true],
+      ["Classificació binària.", false],
+      ["Regressió lineal.", false],
+      ["Lògica de predicats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com funciona l'aprenentatge supervisat?",
+    "respostes": [
+      ["Els models són entrenats amb un conjunt de dades etiquetades, aprenent la relació entre entrades i sortides correctes per predir noves dades.", true],
+      ["Els models interactuen amb l'entorn a través d'assaig i error rebent recompenses o càstigs.", false],
+      ["Els models processen dades totalment desconegudes i sense etiquetes per trobar-hi agrupacions lògiques o patrons.", false],
+      ["Els models es programen de forma estàtica amb totes les possibles respostes codificades a mà.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què busca descobrir l'aprenentatge no supervisat en analitzar dades no etiquetades?",
+    "respostes": [
+      ["Descobrir estructures ocultes en les dades, com ara grups (clustering) o patrons.", true],
+      ["Predir el preu futur de les accions basant-se en etiquetes històriques exactes.", false],
+      ["Assignar punts i penalitzacions a un robot mentre aprèn a caminar.", false],
+      ["Entendre la sintaxi i semàntica del llenguatge humà per generar veu sintètica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En quin tipus d'aprenentatge un agent aprèn a prendre decisions seqüencials interactuant amb un entorn i maximitzant una recompensa acumulada?",
+    "respostes": [
+      ["Aprenentatge per Reforç.", true],
+      ["Aprenentatge Supervisat.", false],
+      ["Aprenentatge No Supervisat.", false],
+      ["Aprenentatge per Regressió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com estan estructurades principalment les xarxes neuronals artificials?",
+    "respostes": [
+      ["Estan compostes per neurones artificials organitzades en capes (capa d'entrada, una o més capes ocultes, i una capa de sortida).", true],
+      ["Estan formades exclusivament per un únic node central que processa tota la informació de manera seqüencial.", false],
+      ["Són estructures basades exclusivament en regles IF-THEN emmagatzemades en bases de dades relacionals.", false],
+      ["Estan compostes per un motor d'inferència que no conté nodes, sinó casos pràctics emmagatzemats en text pla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin tipus de xarxa neuronal és especialment adequada per al processament d'imatges?",
+    "respostes": [
+      ["Xarxes Neuronals Convolucionals (CNN).", true],
+      ["Xarxes Neuronals Recurrents (RNN).", false],
+      ["Sistemes d'aprenentatge per reforç pur.", false],
+      ["Sistemes experts basats en casos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Per al processament de dades seqüencials, com ara la parla, el text o l'àudio, quin tipus de xarxa neuronal s'utilitza comunament?",
+    "respostes": [
+      ["Xarxes Neuronals Recurrents (RNN).", true],
+      ["Xarxes Neuronals Convolucionals (CNN).", false],
+      ["Rànquing Supervisat.", false],
+      ["Arbres de decisió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com funcionen els sistemes de recomanació 'Basats en Contingut'?",
+    "respostes": [
+      ["Recomanen ítems similars a aquells pels quals l'usuari ha mostrat interès en el passat, basant-se en les característiques pròpies dels ítems.", true],
+      ["Recomanen ítems basant-se únicament en el comportament i les preferències d'altres usuaris amb gustos similars.", false],
+      ["Recomanen productes de forma aleatòria independentment de l'historial de l'usuari.", false],
+      ["Funcionen exclusivament ordenant els productes del més barat al més car.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin mètode fa servir un sistema de recomanació 'Col·laboratiu' (com moltes vegades fa Netflix)?",
+    "respostes": [
+      ["Utilitza la informació del comportament i preferències d'altres usuaris amb perfils o gustos similars per fer recomanacions a l'usuari actual.", true],
+      ["Analitza exclusivament el color i gènere de les pel·lícules prèviament vistes per l'usuari.", false],
+      ["Llegeix els correus electrònics de l'usuari per determinar el seu estat d'ànim.", false],
+      ["Recomana únicament els ítems patrocinats per l'empresa creadora de l'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Dins de les tecnologies clau dels Assistents Virtuals, quina és la funció del Processament del Llenguatge Natural (NLP)?",
+    "respostes": [
+      ["Permetre que els assistents puguin entendre, interpretar i generar llenguatge humà per interactuar amb l'usuari.", true],
+      ["Emmagatzemar dades en la memòria ROM del dispositiu mòbil.", false],
+      ["Convertir imatges i vídeos a format de text pla.", false],
+      ["Processar exclusivament les comandes tàctils que es fan sobre la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En l'àmbit de la gestió del coneixement, com es defineix el 'Coneixement Tàcit'?",
+    "respostes": [
+      ["És un coneixement personal, subjectiu i contextual, que resideix en l'experiència, les habilitats i les intuïcions, sent difícil de formalitzar i transmetre.", true],
+      ["És el coneixement formal, estructurat i fàcilment transmissible a través de manuals i llibres.", false],
+      ["És exclusivament el coneixement emmagatzemat a les bases de dades corporatives de l'empresa.", false],
+      ["És el coneixement obtingut a través de processos matemàtics estrictes i algoritmes lineals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "D'acord amb el model SECI de creació de coneixement, què descriu la fase d''Externalització' (o Exteriorització)?",
+    "respostes": [
+      ["La conversió del coneixement tàcit en coneixement explícit mitjançant la documentació, la creació de models o manuals perquè sigui accessible per a tothom.", true],
+      ["L'assimilació del coneixement explícit novament a tàcit mitjançant la pràctica i l'aprenentatge rutinari.", false],
+      ["La compartició d'experiències personals directament entre individus (Tàcit a Tàcit).", false],
+      ["La recopilació, processament i reorganització de coneixements que ja eren explícits per crear nou coneixement explícit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què s'esdevé a l'etapa de 'Combinació' del Model SECI?",
+    "respostes": [
+      ["El coneixement explícit existent es recopila, s'ordena, es processa i es combina per generar nou coneixement explícit (Explícit a Explícit).", true],
+      ["El coneixement tàcit es transmet directament entre persones a través de l'observació.", false],
+      ["El coneixement tàcit es formalitza en un document estructurat (Tàcit a Explícit).", false],
+      ["Els individus interioritzen el coneixement llegit i el converteixen en la seva pròpia habilitat (Explícit a Tàcit).", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "L'etapa d''Internalització' (o Interiorització) del Model SECI es pot explicar com:",
+    "respostes": [
+      ["La conversió de coneixement explícit (com manuals) en coneixement tàcit a través de l'aprenentatge pràctic o la pràctica reiterada.", true],
+      ["La unió de diverses bases de dades per crear un nou manual operatiu.", false],
+      ["L'intercanvi d'idees tàcites durant una reunió informal entre col·legues.", false],
+      ["L'extracció de la intuïció d'un expert cap a un format de text escrit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En el camp de la representació del coneixement, què és una 'Ontologia'?",
+    "respostes": [
+      ["Una estructura formal que defineix els conceptes d'un domini específic i les seves relacions, afegint riquesa semàntica i regles lògiques, útil per a la web semàntica (ex. OWL).", true],
+      ["Un simple esquema gràfic que connecta lliurement nodes i arcs sense cap tipus de formalitat ni regla lògica.", false],
+      ["Un mètode purament basat en el càlcul probabilístic per processar dades de vídeo en xarxes CNN.", false],
+      ["Una base de dades SQL clàssica dissenyada exclusivament per guardar imatges de pacients mèdics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quina és la principal diferència entre les Ontologies i les Xarxes Semàntiques?",
+    "respostes": [
+      ["Les ontologies són més formals i riques semànticament, incloent regles lògiques, jerarquies i restriccions (sovint construïdes amb OWL), mentre que les xarxes semàntiques són representacions més simples enfocades en conceptes i relacions gràfiques.", true],
+      ["Les xarxes semàntiques només es poden utilitzar en sistemes mèdics, i les ontologies només en vehicles autònoms.", false],
+      ["Les ontologies no permeten la representació de conceptes concrets com 'animal', cosa que sí fa la xarxa semàntica.", false],
+      ["No hi ha cap diferència; són dos termes intercanviables per a la mateixa base de dades matemàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quina eina de representació del coneixement utilitza predicats per descriure objectes, les seves relacions i permet realitzar inferències lògiques i deduccions formals (com 'Tots els gats són mamífers')?",
+    "respostes": [
+      ["Lògica de Predicats.", true],
+      ["Frames.", false],
+      ["Rànquing lineal.", false],
+      ["Aprenentatge No Supervisat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què són els 'Frames' en les tècniques de representació del coneixement?",
+    "respostes": [
+      ["Estructures de dades que organitzen el coneixement per representar situacions o objectes estereotipats (predefinits), proveïts d'atributs i valors per defecte (ex. una 'visita a un restaurant').", true],
+      ["Algoritmes d'aprenentatge profund que utilitzen múltiples capes ocultes per analitzar àudio seqüencial.", false],
+      ["Taules de dades no estructurades dissenyades exclusivament per a l'aprenentatge per reforç en videojocs.", false],
+      ["Regles simples que permeten als servidors identificar quins usuaris tenen preferències de cinema similars.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Els Sistemes Experts són aplicacions d'IA que emulen el raonament d'un expert humà. Quins són els seus components principals?",
+    "respostes": [
+      ["Una Base de Coneixement (fets i regles), un Motor d'Inferència (per raonar) i una Interfície d'Usuari.", true],
+      ["Un Sistema d'Aprenentatge Profund (DNN), Sensors Tàctils i un Motor de Traducció Automàtica.", false],
+      ["Dades d'Entrenament massives, un Mòdul de Clustering No Supervisat i Xarxes CNN.", false],
+      ["Lògica de Predicats en blanc, un Motor de Cerca en web i altaveus intel·ligents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Dins d'un Sistema Expert, quina és la missió del 'Motor d'inferència'?",
+    "respostes": [
+      ["És l'encarregat d'utilitzar i raonar sobre la base de coneixement (fets i regles) per prendre decisions i arribar a conclusions.", true],
+      ["És la interfície visual que permet a l'usuari final introduir les dades a l'ordinador.", false],
+      ["És l'emmagatzematge físic on es guarden permanentment tots els manuals i documents de l'organització.", false],
+      ["És l'element que controla les recompenses o càstigs que rep la màquina mentre aprèn sola per interacció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com operen els Sistemes Experts 'Basats en Regles'?",
+    "respostes": [
+      ["Utilitzen estructures lògiques de tipus 'si-això-aleshores-allò' (IF-THEN) per poder raonar, prendre decisions i deduir solucions pas a pas.", true],
+      ["Cerquen problemes similars del passat en una base de dades (casos d'ús) per aplicar analogies, ignorant regles directes.", false],
+      ["Es basen completament en dades no etiquetades i aprenen les regles automàticament sense intervenció de l'expert humà.", false],
+      ["Requereixen d'algorismes de robòtica avançada i xarxes neuronals convolucionals per processar tota l'entrada de l'usuari visualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què caracteritza els Sistemes Experts 'Basats en Casos'?",
+    "respostes": [
+      ["Resolen problemes nous tot comparant-los amb casos concrets resolts i documentats anteriorment, aplicant tècniques d'analogia i recuperació.", true],
+      ["Estan codificats exclusivament mitjançant estrictes cadenes lògiques de 'Si passa X, aleshores passa Y'.", false],
+      ["Entrenen models preditius utilitzant variables contínues per extreure tendències matemàtiques de regressió a llarg termini.", false],
+      ["Utilitzen només el coneixement tàcit transmès oralment pel metge directament a l'ordinador en aquell moment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quins són exemples clars i freqüents d'aplicacions pràctiques per als Sistemes Experts?",
+    "respostes": [
+      ["Diagnòstic mèdic a partir de símptomes, assessorament financer personalitzat, i planificació del manteniment predictiu industrial.", true],
+      ["Càlcul massiu i no supervisat de probabilitats d'èxit de pel·lícules a Netflix.", false],
+      ["Creació de rutines de control d'estabilitat per a vehicles autònoms i drones exclusivament.", false],
+      ["Classificació automàtica i exclusió d'adreces de correu 'spam' basat en xarxes RNN.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En el procés global del cicle SECI de Nonaka i Takeuchi aplicat a la Gestió del Coneixement i a la IA, quina és la transformació que defineix l'etapa de 'Socialització'?",
+    "respostes": [
+      ["El traspàs de coneixement Tàcit a coneixement Tàcit.", true],
+      ["El traspàs de coneixement Tàcit a coneixement Explícit.", false],
+      ["El traspàs de coneixement Explícit a coneixement Explícit.", false],
+      ["El traspàs de coneixement Explícit a coneixement Tàcit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Si un programa converteix automàticament els fets i les regles expressades en llenguatge natural de l'usuari en coneixement estructurat en una base de dades, a quina fase del model SECI es podria associar l'esforç?",
+    "respostes": [
+      ["A l'Externalització (Extracció de coneixement no estructurat a estructurat o explícit).", true],
+      ["A la Socialització (Formació d'algoritmes col·laboratius entre agents robotitzats).", false],
+      ["A l'Internalització (Aprenentatge mitjançant repetició tàcita per part d'un humà).", false],
+      ["A cap fase, el model SECI és incompatible totalment amb els entorns computacionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin sistema o aplicació fa ús d'un 'Motor de Conversa' combinat amb NLP i reconeixement de veu?",
+    "respostes": [
+      ["Els Assistents virtuals (com ara Siri, Alexa o Google Assistant) o chatbots d'empresa.", true],
+      ["Els algoritmes purs de Clustering no supervisat en dades bancàries.", false],
+      ["El model SECI en la seva etapa de combinació documental.", false],
+      ["Els sistemes de recomanació clàssics de Netflix basats únicament en l'historial de visualització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què representa un 'Graf Semàntic' en la representació del coneixement?",
+    "respostes": [
+      ["Una representació mitjançant nodes (conceptes) connectats per arestes (relacions), similar o equivalent al que defineixen les Xarxes Semàntiques.", true],
+      ["Una expressió algebraica per al càlcul del descens del gradient a les Xarxes Neuronals Profundes (DNN).", false],
+      ["L'estructura física del microprocessador requerit per executar lògica de predicats.", false],
+      ["Un document de text explicatiu de coneixement tàcit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com defineix el document l'estructura interna d'una xarxa neuronal simple?",
+    "respostes": [
+      ["Un model format per una capa d'entrada (que rep les dades inicials), capes ocultes (que les processen mitjançant pesos), i una capa de sortida (que dóna la predicció).", true],
+      ["Un conjunt d'ontologies connectades a un sistema de recomanació col·laboratiu que no té ni entrada ni sortida.", false],
+      ["Una base de dades amb un motor d'inferència centralitzat sense capes i totalment rígid en el seu processament.", false],
+      ["Una sola capa capaç de memoritzar i recordar patrons idèntics utilitzant regles gramaticals de predicats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "A l'hora de diferenciar entre la IA reactiva clàssica i la IA moderna (machine learning), què aporta la segona de forma característica?",
+    "respostes": [
+      ["L'habilitat d'aprendre patrons complexos a partir de grans quantitats de dades històriques sense tenir totes les situacions codificades i predefinides a mà.", true],
+      ["La incapacitat d'executar funcions que prèviament no han estat introduïdes per un humà pas a pas.", false],
+      ["L'ús exclusiu del coneixement tàcit desat als documents PDF de l'empresa.", false],
+      ["L'assignació manual i fixa de recomanacions basades en el primer producte comprat a la vida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 71. Intel·ligència artificial. Aprenentatge automàtic (machine learning): regressió, classificació i rànquing; aprenentatge supervisat, no supervisat i per reforç; xarxes neuronals. Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin element NO és propi de les tècniques de 'Machine Learning' citades en el document de temari?",
+    "respostes": [
+      ["Lògica de Predicats basada en símbols i matemàtica formal de deducció estricta.", true],
+      ["Regressió per predir valors continus.", false],
+      ["Aprenentatge per reforç amb sistemes de càstigs i recompenses.", false],
+      ["Aprenentatge no supervisat amb aplicació de Clustering per grups ocults.", false]
+    ]
+  }
+]

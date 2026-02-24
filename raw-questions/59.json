@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin és el motiu principal que ha fet necessària la migració del protocol IPv4 a l'IPv6?",
+    "respostes": [
+      ["L'esgotament de l'espai d'adreces IPv4 a causa de l'augment exponencial de dispositius connectats a Internet.", true],
+      ["La necessitat d'augmentar la velocitat de transmissió dels cables de fibra òptica transoceànics.", false],
+      ["La incompatibilitat d'IPv4 amb els dispositius mòbils moderns i les tauletes.", false],
+      ["L'aparició de xarxes socials que demanaven un protocol orientat exclusivament a text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quina és la longitud de les adreces en els protocols IPv4 i IPv6 respectivament?",
+    "respostes": [
+      ["32 bits per a IPv4 i 128 bits per a IPv6.", true],
+      ["16 bits per a IPv4 i 64 bits per a IPv6.", false],
+      ["64 bits per a IPv4 i 256 bits per a IPv6.", false],
+      ["128 bits per a IPv4 i 32 bits per a IPv6.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quantes adreces úniques pot generar aproximadament el protocol IPv4?",
+    "respostes": [
+      ["Prop de 4.3 mil milions d'adreces.", true],
+      ["Fins a 3.4 x 10^38 adreces.", false],
+      ["Exactament 1 milió d'adreces.", false],
+      ["Al voltant de 10.000 adreces per continent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com es diferencia estructuralment la capçalera d'IPv6 respecte a la d'IPv4?",
+    "respostes": [
+      ["La capçalera d'IPv6 és més senzilla, de mida fixa i amb només 8 camps, mentre que la d'IPv4 té 14 camps variables.", true],
+      ["La capçalera d'IPv6 és tres vegades més complexa per poder suportar els 128 bits d'adreça.", false],
+      ["La capçalera d'IPv4 és completament idèntica a la d'IPv6 excepte pel nom de la versió.", false],
+      ["La capçalera d'IPv6 requereix l'ús obligatori de NAT al seu interior, complicant el seu format.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin mètode fa servir IPv6 per permetre als dispositius configurar automàticament les seves pròpies adreces sense necessitat d'un servidor DHCP?",
+    "respostes": [
+      ["L'autoconfiguració sense estat (SLAAC).", true],
+      ["El protocol NAT64 de traducció immediata.", false],
+      ["L'encapsulament de subxarxes via OSPFv3.", false],
+      ["El sistema de Broadcasting dinàmic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "En l'arquitectura d'IPv4, quina funció compleix el protocol NAT (Network Address Translation)?",
+    "respostes": [
+      ["Permet que múltiples dispositius d'una xarxa privada utilitzin una única adreça IP pública per accedir a Internet.", true],
+      ["Tradueix els noms de domini web a adreces IP.", false],
+      ["Transforma paquets IPv4 a format IPv6 automàticament.", false],
+      ["Encripta les dades de la xarxa local per prevenir atacs MITM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com es representen habitualment les adreces IPv6?",
+    "respostes": [
+      ["En vuit grups de quatre dígits hexadecimals separats per dos punts.", true],
+      ["En quatre grups de dígits decimals separats per punts.", false],
+      ["Com una llarga cadena de 128 nombres binaris sense espais.", false],
+      ["Mitjançant lletres de l'alfabet grec i números separats per guions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "En escriure una adreça IPv6, quina regla s'aplica per escurçar blocs de zeros consecutius?",
+    "respostes": [
+      ["Es poden ometre utilitzant un doble dos-punts (::), però només una vegada per adreça.", true],
+      ["S'eliminen completament de l'adreça sense deixar cap símbol.", false],
+      ["Se substitueixen per la paraula 'NULL' al mig de l'adreça.", false],
+      ["S'abreuja posant un asterisc (*) per cada bloc de zeros.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin tipus d'adreça IPv6 identifica un grup d'interfícies i assegura que el paquet es lliuri a TOTES les interfícies d'aquest grup?",
+    "respostes": [
+      ["Multicast.", true],
+      ["Unicast.", false],
+      ["Anycast.", false],
+      ["Broadcast.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com funciona el lliurament de dades en una adreça Anycast d'IPv6?",
+    "respostes": [
+      ["S'assigna a múltiples interfícies, però els paquets es dirigeixen només a la interfície més propera (segons l'encaminament).", true],
+      ["S'envia de manera aleatòria a un mínim de cinc destinataris.", false],
+      ["S'envia el paquet a totes les xarxes globals simultàniament.", false],
+      ["Es bloqueja la connexió si detecta més d'un destinatari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "A què es refereixen les adreces IPv6 de tipus 'Link-local' (fe80::/10)?",
+    "respostes": [
+      ["Són adreces usades només per a la comunicació dins d'un mateix segment de xarxa LAN i no són rutejables a Internet.", true],
+      ["Són les úniques adreces que permeten connexions transoceàniques directes.", false],
+      ["Són adreces especials creades exclusivament per a servidors DNS d'arrel.", false],
+      ["Són l'equivalent exacte a les adreces públiques d'IPv4.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin tipus d'adreces en IPv6 equivalen a les adreces públiques en IPv4 i són rutejables a Internet?",
+    "respostes": [
+      ["Global Unicast.", true],
+      ["Unique Local (ULA).", false],
+      ["Link-local.", false],
+      ["Multicasting (FF02::).", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "En el sistema de classes tradicional d'IPv4, per a què es reserven les adreces de Classe D?",
+    "respostes": [
+      ["Per a trànsit multicast.", true],
+      ["Per a grans xarxes de molts dispositius (com governs).", false],
+      ["Per a xarxes domèstiques petites.", false],
+      ["Per a futures investigacions experimentals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com avalua i selecciona les rutes el protocol d'encaminament RIP (Routing Information Protocol)?",
+    "respostes": [
+      ["És un protocol de vector de distància que utilitza el nombre de salts (hops) com a mètrica, amb un màxim de 15 salts.", true],
+      ["És un protocol de link-state que manté la topologia de tota la xarxa mitjançant l'algorisme de Dijkstra.", false],
+      ["Funciona enrutant exclusivament a través de sistemes autònoms mitjançant atributs de camí (Path Vector).", false],
+      ["Avalua únicament l'amplada de banda i la latència de cada cable de fibra òptica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quina característica distingeix els protocols d'encaminament d'Estat d'Enllaç (Link-State) com OSPF respecte als de Vector de Distància?",
+    "respostes": [
+      ["Cada router manté una base de dades completa de la topologia de tota la xarxa per calcular ell mateix les millors rutes.", true],
+      ["Els routers només coneixen la direcció i la distància al seu veí més proper.", false],
+      ["Estan limitats a un màxim inamovible de 15 salts per paquet.", false],
+      ["No poden utilitzar algoritmes de rutes i seleccionen camins aleatoris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin algorisme empra el protocol OSPF per calcular de forma independent el camí més curt a cada destinació?",
+    "respostes": [
+      ["L'algorisme de Dijkstra.", true],
+      ["L'algorisme de Bellman-Ford.", false],
+      ["L'algorisme Hash SHA-256.", false],
+      ["L'algorisme de compressió Lempel-Ziv.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin és el protocol d'encaminament exterior (EGP) que gestiona les connexions entre diferents sistemes autònoms (AS) a l'Internet global?",
+    "respostes": [
+      ["BGP (Border Gateway Protocol).", true],
+      ["OSPF (Open Shortest Path First).", false],
+      ["RIPv2 (Routing Information Protocol v2).", false],
+      ["ICMP (Internet Control Message Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com s'anomena l'extensió del protocol OSPF adaptada per donar suport específic a adreces i encaminament en IPv6?",
+    "respostes": [
+      ["OSPFv3.", true],
+      ["RIPng.", false],
+      ["MP-BGP.", false],
+      ["OSPF-IPv6-Max.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Què permet fer l'adreçament VLSM (Variable Length Subnet Mask)?",
+    "respostes": [
+      ["Permet assignar màscares de subxarxa de diferents longituds dins d'una mateixa xarxa segons les necessitats, fent un ús més eficient de les adreces.", true],
+      ["Desactiva la necessitat de tenir màscares de xarxa en entorns LAN petits.", false],
+      ["Afegeix 64 bits extres a les adreces IPv4 perquè durin més temps.", false],
+      ["Elimina completament l'ús d'adreces IP privades en favor del MAC address routing.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Què representa la metodologia CIDR (Classless Inter-Domain Routing)?",
+    "respostes": [
+      ["Una metodologia que elimina les classes tradicionals (A,B,C) permetent agrupar adreces en blocs de qualsevol mida utilitzant notació prefixada (ex: /22).", true],
+      ["Un protocol xifrat de transició capaç de fer VPNs entre IPv4 i IPv6 de forma desatesa.", false],
+      ["El procés mecànic pel qual es divideix un cable de xarxa en diversos ports de connexió física.", false],
+      ["La forma en què els paquets Anycast escullen la interfície més propera usant paràmetres GPS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "A l'hora de gestionar la Qualitat de Servei (QoS) en IPv4, quin camp de la capçalera s'utilitza tradicionalment per indicar la prioritat del trànsit?",
+    "respostes": [
+      ["El camp Type of Service (ToS), generalment per mitjà de DSCP.", true],
+      ["El camp Flow Label exclusivament.", false],
+      ["El camp TTL (Time To Live).", false],
+      ["El camp de suma de verificació (Checksum).", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com tracta IPv6 els fluxos de trànsit que requereixen un tractament especial o de temps real (QoS avançat)?",
+    "respostes": [
+      ["Introdueix un camp exclusiu de 20 bits anomenat Flow Label per identificar i gestionar aquests fluxos de trànsit.", true],
+      ["Usa obligatòriament el protocol IntServ per enviar els paquets un a un.", false],
+      ["Reserva sempre el 50% de l'ample de banda total del router per vídeo en HD.", false],
+      ["Només aplica qualitat de servei a aquells paquets que utilitzin IPSec.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin mecanisme de QoS s'encarrega de proporcionar garanties reservant prèviament els recursos de la xarxa mitjançant el protocol RSVP?",
+    "respostes": [
+      ["IntServ (Integrated Services).", true],
+      ["DiffServ (Differentiated Services).", false],
+      ["NAT64 Translation.", false],
+      ["SLAAC Configuration.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Durant la transició d'IPv4 a IPv6, què implica aplicar la tecnologia 'Dual Stack' (pila dual)?",
+    "respostes": [
+      ["Permetre que els dispositius tinguin tant adreces IPv4 com IPv6 i executin simultàniament ambdós protocols.", true],
+      ["Apagar completament la xarxa IPv4 de l'empresa durant 24 hores per canviar els commutadors.", false],
+      ["Canviar els cables de coure per cables de fibra òptica multimode.", false],
+      ["Connectar físicament dos routers un al costat de l'altre per balancejar la càrrega elèctrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "En què consisteix la tècnica de transició 'Tunneling' per conviure amb IPv6?",
+    "respostes": [
+      ["En encapsular paquets IPv6 dins de paquets IPv4 perquè puguin viatjar a través d'una infraestructura IPv4 existent.", true],
+      ["En traduir automàticament adreces MAC en adreces IP.", false],
+      ["En obrir els ports del tallafoc per permetre atacs controlats com a prova.", false],
+      ["En comprimir l'espai d'adreces de 128 bits de tornada als 32 bits originals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quina funció té el protocol Teredo en la transició de xarxes?",
+    "respostes": [
+      ["Permet que dispositius amb IPs privades IPv4 puguin comunicar-se per IPv6 a Internet travessant xarxes NAT encapsulant els paquets.", true],
+      ["Genera les polítiques de tallafoc que bloquegen el tràfic maliciós IPv6.", false],
+      ["Tradueix els noms de domini web en coordenades de satèl·lit.", false],
+      ["Divideix la xarxa en anells per poder utilitzar el protocol Token Ring.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Què succeeix si un dispositiu que només suporta IPv6 intenta accedir a un servidor web antic que només té adreça IPv4 sense utilitzar DNS64/NAT64?",
+    "respostes": [
+      ["La connexió falla perquè el dispositiu no pot utilitzar ni entendre directament l'adreça IPv4 dins de la seva xarxa IPv6.", true],
+      ["El dispositiu transforma el cable en mode Dual Stack de manera instintiva i funciona.", false],
+      ["El servidor antic es col·lapsa i s'ha de reiniciar manualment.", false],
+      ["S'activa automàticament un encadenament BGP per forçar l'arribada del paquet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com funciona l'estratègia conjunta de DNS64 i NAT64 per connectar un client IPv6 a un servidor IPv4?",
+    "respostes": [
+      ["El DNS64 crea una adreça IPv6 sintètica a partir de la IPv4, i quan el trànsit hi arriba, NAT64 el tradueix a IPv4 cap al servidor.", true],
+      ["El NAT64 bloqueja la connexió temporalment mentre el DNS64 demana permís a l'ISP per donar-li una IPv4 prestada.", false],
+      ["Substitueixen el protocol OSPF pel protocol RIPng de forma dinàmica i transparent.", false],
+      ["Comprimeixen el paquet sencer en format hexadecimal per enganyar al router destinatari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quina característica de seguretat incorpora IPv6 de manera integrada i obligatòria per defecte (que era opcional a IPv4)?",
+    "respostes": [
+      ["IPSec, proporcionant autenticació, integritat i confidencialitat de les dades.", true],
+      ["Sistemes d'antivirus automàtics en el codi de la capçalera.", false],
+      ["Polítiques de prevenció de dades massives basades en tallafocs NGFW.", false],
+      ["Connexions només accessibles mitjançant claus USB físiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Què aporta el suport MIPv6 (Mobile IPv6) a les funcionalitats d'aquest protocol?",
+    "respostes": [
+      ["Facilita la mobilitat permetent als dispositius canviar de xarxa sense perdre la connexió activa amb les seves aplicacions.", true],
+      ["Limita l'accés a Internet exclusivament per a usuaris amb targetes SIM 5G.", false],
+      ["Redueix la bateria consumida pels telèfons intel·ligents quan obren correus.", false],
+      ["Afegeix localització per satèl·lit a totes les capçaleres de paquets d'internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Quin és un benefici de tenir una capçalera simplificada de mida fixa a IPv6?",
+    "respostes": [
+      ["Facilita i agilitza el processament dels paquets per part dels routers, millorant l'eficiència general de la xarxa.", true],
+      ["Permet afegir adreces físiques MAC llargues al costat de cada capçalera sense trencar el codi.", false],
+      ["Impedeix que tercers puguin saber a quin lloc web estàs navegant.", false],
+      ["Multiplica la velocitat dels cables de xarxa de coure per deu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Segons el model jeràrquic de classes d'IPv4, a quina xarxa pertanyen les adreces reservades per a 'futurs usos i investigació'?",
+    "respostes": [
+      ["Classe E.", true],
+      ["Classe A.", false],
+      ["Classe C.", false],
+      ["Classe B.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Com processen l'actualització de les seves taules de rutes els protocols de la família Vector de Distància, com RIP?",
+    "respostes": [
+      ["Enviant la seva taula d'encaminament sencera a tots els routers veïns a intervals regulars (per exemple cada 30 segons).", true],
+      ["Enviant només les petites diferències o canvis d'estat cap a un servidor DNS central.", false],
+      ["Contactant manualment amb l'administrador de xarxa perquè aprovi el canvi de ruta.", false],
+      ["Utilitzant un paquet ICMP que verifica si el servidor de l'extrem oposat està apagat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "En quina classe d'IPv4 s'inclouen les adreces entre 192.0.0.0 i 223.255.255.255, destinades a xarxes amb un nombre limitat de dispositius?",
+    "respostes": [
+      ["Classe C.", true],
+      ["Classe B.", false],
+      ["Classe A.", false],
+      ["Classe D.", false]
+    ]
+  },
+  {
+    "tema": "Tema 59. Xarxes IPv4 i IPv6: arquitectura de xarxes, direccionament, encaminament i qualitat de servei. Transició i convivència IPv4-IPv6.",
+    "enunciat": "Què es resol, entre altres problemes, gràcies al massiu espai d'adreçament de 128 bits de l'IPv6?",
+    "respostes": [
+      ["L'obligatorietat d'usar NAT per connectar dispositius d'una LAN a l'exterior, ja que tots podrien tenir una IP pública.", true],
+      ["La fallada en el disseny dels cables Ethernet Cat5e.", false],
+      ["El límit de velocitat dels punts d'accés Wi-Fi 4.", false],
+      ["El retard que provoquen els servidors de correu SMTP obsolets.", false]
+    ]
+  }
+]

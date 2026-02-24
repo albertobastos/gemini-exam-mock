@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Com es defineix l'e-learning o formació en línia segons el document?",
+    "respostes": [
+      ["L'ús de tecnologies electròniques i digitals per accedir a materials educatius i facilitar l'aprenentatge a distància fora d'un aula tradicional.", true],
+      ["L'estudi exclusiu de l'electrònica i els circuits informàtics a través de programes informàtics.", false],
+      ["Un sistema d'avaluació on només es permet l'ús de llibres en format PDF dins de l'aula física.", false],
+      ["Una metodologia d'ensenyament que prohibeix el contacte amb el professorat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin d'aquests és un dels objectius principals de l'e-learning?",
+    "respostes": [
+      ["L'accessibilitat, permetent als estudiants accedir als materials des de qualsevol lloc i en qualsevol moment.", true],
+      ["La reducció de la velocitat d'aprenentatge per aprofundir més en els conceptes.", false],
+      ["Forçar l'estudiant a connectar-se sempre a la mateixa hora per mantenir l'ordre.", false],
+      ["L'eliminació total dels continguts multimèdia per evitar distraccions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "En quin sistema educatiu històric del segle XIX té les seves arrels l'e-learning?",
+    "respostes": [
+      ["En la formació per correspondència.", true],
+      ["En l'escolarització obligatòria presencial.", false],
+      ["En els seminaris de les universitats clàssiques.", false],
+      ["En l'educació mitjançant transmissió oral no escrita.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin factor tecnològic ha afavorit l'evolució recent i el creixement de l'e-learning?",
+    "respostes": [
+      ["L'augment de l'accessibilitat a internet, la banda ampla i les tecnologies mòbils.", true],
+      ["La popularització de les màquines d'escriure mecàniques.", false],
+      ["La reducció de la capacitat d'emmagatzematge dels servidors corporatius.", false],
+      ["L'establiment de normes que obliguen a llegir llibres físics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "A l'hora de valorar els avantatges de l'e-learning, què aporta en termes econòmics?",
+    "respostes": [
+      ["Redueix els costos associats amb el desplaçament i el material físic.", true],
+      ["Encara que és flexible, té uns costos de matriculació molt més elevats que la formació presencial.", false],
+      ["Exigeix que l'alumne compri equips informàtics d'alta gamma obligatòriament per cada curs.", false],
+      ["Augmenta la despesa de manteniment de les aules físiques de l'escola.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin desavantatge es vincula comunament a la formació en línia pel que fa al tipus d'estudiant necessari?",
+    "respostes": [
+      ["Exigeix un alt nivell d'autodisciplina, autonomia i gestió del temps per part de l'estudiant.", true],
+      ["Només està indicat per a estudiants amb coneixements previs de programació informàtica.", false],
+      ["Requereix que l'alumne visqui en una zona amb el mateix fus horari que el professor.", false],
+      ["Inhibeix completament qualsevol capacitat de treballar en equip.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quina dificultat pot suposar la 'dependència tecnològica' en l'e-learning?",
+    "respostes": [
+      ["La necessitat de disposar d'una connexió estable a Internet i dispositius adequats, la qual cosa pot ser un desavantatge en algunes regions.", true],
+      ["El fet que tots els alumnes desenvolupen una addicció a les pantalles incontrolable.", false],
+      ["Que el programari educatiu només funciona en telèfons intel·ligents nous.", false],
+      ["Que els professors han d'estar connectats les 24 hores del dia obligatòriament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Com canvia el rol del professor en un entorn d'e-learning respecte a la classe tradicional?",
+    "respostes": [
+      ["El professor deixa de ser l'únic transmissor de coneixement per actuar com a facilitador i guia, oferint suport i retroalimentació.", true],
+      ["El professor ha de dissenyar exclusivament l'arquitectura de la xarxa informàtica de l'escola.", false],
+      ["El professor pren el control total i obliga l'alumne a mantenir-se en un rol passiu.", false],
+      ["El professor desapareix per complet del procés educatiu deixant pas únicament a la Intel·ligència Artificial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Què caracteritza fonamentalment l'e-learning Sincrònic?",
+    "respostes": [
+      ["Que els estudiants i els instructors estan connectats i interactuen al mateix temps, en temps real.", true],
+      ["Que els estudiants descarreguen vídeos i els veuen quan volen durant el cap de setmana.", false],
+      ["Que la formació és exclusivament per mitjà de missatges de correu electrònic retardats.", false],
+      ["Que no requereix cap tipus d'instructor, ja que tot s'avalua per màquines de forma automàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin és un exemple pràctic típic d'e-learning Sincrònic?",
+    "respostes": [
+      ["Classes en línia en directe a través de videoconferència o xats en temps real.", true],
+      ["Un fòrum de discussió on es responen dubtes amb dies de diferència.", false],
+      ["Llegir un PDF penjat en una carpeta compartida pel professor el mes passat.", false],
+      ["Realitzar una activitat presencial a l'aula d'un institut.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin és el desavantatge principal de la modalitat sincrònica de l'e-learning?",
+    "respostes": [
+      ["Requereix la coordinació horària de tots els participants, la qual cosa pot limitar la flexibilitat.", true],
+      ["La interacció directa entre l'estudiant i el professor és impossible.", false],
+      ["Sempre requereix llogar aules físiques per a les reunions de grup.", false],
+      ["L'estudiant ha de llegir tot el contingut en solitari sense opció a preguntar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "En què consisteix l'e-learning Asincrònic?",
+    "respostes": [
+      ["En què els estudiants accedeixen als materials i realitzen les activitats en qualsevol moment, sense necessitat d'estar connectats alhora que l'instructor.", true],
+      ["En què la classe només es pot fer en viu, però el professor no pot parlar, només escriure a la pissarra digital.", false],
+      ["En combinar classes presencials amb exàmens en format paper obligatoris.", false],
+      ["En rebre les notes d'un curs presencial mitjançant el correu electrònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quines eines són representatives d'una experiència d'e-learning asincrònica?",
+    "respostes": [
+      ["Cursos amb materials enregistrats (vídeos) i fòrums de discussió.", true],
+      ["Aplicacions de trucada per veu simultània com Skype en grups.", false],
+      ["Eines de pissarra digital col·laborativa per dibuixar al mateix temps.", false],
+      ["Salons de videoconferència obligatoris a primera hora del matí.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin és un repte o desavantatge de l'aprenentatge asincrònic?",
+    "respostes": [
+      ["Pot generar una manca d'interacció immediata, retardant la resolució de dubtes o problemes.", true],
+      ["El fet que tots els estudiants han d'estar atents a la pantalla al mateix instant.", false],
+      ["No permet visualitzar els continguts si no s'està dins de l'horari lectiu oficial.", false],
+      ["Prohibeix l'ús de qualsevol plataforma LMS de tercers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Com es defineix el B-learning (Blended Learning) o aprenentatge mixt?",
+    "respostes": [
+      ["Com a un model híbrid que combina la formació en línia de manera autònoma amb sessions o activitats presencials.", true],
+      ["Com a una barreja exclusiva de fòrums de discussió asincrònics i vídeos gravats, sense presencialitat.", false],
+      ["Com l'ús de dos sistemes LMS diferents de manera simultània per a un mateix curs.", false],
+      ["Com a la formació on l'alumne fa les pràctiques en línia però no rep teoria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin avantatge aporta el B-learning front als models estrictament a distància?",
+    "respostes": [
+      ["Afegeix la flexibilitat de la formació digital però mantenint els beneficis de la interacció directa del contacte presencial en certs moments.", true],
+      ["Permet reduir al 0% el cost de matriculació de qualsevol institució.", false],
+      ["Evita que l'alumne necessiti tenir accés a internet o un ordinador a casa seva.", false],
+      ["Substitueix la figura del professor per vídeos pre-gravats de forma permanent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en crossed d'aquest tipus de formació.",
+    "enunciat": "A què es refereix l'acrònim M-learning (Mobile Learning)?",
+    "respostes": [
+      ["A la formació realitzada específicament a través de dispositius mòbils com telèfons intel·ligents o tauletes.", true],
+      ["A la formació per a professionals de la mecànica (Mechanic Learning).", false],
+      ["A un model on l'aprenentatge només es realitza a través d'àudios MP3.", false],
+      ["A l'aprenentatge matemàtic basat en Matrius (Matrix Learning).", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin possible desavantatge té l'M-learning quan es tracta de formacions tècnicament complexes?",
+    "respostes": [
+      ["Les limitacions físiques en termes de grandària de la pantalla o potència del dispositiu mòbil poden dificultar l'ús d'eines avançades.", true],
+      ["Que els dispositius mòbils no tenen cap opció de reproduir so o veu.", false],
+      ["L'obligació de mantenir els dispositius endollats a la corrent durant tota la classe.", false],
+      ["L'impossibilitat d'enviar fitxers PDF mitjançant connexions de xarxa cel·lular.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Com aconsegueix personalitzar el contingut l'anomenat 'E-learning adaptatiu'?",
+    "respostes": [
+      ["Fent ús de tecnologies d'anàlisi de dades i intel·ligència artificial per ajustar el curs al rendiment i les necessitats de cada estudiant.", true],
+      ["Obligant a un professor a revisar els exàmens a mà cada hora i reescriure el temari per a l'alumne.", false],
+      ["Utilitzant projectors intel·ligents a l'aula que s'enfoquen cap a l'estudiant que està parlant.", false],
+      ["Canviant el disseny de la pàgina web aleatòriament perquè l'estudiant no s'avorreixi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Què signifiquen les sigles LMS en el context educatiu digital?",
+    "respostes": [
+      ["Learning Management System (Sistema de Gestió de l'Aprenentatge).", true],
+      ["Logic Module Structure (Estructura de Mòduls Lògics).", false],
+      ["Local Memory Server (Servidor de Memòria Local).", false],
+      ["Linear Media Stream (Flux Multimèdia Lineal).", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quina és la funció bàsica d'un LMS com Moodle o Canvas?",
+    "respostes": [
+      ["Actuar com a plataforma de programari per administrar cursos, seguir el progrés dels estudiants, gestionar continguts i oferir eines d'avaluació.", true],
+      ["Exclusivament editar vídeos i renderitzar-los per poder pujar-los a YouTube.", false],
+      ["Crear una xarxa tancada de xat de text entre tots els estudiants del món de manera anònima.", false],
+      ["Xifrar els discos durs dels ordinadors de l'escola perquè ningú pugui robar els exàmens.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin d'aquests sistemes és un conegut LMS de codi obert, àmpliament utilitzat a les institucions educatives?",
+    "respostes": [
+      ["Moodle.", true],
+      ["Adobe Captivate.", false],
+      ["Microsoft Teams.", false],
+      ["Slack.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "En el ventall de recursos per a l'e-learning, quin propòsit tenen eines com Articulate 360, Adobe Captivate i H5P?",
+    "respostes": [
+      ["Són eines de creació de continguts que permeten dissenyar materials interactius i multimèdia per a la formació.", true],
+      ["Són xarxes socials dissenyades exclusivament per a acadèmics universitaris.", false],
+      ["Són aplicacions per gestionar el pagament de les taxes escolars per via telemàtica.", false],
+      ["Són eines dedicades exclusivament a la creació de qüestionaris d'avaluació multiresposta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Per a quina finalitat educativa principal s'utilitzen eines com Zoom o Google Meet?",
+    "respostes": [
+      ["Per permetre la comunicació i interacció en temps real (sincrònica) mitjançant vídeo, àudio i compartició de pantalla.", true],
+      ["Per fer un seguiment asincrònic de les notes de l'estudiant durant tot l'any acadèmic.", false],
+      ["Per emmagatzemar bases de dades massives amb tots els llibres de text dels cursos.", false],
+      ["Per traduir els materials de classe a diferents idiomes de forma automàtica i silenciosa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin és l'objectiu fonamental de les eines de col·laboració en línia com Slack, Trello o Padlet dins l'educació a distància?",
+    "respostes": [
+      ["Fomentar la participació activa, el treball en equip, la comunicació i la compartició de recursos entre estudiants.", true],
+      ["Permetre als professors espiar el correu privat dels alumnes per controlar el plagi.", false],
+      ["Substituir els servidors de vídeo per enviar classes gravades per parts.", false],
+      ["Crear exclusivament formularis d'examen amb limitació de temps per resposta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quines eines es descriuen en el document com a adequades per a la creació de qüestionaris interactius, proves i avaluació?",
+    "respostes": [
+      ["Quizlet, Kahoot! i Google Forms.", true],
+      ["Canvas, Blackboard i Moodle.", false],
+      ["Articulate 360, H5P i Captivate.", false],
+      ["Padlet, Trello i Slack.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "La interactivitat és una de les característiques principals de l'e-learning. Què inclou per fer l'aprenentatge més atractiu?",
+    "respostes": [
+      ["Simulacions, qüestionaris i jocs educatius que demanen l'acció de l'usuari.", true],
+      ["La lectura de llibres de text escanejats exclusivament en format d'imatge estàtica.", false],
+      ["El lliurament de tasques en suport paper a les delegacions físiques del centre formatiu.", false],
+      ["L'obligatorietat de romandre en silenci durant tota la transmissió asincrònica del vídeo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "En termes generals de l'e-learning, a quin tipus de modalitat correspondria l'estudi d'un manual interactiu penjat a internet on l'usuari el fa al seu ritme?",
+    "respostes": [
+      ["E-learning asincrònic.", true],
+      ["E-learning sincrònic.", false],
+      ["Formació B-learning estricta.", false],
+      ["Educació M-learning exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "D'acord amb la conclusió del document, més enllà de l'educació superior o l'escola, a quin sector resulta especialment útil l'e-learning per la seva eficiència a gran escala?",
+    "respostes": [
+      ["A les empreses, per implementar programes de formació corporativa.", true],
+      ["A les biblioteques físiques, per substituir completament el format paper.", false],
+      ["Als museus per vendre entrades turístiques.", false],
+      ["Al sector del transport, per calcular les rutes de tren.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Per poder implementar un curs e-learning adaptatiu com els de Coursera de la forma més òptima, quins components tècnics són més rellevants d'integrar?",
+    "respostes": [
+      ["Sistemes d'anàlisi de dades avançats (Big Data) i algorismes d'intel·ligència artificial (IA).", true],
+      ["Únicament impressores làser d'alta definició per extreure les dades de l'alumne.", false],
+      ["Sistemes d'enviament postal (correu) automatitzats a gran escala.", false],
+      ["Xarxes de comunicació restringides sense accés a Internet per evitar plagis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Si un docent necessita organitzar les tasques d'un grup d'alumnes dividides en targetes i columnes per fases d'un projecte conjunt, quina de les següents eines és la més indicada segons el temari?",
+    "respostes": [
+      ["Trello.", true],
+      ["Zoom.", false],
+      ["Kahoot!", false],
+      ["Articulate 360.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "El que coneixem com a 'plataforma virtual d'aprenentatge' o EVA (Entorn Virtual d'Aprenentatge), amb quina de les eines esmentades s'assimila directament en la seva funció principal?",
+    "respostes": [
+      ["Amb els Sistemes de Gestió de l'Aprenentatge (LMS).", true],
+      ["Amb les eines d'autor i d'edició multimèdia com Captivate.", false],
+      ["Amb els programes genèrics d'avaluació de respostes ràpides com Quizlet.", false],
+      ["Amb les pissarres digitals simples d'una aula física.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Quin aspecte es podria considerar un punt fort del B-learning (Blended learning) referent a la interacció social de l'alumnat?",
+    "respostes": [
+      ["Mitiga la sensació de solitud associada a la formació purament virtual proporcionant hores de relació física i directa a l'aula.", true],
+      ["Aïlla completament l'alumne a casa seva per garantir una major concentració.", false],
+      ["Impedeix que els alumnes es coneguin, mantenint així l'anonimat obligatori.", false],
+      ["Només permet la comunicació mitjançant aplicacions mòbils de missatgeria efímera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "D'acord amb la descripció del rol de l'estudiant en l'e-learning, què se li demanda específicament perquè tingui èxit en aquest format?",
+    "respostes": [
+      ["Adquirir un rol molt actiu assumint la responsabilitat d'una gestió del temps excel·lent per compensar la manca d'un horari físic fix.", true],
+      ["Limitar-se a escoltar el professor de manera purament passiva sense intervenir mai.", false],
+      ["Renunciar a resoldre els seus dubtes per no molestar el professorat.", false],
+      ["Dedicar temps exclusivament a la memorització de textos per superar qüestionaris automàtics d'opció múltiple.", false]
+    ]
+  },
+  {
+    "tema": "Tema 75. Plataformes de formació en línia (e-learning). Conceptes generals. Tipus d'e-learning. Eines utilitzades en aquest tipus de formació.",
+    "enunciat": "Com pot una eina com Google Forms donar suport al cicle d'avaluació en un entorn e-learning?",
+    "respostes": [
+      ["Proporcionant un mecanisme senzill per recopilar respostes als qüestionaris i generant anàlisis i informes ràpids per al professor.", true],
+      ["Embolcallant els resultats de l'alumne en un format de vídeo descarregable de manera automàtica.", false],
+      ["Limitant el temps de la resposta gràcies a l'ús d'un compte enrere present en una pissarra col·laborativa compartida.", false],
+      ["Establint una trucada de veu a la fi de cada enquesta per confirmar la identitat de l'usuari amb biometria.", false]
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Què signifiquen les sigles ITIL?",
+    "respostes": [
+      ["Information Technology Infrastructure Library.", true],
+      ["International Telecommunication Integration Layer.", false],
+      ["Internet Technology and Information Logistics.", false],
+      ["Intelligent Tracking of Information Life-cycle.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quin és l'enfocament principal d'ITIL en la gestió de serveis de TI?",
+    "respostes": [
+      ["L'alineament dels serveis de TI amb les necessitats i objectius del negoci per generar valor.", true],
+      ["L'automatització exclusiva de les tasques de programació de codi font.", false],
+      ["El disseny de maquinari físic per a centres de dades governamentals.", false],
+      ["La reducció de la plantilla del departament informàtic al mínim indispensable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Qui va desenvolupar inicialment ITIL a la dècada de 1980?",
+    "respostes": [
+      ["El govern britànic per establir estàndards en la gestió de serveis de TI.", true],
+      ["L'empresa Microsoft per donar suport als seus sistemes operatius.", false],
+      ["Un consorci d'universitats nord-americanes (ARPANET).", false],
+      ["La Unió Europea a través de l'agència de ciberseguretat ENISA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina novetat estructural fonamental va introduir la versió ITIL v3 l'any 2007?",
+    "respostes": [
+      ["La introducció d'un enfocament holístic basat en el cicle de vida del servei, estructurat en cinc fases.", true],
+      ["La incorporació obligatòria de metodologies Agile i DevOps per a tots els processos.", false],
+      ["La reestructuració en només dos volums principals: Service Delivery i Service Support.", false],
+      ["L'eliminació de la fase de disseny per accelerar l'entrega de programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Segons l'evolució d'ITIL, quina versió (publicada el 2019) s'actualitza per integrar principis moderns com Lean, Agile i DevOps?",
+    "respostes": [
+      ["ITIL 4.", true],
+      ["ITIL v2.", false],
+      ["ITIL v3 (Revisió 2011).", false],
+      ["ITIL Cloud Edition.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quantes fases componen el cicle de vida del servei segons ITIL v3?",
+    "respostes": [
+      ["Cinc fases.", true],
+      ["Tres fases.", false],
+      ["Quatre fases.", false],
+      ["Set fases.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina és la primera fase del cicle de vida del servei d'ITIL v3, encarregada de definir com els serveis aporten valor al negoci?",
+    "respostes": [
+      ["Estratègia del Servei (Service Strategy).", true],
+      ["Disseny del Servei (Service Design).", false],
+      ["Operació del Servei (Service Operation).", false],
+      ["Millora Contínua del Servei (Continual Service Improvement).", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Dins de l'Estratègia del Servei, quina és la finalitat del procés de 'Gestió de la Demanda'?",
+    "respostes": [
+      ["Identificar i preveure les necessitats i patrons d'ús dels serveis de TI per ajustar-hi adequadament els recursos disponibles.", true],
+      ["Comprar els servidors més cars del mercat per assegurar que mai falti potència.", false],
+      ["Reclamar als clients el pagament de les factures endarrerides.", false],
+      ["Atendre les peticions de restabliment de contrasenya dels usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quin procés d'ITIL supervisa el conjunt complet de serveis (inclosos els planificats, actius i retirats) per assegurar el seu alineament estratègic?",
+    "respostes": [
+      ["Gestió del Portafolis de Serveis (Service Portfolio Management).", true],
+      ["Gestió de la Capacitat (Capacity Management).", false],
+      ["Gestió del Catàleg de Serveis (Service Catalogue Management).", false],
+      ["Gestió d'Incidents (Incident Management).", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina fase d'ITIL v3 té com a objectiu crear o modificar serveis de TI eficients, segurs i disponibles perquè compleixin els requisits establerts?",
+    "respostes": [
+      ["Disseny del Servei (Service Design).", true],
+      ["Transició del Servei (Service Transition).", false],
+      ["Operació del Servei (Service Operation).", false],
+      ["Estratègia del Servei (Service Strategy).", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "En quina fase del cicle de vida s'inclou el procés de 'Gestió dels Nivells de Servei' (Service Level Management), encarregat de complir els SLA?",
+    "respostes": [
+      ["Disseny del Servei.", true],
+      ["Transició del Servei.", false],
+      ["Operació del Servei.", false],
+      ["Millora Contínua del Servei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina fase s'encarrega d'implementar i desplegar els nous serveis a l'entorn de producció minimitzant els riscos i assegurant una posada en marxa segura?",
+    "respostes": [
+      ["Transició del Servei (Service Transition).", true],
+      ["Disseny del Servei (Service Design).", false],
+      ["Operació del Servei (Service Operation).", false],
+      ["Estratègia del Servei (Service Strategy).", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "El procés de 'Gestió de Canvis' (Change Management) és un procés clau de quina fase d'ITIL v3?",
+    "respostes": [
+      ["Transició del Servei.", true],
+      ["Operació del Servei.", false],
+      ["Estratègia del Servei.", false],
+      ["Millora Contínua del Servei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Què busca el procés de 'Gestió de la Configuració i dels Actius del Servei'?",
+    "respostes": [
+      ["Mantenir informació precisa, fiable i traçable sobre els components (actius de TI) i com es relacionen entre ells.", true],
+      ["Assignar pressupostos a cada departament per a la compra d'ordinadors nous.", false],
+      ["Restaurar els serveis caiguts el més aviat possible mitjançant un centre de suport.", false],
+      ["Dissenyar la interfície gràfica de les aplicacions web de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina fase d'ITIL v3 gestiona el dia a dia dels serveis de TI assegurant que es lliuren de manera efectiva als usuaris i resolent els problemes ràpidament?",
+    "respostes": [
+      ["Operació del Servei (Service Operation).", true],
+      ["Disseny del Servei (Service Design).", false],
+      ["Transició del Servei (Service Transition).", false],
+      ["Millora Contínua del Servei (Continual Service Improvement).", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina és la diferència principal entre la 'Gestió d'Incidents' i la 'Gestió de Problemes' a la fase d'Operació?",
+    "respostes": [
+      ["La Gestió d'Incidents busca restaurar el servei ràpidament, mentre que la Gestió de Problemes busca identificar i eliminar la causa arrel per evitar que es repeteixin.", true],
+      ["La Gestió d'Incidents s'encarrega d'errors de maquinari i la Gestió de Problemes d'errors de programari exclusivament.", false],
+      ["No hi ha cap diferència, són dos noms per al mateix procés administratiu.", false],
+      ["La Gestió d'Incidents només actua abans que el servei es posi en producció i la Gestió de Problemes actua només de nit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "A quin procés de la fase d'Operació del Servei pertany la gestió de les sol·licituds rutinàries dels usuaris (com demanar accés a una carpeta o instal·lar un programa estàndard)?",
+    "respostes": [
+      ["Gestió de Peticions de Servei (Request Fulfillment).", true],
+      ["Gestió de la Demanda (Demand Management).", false],
+      ["Revisió de SLA (SLA Review).", false],
+      ["Gestió del Coneixement (Knowledge Management).", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina és la finalitat de la fase de 'Millora Contínua del Servei' (CSI)?",
+    "respostes": [
+      ["Revisar i analitzar constantment el rendiment dels serveis per identificar oportunitats i implementar canvis que augmentin l'eficiència i l'alineació amb el negoci.", true],
+      ["Dibuixar els plànols d'arquitectura inicials de la xarxa abans de comprar els servidors.", false],
+      ["Acomiadar periòdicament el personal de suport tècnic per renovar la plantilla.", false],
+      ["Desplegar pegats de seguretat diaris automàticament sense passar proves de transició.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quina eina o procés s'utilitza a la fase de Millora Contínua per identificar patrons en el comportament del servei al llarg del temps?",
+    "respostes": [
+      ["Anàlisi de Tendències de Rendiment (Performance Trend Analysis).", true],
+      ["Gestió de la Seguretat de la Informació.", false],
+      ["Gestió d'Accessos.", false],
+      ["Coordinació del Disseny.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "És obligatori implementar i aplicar totes les cinc fases del cicle de vida d'ITIL v3 en absolutament totes les situacions o empreses?",
+    "respostes": [
+      ["No, ITIL és flexible i una organització pot optar per implementar només una fase o un conjunt de processos específics segons les seves necessitats.", true],
+      ["Sí, si no s'implementen les 5 fases a la vegada, es perd la llicència oficial d'ITIL.", false],
+      ["Sí, és obligatori per llei a la Unió Europea per a qualsevol empresa tecnològica.", false],
+      ["No, de fet ITIL prohibeix usar més de dues fases simultàniament per evitar sobrecàrrega burocràtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "En quin escenari es recomana clarament aplicar l'enfocament sencer i coordinat de les 5 fases d'ITIL v3?",
+    "respostes": [
+      ["Quan es llança un nou servei de TI altament estratègic i complex, com una plataforma global de comerç electrònic.", true],
+      ["Quan s'ha de reiniciar l'ordinador d'un sol empleat per un bloqueig de pantalla.", false],
+      ["Només quan l'empresa entra en procés de fallida o liquidació d'actius.", false],
+      ["Quan es canvia el proveïdor de paper de la impressora de l'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Si s'aplica el model ITIL v3 al cas pràctic de migrar el catàleg de dades obertes del Govern (de Socrata a CKAN), què es faria durant la fase de 'Disseny del Servei'?",
+    "respostes": [
+      ["Definir l'arquitectura tècnica, planificar la seguretat de l'entorn i establir els acords de nivell de servei (SLA) de disponibilitat.", true],
+      ["Avaluar els beneficis d'alt nivell estratègic de la nova plataforma en contraposició a l'antiga.", false],
+      ["Configurar el centre de suport (Help Desk) per respondre les queixes dels usuaris diàries.", false],
+      ["Apagar el servidor Socrata sense avisar per evitar duplicitats de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "En el mateix cas pràctic de migració a CKAN, quina acció clau s'emmarca dins de la fase de 'Transició del Servei'?",
+    "respostes": [
+      ["Gestionar el pla de migració de dades controlat, realitzar proves prèvies completes i documentar el procés per generar una base de coneixement.", true],
+      ["Recopilar feedback dels usuaris al cap d'un any d'ús per fer-hi millores.", false],
+      ["Definir la justificació financera inicial del projecte davant del comitè de direcció.", false],
+      ["Atendre de forma diària els tickets o incidents d'usuaris que no poden descarregar un arxiu CSV concret.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Dins d'un servei que ja es troba plenament en producció (funcionament normal), les fases d'Estratègia, Disseny i Transició deixen de tenir sentit?",
+    "respostes": [
+      ["No, continuen sent importants perquè s'activen sempre que el servei requereixi adaptacions estratègiques, redissenys de capacitat o canvis importants (actualitzacions).", true],
+      ["Sí, un cop en producció, un servei de TI només requereix operació i ja no es pot alterar estratègicament mai més.", false],
+      ["Sí, perquè si s'ha de fer algun canvi cal crear un servei totalment nou amb un nom diferent des de zero.", false],
+      ["No, però només s'utilitzen per generar factures mensuals als proveïdors externs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Què estableix el procés de 'Gestió d'Accessos' inclòs dins de l'Operació del Servei?",
+    "respostes": [
+      ["Permetre l'accés adequat als serveis als usuaris autoritzats, alhora que es prevé l'accés no autoritzat, protegint la informació.", true],
+      ["Deduir i restablir de manera automàtica les contrasenyes perdudes mitjançant IA.", false],
+      ["Auditar el trànsit de xarxa per buscar atacs de denegació de servei (DDoS).", false],
+      ["Registrar exclusivament l'accés físic dels empleats als edificis de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "En total, segons l'estructura clàssica d'ITIL v3, quants processos es troben repartits entre les cinc fases del cicle de vida del servei?",
+    "respostes": [
+      ["26 processos.", true],
+      ["10 processos.", false],
+      ["15 processos.", false],
+      ["42 processos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quin és un exemple de procés pertanyent exclusivament a l'Estratègia del Servei (Service Strategy)?",
+    "respostes": [
+      ["Gestió Financera dels Serveis de TI.", true],
+      ["Gestió d'Incidents.", false],
+      ["Coordinació del Disseny.", false],
+      ["Gestió de la Configuració i Actius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Segons l'explicació sobre l'aplicació d'ITIL v3, què permet assolir la implementació de la 'Gestió del Coneixement' (Knowledge Management) durant la fase de Transició?",
+    "respostes": [
+      ["Compartir informació rellevant i documentació entre l'equip tècnic i d'operacions per assegurar que tothom entengui el servei abans que es posi en marxa.", true],
+      ["Dissenyar l'arquitectura de seguretat contra atacs de força bruta des de zero.", false],
+      ["Negociar amb proveïdors externs els preus de compra d'equips informàtics.", false],
+      ["Avaluar de manera purament econòmica el retorn de la inversió (ROI) del projecte a llarg termini.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Un 'Help Desk' o 'Service Desk' que proporciona suport tècnic continu als empleats és l'exponent més clar de quina fase d'ITIL?",
+    "respostes": [
+      ["Operació del Servei.", true],
+      ["Estratègia del Servei.", false],
+      ["Transició del Servei.", false],
+      ["Disseny del Servei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Quin d'aquests beneficis és un avantatge directe i estratègic assenyalat per l'adopció de bones pràctiques d'ITIL v3 en una organització?",
+    "respostes": [
+      ["Millora de l'alineament entre la tecnologia de la informació (TI) i els objectius i necessitats del negoci.", true],
+      ["Desaparició completa de la necessitat de fer ús de xarxes de seguretat.", false],
+      ["L'obligatorietat d'usar exclusivament programari de codi obert a tota l'empresa.", false],
+      ["Establir una política salarial única i fixa per a tots els tècnics de l'organització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Què s'avalua de manera regular i formal en el procés de 'Revisió de SLA' (SLA Review)?",
+    "respostes": [
+      ["S'analitza si els serveis estan complint efectivament amb els Acords de Nivell de Servei pactats amb el negoci, proposant ajustaments si hi ha desviacions.", true],
+      ["Es revisen els protocols criptogràfics dels servidors per garantir que s'utilitza TLS en lloc de SSL antic.", false],
+      ["Es valora l'actitud i el comportament dels usuaris durant les trucades de suport per classificar-los.", false],
+      ["Es llegeixen les clàusules de penalització laboral del personal que treballa fora del seu horari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "D'acord al text, què s'assegura dins de la 'Gestió de la Disponibilitat' durant la fase de Disseny?",
+    "respostes": [
+      ["Que el servei estarà operatiu i disponible quan els usuaris el necessitin, establint mesures de redundància i plans de recuperació.", true],
+      ["Que el pressupost per a la creació de l'aplicació sigui completament gratuït mitjançant subvencions.", false],
+      ["Que qualsevol canvi en l'entorn de producció es fa de manera invisible a mitjanit exclusivament.", false],
+      ["Que el sistema pot absorbir qualsevol tipus de demanda infinita d'usuaris globals sense caure mai per saturació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "En la resolució d'incidències, com reacciona el departament a la caiguda imprevista d'una base de dades sota els estàndards de l'Operació del Servei d'ITIL?",
+    "respostes": [
+      ["Actua d'urgència seguint els protocols de Gestió d'Incidents per restaurar el servei a l'estat normal tan ràpid com pugui, minimitzant l'impacte en el negoci.", true],
+      ["Desactiva tota la xarxa corporativa i espera fins a l'endemà al matí per avisar els desenvolupadors externs.", false],
+      ["Esborra immediatament tots els registres de transaccions per assegurar la confidencialitat en cas de fallada tècnica.", false],
+      ["Ajorna l'avaluació fins a la propera reunió mensual de l'Estratègia del Servei per no saltar-se el cicle de vida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "La 'Gestió de Versions i Implementacions' (Release and Deployment Management) s'ubica a la fase de:",
+    "respostes": [
+      ["Transició del Servei.", true],
+      ["Disseny del Servei.", false],
+      ["Estratègia del Servei.", false],
+      ["Millora Contínua del Servei.", false]
+    ]
+  },
+  {
+    "tema": "Tema 73. ITIL v3. El cicle de vida del servei segons ITIL.",
+    "enunciat": "Pel que fa a les certificacions professionals actuals descrites al document, quina és la recomanació per a una persona que just comença en el món d'ITIL avui en dia?",
+    "respostes": [
+      ["Centrar-se directament en obtenir la certificació d'ITIL 4, atès que és la versió més actualitzada i demandada per adaptar-se als entorns moderns i àgils.", true],
+      ["Aconseguir exclusivament el nivell ITIL v3 Master, ja que encara és obligatori per treballar al govern britànic.", false],
+      ["Estudiar únicament les normes de programació de codi de Linux, atès que ITIL v3 ja no existeix legalment.", false],
+      ["Comprar els llibres originals de l'any 1989 (ITIL v1) per poder entendre la tecnologia actual sense interferències.", false]
+    ]
+  }
+]

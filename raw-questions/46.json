@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què significa l'acrònim SQL?",
+    "respostes": [
+      ["Standard Query Logic.", false],
+      ["Structured Query Language.", true],
+      ["System Quality Language.", false],
+      ["Simple Question List.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin és l'objectiu principal del llenguatge SQL?",
+    "respostes": [
+      ["Dissenyar pàgines web.", false],
+      ["Gestionar i manipular bases de dades relacionals.", true],
+      ["Crear sistemes operatius.", false],
+      ["Programar jocs en 3D.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quins són els tres subllenguatges principals en què es divideix SQL?",
+    "respostes": [
+      ["HTML, CSS, JS.", false],
+      ["DDL, DML i DCL.", true],
+      ["XML, JSON, YAML.", false],
+      ["TCP, IP, UDP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què significa DDL?",
+    "respostes": [
+      ["Data Distribution Language.", false],
+      ["Data Definition Language (Llenguatge de Definició de Dades).", true],
+      ["Database Design Logic.", false],
+      ["Delete Data Language.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina funció té el DDL?",
+    "respostes": [
+      ["Consultar dades.", false],
+      ["Definir i modificar l'estructura dels objectes de la base de dades (taules, índexs, etc.).", true],
+      ["Assignar permisos als usuaris.", false],
+      ["Inserir files a una taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DDL s'utilitza per crear una nova taula?",
+    "respostes": [
+      ["NEW TABLE.", false],
+      ["CREATE TABLE.", true],
+      ["MAKE TABLE.", false],
+      ["ADD TABLE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DDL permet modificar l'estructura d'una taula existent (ex: afegir una columna)?",
+    "respostes": [
+      ["CHANGE.", false],
+      ["ALTER TABLE.", true],
+      ["MODIFY TABLE.", false],
+      ["UPDATE TABLE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què fa el comandament DROP TABLE?",
+    "respostes": [
+      ["Buida les dades però manté l'estructura.", false],
+      ["Elimina completament la taula i la seva estructura de la base de dades.", true],
+      ["Mou la taula a una altra base de dades.", false],
+      ["Amaga la taula als usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina diferència hi ha entre DELETE i TRUNCATE?",
+    "respostes": [
+      ["Són el mateix.", false],
+      ["DELETE és DML i esborra files (pot tenir WHERE); TRUNCATE és DDL, buida la taula ràpidament i reinicia comptadors.", true],
+      ["TRUNCATE esborra la taula del disc, DELETE només la buida.", false],
+      ["DELETE és més ràpid que TRUNCATE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què significa DML?",
+    "respostes": [
+      ["Data Management Logic.", false],
+      ["Data Manipulation Language (Llenguatge de Manipulació de Dades).", true],
+      ["Database Main Language.", false],
+      ["Disk Memory Load.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin és el comandament principal per recuperar dades d'una base de dades?",
+    "respostes": [
+      ["GET.", false],
+      ["SELECT.", true],
+      ["FETCH.", false],
+      ["SHOW.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina clàusula de SELECT s'utilitza per filtrar els resultats?",
+    "respostes": [
+      ["ORDER BY.", false],
+      ["WHERE.", true],
+      ["GROUP BY.", false],
+      ["FROM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DML afegeix nous registres a una taula?",
+    "respostes": [
+      ["ADD.", false],
+      ["INSERT INTO.", true],
+      ["PUT.", false],
+      ["CREATE ROW.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DML modifica les dades existents en una taula?",
+    "respostes": [
+      ["CHANGE.", false],
+      ["UPDATE.", true],
+      ["ALTER.", false],
+      ["MODIFY.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què passa si executes un UPDATE sense la clàusula WHERE?",
+    "respostes": [
+      ["Dona error.", false],
+      ["S'actualitzen totes les files de la taula.", true],
+      ["S'actualitza només la primera fila.", false],
+      ["No passa res.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DML elimina files d'una taula?",
+    "respostes": [
+      ["REMOVE.", false],
+      ["DELETE FROM.", true],
+      ["ERASE.", false],
+      ["DROP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què significa DCL?",
+    "respostes": [
+      ["Data Connection Link.", false],
+      ["Data Control Language (Llenguatge de Control de Dades).", true],
+      ["Database Communication Layer.", false],
+      ["Direct Command Line.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina és la funció principal del DCL?",
+    "respostes": [
+      ["Crear taules.", false],
+      ["Gestionar els permisos d'accés i seguretat de la base de dades.", true],
+      ["Inserir dades.", false],
+      ["Esborrar fitxers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DCL atorga permisos a un usuari?",
+    "respostes": [
+      ["ALLOW.", false],
+      ["GRANT.", true],
+      ["GIVE.", false],
+      ["PERMIT.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DCL retira permisos prèviament concedits?",
+    "respostes": [
+      ["DENY.", false],
+      ["REVOKE.", true],
+      ["REMOVE.", false],
+      ["DELETE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin tipus de permís és 'SELECT' en un comandament GRANT?",
+    "respostes": [
+      ["Un permís de sistema.", false],
+      ["Un permís sobre objecte (permet llegir dades).", true],
+      ["Un permís per esborrar taules.", false],
+      ["Un permís administratiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què fa l'opció 'WITH GRANT OPTION' en un comandament GRANT?",
+    "respostes": [
+      ["Fa que el permís sigui temporal.", false],
+      ["Permet que l'usuari que rep el permís pugui atorgar-lo a altres usuaris.", true],
+      ["Dona accés total a la base de dades.", false],
+      ["Revoca el permís automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina clàusula s'utilitza per ordenar els resultats d'una consulta SELECT?",
+    "respostes": [
+      ["SORT BY.", false],
+      ["ORDER BY.", true],
+      ["ARRANGE BY.", false],
+      ["FILTER BY.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què fa la clàusula DISTINCT en una consulta SELECT?",
+    "respostes": [
+      ["Mostra totes les files.", false],
+      ["Elimina les files duplicades del resultat.", true],
+      ["Ordena els resultats.", false],
+      ["Filtra per condició.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què permet fer l'operador LIKE en una clàusula WHERE?",
+    "respostes": [
+      ["Comparar números exactes.", false],
+      ["Buscar patrons en cadenes de text utilitzant comodins (ex: %).", true],
+      ["Sumar valors.", false],
+      ["Unir dues taules.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina funció d'agregació compta el nombre de files?",
+    "respostes": [
+      ["SUM().", false],
+      ["COUNT().", true],
+      ["AVG().", false],
+      ["MAX().", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Com s'anomena la clau que identifica de manera única cada fila en una taula?",
+    "respostes": [
+      ["Clau forana.", false],
+      ["Clau primària (Primary Key).", true],
+      ["Clau secundària.", false],
+      ["Índex.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament permet canviar el nom d'una taula (en alguns SGBD dins d'ALTER o específic)?",
+    "respostes": [
+      ["RENAME.", true],
+      ["CHANGE NAME.", false],
+      ["NEW NAME.", false],
+      ["MOVE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què passa si s'intenta inserir un valor duplicat en una columna amb restricció UNIQUE?",
+    "respostes": [
+      ["S'insereix sense problemes.", false],
+      ["La base de dades retorna un error i no permet la inserció.", true],
+      ["S'esborra el valor anterior.", false],
+      ["Es crea una nova taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina és la funció de la restricció FOREIGN KEY?",
+    "respostes": [
+      ["Fer que la taula sigui més ràpida.", false],
+      ["Garantir la integritat referencial enllaçant una columna amb la clau primària d'una altra taula.", true],
+      ["Encriptar la columna.", false],
+      ["Impedir valors nuls.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què fa l'operador IN en una clàusula WHERE?",
+    "respostes": [
+      ["Compara amb un sol valor.", false],
+      ["Comprova si un valor coincideix amb qualsevol valor d'una llista o subconsulta.", true],
+      ["Busca valors nuls.", false],
+      ["Nega una condició.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin subllenguatge pertany el comandament 'CREATE INDEX'?",
+    "respostes": [
+      ["DML.", false],
+      ["DDL (ja que defineix estructura).", true],
+      ["DCL.", false],
+      ["TCL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què permet fer l'àlgebra relacional en el context de SQL?",
+    "respostes": [
+      ["Resoldre equacions.", false],
+      ["És la base teòrica per a les operacions de manipulació de dades (selecció, projecció, unió, etc.).", true],
+      ["Calcular la velocitat del processador.", false],
+      ["Dibuixar gràfics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què és una 'vista' (VIEW) en SQL?",
+    "respostes": [
+      ["Una taula física.", false],
+      ["Una taula virtual basada en el conjunt de resultats d'una consulta SQL.", true],
+      ["Una imatge de la base de dades.", false],
+      ["Un error de pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DDL s'utilitza per esborrar una vista?",
+    "respostes": [
+      ["DELETE VIEW.", false],
+      ["DROP VIEW.", true],
+      ["REMOVE VIEW.", false],
+      ["HIDE VIEW.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què permet l'operació JOIN?",
+    "respostes": [
+      ["Separar dades.", false],
+      ["Combinar files de dues o més taules basant-se en una columna relacionada.", true],
+      ["Esborrar taules relacionades.", false],
+      ["Crear usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què fa l'operador BETWEEN?",
+    "respostes": [
+      ["Selecciona valors fora d'un rang.", false],
+      ["Selecciona valors dins d'un rang determinat (inclusiu).", true],
+      ["Selecciona valors iguals.", false],
+      ["Selecciona valors nuls.", false]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què succeeix amb les dades si s'executa un comandament ROLLBACK (tot i que és TCL, està relacionat amb la manipulació)?",
+    "respostes": [
+      ["Es guarden permanentment.", false],
+      ["Es desfan els canvis realitzats en la transacció actual.", true],
+      ["S'esborra la taula.", false],
+      ["Es crea una còpia de seguretat.", false]
+    ]
+  }
+]

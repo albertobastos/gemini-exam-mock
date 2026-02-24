@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quina és la funció principal d'un sistema operatiu segons el document?",
+    "respostes": [
+      ["Actuar com a intermediari entre l'usuari i el maquinari, i gestionar els recursos.", true],
+      ["Dissenyar aplicacions gràfiques per a l'usuari.", false],
+      ["Fabricar els components físics de l'ordinador.", false],
+      ["Proporcionar connexió a Internet gratuïta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quins recursos gestiona principalment el sistema operatiu?",
+    "respostes": [
+      ["Només els dispositius d'entrada com el teclat.", false],
+      ["La CPU, la memòria, els dispositius d'emmagatzematge i els dispositius d'entrada/sortida.", true],
+      ["Les contrasenyes de les xarxes socials de l'usuari.", false],
+      ["El correu electrònic i la navegació web exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què caracteritza un sistema operatiu 'Monousuari'?",
+    "respostes": [
+      ["Permet connectar moltes pantalles a la vegada.", false],
+      ["Només permet l'accés d'un usuari a la vegada.", true],
+      ["Està dissenyat per a ser utilitzat per micos.", false],
+      ["Pot gestionar milers d'usuaris simultàniament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin exemple es dóna d'un sistema operatiu monousuari?",
+    "respostes": [
+      ["Unix.", false],
+      ["MS-DOS.", true],
+      ["Linux.", false],
+      ["Windows Server.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què permet un sistema operatiu 'Multiusuari'?",
+    "respostes": [
+      ["Que un sol usuari utilitzi l'ordinador molt ràpidament.", false],
+      ["Que múltiples usuaris accedeixin al sistema i utilitzin els recursos simultàniament.", true],
+      ["Que l'ordinador tingui múltiples teclats físics obligatòriament.", false],
+      ["Executar jocs en 3D.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu és un exemple clàssic de sistema multiusuari?",
+    "respostes": [
+      ["MS-DOS.", false],
+      ["CP/M.", false],
+      ["Unix.", true],
+      ["Windows 3.1.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què significa que un sistema operatiu sigui 'Monotasca'?",
+    "respostes": [
+      ["Que només pot executar una tasca o aplicació a la vegada.", true],
+      ["Que només pot tenir una icona a l'escriptori.", false],
+      ["Que pot fer moltes coses, però només amb un processador.", false],
+      ["Que està dissenyat per a una sola persona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'esmenta com a exemple de monotasca?",
+    "respostes": [
+      ["Windows 10.", false],
+      ["MS-DOS.", true],
+      ["macOS.", false],
+      ["Android.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què permet fer un sistema operatiu 'Multitasca'?",
+    "respostes": [
+      ["Gestionar i executar múltiples tasques o aplicacions simultàniament.", true],
+      ["Tenir múltiples usuaris però només un programa obert.", false],
+      ["Funcionar sense electricitat.", false],
+      ["Connectar-se a múltiples xarxes Wi-Fi alhora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Com es defineix un sistema operatiu 'Uniprocessador'?",
+    "respostes": [
+      ["Un SO que només suporta un usuari.", false],
+      ["Un SO dissenyat per gestionar un únic processador.", true],
+      ["Un SO que només té una tasca.", false],
+      ["Un SO sense interfície gràfica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què fa un sistema operatiu 'Multiprocessador'?",
+    "respostes": [
+      ["Utilitza un sol nucli per a tot.", false],
+      ["Gestiona múltiples processadors, distribuint les tasques entre ells per optimitzar l'execució.", true],
+      ["Només funciona en superordinadors de la NASA.", false],
+      ["Requereix múltiples usuaris per funcionar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què caracteritza un nucli (kernel) 'Monolític'?",
+    "respostes": [
+      ["Té molts mòduls separats que es comuniquen per missatges.", false],
+      ["Tots els components estan integrats en un únic bloc de codi.", true],
+      ["No té gestió de memòria.", false],
+      ["És el més lent de tots els tipus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'utilitza com a exemple d'estructura monolítica?",
+    "respostes": [
+      ["Minix.", false],
+      ["Linux.", true],
+      ["Windows NT.", false],
+      ["MS-DOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "En què consisteix un 'Micro-nucli'?",
+    "respostes": [
+      ["En un nucli gegant que fa de tot.", false],
+      ["En un nucli reduït que només inclou funcions bàsiques, executant altres serveis en espai d'usuari.", true],
+      ["En un nucli dissenyat només per a microones.", false],
+      ["En un sistema sense nucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu és un exemple de Micro-nucli?",
+    "respostes": [
+      ["Linux.", false],
+      ["Minix.", true],
+      ["Windows 95.", false],
+      ["Unix.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què és un nucli híbrid?",
+    "respostes": [
+      ["Un SO que combina elements de nuclis monolítics i micro-nucli.", true],
+      ["Un sistema que funciona amb energia solar i elèctrica.", false],
+      ["Un SO que pot executar aplicacions de Linux i Windows alhora.", false],
+      ["Un nucli escrit en dos llenguatges de programació diferents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'esmenta com a exemple de nucli híbrid?",
+    "respostes": [
+      ["Linux.", false],
+      ["Windows NT.", true],
+      ["Minix.", false],
+      ["MS-DOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Per a què serveix un SO en temps real?",
+    "respostes": [
+      ["Per jugar a videojocs amb els gràfics més realistes.", false],
+      ["Per oferir respostes en un temps determinat, adequat per a aplicacions crítiques.", true],
+      ["Per xatejar en directe.", false],
+      ["Per veure l'hora mundial exacta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin és un exemple de SO en temps real esmentat al text?",
+    "respostes": [
+      ["Windows 10.", false],
+      ["VxWorks.", true],
+      ["Ubuntu.", false],
+      ["Android.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què caracteritza un SO interactiu?",
+    "respostes": [
+      ["Executa treballs sense intervenció humana.", false],
+      ["Permet la interacció constant de l'usuari amb el sistema.", true],
+      ["Només accepta ordres per targetes perforades.", false],
+      ["Està dissenyat per a robots industrials.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què fa un SO per lots (batch)?",
+    "respostes": [
+      ["Executa treballs per lots sense necessitat d'interacció de l'usuari durant l'execució.", true],
+      ["Permet fer videoconferències en grup.", false],
+      ["Organitza els fitxers en carpetes automàticament.", false],
+      ["Només serveix per escriure documents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'esmenta com a exemple de processament per lots?",
+    "respostes": [
+      ["Android.", false],
+      ["IBM OS/360.", true],
+      ["Windows XP.", false],
+      ["iOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin tipus de SO és Windows Server?",
+    "respostes": [
+      ["SO mòbil.", false],
+      ["SO de servidor, dissenyat per gestionar recursos en xarxa.", true],
+      ["SO embegut.", false],
+      ["SO de temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'esmenta com a exemple de SO d'escriptori?",
+    "respostes": [
+      ["FreeRTOS.", false],
+      ["macOS.", true],
+      ["VxWorks.", false],
+      ["Contiki.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Per a quin tipus de dispositius està dissenyat Android?",
+    "respostes": [
+      ["Servidors empresarials.", false],
+      ["Dispositius mòbils com telèfons i tauletes.", true],
+      ["Caixers automàtics antics.", false],
+      ["Superordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'utilitza en dispositius embeguts com sistemes de control industrial?",
+    "respostes": [
+      ["Windows 10 Pro.", false],
+      ["FreeRTOS.", true],
+      ["macOS Ventura.", false],
+      ["Ubuntu Desktop.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Com eren els primers sistemes operatius com CP/M?",
+    "respostes": [
+      ["Multitasca i multiusuari.", false],
+      ["Monotasca i monousuari.", true],
+      ["Basats en el núvol.", false],
+      ["Amb interfície tàctil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què van permetre els sistemes operatius en temps compartit com Unix?",
+    "respostes": [
+      ["Que múltiples usuaris compartissin els recursos de l'ordinador.", true],
+      ["Que els ordinadors funcionessin sense pantalla.", false],
+      ["Eliminar la necessitat de memòria RAM.", false],
+      ["Jugar a videojocs en 4K.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quina tecnologia permet executar múltiples sistemes operatius en una sola màquina física?",
+    "respostes": [
+      ["Compilació.", false],
+      ["Virtualització.", true],
+      ["Encriptació.", false],
+      ["Desfragmentació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin exemple de tecnologia de virtualització s'esmenta al text?",
+    "respostes": [
+      ["Docker.", false],
+      ["VMware.", true],
+      ["Contiki.", false],
+      ["RIOT.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què són els contenidors en el context de les tendències actuals?",
+    "respostes": [
+      ["Tecnologies per executar aplicacions de manera aïllada i lleugera.", true],
+      ["Caixes físiques per guardar servidors.", false],
+      ["Carpetes especials de Windows.", false],
+      ["Arxius comprimits ZIP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin és un exemple de tecnologia de contenidors?",
+    "respostes": [
+      ["Hyper-V.", false],
+      ["Docker.", true],
+      ["Android.", false],
+      ["iOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quins sistemes operatius s'esmenten com a específics per a IoT (Internet de les Coses)?",
+    "respostes": [
+      ["Windows 10 i macOS.", false],
+      ["Contiki i RIOT.", true],
+      ["MS-DOS i CP/M.", false],
+      ["Debian i Red Hat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Què caracteritza els sistemes operatius en el núvol com AWS Lambda?",
+    "respostes": [
+      ["Estan dissenyats per operar en entorns de computació en núvol.", true],
+      ["Funcionen sense connexió a internet.", false],
+      ["Són exclusius per a rellotges intel·ligents.", false],
+      ["No permeten executar codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quina característica és pròpia d'un SO embegut?",
+    "respostes": [
+      ["Interfície gràfica d'alt rendiment per a disseny 3D.", false],
+      ["Recursos limitats i disseny per a dispositius específics.", true],
+      ["Capacitat de gestionar milers d'usuaris simultanis.", false],
+      ["Necessitat de múltiples processadors d'última generació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quina classificació agrupa els SO segons la manera com s'integren els seus components (nucli)?",
+    "respostes": [
+      ["Classificació per nombre d'usuaris.", false],
+      ["Classificació per estructura.", true],
+      ["Classificació per entorn de maquinari.", false],
+      ["Classificació per forma d'oferir serveis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quin sistema operatiu s'utilitza com a exemple de SO interactiu amb interfície gràfica?",
+    "respostes": [
+      ["IBM OS/360.", false],
+      ["Windows 10.", true],
+      ["MS-DOS.", false],
+      ["FreeRTOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO.",
+    "enunciat": "Quina tendència actual permet executar aplicacions de manera aïllada i lleugera sense virtualitzar tot el sistema operatiu?",
+    "respostes": [
+      ["Virtualització tradicional.", false],
+      ["Contenidors.", true],
+      ["Multiprocessament simètric.", false],
+      ["Computació per lots.", false]
+    ]
+  }
+]

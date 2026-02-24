@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què inclou la tecnologia de la programació segons el document?",
+    "respostes": [
+      ["Només el disseny de maquinari.", false],
+      ["Conceptes com tipus abstractes de dades, algorismes, recursivitat i complexitat.", true],
+      ["La instal·lació de xarxes locals.", false],
+      ["La reparació d'equips informàtics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què és un Tipus Abstracte de Dades (TAD)?",
+    "respostes": [
+      ["Una base de dades física.", false],
+      ["Una estructura que encapsula dades i les operacions que es poden realitzar sobre elles.", true],
+      ["Un algorisme d'ordenació.", false],
+      ["Un llenguatge de programació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin principi segueix una estructura de dades tipus Pila (Stack)?",
+    "respostes": [
+      ["FIFO (First In, First Out).", false],
+      ["LIFO (Last In, First Out).", true],
+      ["Accés aleatori.", false],
+      ["Ordenació automàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina operació afegeix un element al final d'una pila?",
+    "respostes": [
+      ["Pop.", false],
+      ["Push.", true],
+      ["Enqueue.", false],
+      ["Sort.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin principi segueix una estructura de dades tipus Cua (Queue)?",
+    "respostes": [
+      ["LIFO.", false],
+      ["FIFO (First In, First Out).", true],
+      ["LILO.", false],
+      ["FILO.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina operació elimina l'element que es troba al principi d'una cua?",
+    "respostes": [
+      ["Enqueue.", false],
+      ["Dequeue.", true],
+      ["Push.", false],
+      ["Insert.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què és una llista enllaçada?",
+    "respostes": [
+      ["Un array estàtic.", false],
+      ["Una col·lecció de nodes on cadascun conté un valor i una referència al següent.", true],
+      ["Una base de dades SQL.", false],
+      ["Un fitxer de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin tipus d'arbre permet com a màxim dos fills per node?",
+    "respostes": [
+      ["Arbre general.", false],
+      ["Arbre binari.", true],
+      ["Arbre B+.", false],
+      ["Graf complet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quins són els tipus de recorregut d'un arbre?",
+    "respostes": [
+      ["Lineal, Binari, Ràpid.", false],
+      ["Inordre, preordre i postordre.", true],
+      ["FIFO, LIFO.", false],
+      ["Directe, Indirecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Com es poden representar els grafs?",
+    "respostes": [
+      ["Només amb llistes.", false],
+      ["Mitjançant matrius d'adjacència o llistes d'adjacència.", true],
+      ["Amb piles.", false],
+      ["Amb cues.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina és la complexitat temporal de la cerca lineal?",
+    "respostes": [
+      ["O(1).", false],
+      ["O(n).", true],
+      ["O(log n).", false],
+      ["O(n^2).", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin requisit té la cerca binària?",
+    "respostes": [
+      ["La llista ha d'estar buida.", false],
+      ["La llista ha d'estar ordenada.", true],
+      ["La llista ha de ser de números enters.", false],
+      ["No té cap requisit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina és la complexitat temporal de la cerca binària?",
+    "respostes": [
+      ["O(n).", false],
+      ["O(log n).", true],
+      ["O(1).", false],
+      ["O(n log n).", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Com funciona l'algorisme Bubble Sort?",
+    "respostes": [
+      ["Divideix la llista en dues meitats.", false],
+      ["Compara i intercanvia elements adjacents si estan en l'ordre equivocat.", true],
+      ["Utilitza un arbre binari.", false],
+      ["Selecciona el mínim i el posa al principi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina és la complexitat del Bubble Sort en el pitjor cas?",
+    "respostes": [
+      ["O(n).", false],
+      ["O(n^2).", true],
+      ["O(log n).", false],
+      ["O(1).", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin principi utilitza el Quick Sort?",
+    "respostes": [
+      ["Principi de LIFO.", false],
+      ["Principi de divideix i venceràs.", true],
+      ["Principi de força bruta.", false],
+      ["Principi de FIFO.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin element clau tria l'algorisme Quick Sort per particionar l'array?",
+    "respostes": [
+      ["Una arrel.", false],
+      ["Un pivot.", true],
+      ["Un índex.", false],
+      ["Un punter.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina és la complexitat mitjana del Quick Sort?",
+    "respostes": [
+      ["O(n^2).", false],
+      ["O(n log n).", true],
+      ["O(n).", false],
+      ["O(log n).", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Com funciona el Merge Sort?",
+    "respostes": [
+      ["Intercanvia elements adjacents.", false],
+      ["Divideix l'array en meitats, les ordena recursivament i les combina.", true],
+      ["Utilitza un heap.", false],
+      ["Busca el mínim.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina estructura de dades utilitza el Heap Sort?",
+    "respostes": [
+      ["Una pila.", false],
+      ["Un heap (monticle).", true],
+      ["Una cua.", false],
+      ["Una llista enllaçada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina és la complexitat temporal del Heap Sort?",
+    "respostes": [
+      ["O(n^2).", false],
+      ["O(n log n) en tots els casos.", true],
+      ["O(n).", false],
+      ["O(log n).", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què és la recursivitat?",
+    "respostes": [
+      ["Un error de programació.", false],
+      ["Una tècnica on una funció es crida a ella mateixa per resoldre subproblemes.", true],
+      ["Un bucle infinit.", false],
+      ["Una estructura de dades lineal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Per què és essencial el cas base en una funció recursiva?",
+    "respostes": [
+      ["Per fer el codi més llarg.", false],
+      ["Per evitar una crida infinita i permetre que la funció retorni.", true],
+      ["Per utilitzar més memòria.", false],
+      ["Per cridar a altres funcions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què és la recursivitat directa?",
+    "respostes": [
+      ["Quan una funció en crida una altra.", false],
+      ["Quan una funció es crida directament a ella mateixa.", true],
+      ["Quan una funció no retorna res.", false],
+      ["Quan una funció utilitza un bucle.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què és la recursivitat indirecta?",
+    "respostes": [
+      ["Quan una funció es crida a ella mateixa.", false],
+      ["Quan una funció es crida a través d'una altra funció (A crida B, B crida A).", true],
+      ["Quan no hi ha recursivitat.", false],
+      ["Quan s'utilitzen punters.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quin és un exemple clàssic de funció recursiva?",
+    "respostes": [
+      ["La suma de dos nombres.", false],
+      ["El càlcul del factorial.", true],
+      ["Imprimir un missatge.", false],
+      ["Llegir un fitxer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què mesura la complexitat temporal?",
+    "respostes": [
+      ["La quantitat de memòria utilitzada.", false],
+      ["El temps que triga un algorisme a completar-se (passos necessaris).", true],
+      ["La longitud del codi.", false],
+      ["La dificultat d'entendre el codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què mesura la complexitat espacial?",
+    "respostes": [
+      ["El temps d'execució.", false],
+      ["La quantitat de memòria addicional necessària per executar l'algorisme.", true],
+      ["L'espai al disc dur.", false],
+      ["La mida de la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què descriu la notació Big-O?",
+    "respostes": [
+      ["El millor cas d'un algorisme.", false],
+      ["La complexitat d'un algorisme en el pitjor cas (comportament asimptòtic).", true],
+      ["El temps exacte en segons.", false],
+      ["El nombre de línies de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina complexitat indica O(1)?",
+    "respostes": [
+      ["Complexitat lineal.", false],
+      ["Complexitat constant.", true],
+      ["Complexitat logarítmica.", false],
+      ["Complexitat quadràtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina complexitat indica O(n)?",
+    "respostes": [
+      ["Constant.", false],
+      ["Lineal.", true],
+      ["Exponencial.", false],
+      ["Logarítmica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina complexitat indica O(n^2)?",
+    "respostes": [
+      ["Lineal.", false],
+      ["Quadràtica.", true],
+      ["Constant.", false],
+      ["Logarítmica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina és la complexitat espacial del Merge Sort?",
+    "respostes": [
+      ["O(1).", false],
+      ["O(n).", true],
+      ["O(log n).", false],
+      ["O(n^2).", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Per a què s'utilitzen els algorismes de cerca?",
+    "respostes": [
+      ["Per ordenar una llista.", false],
+      ["Per trobar un element en una col·lecció de dades.", true],
+      ["Per esborrar dades.", false],
+      ["Per crear nous arxius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "En quina situació es dóna el pitjor cas del Quick Sort?",
+    "respostes": [
+      ["Quan l'array està buit.", false],
+      ["Quan el pivot triat és sempre l'element més gran o més petit.", true],
+      ["Quan l'array ja està ordenat aleatòriament.", false],
+      ["Quan es tria el pivot del mig.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina estructura de dades s'utilitza sovint per implementar diccionaris/mapes?",
+    "respostes": [
+      ["Llistes enllaçades simples.", false],
+      ["Taules de hash.", true],
+      ["Piles.", false],
+      ["Cues.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Què és l'anàlisi amortitzada?",
+    "respostes": [
+      ["Calcular el pitjor cas d'una sola operació.", false],
+      ["Calcular la complexitat mitjana d'operacions seqüencials sobre una estructura de dades.", true],
+      ["Calcular l'espai en disc.", false],
+      ["Calcular el temps de compilació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 28. Tecnologia de la programació. Tipus abstractes de dades. Algorismes de cerca i ordenació. Recursivitat. Complexitat.",
+    "enunciat": "Quina tècnica permet optimitzar la recursivitat emmagatzemant resultats?",
+    "respostes": [
+      ["Iteració.", false],
+      ["Memoització.", true],
+      ["Compilació.", false],
+      ["Depuració.", false]
+    ]
+  }
+]

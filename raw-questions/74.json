@@ -1,0 +1,362 @@
+[
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quins són els objectius principals de la criptografia?",
+    "respostes": [
+      ["Confidencialitat, integritat, autenticació i no-repudi.", true],
+      ["Rapidesa, escalabilitat, transparència i compressió.", false],
+      ["Xifratge, emmagatzematge, eliminació i distribució.", false],
+      ["Disponibilitat, accessibilitat, traçabilitat i gratuïtat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Què garanteix el principi de 'no-repudi' en criptografia?",
+    "respostes": [
+      ["Assegurar que una acció o comunicació no pugui ser negada per la persona que l'ha realitzada.", true],
+      ["Garantir que ningú excepte el destinatari pugui llegir el missatge.", false],
+      ["Assegurar que les dades no hagin estat alterades pel camí.", false],
+      ["Evitar que un usuari perdi la seva contrasenya accidentalment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Com s'emmagatzemen habitualment les contrasenyes de forma segura en una aplicació web segons el temari?",
+    "respostes": [
+      ["Es guarda el seu hash criptogràfic, una versió encriptada i irreversible de la contrasenya.", true],
+      ["Es guarden en text pla dins d'un servidor totalment aïllat de la xarxa.", false],
+      ["Es xifren utilitzant la clau pública de l'usuari perquè només ell les desxifri.", false],
+      ["S'envien al correu de l'usuari en el moment del registre i no es desen al servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quina és la característica fonamental dels criptosistemes de clau privada (simètrica)?",
+    "respostes": [
+      ["Utilitzen la mateixa clau tant per xifrar com per desxifrar la informació.", true],
+      ["Utilitzen dues claus diferents matemàticament lligades.", false],
+      ["No utilitzen cap clau, sinó que es basen completament en funcions resum (hash).", false],
+      ["Requerixen sempre l'ús d'un certificat digital emès per una autoritat independent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quin d'aquests algoritmes és l'estàndard actual per al xifrat simètric, sent àmpliament utilitzat i considerat molt segur?",
+    "respostes": [
+      ["AES (Advanced Encryption Standard).", true],
+      ["DES (Data Encryption Standard).", false],
+      ["RSA.", false],
+      ["MD5.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Per què l'algorisme DES té un ús molt limitat avui en dia?",
+    "respostes": [
+      ["Per la seva vulnerabilitat a atacs de força bruta a causa de la seva clau curta de 56 bits.", true],
+      ["Perquè és massa lent computacionalment en comparació amb l'RSA.", false],
+      ["Perquè només pot xifrar text pla i no arxius binaris.", false],
+      ["Perquè no va arribar a estar mai estandarditzat internacionalment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "En els modes d'operació dels algorismes simètrics de blocs, quin inconvenient presenta el mode ECB (Electronic Codebook)?",
+    "respostes": [
+      ["És vulnerable a atacs de patró, ja que blocs idèntics de text pla produeixen blocs idèntics de text xifrat.", true],
+      ["És el mode més lent de tots perquè xifra el mateix bloc tres vegades.", false],
+      ["Requereix un vector d'inicialització (IV) extremadament llarg i complex de generar.", false],
+      ["No permet el xifratge de dades que superin els 64 bits totals de longitud.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Com millora el mode CBC (Cipher Block Chaining) la seguretat del xifratge per blocs respecte a l'ECB?",
+    "respostes": [
+      ["Cada bloc de dades es combina amb el bloc anterior mitjançant una operació XOR abans de ser xifrat.", true],
+      ["Xifra el missatge sempre dues vegades amb dues claus simètriques diferents (doble xifrat).", false],
+      ["Genera un hash SHA-256 de cada bloc abans de transmetre'l a la xarxa.", false],
+      ["Utilitza la clau pública del receptor de manera asimètrica per a cada bloc individual.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quin és un dels majors desavantatges de la criptografia simètrica en entorns grans o de molts usuaris?",
+    "respostes": [
+      ["La complexitat i el risc associat a la distribució i gestió segura de totes les claus compartides.", true],
+      ["L'extrema lentitud dels algoritmes a l'hora de xifrar grans volums de dades en temps real.", false],
+      ["La longitud excessiva de les claus simètriques, que forçosament han de ser de milers de bits.", false],
+      ["La impossibilitat pràctica d'implementar-la a nivell de maquinari informàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Com funciona el principi bàsic d'un criptosistema de clau asimètrica (pública)?",
+    "respostes": [
+      ["Utilitza un parell de claus matemàticament lligades: una de pública per xifrar i una de privada per desxifrar.", true],
+      ["Utilitza una única clau que es comparteix secretament i prèvia entre emissor i receptor.", false],
+      ["Utilitza un sistema de tickets temporals emesos per un KDC central sense claus associades.", false],
+      ["Genera un resum de longitud fixa irreversible mitjançant polinomis de grau cinc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Sobre quin problema recau la base de la seguretat de l'algorisme de clau asimètrica RSA?",
+    "respostes": [
+      ["La dificultat computacional de factoritzar nombres compostos grans en els seus factors primers.", true],
+      ["La dificultat de resoldre el logaritme discret sobre corbes el·líptiques.", false],
+      ["La rapidesa de les funcions lògiques XOR a l'hora de combinar cadenes de bits curtes.", false],
+      ["La complexitat extrema de calcular un hash MD5 de forma inversa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "En la pràctica eficient, com s'acostuma a utilitzar l'algorisme RSA a l'hora de transmetre grans volums de dades?",
+    "respostes": [
+      ["S'utilitza per xifrar una clau simètrica temporal, que després s'emprarà per xifrar el volum de dades reals de forma ràpida.", true],
+      ["Es xifra directament i íntegra tot el document de dades amb la clau pública, atès que RSA és increïblement veloç.", false],
+      ["S'utilitza exclusivament per generar el resum (hash) del document, però no intervé mai en el procés de xifratge.", false],
+      ["Només s'empra per autenticar presencialment els usuaris en una intranet tancada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quin és el principal avantatge de la criptografia de corbes el·líptiques (ECC) en comparació amb l'estàndard clàssic RSA?",
+    "respostes": [
+      ["Ofereix un nivell alt de seguretat amb claus molt més curtes, sent més eficient en temps de càlcul i memòria, ideal per a dispositius limitats.", true],
+      ["És l'únic algoritme capaç de xifrar dades massives exactament a la mateixa velocitat teòrica que l'AES.", false],
+      ["És un protocol que no requereix la creació de cap clau privada, simplificant-ne la gestió a la meitat.", false],
+      ["Està dissenyat per evadir l'ús de certificats digitals i PKI completament a la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quina és la funció o propòsit principal del protocol criptogràfic Diffie-Hellman?",
+    "respostes": [
+      ["Permetre a dues parts generar i establir de manera segura una clau secreta compartida a través d'un canal de comunicació insegur.", true],
+      ["Xifrar i emmagatzemar grans bases de dades corporatives de forma estàtica als servidors del núvol.", false],
+      ["Certificar la identitat oficial d'un lloc web comercial associant el seu nom de domini a la seva adreça IP.", false],
+      ["Generar resums hash irreversibles de contrasenyes per evitar l'emmagatzematge en text pla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Què garanteix el concepte de 'Perfect Forward Secrecy' present a variants de protocols com Diffie-Hellman?",
+    "respostes": [
+      ["Que les claus compartides són úniques (efímeres) per a cada sessió, evitant que si es compromet una clau a llarg termini es puguin desxifrar sessions gravades del passat.", true],
+      ["Que el protocol de xifratge generat per la clau sigui invulnerable a futurs atacs provinents de computadors quàntics.", false],
+      ["Que els participants de la comunicació no hagin d'intercanviar mai cap dada pública a través d'internet.", false],
+      ["Que una mateixa clau de sessió pugui mantenir-se vàlida de forma perenne i segura sense arribar a caducar mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Com es pot garantir correctament l'autenticitat de les claus públiques que es distribueixen a Internet per evitar suplantacions?",
+    "respostes": [
+      ["Mitjançant l'ús de certificats digitals emesos i validats per una Autoritat de Certificació (CA) integrada en una infraestructura PKI.", true],
+      ["Publicant de manera oberta la clau privada corresponent a un repositori web auditable del govern.", false],
+      ["Enviant les claus utilitzant exclusivament el mode de xifratge de blocs ECB sense afegir-hi vectors d'inicialització.", false],
+      ["Permetent que la clau asimètrica es generi directament amb rutines de JavaScript al navegador del client sense intermediaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quin mètode criptogràfic permet a un usuari signar digitalment un missatge en un sistema de clau asimètrica per demostrar-ne l'autoria?",
+    "respostes": [
+      ["L'usuari signa el missatge xifrant-ne el resum (hash) amb la seva pròpia clau privada, permetent a qualsevol verificar-ho amb la seva clau pública.", true],
+      ["L'usuari xifra el missatge utilitzant directament la clau pública del destinatari i ho reenvia pel servidor local.", false],
+      ["L'usuari adjunta la seva contrasenya d'accés en text pla i codificada en base64 a la capçalera del document PDF.", false],
+      ["L'usuari empra una clau simètrica AES de 256 bits estricta per xifrar l'IP d'origen del remitent de forma irrevocable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quina és la raó exacta per la qual TLS/SSL se sol descriure com un sistema de xifratge de funcionament 'híbrid'?",
+    "respostes": [
+      ["Aprofita la criptografia asimètrica a l'inici per a l'intercanvi segur de claus i l'autenticació, i tot seguit utilitza la criptografia simètrica (més ràpida) per xifrar el gruix de la sessió de dades.", true],
+      ["Es deu al fet que combina components físics de maquinari amb processos lliures de programari a la mateixa transmissió.", false],
+      ["Fa referència a la utilització conjunta però aïllada del protocol HTTP d'hipertext amb el protocol FTP de transferència d'arxius.", false],
+      ["Perquè barreja senyals de ràdio analògics amb dades digitals encapsulades quan la connexió es fa via xarxa Wi-Fi o mòbil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Què és Kerberos en el context dels protocols i la seguretat en xarxa?",
+    "respostes": [
+      ["Un protocol d'autenticació basat en xarxa que utilitza criptografia simètrica i un sistema d'intercanvi de 'tickets' per mitjà d'un Centre de Distribució de Claus (KDC).", true],
+      ["Un sofisticat algorisme de clau pública asimètrica desenvolupat específicament per a generar la signatura digital dels correus electrònics d'empresa.", false],
+      ["Una funció de resum (hash) d'alta velocitat força emprada per emmagatzemar localment l'historial de navegació i contrasenyes d'usuari.", false],
+      ["Un certificat digital d'altíssima seguretat i cost emès exclusivament en l'entorn de les entitats bancàries i financeres.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Com es realitza i quin és el benefici principal de l'autenticació inicial d'un usuari seguint el procés del sistema Kerberos?",
+    "respostes": [
+      ["L'usuari s'autentica al KDC obtenint un Ticket Granting Ticket (TGT), el qual li permetrà demanar tickets posteriors d'accés a altres serveis sense reintroduir constantment les credencials.", true],
+      ["L'usuari envia un arxiu XML amb la contrasenya en text pla a tots els serveis als quals pretén connectar-se per estalviar memòria al servidor principal.", false],
+      ["L'usuari demana directament que se li transfereixi temporalment la clau privada del servidor de base de dades per obrir una sessió VPN ràpida.", false],
+      ["L'usuari descarrega de forma autònoma un certificat X.509 generat al vol i l'envia cada minut al router de frontera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quina d'aquestes afirmacions mostra una diferència clau entre l'ús operatiu de Kerberos i SAML?",
+    "respostes": [
+      ["Kerberos està orientat i s'usa principalment en xarxes corporatives internes tancades, mentre que SAML es fa servir sobretot com a autenticació web federada i SSO entre entitats externes (internet).", true],
+      ["Kerberos basa la seva seguretat plenament en l'ús massiu de criptografia asimètrica, i per contra SAML opera només mitjançant resums o funcions hash simples.", false],
+      ["Kerberos s'ha desenvolupat per autenticar aplicacions mòbils aïllades, i SAML exclusivament per auditar les xarxes locals i el cablejat.", false],
+      ["Kerberos va ser creat com a estàndard de propietat de Google i SAML és la versió competidora nativa i tancada programada per Microsoft.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quina finalitat específica té i què permet l'adopció de l'estàndard OAuth a nivell de la gestió de permisos i dades a la web?",
+    "respostes": [
+      ["Permet a un usuari autoritzar que determinades aplicacions de tercers accedeixin temporalment o de manera parcial a recursos en el seu nom sense revelar-los-hi en cap moment les contrasenyes directes.", true],
+      ["Estableix un túnel criptogràfic robust que permet l'intercanvi asíncron i directe de les claus privades a través de complexes xarxes de tipus peer-to-peer anònimes.", false],
+      ["Habilita un protocol que faculta als operadors de sistemes a encriptar automàticament els discs durs físics dels empleats utilitzant paràmetres procedents d'un servidor web remot.", false],
+      ["Ofereix un instrument natiu de control i registre perquè els administradors de qualsevol xarxa d'empresa puguin llegir clarament tot el tràfic no xifrat a l'exterior.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Què efectua el component anomenat Proveïdor d'Identitat (IdP) dins d'un ecosistema SAML just després de validar satisfactòriament les credencials d'un usuari final?",
+    "respostes": [
+      ["Genera un testimoni o token SAML (l'anomenada assertion) firmat digitalment per ell mateix amb la seva clau privada, que seguidament s'envia a l'entitat Proveïdor de Serveis (SP) perquè autoritzi l'accés local.", true],
+      ["Construeix dinàmicament una clau simètrica pròpia de tipus AES de 128 bits des de zero i l'envia per seguretat al correu electrònic privat de l'usuari validat.", false],
+      ["Denega cautelarment qualsevol accés i posa en quarantena al compte d'usuari a l'espera que el Servei sol·licitant processi o pagui l'emissió del token administratiu en qüestió.", false],
+      ["S'encarrega d'injectar codi maliciós autoritzat de manera transparent per tal de poder esborrar les galetes (cookies) i l'historial del navegador web utilitzat en nom de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Dins de les modalitats presents a l'Autenticació Multifactor (MFA), a quina categoria o tipologia pertany emprar una dada com l'empremta digital, l'iris de l'ull o el reconeixement facial?",
+    "respostes": [
+      ["Constitueix clarament un Factor d'inherència (representa algun tret que defineix o que l'usuari naturalment 'és').", true],
+      ["Es considera un factor clàssic de coneixement (identifica informació, codi o element que l'usuari 'sap' i coneix de memòria).", false],
+      ["Pertany al factor físic de possessió (estableix i fa referència a un recurs tangible o objecte material que l'usuari 'té' al seu abast).", false],
+      ["S'enquadra dins del factor ambiental o de geolocalització (demostra irrefutablement el punt geogràfic físic on es troba l'usuari ubicat en l'espai).", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "De quina manera i amb quin mètode processen la informació els algorismes coneguts com a funcions resum (o 'hash functions') de forma general?",
+    "respostes": [
+      ["S'encarreguen de processar una entrada de contingut o dades de qualsevol mida i transformar-la donant com a sortida una cadena matemàtica constant i de longitud fixa completament irreversible.", true],
+      ["Actuen de manera asimètrica xifrant totes les dades d'entrada d'una manera bidireccional amb l'objectiu de facilitar la seva ràpida desencriptació futura a través d'una clau mestra i privada oculta.", false],
+      ["Es dediquen únicament a l'execució d'un model de compressió asíncrona dissenyat per recollir fitxers o documents pesants reduint-ne el pes temporalment al disc, podent revertir-ne fàcilment l'estat posteriorment.", false],
+      ["Componen l'element bàsic de signatura automàtica al núvol que genera grans lots de certificats digitals acreditatius fets expressament a demanda per a ser implementats sobre plataformes comercials a internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quan s'analitzen teòricament les propietats de les funcions resum, s'afirma que aquestes han de tenir 'resistència a col·lisions'. Què implica aquest concepte criptogràfic?",
+    "respostes": [
+      ["Que el nivell de dificultat i complexitat computacional sigui prou inabastable i alt per impedir que algú assoleixi trobar dues entrades completament diferents amb capacitat de generar i coincidir en exactament el mateix hash resultant.", true],
+      ["Que independentment de si el fitxer pateix danys menors en la seva transmissió o emmagatzematge el resum original quedi automàticament protegit en una còpia permanent per evitar canvis estructurals.", false],
+      ["Que la pròpia funció blindi matemàticament la impossibilitat que dos ordinadors de xarxa i servidors llunyans es puguin connectar al procés per intentar recalcular o processar a la vegada el valor numèric del mateix arxiu.", false],
+      ["Que prevegi un tall o la denegació del recurs en el mateix servidor processador en cas que aquest hagi de processar per casualitat més de cent peticions d'entrada repetides gairebé alhora (mitigant atacs DoS o d'alt trànsit).", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Dins de la definició acadèmica de les propietats d'una funció hash criptogràfica, què il·lustra l'efecte conegut com a 'difusió' o efecte d''allau'?",
+    "respostes": [
+      ["La característica fonamental per la qual alterar un element tan mínim i petit com un únic bit de l'arxiu o missatge d'entrada forçarà de forma predictiva un canvi dràstic, sobtat i visualment total en la pràctica de tota la cadena del hash resultant.", true],
+      ["El mecanisme intrínsec que recondueix de forma massiva la càrrega del valor del hash generat per tal de distribuir-la i escampar-la constantment i sincronitzada per a les taules i processos del gran gruix de servidors presents connectats en la mateixa subxarxa.", false],
+      ["El procés evolutiu que suposa que l'augment del pes i dels megabytes del document d'entrada requerirà una generació del resultat global la longitud de la cadena final de sortida del hash vagi sent exponencialment i proporcionalment cada cop més gran.", false],
+      ["El mètode d'enginyeria matemàtica dissenyada per proporcionar petites pistes de comportament iteratiu la qual aconsegueixi aproximar finalment un ordinador remot molt potent amb l'entrada originària fins arribar a l'inici d'on provenia del resum difós prèviament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Dels grups i tipus d'algoritmes destinats a les funcions de resum històrics i coneguts que apareixen al temari, quin es considera per defecte absolutament obsolet donada la seva elevada vulnerabilitat als anomenats atacs de col·lisió de dades?",
+    "respostes": [
+      ["MD5.", true],
+      ["SHA-256.", false],
+      ["SHA-512.", false],
+      ["AES-256.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "A l'àmbit actual dels sistemes de funcions de resum que deriven del marc de l'NIST, quin exponent de la coneguda família SHA-2 es consolida com l'estàndard d'ús generalitzat més fort per causa de l'altíssim grau de seguretat que atorga?",
+    "respostes": [
+      ["SHA-256.", true],
+      ["SHA-1.", false],
+      ["MD5.", false],
+      ["DES-Hash.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "L'expressió 'atac de preimatge' s'empra usualment al referir-se a les amenaces directes sobre les funcions de hash. En què radica aquest esforç maliciós en concret i amb quin fi?",
+    "respostes": [
+      ["S'enfoca sobretot a esgotar capacitats provant trobar de manera matemàtica un tipus d'entrada o text pla qualsevol original en el qual en sotmetre's a procés, culmini i tingui èxit proporcionant com a fruit un hash en concret donat, robat o desitjat i prèviament conegut pel furoner.", true],
+      ["La seva ambició primordial descansa a manipular el codi i el comportament del mateix ordinador i algoritme central d'elaboració o construcció del hash incrustant al seu programari un potent element o troià destinat exclusivament a interrompre les dades en vol.", false],
+      ["Representa una varietat força comuna de tècnica l'ús o la base es concentra bàsicament a fer intents ràpids per forçar un reinici operatiu continu mitjançant un llarg i conegut arxiu diccionari orientat al desxiframent i lectura contínua de les contrasenyes del sistema.", false],
+      ["Es fonamenta eminentment i estricta a ser capaç d'escoltar el medi interposant un receptor analògic en el pas concret de connexió just abans de possibilitar i que l'usuari legal de xarxa enllaci la dada definitiva al node del servidor d'enviament de senyals corresponent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "Quins tres conceptes d'entitat configuren, descriuen i caracteritzen històricament els blocs clàssics a l'hora de parlar dels components que permeten dur a terme l'Autenticació de tipus Multifactor (o per les seves sigles, MFA)?",
+    "respostes": [
+      ["El coneixement abstracte del qual s'informa (allò que saps), un model d'atribució i possessió material (el dispositiu o objecte que físicament tens), i la pròpia inherència inalterable i condició biomètrica fonamental (el que tu com a individu biològic ets).", true],
+      ["El factor clau primari, o bé usuari nominal i d'identitat pròpia, la corresponent i dependent clau emesa pública en obert o general, lligada estretament per defecte a un certificat segellat de clau privada i final en tancat del mateix procés administratiu.", false],
+      ["La resolució pura de components lligats fortament a la capacitat cognitiva o memòria matemàtica lògica, una capa addicional dedicada només a l'espai elèctric del factor de tipus maquinari físic, combinades al mateix temps en la traça de base tipus orgànica i únicament biomètrica.", false],
+      ["L'adopció integral de rutes tecnològiques del format i tipus de base de comunicacions de modalitat de flux lligada al format i tipus de seqüenciació asimètrica a un canal amb certificació prèvia a través del registre ràpid de components del marc clàssic per funcions de resum del núvol.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "En la variant en què els sistemes TLS i SSL adopten i estableixen la gestió criptogràfica prèvia, quan se selecciona negociar específicament un entorn de l'anomenat i de nom, intercanvi basat de claus i de dades mitjançant ECDHE deixant de banda i obviant totalment a l'algoritme de referència clàssic l'RSA, quina diferència passa principalment?",
+    "respostes": [
+      ["Client i servidor s'intercanvien respectivament sengles claus públiques d'un ús, temporals o efímeres a partir de les quals acaben formulant localment una autèntica i complexa clau comuna per a ells mateixos, assolint sense viatjar-ne cap pel canal de base una extrema seguretat amb denominació afegida de perfect forward secrecy.", true],
+      ["En aquest marc i sota aquesta pauta inicial el programa o node propi del client en el protocol s'encarrega finalment de generar i procedir a emetre una completa estructura de dada del rang i naturalesa d'una clau de treball conjunta del nivell de capa d'operació i format en net i text absolutament pla atès a que aquesta part que anomenem ECC ha generat la criptografia automatitzada i cega prèvia del propi recorregut i segment d'accés del cable.", false],
+      ["El processador del mecanisme general procedent s'interromp provocant la caiguda forçada dels nivells establint que si i d'aquesta manera el client ordinador present en la capçalera principal del tall de base o domini final d'arribada d'aplicació no admet de suport exclusiu pel rang oficial d'una extensa i gran adreça d'entorn i model IPv6 cancel·la per definició tècnica el handshake en qüestió sense excepció de la sessió de xarxa originària i oberta.", false],
+      ["S'imposa des del vessant inicial el rebuig i de manera unilateral on el maquinari instal·lat o entitat que executa el procés principal considerat i identificat directament com el node servidor i distribuïdor refusa a la contra a tramitar absolutament enviar com hauria de fer el seu referent o credencial en entitat format el seu justificant document o certificat d'origen i prèvia validació i confiança per l'interlocutor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "A nivell de treball, en una infraestructura o aplicació i gestió informàtica convencional, quina es podria mencionar com la via o aplicació comuna d'operativa real per posar en pràctica eficient l'ús principal rellevant de la coneguda tecnologia i dels conjunts d'operacions derivades en aquestes l'esmentades funcions per les cadenes criptogràfiques pel resum (hash)?",
+    "respostes": [
+      ["La capacitat tècnica per permetre fer les operacions orientades a la validació o bé l'anomenada i corresponent verificació de seguretat fonamental per protegir la integritat real d'alguns paquets de base o de programes o fitxers ja prèviament baixats o enviats verificant-los per tenir el contrast si en un medi aquestes estructures i dades haurien sigut danyats, modificats o alterats per atacs al fons d'informació.", true],
+      ["Mecanisme el de les eines utilitzades o de la tipologia lliure del disseny operatiu de xarxa basat essencialment per tal de dotar connexió als llocs d'arribada o enllaç en entorns domèstics i operatius propis de caràcter sense xarxa i en mode no tancat ni amagat evitant als sistemes clients finalment el procés manual requerit d'haver de d'introduir alguna o múltiples capes complexes de clau local coneguda del maquinari operatiu wifi en mode públic completament.", false],
+      ["La implementació principalment ideada al programari amb orientació pròpia de restauració per tornar la base funcional de registre complet d'una dada complexa originàriament de les cadenes llargues del fons i del pes present eliminada temporal o permanent pel canvi no planificat de tipus espatllat de maquinari accident o al lloc original del conjunt del maquinari del servidor del disc emmagatzemador que presentaria avaria severa general.", false],
+      ["El desplegament d'un entorn dissenyat per oferir l'ús asimètric d'una operació completa o una codificació o sistema del qual amb tipus reversibilitat funcional dels darrers elements operatius inclosos per fer protecció total amagada de l'e-mail a temps intercanviat només exclusiu al receptor dels servidors o entitats i perfil dels diferents nivells o entitats intervinguts internament als participants actius de capes terminals d'enviadors usuari-usuari finals absoluts internament de capes i terminals d'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "A l'hora de treballar dins dels components o processos relatius, propis i relacionats respecte al context definit en Kerberos, exactament i principal, quina de les finalitats pertoca d'un paper o una funció operativa cabdal d'element essencial per l'entitat sota acrònim referit al famós concepte definit originari l'anomenat conegut amb identificador del TGT (o el complet Ticket Granting Ticket pel concepte del qual equival a anglosaxó)?",
+    "respostes": [
+      ["Constitueix, opera, serveix d'actuador de testimoni base autèntic validant previ, com justificant funcional de tipus prova o clau d'acceptació temporal per tal la qual cosa demanar, fer l'obtenció posterior futura de molts més tickets o validacions d'accessos puntuals nous als altres sub sistemes d'operacions puntuals sense procedir la requisa d'imposar a reiterar les peticions, sol·licitud o interrogacions reiteratives sobre clau i identitat a aquell mateix l'usuari intervinent d'entrada de la màquina inicial connectada i de forma contínua al client humà mateix internament local per cadascun.", true],
+      ["Resideix i pren un ús equivalent al factor lligat al mateix tipus maquinari clau xipat equivalent i identificable que porta un conjunt a través de l'estri elèctric de mode tipus portàtil o a la denominació identificadora targeta d'intel·ligència portadora amb micro xip i connectora d'alt valor de tipus l'espai pel port clau pel suport operatiu informàtic connectiu conegut d'interfície universal serial basat en component físic d'origen terminal de xarxa per l'equip operatiu d'ordinador del USB connectat propi o maquinari per ús encriptador obligat per port d'adreça al seu mateix dispositiu ordinari internament pel treball extern al local usuari mateix al port pel PC d'origen en temps actiu obligatori de sessió del PC extern al client.", false],
+      ["Aquesta representa com l'ús intern associat i referent vinculat i assignat de valor d'aplicació exclusiu relatiu a clau assignada privativa no desxifrable temporal elèctrica associada únicament vinculat per emetre a durada per temps permanent d'element i períodes dels diferents en mode a llarg de l'extens del servidor relatiu o processador web d'aplicació o aplicatius en nucli del darrer de tots i de l'interlocutor servidor a través l'arquitectura el destí per connexions obertes o de gestió del centre per finalitzar tancament i segellats constants asíncrons o de temps continuat síncron temporal asimètric en el destí del túnel a mode clàssic tancat permanentment a curt temps en cicle síncron limitat exclusivament d'ús per ell a l'aplicació síncron tancat exclusivament d'alt temps.", false],
+      ["Estableix exactament i literal de fet una mateixa o figura l'equivalent digital pròpiament per aquest valor signat el referit exactament a títol del conegut per propi de registre formal de dades referent a element del propi conegut com a registre i element de dada i entitat el nom l'homòleg i element de base al reconegut general com a l'únic i anomenat conegut certificat del registre d'encriptat signat del format d'etiqueta la dada o marca del mateix certificat l'assessorat X.509 de seguretat o credencial validada de forma completa digital pública emès generada del portal o de centre i de marca base assignat complet per designació associant domini de la web de pàgina o entitat base pel CA la base delegada del departament oficial com al punt l'operador al propi oficial proveïdor com de registre associació base d'estat associant direcció xarxa al punt clau al domini en web de l'arrel de dalt de base o al tancament oficial o al portal assignador per adreça IP directa associativa a la direcció inicial arrel base central de tota base completa domini propi servidor al domini per internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "L'algoritme modern de tipus simètric considerat de base actualment establert, conegut com el xifrat d'alt nivell operatiu o d'estandardització d'encriptat el qual pren nom comercial d'abreviatura l'AES inclou diverses solucions o opcions en què permet poder emprar en si mateix diferents capes en relació a les seves corresponents i adequades capacitats referides a longitud o bé als pesos i les variables referents d'opcions en mides o a les mesures referides a elements de mida per cada grandària d'aplicació interna d'utilització o d'execució referent clau la clau al pas intern d'escala per treball operatiu general al xifrat simètric, quines, respectivament, i per normativa predefinida serien en ús considerades com a mesura oficial i a nivells que estan establertes d'usos i mesures formals validades en com a tipus estàndard modernitzat oficial de pes?",
+    "respostes": [
+      ["S'utilitza o pren capacitat validada operant claus xifrades equivalents oficialment amb les conegudes unitats les capacitats de mesura fixades internament els 128, alternant-se als 192 o arribant al format màxim de nivells dels propis 256 bits per mesura de cadascuna completament de tipus de clau simètrica interna de capacitat per mida de la xifra mateixa clau internament referida al xifratpe per AES modernitzat complet de pes per escala d'ús validat pel seu procés formal simètric clau de xifrat al codi propi bit.", true],
+      ["Deu operar limitadament en unitats o capacitats d'operació o mida la grandària que correspon amb les proporcions als nivells d'encriptat als de longitud referida exactament sobre bases el pas d'ús o a propòsit dels mides dels pocs formats de valor igual de llarg fix el pes els propis a base els exactament els tancats els de capacitat els antics dels nivell inferior dels 56, amb escalats limitats l'opció la possibilitat curta superior els iguals només en referent màxim als de fins als propis o amb límits d'escales cap d'alt el nivell base a capacitat 64 o topall limitats exclusivament de cadenes pel xifrat els només l'encriptat als darrers dels propis als de cadenes fixes màximes superiors als dels escassos amb l'àmbit limitats dels de longitud 128 el bit el seu propi el limitat nivell de capacitat topall d'operació format tancat al pes màxim referent i el curt i obsolet a clau de bit antic de mode de clau d'àmbit intern estricte de blocs operativitat del AES curt inferior per bits.", false],
+      ["S'utilitzen rangs i formats de disseny operatiu relatius les quantitats aplicades d'alt pes matemàtic base als de magnituds equivalents formats o valors pel propòsit exclusiu del seu càlcul i mida amb mesura i valors la mesura base les mateixes del gran format extens altament els respectius la capa les opcions validades considerades al mínim els rangs formats oficialment al base els l'entorn equivalents i mesurables les mides al propi nivell i base les grandàries extenses els propis considerats de grans dimensions rang formats propis per grans com als extens 1024, de seguit amb dalt el pas els considerables i el doble capacitat grandària als propis de extens l'àmbit als 2048 o format equivalent i topant escala darrer referit a mesura l'ús més format darrer considerat rang equivalent format d'aplicació extens dimensions gegant base del seu alt a capacitat al valor extens extrem i dimensions les del propis l'àmbit el seu l'algoritme llarg i molt complex superior de 4096 o xifra de límit alt de dades de complexitat la xifra la grandària extensa alt i extens bits de la operació de rang al codi el límit final complex a nivell format o bit llarg extensa referit llarg en base de disseny de dades les quantitats dels nivells pel valor gran pes per xifra al procés algoritme de càlcul complex de valor extens dimensions el nivell al rang matemàtic per clau alt i xifrat asimètric d'ús la xifra AES.", false],
+      ["Permet com operativament la variació del pes base o mides del suport als talls o agrupacions prèvies de les mesures petites o dimensions amb valor limitat amb ús d'àmbit dels espais o grups o agrupaments els referits al format i pes d'embalatge i dimensions del pas limitat i rang o pes en format al pes fix limitat en grups compactes els equivalents o pes rang de petita dimensió la variable equivalent grups unitats per mesura l'ús base els dels valors amb mida rang amb pas opcions a la agrupació el format al dels conjunts als limitat rang els propis de les mides les variables grup 8, el format seguit la quantitat del grup pas conjunt format a variables limitats amb l'equivalent grup el seu 16 o últim l'opció o tall dimensionat a rang i darrer grup variable opció conjunta amb el equivalent darrer grup les variables del base format conjunt del reduït a tall el conjunt o agrupació el límit al nivell base conjunt darrera dels pocs valors dimensionals el reduït grup amb variable la petita conjunta de rang el límit 32 o equivalent agrupació referit el limitat la mida els conjunts de tall als poc bytes grup equivalent variables rang el tall l'àmbit dimensió dels els la mida bytes limitats conjunts dimensionats per format AES per ús d'àmbit el codi del grup el limitat darrer dimensionat al conjunts la variable de l'agrupament dimensió limitat per la capa al l'aplicació AES el byte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 74. Criptografia. Criptosistemes de clau privada i criptosistemes de clau pública. Protocols de gestió i distribució de claus. Protocols d'autenticació. Funcions resum.",
+    "enunciat": "D'acord amb la tecnologia referida i en parlar per tant d'entorns d'encriptat avançat de claus de base matemàtica i complexa d'autenticació, d'autoritat de xifrat públic, quin és l'objectiu i per part del referent que constitueix aquest conjunt pràctic i operatiu d'arquitectura de gestió informàtica el que suposa en si mateixa i de fons la presència rellevant pràctica base o funció l'existència fonamental al si del fons clau per donar sentit a xarxa per internet el marc de suport d'entorn sencer de domini informàtic de xarxa per autenticació segell i de fet que pren com acrònim informàtic la PKI (Public Key Infrastructure) complet?",
+    "respostes": [
+      ["Opera implementant i ofereix d'acord al suport, de forma real proporcionant en pràctica aquest ampli un medi l'entorn sòlid dissenyat integral la bastida construït l'establiment en general al propi ecosistema d'alt nivell disseny informàtic i fonamentat bàsicament orientat el qual es recolza el qual pren fons en treball al costat les entitats o delegacions anomenades i presents sota referents oficial d'organismes a càrrec pel control emissores autoritzades designades amb rol exclusiu central referides conegudes com Autoritats les d'Emissions sobre Certificació (conegudes com CA) encarregades amb responsabilitat per operacions l'emissió formal l'aprovació tramitació d'oferir, la part referida de tramitar validació posterior i de dur a fer gestió paral·lel el darrer de pas complet sobre per realitzar també d'assegurar portar efecte capacitat de bloquejar, tall en general cancel·lació revocar oficial de tota classe d'emissions les certificacions o talls els mateix el component element signat emès el del certificats referit al fitxer els complets els tipus de component digitals els lligams els referent els que associen verifiquen amb suport o que donen relació lligant el referent estricte complet la vinculació i identitats que validen lligams que verifiquen les i donen certesa credencial del vincle les parts públiques el la publicació clau del l'assignat titular a element del conjunt de credencial identitat formal de propietaris titular identitats personals públiques associat per usuari vinculades la part la base titular les identitats per identitats a usuari referent i claus les elements i la seva parella pública i les del components la pública.", true],
+      ["Deu operar representant l'enclavament el que opera d'únic i l'aspecte únic de funció disseny central i operant el punt pràcticament exclusiu dissenyat a ser utilitzat a mode complet el rol o disseny el darrer el del recurs tècnic considerat per ús relatiu del qual fa d'enllaç el i suposa per utilitat només com element relatiu al exclusivament propi referent i que forma i agrupa només el darrer exclusiu de tipologia o de nivell en ús la qual exclusivament al representat general pel suport de node la part global que fa component el medi i que es dedica només orientada exclusiva d'actuació i de xarxa element de forma el medi per exclusiu pel format el que només per representant de disseny complet d'eix central referent lligat i format central únic de forma al el referent el l'espai dels de conjunts base únicament dels entorns la unitat o el parc general referent conjunt components base d'ordinadors d'allotjament exclusiu o node propi dels sistemes centrals xarxa l'àmbit format d'ordinadors físicament del l'àmbit que allotgen de manera única físics al de referent on internament només pel disseny queden desats guardats l'arxiu dels elements operatiu el del l'espai pel correu pel registre dels emmagatzematges tancats documentari i del funcionariat l'aplicatiu relatiu missatgeries només l'emmagatzemat del programari a fons exclusiu pel e-mail de dades exclusius del govern el sector o l'Estat els propis tancats arxiu del nivell el seu servidor el dels correus propiets electrònics pel país i oficial dels estat el exclusiu de departaments estat en de l'oficial e-mail tancat pel arxiu del fons domini o d'Estat del govern e-mail de base.", false],
+      ["Desenvolupa el paper i proporciona només que en operatiu de suport que per fons d'aplicació es defineix l'acció amb recurs alternatiu tècnic pràctic creat en disseny de opció i una part de desenvolupament l'estricte de pas informàtica operació base amb utilitat o d'us preestablert el funcionament com el model pel fons considerat obsoleto complet per antic la variant l'alternativa de mètode aplicatiu de variant secundari equivalent considerat com de pas secundari a mode i mètode per antic a l'obsoleta a variant relatiu substitutiva variant del pas considerat propi al de recurs a model a referent a via altern o com d'opció alternatiu al sistema la versió l'ús i antic obsolet operació format passat relatiu al base dissenyat substitutiva al de recurs al de referent fons mètode a variant en tancat base i del obsolet en via referent de de nivell model o al conjunt de fons obsolet al conegut de suport el model a versió referit obsolet del a l'àmbit model propi protocol antic de recurs lligat pel suport del de nivell d'operació model a clau dissenyat de format a recurs i l'ús en simètric al format de clau pel model recurs clau al tipus model del de darrera a operació simètrica del de nivell al propi a mètode la de via a fons l'us o recurs a suport tancat simètrica del referit recurs simètric a suport fons d'encriptat 3DES o el clàssic variant i suport l'alternatiu base suport clàssic i suport clàssic clau antic i fons asimètric 3DES a nivell suport d'antiga asimètrica tancada clau base a opció de clau al 3DES darrera obsolet d'aplicació clau en mode de clau d'ús obsolet de ús a clau base al d'encriptat del a fons asimètrica a variant a clau al de suport antic a clau del xifrat en clau al de suport clàssic del clau obsoleta 3DES.", false],
+      ["Pren acció d'orientar-se d'efecte limitant o aplicatiu s'ajusta només la pràctica referida directament es basa constituït i forma amb acció o funció d'operació l'assignació exclusivament la referència o l'execució com a de base aplicatiu d'índex l'activitat com per recurs propi de model operatiu i format complet el paper per ús considerat pel model per opció i aplicació al nivell exclusivament dissenyat pel de tipus la naturalesa el referit fons referent format en un espai i de fons un component com de document exclusivament d'entorn i d'indexat o d'aplicació orientat d'esquema d'utilitat la funció del fons i recurs exclusiu d'arxiu el propi directori o recurs l'àmbit format i índex complet exclusivament del fons informàtic i domini relatiu al de domini al nom exclusiu directori referent domini registre exclusivament d'ús registre aplicació i nom de domini tancat i base format pel format usuari de dissenyat el tancat índex usuaris a usuaris en registre base fons informàtic o usuaris en aplicació basat nom i suport exclusivament per usuaris i directori d'aplicació base nom usuari d'aplicació en nom de ús el usuaris d'us el nom exclusiu al fons exclusivament al basat nom base nom basat en adreces l'esquema d'adreces a índex format referent d'àmbit format per registre i domini usuaris en fons adreces exclusivament i físic l'entorn exclusivament al basat físic d'aplicació en base en ús nom o domini en ús exclusivament per ús i índex nom i d'aplicació físic nom adreça adreces en MAC de referent exclusiu el físic de usuaris en domini o registre físic i directori d'adreces MAC ús de la d'usuaris a adreces físiques de adreces físiques a fons l'adreça al de nivell el ús format referent d'adreça de dispositiu a MAC l'índex en físic la direcció en adreça MAC al del suport d'adreça de referent a xarxa per usuari de fons d'aplicació a maquinari i usuaris de base de referent.", false]
+    ]
+  }
+]

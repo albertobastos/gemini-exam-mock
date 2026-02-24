@@ -1,0 +1,202 @@
+[
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quina és la funció principal de les xarxes SARA i TESTA-ng segons el document?",
+    "respostes": [
+      ["Actuar com a columna vertebral de la interoperabilitat permetent intercanviar dades de forma segura sense passar per l'Internet públic obert.", true],
+      ["Proporcionar connexió a Internet gratuïta per a tots els edificis públics i ciutadans europeus.", false],
+      ["Emmagatzemar les pàgines web públiques de tots els ministeris espanyols.", false],
+      ["Substituir completament les xarxes de telefonia mòbil 5G a l'àmbit governamental.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Què és exactament la Xarxa SARA?",
+    "respostes": [
+      ["Una Intranet administrativa i xarxa privada virtual (VPN) que connecta les administracions públiques espanyoles.", true],
+      ["Un programari d'ofimàtica lliure instal·lat als ordinadors dels funcionaris estatals.", false],
+      ["Un cable submarí de fibra òptica propietat exclusiva del Ministeri de Defensa.", false],
+      ["Una xarxa social corporativa dissenyada només per a l'ús intern dels alcaldes.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quin organisme s'encarrega de gestionar la Xarxa SARA a nivell estatal?",
+    "respostes": [
+      ["El Ministeri per a la Transformació Digital i de la Funció Pública (a través de la SGAD).", true],
+      ["La Comissió Europea des de la seva seu a Brussel·les.", false],
+      ["El Centre Criptològic Nacional (CCN-CERT).", false],
+      ["L'Agència Espanyola de Protecció de Dades (AEPD).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Sobre quina tecnologia base de xarxa està construïda la Xarxa SARA per crear una malla de comunicacions 'tots amb tots'?",
+    "respostes": [
+      ["Sobre tecnologia VPLS/MPLS (Virtual Private LAN Service / Multiprotocol Label Switching).", true],
+      ["Sobre tecnologia P2P (Peer-to-Peer) descentralitzada tipus Blockchain.", false],
+      ["Únicament sobre línies de mòdem analògic RTB.", false],
+      ["Sobre xarxes Wi-Fi obertes compartides amb tecnologia WEP.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "A nivell de capil·laritat, a quines entitats connecta la Xarxa SARA?",
+    "respostes": [
+      ["Connecta l'Administració General de l'Estat (AGE), totes les CCAA, Entitats Locals (ajuntaments) i altres organismes com universitats.", true],
+      ["Només connecta els ministeris situats a la ciutat de Madrid.", false],
+      ["Connecta exclusivament els centres d'atenció primària de la sanitat pública.", false],
+      ["Connecta les seus de les grans empreses privades de l'IBEX 35 amb el Govern.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quins dels següents serveis comuns i plataformes transversals són accessibles a través de la Xarxa SARA?",
+    "respostes": [
+      ["Cl@ve, el Sistema d'Interconnexió de Registres (SIR), DIR3 i Notifica.", true],
+      ["Facebook, X (Twitter) i Instagram corporatius.", false],
+      ["El sistema de pagament Bizum per a taxes municipals.", false],
+      ["L'arxiu sencer de vídeos de YouTube de les campanyes institucionals.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Com garanteix la Xarxa SARA que els serveis governamentals estiguin sempre operatius (Alta Disponibilitat)?",
+    "respostes": [
+      ["Mitjançant una arquitectura redundant dissenyada per no caure mai, garantint servei 24 hores al dia, 7 dies a la setmana.", true],
+      ["Apagant els servidors cada nit a les 00:00 hores per fer manteniment.", false],
+      ["Assignant un sol servidor central ubicat al Ministeri de l'Interior.", false],
+      ["Limitant l'accés a un màxim de 100 usuaris connectats simultàniament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "A més de l'adreçament IP tradicional (IPv4), quin altre protocol de xarxa suporta nativament la Xarxa SARA per al futur de les comunicacions?",
+    "respostes": [
+      ["L'adreçament IPv6.", true],
+      ["El protocol IPX/SPX.", false],
+      ["El protocol AppleTalk.", false],
+      ["L'adreçament MAC dinàmic.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Què signifiquen les sigles de la xarxa europea TESTA-ng?",
+    "respostes": [
+      ["Trans European Services for Telematics between Administrations (new generation).", true],
+      ["Telecommunications Electronic System for Transnational Agencies.", false],
+      ["Total Encryption Security Transfer Area.", false],
+      ["Terminal Equipment Standard for Technological Administrations.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quin organisme és el gestor responsable de la xarxa TESTA-ng a nivell europeu?",
+    "respostes": [
+      ["La Comissió Europea, concretament la Direcció General d'Informàtica (DG DIGIT).", true],
+      ["El Govern d'Espanya i el seu Ministeri d'Exteriors.", false],
+      ["L'Agència de Seguretat Nacional dels Estats Units (NSA).", false],
+      ["Una coalició d'empreses privades europees liderades per Telefónica.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quina és l'arquitectura i tecnologia subjacent de TESTA-ng per garantir la privacitat del trànsit entre països?",
+    "respostes": [
+      ["És una xarxa MPLS sobre IP (privada i aïllada d'Internet) amb tràfic altament xifrat, normalment via IPsec.", true],
+      ["És una aplicació de missatgeria instal·lada en telèfons intel·ligents comercials.", false],
+      ["Són simples connexions HTTP obertes a través de navegadors web estàndard.", false],
+      ["És un satèl·lit de comunicacions de baixa òrbita geostacionària exclusiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Dins de la xarxa TESTA-ng, quina finalitat té el sistema ECRIS?",
+    "respostes": [
+      ["És el Sistema Europeu d'Informació d'Antecedents Penals, que permet intercanviar informació sobre condemnes de manera ràpida.", true],
+      ["És el sistema de coordinació per al registre de marques i patents europees.", false],
+      ["És l'agència encarregada del cobrament de multes de trànsit internacionals.", false],
+      ["És el portal de formació en línia per a funcionaris de la Unió Europea.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quin sistema europeu suportat per TESTA-ng s'utilitza per al control de fronteres i la col·laboració policial i duanera?",
+    "respostes": [
+      ["El SIS II (Schengen Information System).", true],
+      ["L'EUCARIS (Vehicles i Permisos).", false],
+      ["El VIES (Validació de l'IVA).", false],
+      ["El SGAD (Secretaria General).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Si una empresa espanyola vol comprovar el número d'operador intracomunitari (IVA) d'un proveïdor francès, quin sistema de TESTA-ng entra en joc?",
+    "respostes": [
+      ["El sistema VIES (VAT Information Exchange System).", true],
+      ["El sistema ECRIS.", false],
+      ["El sistema EUCARIS.", false],
+      ["El sistema DIR3.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Com funciona tècnicament la connexió quan un Ajuntament espanyol necessita consultar una dada europea (Relació SARA-TESTA)?",
+    "respostes": [
+      ["L'Ajuntament es connecta a SARA, i la xarxa SARA actua com a node nacional o passarel·la transparent cap a TESTA-ng.", true],
+      ["L'Ajuntament ha de desconnectar-se de SARA, obrir un navegador web públic i cercar el portal de TESTA-ng a Google.", false],
+      ["L'Ajuntament no pot accedir a dades europees, només els Ministeris estatals tenen aquest privilegi.", false],
+      ["L'Ajuntament ha de demanar l'enviament de la dada en un document físic per correu postal des de Brussel·les.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Segons la taula comparativa del document, com es defineix el 'Gestor' de cada xarxa?",
+    "respostes": [
+      ["SARA és gestionada per la SGAD (Ministeri Transf. Digital) i TESTA-ng per la Comissió Europea (DG DIGIT).", true],
+      ["SARA és gestionada per les Entitats Locals i TESTA-ng per l'ONU.", false],
+      ["Ambdues xarxes són gestionades exclusivament i en solitari per l'Estat espanyol.", false],
+      ["SARA és gestionada per empreses privades i TESTA-ng per voluntaris d'Open Source.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Què possibilita el sistema EUCARIS que circula pels circuits de TESTA-ng?",
+    "respostes": [
+      ["L'intercanvi de dades de vehicles i permisos de conduir a nivell europeu (útil per a multes o robatoris).", true],
+      ["El registre civil europeu compartit de naixements i defuncions.", false],
+      ["L'avaluació acadèmica dels estudiants europeus d'Erasmus.", false],
+      ["El pagament d'impostos de societats entre Estats Membres.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "En l'apartat de 'Conclusions i Valor Estratègic', què significa l'avantatge de l''Estalvi de Costos' aportat per la xarxa SARA?",
+    "respostes": [
+      ["En centralitzar la connexió a Europa a través de SARA, s'evita que cada Comunitat Autònoma o Ministeri hagi de contractar i assegurar la seva pròpia línia amb Brussel·les.", true],
+      ["SARA és una xarxa finançada totalment per publicitat d'empreses de telecomunicacions.", false],
+      ["La xarxa SARA no consumeix electricitat perquè està allotjada íntegrament en centres de dades aquàtics.", false],
+      ["Les administracions espanyoles ja no paguen llicències de Microsoft Windows gràcies a SARA.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "A què es refereix el document quan destaca la 'Sobirania Digital' com un valor d'aquestes xarxes?",
+    "respostes": [
+      ["Al fet que permeten a les administracions operar els seus processos crítics sense dependre de la xarxa pública d'Internet, garantint la independència i el control de les dades.", true],
+      ["A l'obligació que tota l'electrònica i els cables de la xarxa siguin fabricats exclusivament dins del territori nacional.", false],
+      ["A la prohibició de compartir cap dada amb països europeus que no siguin Espanya.", false],
+      ["A la transferència de la gestió d'Internet als ajuntaments de cada localitat de manera individual.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Xarxes SARA i TESTA-ng.",
+    "enunciat": "Quina seria la conseqüència pràctica si TESTA-ng no estigués connectada a SARA (o xarxes similars d'altres països)?",
+    "respostes": [
+      ["La lliure circulació de ciutadans (en aspectes com sanitat, justícia i trànsit) seria inoperable a la pràctica, ja que seria impossible validar informació a l'instant entre administracions nacionals.", true],
+      ["Els usuaris d'Internet domèstic no podrien accedir a Google ni enviar correus electrònics.", false],
+      ["La xarxa elèctrica nacional espanyola patiria talls constants d'energia.", false],
+      ["Els ordinadors del Govern haurien de tornar a utilitzar exclusivament disquets per funcionar.", false]
+    ]
+  }
+]

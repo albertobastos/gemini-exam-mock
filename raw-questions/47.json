@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és l'objectiu principal de la gestió i arxivament electrònic de documents?",
+    "respostes": [
+      ["Imprimir tots els correus electrònics.", false],
+      ["Garantir que la informació es captura, emmagatzema, gestiona i preserva de manera eficient i segura al llarg del seu cicle de vida.", true],
+      ["Eliminar els documents antics automàticament.", false],
+      ["Crear còpies en paper de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què garanteix el principi d'autenticitat en l'arxivament electrònic?",
+    "respostes": [
+      ["Que el document és el que pretén ser i no ha estat alterat ni corromput.", true],
+      ["Que el document està signat per tres persones.", false],
+      ["Que el document es pot llegir en qualsevol idioma.", false],
+      ["Que el document ocupa poc espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què significa la integritat en el context documental?",
+    "respostes": [
+      ["Que el document està complet i inalterat.", true],
+      ["Que el document és honest.", false],
+      ["Que el document té moltes pàgines.", false],
+      ["Que el document s'ha enviat per correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és la funció principal d'un sistema de gestió documental (DMS)?",
+    "respostes": [
+      ["Editar imatges.", false],
+      ["Emmagatzemar, gestionar i fer seguiment de documents electrònics i imatges de documents en paper.", true],
+      ["Navegar per internet.", false],
+      ["Reproduir música.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què permet el control de versions en un DMS?",
+    "respostes": [
+      ["Esborrar les versions antigues per sempre.", false],
+      ["Gestionar múltiples versions d'un mateix document, permetent recuperar versions anteriors i veure l'historial de canvis.", true],
+      ["Canviar el nom de l'arxiu automàticament.", false],
+      ["Impedir que es facin canvis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin benefici aporta un DMS respecte a la seguretat?",
+    "respostes": [
+      ["Cap, és menys segur que el paper.", false],
+      ["Permet controlar l'accés als documents mitjançant permisos i rols d'usuari.", true],
+      ["Fa que els documents siguin públics.", false],
+      ["Encripta els documents de manera irreversible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és un exemple de programari DMS de codi obert?",
+    "respostes": [
+      ["Alfresco.", true],
+      ["Microsoft Word.", false],
+      ["Adobe Photoshop.", false],
+      ["Spotify.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què diferencia principalment un CMS d'un DMS?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["Un CMS està enfocat a la creació i publicació de contingut web, mentre que un DMS es centra en l'emmagatzematge i gestió del cicle de vida de documents interns.", true],
+      ["Un CMS és per a imatges i un DMS per a text.", false],
+      ["Un DMS no permet cercar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina funcionalitat és clau en un CMS per a la presentació de continguts?",
+    "respostes": [
+      ["L'ús de plantilles per separar el contingut del disseny.", true],
+      ["L'escaneig de documents.", false],
+      ["La signatura digital.", false],
+      ["L'ocr automàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin tipus de CMS s'utilitza principalment per a llocs web i blogs?",
+    "respostes": [
+      ["WCMS (Web Content Management System).", true],
+      ["ECMS (Enterprise Content Management System).", false],
+      ["DMS.", false],
+      ["ERP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és l'exemple de CMS més popular del món?",
+    "respostes": [
+      ["WordPress.", true],
+      ["Excel.", false],
+      ["SharePoint.", false],
+      ["Oracle.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és un sistema de recuperació de la informació (IR)?",
+    "respostes": [
+      ["Un sistema per recuperar contrasenyes.", false],
+      ["Un sistema dissenyat per cercar i trobar informació rellevant dins d'una gran col·lecció de dades no estructurades.", true],
+      ["Un sistema de còpies de seguretat.", false],
+      ["Un sistema per recuperar fitxers esborrats de la paperera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és la tècnica de recuperació més comuna basada en termes exactes?",
+    "respostes": [
+      ["Cerca per imatges.", false],
+      ["Cerca per paraules clau (Keyword Search).", true],
+      ["Cerca semàntica.", false],
+      ["Cerca per veu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què intenta millorar la cerca semàntica?",
+    "respostes": [
+      ["La velocitat de tecleig.", false],
+      ["La precisió dels resultats entenent el significat i context de la consulta, no només les paraules exactes.", true],
+      ["La qualitat de les imatges.", false],
+      ["El disseny de la pàgina de resultats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és la indexació en el context de la recuperació d'informació?",
+    "respostes": [
+      ["Posar els documents en carpetes.", false],
+      ["El procés d'organitzar les dades per facilitar-ne la recuperació ràpida i eficient (creant un índex).", true],
+      ["Esborrar les dades antigues.", false],
+      ["Encriptar la informació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina estructura de dades s'utilitza comunament per a la indexació de text complet?",
+    "respostes": [
+      ["Llista enllaçada.", false],
+      ["Índex invertit (Inverted Index).", true],
+      ["Pila LIFO.", false],
+      ["Cua FIFO.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què permet fer l'OCR (Reconeixement Òptic de Caràcters) en un DMS?",
+    "respostes": [
+      ["Imprimir documents.", false],
+      ["Convertir imatges de text (escanejades) en text editable i cercable.", true],
+      ["Traduir documents.", false],
+      ["Signar documents digitalment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és el Workflow (flux de treball) en un sistema de gestió documental?",
+    "respostes": [
+      ["Un riu de dades.", false],
+      ["L'automatització dels processos de negoci relacionats amb els documents (aprovació, revisió, etc.).", true],
+      ["La velocitat de la xarxa.", false],
+      ["El temps que es triga a escriure un document.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és una característica clau de SharePoint com a DMS/CMS?",
+    "respostes": [
+      ["És gratuït i de codi obert.", false],
+      ["La seva forta integració amb l'ecosistema Microsoft Office i les seves capacitats col·laboratives.", true],
+      ["Només funciona en Linux.", false],
+      ["No permet guardar documents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què significa 'Indexació per metadades'?",
+    "respostes": [
+      ["Guardar el document sense nom.", false],
+      ["Associar etiquetes i informació descriptiva (autor, data, tipus) al document per facilitar-ne la cerca.", true],
+      ["Llegir tot el contingut del document.", false],
+      ["Posar el document en una carpeta oculta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin motor de cerca de codi obert és molt utilitzat per a la indexació i cerca en grans volums de dades?",
+    "respostes": [
+      ["Google Search.", false],
+      ["Elasticsearch (o Apache Solr).", true],
+      ["Bing.", false],
+      ["Yahoo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què permet la recuperació booleana?",
+    "respostes": [
+      ["Buscar només paraules que comencin per B.", false],
+      ["Utilitzar operadors lògics (AND, OR, NOT) per refinar les cerques.", true],
+      ["Buscar imatges rodones.", false],
+      ["Recuperar fitxers corruptes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és un repte principal en la gestió d'arxius electrònics a llarg termini?",
+    "respostes": [
+      ["L'obsolescència tecnològica dels formats i suports.", true],
+      ["La manca de paper.", false],
+      ["L'excés de velocitat d'internet.", false],
+      ["La falta de colors en les pantalles.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és Drupal?",
+    "respostes": [
+      ["Un sistema operatiu.", false],
+      ["Un CMS de codi obert potent i flexible, adequat per a llocs web complexos.", true],
+      ["Un navegador web.", false],
+      ["Un editor de vídeo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què significa la sigla ECM?",
+    "respostes": [
+      ["Electronic Computer Machine.", false],
+      ["Enterprise Content Management (Gestió de Continguts Empresarials).", true],
+      ["Error Control Module.", false],
+      ["External Connection Mode.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina tècnica d'indexació utilitza taules hash?",
+    "respostes": [
+      ["Hashing.", true],
+      ["B-Trees.", false],
+      ["Índex invertit.", false],
+      ["Llista seqüencial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què permet la cerca facetada?",
+    "respostes": [
+      ["Buscar cares en fotos.", false],
+      ["Refinar els resultats de cerca aplicant múltiples filtres o categories simultàniament.", true],
+      ["Buscar sense teclat.", false],
+      ["Veure els resultats en 3D.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és la taxonomia en gestió documental?",
+    "respostes": [
+      ["Un impost sobre els documents.", false],
+      ["Un sistema de classificació jeràrquica per organitzar la informació.", true],
+      ["Un tipus de carpeta.", false],
+      ["Una eina de cerca.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin format de fitxer es considera estàndard de facto per a la preservació de documents a llarg termini?",
+    "respostes": [
+      ["DOCX.", false],
+      ["PDF/A (Portable Document Format for Archiving).", true],
+      ["TXT.", false],
+      ["JPG.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és la 'Tokenització' en el procés d'indexació?",
+    "respostes": [
+      ["Comprar tokens.", false],
+      ["Dividir el text en unitats més petites (tokens), com paraules o frases, per a la seva anàlisi.", true],
+      ["Encriptar el text.", false],
+      ["Traduir el text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què fa l'algorisme de stemming?",
+    "respostes": [
+      ["Esborra les paraules.", false],
+      ["Redueix les paraules a la seva arrel (ex: 'corrent' -> 'corr') per millorar la cerca.", true],
+      ["Ordena les paraules alfabèticament.", false],
+      ["Tradueix les paraules a l'anglès.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què són les 'Stop words' en indexació?",
+    "respostes": [
+      ["Paraules que aturen la cerca.", false],
+      ["Paraules molt comunes (el, la, de, etc.) que sovint s'ignoren per estalviar espai i millorar la rellevància.", true],
+      ["Paraules clau importants.", false],
+      ["Paraules prohibides.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és un avantatge de l'indexació en B-Trees?",
+    "respostes": [
+      ["És molt lenta.", false],
+      ["Manté les dades ordenades i permet cerques, insercions i esborrats eficients (logarítmics).", true],
+      ["Només serveix per a text.", false],
+      ["No ocupa espai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és la diferència entre cerca natural i cerca estructurada?",
+    "respostes": [
+      ["No hi ha diferència.", false],
+      ["La cerca natural permet expressar la consulta en llenguatge humà; l'estructurada usa camps i operadors específics.", true],
+      ["La cerca natural és per a imatges.", false],
+      ["La cerca estructurada és més lenta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què garanteix la disponibilitat en un sistema d'arxiu?",
+    "respostes": [
+      ["Que la informació estigui accessible i utilitzable per les persones autoritzades quan ho necessitin.", true],
+      ["Que la informació estigui a internet.", false],
+      ["Que tothom pugui veure la informació.", false],
+      ["Que la informació no es pugui esborrar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és Joomla?",
+    "respostes": [
+      ["Un joc.", false],
+      ["Un CMS de codi obert popular.", true],
+      ["Un editor de text.", false],
+      ["Un sistema de bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin component d'un cercador web s'encarrega de visitar pàgines i recollir informació?",
+    "respostes": [
+      ["El navegador.", false],
+      ["El rastrejador (Crawler o Spider).", true],
+      ["L'índex.", false],
+      ["La interfície d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Per què és important la col·laboració en un CMS?",
+    "respostes": [
+      ["Perquè és divertit.", false],
+      ["Per permetre que múltiples usuaris creïn, editin i publiquin contingut simultàniament de manera controlada.", true],
+      ["Perquè un sol usuari no pot fer res.", false],
+      ["Per gastar més llicències.", false]
+    ]
+  }
+]

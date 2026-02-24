@@ -1,0 +1,302 @@
+[
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Què signifiquen les sigles ERP segons el document?",
+    "respostes": [
+      ["Enterprise Resource Planning (Planificació de Recursos Empresarials).", true],
+      ["External Relations Platform (Plataforma de Relacions Externes).", false],
+      ["Electronic Register Process (Procés de Registre Electrònic).", false],
+      ["Entity Resource Programming (Programació de Recursos de l'Entitat).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quina metàfora s'utilitza al text per descriure la importància de l'ERP dins de l'empresa?",
+    "respostes": [
+      ["Es considera el 'Cervell' o el sistema nerviós central de l'organització.", true],
+      ["S'anomena el 'Cor' de les vendes de l'organització.", false],
+      ["Es descriu com 'L'escut' de ciberseguretat de l'entitat.", false],
+      ["S'equipara a 'Les cames' que mouen els comercials.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quin és l'objectiu principal d'un sistema ERP a nivell de dades i departaments?",
+    "respostes": [
+      ["Connectar tots i cadascun dels departaments interns perquè comparteixin una única font de veritat (una base de dades unificada).", true],
+      ["Aïllar completament els departaments per evitar la filtració d'informació financera.", false],
+      ["Connectar exclusivament l'empresa amb els seus clients externs mitjançant xarxes socials.", false],
+      ["Substituir l'equip humà de vendes per processos automatitzats de captació de correus.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quin és l'enfocament operatiu on actua un ERP?",
+    "respostes": [
+      ["S'enfoca en l'eficiència operativa i els processos de 'Back Office' (el que el client no veu).", true],
+      ["S'enfoca exclusivament en els processos de 'Front Office' (atenció al públic).", false],
+      ["S'enfoca en el disseny gràfic de les campanyes publicitàries.", false],
+      ["S'enfoca només en l'aparença de la botiga física de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Dins de les funcions clau d'un ERP, què engloba l'àrea de 'Finances i Comptabilitat'?",
+    "respostes": [
+      ["Facturació, llibres comptables i control de despeses.", true],
+      ["Nòmines, control horari i vacances.", false],
+      ["Gestió d'inventari i compres a proveïdors.", false],
+      ["Planificació de la fabricació i control de qualitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quina àrea de l'ERP s'encarrega de la gestió d'inventari, les compres a proveïdors i la logística?",
+    "respostes": [
+      ["La Cadena de Subministrament.", true],
+      ["Recursos Humans (RRHH).", false],
+      ["Producció.", false],
+      ["Finances.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Dins d'un ERP, de què s'encarrega el mòdul de Recursos Humans (RRHH)?",
+    "respostes": [
+      ["Nòmines, control horari i vacances.", true],
+      ["Campanyes de màrqueting intern per a empleats.", false],
+      ["Registre de tiquets de queixes dels clients.", false],
+      ["Facturació a empreses subcontractades.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quins programaris són citats específicament com a exemples d'ERP per a grans empreses?",
+    "respostes": [
+      ["SAP S/4HANA i Oracle NetSuite.", true],
+      ["Salesforce i HubSpot.", false],
+      ["Pipedrive i Zoho.", false],
+      ["Slack i Trello.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quins exemples d'ERP s'esmenten com a opcions populars per a Pimes?",
+    "respostes": [
+      ["Microsoft Dynamics 365 Business Central, Odoo i Sage.", true],
+      ["SAP S/4HANA i Oracle NetSuite.", false],
+      ["Salesforce CRM i Zoho.", false],
+      ["HubSpot i Pipedrive.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Què signifiquen les sigles CRM?",
+    "respostes": [
+      ["Customer Relationship Management (Gestió de Relacions amb Clients).", true],
+      ["Corporate Resource Module (Mòdul de Recursos Corporatius).", false],
+      ["Client Registration Machine (Màquina de Registre de Clients).", false],
+      ["Central Routing Manager (Gestor d'Encaminament Central).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Amb quina metàfora es coneix el CRM dins de l'entorn de l'empresa segons el document?",
+    "respostes": [
+      ["S'anomena el 'Cor' de les vendes.", true],
+      ["És vist com el 'Cervell' corporatiu.", false],
+      ["Representa la 'Columna vertebral' del magatzem.", false],
+      ["S'identifica com els 'Pulmons' de recursos humans.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Mentre que l'ERP és l'eina del 'Back Office', com es denomina l'àmbit on opera el CRM?",
+    "respostes": [
+      ["És l'eina del 'Front Office', enfocant-se en la part externa i la interacció amb el mercat.", true],
+      ["És l'eina del 'Warehouse' (magatzem), enfocada a la logística.", false],
+      ["És l'eina de 'Production', centrada en les fàbriques.", false],
+      ["És l'eina del 'Deep Office', exclusiva per als directius.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quin és l'objectiu principal d'un CRM?",
+    "respostes": [
+      ["Captar clients, vendre'ls productes i mantenir-los contents perquè tornin a comprar.", true],
+      ["Emetre nòmines i controlar l'horari dels treballadors.", false],
+      ["Portar els llibres comptables i pagar els impostos anuals.", false],
+      ["Planificar la cadena de muntatge de la fàbrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Què inclou la funció clau de 'Gestió de Vendes' dins d'un CRM?",
+    "respostes": [
+      ["Seguiment d'oportunitats, pipeline i gestió de contactes/empreses.", true],
+      ["Generació d'albarans d'enviament a la xarxa logística.", false],
+      ["Comanda de primeres matèries als proveïdors.", false],
+      ["Pagament de llicències i registre comptable del programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quina funció clau del CRM és la responsable de l'automatització de campanyes de correu i la captació de leads?",
+    "respostes": [
+      ["Màrqueting.", true],
+      ["Atenció al Client.", false],
+      ["Gestió de Vendes.", false],
+      ["Cadena de Subministrament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quins dels següents programaris són esmentats exclusivament com a exemples populars de CRM?",
+    "respostes": [
+      ["Salesforce, HubSpot, Pipedrive i Zoho.", true],
+      ["SAP S/4HANA i Oracle NetSuite.", false],
+      ["Sage i Odoo.", false],
+      ["Microsoft Word i Excel.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Segons la taula comparativa, quins són els enfocaments fonamentals de l'ERP i el CRM respectivament?",
+    "respostes": [
+      ["L'ERP té un enfocament Intern (processos de l'empresa), i el CRM té un enfocament Extern (interacció amb el client).", true],
+      ["Tots dos tenen un enfocament únicament i exclusiva Intern.", false],
+      ["L'ERP té un enfocament Extern per proveïdors, i el CRM un enfocament Intern per a treballadors.", false],
+      ["Cap dels dos té un enfocament específic, ja que treballen sense connectar amb altres persones.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "En la comparativa d'objectius, quin és l'objectiu principal d'un ERP segons la taula?",
+    "respostes": [
+      ["Reduir costos i fer l'empresa més eficient.", true],
+      ["Augmentar les vendes i fidelitzar el client.", false],
+      ["Llançar campanyes publicitàries massives.", false],
+      ["Crear una xarxa social corporativa per als empleats.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Seguint la taula comparativa, quin és l'objectiu principal que persegueix un CRM?",
+    "respostes": [
+      ["Augmentar les vendes i fidelitzar el client.", true],
+      ["Reduir costos de fabricació en els processos industrials.", false],
+      ["Emetre el balanç financer anual de l'empresa.", false],
+      ["Gestionar les rutes i la logística internacional.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quin és el 'Públic objectiu' (usuaris) que utilitza un ERP al seu dia a dia laboral?",
+    "respostes": [
+      ["Departaments financers, operacions, recursos humans i magatzem.", true],
+      ["L'equip de xarxes socials de la marca exclusivament.", false],
+      ["Únicament el conseller delegat i el director executiu.", false],
+      ["Equips de vendes, màrqueting i atenció al client exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "A quin públic està especialment adreçat un CRM segons la taula comparativa?",
+    "respostes": [
+      ["Als equips de vendes, màrqueting i atenció al client.", true],
+      ["Al departament financer i comptable de l'empresa.", false],
+      ["Al personal de magatzem i cadenes de muntatge.", false],
+      ["Als auditors externs per revisar els llibres de l'entitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quines són algunes de les 'dades clau' gestionades habitualment per un ERP?",
+    "respostes": [
+      ["Factures, estoc, nòmines i comandes de compra.", true],
+      ["Dades de contacte personals, historial de trucades comercials i oportunitats de venda.", false],
+      ["Xifres d'obertura de correus electrònics de màrqueting i conversió de clics.", false],
+      ["Comentaris fets per clients a les plataformes de ressenyes públiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quines dades crítiques es desa a la plataforma del CRM?",
+    "respostes": [
+      ["Dades de contacte, historial de trucades i oportunitats comercials.", true],
+      ["El llibre major de comptabilitat i les despeses generals.", false],
+      ["Les quantitats exactes de cargols i femelles al magatzem de peces.", false],
+      ["Els controls d'horari, vacances i baixes mèdiques del personal.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Pel que fa al moment de la interacció comercial, quan s'utilitza cadascun d'aquests programes segons el text?",
+    "respostes": [
+      ["El CRM s'usa abans i durant la venda (i postvenda), mentre que l'ERP entra en joc generalment després que la venda s'ha tancat (per processar la comanda).", true],
+      ["L'ERP es fa servir exclusivament abans de vendre, i el CRM exclusivament un cop enviat el paquet.", false],
+      ["Els dos s'utilitzen sempre a la vegada de manera indivisible només durant el tancament del contracte.", false],
+      ["El CRM només s'usa per al pagament final i l'ERP per a la primera trucada al client.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "En el cas pràctic exposat (l'exemple del 'Flux de la Comanda' venent bicicletes), quina aplicació utilitza inicialment el venedor per registrar un client potencial i les seves interaccions?",
+    "respostes": [
+      ["Utilitza el CRM.", true],
+      ["Utilitza l'ERP per registrar la venda avançada.", false],
+      ["Utilitza el SAP comptable per iniciar la conversa.", false],
+      ["Utilitza exclusivament paper i bolígraf fins que s'efectua el cobrament.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "En el 'Flux de la Comanda', quin esdeveniment marca el final de la 'Fase CRM'?",
+    "respostes": [
+      ["Quan el client diu 'Sí, les compro' i el venedor tanca l'oportunitat d'èxit al CRM.", true],
+      ["Quan l'operari de magatzem construeix la bicicleta.", false],
+      ["Quan l'auditor envia la nòmina al venedor a final de mes.", false],
+      ["Quan es processa automàticament el reemborsament del producte defectuós.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Què succeeix a la fase d''El Pont (Integració)' de l'exemple del flux de comanda?",
+    "respostes": [
+      ["Idealment, el CRM envia la informació de la venda tancada automàticament a l'ERP.", true],
+      ["El departament de recursos humans trasllada en mà un document imprès al magatzem.", false],
+      ["El client és redirigit a una centraleta telefònica per confirmar les seves dades bancàries manualment.", false],
+      ["L'ERP s'atura i es reinicia per poder carregar la nova venda del CRM.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "A l'exemple de les bicicletes, un cop la informació ha passat la fase del 'Pont', quines tasques realitza l'ERP ('Fase ERP')?",
+    "respostes": [
+      ["Comprova l'inventari, dóna l'ordre de muntatge, genera l'albarà d'enviament, emet la factura oficial i registra el pagament.", true],
+      ["Envia correus promocionals per intentar vendre 50 bicicletes addicionals al mateix client.", false],
+      ["Registra l'historial de les trucades i les objeccions de vendes que ha tingut el client.", false],
+      ["Desactiva la producció de la fàbrica temporalment fins que s'aprovi el pressupost anual.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Com descriu el document la separació o línia que diferencia un ERP d'un CRM avui dia?",
+    "respostes": [
+      ["Afirma que la línia és difusa, ja que molts ERPs moderns inclouen mòduls bàsics de CRM i molts CRMs s'integren tan bé que semblen una sola plataforma.", true],
+      ["Indica que és completament insalvable, sent totalment impossible que un programari integri les dues parts de cap manera.", false],
+      ["Destaca que la legislació actual obliga a mantenir els sistemes separats sense cap comunicació electrònica per privacitat.", false],
+      ["Especifica que el CRM avui dia ja no s'utilitza, havent estat substituït completament i per defecte per qualsevol ERP senzill.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Eines ERP i CRM.",
+    "enunciat": "Quins programaris són anomenats específicament a l'apartat 'Punts de convergència' per actuar eficientment com un 'Tot en Un' unint funcionalitats ERP i CRM?",
+    "respostes": [
+      ["Microsoft Dynamics 365 i Odoo.", true],
+      ["Salesforce Cloud i HubSpot Premium.", false],
+      ["Pipedrive Advanced i Sage Core.", false],
+      ["Apple SharePoint i Adobe Creative Cloud.", false]
+    ]
+  }
+]

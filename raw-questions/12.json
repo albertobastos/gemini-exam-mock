@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què és un Centre de Procés de Dades (CPD)?",
+    "respostes": [
+      ["Una oficina administrativa per a la gestió de personal.", false],
+      ["Una instal·lació que allotja sistemes informàtics i components associats per suportar operacions diàries.", true],
+      ["Un magatzem de components electrònics per a la venda.", false],
+      ["Una sala de reunions per a directius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin factor és crític a l'hora de seleccionar la ubicació d'un CPD per evitar danys als equips?",
+    "respostes": [
+      ["La proximitat a centres comercials.", false],
+      ["L'evitació de zones propenses a desastres naturals com inundacions o terratrèmols.", true],
+      ["La disponibilitat de transport públic per als visitants.", false],
+      ["L'estètica de l'edifici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Per què és important la 'Infraestructura de suport' en la selecció de la ubicació?",
+    "respostes": [
+      ["Per tenir a prop restaurants per als empleats.", false],
+      ["Per assegurar la proximitat a subministraments elèctrics fiables i xarxes de telecomunicacions.", true],
+      ["Per reduir el soroll ambiental.", false],
+      ["Per facilitar l'aparcament de vehicles.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin avantatge tenen les zones industrials per ubicar un CPD?",
+    "respostes": [
+      ["Ofereixen més espai i solen ser més econòmiques.", true],
+      ["Tenen la millor connectivitat de xarxa per defecte.", false],
+      ["Estan lliures de qualsevol risc ambiental.", false],
+      ["Són les més accessibles per al públic general.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin risc poden presentar els centres urbans per a un CPD?",
+    "respostes": [
+      ["Manca de connexió a Internet.", false],
+      ["Exposició a riscos com trànsit intens o contaminació.", true],
+      ["Excés d'espai disponible.", false],
+      ["Aïllament geogràfic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què defineix el concepte de 'Tiering' segons l'Uptime Institute?",
+    "respostes": [
+      ["La quantitat de servidors que té el CPD.", false],
+      ["Una classificació dels CPDs segons la seva capacitat per mantenir l'operació contínua (redundància i fiabilitat).", true],
+      ["El nivell de seguretat física de l'edifici exclusivament.", false],
+      ["El consum energètic total del centre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quina característica defineix un CPD de Tier I?",
+    "respostes": [
+      ["Té doble camí de subministrament actiu.", false],
+      ["Infraestructura bàsica amb un únic camí de subministrament d'energia i refrigeració.", true],
+      ["Té una disponibilitat del 99,995%.", false],
+      ["És tolerable a fallades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin nivell Tier ofereix una disponibilitat del 99,982% i permet manteniment sense interrompre el servei?",
+    "respostes": [
+      ["Tier I.", false],
+      ["Tier II.", false],
+      ["Tier III.", true],
+      ["Tier IV.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què diferencia principalment un Tier IV d'un Tier III?",
+    "respostes": [
+      ["El Tier IV és tolerable a fallades amb total redundància, mentre que el III és concurrentment mantenible.", true],
+      ["El Tier IV és més barat de construir.", false],
+      ["El Tier III té millor disponibilitat que el IV.", false],
+      ["El Tier IV no requereix refrigeració.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quina és la funció dels Sistemes d'Alimentació Ininterrompuda (UPS)?",
+    "respostes": [
+      ["Generar energia a llarg termini.", false],
+      ["Proporcionar energia temporal durant talls per permetre un tancament segur o l'arrencada de generadors.", true],
+      ["Reduir la factura de la llum.", false],
+      ["Refredar els servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Per a què serveixen els generadors en un CPD?",
+    "respostes": [
+      ["Per filtrar l'aire.", false],
+      ["Per proporcionar energia a llarg termini en cas de fallades prolongades del subministrament elèctric.", true],
+      ["Per substituir els UPS en talls de microsegons.", false],
+      ["Per augmentar la velocitat de processament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què són els sistemes CRAC?",
+    "respostes": [
+      ["Sistemes de seguretat biomètrica.", false],
+      ["Computer Room Air Conditioning, sistemes d'aire condicionat per a sales d'ordinadors.", true],
+      ["Unitats d'emmagatzematge massiu.", false],
+      ["Protocols de comunicació de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin risc presenten els sistemes de refrigeració per aigua?",
+    "respostes": [
+      ["Poden causar incendis elèctrics per sobreescalfament.", false],
+      ["Poden tenir fuites que danyin els equips electrònics.", true],
+      ["Consumeixen massa amplada de banda.", false],
+      ["No refreden prou.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin tipus de sistemes d'extinció d'incendis és preferible per a equips sensibles?",
+    "respostes": [
+      ["Mànegues d'aigua a pressió manual.", false],
+      ["Gasos inerts o productes químics secs.", true],
+      ["Espuma convencional.", false],
+      ["Sorra.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Com es defineix una 'Zona pública' en un CPD?",
+    "respostes": [
+      ["Àrea on es troben els servidors principals.", false],
+      ["Àrea accessible al públic, com la recepció, amb menys restriccions.", true],
+      ["Zona on s'emmagatzemen els generadors.", false],
+      ["L'aparcament del personal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què caracteritza una 'Zona crítica'?",
+    "respostes": [
+      ["És oberta a tots els empleats.", false],
+      ["Conté els equips més sensibles amb accés molt restringit i mesures de seguretat addicionals.", true],
+      ["És on es fa el descans del personal.", false],
+      ["No té càmeres de seguretat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin mecanisme de control d'accés utilitza empremtes digitals o reconeixement facial?",
+    "respostes": [
+      ["Targetes d'accés.", false],
+      ["Claus físiques tradicionals.", false],
+      ["Autenticació biomètrica.", true],
+      ["Codis PIN.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Per què és important la 'Flexibilitat i escalabilitat' en el disseny d'un CPD?",
+    "respostes": [
+      ["Per poder canviar de lloc l'edifici fàcilment.", false],
+      ["Per permetre l'ampliació i adaptació a noves necessitats sense interrupcions significatives.", true],
+      ["Per reduir el nombre de personal necessari.", false],
+      ["Per utilitzar menys energia des del principi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què implica la 'Redundància' en el disseny?",
+    "respostes": [
+      ["Tenir molts empleats fent la mateixa feina.", false],
+      ["Duplicar components crítics (energia, refrigeració) per evitar punts únics de fallada.", true],
+      ["Utilitzar tecnologies obsoletes per seguretat.", false],
+      ["Eliminar tots els sistemes de suport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Per què és clau la documentació en el manteniment d'un CPD?",
+    "respostes": [
+      ["Per complir amb la burocràcia administrativa únicament.", false],
+      ["Per facilitar la resolució de problemes i la planificació de manteniments.", true],
+      ["Per augmentar el valor de venda de l'edifici.", false],
+      ["Per decorar les oficines.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què permet fer la monitorització contínua?",
+    "respostes": [
+      ["Supervisar l'estat dels equips i infraestructures per detectar problemes.", true],
+      ["Vigilar els empleats per veure si treballen.", false],
+      ["Controlar l'accés a la cafeteria.", false],
+      ["Reduir la velocitat d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "En què consisteix el manteniment preventiu?",
+    "respostes": [
+      ["Arreglar les coses quan es trenquen.", false],
+      ["Realitzar inspeccions i neteges regulars per prevenir fallades.", true],
+      ["Canviar tots els equips cada any.", false],
+      ["Esperar que els usuaris es queixin.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què és el PUE (Power Usage Effectiveness)?",
+    "respostes": [
+      ["Un protocol d'extinció d'incendis.", false],
+      ["Una mesura de l'eficiència energètica (relació entre energia total i energia per a equips informàtics).", true],
+      ["Una unitat de potència elèctrica.", false],
+      ["Un tipus de servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què indica un valor de PUE més baix (proper a 1)?",
+    "respostes": [
+      ["Menor eficiència energètica.", false],
+      ["Major eficiència energètica.", true],
+      ["Manca d'energia.", false],
+      ["Error en el càlcul.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quina pràctica ajuda a l'eficiència energètica en la refrigeració?",
+    "respostes": [
+      ["Obrir les finestres.", false],
+      ["Conteniment de passadissos calents i freds.", true],
+      ["Utilitzar ventiladors de taula.", false],
+      ["Apagar l'aire condicionat a la nit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Com es pot reduir la dependència de fonts d'energia no renovables?",
+    "respostes": [
+      ["Utilitzant més generadors dièsel.", false],
+      ["Incorporant energies renovables com solar o eòlica.", true],
+      ["Reduint el nombre de servidors a la meitat.", false],
+      ["Connectant-se a la xarxa elèctrica d'un altre país.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quina zona del CPD inclouria les sales de servidors?",
+    "respostes": [
+      ["Zona pública.", false],
+      ["Zona restringida.", true],
+      ["Zona d'aparcament.", false],
+      ["Zona administrativa externa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin component NO forma part de la infraestructura bàsica crítica esmentada?",
+    "respostes": [
+      ["Sistemes elèctrics.", false],
+      ["Sistemes de detecció d'incendis.", false],
+      ["Cafeteria del personal.", true],
+      ["Sistemes de refrigeració.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin és l'objectiu principal de reciclar components electrònics al CPD?",
+    "respostes": [
+      ["Minimitzar el residu electrònic.", true],
+      ["Guanyar diners venent ferralla.", false],
+      ["Ocupar menys espai al magatzem.", false],
+      ["Complir amb la moda verda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin nivell de Tier és adequat per a petits negocis amb baix pressupost (99,671% disponibilitat)?",
+    "respostes": [
+      ["Tier I.", true],
+      ["Tier II.", false],
+      ["Tier III.", false],
+      ["Tier IV.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin nivell de Tier és adequat per a empreses que necessiten alta disponibilitat i manteniment sense aturades (99,982%)?",
+    "respostes": [
+      ["Tier I.", false],
+      ["Tier II.", false],
+      ["Tier III.", true],
+      ["Tier IV.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què proporciona un sistema d'alimentació redundant?",
+    "respostes": [
+      ["Més voltatge.", false],
+      ["Evitar interrupcions si una font falla.", true],
+      ["Electricitat més barata.", false],
+      ["Menys soroll elèctric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin és un exemple de sistema de refrigeració esmentat?",
+    "respostes": [
+      ["Refrigeració per ventilació natural.", false],
+      ["Refrigeració líquida.", true],
+      ["Refrigeració per gel sec manual.", false],
+      ["Refrigeració per finestres obertes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Què permeten les targetes d'accés en un CPD?",
+    "respostes": [
+      ["Pagar el dinar.", false],
+      ["Registrar accessos i gestionar permisos.", true],
+      ["Accedir a Internet.", false],
+      ["Encendre els servidors a distància.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin factor de planificació avalua requeriments de processament, emmagatzematge i connectivitat?",
+    "respostes": [
+      ["Avaluació de necessitats.", true],
+      ["Disseny estètic.", false],
+      ["Selecció de mobiliari.", false],
+      ["Pla de màrqueting.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quin tipus de sistema d'extinció evita danyar equips sensibles?",
+    "respostes": [
+      ["Aspersors d'aigua estàndard.", false],
+      ["Gasos inerts.", true],
+      ["Extintors de pols ABC.", false],
+      ["Cubells d'aigua.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Per què cal evitar zones propenses a inundacions?",
+    "respostes": [
+      ["Perquè la humitat és bona per als servidors.", false],
+      ["Per minimitzar riscos de danys greus als equips.", true],
+      ["Perquè els empleats no saben nedar.", false],
+      ["Perquè l'assegurança és més barata.", false]
+    ]
+  },
+  {
+    "tema": "Tema 12. Instal·lació física d'un centre de procés de dades.",
+    "enunciat": "Quina és la funció de les càmeres de seguretat?",
+    "respostes": [
+      ["Fer fotos per a la web.", false],
+      ["Monitorització contínua per detectar activitat sospitosa.", true],
+      ["Gravar reunions d'empresa.", false],
+      ["Controlar l'assistència a la feina.", false]
+    ]
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quina és la diferència fonamental entre IaaS i SDDC segons el document?",
+    "respostes": [
+      ["L'IaaS és un model de lliurament comercial (com es consumeix) i l'SDDC és una arquitectura tecnològica (com es construeix).", true],
+      ["L'IaaS és un disseny de maquinari exclusiu i l'SDDC és un model de lloguer de programari.", false],
+      ["Són termes completament sinònims que s'utilitzen de manera indistinta al món del cloud computing.", false],
+      ["L'IaaS és una arquitectura local (on-premise) i l'SDDC és exclusivament un servei de pagament per ús d'Amazon.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "A què es refereix el model IaaS (Infrastructure as a Service)?",
+    "respostes": [
+      ["Al lloguer de recursos virtualitzats com CPU, RAM i emmagatzematge a un proveïdor extern en lloc de comprar servidors físics.", true],
+      ["A la gestió automatitzada dels cables i switchos físics dins d'una empresa.", false],
+      ["A la compra definitiva de llicències de programari per instal·lar als ordinadors dels empleats.", false],
+      ["Al disseny de la planta física d'un centre de dades tradicional.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Què representa un SDDC (Software-Defined Data Center)?",
+    "respostes": [
+      ["L'evolució del centre de dades tradicional on tota la infraestructura està virtualitzada i controlada per programari.", true],
+      ["Un model comercial on es lloguen exclusivament servidors de bases de dades.", false],
+      ["Un tipus de disc dur d'alta velocitat utilitzat només per Amazon i Google.", false],
+      ["Un programari dissenyat per monitorar la temperatura dels servidors físics.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quin tipus de model econòmic representa principalment l'IaaS per a una empresa?",
+    "respostes": [
+      ["Un model de consum operatiu (OPEX).", true],
+      ["Un model d'inversió de capital (CAPEX).", false],
+      ["Un model de pagament únic per llicència perpètua.", false],
+      ["Un model basat exclusivament en l'intercanvi de dades gratuïtes.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quin és l'objectiu principal de contractar un servei IaaS?",
+    "respostes": [
+      ["Externalitzar el maquinari per reduir costos de propietat i tasques de manteniment físic.", true],
+      ["Tenir un control absolut sobre quin tècnic canvia els discs durs espatllats.", false],
+      ["Abstraure i virtualitzar la xarxa local de l'edifici d'oficines.", false],
+      ["Desenvolupar un centre de dades de propietat completament nou.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quin és l'objectiu principal a l'hora d'implementar un SDDC?",
+    "respostes": [
+      ["Automatitzar i abstraure tot el control del maquinari de la infraestructura mitjançant programari.", true],
+      ["Reduir el cost de la factura de l'aigua a les oficines corporatives.", false],
+      ["Pagar a un proveïdor com AWS perquè configuri el sistema operatiu de les màquines.", false],
+      ["Eliminar qualsevol tipus de xarxa virtual de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "En un entorn IaaS, de qui és propietat el maquinari físic subjacent?",
+    "respostes": [
+      ["El maquinari és sempre propietat del proveïdor del servei (com Amazon o Microsoft).", true],
+      ["El maquinari és propietat de l'empresa client que lloga el servei.", false],
+      ["El maquinari és copropietat a parts iguals entre el client i el proveïdor.", false],
+      ["El maquinari no existeix físicament, és purament codi font.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "On resideix habitualment la propietat del maquinari en un entorn SDDC?",
+    "respostes": [
+      ["Pot ser propietat de l'empresa (on-premise) o d'un proveïdor extern.", true],
+      ["Sempre i exclusivament és propietat d'un proveïdor de núvol públic.", false],
+      ["És propietat de l'Estat en tots els casos.", false],
+      ["Només pot ser propietat de Google Cloud.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quin abast de recursos t'entrega típicament un proveïdor d'IaaS?",
+    "respostes": [
+      ["Et donen accés a màquines virtuals (recursos de còmput) i xarxes bàsiques, sent transparent per a tu el que hi ha per sota.", true],
+      ["Et donen accés físic a la sala de servidors perquè puguis canviar cables manualment.", false],
+      ["Et lliuren únicament llicències de programari ofimàtic (com Office 365).", false],
+      ["Et proporcionen el codi font del seu hipervisor perquè el puguis reprogramar.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Dins d'una arquitectura SDDC completa, quins tres elements principals estan virtualitzats?",
+    "respostes": [
+      ["El còmput (Servidor/Hypervisor), l'emmagatzematge (SDS) i la xarxa (SDN).", true],
+      ["Només el processador (CPU), la memòria cau i la memòria RAM.", false],
+      ["El sistema operatiu del client, l'antivirus i el tallafoc físic.", false],
+      ["Les pantalles, els teclats i els ratolins dels treballadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "A què fa referència l'acrònim SDS dins de l'arquitectura SDDC?",
+    "respostes": [
+      ["Software-Defined Storage (Emmagatzematge Definit per Programari).", true],
+      ["System Data Structure (Estructura de Dades del Sistema).", false],
+      ["Secure Data Storage (Emmagatzematge de Dades Segur).", false],
+      ["Standard Domain Server (Servidor de Domini Estàndard).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Què significa SDN en el context del centre de dades?",
+    "respostes": [
+      ["Software-Defined Networking (Xarxa Definida per Programari).", true],
+      ["Server Domain Node (Node de Domini del Servidor).", false],
+      ["System Development Network (Xarxa de Desenvolupament de Sistemes).", false],
+      ["Secure Digital Network (Xarxa Digital Segura).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Com es realitza la configuració de la xarxa i l'emmagatzematge en un entorn SDDC pur?",
+    "respostes": [
+      ["Mitjançant polítiques de programari, sense necessitat de tocar cables ni switchos físics.", true],
+      ["Connectant manualment cada nou servidor amb cables de fibra òptica al router central.", false],
+      ["A través de la companyia telefònica que envia un tècnic cada vegada que hi ha un canvi.", false],
+      ["Mitjançant disquets d'arrencada configurats per a cada ordinador.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "En referència a l'ubicació i desplegament, amb quin entorn s'associa gairebé sempre l'IaaS?",
+    "respostes": [
+      ["Amb el Núvol Públic, on els recursos viuen als centres de dades gegants del proveïdor.", true],
+      ["Amb el Núvol Privat situat al soterrani de l'oficina de l'empresa local.", false],
+      ["Amb entorns desconnectats totalment d'Internet.", false],
+      ["Amb ordinadors d'escriptori tradicionals sense connexió externa.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Per què una empresa voldria construir la seva pròpia arquitectura SDDC en lloc de consumir un IaaS públic?",
+    "respostes": [
+      ["Per tenir els beneficis del núvol (agilitat, automatització) però dins del seu propi edifici (Núvol Privat) per requeriments de seguretat o latència.", true],
+      ["Perquè l'SDDC és sempre una opció molt més barata a curt termini que llogar una màquina virtual a internet.", false],
+      ["Per evitar tenir cap mena de virtualització i treballar exclusivament amb maquinari tradicional.", false],
+      ["Per delegar la responsabilitat de la seguretat física de l'edifici a Microsoft o Amazon.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quin és el nivell de responsabilitat del client (l'usuari) en un servei IaaS?",
+    "respostes": [
+      ["L'usuari és responsable exclusivament del que instal·la dins la màquina virtual (Sistema Operatiu i aplicacions).", true],
+      ["L'usuari és responsable que el servidor físic tingui corrent elèctric i no es sobreescalfi.", false],
+      ["L'usuari gestiona tota la pila d'infraestructura (hipervisor, SDS i SDN) via API.", false],
+      ["L'usuari no té cap responsabilitat, ni tan sols d'instal·lar aplicacions, ja que és un model SaaS.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quina responsabilitat adquireix una empresa si decideix implementar i mantenir el seu propi SDDC on-premise?",
+    "respostes": [
+      ["És responsable de mantenir tota la plataforma de programari que fa funcionar el centre de dades (com ara actualitzar el vSphere o l'NSX).", true],
+      ["Només ha d'actualitzar les pàgines web públiques, ja que Amazon mantindrà la resta.", false],
+      ["No té cap responsabilitat perquè el programari SDDC s'auto-repara i no requereix administradors.", false],
+      ["La responsabilitat recau íntegrament sobre el proveïdor d'internet (ISP) local.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quins productes comercials s'esmenten com a clars exemples de serveis IaaS?",
+    "respostes": [
+      ["Instàncies EC2 d'AWS i Azure VMs.", true],
+      ["VMware Cloud Foundation i Nutanix.", false],
+      ["Microsoft Word i Google Docs.", false],
+      ["Linux Ubuntu i Windows 11.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Quins programaris o plataformes s'esmenten com a exemples d'arquitectura SDDC?",
+    "respostes": [
+      ["VMware Cloud Foundation i Nutanix.", true],
+      ["Amazon EC2 i Google Compute Engine.", false],
+      ["Gmail i Dropbox.", false],
+      ["Oracle Database i MySQL.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Com es relacionen tècnicament l'SDDC i l'IaaS en la realitat dels grans proveïdors de núvol?",
+    "respostes": [
+      ["L'SDDC és sovint la tecnologia subjacent (l'arquitectura interna) que permet a proveïdors com Google oferir serveis IaaS de manera eficient i automatitzada.", true],
+      ["L'IaaS és el llenguatge de programació amb el qual s'escriuen els sistemes SDDC de les empreses privades.", false],
+      ["L'SDDC i l'IaaS són incompatibles i no es poden utilitzar mai de forma conjunta per cap proveïdor.", false],
+      ["L'SDDC s'utilitza exclusivament per vendre maquinari físic a proveïdors IaaS.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "Què estàs fent en realitat quan contractes un servei del tipus 'Bare Metal Cloud' o 'Private Cloud as a Service' a un proveïdor?",
+    "respostes": [
+      ["Estàs llogant un SDDC complet proporcionat i gestionat per un proveïdor d'IaaS.", true],
+      ["Estàs comprant el servidor físic perquè te l'enviïn per correu a la teva oficina.", false],
+      ["Estàs contractant un servei de disseny web pur (SaaS).", false],
+      ["Estàs llogant únicament una aplicació ofimàtica compartida.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Diferències entre IaaS i SDDC.",
+    "enunciat": "En mode de resum pràctic, quina seria la recomanació segons el document si una organització vol 'modernitzar el seu propi centre de dades per a que funcioni automatitzat i flexible com un núvol'?",
+    "respostes": [
+      ["Necessita construir i implementar una arquitectura SDDC.", true],
+      ["Necessita contractar només instàncies IaaS a Amazon AWS.", false],
+      ["Ha de tancar el centre de dades i no utilitzar cap tipus de virtualització.", false],
+      ["Ha de contractar personal per connectar manualment els cables cada cop que es necessiti una màquina.", false]
+    ]
+  }
+]

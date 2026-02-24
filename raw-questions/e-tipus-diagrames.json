@@ -1,0 +1,302 @@
+[
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin és l'objectiu principal dels diagrames durant la fase de Planificació (Planning)?",
+    "respostes": [
+      ["Definir l'abast, el temps i els costos mitjançant diagrames de gestió, no tècnics.", true],
+      ["Definir l'estructura de la base de dades i les taules.", false],
+      ["Mostrar l'arquitectura física dels servidors i els tallafocs.", false],
+      ["Dibuixar els esquemes de la interfície d'usuari abans de programar.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin diagrama és considerat el 'rei de la planificació' perquè mostra la línia temporal del projecte, les tasques i la seva durada?",
+    "respostes": [
+      ["Diagrama de Gantt.", true],
+      ["Diagrama de PERT.", false],
+      ["Diagrama de Casos d'Ús.", false],
+      ["Diagrama d'Activitats.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Què és i per a què serveix un WBS (Work Breakdown Structure) o EDT?",
+    "respostes": [
+      ["És un diagrama jeràrquic que desglossa el projecte en entregables més petits i manejables per ajudar a organitzar l'equip i els costos.", true],
+      ["És un diagrama que mostra les interaccions dinàmiques entre els usuaris i la base de dades.", false],
+      ["És l'estàndard d'or per modelar processos de negoci complexos a nivell gerencial.", false],
+      ["És un mapa de xarxa que detalla les connexions físiques entre diferents servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Dins de la fase de planificació, quin diagrama s'utilitza especialment per identificar el 'camí crític' (la seqüència de tasques que no es pot endarrerir)?",
+    "respostes": [
+      ["Diagrama de PERT.", true],
+      ["Mapa Mental (Mind Map).", false],
+      ["Diagrama de Components.", false],
+      ["Diagrama de Seqüència.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quan és especialment útil fer servir un Mapa Mental (Mind Map)?",
+    "respostes": [
+      ["En reunions inicials (brainstorming) per capturar idees, requisits vagues i l'abast general del sistema.", true],
+      ["Durant l'escriptura del codi per analitzar bucles complexos.", false],
+      ["En el moment de connectar els 'artefactes' de programari amb el maquinari físic.", false],
+      ["Quan es vol dissenyar exactament l'experiència d'usuari a les pantalles (UX/UI).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quina pregunta principal intenta respondre la fase d'Anàlisi mitjançant els seus diagrames?",
+    "respostes": [
+      ["QUÈ ha de fer el sistema, centrant-se en els requisits funcionals i el flux d'informació.", true],
+      ["COM es construirà el sistema a nivell de classes i codi.", false],
+      ["ON s'allotjarà el programari dins dels servidors físics.", false],
+      ["QUAN començarà i acabarà cada tasca del projecte.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin diagrama és essencial a la fase d'Anàlisi perquè mostra els actors (usuaris), les funcionalitats principals i els límits del sistema?",
+    "respostes": [
+      ["Diagrama de Casos d'Ús (Use Case Diagram).", true],
+      ["DFD (Diagrama de Flux de Dades).", false],
+      ["Diagrama Entitat-Relació (ERD).", false],
+      ["Diagrama d'Estats.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Què il·lustra un DFD (Diagrama de Flux de Dades)?",
+    "respostes": [
+      ["Com es mouen les dades pel sistema: d'on venen (entrades), qui les processa i on van (sortides), sense entrar en detalls tècnics.", true],
+      ["L'arquitectura de classes de programació orientada a objectes i la seva herència.", false],
+      ["El disseny visual i la distribució de botons a la pantalla de l'aplicació.", false],
+      ["Les màquines físiques i el cablejat de xarxa per on circulen els paquets d'internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin tipus de diagrama s'utilitzaria de forma òptima per modelar els passos concrets d'un flux de treball de negoci, com ara aprovar una comanda de compra?",
+    "respostes": [
+      ["Diagrama d'Activitat (Activity Diagram).", true],
+      ["Diagrama de Components.", false],
+      ["Diagrama de Gantt.", false],
+      ["Wireframes.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Com es coneix l'estàndard d'or per modelar processos de negoci complexos que sigui entenedor tant per a perfils tècnics com per a gerents?",
+    "respostes": [
+      ["BPMN (Business Process Model and Notation).", true],
+      ["DFD (Data Flow Diagram).", false],
+      ["WBS (Work Breakdown Structure).", false],
+      ["ERD (Entity-Relationship Diagram).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Durant la fase de Disseny (Design), quin enfocament prenen els diagrames elaborats?",
+    "respostes": [
+      ["Defineixen COM es construirà el sistema, sent la fase més rica en diagrames purament tècnics.", true],
+      ["Defineixen ÚNICAMENT els terminis de lliurament dels programadors.", false],
+      ["Estableixen el pressupost financer total de la creació de l'aplicació.", false],
+      ["Modelen exclusivament les interaccions físiques de l'usuari amb el teclat i ratolí.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin és el diagrama més important en la Programació Orientada a Objectes (POO) que en defineix l'estructura estàtica (atributs, mètodes, herència)?",
+    "respostes": [
+      ["Diagrama de Classes (Class Diagram).", true],
+      ["Diagrama Entitat-Relació (DER).", false],
+      ["Diagrama de Seqüència.", false],
+      ["Diagrama d'Estats.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quina és la utilitat fonamental d'un Diagrama Entitat-Relació (DER / ERD)?",
+    "respostes": [
+      ["És fonamental per al disseny de la Base de Dades, mostrant taules, camps i les seves relacions (1:1, 1:N).", true],
+      ["Serveix per establir el disseny visual i el full d'estils CSS de la pàgina web.", false],
+      ["Mostra el flux temporal dels usuaris al llarg dels mesos del projecte.", false],
+      ["Desglossa el pressupost econòmic de cada departament tecnològic.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Si volem mostrar una interacció dinàmica temporal (ex: Usuari fa clic -> Controlador envia petició -> Model consulta BD), quin diagrama cal utilitzar?",
+    "respostes": [
+      ["Diagrama de Seqüència (Sequence Diagram).", true],
+      ["Diagrama de Gantt.", false],
+      ["Diagrama de Components.", false],
+      ["Mapa Mental (Mind Map).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Què són els Wireframes o Mockups en la fase de Disseny?",
+    "respostes": [
+      ["Dibuixos esquemàtics de la interfície d'usuari (pantalles) per dissenyar l'experiència d'usuari (UX/UI) abans de programar.", true],
+      ["Estructures de cables físics (Ethernet) necessaris per muntar els servidors de producció.", false],
+      ["Diagrames matemàtics de la lògica de la CPU interna.", false],
+      ["Llistes de tasques agrupades per empleat.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Durant la fase d'Implementació (Coding), quin diagrama s'utilitza a nivell micro per dissenyar un algorisme específic (ex: bucles complexos) abans d'escriure el codi?",
+    "respostes": [
+      ["Diagrama de Flux (Flowchart).", true],
+      ["Diagrama de Desplegament.", false],
+      ["WBS (Work Breakdown Structure).", false],
+      ["BPMN (Business Process Model and Notation).", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin diagrama és molt útil quan el sistema té objectes amb cicles de vida complexos (per exemple, una comanda que passa de Pendent a Pagada i finalment Entregada)?",
+    "respostes": [
+      ["Diagrama d'Estats (State Machine Diagram).", true],
+      ["Diagrama de Casos d'Ús.", false],
+      ["Diagrama de Topologia de Xarxa.", false],
+      ["Diagrama de Gantt.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin és l'enfocament de la fase de Desplegament (Deployment) a nivell de diagramació?",
+    "respostes": [
+      ["Mostrar la fase de posada en marxa, explicant com es connecta el programari de l'aplicació amb el maquinari real.", true],
+      ["Detallar exclusivament els casos d'ús des de la perspectiva del client final.", false],
+      ["Reflectir les relacions estàtiques d'herència entre diferents classes de programació.", false],
+      ["Plantejar el calendari de treball mensual de l'equip de programadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Què s'il·lustra específicament dins d'un Diagrama de Desplegament (Deployment Diagram)?",
+    "respostes": [
+      ["L'arquitectura física, indicant quins 'artefactes' de programari (ex: .exe, base de dades) van assignats a quins 'nodes' (servidors, mòbils).", true],
+      ["L'estructura jeràrquica dels empleats que han desenvolupat el programari.", false],
+      ["L'algorisme intern que calcula les despeses d'enviament a la botiga virtual.", false],
+      ["Els botons i les finestres emergents de l'aplicació d'escriptori.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Quin diagrama és crític per als equips d'infraestructura i seguretat ja que detalla com estan connectats els servidors, tallafocs, balancejadors de càrrega i VLANs?",
+    "respostes": [
+      ["Diagrama de Topologia de Xarxa.", true],
+      ["Diagrama de Seqüència.", false],
+      ["BPMN.", false],
+      ["Diagrama de PERT.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Què succeeix habitualment amb els diagrames durant la fase de Manteniment (Maintenance)?",
+    "respostes": [
+      ["Rarament es creen tipus nous de diagrames, sinó que es dediquen a actualitzar els diagrames ja existents.", true],
+      ["Es destrueixen tots els diagrames previs per poder redactar un nou WBS des de zero.", false],
+      ["Només es permet crear Diagrames de Flux nous, prohibint actualitzar la resta.", false],
+      ["S'utilitzen exclusivament Mockups per mantenir el sistema estable.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Durant el Manteniment, quin diagrama s'actualitza de vegades expressament per fer una 'Anàlisi d'Impacte' (veure què passarà si es canvia una llibreria o mòdul)?",
+    "respostes": [
+      ["Diagrama de Components.", true],
+      ["Diagrama d'Activitats.", false],
+      ["Mapa Mental.", false],
+      ["Diagrama de Gantt.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Segons la taula del 'Resum ràpid per fases', quin és considerat el 'Diagrama Estrella' de la fase de Planificació?",
+    "respostes": [
+      ["Diagrama de Gantt.", true],
+      ["Diagrama d'Estats.", false],
+      ["ERD (Entitat-Relació).", false],
+      ["Casos d'Ús.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "A la taula de resum, quin és l'objectiu principal associat a la fase d'Anàlisi?",
+    "respostes": [
+      ["Capturar els requisits funcionals (què fa el sistema).", true],
+      ["Planificar el cronograma i les tasques.", false],
+      ["Establir l'estructura del codi i la Base de Dades.", false],
+      ["Identificar la lògica d'algorismes complexos.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Segons la taula resum, quins són els 'Diagrames Estrella' corresponents a la fase de Disseny?",
+    "respostes": [
+      ["Diagrama de Classes i Diagrama ERD.", true],
+      ["Diagrama de Flux i Diagrama d'Estats.", false],
+      ["Diagrama de Desplegament i Topologia de Xarxa.", false],
+      ["Diagrama de Gantt i WBS.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "El diagrama d'estats s'utilitza generalment a la fase d'implementació. A què serveix concretament?",
+    "respostes": [
+      ["A identificar les diferents etapes del cicle de vida d'un objecte concret del sistema.", true],
+      ["A planificar de forma jeràrquica els membres de l'equip que treballaran en l'objecte.", false],
+      ["A representar les dades exactes dels servidors al núvol.", false],
+      ["A dissenyar els formularis web de la interfície d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "D'acord amb la definició del Diagrama de Casos d'Ús, quins elements principals s'hi mostren?",
+    "respostes": [
+      ["Els actors (usuaris) que interactuen i les funcionalitats principals que utilitzen del sistema.", true],
+      ["Les adreces IP dels servidors i els cables de connexió.", false],
+      ["La relació matemàtica i les taules internes de la base de dades (1:N).", false],
+      ["Els costos financers estimats per a cada cas de prova.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "En la descripció del Diagrama d'Activitat, a què s'assembla més pel seu funcionament lògic?",
+    "respostes": [
+      ["A un diagrama de flux, però adaptat específicament a modelar fluxos de treball (workflows) de negoci.", true],
+      ["A un diagrama de desplegament, però adaptat a nodes virtuals.", false],
+      ["A un WBS, ja que divideix tasques financeres.", false],
+      ["A un diagrama de classes, per mostrar l'herència entre activitats.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "Els gràfics que representen de manera esquemàtica quins botons o menús hi haurà a l'aplicació abans que es programin pertanyen a la categoria de:",
+    "respostes": [
+      ["Wireframes / Mockups.", true],
+      ["DFD (Flux de Dades).", false],
+      ["Diagrama de Gantt.", false],
+      ["Diagrama d'Activitats.", false]
+    ]
+  },
+  {
+    "tema": "Tema extra. Tipus de diagrames.",
+    "enunciat": "D'acord amb la fase d'Implementació de la taula resum, quins diagrames actuen com a estrella per explicar la 'Lògica d'algoritmes complexos'?",
+    "respostes": [
+      ["Diagrama de Flux i Diagrama d'Estats.", true],
+      ["Diagrama de Desplegament.", false],
+      ["Casos d'Ús i BPMN.", false],
+      ["Gantt i PERT.", false]
+    ]
+  }
+]

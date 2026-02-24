@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina d'aquestes eines permet als ciutadans accedir als seus expedients i tràmits administratius de manera electrònica al Govern de les Illes Balears?",
+    "respostes": [
+      ["Carpeta Ciutadana.", true],
+      ["PORTAFIB.", false],
+      ["DIR3CAIB.", false],
+      ["PAYMENTIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina funció principal té l'eina DIGITALIB dins l'administració de la CAIB?",
+    "respostes": [
+      ["És una plataforma per pagar impostos de forma digitalitzada.", false],
+      ["Serveix per crear els llocs web institucionals dels diferents departaments.", false],
+      ["S'encarrega de la digitalització de documents físics, convertint-los en arxius electrònics.", true],
+      ["És un gestor exclusiu per tramitar queixes i suggeriments ciutadans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina eina funciona com a repositori d'informació de les unitats orgàniques i oficines del Govern?",
+    "respostes": [
+      ["ROLSAC.", false],
+      ["HELIUM.", false],
+      ["RIPEA.", false],
+      ["DIR3CAIB.", true]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Què gestiona la plataforma coneguda com a 'Distribució' en el marc de les eines del Govern de les Illes Balears?",
+    "respostes": [
+      ["La distribució dels sous i nòmines dels treballadors públics.", false],
+      ["L'enviament d'anotacions de registre, assegurant una distribució eficient dels documents.", true],
+      ["La connexió de xarxa Wi-Fi als edificis governamentals.", false],
+      ["L'assignació d'expedients físics en capses i arxius històrics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "L'acrònim GDIB, dins l'ecosistema de la CAIB, fa referència a:",
+    "respostes": [
+      ["El Gestor de Desenvolupament Informàtic de les Balears.", false],
+      ["El Gestor Documental de les Illes Balears, que permet l'emmagatzematge, recuperació i gestió de documents electrònics.", true],
+      ["La Gerència de Digitalització i Innovació Balear.", false],
+      ["El Grup Directiu d'Identificació Biomètrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina eina hauria d'utilitzar un departament del Govern per crear i gestionar el seu propi lloc web informatiu?",
+    "respostes": [
+      ["GUSITE.", true],
+      ["PINBAL.", false],
+      ["NOTIB.", false],
+      ["SISTRA2.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Què és HELIUM en l'entorn de l'administració digital de la CAIB?",
+    "respostes": [
+      ["Una plataforma exclusiva per fer reserves de cites prèvies presencials.", false],
+      ["Un gestor d'expedients administratius que facilita la tramitació i seguiment dels expedients.", true],
+      ["Un programa d'edició gràfica per a campanyes de publicitat del govern.", false],
+      ["El sistema de climatització centralitzada dels servidors de la CAIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quin component permet als usuaris de la CAIB accedir de manera segura als diferents serveis digitals actuant com a sistema d'autenticació?",
+    "respostes": [
+      ["LOGINIB.", true],
+      ["PORTAFIB.", false],
+      ["GDIB.", false],
+      ["REGWEB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina plataforma s'utilitza per enviar comunicacions oficials als ciutadans mitjançant notificacions electròniques?",
+    "respostes": [
+      ["DIGITALIB.", false],
+      ["NOTIB.", true],
+      ["PAYMENTIB.", false],
+      ["ROLSAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "L'eina PAYMENTIB està dissenyada específicament per a:",
+    "respostes": [
+      ["Recollir signatures electròniques de pagaments en paper.", false],
+      ["Actuar com a sistema de pagament electrònic per a tràmits i serveis del Govern.", true],
+      ["Connectar-se a bancs internacionals per comprar programari.", false],
+      ["Notificar pèrdues de dades financeres a la tresoreria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina eina del Govern de les Illes Balears és una plataforma d'interoperabilitat que permet l'intercanvi de dades entre diferents sistemes i serveis?",
+    "respostes": [
+      ["PINBAL.", true],
+      ["SISTRA2.", false],
+      ["RIPEA.", false],
+      ["DIR3CAIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina funció té el PORTAFIB?",
+    "respostes": [
+      ["Servir d'arxiu històric on es desen les signatures escanejades en paper.", false],
+      ["Actuar com a portafirmes digital permetent la signatura electrònica de documents oficials.", true],
+      ["Portar l'índex de portals web de la CAIB.", false],
+      ["Generar contrasenyes d'un sol ús (OTP) per a tràmits mèdics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "El sistema REGWEB s'utilitza principalment per a:",
+    "respostes": [
+      ["Publicar les normatives en línia de forma automàtica.", false],
+      ["La gestió de registres d'entrada i sortida de documents administratius.", true],
+      ["Validar l'autenticació amb targetes intel·ligents als navegadors.", false],
+      ["Distribuir aplicacions informàtiques entre els empleats del govern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Què facilita el repositori anomenat RIPEA?",
+    "respostes": [
+      ["La gestió d'usuaris i rols interns del departament d'informàtica.", false],
+      ["L'emmagatzematge i la publicació de fotografies oficials d'esdeveniments.", false],
+      ["La gestió i l'accés a expedients electrònics com a repositori especialitzat.", true],
+      ["La sincronització de dades entre els diferents centres educatius públics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina eina de la CAIB permet la gestió de continguts d'informació administrativa i la creació de continguts per a la ciutadania?",
+    "respostes": [
+      ["NOTIB.", false],
+      ["DISTRIBUCIO.", false],
+      ["ROLSAC.", true],
+      ["HELIUM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina plataforma s'utilitza al Govern de les Illes Balears específicament per a la tramitació telemàtica, permetent realitzar tràmits en línia segurs?",
+    "respostes": [
+      ["SISTRA2.", true],
+      ["GUSITE.", false],
+      ["DIGITALIB.", false],
+      ["Cl@ve.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quin és l'objectiu general de tot el conjunt d'eines digitals oferides pel Govern de les Illes Balears?",
+    "respostes": [
+      ["Exclusivament eliminar la feina dels funcionaris a les oficines d'atenció.", false],
+      ["Substituir la interacció amb el govern espanyol central completament.", false],
+      ["Millorar la transparència, l'eficiència i la seguretat en la gestió administrativa i la interacció amb els ciutadans.", true],
+      ["Obligar la població a adquirir certificats digitals privats de pagament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Per complir quines lleis concretes està estructurada principalment l'Administració Digital del Govern de les Illes Balears?",
+    "respostes": [
+      ["Les lleis 15/1999 i 34/2002.", false],
+      ["Les lleis 39/2015 i 40/2015.", true],
+      ["La Llei Orgànica 3/2018 (LOPDGDD).", false],
+      ["L'Esquema Nacional de Seguretat exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Dins de l'esquema d'Administració Digital de la CAIB, quins components formen part de la fase de 'Gestió d'Entrada'?",
+    "respostes": [
+      ["Seu Electrònica, Cl@ve, REGWEB3 i Portafirmes.", true],
+      ["DISTRIBUCIO, RIPEA, HELIUM i PINBAL.", false],
+      ["NOTIB, EMISERV i REGWEB3.", false],
+      ["Carpeta Ciutadana, PAYMENTIB i ROLSAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "En la Gestió d'Entrada, quin element funciona directament com el 'Punt d'accés als serveis electrònics per als ciutadans'?",
+    "respostes": [
+      ["El Portafirmes.", false],
+      ["El REGWEB3.", false],
+      ["La Seu Electrònica.", true],
+      ["La plataforma PINBAL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "A l'esquema de Gestió d'Entrada, quina funció s'atribueix a 'Cl@ve'?",
+    "respostes": [
+      ["Ser un repositori d'expedients a llarg termini.", false],
+      ["Actuar com a sistema d'identificació electrònica.", true],
+      ["Permetre l'enviament massiu de correus als ciutadans.", false],
+      ["Intercanviar dades només entre ajuntaments de les illes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Amb quins sistemes està integrat el REGWEB3 per permetre l'intercanvi de registres entre administracions?",
+    "respostes": [
+      ["Amb DIR3 i SIR.", true],
+      ["Amb LOGINIB i PAYMENTIB.", false],
+      ["Amb SISTRA2 i GUSITE.", false],
+      ["Amb ROLSAC i GDIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quina funció té el 'Portafirmes' dins de l'esquema d'Administració Digital (a la Gestió d'Entrada)?",
+    "respostes": [
+      ["Identificar als usuaris que volen fer un pagament en línia.", false],
+      ["Ser una plataforma de signatura electrònica que permet la validació i signatura de documents oficials.", true],
+      ["Registrar exclusivament la sortida de documents cap al ministeri corresponent.", false],
+      ["Emmagatzemar tots els webs informatius de l'administració.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Dins de l'esquema de la CAIB, quines eines corresponen específicament al bloc de 'Gestió Interna'?",
+    "respostes": [
+      ["Seu Electrònica, Cl@ve i Portafirmes.", false],
+      ["NOTIB i EMISERV.", false],
+      ["DISTRIBUCIO, RIPEA, HELIUM i PINBAL.", true],
+      ["GUSITE, DIGITALIB i PAYMENTIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "A la Gestió Interna, l'eina DISTRIBUCIO s'utilitza precisament per:",
+    "respostes": [
+      ["El pagament de les despeses generals del govern autonòmic.", false],
+      ["El repartiment de contrasenyes noves al personal públic.", false],
+      ["La gestió de l'enviament i distribució de documents registrats.", true],
+      ["La difusió de continguts multimèdia a la Seu Electrònica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Dins l'esquema de l'administració digital balear, quin és el paper principal de RIPEA en la Gestió Interna?",
+    "respostes": [
+      ["Actuar com a plataforma per al disseny de la interfície d'usuari corporativa.", false],
+      ["Gestionar de forma automàtica la resposta als formularis de queixes.", false],
+      ["Mantenir la xarxa d'encaminadors (routers) dels edificis públics actualitzada.", false],
+      ["Ser un repositori d'expedients electrònics per a la conservació i accés a llarg termini.", true]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quin sistema de la Gestió Interna és l'encarregat específic de permetre la tramitació electrònica de procediments sent el gestor d'expedients administratius?",
+    "respostes": [
+      ["HELIUM.", true],
+      ["DIR3CAIB.", false],
+      ["REGWEB3.", false],
+      ["PORTAFIB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "A l'esquema de Gestió Interna, PINBAL està definit com a:",
+    "respostes": [
+      ["Un repositori d'antivirus corporatiu.", false],
+      ["Una plataforma d'interoperabilitat que facilita l'intercanvi de dades entre diferents sistemes i aplicacions.", true],
+      ["El component on s'instal·len les pàgines informatives de serveis per a ciutadans.", false],
+      ["El mòdul d'enviament de missatges SMS (OTP) per verificar usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Dins de l'esquema d'Administració Digital de la CAIB, quin element configura la 'Gestió de Sortida'?",
+    "respostes": [
+      ["HELIUM i RIPEA.", false],
+      ["Seu Electrònica i Cl@ve.", false],
+      ["NOTIB, integrat amb REGWEB3 i EMISERV.", true],
+      ["Carpeta Ciutadana i DISTRIBUCIO.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quin és l'objectiu directe de NOTIB, juntament amb REGWEB3 i EMISERV, a la fase de Gestió de Sortida?",
+    "respostes": [
+      ["Garantir que tots els ciutadans paguin les seves taxes de manera automàtica.", false],
+      ["Permetre la creació de webs públiques (GUSITE) amb les plantilles oficials.", false],
+      ["La gestió de les comunicacions oficials com a plataforma de notificacions electròniques.", true],
+      ["L'emmagatzematge indefinit de tota la base de dades mèdica dels pacients balears.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quin dels següents és un objectiu principal de l'esquema d'administració digital del Govern de les Illes Balears segons el text?",
+    "respostes": [
+      ["Garantir l'accés gratuït a Internet d'alta velocitat a totes les llars balears.", false],
+      ["Assegurar la interoperabilitat entre sistemes.", true],
+      ["Substituir totalment la figura del funcionari presencial en un màxim de dos anys.", false],
+      ["Permetre la delegació de la tramitació administrativa en empreses privades estrangeres exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Quin altre objectiu fonamental persegueix l'esquema d'administració digital respecte a la ciutadania?",
+    "respostes": [
+      ["Limitar l'ús d'ordinadors personals no registrats pel govern.", false],
+      ["Reduir el nombre de tràmits legals disponibles a la meitat.", false],
+      ["Facilitar l'accés dels ciutadans als serveis electrònics i millorar-ne l'eficiència i transparència.", true],
+      ["Bloquejar els accessos telemàtics que provinguin de fóra del territori insular.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "L'esquema d'administració digital es proposa, a més d'assegurar la interoperabilitat i facilitar l'accés, un altre objectiu lligat al marc jurídic. Quin és?",
+    "respostes": [
+      ["Promulgar lleis locals pròpies que invalidin les europees.", false],
+      ["Evitar pagar les sancions de protecció de dades modificant-ne els llindars.", false],
+      ["Complir amb les normatives legals vigents.", true],
+      ["Descentralitzar absolutament tots els registres fiscals de la justícia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Si un ciutadà balear desitja consultar un historial en línia de tots els procediments que ha obert amb l'administració, quina eina és la idònia per fer-ho?",
+    "respostes": [
+      ["Carpeta Ciutadana.", true],
+      ["DISTRIBUCIO.", false],
+      ["GDIB.", false],
+      ["ROLSAC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 66. Eines d´administració electrònica a la CAIB",
+    "enunciat": "Què garanteix la combinació estructurada d'eines com REGWEB3, HELIUM i NOTIB dins de l'Administració Digital de la CAIB?",
+    "respostes": [
+      ["Que el procés d'una sol·licitud estigui gestionat digitalment des de la seva entrada, passant per la tramitació interna, fins a la notificació de sortida.", true],
+      ["Que cap dada del ciutadà es guardi més de 24 hores als servidors.", false],
+      ["L'adjudicació de contractes públics de manera totalment anònima i aleatòria.", false],
+      ["Que els documents de paper es deixin d'imprimir en tot el territori espanyol immediatament.", false]
+    ]
+  }
+]

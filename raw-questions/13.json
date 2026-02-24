@@ -1,0 +1,402 @@
+[
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què és la computació verda o Green Computing segons el document?",
+    "respostes": [
+      ["Un mètode per fabricar ordinadors exclusivament de color verd.", false],
+      ["El conjunt de pràctiques, tecnologies i polítiques orientades a reduir l'impacte ambiental de les TIC.", true],
+      ["Una tècnica per augmentar el consum elèctric dels servidors.", false],
+      ["L'ús de sistemes operatius que no requereixen electricitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quin és un dels objectius principals de la computació verda?",
+    "respostes": [
+      ["Augmentar la generació de residus electrònics.", false],
+      ["Reduir el consum energètic associat a l'ús d'equips i centres de dades.", true],
+      ["Substituir els equips cada any per models més nous.", false],
+      ["Eliminar l'ús d'energies renovables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Per què és important estendre la vida útil de l'equipament segons la computació verda?",
+    "respostes": [
+      ["Perquè els equips antics són més ràpids.", false],
+      ["Perquè la fabricació de nous dispositius implica consum de matèries primeres, energia i aigua.", true],
+      ["Perquè el programari actual no necessita actualitzacions.", false],
+      ["Perquè no existeixen gestors de residus autoritzats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina mesura ajuda a allargar la vida útil dels equips?",
+    "respostes": [
+      ["El manteniment preventiu, com la neteja de ventiladors i filtres.", true],
+      ["L'apagada forçada del sistema cada hora.", false],
+      ["L'eliminació de la memòria RAM addicional.", false],
+      ["L'ús exclusiu de discos durs mecànics antics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "En què consisteix la 'reutilització interna' d'equips segons el document?",
+    "respostes": [
+      ["En desmuntar els equips i vendre les peces.", false],
+      ["En reassignar equips antics a tasques menys exigents, com ofimàtica bàsica.", true],
+      ["En utilitzar el mateix ordinador per a deu persones diferents.", false],
+      ["En cremar els components per obtenir energia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què facilita l'estandardització de models d'equips en una organització?",
+    "respostes": [
+      ["Disposar de recanvis i aprofitar components entre equips.", true],
+      ["Que tots els empleats tinguin un ordinador de color diferent.", false],
+      ["Augmentar el cost de manteniment.", false],
+      ["Reduir la velocitat de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Com es pot lluitar contra l'obsolescència prematura?",
+    "respostes": [
+      ["Optant per equips modulars i ampliables.", true],
+      ["Comprant sempre el model més barat sense possibilitat de millora.", false],
+      ["Utilitzant sistemes operatius que exigeixin el maquinari més potent.", false],
+      ["Evitant qualsevol tipus d'actualització de drivers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina mesura d'estalvi d'energia s'aconsella per als llocs de treball?",
+    "respostes": [
+      ["Mantenir la brillantor de la pantalla al màxim sempre.", false],
+      ["Configurar plans d'energia que apaguín la pantalla o suspenguin l'equip després d'inactivitat.", true],
+      ["No apagar mai els monitors al finalitzar la jornada.", false],
+      ["Evitar l'ús d'ordinadors portàtils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Per què s'aconsella l'ús de portàtils en lloc d'ordinadors de sobretaula quan és viable?",
+    "respostes": [
+      ["Perquè ocupen més espai.", false],
+      ["Perquè solen consumir menys energia.", true],
+      ["Perquè la seva pantalla és més gran.", false],
+      ["Perquè no es poden reciclar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "En servidors i centres de dades, quin és un mètode clau d'estalvi energètic?",
+    "respostes": [
+      ["Virtualització i consolidació per reduir el nombre de servidors físics.", true],
+      ["Augmentar el nombre de servidors físics infrautilitzats.", false],
+      ["Mantenir servidors obsolets encesos sense serveis actius.", false],
+      ["Eliminar la climatització completament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què és el 'right-sizing' en centres de dades?",
+    "respostes": [
+      ["Pintar els servidors de la mida adequada.", false],
+      ["Dimensionar correctament els servidors per evitar infraestructures sobredimensionades.", true],
+      ["Comprar sempre els servidors més grans del mercat.", false],
+      ["Reduir la mida física dels cables de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina certificació d'eficiència energètica es menciona com a exemple per al maquinari?",
+    "respostes": [
+      ["Energy Star.", true],
+      ["Blue Planet.", false],
+      ["Green Chip.", false],
+      ["ISO 9001.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Com es resumeix la jerarquia de gestió de residus electrònics (RAEE)?",
+    "respostes": [
+      ["Comprar, usar i llençar.", false],
+      ["Reduir, reutilitzar i reciclar.", true],
+      ["Emmagatzemar, oblidar i cremar.", false],
+      ["Actualitzar, accelerar i augmentar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què s'ha de fer obligatòriament abans de retirar o reciclar un equip informàtic?",
+    "respostes": [
+      ["Netejar la carcassa amb aigua.", false],
+      ["Garantir el borrat segur o destrucció física de les dades emmagatzemades.", true],
+      ["Instal·lar l'última versió de Windows.", false],
+      ["Regalar el teclat al primer que passi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "On s'han de dipositar els equips electrònics al final de la seva vida útil?",
+    "respostes": [
+      ["A les escombraries convencionals.", false],
+      ["En punts nets o mitjançant programes específics de recollida de RAEE.", true],
+      ["Al contenidor de paper i cartró.", false],
+      ["Al pati de l'oficina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quines són les fonts d'energia renovable més habituals aplicades a les TIC?",
+    "respostes": [
+      ["Carbó i gas natural.", false],
+      ["Solar fotovoltaica, eòlica i hidràulica.", true],
+      ["Energia nuclear de fissió.", false],
+      ["Bateries de liti no recarregables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què és la 'compra verda' en l'àmbit de les polítiques organitzatives?",
+    "respostes": [
+      ["Comprar només equips de color verd.", false],
+      ["Incorporar criteris ambientals i d'eficiència energètica en els processos de compra.", true],
+      ["Comprar equips sense mirar l'etiqueta energètica.", false],
+      ["Comprar només a proveïdors que no utilitzin paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quin indicador es menciona per mesurar l'eficiència en centres de dades?",
+    "respostes": [
+      ["PUE (Power Usage Effectiveness).", true],
+      ["CPU (Central Processing Unit).", false],
+      ["RAM (Random Access Memory).", false],
+      ["HTTP (Hypertext Transfer Protocol).", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què implica la formació i sensibilització del personal en computació verda?",
+    "respostes": [
+      ["Donar classes de jardineria.", false],
+      ["Conscienciar sobre l'impacte ambiental de l'ús de les TIC.", true],
+      ["Ensenyar a programar en llenguatges ràpids.", false],
+      ["Obligar a treballar sense llum artificial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina acció contribueix a reduir les emissions de gasos d'efecte hivernacle segons el text?",
+    "respostes": [
+      ["L'ús de fonts d'energia renovables.", true],
+      ["L'augment del consum elèctric per tenir més servidors.", false],
+      ["La substitució d'equips cada sis mesos.", false],
+      ["La destrucció de panells solars.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què és un 'thin client' (terminal lleugera) en el context d'equips eficients?",
+    "respostes": [
+      ["Un equip de baix consum adequat per a determinats escenaris.", true],
+      ["Un teclat molt prim.", false],
+      ["Un servidor amb molta memòria RAM.", false],
+      ["Un monitor que no té cables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina mesura de climatització millora l'eficiència en centres de dades?",
+    "respostes": [
+      ["L'ús de passadissos freds i calents.", true],
+      ["L'eliminació total de la ventilació.", false],
+      ["Mantenir les portes obertes de la sala de servidors.", false],
+      ["Posar els servidors prop de les finestres assolellades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què es pretén minimitzar amb el foment del reciclatge de materials?",
+    "respostes": [
+      ["La generació de residus electrònics (e-waste).", true],
+      ["La velocitat dels processadors.", false],
+      ["L'espai als despatxos.", false],
+      ["L'ús de documents electrònics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quin aspecte de l'impacte ambiental es redueix utilitzant sistemes operatius lleugers?",
+    "respostes": [
+      ["S'evita l'exigència de maquinari d'última generació, allargant la vida dels equips actuals.", true],
+      ["Es redueix el preu de la llicència del programari.", false],
+      ["Es millora la velocitat de la connexió a Internet.", false],
+      ["S'augmenta la mida física del disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina d'aquestes és una 'bona pràctica' organitzativa mencionada?",
+    "respostes": [
+      ["Imprimir tots els correus electrònics.", false],
+      ["Establir polítiques internes sobre l'apagada d'equips.", true],
+      ["Mantenir els monitors encesos tota la nit.", false],
+      ["Comprar equips que no es puguin ampliar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què busca la computació verda al llarg de tot el cicle de vida de les TIC?",
+    "respostes": [
+      ["Reduir l'impacte ambiental des del disseny fins a la retirada de l'equip.", true],
+      ["Només reduir el preu del maquinari.", false],
+      ["Maximitzar la potència de càlcul sense importar el consum.", false],
+      ["Eliminar la necessitat d'usar ordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Per què l'actualització de la memòria RAM o el canvi a SSD es considera computació verda?",
+    "respostes": [
+      ["Perquè fa que l'ordinador sembli nou.", false],
+      ["Perquè permet allargar la vida útil de l'equip sense haver de comprar-ne un de nou.", true],
+      ["Perquè els mòduls de RAM són de color verd.", false],
+      ["Perquè el disc SSD consumeix més energia que el mecànic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quin perill contenen alguns components dels residus electrònics?",
+    "respostes": [
+      ["Substàncies perilloses que requereixen una gestió controlada.", true],
+      ["Dades personals que es regeneren soles.", false],
+      ["Oxigen en estat sòlid.", false],
+      ["Imants que atrauen l'energia solar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina d'aquestes accions és un exemple de 'reduir' en la jerarquia de residus?",
+    "respostes": [
+      ["Adquirir només l'equipament necessari evitant compres innecessàries.", true],
+      ["Regalar el maquinari vell a una ONG.", false],
+      ["Portar l'ordinador al punt net.", false],
+      ["Canviar el monitor per un de més gran cada any.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què permet a les organitzacions garantir l'origen de la seva energia?",
+    "respostes": [
+      ["Contractar subministraments elèctrics amb garanties d'origen renovable.", true],
+      ["Endollar els equips a les bateries dels cotxes.", false],
+      ["Utilitzar només cables de xarxa de categoria 6.", false],
+      ["Pintar l'edifici amb pintura aïllant.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quin d'aquests indicadors ajuda a fer un seguiment de la sostenibilitat TIC?",
+    "respostes": [
+      ["La petjada de carboni associada.", true],
+      ["El nombre de píxels del monitor.", false],
+      ["La velocitat del ratolí.", false],
+      ["La quantitat de programes instal·lats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "En què ajuda la hibernació d'un equip en comparació amb tenir-lo encès?",
+    "respostes": [
+      ["En augmentar la temperatura de l'habitació.", false],
+      ["En reduir el consum energètic quan l'equip no s'utilitza.", true],
+      ["En esborrar els fitxers temporals.", false],
+      ["En desfragmentar el disc dur automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Què és la 'obsolescència comercial' segons el context del tema?",
+    "respostes": [
+      ["Quan un equip es trenca físicament.", false],
+      ["Quan es canvia un equip encara funcional per pressió del mercat o noves modes.", true],
+      ["Quan el fabricant ja no existeix.", false],
+      ["Quan l'equip no té connexió USB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina d'aquestes és una pràctica sostenible relacionada amb el disseny d'infraestructures?",
+    "respostes": [
+      ["Instal·lar panells solars propis.", true],
+      ["Utilitzar sistemes d'aire condicionat molt antics.", false],
+      ["Augmentar la il·luminació artificial innecesàriament.", false],
+      ["Cremar el paper de les oficines.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "A què es refereix el concepte de 'e-waste'?",
+    "respostes": [
+      ["Al correu brossa (spam).", false],
+      ["A la generació de residus electrònics.", true],
+      ["Al malbaratament de temps a Internet.", false],
+      ["A la pèrdua de paquets en una xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Com pot un fabricant ajudar a la computació verda?",
+    "respostes": [
+      ["Oferint suport de drivers i actualitzacions durant un període prolongat.", true],
+      ["Dissenyant equips que siguin impossibles d'obrir.", false],
+      ["Llançant un nou model cada tres mesos incompatible amb l'anterior.", false],
+      ["Eliminant les certificacions d'eficiència energètica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina és la conseqüència de substituir equips abans d'hora?",
+    "respostes": [
+      ["S'incrementa innecesàriament l'impacte ambiental.", true],
+      ["L'empresa sempre estalvia diners.", false],
+      ["Es redueix el consum d'aigua a la fàbrica.", false],
+      ["Millora la qualitat de l'aire de l'oficina immediatament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quina mesura organitzativa afavoreix l'ús responsable de recursos?",
+    "respostes": [
+      ["L'ús preferent de documents electrònics en lloc de paper.", true],
+      ["L'obligació de mantenir totes les impressores enceses.", false],
+      ["Evitar qualsevol campanya de conscienciació ambiental.", false],
+      ["No fer seguiment dels indicadors de consum elèctric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "Quin valor té el reciclatge pel que fa als materials dels equips?",
+    "respostes": [
+      ["Permet recuperar materials valuosos com metalls i plàstics de qualitat.", true],
+      ["Cap, ja que el reciclatge és més contaminant que la fabricació.", false],
+      ["Només serveix per destruir proves informàtiques.", false],
+      ["Permet transformar el plàstic en electricitat directament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 13. Computació verda (Green Computing)",
+    "enunciat": "En resum, què busca la computació verda pel que fa a la sostenibilitat?",
+    "respostes": [
+      ["Aturar el progrés tecnològic.", false],
+      ["Aconseguir una major sostenibilitat del ecosistema digital combinant mesures tècniques i polítiques.", true],
+      ["Fer que els ordinadors funcionin més a poc a poc.", false],
+      ["Prohibir l'ús de servidors a les empreses.", false]
+    ]
+  }
+]

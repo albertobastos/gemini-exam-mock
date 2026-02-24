@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és HTML5?",
+    "respostes": [
+      ["Un programari de base de dades.", false],
+      ["La cinquena revisió important de l'estàndard HTML, base de la web moderna.", true],
+      ["Un llenguatge de programació de servidor.", false],
+      ["Un editor de text.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quines són algunes de les noves etiquetes semàntiques introduïdes a HTML5?",
+    "respostes": [
+      ["<div1>, <div2>, <div3>.", false],
+      ["<header>, <footer>, <article>, <section>, <nav>.", true],
+      ["<bold>, <italic>, <underline>.", false],
+      ["<sql>, <db>, <query>.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina funcionalitat permeten les etiquetes <audio> i <video> a HTML5?",
+    "respostes": [
+      ["Només reproduir fitxers locals.", false],
+      ["Incloure contingut multimèdia directament sense necessitat de plugins externs com Flash.", true],
+      ["Editar vídeos al navegador.", false],
+      ["Gravar àudio del micròfon automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina diferència hi ha entre <canvas> i SVG?",
+    "respostes": [
+      ["<canvas> és per a text i SVG per a imatges.", false],
+      ["<canvas> dibuixa gràfics rasteritzats via JavaScript; SVG defineix gràfics vectorials escalables.", true],
+      ["SVG no es pot estilitzar amb CSS.", false],
+      ["<canvas> és vectorial i SVG és de mapa de bits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què permet l'API de Geolocalització d'HTML5?",
+    "respostes": [
+      ["Saber la marca de l'ordinador.", false],
+      ["Obtenir la ubicació geogràfica de l'usuari amb el seu permís.", true],
+      ["Calcular rutes de trànsit.", false],
+      ["Localitzar el servidor web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quin és l'objectiu principal de CSS3?",
+    "respostes": [
+      ["Definir l'estructura del document.", false],
+      ["Definir l'estil i la presentació visual, separant-lo del contingut.", true],
+      ["Programar la lògica de negoci.", false],
+      ["Gestionar la base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què permeten les 'Media Queries' en CSS3?",
+    "respostes": [
+      ["Reproduir música de fons.", false],
+      ["Aplicar estils diferents segons les característiques del dispositiu (com la mida de la pantalla), facilitant el disseny responsiu.", true],
+      ["Consultar la base de dades des de CSS.", false],
+      ["Imprimir el document.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina tecnologia CSS3 facilita la disposició d'elements en una sola dimensió (fila o columna)?",
+    "respostes": [
+      ["Grid Layout.", false],
+      ["Flexbox.", true],
+      ["Tables.", false],
+      ["Floats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina és la funció principal de JavaScript en el desenvolupament web?",
+    "respostes": [
+      ["Donar format al text.", false],
+      ["Afegir interactivitat, manipular el DOM i gestionar esdeveniments.", true],
+      ["Definir l'estructura semàntica.", false],
+      ["Compilar el codi HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és el DOM (Document Object Model)?",
+    "respostes": [
+      ["Un model de base de dades.", false],
+      ["Una representació en forma d'arbre de l'estructura d'una pàgina web que JavaScript pot manipular.", true],
+      ["Un protocol de seguretat.", false],
+      ["Un estil de disseny.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina característica d'ES6 permet una sintaxi més concisa per a les funcions?",
+    "respostes": [
+      ["Funcions de fletxa (Arrow Functions).", true],
+      ["Funcions anònimes.", false],
+      ["Closures.", false],
+      ["Promises.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què permet la programació asíncrona en JavaScript (Promises, Async/Await)?",
+    "respostes": [
+      ["Executar tot el codi de cop.", false],
+      ["Gestionar operacions llargues (com peticions de xarxa) sense bloquejar l'execució del programa.", true],
+      ["Evitar l'ús de funcions.", false],
+      ["Programar sense variables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quin és l'element central de React per millorar el rendiment?",
+    "respostes": [
+      ["L'ús exclusiu d'HTML.", false],
+      ["El DOM Virtual.", true],
+      ["L'absència de JavaScript.", false],
+      ["L'ús de bases de dades locals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és JSX en React?",
+    "respostes": [
+      ["Un error de compilació.", false],
+      ["Una extensió de sintaxi que permet escriure estructura tipus HTML dins de JavaScript.", true],
+      ["Un fitxer CSS.", false],
+      ["Una base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quin llenguatge utilitza principalment Angular?",
+    "respostes": [
+      ["Java.", false],
+      ["TypeScript.", true],
+      ["Python.", false],
+      ["Ruby.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina característica destaca en Vue.js?",
+    "respostes": [
+      ["La seva complexitat.", false],
+      ["La seva progressivitat i facilitat d'integració.", true],
+      ["L'obligatorietat d'usar TypeScript.", false],
+      ["Que no utilitza HTML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és Node.js?",
+    "respostes": [
+      ["Un navegador web.", false],
+      ["Una plataforma d'execució de JavaScript al costat del servidor basada en el motor V8.", true],
+      ["Un framework de CSS.", false],
+      ["Una base de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina característica defineix el model d'execució de Node.js?",
+    "respostes": [
+      ["Síncron i bloquejant.", false],
+      ["Asíncron, orientat a esdeveniments i I/O no bloquejant.", true],
+      ["Multifil (multithreaded) tradicional.", false],
+      ["Basat en XML.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quin framework de Python segueix la filosofia 'batteries included'?",
+    "respostes": [
+      ["Flask.", false],
+      ["Django.", true],
+      ["Express.", false],
+      ["Laravel.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina filosofia segueix Ruby on Rails?",
+    "respostes": [
+      ["Configuració sobre convenció.", false],
+      ["Convenció sobre configuració (Convention over Configuration).", true],
+      ["Tot manual.", false],
+      ["Sense estructura definida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què signifiquen les sigles MEAN en el context de Full-Stack?",
+    "respostes": [
+      ["MySQL, Express, Apache, Node.", false],
+      ["MongoDB, Express.js, Angular, Node.js.", true],
+      ["MariaDB, Ember, Angular, Nginx.", false],
+      ["MongoDB, Electron, Apache, .NET.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és una Single Page Application (SPA)?",
+    "respostes": [
+      ["Una aplicació amb una sola imatge.", false],
+      ["Una aplicació web que carrega una única pàgina i actualitza el contingut dinàmicament sense recarregar.", true],
+      ["Una aplicació que només funciona en una pestanya.", false],
+      ["Un lloc web estàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què són els Web Sockets en HTML5?",
+    "respostes": [
+      ["Endolls físics.", false],
+      ["Una API per a la comunicació bidireccional en temps real entre client i servidor.", true],
+      ["Un tipus de variable.", false],
+      ["Una eina de disseny.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què permet fer l'API 'Web Storage' (localStorage i sessionStorage)?",
+    "respostes": [
+      ["Guardar fitxers al servidor.", false],
+      ["Emmagatzemar dades al navegador de l'usuari de manera persistent o per sessió.", true],
+      ["Esborrar el disc dur.", false],
+      ["Enviar dades per correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què són els preprocessadors CSS com SASS o LESS?",
+    "respostes": [
+      ["Navegadors web.", false],
+      ["Eines que estenen CSS amb variables i funcions, i es compilen a CSS estàndard.", true],
+      ["Servidors web.", false],
+      ["Bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és l'Event Loop en JavaScript?",
+    "respostes": [
+      ["Un error de programació.", false],
+      ["El mecanisme que gestiona l'execució de codi, la recollida d'esdeveniments i les operacions asíncrones.", true],
+      ["Un bucle 'for' infinit.", false],
+      ["Una funció de dibuix.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina característica d'Angular facilita la gestió de dependències?",
+    "respostes": [
+      ["Dependency Injection (DI).", true],
+      ["Virtual DOM.", false],
+      ["JSX.", false],
+      ["Vuex.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què permeten els Hooks en React?",
+    "respostes": [
+      ["Penjar quadres.", false],
+      ["Utilitzar l'estat i altres funcionalitats de React en components funcionals sense usar classes.", true],
+      ["Connectar amb Angular.", false],
+      ["Escriure CSS en JS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és Express.js?",
+    "respostes": [
+      ["Un navegador ràpid.", false],
+      ["Un framework minimalista per a Node.js per crear aplicacions web i APIs.", true],
+      ["Un servei de correu.", false],
+      ["Un editor de codi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és l'ORM en Django o Rails?",
+    "respostes": [
+      ["Un objecte volador.", false],
+      ["Object-Relational Mapping, per interactuar amb la base de dades usant objectes del llenguatge en lloc de SQL.", true],
+      ["Un protocol de seguretat.", false],
+      ["Un tipus de servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què és un PWA (Progressive Web App)?",
+    "respostes": [
+      ["Una aplicació lenta.", false],
+      ["Una aplicació web que utilitza tecnologies modernes per oferir una experiència similar a una aplicació nativa.", true],
+      ["Una web antiga.", false],
+      ["Un fitxer PDF.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quin mètode s'utilitza modernament per fer peticions de xarxa a JavaScript, substituint sovint a XMLHttpRequest?",
+    "respostes": [
+      ["Fetch API.", true],
+      ["Gopher.", false],
+      ["FTP.", false],
+      ["Telnet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina novetat de CSS3 permet animacions sense JavaScript?",
+    "respostes": [
+      ["@keyframes i transition.", true],
+      ["<blink>.", false],
+      ["<marquee>.", false],
+      ["jQuery.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina característica de Vue.js permet encapsular HTML, CSS i JS en un sol fitxer?",
+    "respostes": [
+      ["Single File Components (.vue).", true],
+      ["Multi-page Modules.", false],
+      ["Separate Concerns.", false],
+      ["Global Scripts.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Què signifiquen les sigles MERN?",
+    "respostes": [
+      ["MongoDB, Express, React, Node.", true],
+      ["MySQL, Ember, Ruby, Nginx.", false],
+      ["MariaDB, Electron, Rust, Netlify.", false],
+      ["MongoDB, Express, Rails, Node.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina característica de disseny web permet que una pàgina s'adapti a mòbils i escriptori?",
+    "respostes": [
+      ["Disseny Responsiu (Responsive Design).", true],
+      ["Disseny Estàtic.", false],
+      ["Disseny Fix.", false],
+      ["Disseny en Paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quina tecnologia permet dibuixar gràfics 2D via script a HTML5?",
+    "respostes": [
+      ["<canvas>.", true],
+      ["<table>.", false],
+      ["<div>.", false],
+      ["<span>.", false]
+    ]
+  },
+  {
+    "tema": "Tema 39. Programació Web: L´estàndard HTML5, CSS3, JavaScript. Frameworks de desenvolupament Web",
+    "enunciat": "Quin sistema de disseny bidimensional ofereix CSS3?",
+    "respostes": [
+      ["Grid Layout.", true],
+      ["Float Layout.", false],
+      ["Table Layout.", false],
+      ["Absolute Positioning.", false]
+    ]
+  }
+]

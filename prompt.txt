@@ -1,0 +1,43 @@
+I have a .json file filled with questions for self-evaluate my knowledge for an exam. The file looks like this:
+
+[
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què signifiquen les sigles RAID?",
+    "respostes": [
+      ["Rapid Access of Independent Data.", false],
+      ["Redundant Array of Independent Disks.", true],
+      ["Reliable Allocation of Internal Drives.", false],
+      ["Random Access Integrated Devices.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina és la característica principal del RAID 0?",
+    "respostes": [
+      ["Duplica les dades en dos discos.", false],
+      ["Utilitza paritat per protegir les dades.", false],
+      ["Distribueix les dades en blocs entre dos o més discos sense redundància.", true],
+      ["Permet la fallada de fins a dos discos.", false]
+    ]
+  }
+]
+
+For each item the attributes are as follow:
+
+- "tema": Name of the topic the question is refering to. There are several questions for each topic.
+- "enunciat": The question body.
+- "respostes": An "array or arrays" with four possible answers. For each answer, the [0] position is the answer body and the [1] position a boolean that determines whether it is the right answer or not.
+
+I want a PROGRESSIVE WEB APP that loads this .json file and creates a "Exam form" with the following requirements:
+
+- I can choose what topics to include in the exam. By default, all topics are included.
+- I can choose the amount of questions to include. By default, 100 questions are generated.
+- Each right answer counts as 1/N points. Each blank answer has no impact in the score. Each wrong answer penalty is a third of a right answer value.
+- In other words, being N the amount of questions, the final score in a scale from 0 to 10 can be calculated as: (([Right answers] - ([Wrong answers])/3) / N) * 10.
+- The PWA must be prepared to be usable both from a desktop and a mobile web browser.
+- The PWA must store a local copy of the questions file, and only reload if the user clicks a "Force questions reload" button.
+- A time counter must be available, starting at the very moment the user answers a question for the first time.
+- The exam must not be evaluated until the user clicks the "Finish exam" button. When he does that, the UI shows the score for each question (with a color-based feedback) and calculates the final score.
+
+Please generate the required files for the Progressive Web App, assuming the questions file will be available at the "./questions.json" path.

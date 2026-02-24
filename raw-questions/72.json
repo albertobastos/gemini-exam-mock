@@ -1,0 +1,322 @@
+[
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què són els Grans Models de Llenguatge (LLM) segons el document?",
+    "respostes": [
+      ["Xarxes neuronals profundes entrenades amb volums massius de dades textuals per comprendre i generar llenguatge natural.", true],
+      ["Bases de dades relacionals que emmagatzemen diccionaris oficials de múltiples idiomes per buscar paraules.", false],
+      ["Sistemes de maquinari dissenyats específicament per emetre veu sintetitzada de forma analògica.", false],
+      ["Algorismes d'ordenació alfabètica utilitzats en directoris d'empleats públics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quina és l'arquitectura de xarxa neuronal subjacent en la majoria dels LLM moderns com GPT, BERT o PaLM?",
+    "respostes": [
+      ["Transformers.", true],
+      ["Xarxes d'Anell Token.", false],
+      ["Arbres de decisió binaris simples.", false],
+      ["Sistemes d'encadenament cap enrere.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin mecanisme clau utilitzen els models basats en Transformers per ponderar la importància de cada paraula segons el context?",
+    "respostes": [
+      ["El mecanisme de self-attention (auto-atenció).", true],
+      ["La factorització matricial inversa.", false],
+      ["El descens del gradient cíclic.", false],
+      ["La traducció fonètica asíncrona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Durant el cicle de vida d'un LLM, quina és la finalitat de la fase de 'Fine-tuning'?",
+    "respostes": [
+      ["L'adaptació i especialització del model a dominis concrets (com el mèdic, legal o administratiu).", true],
+      ["L'aprenentatge general sobre corpus massius de dades en brut (internet sencer).", false],
+      ["L'alineació del model amb els valors humans utilitzant avaluadors físics.", false],
+      ["El tancament definitiu de la base de coneixement per evitar modificacions posteriors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "A què fa referència el procés RLHF en l'entrenament de models de llenguatge?",
+    "respostes": [
+      ["És un ajust final (Reinforcement Learning from Human Feedback) per alinear el model amb valors humans i reduir biaixos.", true],
+      ["És la fase on el model llegeix llibres d'història per memoritzar fets absoluts.", false],
+      ["És un algorisme per esborrar automàticament els comptes d'usuaris inactius del sistema.", false],
+      ["És el procés de factorització de matrius per sistemes de recomanació de vídeo.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin dels següents és considerat un risc rellevant (identificat al text) en l'ús de Grans Models de Llenguatge?",
+    "respostes": [
+      ["Les anomenades 'Hallucinations', on el model comet errors factuals o inventa dades.", true],
+      ["La incapacitat absoluta per generar frases en qualsevol idioma que no sigui l'anglès.", false],
+      ["L'excessiva velocitat de resposta que pot col·lapsar les xarxes Wi-Fi domèstiques.", false],
+      ["Que obliguen l'usuari a conèixer llenguatges de programació complexos per poder fer una pregunta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "A què es refereix l'expressió 'caixa negra' quan es parla de certs models avançats d'Intel·ligència Artificial?",
+    "respostes": [
+      ["A la falta d'explicabilitat sobre com l'algorisme i la xarxa neuronal han arribat a generar un resultat concret.", true],
+      ["A la carcassa física on es guarden els servidors per evitar el robatori de dades.", false],
+      ["Al protocol de xifrat de dades utilitzat per comunicar-se amb l'API del model.", false],
+      ["Al mecanisme de recuperació de dades en cas d'apagada elèctrica massiva.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quina és l'estratègia d'un sistema de recomanació 'basat en contingut'?",
+    "respostes": [
+      ["Analitzar les característiques intrínseques dels ítems (com gènere o paraules clau) per suggerir-ne d'altres semblants al que agradava a l'usuari.", true],
+      ["Basar-se exclusivament en l'historial de visualització de tots els altres usuaris de la mateixa ciutat.", false],
+      ["Recomanar sempre les opcions més barates o gratuïtes de la botiga en línia.", false],
+      ["Seleccionar elements a l'atzar cada vegada que l'usuari recarrega la pàgina web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què utilitza principalment un sistema de recomanació de filtratge 'Col·laboratiu'?",
+    "respostes": [
+      ["El comportament i interaccions d'usuaris similars (pot ser user-to-user o item-to-item).", true],
+      ["La descripció del text escrit del producte llegit mitjançant tècniques de Processament de Llenguatge Natural.", false],
+      ["El codi postal i les dades fiscals obtingudes de la base de dades estatal.", false],
+      ["La lògica formal SI-LLAVORS establerta manualment pel desenvolupador del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Per a què són particularment útils els sistemes de recomanació 'Híbrids' (que combinen els basats en contingut i els col·laboratius)?",
+    "respostes": [
+      ["Per mitigar el problema del 'Cold Start' (la falta de dades històriques inicials d'usuaris o ítems nous).", true],
+      ["Per complir amb les normatives de protecció de dades europees d'esborrat d'historial.", false],
+      ["Per evitar el cost de manteniment de les ontologies en sistemes experts.", false],
+      ["Per traduir automàticament les recomanacions a diferents llengües oficials.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin d'aquests algorismes és destacat a l'hora de parlar del filtratge per sistemes de recomanació?",
+    "respostes": [
+      ["Filtrat col·laboratiu mitjançant k-NN, Factorització matricial i Autoencoders.", true],
+      ["La generació sintètica de veu mitjançant models GPT.", false],
+      ["El protocol de transferència OSPF i la commutació de paquets.", false],
+      ["L'encadenament cap endavant de la lògica de predicats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què facilita la tecnologia TTS (Text-to-Speech) dins dels assistents intel·ligents?",
+    "respostes": [
+      ["La síntesi de veu, permetent que l'assistent llegeixi o respongui parlant en veu alta a l'usuari.", true],
+      ["La comprensió i interpretació d'ordres textuals complexes de diverses frases.", false],
+      ["El xifratge de l'àudio de l'usuari per enviar-lo als servidors del proveïdor.", false],
+      ["L'organització del directori telefònic de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Dins de la Gestió del Coneixement (Knowledge Management), què es defineix com a coneixement 'Tàcit'?",
+    "respostes": [
+      ["Aquell que és personal, intuïtiu, resultat de l'experiència acumulada i que és difícil de formalitzar o documentar.", true],
+      ["Aquell que està perfectament estructurat i publicat oficialment a les wikis o bases de dades corporatives.", false],
+      ["El codi informàtic que ha estat auditat i aprovat pels responsables de sistemes.", false],
+      ["La informació que es descarrega automàticament des d'un portal de transparència públic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Com es defineix el coneixement 'Explícit'?",
+    "respostes": [
+      ["Com un coneixement documentat, estructurat i fàcilment transmissible en forma de manuals, bases de dades, o wikis.", true],
+      ["Com les intuïcions personals i trucs que cada empleat té i no comparteix mai.", false],
+      ["Com les ordres de veu que l'usuari dóna a un assistent virtual com Siri.", false],
+      ["Com l'experiència pràctica d'aprendre a anar en bicicleta o tocar un instrument musical.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin cicle descriu el Model SECI de Nonaka i Takeuchi en la gestió del coneixement?",
+    "respostes": [
+      ["El cicle de creació de coneixement a través de les fases de Socialització, Externalització, Combinació i Internalització.", true],
+      ["El cicle de destrucció i purga segura de dades obsoletes de l'administració.", false],
+      ["El cicle de vida d'una aplicació informàtica des de l'anàlisi de requisits fins a la jubilació del programari.", false],
+      ["El mètode d'aprenentatge dels Grans Models de Llenguatge abans del Fine-tuning.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què succeeix durant la fase de 'Socialització' del Model SECI?",
+    "respostes": [
+      ["Es comparteixen experiències i coneixement de forma directa (de Tàcit a Tàcit) a través de reunions informals o mentoratge.", true],
+      ["La intuïció de l'empleat s'escriu per primera vegada en un document estructurat (de Tàcit a Explícit).", false],
+      ["S'integren múltiples documents manuals en un nou llibre procedimental global (d'Explícit a Explícit).", false],
+      ["L'empleat llegeix el manual de funcionament i el posa en pràctica interioritzant-lo (d'Explícit a Tàcit).", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En el Model SECI, què representa la 'Externalització'?",
+    "respostes": [
+      ["És la conversió de la intuïció i l'experiència en conceptes formals, com pot ser la redacció d'un manual (de Tàcit a Explícit).", true],
+      ["És el procés d'escoltar i observar un company més veterà (de Tàcit a Tàcit).", false],
+      ["És la fase d'entrenar una xarxa neuronal exclusivament amb servidors externs al núvol.", false],
+      ["És el procés d'estudiar la documentació existent per aplicar-la millor (d'Explícit a Tàcit).", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què passa a l'etapa de 'Combinació' segons el Model SECI?",
+    "respostes": [
+      ["S'integren i reorganitzen diferents fonts d'informació estructurada, com integrar sistemes ECM o bases de dades (d'Explícit a Explícit).", true],
+      ["Un equip comparteix lliçons apreses en una conversa de passadís informal (de Tàcit a Tàcit).", false],
+      ["L'assistent virtual converteix un text de l'usuari en una locució de veu (TTS).", false],
+      ["Els empleats interioritzen nous processos treballant diàriament amb ells (d'Explícit a Tàcit).", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "La fase d''Internalització' del Model SECI es refereix a:",
+    "respostes": [
+      ["La incorporació del coneixement documentat a l'experiència pròpia, per exemple mitjançant la formació contínua o l''aprendre fent' (d'Explícit a Tàcit).", true],
+      ["L'enviament de l'historial mèdic d'un pacient de l'hospital a l'arxiu centralitzat autonòmic.", false],
+      ["La substitució del personal humà per màquines a l'hora de prendre decisions institucionals complexes.", false],
+      ["L'escriptura d'un nou protocol de prevenció de riscos a la feina (de Tàcit a Explícit).", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Què és un Sistema Expert (SE) segons els conceptes estudiats?",
+    "respostes": [
+      ["Un programa d'IA que emula el raonament i l'expertesa d'un professional humà en un domini concret per ajudar a resoldre problemes complexos.", true],
+      ["Un generador de text lliure basat en xarxes neuronals recurrents sense regles de decisió.", false],
+      ["Un motor de cerca que organitza els webs segons l'algorisme de PageRank.", false],
+      ["Un dispositiu de maquinari dissenyat per refredar components en els centres de dades massius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quins són els components arquitectònics principals d'un Sistema Expert?",
+    "respostes": [
+      ["La Base de coneixement, el Motor d'inferència, i la Interfície d'usuari / Mòdul d'Explicació.", true],
+      ["El Motor de síntesi de veu (TTS), la base de dades vectoritzada i l'API de tercers.", false],
+      ["La unitat de control de memòria, la tarja de xarxa i el tallafocs corporatiu.", false],
+      ["El mecanisme de Self-Attention, la capa d'embotició (Embedding) i el transformador final.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Dins de l'arquitectura d'un Sistema Expert, per a què serveix la 'Base de coneixement'?",
+    "respostes": [
+      ["Conté i emmagatzema de manera formal els fets i les regles expertes (per exemple, lògica SI-LLAVORS o ontologies) referents a un domini.", true],
+      ["Analitza gràfics en 3D en temps real per al reconeixement facial de l'usuari.", false],
+      ["És la pantalla on el tècnic pot veure els missatges d'error enviats pel servidor.", false],
+      ["Tradueix els algoritmes d'alt nivell a codi de màquina (zeros i uns).", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin és el propòsit del 'Motor d'inferència' en un Sistema Expert?",
+    "respostes": [
+      ["Aplicar lògicament les regles sobre les dades per deduir solucions o conclusions (fent servir encadenament cap endavant o cap enrere).", true],
+      ["Permetre a l'usuari entendre per què el sistema ha escollit aquesta opció mitjançant llenguatge natural simple.", false],
+      ["Emmagatzemar tots els noms i dades personals dels usuaris que es connecten al servidor de la xarxa SARA.", false],
+      ["Capturar l'àudio de l'entorn i buscar l'ordre d'activació dins del micròfon del dispositiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quina de les opcions s'esmenta com a una 'limitació' típica dels Sistemes Experts?",
+    "respostes": [
+      ["La seva rigidesa davant l'aparició de canvis nous no previstos, i la dificultat tècnica i cost d'adquisició i manteniment d'aquell coneixement.", true],
+      ["La seva incapacitat absoluta d'utilitzar regles de decisió condicionals del tipus 'SI-LLAVORS'.", false],
+      ["La seva excessiva creativitat que provoca que els resultats siguin completament aleatoris en cada ús.", false],
+      ["L'obligatorietat de requerir el pagament de drets d'autor a ChatGPT per poder funcionar legalment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "En referència a la normativa i ètica en el sector públic, què aporta o garanteix l'Estratègia Europea d'IA (AI Act)?",
+    "respostes": [
+      ["S'enfoca a proporcionar mecanismes legals vinculants sobre el grau de risc i la transparència que han de complir els sistemes d'IA per operar a Europa.", true],
+      ["Prohibeix qualsevol ús d'eines tecnològiques dins de l'administració per preservar llocs de feina manuals.", false],
+      ["Estableix l'obligació que totes les dades emmagatzemades estiguin físicament presents al territori espanyol sense excepció.", false],
+      ["Limita exclusivament les funcions de la IA al sector educatiu escolar i descarta cap incidència a l'àmbit judicial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "El principi ètic conegut com 'human-in-the-loop' (humà en el bucle) s'utilitza especialment a l'Administració Pública per assegurar que:",
+    "respostes": [
+      ["En lloc de deixar les decisions automatitzades exclusives a l'algorisme, hi hagi una supervisió o responsabilitat humana involucrada en la decisió final.", true],
+      ["Les màquines desenvolupades emulin emocions humanes per proporcionar un tracte més proper al ciutadà.", false],
+      ["La formació dels sistemes recaigui exclusivament i físicament sobre treballadors sense l'ajuda de xarxes neurals.", false],
+      ["Qualsevol dada personal del sistema s'hagi de tornar a introduir a mà de manera obligatòria abans de confirmar qualsevol pagament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Entre els grans beneficis assenyalats de la IA a l'Administració Pública hi trobem una solució clau al 'relleu generacional'. En què consisteix?",
+    "respostes": [
+      ["Aprofitar la IA per externalitzar el coneixement expert, de manera que la pèrdua de funcionaris veterans per jubilació es mitiga preservant i retenint aquesta experiència.", true],
+      ["Fomentar la substitució ràpida de caps de departament de més de 60 anys per joves graduats universitaris que usin ordinadors exclusivament.", false],
+      ["L'automatització total dels tràmits que elimina la necessitat que hi hagi cap treballador del servei públic d'atenció.", false],
+      ["Programar els assistents per contestar només amb argot modern als ciutadans joves i així atreure les noves generacions de funcionaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "A l'annex pràctic del document, quina llibreria d'entorn Python es menciona explícitament per poder executar una implementació de generació de text utilitzant el model GPT-2?",
+    "respostes": [
+      ["La funció `pipeline` de la llibreria `transformers` d'HuggingFace.", true],
+      ["La crida als mètodes bàsics del sistema `TensorFlow` en solitari de forma nativa.", false],
+      ["El mòdul general de xarxes de `SciPy` matemàtic.", false],
+      ["L'aplicació d'escriptori de pagament Windows `DeepText` Pro.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "D'acord amb l'annex sobre sistemes de recomanació amb Python (`sklearn`), quina mètrica matemàtica s'empra al codi d'exemple per calcular l'afinitat de preferències de dos usuaris diferents?",
+    "respostes": [
+      ["La similitud del cosinus (`cosine_similarity`).", true],
+      ["La distància clàssica de Chebyshev.", false],
+      ["L'algorisme de regressió logarítmica d'evolució natural.", false],
+      ["El factoritzador d'àrea integral aleatòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "A la taula final del resum tecnològic, quin és un dels possibles usos dels LLM (Grans Models de Llenguatge) en l'Administració destacat pel seu punt fort (versatilitat en el llenguatge)?",
+    "respostes": [
+      ["El resum d'expedients llargs o complexes i com a assistent intern de redacció i revisió de text per als treballadors.", true],
+      ["La validació oficial directa i sense supervisió humana del compliment jurídic normatiu d'urbanisme complex.", false],
+      ["El bloqueig automàtic de sol·licituds que contenen expressions ofensives sense cap traçabilitat del motiu per protegir la privacitat.", false],
+      ["El càlcul rigorós de l'IBI sobre els ciutadans i l'execució d'embargaments a l'acte de maneres formals i en cadena de processament en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Quin sistema tecnològic s'assenyala a la taula resum de l'annex com el més idoni per a aplicacions centrades en 'Validació normativa i diagnòstics tècnics' on l'explicabilitat i la lògica són els punts forts?",
+    "respostes": [
+      ["Sistemes Experts.", true],
+      ["LLMs per xat aleatori.", false],
+      ["Sistemes de Recomanació híbrids.", false],
+      ["Sistemes Assistents de síntesi per veu (TTS) basats en xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 72. Intel·ligència Artificial (II). Grans models de llenguatge (LLMs). Sistemes de recomanació. Assistents. Gestió del coneixement. Sistemes experts.",
+    "enunciat": "Una tècnica habitual d'interacció en els models NLU (comprensió natural en assistents intel·ligents) per a Administracions és integrar aquests assistents de xat a:",
+    "respostes": [
+      ["L'atenció al ciutadà, per resoldre dubtes d'interfície inicial i operar com a guia interactiva de primer nivell en tràmits freqüents, gràcies a la seva disponibilitat 24/7.", true],
+      ["Sistemes exclusivament físics instal·lats en pantalles sense teclat o sistema auditiu per limitar la privadesa en espais públics tancats.", false],
+      ["Revisar, acceptar o denegar de forma final i definitiva les llicències civils en aplicació pura de l'Estratègia d'IA (explicabilitat tancada).", false],
+      ["Interconnectar tots els sistemes col·laboratius i de suport financer entre governs diferents al nivell de la xarxa sTESTA exclusivament sense personal administratiu implicat.", false]
+    ]
+  }
+]

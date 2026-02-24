@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què permet crear la tecnologia de virtualització?",
+    "respostes": [
+      ["Versions virtuals de recursos físics com servidors, emmagatzematge i xarxes.", true],
+      ["Maquinari físic nou a partir de programari.", false],
+      ["Noves fonts d'energia per al centre de dades.", false],
+      ["Còpies físiques de servidors per a la seva venda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Com s'aconsegueix la virtualització segons el document?",
+    "respostes": [
+      ["Mitjançant la compra de més servidors físics.", false],
+      ["Mitjançant la separació dels recursos físics de les aplicacions i sistemes operatius.", true],
+      ["Eliminant totalment l'ús de sistemes operatius.", false],
+      ["Connectant tots els ordinadors amb cables de fibra òptica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què és una Màquina Virtual (VM)?",
+    "respostes": [
+      ["Un servidor físic molt potent.", false],
+      ["Un entorn virtual que actua com un ordinador independent amb el seu propi SO.", true],
+      ["Un programa per dibuixar plànols de CPD.", false],
+      ["La pantalla d'un monitor remot.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "En virtualització de plataforma, què és el 'Host'?",
+    "respostes": [
+      ["La màquina virtual que s'està executant.", false],
+      ["La màquina física que allotja una o més màquines virtuals.", true],
+      ["L'usuari que accedeix remotament.", false],
+      ["El proveïdor de serveis d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què és un hipervisor?",
+    "respostes": [
+      ["Un tipus de processador d'última generació.", false],
+      ["El programari que permet la creació i gestió de màquines virtuals.", true],
+      ["Un monitor de gran format per a administradors.", false],
+      ["Un protocol de seguretat de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quina és la característica principal dels hipervisors de tipus 1 (bare-metal)?",
+    "respostes": [
+      ["S'executen sobre un sistema operatiu host.", false],
+      ["S'executen directament sobre el maquinari físic sense necessitat d'un SO host.", true],
+      ["Són més fàcils d'instal·lar en un ordinador domèstic.", false],
+      ["Només funcionen en dispositius mòbils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin és un exemple d'hipervisor de tipus 1?",
+    "respostes": [
+      ["Oracle VirtualBox.", false],
+      ["VMware ESXi.", true],
+      ["VMware Workstation.", false],
+      ["Parallels Desktop.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Com s'executen els hipervisors de tipus 2 (hosted)?",
+    "respostes": [
+      ["Directament sobre el maquinari.", false],
+      ["Sobre un sistema operatiu host que proporciona els recursos.", true],
+      ["Dins del nucli de la CPU.", false],
+      ["Només a través d'un navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin avantatge tenen els hipervisors de tipus 2?",
+    "respostes": [
+      ["Major rendiment i eficiència que els de tipus 1.", false],
+      ["Són més fàcils d'instal·lar i gestionar, ideals per a proves i desenvolupament.", true],
+      ["Proporcionen el màxim aïllament de seguretat.", false],
+      ["No requereixen un sistema operatiu preinstal·lat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què succeeix en la 'virtualització completa'?",
+    "respostes": [
+      ["El SO guest ha de ser modificat.", false],
+      ["El sistema operatiu guest s'executa sense modificacions, emulant el maquinari.", true],
+      ["No s'utilitza cap hipervisor.", false],
+      ["S'elimina la capa d'abstracció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què caracteritza la paravirtualització?",
+    "respostes": [
+      ["Les VMs no saben que estan sent virtualitzades.", false],
+      ["El SO guest és modificat per treballar conjuntament amb l'hipervisor.", true],
+      ["És molt menys eficient que la virtualització completa.", false],
+      ["És incompatible amb sistemes Linux.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què permet la virtualització basada en contenidors?",
+    "respostes": [
+      ["Executar múltiples VMs amb nuclis diferents.", false],
+      ["Executar aplicacions aïllades que comparteixen el mateix nucli del SO.", true],
+      ["Virtualitzar el maquinari de xarxa exclusivament.", false],
+      ["Crear còpies de seguretat en cintes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin és un exemple destacat de tecnologia de contenidors?",
+    "respostes": [
+      ["VMware ESXi.", false],
+      ["Docker.", true],
+      ["Microsoft Hyper-V.", false],
+      ["Xen.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què és un Software-Defined Data Center (SDDC)?",
+    "respostes": [
+      ["Un CPD on tot es gestiona manualment.", false],
+      ["Un CPD on tots els elements (computació, xarxa, emmagatzematge) estan virtualitzats.", true],
+      ["Un CPD que no utilitza programari.", false],
+      ["Un magatzem de servidors físics sense xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quina tecnologia millora l'agilitat de xarxa creant xarxes virtuals sobre la infraestructura física?",
+    "respostes": [
+      ["VDI.", false],
+      ["Virtualització de xarxa (com VMware NSX).", true],
+      ["Paravirtualització.", false],
+      ["IaaS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què permeten els escriptoris virtuals (VDI)?",
+    "respostes": [
+      ["Que els usuaris accedeixin a escriptoris allotjats en servidors centrals des de qualsevol lloc.", true],
+      ["Que cada usuari tingui deu ordinadors físics al seu despatx.", false],
+      ["Eliminar la necessitat de servidors.", false],
+      ["Instal·lar aplicacions només en el disc local.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin és un benefici de seguretat de la VDI?",
+    "respostes": [
+      ["Que les dades no es guarden en els dispositius locals.", true],
+      ["Que ningú pot entrar a l'oficina físicament.", false],
+      ["Que el ratolí no pot ser hackejat.", false],
+      ["Que l'ordinador no necessita contrasenya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què és el Remote Desktop Services (RDS)?",
+    "respostes": [
+      ["Un servei per arreglar ordinadors a domicili.", false],
+      ["Una tecnologia que permet la virtualització d'aplicacions accessibles per múltiples usuaris.", true],
+      ["Un protocol per enviar correus electrònics.", false],
+      ["Un programari d'edició de fotos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Com utilitza Amazon EC2 la virtualització?",
+    "respostes": [
+      ["Per vendre llibres virtuals.", false],
+      ["Per proporcionar instàncies de servidors escalables sota demanda.", true],
+      ["Per fabricar processadors físics.", false],
+      ["Per eliminar l'ús d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quina solució es menciona per a la virtualització del lloc de treball que permet l'accés remot a aplicacions i escriptoris?",
+    "respostes": [
+      ["Docker.", false],
+      ["Citrix Virtual Apps and Desktops.", true],
+      ["Linux Kernel.", false],
+      ["SATA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin és un dels principals avantatges de la virtualització segons la conclusió?",
+    "respostes": [
+      ["Augmentar el cost de manteniment.", false],
+      ["Optimitzar l'ús de recursos, augmentar la flexibilitat i reduir costos.", true],
+      ["Fer que el maquinari sigui més pesat.", false],
+      ["Que l'ordinador no necessiti electricitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què permet la 'Isolament' en les màquines virtuals?",
+    "respostes": [
+      ["Que les VMs estiguin tancades en una caixa.", false],
+      ["Que un problema en una VM no afecti les altres perquè són independents.", true],
+      ["Que les dades no es puguin llegir mai.", false],
+      ["Que el servidor estigui apagat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què caracteritza la infraestructura IaaS en centres de dades?",
+    "respostes": [
+      ["El lloguer de recursos de computació, emmagatzematge i xarxa sota demanda.", true],
+      ["Que el client ha de comprar tot el maquinari físic.", false],
+      ["Que no es pot utilitzar el núvol.", false],
+      ["Que només serveix per a correu electrònic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quina plataforma de virtualització inclou l'hipervisor ESXi?",
+    "respostes": [
+      ["VirtualBox.", false],
+      ["VMware vSphere.", true],
+      ["Android.", false],
+      ["Windows 10.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quina és la funció de Google Cloud Platform (GCP) pel que fa als contenidors?",
+    "respostes": [
+      ["No permet l'ús de contenidors.", false],
+      ["Proporciona serveis basats en contenidors amb Kubernetes.", true],
+      ["Només ofereix virtualització de tipus 2.", false],
+      ["És un fabricant d'impressores virtuals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "En la virtualització de plataforma, què és el 'Guest'?",
+    "respostes": [
+      ["El propietari del servidor.", false],
+      ["La màquina virtual que s'executa sobre el host.", true],
+      ["El tècnic que munta el rack.", false],
+      ["Un virus informàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin paradigma de virtualització té més sobrecàrrega de rendiment però millor compatibilitat?",
+    "respostes": [
+      ["Paravirtualització.", false],
+      ["Virtualització completa.", true],
+      ["Contenidors.", false],
+      ["Virtualització de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Per a què s'utilitza principalment l'emmagatzematge virtual (SAN/NAS)?",
+    "respostes": [
+      ["Per guardar dades en un USB local.", false],
+      ["Per proporcionar emmagatzematge com un servei centralitzat.", true],
+      ["Per esborrar els fitxers inactius.", false],
+      ["Per accelerar el rellotge de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin inconvenient té la paravirtualització?",
+    "respostes": [
+      ["Que és massa ràpida.", false],
+      ["Que requereix modificacions en el sistema operatiu guest.", true],
+      ["Que no és segura.", false],
+      ["Que no existeix programari que la suporti.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin hipervisor es menciona com a exemple de Tipus 2 per a ús personal?",
+    "respostes": [
+      ["XenServer.", false],
+      ["Oracle VM VirtualBox.", true],
+      ["VMware ESXi.", false],
+      ["Cisco ACI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què es virtualitza en la virtualització del centre de dades?",
+    "respostes": [
+      ["Només el processador.", false],
+      ["Tota la infraestructura, incloent servidors, emmagatzematge i xarxes.", true],
+      ["Només l'escriptori de l'usuari.", false],
+      ["Les finestres de l'edifici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Com milloren els contenidors el rendiment respecte a les VMs tradicionals?",
+    "respostes": [
+      ["Utilitzant més memòria RAM.", false],
+      ["Sent més lleugers en compartir el nucli del sistema operatiu.", true],
+      ["Eliminant la seguretat.", false],
+      ["Funcionant només en superordinadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quina solució es menciona per gestionar centres de dades virtualitzats de forma integral?",
+    "respostes": [
+      ["Microsoft Word.", false],
+      ["VMware vSphere.", true],
+      ["Google Chrome.", false],
+      ["Notepad.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què és la virtualització d'aplicacions?",
+    "respostes": [
+      ["Executar aplicacions en servidors centrals i presentar-les remotament.", true],
+      ["Programar aplicacions noves.", false],
+      ["Desinstal·lar programes de l'ordinador.", false],
+      ["Comprar llicències físiques de programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin hipervisor de tipus 1 es menciona com a exemple en el text?",
+    "respostes": [
+      ["VirtualBox.", false],
+      ["Xen.", true],
+      ["VMware Workstation.", false],
+      ["Parallels.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Què s'aconsegueix amb l'SDDC pel que fa a la gestió?",
+    "respostes": [
+      ["Una gestió fragmentada.", false],
+      ["Una gestió centralitzada i automatitzada de tot el centre de dades.", true],
+      ["Que cada servidor es gestioni sol.", false],
+      ["Que no calgui cap administrador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "Quin avantatge té la virtualització de plataforma pel que fa a la utilització de recursos?",
+    "respostes": [
+      ["Que els recursos es malgastin.", false],
+      ["Que permet l'ús compartit de recursos de maquinari, maximitzant la seva utilització.", true],
+      ["Que cada recurs sigui d'un sol ús.", false],
+      ["Que no es puguin compartir dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 15. Models de virtualització. Virtualització de plataforma, de centre de dades i del lloc de treball.",
+    "enunciat": "A què es refereix el concepte 'Bare Metal' en hipervisors?",
+    "respostes": [
+      ["A que el servidor és de metall.", false],
+      ["A que l'hipervisor s'executa directament sobre el maquinari físic.", true],
+      ["A que no té cap tipus de programari.", false],
+      ["A que el processador està nu.", false]
+    ]
+  }
+]

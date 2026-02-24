@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Què és una auditoria informàtica?",
+    "respostes": [
+      ["Un procés sistemàtic dissenyat per avaluar i millorar l'eficiència, seguretat i compliment normatiu dels sistemes d'informació.", true],
+      ["Un programari autònom creat per optimitzar l'ús de la CPU dels servidors.", false],
+      ["Una tècnica exclusiva per programar bases de dades distribuïdes al núvol.", false],
+      ["El procés administratiu de contractació de personal tècnic de l'organització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quina característica fonamental han de tenir els objectius d'una auditoria informàtica definits en la seva planificació?",
+    "respostes": [
+      ["Han de ser SMART: específics, mesurables, assolibles, rellevants i limitats en el temps.", true],
+      ["Han de ser generals, abstractes i oberts a la interpretació lliure.", false],
+      ["S'han de centrar exclusivament en l'estalvi econòmic del departament de TI.", false],
+      ["Han de ser extremadament ambiciosos i inabastables per motivar a l'equip d'auditoria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "En el context de la identificació de riscos d'una auditoria, a què fan referència els riscos operacionals?",
+    "respostes": [
+      ["Als riscos que poden afectar la capacitat de mantenir les operacions diàries de manera eficient i contínua, com fallades de sistemes o interrupcions.", true],
+      ["Als incompliments de la normativa legal de protecció de dades exclusivament.", false],
+      ["A les vulnerabilitats que només poden ser explotades per atacants (furoners) externs.", false],
+      ["A la pèrdua de pressupost o finançament per a futurs projectes de l'organització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quin és el primer pas formal en el procés de planificació d'una auditoria informàtica?",
+    "respostes": [
+      ["La identificació de riscos, analitzant els sistemes per detectar vulnerabilitats i amenaces.", true],
+      ["La redacció del resum executiu de l'informe final.", false],
+      ["La contractació d'un equip complet d'auditors externs.", false],
+      ["L'actualització de tot el programari antivirus de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quins elements clau detalla el pla d'auditoria desenvolupat a la fase de planificació?",
+    "respostes": [
+      ["L'abast de l'auditoria, la metodologia, el calendari i l'assignació de recursos necessaris.", true],
+      ["El codi font complet i detallat de totes les aplicacions de l'empresa.", false],
+      ["Únicament el pressupost econòmic total disponible per a la tasca.", false],
+      ["Les multes legals i sancions exactes previstes per incompliment normatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quin rol desenvolupa el Cap d'Auditoria dins de l'organització de l'equip?",
+    "respostes": [
+      ["Supervisa tot el procés d'auditoria, defineix els objectius, coordina l'equip i n'és el responsable de la planificació estratègica i la direcció.", true],
+      ["S'encarrega exclusivament de les tasques administratives i de la recollida de logs.", false],
+      ["És la persona responsable de desenvolupar i executar els tests de penetració tècnics en solitari.", false],
+      ["S'encarrega exclusivament d'adquirir el programari necessari per a l'avaluació externa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quina funció específica desenvolupen els Auditors Sènior en l'equip d'auditoria?",
+    "respostes": [
+      ["S'encarreguen de les àrees més complexes, planifiquen i executen activitats, i revisen el treball dels auditors júnior.", true],
+      ["Realitzen únicament tasques de suport administratiu i assisteixen a la preparació de reunions.", false],
+      ["Supervisen el procés estratègic per sobre de la direcció de l'organització.", false],
+      ["Són experts independents que només redacten l'informe final sense executar proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Per a què s'inclouen Especialistes Tècnics en l'estructura d'un equip d'auditoria informàtica?",
+    "respostes": [
+      ["Per aportar coneixements profunds en àrees crítiques (com seguretat de xarxes o bases de dades), realitzar proves tècniques i donar suport.", true],
+      ["Per gestionar l'agenda de reunions del Cap d'Auditoria.", false],
+      ["Per poder substituir al Cap d'Auditoria immediatament en cas de baixa o malaltia.", false],
+      ["Per complir amb el requisit legal de tenir personal certificat de cada fabricant tecnològic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Què proporciona la metodologia COBIT en l'àmbit del desenvolupament de l'auditoria informàtica?",
+    "respostes": [
+      ["Un marc estructurat de bones pràctiques per a la gestió i governança de les Tecnologies de la Informació (TI).", true],
+      ["Un conjunt de normes legals exclusiu per a l'auditoria financera.", false],
+      ["Un programari avançat per al xifratge de dades al núvol.", false],
+      ["Una llista pública de totes les adreces IP vulnerables del món.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "A què està orientada principalment la metodologia ITIL (Information Technology Infrastructure Library)?",
+    "respostes": [
+      ["A oferir un conjunt de pràctiques estàndard per a la provisió i gestió de serveis de TI.", true],
+      ["A la gestió exclusiva i optimització de bases de dades relacionals.", false],
+      ["A l'auditoria de la programació orientada a objectes i el codi net.", false],
+      ["A l'avaluació de riscos purament mediambientals dels centres de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Què representa l'estàndard ISO 27001 dins de les metodologies d'auditoria?",
+    "respostes": [
+      ["Un estàndard internacional reconegut per establir, implementar i avaluar un sistema de gestió de la seguretat de la informació.", true],
+      ["Una normativa europea de protecció de dades que substitueix al RGPD.", false],
+      ["Un nou protocol de xarxa per a comunicacions xifrades i transferència d'arxius.", false],
+      ["Un mètode teòric per desenvolupar codi segur en aplicacions mòbils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quin és l'objectiu principal de les 'proves de compliment' durant el desenvolupament de l'auditoria?",
+    "respostes": [
+      ["Determinar i verificar si els processos i procediments de l'organització segueixen les polítiques i normatives legals o estàndards establerts.", true],
+      ["Analitzar únicament si el maquinari té l'última versió del firmware instal·lada correctament.", false],
+      ["Comprovar la precisió de les dades matemàtiques que s'emmagatzemen a les bases de dades.", false],
+      ["Simular atacs de furoners (pentesting) de forma contínua per trobar vulnerabilitats de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "En què consisteixen les 'proves substantives' en una auditoria informàtica?",
+    "respostes": [
+      ["En verificar directament la integritat de les dades i la precisió de la informació emmagatzemada, utilitzant anàlisi de dades o confirmacions.", true],
+      ["En revisar de manera oral si els empleats coneixen la normativa de privacitat i les polítiques de l'empresa.", false],
+      ["En comprovar exclusivament l'estat físic dels servidors i el control de temperatura del centre de dades.", false],
+      ["En realitzar exàmens de programació avançada al personal de desenvolupament de l'organització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Què implica portar a terme una 'revisió de controls interns'?",
+    "respostes": [
+      ["L'avaluació de les polítiques, procediments i controls ja implementats per assegurar-se que ofereixen seguretat i eficiència als sistemes.", true],
+      ["La inspecció exclusiva de l'inventari de llicències de programari per buscar programes pirata.", false],
+      ["La comprovació i mesura del rendiment energètic de la infraestructura tècnica al complet.", false],
+      ["El càlcul del retorn de la inversió (ROI) de les infraestructures comprades l'any passat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quina de les accions següents és una pràctica comuna i necessària per a la documentació i recollida d'evidències en una auditoria?",
+    "respostes": [
+      ["La recollida i anàlisi de registres de logs (esdeveniments) que mostren les activitats i comportament del sistema.", true],
+      ["L'eliminació immediata de tots els registres antics per alliberar espai als servidors abans d'auditar-los.", false],
+      ["L'encriptació de tots els informes de manera que només els pugui llegir el consell d'administració de l'empresa.", false],
+      ["La desconnexió total de la xarxa corporativa durant una setmana per observar el comportament fora de línia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Com es defineix un test de penetració (Pentesting) en el marc de les proves tècniques d'auditoria?",
+    "respostes": [
+      ["Una simulació controlada d'atacs (externs o interns) per avaluar com responen els controls de seguretat i detectar possibles vulnerabilitats.", true],
+      ["Una eina ofimàtica utilitzada exclusivament per generar de forma ràpida els informes d'auditoria executiva.", false],
+      ["Una prova de resistència física on es mesura la durabilitat del cablejat i maquinari exposat de la xarxa.", false],
+      ["Una avaluació psicològica i tècnica a la qual se sotmeten els empleats del departament de TI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quan s'utilitza generalment la tècnica de l'anàlisi forense dins d'una auditoria informàtica?",
+    "respostes": [
+      ["Per investigar en profunditat incidents de seguretat ja passats o determinar les causes de possibles fallades crítiques del sistema.", true],
+      ["Per predir mitjançant intel·ligència artificial quines normatives s'aprovaran l'any vinent en matèria de privacitat.", false],
+      ["Per auditar i revisar els documents relacionats amb les nòmines de tot el personal de seguretat física.", false],
+      ["Per dissenyar i dibuixar els plànols de la nova arquitectura de xarxa per a la futura seu de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Què es busca identificar principalment durant la fase d'anàlisi de resultats (o fase d'explotació de l'auditoria)?",
+    "respostes": [
+      ["Deficiències o mancances en els controls de seguretat i gestió, ineficiències operatives del sistema, i incompliments normatius clars.", true],
+      ["L'oportunitat de contractar nous proveïdors de maquinari amb pressupostos més barats.", false],
+      ["El llistat complet dels empleats prescindibles per tal de reduir la despesa de la plantilla informàtica.", false],
+      ["Exclusivament els errors de sintaxi o de format en el codi font de les pàgines web públiques de l'organització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "A l'hora d'avaluar els riscos identificats en els resultats de l'auditoria, com s'ha de dur a terme l'anàlisi?",
+    "respostes": [
+      ["S'han de valorar atenent tant a la probabilitat de la seva ocurrència com a l'impacte potencial que tindrien sobre l'organització, prioritzant els més crítics.", true],
+      ["Comptant exclusivament el nombre de vegades que el risc s'esmenta a l'informe; descartant aquells que només apareguin un cop.", false],
+      ["S'elimina qualsevol registre de risc si la seva correcció implica una inversió econòmica no contemplada prèviament.", false],
+      ["S'avaluen de manera completament aleatòria per garantir una suposada objectivitat cega.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quins elements estructurals fonamentals formen part d'un informe d'auditoria ben elaborat?",
+    "respostes": [
+      ["Introducció, Resum Executiu, Metodologia Utilitzada, Resultats Obtinguts, Recomanacions i Conclusió.", true],
+      ["Un full de càlcul simple amb un llistat de fallades detectades sense aportar context, metodologia, ni cap recomanació.", false],
+      ["El codi font sencer de tots els sistemes analitzats per adjuntar la màxima evidència dels errors comesos.", false],
+      ["Exclusivament el pressupost i les hores facturades pel personal auditor extern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quina és la raó de ser del procés de seguiment i avaluació que té lloc després de l'auditoria?",
+    "respostes": [
+      ["Garantir i verificar que les accions correctives i recomanacions de l'auditoria s'han implementat de manera efectiva i que les millores funcionen.", true],
+      ["Aconseguir un registre d'errors per poder amonestar els empleats que van ser responsables de les incidències del passat.", false],
+      ["Arxivar la documentació generada en una caixa forta legal sense haver d'aplicar cap modificació als sistemes a curt termini.", false],
+      ["Repetir immediatament i de zero tot el procés d'auditoria un cop al mes per complir requisits estrictes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quan s'audita l'Entorn Tecnològic, quins elements principals s'han d'avaluar i considerar?",
+    "respostes": [
+      ["L'arquitectura i seguretat de la infraestructura (maquinari, programari i xarxes), incloent-hi la gestió de parxes i les actualitzacions.", true],
+      ["Únicament la gestió financera de les llicències de programari adquirides per veure si es poden rebaixar costos.", false],
+      ["El compliment de procediments ofimàtics del departament de recursos humans respecte a les contractacions.", false],
+      ["L'ergonomia, la il·luminació i l'espai físic dels llocs de treball a les oficines generals de l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "En analitzar l'Entorn de Seguretat d'una organització, quina pràctica és essencial comprovar?",
+    "respostes": [
+      ["La implementació de controls d'accés adequats per restringir l'accés a informació crítica i el procés de gestió de vulnerabilitats.", true],
+      ["Que la totalitat de la informació pública de l'empresa estigui llistada a les xarxes socials corporatives.", false],
+      ["Assegurar-se que els empleats no han de memoritzar contrasenyes per evitar pèrdues de temps a l'hora de treballar.", false],
+      ["Comprovar exclusivament el correcte funcionament dels extintors i les alarmes d'incendi a l'edifici principal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Què exigeix i verifica una auditoria quan se centra exclusivament en l'Entorn de Compliment?",
+    "respostes": [
+      ["Que els procediments interns estiguin alineats amb les obligacions legals aplicables, les normatives sectorials i els estàndards internacionals.", true],
+      ["Que tots els ordinadors comprats per l'organització siguin sempre de la mateixa marca per complir els contractes del proveïdor.", false],
+      ["Que el personal compleixi de manera estricta amb la seva jornada laboral, hores extres i pauses de descans diàries.", false],
+      ["Que qualsevol sistema operatiu en ús provingui de codi obert i programari lliure, per evitar sancions de copyright privades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Per què s'indica que els sistemes SCADA representen un entorn operatiu complex que requereix controls d'auditoria especials i crítics?",
+    "respostes": [
+      ["Perquè s'utilitzen per monitorar processos industrials en temps real i la seva fallada pot produir un impacte extremadament greu sobre infraestructures crítiques.", true],
+      ["Perquè utilitzen bases de dades documentals tan antigues que l'empresa proveïdora ja no els pot donar cap tipus de suport oficial.", false],
+      ["Perquè representen sistemes exclusivament financers o borsaris que mouen quantitats econòmiques diàries insostenibles.", false],
+      ["Perquè són programes dissenyats específicament per funcionar només a través de xarxes Wi-Fi públiques sense contrasenya.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "A l'hora d'auditar entorns virtualitzats i tecnologies de núvol (cloud computing), a quins riscos o reptes addicionals s'enfronta l'equip auditor?",
+    "respostes": [
+      ["A la correcta gestió de màquines virtuals, a supervisar l'elasticitat de recursos i a haver de garantir que existeixen els mateixos controls de seguretat que a l'entorn físic.", true],
+      ["Al sobreescalfament excessiu de les plaques base del maquinari ubicat a l'oficina del treballador.", false],
+      ["A la impossibilitat tècnica absoluta de poder instal·lar solucions d'antivirus en màquines que no siguin físiques.", false],
+      ["Al fet que els sistemes al núvol mai no generen registres (logs) operatius que es puguin analitzar posteriorment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quin desafiament de seguretat es destaca al document respecte a les tecnologies emergents com els dispositius IoT (Internet de les Coses)?",
+    "respostes": [
+      ["Solent ser particularment vulnerables a atacs de xarxa a causa de la seva limitada capacitat de computació i protecció integrada.", true],
+      ["Acostumen a funcionar exclusivament mitjançant protocols tancats militars que no es poden connectar mai a cap xarxa comercial.", false],
+      ["Operen totalment fora de línia, per la qual cosa queden immunes a qualsevol explotació externa via internet i no s'han d'auditar.", false],
+      ["Incorporar per defecte un xifratge de nivell quàntic indesxifrable que impedeix que els auditors puguin validar la seva configuració real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Per quin motiu organitzatiu és essencial que l'equip d'auditoria mantingui una coordinació estreta amb el departament de TI o altres departaments?",
+    "respostes": [
+      ["Per poder garantir la provisió dels accessos als sistemes sol·licitats, aconseguint que la pròpia auditoria es realitzi sense interrompre de forma significativa les operacions de negoci diàries.", true],
+      ["Per assegurar-se que els procediments d'acomiadament del personal encarregat es puguin activar de manera immediata si es detecta el més mínim error durant la prova.", false],
+      ["Per poder delegar en ells la tasca de desenvolupar codi font net i sense vulnerabilitats, com a formació contínua mentre dura l'auditoria.", false],
+      ["Per tal que siguin aquests altres departaments els que redactin íntegrament l'informe final d'auditoria de les seves pròpies àrees i estalviar temps.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Com pot definir-se la tècnica coneguda com 'auditoria contínua' en aquest context?",
+    "respostes": [
+      ["S'utilitzen eines que permeten recollir dades i avaluar els sistemes i processos gairebé en temps real, sent una tècnica especialment útil i eficient per a monitorar infraestructures al núvol.", true],
+      ["Consisteix a assignar a un auditor de forma presencial i ininterrompuda a la sala de servidors observant la pantalla durant les 24 hores del dia, en torns rotatoris.", false],
+      ["Consisteix a l'estudi sistemàtic per a la renovació contínua i diària dels contractes de manteniment o compra de maquinari nou.", false],
+      ["S'aplica únicament establint que els programes d'antivirus s'executin exclusivament cada cinc minuts al servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "A l'hora de desenvolupar la metodologia d'avaluació, quina és la principal diferència entre 'proves de compliment' i 'proves substantives'?",
+    "respostes": [
+      ["Les proves de compliment validen si les regles, polítiques i processos establerts se segueixen correctament, mentre que les substantives comproven directament l'exactitud, precisió i integritat de les dades.", true],
+      ["Les proves de compliment sempre es realitzen primer dia de l'auditoria i les substantives s'ometen tret que ho requereixi un jutge.", false],
+      ["Les proves substantives s'encarreguen exclusivament de la part legal (lleis), mentre que les proves de compliment revisen estrictament les connexions de xarxa i el maquinari físic.", false],
+      ["No presenten cap mena de diferència operativa; són termes tècnics completament sinònims que es fan servir de manera diferent depenent del país.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quin benefici clau aporta l'addició d'auditors o consultors externs a l'hora de conformar un equip d'auditoria?",
+    "respostes": [
+      ["Ofereixen una visió imparcial i aporten una major objectivitat a l'avaluació dels controls i processos dels sistemes de l'organització auditada.", true],
+      ["Els seus costos salarials solen ser molt inferiors en comparació a la despesa de mantenir a un equip de tècnics fixos interns.", false],
+      ["Donat que les normatives prohibeixen taxativament i sempre que els propis empleats interns analitzin qualsevol part del sistema en què treballen.", false],
+      ["Perquè arriben coneixent prèviament les contrasenyes i arquitectures del sistema i per tant no han de perdre temps planificant l'auditoria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "En referència als tipus de controls analitzats, quin dels següents seria un exemple de 'control organitzatiu' adequat per ser revisat?",
+    "respostes": [
+      ["Els procediments i guies internes dissenyades per a la gestió corporativa d'identitats, l'assignació de permisos adients o l'ús obligatori d'autenticació múltiple (MFA).", true],
+      ["La correcta configuració, muntatge i posterior instal·lació d'un nou commutador (switch) d'alta velocitat a la sala de comunicacions central.", false],
+      ["L'adopció i l'aprovació d'auditories oficials respecte al compliment i marc legal sencer establert per l'estàndard de protecció de dades (RGPD).", false],
+      ["La incorporació, desplegament i posada en producció en la xarxa perimetral d'una nova i potent eina tècnica de prevenció d'intrusions (IPS).", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Quin d'aquests escenaris suposaria l'avaluació d'un 'control tècnic' durant l'execució d'una auditoria?",
+    "respostes": [
+      ["La comprovació de l'operativitat de conjunts de mesures purament tecnològiques, com el comportament dels tallafocs (firewalls), els sistemes de detecció d'intrusions i el xifratge obert de dades.", true],
+      ["La simple redacció corporativa del manual intern de bones pràctiques i comportament a internet, pensat per a l'empleat no tècnic.", false],
+      ["La comprovació de tipus legal i comptable on es verifiquen els rebuts i el pagament en vigor de les diferents llicències de programari i les garanties existents.", false],
+      ["L'anàlisi de la documentació oficial acompanyant necessària per poder adquirir i revalidar satisfactòriament una certificació en qualitat i estalvi energètic o mediambiental.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "Durant l'etapa final del desenvolupament, què ocorre amb les vulnerabilitats detectades o les àrees de millora identificades per l'equip, abans de ser incorporades com a versions definitives a l'informe final d'auditoria?",
+    "respostes": [
+      ["Són detallades i es documenten de manera exhaustiva en format de resultats preliminars, per tal de ser acuradament validades i revisades abans de la seva inclusió i exposició al document oficial de tancament.", true],
+      ["S'esborren o matisen si de manera accidental puguin comprometre de manera negativa o malmetre la imatge pública i reputació dels principals directius i inversors de l'empresa.", false],
+      ["Són llistades o publicades immediatament i sense filtre a la intranet o a la pàgina web corporativa per garantir des de l'inici la transparència total respecte a l'estat de la seguretat interna de l'empresa cap als clients.", false],
+      ["Seguint la legislació vigent i els estàndards per defecte, l'esborrany previ sempre i en tot cas és reenviat, sense excepció, directament i exclusiva cap a les autoritats policials competents abans de res.", false]
+    ]
+  },
+  {
+    "tema": "Tema 68. Auditoria informàtica: planificació i direcció, organització, desenvolupament, explotació i entorns operatius.",
+    "enunciat": "En definitiva, quina és la repercussió o el benefici fonamental últim d'una auditoria informàtica duta a terme de manera eficient per a una gran organització?",
+    "respostes": [
+      ["Proporciona la capacitat pràctica d'identificar sistemàticament els riscos, per posteriorment corregir vulnerabilitats estructurals essencials abans que puguin materialitzar-se de manera dràstica en forma d'amenaces reals, impulsant el compliment i la seguretat globals.", true],
+      ["La seva principal funció sol ser exclusivament la generació de complexa burocràcia tècnica que actua a mode de justificant tàctic o instrument per requerir l'adquisició massiva i poc justificada de components tecnològics més cars que facin pujar els pressupostos informàtics anuals.", false],
+      ["Actua principalment com un as fiduciari en el qual es procedeix a traspassar sense reserves la responsabilitat civil global de qualsevol fallada del negoci exclusivament a l'esquena dels auditors externs i proveïdors, eliminant de forma vitalícia aquest risc financer intern a la companyia.", false],
+      ["Atorga oficialment l'acreditació de seguretat final i immunitat pertinent per l'organització, un escut sota el qual s'autoritza legalment a l'empresa poder esborrar sense preocupacions i de manera immediata tots aquells costosos i molests controls informàtics i tècnics interns d'ara endavant.", false]
+    ]
+  }
+]

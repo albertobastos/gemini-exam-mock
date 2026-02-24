@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En què es basa principalment l'arquitectura de Von Neumann?",
+    "respostes": [
+      ["En utilitzar memòries separades per a dades i instruccions.", false],
+      ["En utilitzar una sola memòria per emmagatzemar tant dades com instruccions.", true],
+      ["En processar les instruccions de manera paral·lela exclusivament.", false],
+      ["En eliminar la necessitat d'una Unitat Central de Processament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Qui va proposar l'arquitectura de Von Neumann?",
+    "respostes": [
+      ["Alan Turing als anys 30.", false],
+      ["Charles Babbage al segle XIX.", false],
+      ["John von Neumann als anys 40.", true],
+      ["Bill Gates als anys 70.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quins són els components clau de l'arquitectura de Von Neumann?",
+    "respostes": [
+      ["CPU, Memòria, Dispositius d'E/S i Busos.", true],
+      ["Teclat, Ratolí, Pantalla i Impressora.", false],
+      ["Disc dur, USB, HDMI i Wi-Fi.", false],
+      ["Internet, Servidor, Núvol i Client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina és la funció principal de la Unitat de Control (UC)?",
+    "respostes": [
+      ["Realitzar operacions matemàtiques complexes.", false],
+      ["Emmagatzemar les dades de l'usuari permanentment.", false],
+      ["Dirigir les operacions de la CPU i coordinar l'execució d'instruccions.", true],
+      ["Generar el senyal de rellotge per sincronitzar el sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què emmagatzema el Comptador de Programa (PC)?",
+    "respostes": [
+      ["El resultat de l'última operació aritmètica.", false],
+      ["L'adreça de la següent instrucció a executar.", true],
+      ["La quantitat de programes instal·lats a l'ordinador.", false],
+      ["La data i l'hora del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què succeeix amb el Comptador de Programa (PC) després de llegir una instrucció?",
+    "respostes": [
+      ["Es posa a zero.", false],
+      ["S'incrementa automàticament per apuntar a l'adreça següent.", true],
+      ["Es decrementar per tornar a la instrucció anterior.", false],
+      ["Es manté igual fins que l'usuari el canvia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què són els registres de la CPU?",
+    "respostes": [
+      ["Bases de dades externes per guardar fitxers grans.", false],
+      ["Petits espais d'emmagatzematge dins la CPU per a dades temporals i resultats intermedis.", true],
+      ["Llistats d'errors que genera el sistema operatiu.", false],
+      ["Components que refreden el processador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina unitat s'encarrega de realitzar sumes, restes i comparacions lògiques?",
+    "respostes": [
+      ["La Unitat de Control (UC).", false],
+      ["La Memòria Cau.", false],
+      ["La Unitat Aritmètica i Lògica (UAL).", true],
+      ["El Bus de Dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què és un Bus en el context d'un ordinador?",
+    "respostes": [
+      ["Un tipus de programari de transport.", false],
+      ["Un conjunt de línies de comunicació que transporten dades, adreces i senyals.", true],
+      ["Un dispositiu d'entrada per connectar càmeres.", false],
+      ["La part de la memòria on es guarden les fotos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quins tres tipus de busos s'esmenten al document?",
+    "respostes": [
+      ["Bus de dades, bus d'adreces i bus de control.", true],
+      ["Bus primari, bus secundari i bus terciari.", false],
+      ["Bus d'entrada, bus de sortida i bus d'emmagatzematge.", false],
+      ["Bus local, bus express i bus ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina és la funció del Rellotge en la CPU?",
+    "respostes": [
+      ["Mostrar l'hora a la barra de tasques.", false],
+      ["Coordinar i sincronitzar les operacions de la CPU mitjançant pulsacions regulars.", true],
+      ["Mesurar quant temps porta l'ordinador encès.", false],
+      ["Programar les alarmes de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En quina unitat es mesura la freqüència del rellotge?",
+    "respostes": [
+      ["Bytes.", false],
+      ["Watts.", false],
+      ["Hertz (Hz).", true],
+      ["Píxels.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin és l'objectiu de la Memòria Cau (Cache)?",
+    "respostes": [
+      ["Augmentar la capacitat d'emmagatzematge total del disc dur.", false],
+      ["Emmagatzemar còpies de seguretat de llarga durada.", false],
+      ["Reduir el temps d'accés a la memòria principal emmagatzemant dades freqüents.", true],
+      ["Servir com a memòria virtual quan la RAM s'omple.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quines són les quatre etapes del cicle d'instrucció?",
+    "respostes": [
+      ["Inici, Procés, Finalització, Reinici.", false],
+      ["Obtenció, Decodificació, Execució, Escriptura.", true],
+      ["Lectura, Escriptura, Esborrat, Actualització.", false],
+      ["Càrrega, Emmagatzematge, Transmissió, Recepció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En què consisteix l'etapa d'Obtenció (Fetch)?",
+    "respostes": [
+      ["La CPU obté la instrucció de la memòria usant l'adreça del PC.", true],
+      ["La CPU interpreta què significa la instrucció.", false],
+      ["La CPU realitza l'operació matemàtica.", false],
+      ["La CPU guarda el resultat al disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què passa durant l'etapa de Decodificació (Decode)?",
+    "respostes": [
+      ["Es copien les dades a la memòria cau.", false],
+      ["La UC interpreta la instrucció i determina quines operacions cal realitzar.", true],
+      ["La UAL suma els dos nombres.", false],
+      ["El PC s'incrementa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component és el principal protagonista durant l'etapa d'Execució?",
+    "respostes": [
+      ["El disc dur.", false],
+      ["La memòria ROM.", false],
+      ["La UAL (Unitat Aritmètica i Lògica).", true],
+      ["El teclat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En l'etapa d'Escriptura (Write-back), on es guarden els resultats?",
+    "respostes": [
+      ["A la memòria o en un registre.", true],
+      ["Directament a la pantalla.", false],
+      ["A la paperera de reciclatge.", false],
+      ["Al núvol exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Per què són crucials els registres per a la CPU?",
+    "respostes": [
+      ["Perquè tenen molta més capacitat que el disc dur.", false],
+      ["Perquè permeten connectar dispositius USB.", false],
+      ["Per a la velocitat i eficiència, ja que són d'accés molt ràpid.", true],
+      ["Perquè eviten que l'ordinador s'escalfi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què permet que les instruccions siguin modificades durant el processament en l'arquitectura de Von Neumann?",
+    "respostes": [
+      ["El fet que comparteixin la mateixa memòria que les dades.", true],
+      ["L'ús de processadors de múltiples nuclis.", false],
+      ["La connexió a Internet d'alta velocitat.", false],
+      ["L'ús de targetes gràfiques dedicades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component determina la velocitat amb què la CPU pot processar instruccions?",
+    "respostes": [
+      ["La capacitat del disc dur.", false],
+      ["La mida del monitor.", false],
+      ["La freqüència del rellotge.", true],
+      ["El tipus de teclat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin dels següents és un exemple d'operació lògica realitzada per la UAL?",
+    "respostes": [
+      ["Sumar dos números.", false],
+      ["Restar dos números.", false],
+      ["Comparar si un número és més gran que un altre.", true],
+      ["Llegir una dada de la memòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què fan els dispositius d'entrada/sortida?",
+    "respostes": [
+      ["Processen tots els càlculs matemàtics.", false],
+      ["Permeten la comunicació de l'ordinador amb l'exterior.", true],
+      ["Emmagatzemen les instruccions del sistema operatiu.", false],
+      ["Controlen el rellotge de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En l'exemple de sumar dos números, què fa la UC durant la decodificació?",
+    "respostes": [
+      ["Obté la instrucció 'SUMA'.", false],
+      ["Interpreta que s'ha de realitzar una suma.", true],
+      ["Realitza la suma física dels números.", false],
+      ["Guarda el resultat a la memòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Com es garanteix l'execució seqüencial del programa?",
+    "respostes": [
+      ["Mitjançant l'increment automàtic del Comptador de Programa (PC).", true],
+      ["Mitjançant l'ús de múltiples busos de dades.", false],
+      ["Gràcies a la memòria cau.", false],
+      ["Per l'acció dels dispositius d'entrada/sortida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina diferència principal hi ha entre la memòria cau i la memòria principal?",
+    "respostes": [
+      ["La memòria cau és més lenta però té més capacitat.", false],
+      ["La memòria cau és més ràpida i emmagatzema dades freqüents.", true],
+      ["La memòria principal només guarda instruccions, no dades.", false],
+      ["La memòria cau està fora de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quins senyals envia la Unitat de Control (UC)?",
+    "respostes": [
+      ["Senyals de control a altres components de la CPU.", true],
+      ["Senyals de vídeo al monitor únicament.", false],
+      ["Senyals d'àudio als altaveus.", false],
+      ["Correus electrònics a l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què implica el terme 'Write-back'?",
+    "respostes": [
+      ["Llegir una dada antiga.", false],
+      ["Escriure el resultat de nou a la memòria o registre.", true],
+      ["Esborrar una instrucció incorrecta.", false],
+      ["Tornar a l'inici del programa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component canalitza les dades entre la CPU, la memòria i els dispositius E/S?",
+    "respostes": [
+      ["Els Registres.", false],
+      ["Els Busos.", true],
+      ["La UAL.", false],
+      ["El Rellotge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "La Unitat Aritmètica i Lògica (UAL) és essencial per a:",
+    "respostes": [
+      ["L'emmagatzematge a llarg termini.", false],
+      ["La comunicació amb Internet.", false],
+      ["El processament de dades i càlculs.", true],
+      ["La refrigeració del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina afirmació és certa sobre les instruccions en l'arquitectura Von Neumann?",
+    "respostes": [
+      ["Es processen de manera aleatòria.", false],
+      ["Es processen de manera seqüencial.", true],
+      ["No es poden modificar un cop escrites.", false],
+      ["S'emmagatzemen en un disc diferent al de les dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin és l'efecte d'una major freqüència de rellotge (Hz)?",
+    "respostes": [
+      ["L'ordinador consumeix menys energia sempre.", false],
+      ["La CPU pot processar instruccions a major velocitat.", true],
+      ["La capacitat d'emmagatzematge augmenta.", false],
+      ["La resolució de la pantalla millora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En l'exemple de suma, què s'obté en la fase d'Obtenció a part de la instrucció?",
+    "respostes": [
+      ["El resultat final.", false],
+      ["Les adreces dels operands (números).", true],
+      ["L'hora del sistema.", false],
+      ["El codi d'error.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component es defineix com 'conjunt de línies de comunicació'?",
+    "respostes": [
+      ["Bus.", true],
+      ["Cable Ethernet.", false],
+      ["Fibra òptica.", false],
+      ["Registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Per què es diu que l'arquitectura de Von Neumann té una 'sola memòria'?",
+    "respostes": [
+      ["Perquè només té 1 GB de RAM.", false],
+      ["Perquè no es pot ampliar.", false],
+      ["Perquè dades i instruccions comparteixen el mateix espai d'adreçament.", true],
+      ["Perquè només hi ha una marca de memòria compatible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component 'interpreta' les instruccions?",
+    "respostes": [
+      ["La Memòria.", false],
+      ["La UAL.", false],
+      ["La UC (Unitat de Control).", true],
+      ["El Bus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Si una instrucció demanés restar dos nombres, quina etapa faria el càlcul real?",
+    "respostes": [
+      ["Obtenció.", false],
+      ["Decodificació.", false],
+      ["Execució.", true],
+      ["Escriptura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què fan les pulsacions del rellotge?",
+    "respostes": [
+      ["Marquen el ritme de les operacions.", true],
+      ["Apaguen l'ordinador si s'escalfa.", false],
+      ["Generen electricitat per la CPU.", false],
+      ["Connecten amb el servidor d'hora mundial.", false]
+    ]
+  }
+]

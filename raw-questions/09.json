@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quina és la funció principal de la gestió d'entrada/sortida (E/S) en un sistema operatiu?",
+    "respostes": [
+      ["Gestionar exclusivament la memòria RAM.", false],
+      ["Gestionar la comunicació entre l'ordinador i els dispositius perifèrics.", true],
+      ["Dissenyar interfícies gràfiques per a l'usuari.", false],
+      ["Augmentar la velocitat del processador físicament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què són els 'Drivers' de dispositiu?",
+    "respostes": [
+      ["Components físics que connecten els cables.", false],
+      ["Programes que permeten al sistema operatiu comunicar-se amb maquinari específic.", true],
+      ["Usuaris que gestionen el sistema.", false],
+      ["Tipus de pantalles tàctils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què proporcionen els drivers respecte al maquinari?",
+    "respostes": [
+      ["Una abstracció que ofereix una interfície consistent.", true],
+      ["Més electricitat al dispositiu.", false],
+      ["Una connexió a Internet directa.", false],
+      ["La capacitat de funcionar sense corrent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què permeten les interrupcions en la gestió d'E/S?",
+    "respostes": [
+      ["Que el maquinari avisi la CPU quan necessita atenció, reduint la comprovació constant.", true],
+      ["Que la CPU s'apagui automàticament.", false],
+      ["Que els dispositius funcionin més lentament.", false],
+      ["Esborrar les dades del disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quina és la funció d'un buffer en l'E/S?",
+    "respostes": [
+      ["Emmagatzemar dades permanentment.", false],
+      ["Suavitzar les diferències de velocitat entre la CPU i els dispositius d'E/S.", true],
+      ["Netejar la memòria cau.", false],
+      ["Comprimir els fitxers automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Per què s'utilitza un buffer quan s'envien dades a una impressora?",
+    "respostes": [
+      ["Perquè la impressora és més ràpida que la CPU.", false],
+      ["Per emmagatzemar dades temporalment ja que la impressora és més lenta que la CPU.", true],
+      ["Per estalviar tinta.", false],
+      ["Per imprimir en color.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin objectiu té la planificació de les operacions d'E/S?",
+    "respostes": [
+      ["Decidir l'ordre de processament per optimitzar el rendiment i reduir temps d'espera.", true],
+      ["Decidir quin usuari pot iniciar sessió.", false],
+      ["Organitzar les icones de l'escriptori.", false],
+      ["Augmentar la capacitat del disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què fan els mecanismes de sincronització com els semàfors en l'E/S?",
+    "respostes": [
+      ["Augmenten la velocitat de la xarxa.", false],
+      ["Eviten condicions de carrera i garanteixen l'accés ordenat als recursos.", true],
+      ["Bloquegen tots els processos indefinidament.", false],
+      ["Eliminen els virus del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "En què consisteix l'E/S controlada per programari (polling)?",
+    "respostes": [
+      ["El dispositiu avisa la CPU quan acaba.", false],
+      ["La CPU és responsable directa i comprova constantment l'estat dels dispositius.", true],
+      ["Les dades es transfereixen soles.", false],
+      ["S'utilitza un processador dedicat exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin és el principal inconvenient de l'E/S controlada per programari?",
+    "respostes": [
+      ["És massa complexa d'implementar.", false],
+      ["És ineficient perquè la CPU perd temps esperant els dispositius.", true],
+      ["No funciona amb teclats.", false],
+      ["Requereix massa memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Com millora l'eficiència l'E/S controlada per interrupcions?",
+    "respostes": [
+      ["La CPU només s'interromp quan el dispositiu necessita atenció.", true],
+      ["La CPU mai intervé en el procés.", false],
+      ["Els dispositius es tornen més ràpids físicament.", false],
+      ["Elimina la necessitat de drivers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què és el DMA (Accés Directe a Memòria)?",
+    "respostes": [
+      ["Un tipus de monitor.", false],
+      ["Una tècnica que permet transferir dades entre memòria i dispositius sense intervenció contínua de la CPU.", true],
+      ["Un programa d'antivirus.", false],
+      ["Un protocol d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Per a quin tipus de transferències és especialment útil el DMA?",
+    "respostes": [
+      ["Per moure el ratolí.", false],
+      ["Per a grans transferències de dades, com blocs de disc.", true],
+      ["Per enviar un correu electrònic petit.", false],
+      ["Per escriure un caràcter a la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què passa en l'E/S Sincrònica?",
+    "respostes": [
+      ["El procés continua executant-se sense esperar.", false],
+      ["El procés espera fins que l'operació d'E/S es completa abans de continuar.", true],
+      ["El sistema es reinicia automàticament.", false],
+      ["Les dades es perden si no es guarden ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin és un desavantatge de l'E/S Sincrònica?",
+    "respostes": [
+      ["És molt difícil de programar.", false],
+      ["Pot resultar en ineficiències perquè el procés queda bloquejat esperant.", true],
+      ["No garanteix que les dades arribin.", false],
+      ["Consumeix massa espai al disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què permet l'E/S Asincrònica?",
+    "respostes": [
+      ["Que un procés continuï la seva execució immediatament després de fer la sol·licitud.", true],
+      ["Que el procés s'aturi fins que acabi l'operació.", false],
+      ["Que l'ordinador funcioni sense CPU.", false],
+      ["Que no calguin interrupcions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Com notifica el sistema operatiu la finalització d'una operació asincrònica?",
+    "respostes": [
+      ["Amb un missatge de text al mòbil.", false],
+      ["Generalment a través d'una interrupció o un senyal.", true],
+      ["Apagant la pantalla.", false],
+      ["Imprimint un informe.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "En què consisteix l'algorisme de planificació de disc FCFS?",
+    "respostes": [
+      ["Processa les sol·licituds segons la mida del fitxer.", false],
+      ["Processa les sol·licituds en ordre d'arribada.", true],
+      ["Processa primer les sol·licituds més properes.", false],
+      ["Processa les sol·licituds de manera aleatòria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què fa l'algorisme SSTF (Shortest Seek Time First)?",
+    "respostes": [
+      ["Selecciona la sol·licitud que requereix el menor moviment del capçal.", true],
+      ["Selecciona la sol·licitud més antiga.", false],
+      ["Es mou sempre en una sola direcció.", false],
+      ["Atén primer les sol·licituds de lectura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin problema pot causar l'algorisme SSTF?",
+    "respostes": [
+      ["Ús excessiu de CPU.", false],
+      ["Inanició (starvation) de sol·licituds llunyanes si n'hi ha moltes de properes.", true],
+      ["Pèrdua de dades.", false],
+      ["Fragmentació del disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Com funciona l'algorisme SCAN (Algorisme de l'ascensor)?",
+    "respostes": [
+      ["El capçal salta aleatòriament.", false],
+      ["El capçal es mou contínuament en una direcció processant tot, i després canvia de direcció.", true],
+      ["El capçal torna a l'inici immediatament després de cada lectura.", false],
+      ["Només llegeix els fitxers del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quina diferència té C-SCAN respecte a SCAN?",
+    "respostes": [
+      ["C-SCAN és més lent.", false],
+      ["En arribar a un extrem, torna ràpidament a l'altre sense processar sol·licituds pel camí de tornada.", true],
+      ["C-SCAN processa les sol·licituds en cercle.", false],
+      ["No hi ha cap diferència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què fan les variants LOOK i C-LOOK?",
+    "respostes": [
+      ["Miren si hi ha virus al disc.", false],
+      ["Només recorren fins a l'última sol·licitud abans de canviar de direcció, evitant arribar al final físic del disc.", true],
+      ["Fan una foto de l'estat del disc.", false],
+      ["Miren el contingut dels fitxers abans de llegir-los.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Per què és important el control d'accés en E/S?",
+    "respostes": [
+      ["Per evitar que aplicacions no autoritzades manipulin dades sensibles.", true],
+      ["Perquè el disc dur no s'escalfi.", false],
+      ["Per organitzar millor les carpetes.", false],
+      ["Perquè l'usuari no s'avorreixi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què garanteix l'aïllament de recursos?",
+    "respostes": [
+      ["Que cada procés tingui el seu propi monitor.", false],
+      ["Que els processos només puguin accedir a la seva pròpia memòria i recursos.", true],
+      ["Que l'ordinador estigui aïllat d'Internet.", false],
+      ["Que no es puguin connectar dispositius USB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quina funció té l'encriptació de dades en l'E/S?",
+    "respostes": [
+      ["Fer que les dades ocupin menys espai.", false],
+      ["Protegir les dades de ser interceptades o manipulades durant la transmissió.", true],
+      ["Fer que la transferència sigui més ràpida.", false],
+      ["Eliminar els errors de disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què permet la monitorització i auditories d'E/S?",
+    "respostes": [
+      ["Detectar comportaments anòmals o no autoritzats.", true],
+      ["Veure pel·lícules mentre es treballa.", false],
+      ["Escoltar música en segon pla.", false],
+      ["Augmentar la resolució de la pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin component gestiona els ports i les interrupcions del maquinari?",
+    "respostes": [
+      ["L'usuari final.", false],
+      ["Els drivers de dispositiu.", true],
+      ["El cable d'alimentació.", false],
+      ["El navegador web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quina estratègia d'E/S allibera més la CPU de tasques de transferència?",
+    "respostes": [
+      ["E/S programada.", false],
+      ["DMA (Accés Directe a Memòria).", true],
+      ["Sondeig (Polling).", false],
+      ["E/S manual.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin algorisme de disc evita que les sol·licituds als extrems siguin desateses (més uniforme)?",
+    "respostes": [
+      ["SSTF.", false],
+      ["C-SCAN.", true],
+      ["FCFS.", false],
+      ["FIFO.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què tradueix el sistema operatiu quan una aplicació demana llegir un fitxer?",
+    "respostes": [
+      ["La sol·licitud en comandes de maquinari específiques.", true],
+      ["El fitxer a un altre idioma.", false],
+      ["La sol·licitud a un correu electrònic.", false],
+      ["El codi font a codi màquina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què permet una major paral·lelització en l'ús de recursos?",
+    "respostes": [
+      ["L'E/S Sincrònica.", false],
+      ["L'E/S Asincrònica.", true],
+      ["L'E/S manual.", false],
+      ["L'ús d'un sol nucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quina funció té la detecció d'errors en E/S?",
+    "respostes": [
+      ["Apagar l'ordinador immediatament.", false],
+      ["Detectar fallades, informar i intentar recuperar-se.", true],
+      ["Esborrar els fitxers afectats sense avisar.", false],
+      ["Ignorar el problema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Quin mètode d'E/S es coneix com a 'polled I/O'?",
+    "respostes": [
+      ["E/S controlada per interrupcions.", false],
+      ["E/S controlada per programari.", true],
+      ["DMA.", false],
+      ["E/S asincrònica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 9. El sistema operatiu (IV): gestió d'E/S.",
+    "enunciat": "Què passa quan un sector de disc es corromp segons la gestió d'errors?",
+    "respostes": [
+      ["El sistema operatiu pot intentar recuperar dades de còpies o sectors de reserva.", true],
+      ["S'ha de comprar un disc nou immediatament.", false],
+      ["L'ordinador deixa de funcionar.", false],
+      ["S'esborra tot el disc.", false]
+    ]
+  }
+]

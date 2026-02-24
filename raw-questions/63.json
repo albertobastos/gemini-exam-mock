@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què és la interoperabilitat en el context de les tecnologies de la informació i les administracions públiques?",
+    "respostes": [
+      ["La capacitat de diferents sistemes i organitzacions per treballar conjuntament, compartint i utilitzant informació de manera coherent i eficient.", true],
+      ["El procés d'actualització de tots els ordinadors d'una oficina al mateix sistema operatiu.", false],
+      ["Un mètode per encriptar els correus electrònics entre treballadors d'una mateixa empresa.", false],
+      ["El procés d'eliminar les dades personals de servidors físics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "A què es refereix la Interoperabilitat Tècnica?",
+    "respostes": [
+      ["A la capacitat dels sistemes i serveis tècnics per comunicar-se i intercanviar dades utilitzant formats i protocols estandarditzats.", true],
+      ["A la coordinació de processos de negoci entre dues entitats públiques.", false],
+      ["Al fet que la informació tingui exactament el mateix significat per a totes les administracions.", false],
+      ["A la legislació que obliga a comprar maquinari de la mateixa marca.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin tipus d'interoperabilitat garanteix que la informació intercanviada tingui el mateix significat i s'interpreti correctament per a tots els sistemes implicats?",
+    "respostes": [
+      ["Interoperabilitat Semàntica.", true],
+      ["Interoperabilitat Tècnica.", false],
+      ["Interoperabilitat Organitzativa.", false],
+      ["Interoperabilitat Lògica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Sobre què se centra la Interoperabilitat Organitzativa?",
+    "respostes": [
+      ["En la coordinació de processos de negoci i polítiques entre diferents organitzacions per permetre la cooperació efectiva.", true],
+      ["En la creació de cables de xarxa amb un mateix estàndard de connexió física.", false],
+      ["En la definició d'un mateix vocabulari per a la base de dades.", false],
+      ["En la reducció de personal per estalviar costos a l'administració.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin és l'objectiu de l'Esquema Nacional d'Interoperabilitat (ENI)?",
+    "respostes": [
+      ["Establir els principis i directrius necessaris per garantir la interoperabilitat dels sistemes i serveis d'informació a les administracions públiques espanyoles.", true],
+      ["Crear una única aplicació mòbil per a tots els tràmits estatals.", false],
+      ["Gestionar les freqüències de televisió digital a nivell nacional.", false],
+      ["Prohibir l'intercanvi de dades entre comunitats autònomes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "A quin àmbit s'aplica l'Esquema Nacional d'Interoperabilitat (ENI)?",
+    "respostes": [
+      ["A totes les administracions públiques espanyoles (locals, autonòmiques i estatals) i als organismes que en depenen.", true],
+      ["Únicament a l'Administració General de l'Estat.", false],
+      ["Només a les empreses privades tecnològiques amb contractes estatals.", false],
+      ["Exclusivament a les administracions locals i ajuntaments.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què implica el principi de Neutralitat Tecnològica dins de l'ENI?",
+    "respostes": [
+      ["Que es promou l'ús de tecnologies i estàndards oberts sense imposar cap tecnologia específica de fabricant.", true],
+      ["Que totes les administracions han de tenir servidors desconnectats d'internet.", false],
+      ["Que l'administració no pot utilitzar tecnologia desenvolupada fora d'Europa.", false],
+      ["Que les administracions han de cedir gratuïtament tot el seu programari a empreses privades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin principi de l'ENI estableix que la cooperació ha de ser possible independentment del sistema utilitzat per les parts?",
+    "respostes": [
+      ["La interoperabilitat multilateral.", true],
+      ["La sostenibilitat.", false],
+      ["L'accés i reutilització.", false],
+      ["La normativa de privacitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Com es relaciona el principi de seguretat i privacitat de l'ENI amb altres normatives?",
+    "respostes": [
+      ["Treballa en conjunt i segueix les pautes de l'Esquema Nacional de Seguretat (ENS).", true],
+      ["Substitueix completament al Reglament General de Protecció de Dades (RGPD).", false],
+      ["Prohibeix qualsevol mesura de seguretat que alenteixi la interoperabilitat.", false],
+      ["Es desvincula de qualsevol normativa de seguretat europea.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què són les Normes Tècniques d'Interoperabilitat (NTI)?",
+    "respostes": [
+      ["Documents normatius de compliment obligatori que detallen els requisits tècnics i procediments per garantir la interoperabilitat entre administracions.", true],
+      ["Manuals d'usuari optatius per als treballadors públics.", false],
+      ["Lleis que regulen els impostos d'importació de maquinari informàtic.", false],
+      ["Guies internacionals redactades pel W3C per a l'ús d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quina NTI proporciona un conjunt d'estàndards per referenciar en la contractació pública per assegurar la compatibilitat?",
+    "respostes": [
+      ["La NTI de Catàleg d'estàndards.", true],
+      ["La NTI de Digitalització de documents.", false],
+      ["La NTI d'Expedient electrònic.", false],
+      ["La NTI de Reutilització de recursos.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quina norma tècnica estableix les pautes per convertir documents físics a format digital mantenint-ne el valor legal i la integritat?",
+    "respostes": [
+      ["La NTI de Digitalització de documents.", true],
+      ["La NTI de Protocol d'intermediació de dades.", false],
+      ["La NTI de Política de signatura.", false],
+      ["La NTI de Relació de models de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin aspecte és regulat per la NTI de Política de signatura electrònica i certificats?",
+    "respostes": [
+      ["Els criteris per a la gestió i ús de la signatura electrònica i els certificats digitals dins de l'administració.", true],
+      ["La manera com s'han d'organitzar els cables dels servidors als ministeris.", false],
+      ["Els estàndards per imprimir documents oficials en paper timbrat.", false],
+      ["Les sancions per retards en els tràmits presencials.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què dictamina la NTI pel que fa als formats de document per garantir la interoperabilitat?",
+    "respostes": [
+      ["Que s'ha de fer ús de formats estàndards oberts (com PDF/A, XML, ODF) àmpliament reconeguts.", true],
+      ["Que s'han d'utilitzar únicament formats propietaris tancats amb llicències anuals.", false],
+      ["Que tots els documents s'han de convertir en imatges .JPG per estalviar espai.", false],
+      ["Que no importa el format, sempre que estigui en llengua castellana.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què són les metadades en el context d'un document o expedient electrònic?",
+    "respostes": [
+      ["Informació estructurada que descriu el document (identificador, data, autenticitat), facilitant-ne la gestió i recuperació.", true],
+      ["Dades ocultes que contenen virus per protegir els servidors d'atacs.", false],
+      ["Els gràfics i imatges inserits dins del cos del text d'un PDF.", false],
+      ["Les signatures manuscrites escanejades a la darrera pàgina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quina funció té la signatura electrònica en els documents i expedients electrònics de l'administració?",
+    "respostes": [
+      ["Garantir l'autenticitat i la integritat de la informació durant tot el seu cicle de vida.", true],
+      ["Reduir el pes en megabytes de l'arxiu final.", false],
+      ["Tradueix automàticament el document a diversos idiomes oficials.", false],
+      ["Crear una marca d'aigua visible per a la impressió en paper.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Com es defineix un expedient electrònic en l'àmbit de la interoperabilitat?",
+    "respostes": [
+      ["Com un conjunt estructurat de documents electrònics que fan referència a un mateix procediment administratiu.", true],
+      ["Com un simple arxiu comprimit (ZIP) ple de documents aleatoris d'un ciutadà.", false],
+      ["Com el programari utilitzat pel funcionari per accedir al seu correu.", false],
+      ["Com un registre de multes i sancions pendent de pagament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin element crucial dins d'un expedient electrònic actua com un 'sumari' organitzant la informació dels documents que el formen?",
+    "respostes": [
+      ["L'Índex Electrònic.", true],
+      ["La Caràtula Gràfica.", false],
+      ["El Protocol d'Enllaç.", false],
+      ["El Formulari Web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quina característica de seguretat s'aplica específicament a l'índex electrònic d'un expedient?",
+    "respostes": [
+      ["Ha d'estar signat electrònicament, per garantir la integritat i autenticitat de l'expedient complet.", true],
+      ["No pot portar cap signatura, ja que és un document dinàmic intern de la base de dades.", false],
+      ["Ha d'estar xifrat amb una contrasenya que només coneix el ciutadà.", false],
+      ["Només pot ser consultat físicament en un terminal de l'ajuntament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Com s'han de conservar els documents i expedients electrònics per complir amb l'ENI a llarg termini?",
+    "respostes": [
+      ["Mitjançant l'ús de repositoris que garanteixin l'accés continuat, preservant la integritat i contemplant la migració de formats.", true],
+      ["En discs durs externs (USB) desconnectats de la xarxa i guardats en caixes fortes.", false],
+      ["Mitjançant la seva impressió obligatòria en paper d'arxiu històric un cop passats 5 anys.", false],
+      ["Penjant-los en plataformes de xarxes socials públiques amb accés restingit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què és la Xarxa SARA?",
+    "respostes": [
+      ["Una infraestructura de comunicació segura que connecta les administracions públiques espanyoles per a l'intercanvi de dades i serveis.", true],
+      ["Una nova xarxa social per a funcionaris de l'estat.", false],
+      ["Una empresa privada proveïdora de fibra òptica per a centres educatius.", false],
+      ["Un programari d'intel·ligència artificial que redacta documents legals automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Per a què s'utilitza la xarxa TESTA-ng?",
+    "respostes": [
+      ["Per permetre la interconnexió segura entre les administracions públiques dels Estats membres de la Unió Europea.", true],
+      ["Per connectar els ajuntaments d'una mateixa província a nivell local de manera ràpida.", false],
+      ["Per transferir contingut multimèdia obert als ciutadans europeus.", false],
+      ["Per connectar directament els ciutadans amb el Parlament Europeu via fòrums.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quina funció té la Plataforma d'Intermediació de Dades?",
+    "respostes": [
+      ["Facilitar l'intercanvi i consulta de dades en temps real entre administracions, evitant que el ciutadà hagi de presentar certificats físics repetidament.", true],
+      ["Vendre les dades dels ciutadans a empreses de màrqueting privades per finançar l'estat.", false],
+      ["Actuar com a bústia de suggeriments i queixes anònimes de ciutadans.", false],
+      ["Tradueix els webs governamentals a totes les llengües cooficials automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quins protocols s'indiquen com a base habitual per a l'intercanvi de dades mitjançant serveis web entre administracions?",
+    "respostes": [
+      ["SOAP o REST.", true],
+      ["FTP i Telnet.", false],
+      ["BGP i OSPF.", false],
+      ["SMTP i POP3.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què és el Directori Comú d'Unitats (DIR3)?",
+    "respostes": [
+      ["Un catàleg unificat que permet la identificació i estandardització de les unitats administratives de les administracions públiques espanyoles amb un codi únic.", true],
+      ["El llistat telefònic públic de tots els treballadors de l'estat.", false],
+      ["Un índex dels expedients electrònics classificats del Ministeri de Justícia.", false],
+      ["Un programa per actualitzar el programari dels servidors autonòmics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin tipus d'informació s'emmagatzema dins del directori DIR3 per a cada unitat administrativa?",
+    "respostes": [
+      ["El nom, el codi identificador, l'adreça, les dades de contacte i el catàleg de competències.", true],
+      ["Les nòmines de tots els funcionaris adscrits a l'oficina.", false],
+      ["Les contrasenyes mestres per a l'accés a les bases de dades locals.", false],
+      ["Les instruccions d'ús del maquinari ofimàtic de la unitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quin és un dels principals beneficis aportats pel sistema DIR3?",
+    "respostes": [
+      ["Reduir els errors en la tramitació administrativa i afavorir la integració amb sistemes d'interconnexió de registres com el SIR.", true],
+      ["Eliminar la necessitat de tenir pàgines web per als ministeris.", false],
+      ["Permet reduir dràsticament el pressupost necessari per al manteniment dels ordinadors.", false],
+      ["Assignar automàticament adreces IPv6 als servidors estatals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "L'ENI es basa jurídicament en una llei que regula el règim jurídic del sector públic. De quina llei es tracta?",
+    "respostes": [
+      ["Llei 40/2015.", true],
+      ["Llei Orgànica 3/2018 (LOPDGDD).", false],
+      ["Reglament (UE) eIDAS.", false],
+      ["Llei de Protecció de Riscos Laborals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Quina NTI fomenta la publicació de dades obertes i la utilització de la informació pública per part de tercers i altres entitats?",
+    "respostes": [
+      ["La NTI de Reutilització de recursos d'informació.", true],
+      ["La NTI de Política de Signatura.", false],
+      ["La NTI de Models de Dades.", false],
+      ["La NTI de Seguretat Ofimàtica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "D'acord amb el text, què exigeix la interoperabilitat en relació als col·lectius amb necessitats especials?",
+    "respostes": [
+      ["Que els formats dels documents han de garantir la compatibilitat amb els requisits d'accessibilitat.", true],
+      ["Que no cal digitalitzar cap document destinat a la ciutadania.", false],
+      ["Que l'administració ha d'enviar formularis en paper sempre.", false],
+      ["Rien, l'interoperabilitat només tracta de la comunicació entre màquines, no de l'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Com aborden l'ENI i les NTI el concepte de sostenibilitat dels sistemes?",
+    "respostes": [
+      ["Els sistemes han de ser preparats per adaptar-se a nous requeriments o tecnologies per assegurar la seva perdurabilitat i efectivitat a llarg termini.", true],
+      ["Obligant a comprar només ordinadors fabricats amb materials reciclats.", false],
+      ["Apagant els servidors públics durant les hores nocturnes per estalviar energia.", false],
+      ["Deixant de desenvolupar nous programaris durant almenys 10 anys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "En referència a la NTI de Relació de models de dades, quina és la seva utilitat principal?",
+    "respostes": [
+      ["Definir les estructures i models de dades per facilitar l'intercanvi d'informació de manera estructurada, garantint la interoperabilitat semàntica.", true],
+      ["Indicar la forma i el disseny gràfic que han de tenir les pàgines de l'administració.", false],
+      ["Establir quants documents pot emmagatzemar com a màxim un arxiu electrònic.", false],
+      ["Regular les tarifes de transferència de dades entre operadores de telefonia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Què exigeix el principi d'Accés i Reutilització segons l'ENI?",
+    "respostes": [
+      ["Que els recursos d'informació pública siguin accessibles i reutilitzables dins i fora de l'administració, respectant sempre la privacitat.", true],
+      ["Que qualsevol ciutadà pugui modificar directament els expedients administratius dels altres.", false],
+      ["Que les administracions han de cobrar per qualsevol consulta de dades.", false],
+      ["Que l'ús de codi obert està totalment prohibit en la interacció amb la ciutadania.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "Per tal de garantir la integritat en la transmissió de l'expedient electrònic, quina mesura de seguretat addicional contempla la NTI d'expedients?",
+    "respostes": [
+      ["L'ús de xifratge i mecanismes de control d'accés per a l'emmagatzematge i la transmissió.", true],
+      ["El lliurament dels expedients exclusivament en mà a través d'un missatger de l'estat.", false],
+      ["La conversió de l'expedient a text pla sense formats.", false],
+      ["La fragmentació de l'expedient en petites parts per enviar-les en dies diferents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 63. Interoperabilitat. L'Esquema Nacional d'Interoperabilitat. Les normes tècniques d'interoperabilitat.",
+    "enunciat": "D'acord amb els components de l'ENI, què formen les 'Infraestructures comunes'?",
+    "respostes": [
+      ["Els elements tècnics dissenyats per a la interconnexió entre administracions, com les xarxes de comunicacions i serveis d'intercanvi.", true],
+      ["Les seus físiques i els edificis dels ajuntaments.", false],
+      ["Els estàndards gràfics dels formularis impresos de cada comunitat autònoma.", false],
+      ["Els cotxes oficials per al desplaçament d'autoritats.", false]
+    ]
+  }
+]

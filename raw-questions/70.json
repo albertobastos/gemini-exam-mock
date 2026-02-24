@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Segons la Free Software Foundation (FSF), què garanteix la 'llibertat d'ús' en el programari lliure?",
+    "respostes": [
+      ["La llibertat d'executar el programa per a qualsevol propòsit sense cap restricció.", true],
+      ["La llibertat d'utilitzar el programa únicament per a finalitats educatives o no comercials.", false],
+      ["L'obligació de mencionar el nom de l'autor cada cop que s'executa el programa.", false],
+      ["El dret a obtenir suport tècnic gratuït durant un any.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Quines de les quatre llibertats essencials del programari lliure requereixen, de manera indispensable, l'accés al codi font?",
+    "respostes": [
+      ["La llibertat d'estudi i la llibertat de millora.", true],
+      ["La llibertat d'ús i la llibertat de distribució.", false],
+      ["La llibertat d'ús i la llibertat d'estudi.", false],
+      ["Cap llibertat no requereix estrictament l'accés al codi font.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Quin és l'enfocament principal que diferencia el moviment del Programari de Codi Obert (promogut per l'OSI) del Programari Lliure (promogut per la FSF)?",
+    "respostes": [
+      ["El codi obert té una visió més pragmàtica centrada en els avantatges tècnics i col·laboratius, mentre que el programari lliure se centra en l'ètica i els drets dels usuaris.", true],
+      ["El codi obert exigeix que tot el programari sigui gratuït, i el programari lliure permet que es vengui.", false],
+      ["El programari lliure està pensat exclusivament per a empreses privades i el codi obert per a organitzacions governamentals.", false],
+      ["El codi obert prohibeix que es pugui modificar el codi font, mentre que el programari lliure sí ho permet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què implica el concepte de 'Copyleft' en llicències com la GPL?",
+    "respostes": [
+      ["Exigeix que qualsevol modificació del programari o treball derivat es distribueixi sota les mateixes condicions i llicència, garantint que continuï sent lliure.", true],
+      ["És una clàusula que prohibeix estrictament l'ús comercial o la venda del programari modificat.", false],
+      ["Permet als usuaris tancar el codi modificat i vendre'l sota una llicència privativa.", false],
+      ["Eximeix de qualsevol responsabilitat legal els creadors del programari en cas de fallada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "El fet que un programari sigui lliure o de codi obert vol dir obligatòriament que no s'hi pot guanyar diners ni vendre'l?",
+    "respostes": [
+      ["No, el programari pot ser gratuït, però la llicència no impedeix que es pugui vendre o utilitzar en projectes comercials.", true],
+      ["Sí, l'ús comercial està totalment prohibit tant per la FSF com per l'OSI.", false],
+      ["Només el programari de codi obert es pot vendre; el programari lliure ha de ser sempre 100% gratuït.", false],
+      ["Només es permet la venda del programari si part dels beneficis es destinen a la Fundació corresponent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Qui va fundar la Free Software Foundation (FSF) l'any 1985?",
+    "respostes": [
+      ["Richard Stallman.", true],
+      ["Linus Torvalds.", false],
+      ["Bruce Perens.", false],
+      ["Eric S. Raymond.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què significa l'acrònim recursiu 'GNU' encunyat l'any 1983?",
+    "respostes": [
+      ["GNU's Not Unix.", true],
+      ["General Network Utility.", false],
+      ["Graphical New User.", false],
+      ["Global Nomenclature Union.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Per què el sistema operatiu complet que utilitzen molts usuaris sovint s'anomena 'GNU/Linux'?",
+    "respostes": [
+      ["Perquè combina les eines, aplicacions i l'entorn del projecte GNU amb el nucli (kernel) Linux, creat per Linus Torvalds el 1991.", true],
+      ["Perquè Linux va comprar els drets d'autor a l'empresa GNU l'any 2000.", false],
+      ["Perquè GNU és exclusivament un entorn gràfic d'escriptori dissenyat específicament per a Linux.", false],
+      ["Perquè 'GNU' significa 'Gratuït' i 'Linux' és el nom del sistema operatiu complet i original.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Quin és el component nucli (kernel) original dissenyat pel projecte GNU, que encara està en desenvolupament i no ha assolit un ús generalitzat?",
+    "respostes": [
+      ["GNU Hurd.", true],
+      ["GNU Bash.", false],
+      ["GNU Emacs.", false],
+      ["GNU GCC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "L'Open Source Initiative (OSI), impulsora del terme 'codi obert', va ser fundada l'any 1998 per dues persones principals. Qui eren?",
+    "respostes": [
+      ["Bruce Perens i Eric S. Raymond.", true],
+      ["Bill Gates i Steve Jobs.", false],
+      ["Richard Stallman i Linus Torvalds.", false],
+      ["Mark Zuckerberg i Tim Berners-Lee.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Un dels rols més importants de l'OSI (Open Source Initiative) respecte al marc legal del programari és:",
+    "respostes": [
+      ["La certificació oficial de llicències per garantir que compleixen amb la seva definició de codi obert.", true],
+      ["La denúncia penal i persecució d'empreses que fan servir programari privatiu.", false],
+      ["El cobrament i gestió d'impostos per l'ús de codi obert a la Unió Europea.", false],
+      ["La creació exclusiva de llicències tancades per a l'administració militar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Segons els principis de l'OSI per certificar una llicència de codi obert, s'estableix l'Obligació de no discriminació. Què significa?",
+    "respostes": [
+      ["Que la llicència no ha de discriminar cap grup de persones, empreses ni finalitats per a les quals s'usi el programari.", true],
+      ["Que el codi ha d'estar disponible obligatòriament en almenys cinc idiomes.", false],
+      ["Que tothom ha de pagar el mateix preu pel programari, sense excepció.", false],
+      ["Que no es pot diferenciar entre codi obert i codi lliure a nivell legal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Quina d'aquestes llicències es considera una 'llicència permissiva' que NO obliga a redistribuir els treballs derivats sota la mateixa llicència?",
+    "respostes": [
+      ["La llicència MIT.", true],
+      ["La llicència GPL.", false],
+      ["La llicència AGPL.", false],
+      ["Totes les anteriors tenen Copyleft fort.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Si una empresa modifica un programari amb llicència GPL per crear-ne un de nou i vol distribuir-lo, què l'obliga a fer aquesta llicència?",
+    "respostes": [
+      ["Està obligada a oferir el codi font complet de la seva versió modificada i distribuir-lo també sota la mateixa llicència GPL.", true],
+      ["Només està obligada a mencionar l'autor original, podent tancar el nou codi sota llicència propietària.", false],
+      ["Li prohibeix absolutament vendre la seva nova versió, havent de regalar-la.", false],
+      ["Està obligada a demanar permís per escrit a la FSF i pagar drets d'autor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Quina variant de la llicència GPL va ser pensada principalment per a 'biblioteques de programari' i aplica el copyleft de forma limitada?",
+    "respostes": [
+      ["LGPL (Lesser General Public License).", true],
+      ["AGPL (Affero General Public License).", false],
+      ["BSD de 3 clàusules.", false],
+      ["MIT.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què permet especialment la llicència LGPL a diferència de la GPL estàndard?",
+    "respostes": [
+      ["Permet que la biblioteca en qüestió sigui enllaçada o integrada per programari de codi tancat (propietari) sense obligar aquest darrer a ser alliberat com a programari lliure.", true],
+      ["Permet no mostrar qui és l'autor original de la biblioteca en cap document.", false],
+      ["Impedeix que ningú pugui modificar el codi font de la biblioteca en si mateixa.", false],
+      ["Obliga a tancar totalment el codi font abans de distribuir-lo a tercers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Per solucionar l'escletxa legal de les aplicacions SaaS (Programari com a Servei), quina llicència obliga a compartir el codi modificat als usuaris que només interactuen amb l'aplicació a través de la xarxa?",
+    "respostes": [
+      ["L'AGPL (Affero General Public License).", true],
+      ["La llicència MIT.", false],
+      ["La llicència BSD de 2 clàusules.", false],
+      ["La llicència Apache.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "En referència a les llicències BSD, quina característica específica diferencia la 'BSD de 3 clàusules' respecte a la 'BSD de 2 clàusules'?",
+    "respostes": [
+      ["La de 3 clàusules inclou una restricció addicional (clàusula de publicitat) que prohibeix utilitzar el nom de l'autor o dels col·laboradors per promocionar productes derivats sense permís exprés.", true],
+      ["La de 3 clàusules té 'copyleft fort' i la de 2 clàusules no en té.", false],
+      ["La de 3 clàusules permet tancar el codi i la de 2 clàusules obliga a mantenir-lo obert.", false],
+      ["La de 3 clàusules no eximeix l'autor de responsabilitat per danys.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "En el marc de les llicències de programari obert o lliure com la MIT i la BSD, què implica la clàusula d''exempció de responsabilitat'?",
+    "respostes": [
+      ["És un mecanisme legal que protegeix els desenvolupadors declarant que no se'n fan responsables si el programari falla o causa algun perjudici.", true],
+      ["Estableix que qualsevol usuari que executi el programa assumeix la propietat intel·lectual sobre l'obra completa.", false],
+      ["Prohibeix a les grans empreses tecnològiques usar l'aplicació en entorns de producció.", false],
+      ["Significa que la FSF es farà càrrec de pagar totes les demandes legals sobre el programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Dins d'una comunitat de desenvolupament, quina és la percepció que algunes empreses de serveis poden tenir sobre la llicència AGPL quant a inconvenients?",
+    "respostes": [
+      ["Pot ser percebuda com a massa restrictiva, ja que obliga a compartir el codi font intern d'un servei web fins i tot quan no es distribueix l'executable al client final.", true],
+      ["Es considera massa feble perquè permet que els competidors tanquin les aplicacions de xarxa impunement.", false],
+      ["És rebutjada habitualment pel seu gran cost d'adquisició inicial per usuari.", false],
+      ["L'obligació de posar un logotip de la FSF obligatori a totes les pàgines web que el facin servir.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Per quin motiu un desenvolupador corporatiu que vulgui incorporar codi d'un tercer en un projecte propietari totalment tancat preferiria trobar aquest codi sota llicència MIT en lloc de GPL?",
+    "respostes": [
+      ["Perquè la llicència MIT és permissiva i li permet integrar-lo al seu projecte tancat sense obligar a alliberar el codi font propi, cosa que la GPL no permetria.", true],
+      ["Perquè la llicència GPL exigeix pagaments mensuals obligatoris i la MIT és gratuïta.", false],
+      ["Perquè la MIT ofereix garanties legals contra errors informàtics que la GPL no té.", false],
+      ["Perquè la llicència MIT és exclusivament per a empreses i no permet usos particulars.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Entre els projectes impulsats inicialment per Richard Stallman en el marc de GNU, a més de la pròpia llicència GPL, s'hi compten eines fonamentals com:",
+    "respostes": [
+      ["El compilador GCC, l'editor de text Emacs i el shell Bash.", true],
+      ["El nucli Linux, el navegador Firefox i la base de dades MySQL.", false],
+      ["El sistema operatiu Windows, el paquet Office i l'Active Directory.", false],
+      ["El gestor de bases de dades Oracle i el servidor web Apache.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Quan reutilitzes un programari sota llicència MIT o BSD, què és l'única cosa que la llicència normalment et demana mantenir de forma ineludible per complir-la?",
+    "respostes": [
+      ["Conservar la nota de copyright i l'avís d'exempció de responsabilitat de l'autor original.", true],
+      ["L'obligació de convidar l'autor original a unir-se al teu nou projecte comercial.", false],
+      ["El logotip original en la pantalla d'inici de l'aplicació derivada.", false],
+      ["L'obligació de retornar tota millora del codi a l'autor original.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "La Free Software Foundation defensa que les quatre llibertats essencials han d'estar sempre presents perquè un programari sigui lliure. Segons el document, què pretenen assegurar aquestes llibertats?",
+    "respostes": [
+      ["Que els usuaris mantinguin el control absolut sobre el programari que utilitzen i no siguin dependents dels desenvolupadors o proveïdors.", true],
+      ["Que tots els programes generin ingressos publicitaris per finançar projectes solidaris globals.", false],
+      ["Que els governs mundials tinguin dret a auditar el codi font en cas de delictes.", false],
+      ["Que el mercat de programari d'escriptori tancat quedi legalment prohibit a tot el món.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què representa la Llibertat 3 (o Llibertat de millora) segons els postulats del programari lliure?",
+    "respostes": [
+      ["La llibertat de modificar el programari i de distribuir les versions millorades, de manera que tota la comunitat pugui beneficiar-se'n.", true],
+      ["La llibertat d'obtenir actualitzacions de programari ràpides des del núvol.", false],
+      ["L'obligació legal d'arreglar els errors del codi trobats per altres usuaris abans de 30 dies.", false],
+      ["La llibertat d'utilitzar el codi aliè sense cap tipus d'esment ni reconeixement de l'autoria original.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Per què l'OSI (Open Source Initiative) s'ha centrat en col·laborar i fomentar l'ús de codi obert específicament en el sector empresarial i comercial?",
+    "respostes": [
+      ["Per demostrar els beneficis pràctics del desenvolupament obert com la millora de la qualitat, detecció ràpida de vulnerabilitats i reducció de costos de llicència.", true],
+      ["Per obligar-les mitjançant sentències legals a alliberar tots els seus programaris interns obsolets.", false],
+      ["Per garantir que les empreses només facin servir llicències GPL estricte, evitant les llicències BSD.", false],
+      ["Per introduir una taxa de manteniment a càrrec d'un sindicat tecnològic central.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "A l'hora de parlar del terme 'lliure' dins de l'expressió 'programari lliure' (en contrast de l'anglès 'Free software'), quina confusió s'acostuma a desmentir referent al seu significat?",
+    "respostes": [
+      ["Que el terme 'lliure' no es refereix a un preu gratuït, sinó a la llibertat exercida per l'usuari sobre l'eina.", true],
+      ["Que 'lliure' indica que no requereix cap tipus d'instal·lació en disc dur (versió portàtil).", false],
+      ["Que està alliberat de tots els virus possibles presents a Internet de manera nativa.", false],
+      ["Que l'autor original perd completament la capacitat de reclamar l'autoria legalment i la propietat passa a l'Estat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què estableix la 'Llibertat de distribució' segons la filosofia de la FSF?",
+    "respostes": [
+      ["La llibertat de redistribuir còpies del programa a altres usuaris.", true],
+      ["L'obligatorietat de publicar el programari en un mercat d'aplicacions aprovat per la FSF.", false],
+      ["La capacitat d'instal·lar el mateix programari en ordinadors diferents de forma paral·lela, però sense intercanviar l'arxiu.", false],
+      ["El dret de cobrar als usuaris una tarifa per la documentació tècnica exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Si comparem l'OSI amb la FSF, podríem dir que l'OSI adopta una posició més pragmàtica. Què valora més aquesta organització a l'hora de defensar l'accés al codi?",
+    "respostes": [
+      ["Aprecia que el desenvolupament col·laboratiu global i l'escrutini obert milloren la qualitat, la fiabilitat i l'eficiència del programari resultant.", true],
+      ["Promou la fi d'absolutament totes les llicències privatives a qualsevol escala per establir un comunisme tecnològic.", false],
+      ["Es preocupa essencialment per establir que l'usuari ha de ser l'únic gestor de cada bit que instal·li com a principi inqüestionable d'ètica.", false],
+      ["La seva finalitat és assegurar-se que els grans fabricants de maquinari cobrin pel programari adjunt sempre que mostrin el codi de la interfície gràfica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "En referència a la taula resum sobre Copyleft present al document, la llicència BSD de quina tipologia de copyleft disposa?",
+    "respostes": [
+      ["No té cap obligació de copyleft (és totalment permissiva respecte al tancament del codi posterior).", true],
+      ["Té un copyleft moderat, restringit a les llibreries enllaçades.", false],
+      ["Té copyleft fort i rigorós.", false],
+      ["Posseeix el copyleft més estricte ja que inclou les interfícies de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Segons la informació proporcionada, la llicència de codi obert més simple, molt popular en entorns com jQuery o Rails i altament utilitzada per la seva extrema flexibilitat és la:",
+    "respostes": [
+      ["Llicència MIT.", true],
+      ["Llicència BSD 3-Clause.", false],
+      ["Llicència AGPL.", false],
+      ["Llicència GPL.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Si un projecte utilitza codi sota llicència MIT i vol integrar, a part, un fragment sota llicència GPL, serà la llicència final compatible en el seu conjunt?",
+    "respostes": [
+      ["Sí, el codi sota MIT es pot integrar en projectes GPL (les permissives són compatibles amb projectes de copyleft superior), però el projecte conjunt resultant s'haurà de regir pel copyleft de la GPL.", true],
+      ["No, la MIT i la GPL són totalment incompatibles en tots els casos i els sistemes es bloquejaran al moment de compilar-se.", false],
+      ["Sí, però el programari de la GPL perdrà tot el seu copyleft heretant l'absència de normes del codi MIT adjunt de manera instantània.", false],
+      ["Només si el fragment procedent de la GPL s'anota al final de tot del codi sense compilar-lo mai.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què defensa de manera específica la FSF en relació a la Defesa Legal dels usuaris i desenvolupadors?",
+    "respostes": [
+      ["Proporciona suport i empara legal per protegir els drets i llibertats d'usuaris i autors del programari lliure.", true],
+      ["Paga les llicències privades d'aquells que no es poden permetre adquirir els productes de Microsoft.", false],
+      ["Inscriu obligatòriament els programes lliures al registre de patents internacionals tancades per evitar còpies a la Xina.", false],
+      ["Advoca perquè cap usuari individual pugui ser propietari d'ordinadors si utilitza plataformes tancades de fàbrica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "De quina organització és una iniciativa fonamental el mantenir una llista actualitzada i aprovada de les llicències oficials de 'Open Source' (Codi Obert)?",
+    "respostes": [
+      ["De l'OSI (Open Source Initiative).", true],
+      ["De l'FSF (Free Software Foundation).", false],
+      ["De l'EFF (Electronic Frontier Foundation).", false],
+      ["Del MIT (Massachusetts Institute of Technology).", false]
+    ]
+  },
+  {
+    "tema": "Tema 70. Programari lliure. Programari de codi obert. Conceptes bàsics. La Free Software Foundation (FSF). L´Open Source Initiative (OSI). Llicències principals: GPL, LGPL, AGPL, BSD, MIT.",
+    "enunciat": "Què exigeix el compliment de les llibertats del programari lliure, especialment per estudiar el codi i poder-lo millorar?",
+    "respostes": [
+      ["L'accés incondicional al codi font originari, ja que sense ell estudiar-lo i modificar-lo de manera eficient és materialment inviable.", true],
+      ["La contractació d'un servei especialitzat en enginyeria inversa descompiladora de binaris.", false],
+      ["La visualització gratuïta dels manuals d'instruccions en PDF publicats al web.", false],
+      ["Només cal que s'ofereixi al mercat una interfície API oberta sense lliurar el codi intern dels algorismes reals de base.", false]
+    ]
+  }
+]

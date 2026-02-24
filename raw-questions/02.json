@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quin és l'objectiu principal de l'evolució de les arquitectures de CPU?",
+    "respostes": [
+      ["Reduir la mida física del processador a la meitat cada any.", false],
+      ["Augmentar el rendiment i l'eficiència.", true],
+      ["Eliminar completament l'ús de la memòria RAM.", false],
+      ["Simplificar els sistemes operatius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què signifiquen les sigles CISC?",
+    "respostes": [
+      ["Computer Instruction Set Core.", false],
+      ["Complex Instruction Set Computing.", true],
+      ["Central Integrated System Chip.", false],
+      ["Calculated Instruction Speed Clock.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina característica defineix l'arquitectura CISC?",
+    "respostes": [
+      ["Té un conjunt d'instruccions petit i uniforme.", false],
+      ["Les instruccions s'executen sempre en un sol cicle de rellotge.", false],
+      ["Té un conjunt d'instruccions ampli i complex, on una instrucció fa múltiples operacions.", true],
+      ["Està dissenyada exclusivament per a dispositius mòbils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quin dels següents és un exemple d'arquitectura CISC?",
+    "respostes": [
+      ["ARM.", false],
+      ["x86 (Intel i AMD).", true],
+      ["RISC-V.", false],
+      ["MIPS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què signifiquen les sigles RISC?",
+    "respostes": [
+      ["Reduced Instruction Set Computing.", true],
+      ["Rapid Integrated System Core.", false],
+      ["Random Instruction Set Cycle.", false],
+      ["Reliable Internal System Clock.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Com són les instruccions en una arquitectura RISC?",
+    "respostes": [
+      ["Complexes i variables en longitud.", false],
+      ["Simples i s'executen generalment en un sol cicle de rellotge.", true],
+      ["Poden trigar molts cicles de rellotge a completar-se.", false],
+      ["Capaces de realitzar càrrega, suma i emmagatzematge simultàniament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quin és l'avantatge principal de l'arquitectura RISC segons el text?",
+    "respostes": [
+      ["La capacitat de tenir instruccions molt llargues.", false],
+      ["La complexitat del maquinari.", false],
+      ["La simplicitat i la rapidesa d'execució de les instruccions.", true],
+      ["La compatibilitat nativa amb x86.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què és la Taxonomia de Flynn?",
+    "respostes": [
+      ["Una classificació de les memòries cau.", false],
+      ["Un mètode per mesurar la velocitat del rellotge.", false],
+      ["Una classificació dels ordinadors segons la paral·lelització d'instruccions i dades.", true],
+      ["Una llista de fabricants de processadors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què defineix el model SISD (Single Instruction, Single Data)?",
+    "respostes": [
+      ["Un únic flux d'instruccions opera sobre múltiples fluxos de dades.", false],
+      ["Múltiples instruccions operen sobre múltiples dades.", false],
+      ["Un únic flux d'instruccions opera sobre un únic flux de dades.", true],
+      ["El processament vectorial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quin és un exemple de sistema SIMD (Single Instruction, Multiple Data)?",
+    "respostes": [
+      ["Un ordinador tradicional amb un sol processador.", false],
+      ["Unitats de Processament Gràfic (GPU) i processadors vectorials.", true],
+      ["Un clúster de servidors web.", false],
+      ["Un sistema de fitxers distribuït.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què caracteritza el model MIMD (Multiple Instruction, Multiple Data)?",
+    "respostes": [
+      ["Una sola instrucció aplicada a moltes dades.", false],
+      ["Múltiples instruccions operant sobre múltiples dades simultàniament.", true],
+      ["Dades seqüencials sense paral·lelisme.", false],
+      ["L'ús exclusiu d'un sol nucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què fa un processador escalar?",
+    "respostes": [
+      ["Executa una instrucció per cicle operant sobre un sol conjunt de dades.", true],
+      ["Processa matrius senceres en un sol cicle.", false],
+      ["Executa milers d'instruccions simultàniament.", false],
+      ["No utilitza cicles de rellotge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "En què es diferencien els processadors vectorials dels escalars?",
+    "respostes": [
+      ["Els vectorials són més lents.", false],
+      ["Els vectorials poden processar múltiples dades (vectors) amb una sola instrucció.", true],
+      ["Els vectorials només poden fer sumes, no restes.", false],
+      ["Els vectorials no tenen memòria cau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què és el 'pipeline' en una CPU?",
+    "respostes": [
+      ["Un tipus de cable per connectar el monitor.", false],
+      ["Una tècnica que divideix l'execució d'instruccions en diverses etapes simultànies.", true],
+      ["El sistema de refrigeració líquida del processador.", false],
+      ["La connexió entre la CPU i el disc dur.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina de les següents NO és una etapa típica del pipeline descrit al text?",
+    "respostes": [
+      ["Fetch (Extracció).", false],
+      ["Decode (Descodificació).", false],
+      ["Compile (Compilació).", true],
+      ["Write-back (Escriptura).", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què succeeix en l'etapa 'Fetch' del pipeline?",
+    "respostes": [
+      ["Es descodifica la instrucció.", false],
+      ["S'executa l'operació matemàtica.", false],
+      ["S'extreu la instrucció de la memòria.", true],
+      ["S'escriu el resultat al registre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina és la funció de les memòries cau multinivell?",
+    "respostes": [
+      ["Emmagatzemar permanentment les dades de l'usuari.", false],
+      ["Reduir el temps d'accés a les dades més freqüentment utilitzades.", true],
+      ["Substituir la memòria RAM completament.", false],
+      ["Augmentar la velocitat del rellotge base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina característica té la memòria cau L1 en comparació amb la L3?",
+    "respostes": [
+      ["La L1 és més lenta i més gran.", false],
+      ["La L1 és més ràpida i més petita.", true],
+      ["La L1 està fora del nucli del processador.", false],
+      ["La L1 és compartida entre tots els nuclis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "On es situa habitualment la memòria cau L2?",
+    "respostes": [
+      ["Dins del disc dur.", false],
+      ["Entre el nucli del processador i la memòria principal.", true],
+      ["Fora de la placa base.", false],
+      ["Dins del teclat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina característica té la memòria cau L3?",
+    "respostes": [
+      ["És la més ràpida de totes.", false],
+      ["És exclusiva per a un sol nucli.", false],
+      ["És la més gran i sovint compartida entre múltiples nuclis.", true],
+      ["No s'utilitza en processadors moderns.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "L'arquitectura x86 és una família de microprocessadors de quants bits originalment?",
+    "respostes": [
+      ["16 bits.", false],
+      ["32 bits.", true],
+      ["64 bits.", false],
+      ["128 bits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina empresa va desenvolupar l'arquitectura x86?",
+    "respostes": [
+      ["Apple.", false],
+      ["Intel.", true],
+      ["ARM Holdings.", false],
+      ["IBM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què permet l'arquitectura x64 respecte a la x86?",
+    "respostes": [
+      ["Utilitzar menys energia.", false],
+      ["Adreçar molta més memòria i suportar 64 bits.", true],
+      ["Reduir la mida del processador.", false],
+      ["Eliminar la necessitat de ventiladors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "En què es basa l'arquitectura ARM?",
+    "respostes": [
+      ["En un disseny CISC complex.", false],
+      ["En tecnologia de vàlvules de buit.", false],
+      ["En un disseny RISC eficient energèticament.", true],
+      ["En arquitectura x86.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Per a quin tipus de dispositius és especialment adequada l'arquitectura ARM?",
+    "respostes": [
+      ["Superordinadors de càlcul intensiu exclusivament.", false],
+      ["Dispositius mòbils i embeguts.", true],
+      ["Servidors antics.", false],
+      ["Ordinadors d'escriptori de 1990.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què és ARM64?",
+    "respostes": [
+      ["Un model de calculadora.", false],
+      ["Una extensió de 64 bits de l'arquitectura ARM.", true],
+      ["Un processador x86 modificat.", false],
+      ["Un sistema operatiu mòbil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina categoria de la taxonomia de Flynn correspon a un processador que executa múltiples instruccions sobre un únic flux de dades?",
+    "respostes": [
+      ["SISD.", false],
+      ["SIMD.", false],
+      ["MISD.", true],
+      ["MIMD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina etapa del pipeline s'encarrega d'interpretar què ha de fer la instrucció?",
+    "respostes": [
+      ["Fetch.", false],
+      ["Decode.", true],
+      ["Execute.", false],
+      ["Memory.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quin tipus de processadors s'utilitzen habitualment en computació científica per a càlculs de matrius?",
+    "respostes": [
+      ["Processadors escalars SISD.", false],
+      ["Processadors vectorials.", true],
+      ["Processadors de text.", false],
+      ["Controladors d'E/S.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què permet fer el pipeline en una CPU de 5 etapes?",
+    "respostes": [
+      ["Executar 5 programes diferents alhora.", false],
+      ["Processar simultàniament instruccions en diferents fases (una es descodifica mentre una altra s'executa).", true],
+      ["Multiplicar per 5 la velocitat del rellotge.", false],
+      ["Utilitzar 5 nuclis diferents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina arquitectura permet operacions de baix nivell múltiples (carregar, sumar, guardar) en una sola instrucció?",
+    "respostes": [
+      ["RISC.", false],
+      ["CISC.", true],
+      ["SIMD.", false],
+      ["Pipeline.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina és una característica clau de la memòria cau L1?",
+    "respostes": [
+      ["Està situada fora del processador.", false],
+      ["És la més lenta.", false],
+      ["Està situada directament dins del nucli del processador.", true],
+      ["Té capacitat il·limitada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "En la taxonomia de Flynn, quin és l'exemple donat per a MIMD?",
+    "respostes": [
+      ["Ordinadors tradicionals.", false],
+      ["GPU.", false],
+      ["Sistemes de processament de senyals.", false],
+      ["Clústers de computació i servidors multi-core.", true]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina és la principal diferència operativa entre x86 i ARM?",
+    "respostes": [
+      ["x86 és de 64 bits i ARM de 32 bits sempre.", false],
+      ["x86 és CISC (instruccions complexes) i ARM és RISC (instruccions simples).", true],
+      ["x86 és per a mòbils i ARM per a servidors.", false],
+      ["No hi ha diferències significatives.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què fa l'etapa 'Write-back' al pipeline?",
+    "respostes": [
+      ["Llegeix dades de la memòria.", false],
+      ["Escriu el resultat de l'execució en un registre.", true],
+      ["Calcula l'adreça de la següent instrucció.", false],
+      ["Buida la memòria cau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina és una aplicació típica de l'arquitectura ARM64?",
+    "respostes": [
+      ["Servidors mainframe antics.", false],
+      ["Nous dispositius mòbils i tablets que necessiten rendiment i eficiència.", true],
+      ["Calculadores de butxaca simples.", false],
+      ["Sistemes de control de semàfors antics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Què significa que un processador sigui 'multicicle' en el context de CISC?",
+    "respostes": [
+      ["Que té molts nuclis.", false],
+      ["Que una instrucció pot trigar diversos cicles de rellotge a executar-se.", true],
+      ["Que funciona a diverses velocitats.", false],
+      ["Que pot executar diverses instruccions alhora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 2. Arquitectura de CPU avançades: jocs CISC i RISC, processament paral·lel, processadors escalars i vectorials, pipe line, memòries cau multinivel.",
+    "enunciat": "Quina afirmació és certa sobre la memòria cau L2 respecte a la L1?",
+    "respostes": [
+      ["És més ràpida.", false],
+      ["És més petita.", false],
+      ["És una mica més lenta però més gran.", true],
+      ["No existeix en els processadors moderns.", false]
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què és l'Arquitectura Orientada a Serveis (SOA)?",
+    "respostes": [
+      ["Un protocol de xarxa per a la transferència d'arxius.", false],
+      ["Una arquitectura de programari que estructura les funcionalitats com a serveis independents accessibles per xarxa.", true],
+      ["Un sistema operatiu per a servidors web.", false],
+      ["Un llenguatge de programació per a bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina és una característica fonamental dels serveis en SOA?",
+    "respostes": [
+      ["Són dependents del sistema operatiu client.", false],
+      ["Són auto-contenidors i poden ser reutilitzats en diferents aplicacions.", true],
+      ["Només poden ser utilitzats per una aplicació a la vegada.", false],
+      ["No tenen interfícies definides.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina funció té el Bus de Serveis Empresarials (ESB)?",
+    "respostes": [
+      ["Emmagatzemar les dades dels usuaris.", false],
+      ["Actuar com a intermediari per gestionar la comunicació i integració entre serveis.", true],
+      ["Crear interfícies gràfiques d'usuari.", false],
+      ["Executar el codi font dels serveis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin problema evita l'ús d'un ESB?",
+    "respostes": [
+      ["La complexitat d'integrar directament cada aplicació amb totes les altres (punt a punt).", true],
+      ["L'excés de velocitat en la xarxa.", false],
+      ["La manca de protocols estàndard.", false],
+      ["La necessitat de servidors físics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Com descobreixen els clients els serveis en un entorn SOA?",
+    "respostes": [
+      ["Endevinant l'adreça IP.", false],
+      ["Mitjançant consultes a un registre central on es publiquen els serveis.", true],
+      ["Enviant correus electrònics als desenvolupadors.", false],
+      ["Escanejant tots els ports de la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin és un avantatge clau de SOA?",
+    "respostes": [
+      ["La reutilització de serveis en múltiples aplicacions.", true],
+      ["La reducció de la necessitat de xarxa.", false],
+      ["L'eliminació de la necessitat de seguretat.", false],
+      ["La simplicitat extrema sense cap cost inicial.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin és un possible desavantatge de SOA?",
+    "respostes": [
+      ["La manca d'escalabilitat.", false],
+      ["La complexitat de gestió i la possible sobrecàrrega de rendiment en la comunicació.", true],
+      ["La incompatibilitat amb protocols web.", false],
+      ["La impossibilitat d'usar bases de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què signifiquen les sigles SOAP?",
+    "respostes": [
+      ["Simple Object Access Protocol.", true],
+      ["Service Oriented Application Protocol.", false],
+      ["Standard Open Access Point.", false],
+      ["Secure Object Application Program.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "En quin format es basen els missatges SOAP?",
+    "respostes": [
+      ["JSON.", false],
+      ["XML.", true],
+      ["HTML.", false],
+      ["CSV.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "És SOAP un protocol de transport?",
+    "respostes": [
+      ["Sí, substitueix a TCP/IP.", false],
+      ["No, és un protocol de missatgeria que pot funcionar sobre protocols de transport com HTTP o SMTP.", true],
+      ["Sí, és el mateix que HTTP.", false],
+      ["No, és un sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què és WSDL?",
+    "respostes": [
+      ["Web Services Description Language, utilitzat per descriure les interfícies dels serveis SOAP.", true],
+      ["Un llenguatge de programació web.", false],
+      ["Un protocol de seguretat.", false],
+      ["Un format de compressió de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina funció té UDDI?",
+    "respostes": [
+      ["Encriptar els missatges.", false],
+      ["Descobrir i publicar serveis web en un directori centralitzat.", true],
+      ["Transformar XML a JSON.", false],
+      ["Gestionar la base de dades del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin estàndard de seguretat s'associa comunament amb SOAP?",
+    "respostes": [
+      ["OAuth 2.0 exclusivament.", false],
+      ["WS-Security.", true],
+      ["BitLocker.", false],
+      ["WEP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què significa REST?",
+    "respostes": [
+      ["Remote Execution Standard Tech.", false],
+      ["Representational State Transfer.", true],
+      ["Reliable Enterprise Service Transfer.", false],
+      ["Random External State Test.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "REST és un protocol?",
+    "respostes": [
+      ["Sí, com HTTP.", false],
+      ["No, és un estil d'arquitectura.", true],
+      ["Sí, com FTP.", false],
+      ["No, és un programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quins mètodes utilitza principalment REST per realitzar operacions?",
+    "respostes": [
+      ["Mètodes propis definits en XML.", false],
+      ["Els verbs HTTP (GET, POST, PUT, DELETE).", true],
+      ["Comandes de consola SQL.", false],
+      ["Funcions de JavaScript.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què significa que REST sigui 'Stateless' (sense estat)?",
+    "respostes": [
+      ["Que el servidor no funciona.", false],
+      ["Que cada sol·licitud conté tota la informació necessària i el servidor no guarda l'estat del client entre peticions.", true],
+      ["Que no es poden guardar dades a la base de dades.", false],
+      ["Que la connexió és permanent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin format de dades és molt popular en REST per la seva lleugeresa?",
+    "respostes": [
+      ["XML.", false],
+      ["JSON.", true],
+      ["SOAP.", false],
+      ["Binary.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina operació CRUD correspon al verb HTTP POST en REST?",
+    "respostes": [
+      ["Llegir (Read).", false],
+      ["Actualitzar (Update).", false],
+      ["Crear (Create).", true],
+      ["Eliminar (Delete).", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina operació realitza el verb HTTP GET?",
+    "respostes": [
+      ["Esborrar un recurs.", false],
+      ["Obtenir informació d'un recurs.", true],
+      ["Enviar dades per crear un recurs.", false],
+      ["Modificar un recurs existent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin mecanisme de seguretat s'utilitza sovint amb REST per a l'autorització?",
+    "respostes": [
+      ["WS-Security.", false],
+      ["OAuth i JWT (JSON Web Tokens).", true],
+      ["WSDL.", false],
+      ["UDDI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina diferència principal hi ha en el format de missatge entre SOAP i REST?",
+    "respostes": [
+      ["SOAP només usa XML; REST pot usar JSON, XML, HTML, etc.", true],
+      ["REST només usa XML; SOAP pot usar JSON.", false],
+      ["Tots dos només usen JSON.", false],
+      ["Tots dos només usen text pla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin dels dos enfocaments (SOAP o REST) es considera més 'lleuger' i fàcil d'implementar per a web i mòbils?",
+    "respostes": [
+      ["SOAP.", false],
+      ["REST.", true],
+      ["Tots dos són iguals.", false],
+      ["Cap dels dos serveix per a mòbils.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin protocol és adequat per a operacions empresarials crítiques que requereixen transaccions complexes i alta seguretat estandarditzada?",
+    "respostes": [
+      ["REST.", false],
+      ["SOAP.", true],
+      ["FTP.", false],
+      ["Telnet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Com s'identifiquen els recursos en REST?",
+    "respostes": [
+      ["Mitjançant adreces de memòria.", false],
+      ["Mitjançant URLs (Uniform Resource Locators).", true],
+      ["Mitjançant noms de variables.", false],
+      ["Mitjançant cookies.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina característica de SOAP permet garantir la identitat i integritat dels missatges?",
+    "respostes": [
+      ["L'ús exclusiu d'HTTP.", false],
+      ["WS-Security (signatura i encriptació).", true],
+      ["La simplicitat del format JSON.", false],
+      ["L'absència de contractes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què permet la interoperabilitat en SOA?",
+    "respostes": [
+      ["Que només es puguin connectar sistemes Windows.", false],
+      ["Que sistemes heterogenis (diferents llenguatges/plataformes) es comuniquin mitjançant protocols estàndard.", true],
+      ["Que els serveis estiguin escrits en el mateix llenguatge.", false],
+      ["Que no calgui utilitzar la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin és un exemple d'ús típic de REST?",
+    "respostes": [
+      ["Transaccions bancàries complexes amb ACID.", false],
+      ["APIs públiques per a aplicacions web i mòbils (ex: xarxes socials).", true],
+      ["Comunicació interna en un mainframe antic.", false],
+      ["Transferència de fitxers grans per FTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què és un 'Contracte de Servei' en SOA?",
+    "respostes": [
+      ["Un document legal signat per advocats.", false],
+      ["La definició de la interfície i funcionalitat del servei (ex: WSDL).", true],
+      ["El preu que es paga pel servei.", false],
+      ["La llicència de programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina característica defineix la modularitat en SOA?",
+    "respostes": [
+      ["Els serveis són components independents que es poden desenvolupar i desplegar per separat.", true],
+      ["Tota l'aplicació és un sol bloc de codi.", false],
+      ["Els serveis depenen totalment uns dels altres.", false],
+      ["No es pot canviar un servei sense reescriure l'aplicació sencera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què implica l'abstracció en un servei SOA?",
+    "respostes": [
+      ["Que el servei no fa res real.", false],
+      ["Que el servei encapsula la seva lògica interna i només exposa la interfície necessària.", true],
+      ["Que el codi font és públic.", false],
+      ["Que el servei és difícil d'entendre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Per què SOAP es considera més rígid o estricte que REST?",
+    "respostes": [
+      ["Perquè no funciona a Internet.", false],
+      ["Perquè té regles i estàndards molt definits (contracte WSDL, estructura XML) que s'han de seguir.", true],
+      ["Perquè és més modern.", false],
+      ["Perquè només permet llegir dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin protocol de transport utilitzen tant SOAP com REST habitualment per xifrar la comunicació?",
+    "respostes": [
+      ["FTP.", false],
+      ["HTTPS (SSL/TLS).", true],
+      ["Telnet.", false],
+      ["UDP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quina afirmació és certa sobre el rendiment de REST vs SOAP?",
+    "respostes": [
+      ["SOAP és sempre més ràpid.", false],
+      ["REST sol ser més eficient gràcies a missatges més lleugers (JSON vs XML) i menor processament.", true],
+      ["No hi ha cap diferència de rendiment.", false],
+      ["REST consumeix més ample de banda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "En una petició REST, quin verb s'utilitza per 'Actualitzar' un recurs existent?",
+    "respostes": [
+      ["POST.", false],
+      ["PUT.", true],
+      ["GET.", false],
+      ["HEAD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què permet fer l'extensibilitat de SOAP?",
+    "respostes": [
+      ["Afegir funcionalitats addicionals com seguretat o transaccions mitjançant capes d'extensió.", true],
+      ["Canviar el protocol a REST.", false],
+      ["Utilitzar JSON en lloc de XML.", false],
+      ["Eliminar el servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Quin és un cost associat a la implementació d'una arquitectura SOA completa?",
+    "respostes": [
+      ["És gratuït.", false],
+      ["Pot requerir una inversió significativa en infraestructura (ex: ESB) i gestió.", true],
+      ["Només costa el preu de la connexió a Internet.", false],
+      ["És més barat que una aplicació monolítica des del primer dia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 19. Arquitectura SOA. Serveis web SOAP i REST.",
+    "enunciat": "Què facilita l'ús de certificats digitals en WS-Security?",
+    "respostes": [
+      ["La velocitat de descàrrega.", false],
+      ["La garantia d'identitat de les parts i que el missatge no ha estat alterat.", true],
+      ["La compressió de l'arxiu.", false],
+      ["La visualització en navegadors antics.", false]
+    ]
+  }
+]

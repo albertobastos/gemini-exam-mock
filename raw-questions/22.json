@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quin és l'objectiu principal del monitoratge de sistemes informàtics?",
+    "respostes": [
+      ["Augmentar la capacitat del disc dur.", false],
+      ["Supervisar contínuament el rendiment i l'estat dels recursos per assegurar un funcionament òptim.", true],
+      ["Netejar la pantalla de l'ordinador.", false],
+      ["Canviar el fons d'escriptori automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què fan els monitors de rendiment del sistema?",
+    "respostes": [
+      ["Mesuren paràmetres com l'ús de CPU, memòria i disc en temps real.", true],
+      ["Controlen la temperatura de l'habitació.", false],
+      ["Verifiquen si l'usuari està assegut.", false],
+      ["Compten els clics del ratolí.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què supervisen els monitors de xarxa?",
+    "respostes": [
+      ["La velocitat del processador.", false],
+      ["El trànsit de dades, l'ample de banda i la latència de la xarxa.", true],
+      ["La quantitat de tinta de la impressora.", false],
+      ["L'espai lliure al disc dur local.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és l'APM (Application Performance Monitoring)?",
+    "respostes": [
+      ["Un monitor d'aplicacions que analitza el rendiment des de la perspectiva de l'usuari final i del codi.", true],
+      ["Un tipus de processador d'AMD.", false],
+      ["Un protocol de correu electrònic.", false],
+      ["Un sistema operatiu mòbil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és el 'Benchmarking' o procés de referenciació?",
+    "respostes": [
+      ["Un tipus de banc per seure.", false],
+      ["El procés de comparar el rendiment d'un sistema amb un estàndard o amb altres sistemes similars.", true],
+      ["La creació de còpies de seguretat.", false],
+      ["La instal·lació de nous programes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quin tipus de benchmarking compara el sistema amb competidors o líders de la indústria?",
+    "respostes": [
+      ["Benchmarking intern.", false],
+      ["Benchmarking competitiu.", true],
+      ["Benchmarking funcional.", false],
+      ["Benchmarking genèric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què mesura el benchmarking sintètic?",
+    "respostes": [
+      ["El rendiment utilitzant programes específicament dissenyats per estressar components concrets.", true],
+      ["El rendiment amb aplicacions reals.", false],
+      ["La velocitat de connexió a internet només.", false],
+      ["El preu del maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és una 'Càrrega de Treball' (Workload)?",
+    "respostes": [
+      ["La quantitat de pes que suporta la taula.", false],
+      ["La quantitat de processament que un sistema ha de realitzar en un moment donat.", true],
+      ["El nombre d'hores que treballa l'administrador.", false],
+      ["La capacitat de la bateria.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què simula una 'Càrrega de Pujada' (Load Testing)?",
+    "respostes": [
+      ["L'encesa de l'ordinador.", false],
+      ["Condicions normals i esperades d'ús per verificar el comportament del sistema.", true],
+      ["Un atac de denegació de servei.", false],
+      ["L'apagada del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què avalua la 'Càrrega de Pic' (Peak Load Testing)?",
+    "respostes": [
+      ["El sistema sota condicions de demanda màxima o extrema.", true],
+      ["El sistema quan està en repòs.", false],
+      ["La velocitat d'arrencada.", false],
+      ["El consum mínim d'energia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina mètrica mesura el temps que triga un sistema a contestar una sol·licitud?",
+    "respostes": [
+      ["Ample de banda.", false],
+      ["Temps de resposta (Latència).", true],
+      ["Throughput.", false],
+      ["I/O de disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què indica una alta utilització de la CPU constantment?",
+    "respostes": [
+      ["Que el sistema està infrautilitzat.", false],
+      ["Un possible coll d'ampolla de processament.", true],
+      ["Que la xarxa és lenta.", false],
+      ["Que cal canviar el monitor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què són els IOPS en el context del rendiment de disc?",
+    "respostes": [
+      ["Input/Output Operations Per Second (Operacions d'E/S per segon).", true],
+      ["Internet Operations Public Service.", false],
+      ["Internal Operating Processor Speed.", false],
+      ["Image Optimization Per Second.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina estratègia implica afegir més recursos (CPU, RAM) a un sol servidor?",
+    "respostes": [
+      ["Escalabilitat horitzontal (Scale-out).", false],
+      ["Escalabilitat vertical (Scale-up).", true],
+      ["Clustering.", false],
+      ["Virtualització.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "En què consisteix l'escalabilitat horitzontal?",
+    "respostes": [
+      ["En comprar un monitor més ample.", false],
+      ["En afegir més servidors al sistema per distribuir la càrrega.", true],
+      ["En posar el servidor en horitzontal.", false],
+      ["En augmentar la freqüència del rellotge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és el 'Tuning' o ajustament fi?",
+    "respostes": [
+      ["Sintonitzar la ràdio a l'ordinador.", false],
+      ["El procés de modificar paràmetres del sistema per millorar-ne el rendiment.", true],
+      ["Netejar la pols dels ventiladors.", false],
+      ["Canviar els cables de lloc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quin avantatge té l'ús de la memòria cau (Caching)?",
+    "respostes": [
+      ["Redueix la necessitat d'accedir a dades freqüents en discs lents, millorant la velocitat.", true],
+      ["Augmenta la capacitat total del disc dur.", false],
+      ["Fa que el processador vagi més lent.", false],
+      ["Elimina la necessitat de memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què es pot optimitzar en una base de dades per millorar el rendiment de les consultes?",
+    "respostes": [
+      ["El color de la interfície.", false],
+      ["Els índexs i l'estructura de les consultes SQL.", true],
+      ["El nom de les taules.", false],
+      ["La marca del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina eina de codi obert s'esmenta per al monitoratge de sistemes i xarxes?",
+    "respostes": [
+      ["Nagios o Zabbix.", true],
+      ["Photoshop.", false],
+      ["Word.", false],
+      ["Excel.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què mesura el 'Throughput'?",
+    "respostes": [
+      ["La temperatura de la CPU.", false],
+      ["La quantitat de feina o dades processades en un període de temps determinat.", true],
+      ["El temps que triga a arrencar el sistema.", false],
+      ["El nombre d'usuaris connectats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és el 'Swapping' o paginació excessiva?",
+    "respostes": [
+      ["Canviar de finestra ràpidament.", false],
+      ["L'ús excessiu del disc com a memòria virtual quan la RAM està plena, degradant el rendiment.", true],
+      ["L'intercanvi de dades entre processadors.", false],
+      ["La neteja de la memòria cau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Per a què serveix l'anàlisi de colls d'ampolla (Bottleneck Analysis)?",
+    "respostes": [
+      ["Per saber quina ampolla comprar.", false],
+      ["Per identificar el component que limita el rendiment global del sistema.", true],
+      ["Per mesurar l'amplada dels cables.", false],
+      ["Per comptar els errors de disc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quin tipus de prova de càrrega busca el punt de ruptura del sistema?",
+    "respostes": [
+      ["Stress Testing (Proves d'estrès).", true],
+      ["Unit Testing.", false],
+      ["Usability Testing.", false],
+      ["Compatibility Testing.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina mètrica de xarxa indica la quantitat de dades que es perden durant la transmissió?",
+    "respostes": [
+      ["Jitter.", false],
+      ["Packet Loss (Pèrdua de paquets).", true],
+      ["Bandwidth.", false],
+      ["Latency.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Com pot ajudar l'ajustament del sistema operatiu (OS Tuning)?",
+    "respostes": [
+      ["No serveix de res.", false],
+      ["Pot millorar la gestió de processos, memòria i E/S mitjançant la configuració del kernel.", true],
+      ["Canvia el logotip d'inici.", false],
+      ["Instal·la jocs nous.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és SPEC CPU segons el document?",
+    "respostes": [
+      ["Un joc d'ordinador.", false],
+      ["Un conjunt de benchmarks estandarditzats per avaluar el rendiment de la CPU.", true],
+      ["Una marca de processadors.", false],
+      ["Un tipus de memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què implica l'optimització de codi en la millora de prestacions?",
+    "respostes": [
+      ["Escriure més línies de codi.", false],
+      ["Reescriure o refactoritzar el programari per fer-lo més eficient.", true],
+      ["Esborrar el codi font.", false],
+      ["Canviar el llenguatge de programació obligatòriament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina eina es menciona per monitoritzar microserveis?",
+    "respostes": [
+      ["Prometheus.", true],
+      ["Notepad.", false],
+      ["Paint.", false],
+      ["Calculadora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quin benefici aporta la configuració d'autoscaling en el núvol?",
+    "respostes": [
+      ["Redueix el cost a zero.", false],
+      ["Ajusta automàticament els recursos segons la demanda, garantint l'escalabilitat.", true],
+      ["Elimina la necessitat de monitoratge.", false],
+      ["Apaga els servidors per sempre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és la latència de xarxa?",
+    "respostes": [
+      ["La velocitat màxima de transferència.", false],
+      ["El retard temporal en la transmissió de dades a través de la xarxa.", true],
+      ["La quantitat de cables connectats.", false],
+      ["El nombre de routers.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina tècnica d'emmagatzematge millora la taxa d'I/O (Input/Output)?",
+    "respostes": [
+      ["Utilitzar disquets.", false],
+      ["Implementació de RAID (ex: RAID 10).", true],
+      ["Desfragmentar el disc un cop l'any.", false],
+      ["Utilitzar discs USB 2.0.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què permet identificar el monitoratge d'aplicacions?",
+    "respostes": [
+      ["Errors de codi, fuites de memòria i transaccions lentes.", true],
+      ["Qui està utilitzant l'ordinador.", false],
+      ["La marca del teclat.", false],
+      ["La data de caducitat del programari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Per què és important establir una línia base (baseline) en el monitoratge?",
+    "respostes": [
+      ["Per decorar els gràfics.", false],
+      ["Per tenir un punt de referència del rendiment normal i detectar anomalies.", true],
+      ["Per saber quan caduca la llicència.", false],
+      ["Per limitar l'ús de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quin paràmetre de xarxa es pot ajustar per millorar el rendiment TCP?",
+    "respostes": [
+      ["El color del cable.", false],
+      ["La mida de la finestra TCP (TCP Window Size).", true],
+      ["La longitud del cable.", false],
+      ["El nom del domini.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina mètrica mesura la 'Disponibilitat' (Availability)?",
+    "respostes": [
+      ["El temps que el sistema està operatiu i accessible (Uptime).", true],
+      ["La quantitat de memòria lliure.", false],
+      ["La velocitat de descàrrega.", false],
+      ["El nombre d'errors per segon.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què és un monitoratge 'actiu' o sintètic?",
+    "respostes": [
+      ["Esperar que l'usuari es queixi.", false],
+      ["Simular transaccions o usuaris per verificar la disponibilitat i rendiment.", true],
+      ["Mirar la pantalla constantment.", false],
+      ["Reiniciar el servidor cada hora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Quina importància té l'anàlisi de logs en el monitoratge?",
+    "respostes": [
+      ["Cap, els logs ocupen espai.", false],
+      ["Proporciona informació detallada sobre errors, avisos i esdeveniments del sistema.", true],
+      ["Només serveix per a auditors.", false],
+      ["Fa que el sistema vagi més ràpid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 22. El monitoratge de sistemes informàtics i la evaluació del seu rendiment.",
+    "enunciat": "Què implica la 'Planificació de Capacitat'?",
+    "respostes": [
+      ["Comprar el servidor més car.", false],
+      ["Predir les necessitats futures de recursos basant-se en tendències de rendiment actuals.", true],
+      ["Endevinar quants usuaris hi haurà.", false],
+      ["Planificar les vacances de l'equip.", false]
+    ]
+  }
+]

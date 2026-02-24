@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Què és el model TCP/IP?",
+    "respostes": [
+      ["Un conjunt de protocols de comunicació utilitzats per a la interconnexió de dispositius en xarxes de dades, base de l'actual Internet.", true],
+      ["Un sistema operatiu de xarxa per a servidors corporatius.", false],
+      ["Un tipus de cablejat d'alta velocitat per a xarxes locals.", false],
+      ["Un programari antivirus exclusiu per a l'administració pública.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina agència va desenvolupar originalment el model TCP/IP a la dècada dels 70?",
+    "respostes": [
+      ["DARPA (Departament de Defensa dels Estats Units).", true],
+      ["CERN (Organització Europea per a la Recerca Nuclear).", false],
+      ["IEEE (Institut d'Enginyers Elèctrics i Electrònics).", false],
+      ["W3C (World Wide Web Consortium).", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin va ser el projecte precursor d'Internet on es va implementar el TCP/IP inicialment?",
+    "respostes": [
+      ["ARPANET.", true],
+      ["NSFNET.", false],
+      ["Bitnet.", false],
+      ["Ethernet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quantes capes componen l'arquitectura del model TCP/IP?",
+    "respostes": [
+      ["4 capes.", true],
+      ["7 capes.", false],
+      ["5 capes.", false],
+      ["3 capes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quines són les quatre capes del model TCP/IP?",
+    "respostes": [
+      ["Accés a la Xarxa, Internet, Transport, Aplicació.", true],
+      ["Física, Enllaç, Xarxa, Transport.", false],
+      ["Sessió, Presentació, Aplicació, Xarxa.", false],
+      ["Lògica, Física, Internet, Web.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A quines capes del model teòric OSI equival la Capa d'Accés a la Xarxa del model TCP/IP?",
+    "respostes": [
+      ["A les capes Física i d'Enllaç de Dades.", true],
+      ["A les capes de Xarxa i Transport.", false],
+      ["A les capes de Sessió i Presentació.", false],
+      ["Només a la capa Física.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A quines capes del model OSI equival la Capa d'Aplicació del model TCP/IP?",
+    "respostes": [
+      ["Combina les funcions de les capes d'Aplicació, Presentació i Sessió.", true],
+      ["Només a la capa d'Aplicació.", false],
+      ["A les capes de Transport i Sessió.", false],
+      ["A les capes d'Enllaç de Dades i Xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina és la funció de la Capa d'Internet en el model TCP/IP?",
+    "respostes": [
+      ["S'encarrega de l'encaminament de paquets a través de múltiples xarxes fins arribar al seu destí, utilitzant adreçament IP.", true],
+      ["Garanteix que tots els paquets arribin en l'ordre correcte sense pèrdues.", false],
+      ["Transmet els senyals elèctrics o òptics a través del medi físic.", false],
+      ["Tradueix les dades al format adequat per a l'usuari final.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Com s'anomena la unitat de dades a la Capa d'Accés a la Xarxa que encapsula els paquets IP?",
+    "respostes": [
+      ["Trama.", true],
+      ["Segment.", false],
+      ["Bit.", false],
+      ["Datagrama.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina informació d'adreçament afegeix la Capa d'Accés a la Xarxa a l'encapsulament?",
+    "respostes": [
+      ["L'adreça MAC d'origen i destí.", true],
+      ["L'adreça IP d'origen i destí.", false],
+      ["Els ports lògics d'origen i destí.", false],
+      ["El nom de domini del servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A quina capa del model TCP/IP pertanyen les tecnologies Ethernet i Wi-Fi?",
+    "respostes": [
+      ["Capa d'Accés a la Xarxa.", true],
+      ["Capa d'Internet.", false],
+      ["Capa de Transport.", false],
+      ["Capa d'Aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina característica destaca d'IPv6 respecte a IPv4?",
+    "respostes": [
+      ["Proporciona adreces més llargues (128 bits) per superar l'esgotament d'adreces d'IPv4.", true],
+      ["És un protocol orientat a connexió i completament fiable.", false],
+      ["S'utilitza exclusivament en xarxes locals tancades.", false],
+      ["Utilitza adreces MAC en lloc d'adreces lògiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina és la funció del protocol ARP (Address Resolution Protocol)?",
+    "respostes": [
+      ["Tradueix o associa les adreces IP en adreces MAC per permetre la transmissió a la xarxa local.", true],
+      ["Tradueix noms de domini en adreces IP públiques.", false],
+      ["Assigna automàticament adreces IP als dispositius que es connecten a la xarxa.", false],
+      ["Afegeix xifratge de seguretat als paquets IP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin protocol s'utilitza per enviar missatges d'error i informació operativa de xarxa, com ara la comanda 'ping'?",
+    "respostes": [
+      ["ICMP (Internet Control Message Protocol).", true],
+      ["IGMP.", false],
+      ["SMTP.", false],
+      ["DHCP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina és la funció del protocol DHCP?",
+    "respostes": [
+      ["Assigna automàticament adreces IP, màscares de subxarxa i altres configuracions als dispositius de la xarxa.", true],
+      ["Converteix les adreces MAC en adreces IPv6.", false],
+      ["Estableix connexions segures VPN punt a punt.", false],
+      ["Controla la congestió dels routers principals d'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A quina capa del model TCP/IP pertanyen els protocols TCP i UDP?",
+    "respostes": [
+      ["Capa de Transport.", true],
+      ["Capa d'Internet.", false],
+      ["Capa d'Accés a la Xarxa.", false],
+      ["Capa d'Aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Com s'anomena la unitat de dades a la Capa de Transport quan s'utilitza TCP?",
+    "respostes": [
+      ["Segment.", true],
+      ["Trama.", false],
+      ["Paquet.", false],
+      ["Mòdul.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina informació s'afegeix durant l'encapsulament a la Capa de Transport?",
+    "respostes": [
+      ["El port de destí i el port d'origen.", true],
+      ["L'adreça IP de destí i d'origen.", false],
+      ["L'adreça MAC de destí i d'origen.", false],
+      ["La suma de verificació física del cable.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina d'aquestes és una característica del protocol TCP (Transmission Control Protocol)?",
+    "respostes": [
+      ["Proporciona una connexió fiable i ordenada, amb control de flux i de congestió.", true],
+      ["És un protocol no orientat a connexió i no garanteix el lliurament.", false],
+      ["S'utilitza principalment per transmetre adreces MAC.", false],
+      ["És exclusiu de la Capa d'Aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "En quines aplicacions és més adient utilitzar el protocol UDP en comptes de TCP?",
+    "respostes": [
+      ["En aplicacions que requereixen baixa latència i poden tolerar alguna pèrdua de dades, com l'streaming de vídeo o la veu.", true],
+      ["En la transferència de fitxers bancaris on no es pot perdre cap bit.", false],
+      ["En la navegació per pàgines web segures (HTTPS).", false],
+      ["En la descàrrega d'actualitzacions del sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A la capa de Transport, què és el 'Control de Flux' gestionat pel TCP?",
+    "respostes": [
+      ["La regulació de la velocitat a la qual s'envien les dades per evitar que el receptor es vegi aclaparat.", true],
+      ["La priorització de les dades de veu per davant de les de text.", false],
+      ["El desviament dels paquets cap a rutes menys saturades d'Internet.", false],
+      ["L'assignació dinàmica de ports als processos actius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin protocol de la Capa d'Aplicació s'utilitza per enviar correus electrònics entre servidors?",
+    "respostes": [
+      ["SMTP (Simple Mail Transfer Protocol).", true],
+      ["FTP (File Transfer Protocol).", false],
+      ["HTTP (HyperText Transfer Protocol).", false],
+      ["DNS (Domain Name System).", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina funció compleix el protocol DNS (Domain Name System)?",
+    "respostes": [
+      ["Converteix noms de domini llegibles per humans (com www.exemple.com) en adreces IP.", true],
+      ["Assigna IPs de forma dinàmica als ordinadors de la xarxa local.", false],
+      ["Transfereix fitxers grans des d'un client a un servidor.", false],
+      ["Permet l'accés remot segur mitjançant consola.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina és la principal diferència entre Telnet i SSH?",
+    "respostes": [
+      ["Telnet proporciona accés remot sense xifrar, mentre que SSH ofereix una connexió segura mitjançant xifratge.", true],
+      ["SSH és només per a xarxes locals i Telnet és per a Internet.", false],
+      ["Telnet utilitza UDP i SSH utilitza TCP.", false],
+      ["SSH s'utilitza per a transferir arxius i Telnet només per correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Què ocorre durant el procés d'encapsulament de dades en el model TCP/IP?",
+    "respostes": [
+      ["Cada capa afegeix la seva pròpia capçalera amb informació de control a les dades rebudes de la capa superior abans d'enviar-les cap avall.", true],
+      ["S'eliminen les capçaleres de les dades abans de ser enviades al medi físic.", false],
+      ["Les dades es converteixen exclusivament al sistema hexadecimal per reduir-ne la mida.", false],
+      ["La capa d'Internet bloqueja qualsevol modificació del paquet original enviat per l'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin procés realitza el dispositiu receptor amb les dades que li arriben a través de la xarxa?",
+    "respostes": [
+      ["Desencapsulament, on s'elimina la capçalera de cada capa de baix a dalt fins a lliurar les dades a l'aplicació.", true],
+      ["Encapsulament invers, on s'afegeixen més capçaleres fins a bloquejar el paquet.", false],
+      ["Segmentació MAC asincrònica.", false],
+      ["Fragmentació TCP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Comparant TCP/IP amb el model OSI, quina és una afirmació correcta?",
+    "respostes": [
+      ["El model TCP/IP és l'arquitectura pràctica més utilitzada a Internet, mentre que l'OSI serveix principalment com a referència teòrica o educativa.", true],
+      ["El model OSI té menys capes que el model TCP/IP.", false],
+      ["TCP/IP no disposa de capes relacionades amb aplicacions o transport.", false],
+      ["El model TCP/IP només funciona amb adreces IPv6.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "En el context de les vulnerabilitats del model TCP/IP, què és un atac de 'Spoofing'?",
+    "respostes": [
+      ["La suplantació d'identitat d'una adreça IP o altre element per fer-se passar per una entitat de confiança.", true],
+      ["La sobrecàrrega d'un servidor amb múltiples peticions fins a fer-lo caure.", false],
+      ["La intercepció i lectura dels correus electrònics sense modificar-los.", false],
+      ["El trencament físic del cablejat de xarxa per evitar la connexió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quina funció de seguretat proporciona el protocol IPsec en el model TCP/IP?",
+    "respostes": [
+      ["Proporciona seguretat a nivell de la capa d'Internet xifrant i autenticant els paquets IP.", true],
+      ["Autentica únicament aplicacions web HTTP.", false],
+      ["Xifra les connexions Wi-Fi abans que arribin a l'encaminador local.", false],
+      ["Controla que les adreces MAC de l'entorn LAN no es dupliquin.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A quina capa del model TCP/IP actua el protocol de seguretat TLS (Transport Layer Security)?",
+    "respostes": [
+      ["A la Capa de Transport (sovint associat amb la Capa d'Aplicació per a serveis com HTTPS).", true],
+      ["A la Capa d'Accés a la Xarxa.", false],
+      ["A la Capa d'Internet juntament amb ARP.", false],
+      ["A la Capa de Maquinari (Hardware Layer).", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin d'aquests s'esmenta com un avantatge clau del model TCP/IP?",
+    "respostes": [
+      ["La seva interoperabilitat, permetent la comunicació entre dispositius de diferents fabricants o sistemes operatius.", true],
+      ["L'absència total de vulnerabilitats de seguretat des del seu disseny original.", false],
+      ["L'ús exclusiu d'un sol cable per a totes les transmissions a nivell global.", false],
+      ["La prohibició de transmissió de vídeo per estalviar ample de banda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin és un desavantatge d'utilitzar el protocol UDP (com a part del TCP/IP)?",
+    "respostes": [
+      ["No és orientat a la connexió i no garanteix el lliurament de les dades.", true],
+      ["És molt més lent i pesat que el protocol TCP.", false],
+      ["Satura els enllaços locals ja que retransmet totes les dades tres vegades.", false],
+      ["No permet la transferència de contingut multimèdia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "El model TCP/IP permet que aplicacions de diferents dispositius estableixin una connexió de 'diàleg' extrem a extrem. A quina capa es realitza l'establiment d'aquesta connexió fiable?",
+    "respostes": [
+      ["Capa de Transport.", true],
+      ["Capa d'Internet.", false],
+      ["Capa d'Accés a la Xarxa.", false],
+      ["Capa d'Estructura de Dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "A quin tipus de vulnerabilitat pertany la 'Intercepció de la comunicació entre dos punts' sense que se n'adonin?",
+    "respostes": [
+      ["Man-in-the-Middle (MitM).", true],
+      ["DDoS (Distributed Denial of Service).", false],
+      ["Encapsulament il·lícit.", false],
+      ["Detecció de col·lisions retardada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 56. El model TCP/IP.",
+    "enunciat": "Quin protocol estableix un túnel per a una connexió directa entre dos nodes de xarxa a la Capa d'Accés a la Xarxa, molt usat en VPNs?",
+    "respostes": [
+      ["PPP (Point-to-Point Protocol).", true],
+      ["DHCP.", false],
+      ["ICMP.", false],
+      ["ARP.", false]
+    ]
+  }
+]

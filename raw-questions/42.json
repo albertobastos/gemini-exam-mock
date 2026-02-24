@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un Sistema de Gestió de Bases de Dades (SGBD)?",
+    "respostes": [
+      ["Un full de càlcul com Excel.", false],
+      ["Un programari que permet la creació, gestió i manipulació de bases de dades de manera eficient.", true],
+      ["Un sistema operatiu per a servidors.", false],
+      ["Un maquinari d'emmagatzematge físic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina funció té el Diccionari de Dades en un SGBD?",
+    "respostes": [
+      ["Traduir les dades a altres idiomes.", false],
+      ["Emmagatzemar metadades sobre l'estructura de la base de dades (taules, columnes, relacions).", true],
+      ["Guardar les contrasenyes dels usuaris en text pla.", false],
+      ["Fer còpies de seguretat automàtiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és un avantatge principal dels SGBD?",
+    "respostes": [
+      ["Augmenten la redundància de dades.", false],
+      ["Milloren la integritat i consistència de les dades, reduint la redundància.", true],
+      ["Fan que l'accés a les dades sigui més lent.", false],
+      ["Només permeten l'accés a un usuari alhora.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "En què consisteix el Model Relacional?",
+    "respostes": [
+      ["En guardar dades en fitxers de text pla.", false],
+      ["En organitzar les dades en taules (relacions) compostes per files i columnes.", true],
+      ["En utilitzar grafs per connectar dades.", false],
+      ["En guardar objectes directament sense estructura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què representa una fila (o tupla) en una taula relacional?",
+    "respostes": [
+      ["Un atribut de l'objecte.", false],
+      ["Un registre individual o instància de l'entitat.", true],
+      ["El nom de la taula.", false],
+      ["La relació entre dues taules.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és una Clau Primària (Primary Key)?",
+    "respostes": [
+      ["Una clau per obrir la base de dades.", false],
+      ["Un camp (o conjunt de camps) que identifica de manera única cada fila en una taula.", true],
+      ["Un camp que pot estar buit (NULL).", false],
+      ["Un camp que es repeteix en moltes files.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és una Clau Forana (Foreign Key)?",
+    "respostes": [
+      ["Una clau que ve d'un altre país.", false],
+      ["Un camp que enllaça amb la clau primària d'una altra taula, establint una relació.", true],
+      ["Una clau que no serveix per a res.", false],
+      ["La clau principal de la mateixa taula.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin tipus de relació existeix quan un registre d'una taula s'associa amb múltiples registres d'una altra?",
+    "respostes": [
+      ["Un a Un (1:1).", false],
+      ["Un a Molts (1:N).", true],
+      ["Molts a Molts (N:M).", false],
+      ["Cap a Cap.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Com s'implementa habitualment una relació Molts a Molts (N:M) en el model relacional?",
+    "respostes": [
+      ["Posant múltiples valors en una cel·la.", false],
+      ["Creant una taula intermèdia que conté les claus primàries de les dues taules relacionades.", true],
+      ["No es pot implementar.", false],
+      ["Duplicant les taules.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és l'objectiu de la Normalització?",
+    "respostes": [
+      ["Fer la base de dades més gran.", false],
+      ["Organitzar les dades per minimitzar la redundància i evitar anomalies d'actualització.", true],
+      ["Fer que les consultes siguin més lentes.", false],
+      ["Eliminar totes les relacions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què exigeix la Primera Forma Normal (1NF)?",
+    "respostes": [
+      ["Que no hi hagi claus primàries.", false],
+      ["Que tots els valors de les columnes siguin atòmics (indivisibles) i no hi hagi grups repetitius.", true],
+      ["Que totes les taules tinguin el mateix nombre de files.", false],
+      ["Que les dades estiguin ordenades alfabèticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què requereix la Segona Forma Normal (2NF)?",
+    "respostes": [
+      ["Estar en 1NF i que tots els atributs no clau depenguin completament de la clau primària.", true],
+      ["Estar en 3NF.", false],
+      ["No tenir claus foranes.", false],
+      ["Que la taula tingui només dues columnes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què elimina la Tercera Forma Normal (3NF)?",
+    "respostes": [
+      ["Les claus primàries.", false],
+      ["Les dependències transitives (atributs no clau que depenen d'altres atributs no clau).", true],
+      ["Les files duplicades.", false],
+      ["Els valors nuls.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és la Forma Normal de Boyce-Codd (BCNF)?",
+    "respostes": [
+      ["Una versió més feble de la 1NF.", false],
+      ["Una versió més estricta de la 3NF que tracta certes anomalies no cobertes per aquesta.", true],
+      ["Un estàndard de maquinari.", false],
+      ["Una tècnica de programació Java.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és un benefici de tenir una base de dades normalitzada?",
+    "respostes": [
+      ["Major espai en disc ocupat.", false],
+      ["Major consistència de dades i manteniment més fàcil.", true],
+      ["Consultes més complexes de realitzar sempre.", false],
+      ["Més redundància de dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és l'objectiu de l'estàndard de bases de dades de la CAIB?",
+    "respostes": [
+      ["Limitar l'ús de tecnologia.", false],
+      ["Garantir la interoperabilitat, seguretat i eficiència en la gestió de dades de l'administració pública.", true],
+      ["Promoure l'ús de paper.", false],
+      ["Utilitzar només programari propietari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quines tecnologies de bases de dades són d'ús preferent segons l'estàndard de la CAIB?",
+    "respostes": [
+      ["Access i Excel.", false],
+      ["PostgreSQL (i Oracle en certs casos) com a SGBD relacionals.", true],
+      ["SQLite i MongoDB exclusivament.", false],
+      ["Fitxers CSV.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què estableix l'estàndard de la CAIB sobre la nomenclatura d'objectes?",
+    "respostes": [
+      ["Que cada desenvolupador pot triar els noms que vulgui.", false],
+      ["Unes regles clares per nomenar taules, columnes i altres objectes (ex: majúscules, sense espais).", true],
+      ["Que s'han d'usar noms en anglès obligatòriament.", false],
+      ["Que els noms han de ser numèrics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què es recomana per a la gestió de la seguretat en l'estàndard CAIB?",
+    "respostes": [
+      ["No posar contrasenyes.", false],
+      ["L'ús de rols i permisos granulars, i el xifratge de dades sensibles.", true],
+      ["Compartir usuaris entre aplicacions.", false],
+      ["Donar permisos d'administrador a tothom.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina importància tenen les còpies de seguretat segons l'estàndard?",
+    "respostes": [
+      ["Són opcionals.", false],
+      ["Són crítiques i s'han de realitzar periòdicament seguint una política de retenció definida.", true],
+      ["Només es fan un cop a l'any.", false],
+      ["Les ha de fer l'usuari manualment.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és SQL (Structured Query Language)?",
+    "respostes": [
+      ["Un llenguatge de programació orientat a objectes.", false],
+      ["El llenguatge estàndard per interactuar amb bases de dades relacionals (consultar, inserir, modificar).", true],
+      ["Un format d'imatge.", false],
+      ["Un sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina clàusula SQL s'utilitza per filtrar files en una consulta?",
+    "respostes": [
+      ["SELECT.", false],
+      ["WHERE.", true],
+      ["GROUP BY.", false],
+      ["ORDER BY.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina instrucció SQL s'utilitza per afegir noves dades a una taula?",
+    "respostes": [
+      ["ADD.", false],
+      ["INSERT INTO.", true],
+      ["UPDATE.", false],
+      ["CREATE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina instrucció SQL modifica dades existents?",
+    "respostes": [
+      ["CHANGE.", false],
+      ["UPDATE.", true],
+      ["MODIFY.", false],
+      ["ALTER.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina instrucció SQL elimina dades d'una taula?",
+    "respostes": [
+      ["REMOVE.", false],
+      ["DELETE FROM.", true],
+      ["DROP.", false],
+      ["ERASE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què fa l'operació JOIN en SQL?",
+    "respostes": [
+      ["Esborra dues taules.", false],
+      ["Combina files de dues o més taules basant-se en una columna relacionada.", true],
+      ["Crea una taula nova buida.", false],
+      ["Separa una taula en dues.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què garanteix la integritat referencial?",
+    "respostes": [
+      ["Que la base de dades sigui ràpida.", false],
+      ["Que les relacions entre taules siguin consistents (no hi pot haver una clau forana que apunti a un registre inexistent).", true],
+      ["Que no hi hagi virus.", false],
+      ["Que totes les dades siguin números.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin component d'un SGBD s'encarrega d'executar les consultes de la manera més eficient possible?",
+    "respostes": [
+      ["El gestor d'emmagatzematge.", false],
+      ["L'optimitzador de consultes.", true],
+      ["El gestor de transaccions.", false],
+      ["La interfície d'usuari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és una transacció en una base de dades?",
+    "respostes": [
+      ["Un pagament amb targeta.", false],
+      ["Una unitat lògica de treball que ha de complir les propietats ACID (Atomicidad, Consistència, Aïllament, Durabilitat).", true],
+      ["Una consulta SELECT.", false],
+      ["Un error del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què significa l'Atomicidad en una transacció?",
+    "respostes": [
+      ["Que la transacció és molt petita.", false],
+      ["Que la transacció s'executa tot o res; si falla una part, es desfà tot.", true],
+      ["Que la transacció és nuclear.", false],
+      ["Que es pot dividir en parts.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina propietat ACID garanteix que els canvis d'una transacció confirmada es mantinguin fins i tot si falla el sistema?",
+    "respostes": [
+      ["Aïllament.", false],
+      ["Durabilitat.", true],
+      ["Consistència.", false],
+      ["Atomicidad.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina de les següents NO és una anomalia que evita la normalització?",
+    "respostes": [
+      ["Anomalia d'inserció.", false],
+      ["Anomalia de velocitat.", true],
+      ["Anomalia d'esborrat.", false],
+      ["Anomalia de modificació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quan s'hauria de considerar la desnormalització?",
+    "respostes": [
+      ["Sempre, és millor.", false],
+      ["Només quan el rendiment de lectura és crític i es justifica la redundància controlada.", true],
+      ["Mai.", false],
+      ["Quan no sabem normalitzar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin SGBD és conegut per ser de codi obert i molt robust, recomanat a l'estàndard?",
+    "respostes": [
+      ["SQL Server.", false],
+      ["PostgreSQL.", true],
+      ["DB2.", false],
+      ["Access.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és un índex en una base de dades?",
+    "respostes": [
+      ["La llista de taules.", false],
+      ["Una estructura de dades que millora la velocitat de recuperació de dades (com l'índex d'un llibre).", true],
+      ["Una còpia de seguretat.", false],
+      ["Un tipus de dada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina instrucció SQL s'utilitza per crear una taula nova?",
+    "respostes": [
+      ["MAKE TABLE.", false],
+      ["CREATE TABLE.", true],
+      ["NEW TABLE.", false],
+      ["ADD TABLE.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què assegura la integritat de domini?",
+    "respostes": [
+      ["Que el nom de domini web sigui correcte.", false],
+      ["Que els valors d'una columna compleixin amb el tipus de dada i restriccions definides (ex: edat > 0).", true],
+      ["Que la base de dades tingui accés a internet.", false],
+      ["Que les taules tinguin noms únics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què es documenta en el Diccionari de Dades segons l'estàndard?",
+    "respostes": [
+      ["Res, no cal documentar.", false],
+      ["La definició de cada taula, camp, tipus de dada i relació per facilitar el manteniment.", true],
+      ["Els correus dels usuaris.", false],
+      ["El codi font de l'aplicació.", false]
+    ]
+  }
+]

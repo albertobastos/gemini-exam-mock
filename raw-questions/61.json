@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què és el protocol SMTP i quina és la seva funció principal?",
+    "respostes": [
+      ["Un protocol utilitzat exclusivament per a la recepció i descàrrega de correus electrònics.", false],
+      ["Un protocol d'aplicació utilitzat per a l'enviament i transferència de correus electrònics a través de xarxes IP.", true],
+      ["Un protocol de seguretat que xifra qualsevol missatge de text enviat per Internet.", false],
+      ["Un sistema de sincronització horària per a servidors de correu corporatius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quin protocol de transport i quin port utilitza habitualment SMTP (sense comptar l'ús autenticat amb STARTTLS)?",
+    "respostes": [
+      ["Utilitza TCP operant habitualment sobre el port 25.", true],
+      ["Utilitza UDP operant habitualment sobre el port 110.", false],
+      ["Utilitza TCP operant habitualment sobre el port 143.", false],
+      ["Utilitza UDP operant habitualment sobre el port 123.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "En la comunicació SMTP, quina comanda s'utilitza per iniciar la transferència del cos del missatge i les capçaleres?",
+    "respostes": [
+      ["HELO", false],
+      ["DATA", true],
+      ["MAIL FROM", false],
+      ["RCPT TO", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què indica un codi de resposta SMTP de la família 4xx (per exemple, 421)?",
+    "respostes": [
+      ["Un èxit en la transacció.", false],
+      ["Un error temporal (ex: servei no disponible).", true],
+      ["Una redirecció de la ruta del correu.", false],
+      ["Un error permanent i irreversible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què permet fer l'extensió STARTTLS en el protocol SMTP?",
+    "respostes": [
+      ["Iniciar una sessió encriptada mitjançant TLS en un canal SMTP ja establert, protegint les dades en trànsit.", true],
+      ["Autenticar exclusivament mitjançant claus públiques abans de descarregar correus.", false],
+      ["Sincronitzar l'hora exacta del servidor abans d'enviar qualsevol correu.", false],
+      ["Recuperar correus electrònics prèviament eliminats per error.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què és un 'Relay obert' en el context de SMTP?",
+    "respostes": [
+      ["Un servidor que exigeix autenticació multifactor per poder enviar correus.", false],
+      ["Un servidor SMTP mal configurat que permet enviar correus des de qualsevol font sense restriccions d'autenticació, facilitant el correu brossa.", true],
+      ["Un servei de correu que obre automàticament els missatges per buscar-hi virus.", false],
+      ["Una bústia de correu pública compartida per tota l'empresa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quin sistema de seguretat s'utilitza per validar adreces IP i evitar que els correus electrònics siguin falsificats (spoofing)?",
+    "respostes": [
+      ["IMAPS", false],
+      ["SPF (Sender Policy Framework)", true],
+      ["NTP Authentication", false],
+      ["ESMTP", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Com garanteix DKIM (DomainKeys Identified Mail) la integritat del correu electrònic?",
+    "respostes": [
+      ["Verificant si el remitent està connectat via VPN.", false],
+      ["Utilitzant una signatura digital signada amb clau privada pel servidor d'enviament i verificada amb clau pública pel receptor.", true],
+      ["Utilitzant el protocol POP3S per xifrar cada paràgraf individualment.", false],
+      ["Calculant un temps de viatge màxim i descartant-lo si el supera.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quins són exemples de servidors (implementacions modernes) de SMTP àmpliament utilitzats?",
+    "respostes": [
+      ["Dovecot i Cyrus IMAP.", false],
+      ["Postfix, Sendmail i Exim.", true],
+      ["Chrony i ntpd.", false],
+      ["Apache i Nginx.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quin és l'objectiu principal del protocol POP3?",
+    "respostes": [
+      ["Recuperar i descarregar correus electrònics des d'un servidor al dispositiu local del client.", true],
+      ["Sincronitzar l'hora atòmica de tots els ordinadors d'una oficina.", false],
+      ["Gestionar i crear carpetes de correu de forma centralitzada al servidor.", false],
+      ["Enviar correus electrònics de forma xifrada cap a altres servidors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què succeeix normalment amb els correus un cop s'han descarregat utilitzant el protocol POP3?",
+    "respostes": [
+      ["Es mantenen indefinidament al servidor etiquetats com a 'llegits'.", false],
+      ["S'eliminen del servidor deixant-lo buit, ja que s'emmagatzemen només localment.", true],
+      ["Es reenvien automàticament a una adreça de còpia de seguretat oculta.", false],
+      ["Es xifren al servidor i no es poden tornar a llegir sense la clau del client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "En el protocol POP3, quina comanda s'utilitza específicament per recuperar o descarregar un correu electrònic determinat?",
+    "respostes": [
+      ["RETR", true],
+      ["FETCH", false],
+      ["LIST", false],
+      ["GET", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina és una de les principals limitacions de POP3 en entorns moderns?",
+    "respostes": [
+      ["No suporta la sincronització de correus entre múltiples dispositius.", true],
+      ["Només permet rebre correus de menys d'1 MB.", false],
+      ["És impossible utilitzar-lo amb qualsevol tipus de xifratge o seguretat TLS.", false],
+      ["Està dissenyat únicament per a xarxes sense fils inestables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què fa la comanda STAT a l'inici d'una sessió POP3?",
+    "respostes": [
+      ["Esborra tots els missatges de la safata de cop.", false],
+      ["Retorna el nombre total de missatges i la mida total en bytes de la bústia.", true],
+      ["Imprimeix l'adreça IP del servidor SMTP connectat.", false],
+      ["Mostra el temps restant abans que es tanqui la sessió automàticament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina diferència fonamental hi ha entre el funcionament de POP3 i IMAP4 respecte a l'emmagatzematge?",
+    "respostes": [
+      ["IMAP4 manté els correus emmagatzemats al servidor permetent la sincronització multi-dispositiu, mentre que POP3 els descarrega en local.", true],
+      ["IMAP4 només pot descarregar els arxius adjunts, mentre que POP3 només descarrega text pla.", false],
+      ["POP3 funciona sobre UDP per ser més ràpid, i IMAP4 sobre TCP.", false],
+      ["POP3 s'utilitza per enviar correus i IMAP4 només per rebre'ls.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "En IMAP4, quina comanda s'utilitza per seleccionar una bústia o carpeta de correu abans de llegir-ne el contingut?",
+    "respostes": [
+      ["SELECT", true],
+      ["OPEN", false],
+      ["CHDIR", false],
+      ["FOLDER", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quin benefici destaca especialment d'IMAP4 per a dispositius mòbils amb ample de banda limitat?",
+    "respostes": [
+      ["La compressió automàtica de vídeos adjunts al servidor.", false],
+      ["Permet la sincronització parcial, descarregant inicialment només els encapçalaments abans del cos del missatge.", true],
+      ["Desactiva la necessitat d'utilitzar contrasenyes per entrar a l'app.", false],
+      ["Reenvia els correus no desitjats abans que arribin a la bústia.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina comanda IMAP4 s'utilitza per modificar les banderes d'un missatge (per exemple, per marcar-lo com a llegit)?",
+    "respostes": [
+      ["CHANGE", false],
+      ["STORE", true],
+      ["MARK", false],
+      ["FLAG", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina de les opcions següents és una millora de seguretat avançada que suporta IMAP4 per evitar l'exposició de les credencials d'usuari?",
+    "respostes": [
+      ["Autenticació basada en tokens OAuth.", true],
+      ["Filtrat d'adreces MAC per port.", false],
+      ["Verificació mitjançant codis postals.", false],
+      ["L'ús exclusiu del protocol ARP en comptes d'IP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Dins d'un programa client de correu (com Thunderbird o Outlook), quins rols s'activen per a la gestió dels missatges?",
+    "respostes": [
+      ["Només el rol de servidor SMTP que executa l'ordinador de l'usuari.", false],
+      ["El client SMTP s'encarrega d'enviar els correus, i el client POP3 o IMAP4 s'encarrega de rebre'ls i descarregar-los.", true],
+      ["Un únic rol anomenat Client Universal de Missatgeria (UMC).", false],
+      ["El client NTP s'encarrega de rebre el correu en funció de l'hora local exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "És possible que un mateix servidor de correu funcioni amb IMAP4 i POP3 simultàniament?",
+    "respostes": [
+      ["No, l'activació d'un protocol bloqueja físicament el port de l'altre protocol.", false],
+      ["Sí, molts servidors (com Dovecot) permeten activar tots dos serveis donant flexibilitat a les preferències de l'usuari.", true],
+      ["Sí, però només en sistemes operatius mòbils tancats.", false],
+      ["No, requereixen servidors geogràficament separats.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina és la funció del protocol NTP (Network Time Protocol)?",
+    "respostes": [
+      ["Assignar IPs dinàmiques als dispositius connectats a la xarxa.", false],
+      ["Sincronitzar els rellotges dels dispositius d'una xarxa amb una font de temps precisa.", true],
+      ["Permetre transferències ràpides d'arxius temporals (Network Temporary Protocol).", false],
+      ["Evitar col·lisions de paquets en una topologia d'anell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Com es classifiquen jeràrquicament els servidors NTP segons la precisió de la seva font de temps?",
+    "respostes": [
+      ["Per Zones i Dominis.", false],
+      ["Per Estrats (Stratum), on l'Estrat 0 és la font de referència més precisa.", true],
+      ["Per Classes (A, B, C).", false],
+      ["Per Nivells d'Ample de Banda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "En la jerarquia de servidors NTP, què sol ser un dispositiu que es troba a l'Estrat 0?",
+    "respostes": [
+      ["Un ordinador domèstic connectat per Wi-Fi.", false],
+      ["Rellotges atòmics o sistemes de temps via GPS.", true],
+      ["Un servidor intermediari d'Internet.", false],
+      ["Un enrutador de frontera de l'ISP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què corregeix NTP de forma contínua amb l'ajust de la 'Drift Correction'?",
+    "respostes": [
+      ["La desviació lenta o endarreriment de l'oscil·lador del rellotge de maquinari de l'ordinador local.", true],
+      ["La pèrdua d'adreces IP causades per una mala connexió Wi-Fi.", false],
+      ["Els atacs de phishing de servidors de temps no fiables.", false],
+      ["La corrupció de les taules d'encaminament BGP al servidor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quin tipus d'atac aprofita les respostes ampliades de servidors NTP mal configurats per sobrecarregar una víctima?",
+    "respostes": [
+      ["Spoofing de correu (Phishing).", false],
+      ["Atacs DDoS per amplificació NTP, on l'atacant falsifica la petició per generar respostes massives cap al blanc.", true],
+      ["Man-in-the-Middle (MITM) d'estrat 1.", false],
+      ["Injecció SQL a la base de dades del servidor NTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quines són les implementacions més comunes del protocol NTP en sistemes Linux?",
+    "respostes": [
+      ["`ntpd` i `chrony`.", true],
+      ["`postfix` i `dovecot`.", false],
+      ["`squid` i `nginx`.", false],
+      ["`vsftpd` i `sftp`.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina extensió de seguretat s'utilitza en NTP per proporcionar seguretat addicional a la sincronització usant TLS?",
+    "respostes": [
+      ["SMTP-AUTH", false],
+      ["NTP Secure (NTS).", true],
+      ["NTP over SSL (NTP-S).", false],
+      ["IMAPS", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "En el protocol SMTP, quina comanda s'utilitza per resetejar la sessió sense tancar la connexió TCP establerta?",
+    "respostes": [
+      ["REBOOT", false],
+      ["RSET", true],
+      ["QUIT", false],
+      ["CLEAR", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "En quin entorn és especialment crític l'ús de NTP per mantenir una coherència estricta dels sistemes distribuïts?",
+    "respostes": [
+      ["A casa per veure pel·lícules.", false],
+      ["En sistemes financers, xarxes de telecomunicacions i centres de dades.", true],
+      ["Només en editors de text local.", false],
+      ["En la transferència de música per Bluetooth.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina diferència hi ha entre els rols d'un Servidor SMTP i un Servidor POP3?",
+    "respostes": [
+      ["El Servidor SMTP s'encarrega de l'enviament de correus cap als seus destinataris, mentre que el Servidor POP3 rep i emmagatzema els correus perquè l'usuari els descarregui.", true],
+      ["El Servidor SMTP descarrega els correus i el POP3 els envia.", false],
+      ["Són exactament el mateix programari operant en el mateix port TCP de manera síncrona.", false],
+      ["El Servidor SMTP emmagatzema el correu indefinidament i POP3 només gestiona respostes automàtiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Dins de la seqüència de comandes SMTP, quina instrucció indica qui és l'emissor de l'email?",
+    "respostes": [
+      ["HELO", false],
+      ["MAIL FROM", true],
+      ["RCPT TO", false],
+      ["FROM USER", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Què s'aconsegueix quan el protocol POP3 tanca amb èxit utilitzant la comanda QUIT?",
+    "respostes": [
+      ["Es tanca la sessió i s'executen en ferm les eliminacions marcades prèviament al servidor.", true],
+      ["El servidor es reinicia completament.", false],
+      ["S'envia el correu en espera a la bústia de sortida.", false],
+      ["Es sincronitza la llibreta d'adreces al mòbil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Com ajuda SMTP Authentication a la seguretat del correu?",
+    "respostes": [
+      ["Exigeix que els servidors de destí acceptin enviaments anònims per protegir la privacitat.", false],
+      ["Requereix que els clients s'autentiquin (amb credencials) abans de poder enviar correus electrònics, evitant l'ús no autoritzat del servidor.", true],
+      ["Xifra només els arxius adjunts superiors a 10 MB per estalviar recursos.", false],
+      ["Verifica l'hora d'enviament mitjançant NTP per descartar missatges antics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 61. Protocols d'aplicació de la xarxa Internet (II): SMTP, POP3, IMAP4, NTP.",
+    "enunciat": "Quina comanda d'IMAP4 permet recuperar correus i ofereix la flexibilitat de descarregar només determinades parts d'un missatge?",
+    "respostes": [
+      ["RETRIEVE", false],
+      ["FETCH", true],
+      ["SEARCH", false],
+      ["GET_PART", false]
+    ]
+  }
+]

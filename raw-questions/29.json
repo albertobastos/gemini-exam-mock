@@ -1,0 +1,382 @@
+[
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quan es va crear el Manifest Àgil?",
+    "respostes": [
+      ["El 1990.", false],
+      ["El 2001.", true],
+      ["El 2010.", false],
+      ["El 1985.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin dels següents és un valor clau del Manifest Àgil?",
+    "respostes": [
+      ["Processos i eines per sobre d'individus i interaccions.", false],
+      ["Software funcional per sobre de documentació extensiva.", true],
+      ["Negociació de contractes per sobre de col·laboració amb el client.", false],
+      ["Seguir un pla per sobre de resposta al canvi.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què prioritza el Manifest Àgil respecte al canvi?",
+    "respostes": [
+      ["Seguir un pla estricte.", false],
+      ["La resposta al canvi per sobre de seguir un pla.", true],
+      ["Evitar els canvis a tota costa.", false],
+      ["Documentar cada canvi detalladament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Com s'anomenen les iteracions curtes i fixes en Scrum?",
+    "respostes": [
+      ["Cicles.", false],
+      ["Sprints.", true],
+      ["Etapes.", false],
+      ["Fases.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Qui és el responsable de maximitzar el valor del producte en Scrum?",
+    "respostes": [
+      ["L'equip de desenvolupament.", false],
+      ["El Product Owner.", true],
+      ["El Scrum Master.", false],
+      ["El client final.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quina és la funció principal del Scrum Master?",
+    "respostes": [
+      ["Prioritzar les tasques.", false],
+      ["Actuar com a facilitador i eliminar obstacles per a l'equip.", true],
+      ["Programar el codi més complex.", false],
+      ["Negociar el pressupost amb el client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què conté el Product Backlog?",
+    "respostes": [
+      ["Les tasques completades.", false],
+      ["Una llista prioritzada de totes les característiques i millores necessàries.", true],
+      ["Els errors del sistema operatiu.", false],
+      ["El codi font de l'aplicació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Qui gestiona el Sprint Backlog?",
+    "respostes": [
+      ["El Product Owner exclusivament.", false],
+      ["L'Equip de Desenvolupament.", true],
+      ["El Scrum Master.", false],
+      ["El Director de Projectes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què és un 'Increment' en Scrum?",
+    "respostes": [
+      ["Un augment de sou.", false],
+      ["El resultat funcional i potencialment lliurable al final de cada sprint.", true],
+      ["Una nova eina de programari.", false],
+      ["L'addició d'un nou membre a l'equip.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quant dura habitualment un Daily Scrum?",
+    "respostes": [
+      ["1 hora.", false],
+      ["15 minuts.", true],
+      ["30 minuts.", false],
+      ["El temps que calgui.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin esdeveniment serveix per presentar l'increment completat als stakeholders?",
+    "respostes": [
+      ["Sprint Planning.", false],
+      ["Sprint Review.", true],
+      ["Daily Scrum.", false],
+      ["Sprint Retrospective.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin és l'objectiu de la Sprint Retrospective?",
+    "respostes": [
+      ["Planificar el següent sprint.", false],
+      ["Reflexionar sobre el procés i identificar millores per a l'equip.", true],
+      ["Mostrar el producte al client.", false],
+      ["Assignar tasques individuals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "En què es basa principalment la metodologia Kanban?",
+    "respostes": [
+      ["En sprints de 2 setmanes.", false],
+      ["En la visualització del treball i la limitació del treball en progrés (WIP).", true],
+      ["En la programació en parella.", false],
+      ["En reunions diàries obligatòries.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què significa WIP en el context de Kanban?",
+    "respostes": [
+      ["Work In Progress (Treball en Progrés).", true],
+      ["Work Is Perfect.", false],
+      ["Waiting In Process.", false],
+      ["Worst In Project.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quina és la funció d'un tauler Kanban?",
+    "respostes": [
+      ["Decorar l'oficina.", false],
+      ["Mostrar les tasques en diferents estats per visualitzar el flux.", true],
+      ["Guardar els documents del projecte.", false],
+      ["Calcular el pressupost.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què s'aconsegueix limitant el WIP?",
+    "respostes": [
+      ["Que l'equip treballi més lentament.", false],
+      ["Evitar sobrecàrregues i mantenir un flux de treball constant.", true],
+      ["Que s'acumulin tasques pendents.", false],
+      ["Eliminar la necessitat de reunions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què caracteritza el flux de treball en Kanban a diferència de Scrum?",
+    "respostes": [
+      ["És un flux continu sense iteracions fixes.", true],
+      ["Es basa en sprints mensuals.", false],
+      ["No permet afegir noves tasques.", false],
+      ["És rígid i inamovible.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin és l'enfocament principal de la metodologia XP (eXtreme Programming)?",
+    "respostes": [
+      ["La gestió administrativa.", false],
+      ["La qualitat del codi i la capacitat de resposta tècnica.", true],
+      ["El màrqueting del producte.", false],
+      ["La reducció de costos de personal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin dels següents NO és un valor de XP?",
+    "respostes": [
+      ["Comunicació.", false],
+      ["Burocràcia.", true],
+      ["Simplicitat.", false],
+      ["Coratge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què és el TDD (Test-Driven Development) en XP?",
+    "respostes": [
+      ["Provar el codi al final del projecte.", false],
+      ["Escriure proves automatitzades abans de desenvolupar el codi funcional.", true],
+      ["Contractar testers externs.", false],
+      ["Evitar fer proves.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "En què consisteix la 'Programació en Parella' (Pair Programming)?",
+    "respostes": [
+      ["Dos programadors treballant en ordinadors separats.", false],
+      ["Dos programadors treballant junts en una mateixa estació, un escriu i l'altre revisa.", true],
+      ["Programar només els dies parells.", false],
+      ["Dividir l'equip en parelles per competir.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què implica la 'Integració Contínua'?",
+    "respostes": [
+      ["Fusionar i provar el codi regularment, sovint diverses vegades al dia.", true],
+      ["Integrar nous membres a l'equip cada setmana.", false],
+      ["Unir dues empreses diferents.", false],
+      ["No fer servir control de versions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què és la 'Refactorització'?",
+    "respostes": [
+      ["Afegir noves funcionalitats.", false],
+      ["Millorar el codi existent sense canviar-ne el comportament extern.", true],
+      ["Esborrar codi antic.", false],
+      ["Corregir errors crítics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què significa la 'Propietat Col·lectiva del Codi' en XP?",
+    "respostes": [
+      ["Que el codi pertany al client.", false],
+      ["Que qualsevol membre de l'equip pot modificar qualsevol part del codi.", true],
+      ["Que només el cap d'equip pot tocar el codi.", false],
+      ["Que el codi no té propietari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quina metodologia és ideal per a projectes amb requisits clars i estables que es poden planificar en iteracions?",
+    "respostes": [
+      ["Kanban.", false],
+      ["Scrum.", true],
+      ["Model en Cascada.", false],
+      ["Ad-hoc.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quina metodologia és més adequada per a equips de suport o manteniment amb tasques contínues?",
+    "respostes": [
+      ["Scrum.", false],
+      ["Kanban.", true],
+      ["XP.", false],
+      ["V-Model.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin és un desavantatge de Scrum segons el text?",
+    "respostes": [
+      ["És massa ràpid.", false],
+      ["Pot ser difícil d'escalar en projectes molt grans.", true],
+      ["No permet fer reunions.", false],
+      ["No té rols definits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin és un requisit important per implementar XP amb èxit?",
+    "respostes": [
+      ["Tenir un pressupost il·limitat.", false],
+      ["Una alta disciplina tècnica i compromís de l'equip.", true],
+      ["Utilitzar un llenguatge de programació específic.", false],
+      ["No tenir contacte amb el client.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quina mètrica és típica de Kanban?",
+    "respostes": [
+      ["Velocitat per sprint.", false],
+      ["Temps de cicle i temps de lliurament.", true],
+      ["Línies de codi escrites.", false],
+      ["Hores extres treballades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin valor de XP es refereix a valorar les contribucions dels altres?",
+    "respostes": [
+      ["Simplicitat.", false],
+      ["Respecte.", true],
+      ["Coratge.", false],
+      ["Feedback.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què permet fer l'adaptabilitat de les metodologies àgils?",
+    "respostes": [
+      ["Seguir el pla original sense desviacions.", false],
+      ["Ajustar-se ràpidament als canvis en els requisits o prioritats.", true],
+      ["Eliminar la planificació.", false],
+      ["Treballar sense terminis.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin és l'objectiu de les 'Polítiques Explícites' en Kanban?",
+    "respostes": [
+      ["Fer el procés més burocràtic.", false],
+      ["Definir clarament les regles perquè tothom estigui alineat.", true],
+      ["Amagar informació a l'equip.", false],
+      ["Limitar la creativitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Com es gestiona la planificació en Kanban?",
+    "respostes": [
+      ["Només al principi del projecte.", false],
+      ["De manera contínua, ajustant segons les necessitats.", true],
+      ["En reunions anuals.", false],
+      ["No es fa planificació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què fomenta el valor de 'Coratge' en XP?",
+    "respostes": [
+      ["Barallar-se amb el client.", false],
+      ["Afrontar canvis, refactoritzar i abordar problemes difícils sense por.", true],
+      ["Treballar sense proves.", false],
+      ["Ignorar els errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "En quin entorn va néixer originalment el concepte de Kanban?",
+    "respostes": [
+      ["En el desenvolupament de videojocs.", false],
+      ["En els sistemes de producció de Toyota.", true],
+      ["En la banca.", false],
+      ["En l'exèrcit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quina metodologia àgil té rols molt definits com Product Owner i Scrum Master?",
+    "respostes": [
+      ["Kanban.", false],
+      ["Scrum.", true],
+      ["XP.", false],
+      ["Lean.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Quin és l'objectiu de la simplicitat en XP?",
+    "respostes": [
+      ["Fer menys feina.", false],
+      ["Crear solucions que compleixin els requisits actuals sense complexitat innecessària.", true],
+      ["Utilitzar tecnologies antigues.", false],
+      ["No documentar res.", false]
+    ]
+  },
+  {
+    "tema": "Tema 29. Metodologies àgils. Scrum, Kanban i XP (eXtreme Programming).",
+    "enunciat": "Què permet el feedback continu en les metodologies àgils?",
+    "respostes": [
+      ["Que el client canviï d'opinió cada dia.", false],
+      ["Millorar la qualitat del producte i assegurar que satisfà les necessitats reals.", true],
+      ["Endarrerir el lliurament final.", false],
+      ["Augmentar el cost del projecte.", false]
+    ]
+  }
+]

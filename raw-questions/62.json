@@ -1,0 +1,352 @@
+[
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Què és la xarxa Internet segons el document?",
+    "respostes": [
+      ["Una xarxa local tancada creada exclusivament per a finalitats acadèmiques.", false],
+      ["Una xarxa global que interconnecta milions de xarxes més petites utilitzant protocols comuns.", true],
+      ["Un sistema de bases de dades distribuïdes dissenyat únicament per a governs.", false],
+      ["Un programari desenvolupat per la W3C per traduir IPs a noms de domini.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Dins de l'arquitectura TCP/IP, quina capa s'encarrega de garantir la fiabilitat de la connexió i l'entrega correcta de dades utilitzant TCP o UDP?",
+    "respostes": [
+      ["Capa d'Internet.", false],
+      ["Capa de transport.", true],
+      ["Capa d'aplicació.", false],
+      ["Capa d'enllaç.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina organització és la responsable global de la coordinació del sistema de noms de domini (DNS) i de gestionar els dominis de primer nivell (TLDs)?",
+    "respostes": [
+      ["W3C", false],
+      ["ICANN", true],
+      ["ISOC", false],
+      ["IETF", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina és la diferència clau entre ICANN i IANA?",
+    "respostes": [
+      ["Són organitzacions competidores; ICANN gestiona IPs i IANA gestiona noms de domini.", false],
+      ["ICANN estableix la política i coordina la gestió global, mentre que IANA és el seu braç operatiu que implementa tècnicament les decisions.", true],
+      ["IANA és una entitat europea i ICANN és exclusiva dels Estats Units.", false],
+      ["ICANN es dedica a la web (HTML) i IANA als protocols de correu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "D'acord amb el text, quin organisme regional gestiona les adreces IP d'Europa (incloent les del Govern de les Illes Balears)?",
+    "respostes": [
+      ["RIPE NCC", true],
+      ["ISOC Europe", false],
+      ["IETF", false],
+      ["W3C", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina organització oberta desenvolupa i promou estàndards d'Internet a través de publicacions conegudes com RFC (Request for Comments)?",
+    "respostes": [
+      ["IETF (Internet Engineering Task Force)", true],
+      ["ICANN", false],
+      ["ISOC", false],
+      ["W3C", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin és l'objectiu principal del W3C (World Wide Web Consortium)?",
+    "respostes": [
+      ["Assignar números de sistema autònom (AS).", false],
+      ["Desenvolupar estàndards per a la web com HTML i CSS, garantint-ne l'accessibilitat i la interoperabilitat.", true],
+      ["Gestionar els servidors d'arrel del DNS.", false],
+      ["Promoure l'ús d'Internet a països en vies de desenvolupament sense aspectes tècnics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Què és la Internet Society (ISOC)?",
+    "respostes": [
+      ["Un servidor DNS autoritari global.", false],
+      ["Una organització internacional que promou el desenvolupament obert i l'ús d'Internet per a tothom.", true],
+      ["La policia cibernètica internacional.", false],
+      ["El departament militar que va crear ARPANET.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Com funciona el sistema de noms de domini (DNS)?",
+    "respostes": [
+      ["Comprimeix grans arxius de dades per transferir-los per FTP.", false],
+      ["Tradueix noms de domini fàcils de recordar (com www.exemple.com) a adreces IP numèriques comprensibles per les màquines.", true],
+      ["Xifra exclusivament el tràfic de targetes de crèdit.", false],
+      ["Assigna automàticament adreces MAC als nous dispositius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin símbol representa el nivell més alt (domini arrel) a la jerarquia de l'espai de noms del DNS?",
+    "respostes": [
+      ["Un punt (\".\")", true],
+      ["Una barra inclinada (\"/\")", false],
+      ["Un símbol d'arrova (\"@\")", false],
+      ["Un guió (\"-\")", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "A quin tipus de domini de primer nivell (TLD) pertanyen les extensions com .es o .uk?",
+    "respostes": [
+      ["gTLD (Genèrics)", false],
+      ["sTLD (Patrocinats)", false],
+      ["nTLD (Nous)", false],
+      ["ccTLD (Dominis de codi de país)", true]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Què representa un sTLD (Sponsored Top-Level Domain)?",
+    "respostes": [
+      ["Són dominis oberts a qualsevol ús genèric sense restriccions.", false],
+      ["Són dominis de codi de país de dues lletres.", false],
+      ["Són dominis patrocinats, gestionats per una entitat amb criteris específics per a un sector (ex: .cat, .edu, .gov).", true],
+      ["Són subdominis de tercer nivell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina és la funció principal d'un servidor DNS autoritari?",
+    "respostes": [
+      ["Filtra els virus de les consultes DNS.", false],
+      ["Conté la informació oficial i definitiva sobre un domini i pot respondre amb autoritat a les consultes d'aquest.", true],
+      ["Actua com a intermediari consultant múltiples servidors per compte de l'usuari.", false],
+      ["Gestiona únicament els dominis de primer nivell geogràfics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina característica distingeix un servidor de noms recursiu?",
+    "respostes": [
+      ["Rep consultes dels usuaris i fa de mediador, demanant informació a altres servidors DNS fins a obtenir la resposta completa.", true],
+      ["Té autoritat oficial sobre tots els dominis .com.", false],
+      ["S'executa exclusivament als dispositius mòbils sense accés a Internet.", false],
+      ["Només respon amb la primera pista sense buscar la resposta final.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "On s'ubica normalment l'anomenat 'stub resolver'?",
+    "respostes": [
+      ["Als servidors d'arrel de la IANA.", false],
+      ["Als dispositius finals (clients) com ordinadors o telèfons mòbils, enviant la consulta inicial.", true],
+      ["Als encaminadors (routers) d'interconnexió BGP.", false],
+      ["Dins dels certificats DNSSEC.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Com funciona una resolució DNS iterativa?",
+    "respostes": [
+      ["El resolver rep la resposta completa immediatament del primer servidor.", false],
+      ["El servidor recursiu fa tota la feina i el client espera sense fer res més.", false],
+      ["El resolver consulta successivament diversos servidors DNS, que li donen pistes fins a trobar la resposta completa.", true],
+      ["El client descarrega tota la base de dades d'Internet abans de buscar.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin protocol i quin port utilitza principalment el DNS per a les consultes i respostes estàndard?",
+    "respostes": [
+      ["UDP pel port 53.", true],
+      ["TCP pel port 80.", false],
+      ["UDP pel port 21.", false],
+      ["TCP pel port 443.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Dins de l'estructura d'una consulta DNS, quina informació s'inclou a la secció 'Authority' (Autoritat)?",
+    "respostes": [
+      ["L'adreça IP exacta que ha sol·licitat l'usuari.", false],
+      ["Informació sobre quins servidors autoritaris són responsables d'aquell domini, si la resposta no hi és.", true],
+      ["El nom del domini sol·licitat exclusivament.", false],
+      ["El codi d'estat de la sol·licitud web HTTP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin tipus de registre DNS associa un nom de domini a una adreça IPv6?",
+    "respostes": [
+      ["A", false],
+      ["MX", false],
+      ["AAAA", true],
+      ["PTR", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Per a què serveix un registre CNAME en DNS?",
+    "respostes": [
+      ["Per definir el servidor de correu d'un domini.", false],
+      ["Per associar una adreça IPv4 a un domini.", false],
+      ["Per referenciar un altre nom de domini com un aliàs (ex: redirigir 'www' al nom canònic).", true],
+      ["Per iniciar l'autoritat d'un servidor de noms (SOA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin tipus de registre s'utilitza en les consultes DNS inverses per obtenir un nom de domini a partir d'una adreça IP?",
+    "respostes": [
+      ["NS", false],
+      ["SOA", false],
+      ["PTR", true],
+      ["CNAME", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Què indica el paràmetre TTL (Time to Live) en una resposta DNS?",
+    "respostes": [
+      ["El temps que es triga en processar la sol·licitud al servidor autoritari.", false],
+      ["El temps durant el qual la resposta DNS pot ser emmagatzemada a la memòria cau (caché) abans de tornar a demanar-la.", true],
+      ["La distància física màxima en quilòmetres entre el client i el servidor.", false],
+      ["El límit de salts que pot fer un paquet IP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Per què és especialment útil el DNS dinàmic (DDNS)?",
+    "respostes": [
+      ["Perquè permet actualitzar automàticament els registres DNS quan un dispositiu amb IP dinàmica canvia la seva adreça.", true],
+      ["Perquè converteix el DNS en un protocol UDP xifrat automàticament.", false],
+      ["Perquè evita l'ús de dominis geogràfics (ccTLD).", false],
+      ["Perquè esborra la memòria cau DNS a cada reinici del navegador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina funció aporta DNSSEC (DNS Security Extensions) al protocol DNS?",
+    "respostes": [
+      ["Oculta i xifra els noms de domini perquè els proveïdors d'Internet no els vegin.", false],
+      ["Afegeix autenticació de l'origen i integritat de les dades mitjançant signatures digitals.", true],
+      ["Genera adreces IPv6 de forma aleatòria per millorar l'anonimat.", false],
+      ["Canvia el protocol de transport de UDP a exclusivament HTTPS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "A l'arquitectura de DNSSEC, quin servidor és l'encarregat principal de comprovar la validesa de la signatura digital d'una resposta?",
+    "respostes": [
+      ["El servidor DNS recursiu (el que fa la consulta).", true],
+      ["El servidor DNS autoritatiu.", false],
+      ["El servidor arrel (Root server).", false],
+      ["El servidor d'allotjament web (Apache/Nginx).", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Com construeix la confiança el servidor recursiu en un entorn DNSSEC?",
+    "respostes": [
+      ["A través de pings repetits al servidor destí.", false],
+      ["Mitjançant una cadena de confiança que comença als servidors arrel i segueix fins al servidor autoritatiu mitjançant claus públiques.", true],
+      ["Basant-se únicament en el protocol SSL present a la pàgina web.", false],
+      ["Llegint un arxiu local en text pla que conté totes les IPs correctes de l'Internet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "En què consisteix un atac de 'Cache Poisoning' (Enverinament de caché)?",
+    "respostes": [
+      ["En saturar el servidor DNS de peticions fins a apagar-lo.", false],
+      ["En infectar l'ordinador de l'usuari amb un virus amagat en un arxiu HTML.", false],
+      ["En manipular la memòria cau d'un servidor DNS o resolutor per emmagatzemar registres falsos i retornar respostes incorrectes.", true],
+      ["En llegir de forma passiva els missatges no encriptats que viatgen per la xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Què diferencia la tecnologia DNSSEC de la tecnologia DoT (DNS over TLS)?",
+    "respostes": [
+      ["DNSSEC assegura la integritat de les dades però no les xifra; DoT xifra les consultes protegint la privacitat del tràfic DNS.", true],
+      ["DoT assegura la integritat del domini de primer nivell, i DNSSEC xifra el tràfic.", false],
+      ["DNSSEC s'utilitza només en adreces IPv4 i DoT només en IPv6.", false],
+      ["Són dues maneres diferents d'anomenar exactament el mateix protocol de xifratge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Què fa la tecnologia DoH (DNS over HTTPS)?",
+    "respostes": [
+      ["Xifra les consultes DNS i les envia pel port 443, barrejant-les amb el tràfic web i dificultant que es bloquegin.", true],
+      ["Crea un canal directe sense xifratge cap al servidor de correu.", false],
+      ["Verifica les signatures digitals dels dominis arrel .com i .org exclusivament.", false],
+      ["Actua com un servidor DNS autoritari per a les pàgines de l'administració pública.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quina extensió del protocol DNS (EDNS) s'ha implementat per millorar-ne el funcionament clàssic?",
+    "respostes": [
+      ["Permet enviar paquets DNS de més gran mida i incloure opcions addicionals a les consultes.", true],
+      ["Prohibeix l'ús del protocol UDP, obligant a l'ús exclusiu de TCP.", false],
+      ["Limita la mida del domini a un màxim de 10 caràcters.", false],
+      ["Atura automàticament qualsevol consulta recursiva que superi 1 segon de temps.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Com s'estructura habitualment el protocol DNS a l'hora de consultar noms? Quin camp inclou la informació del domini sol·licitat i el tipus de registre buscat?",
+    "respostes": [
+      ["La secció 'Answer' (Resposta).", false],
+      ["La secció 'Additional' (Addicional).", false],
+      ["La secció 'Question' (Pregunta).", true],
+      ["La secció 'Header' (Capçalera).", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin d'aquests protocols pertany a la capa d'aplicació del model TCP/IP al costat del DNS?",
+    "respostes": [
+      ["El protocol IP.", false],
+      ["El protocol HTTP.", true],
+      ["El protocol Ethernet.", false],
+      ["El protocol TCP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "Quin organisme de govern de la xarxa manté l'assignació de números de sistemes autònoms (AS) i els paràmetres de protocols operativament?",
+    "respostes": [
+      ["W3C", false],
+      ["ISOC", false],
+      ["IANA", true],
+      ["DNSSEC", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "A quin tipus de registre DNS correspon l'acrònim SOA?",
+    "respostes": [
+      ["Start of Authority (Registre d'inici d'autoritat).", true],
+      ["Security Over Alias (Seguretat sobre aliàs).", false],
+      ["System of Address (Sistema d'adreces).", false],
+      ["Server of Application (Servidor d'aplicació).", false]
+    ]
+  },
+  {
+    "tema": "Tema 62. La xarxa Internet. Organismes rectors. El sistema de noms de domini (DNS): espai de noms de domini, servidor de noms i resolució de noms (resolvers).",
+    "enunciat": "En quin cas s'utilitza de forma recomanada una combinació de DNSSEC amb DoT o DoH?",
+    "respostes": [
+      ["Per obligar el client a utilitzar només aplicacions del consorci W3C.", false],
+      ["Per proporcionar tant seguretat i autenticitat (DNSSEC) com privacitat a l'enviar la consulta de manera xifrada (DoT/DoH).", true],
+      ["Per accelerar el temps de resposta del servidor de correu SMTP.", false],
+      ["Per traduir automàticament adreces IPv6 a IPv4 de manera local.", false]
+    ]
+  }
+]
