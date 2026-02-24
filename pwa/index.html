@@ -10,6 +10,7 @@
             --primary: #2563eb;
             --primary-hover: #1d4ed8;
             --success: #16a34a;
+            --success-hover: #15803d;
             --success-bg: #dcfce7;
             --error: #dc2626;
             --error-bg: #fee2e2;
@@ -25,6 +26,7 @@
             margin: 0;
             padding: 1rem;
             line-height: 1.5;
+            padding-bottom: 80px;
         }
 
         .container {
@@ -53,7 +55,7 @@
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
-            transition: background 0.2s;
+            transition: all 0.2s;
             touch-action: manipulation;
         }
         button:hover { background: var(--primary-hover); }
@@ -65,7 +67,10 @@
         .btn-danger { background: var(--error); }
         .btn-danger:hover { background: #b91c1c; }
 
-        .btn-small { padding: 0.25rem 0.75rem; font-size: 0.85rem; }
+        .btn-success { background: var(--success); }
+        .btn-success:hover { background: var(--success-hover); }
+
+        .btn-small { padding: 0.35rem 0.75rem; font-size: 0.85rem; }
 
         .form-group { margin-bottom: 1.5rem; }
         .topic-header-flex {
@@ -77,7 +82,7 @@
         
         .topic-label {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 0.5rem;
             margin-bottom: 0.5rem;
             cursor: pointer;
@@ -85,13 +90,17 @@
             border-radius: 6px;
             background: #f1f5f9;
         }
+        .topic-label input { margin-top: 5px; }
+        .topic-count { color: #64748b; font-size: 0.85em; font-weight: bold; white-space: nowrap; }
+
         input[type="number"] {
             padding: 0.5rem;
             border: 1px solid #cbd5e1;
             border-radius: 6px;
             font-size: 1rem;
-            width: 100px;
+            width: 120px;
         }
+        .max-hint { font-size: 0.85rem; color: #64748b; margin-left: 0.5rem; }
 
         /* History Table */
         .history-section {
@@ -122,13 +131,25 @@
             padding: 1rem 0;
             border-bottom: 2px solid #e2e8f0;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            gap: 10px;
             z-index: 10;
             margin-bottom: 1.5rem;
         }
         
+        .header-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
         .timer { font-size: 1.25rem; font-weight: bold; font-variant-numeric: tabular-nums; }
+
+        #questions-container {
+            transition: opacity 0.3s ease;
+        }
 
         .question-card {
             border: 1px solid #e2e8f0;
@@ -147,6 +168,7 @@
             cursor: pointer;
             transition: all 0.2s;
             background: var(--surface);
+            word-break: break-word; 
         }
         .option:hover:not(.locked) { border-color: var(--primary); background: #f8fafc; }
         .option.selected { border-color: var(--primary); background: #eff6ff; }
@@ -156,12 +178,41 @@
         .option.correct { border-color: var(--success) !important; background: var(--success-bg) !important; }
         .option.incorrect { border-color: var(--error) !important; background: var(--error-bg) !important; }
 
+        /* Hide correct cards when filter is active */
+        .show-mistakes-only .card-correct { display: none !important; }
+
         #score-display {
             text-align: center;
             font-size: 3rem;
             font-weight: bold;
             color: var(--primary);
             margin: 2rem 0;
+        }
+
+        /* Floating Go To Top Button */
+        #go-top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            padding: 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .results-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
         }
     </style>
 </head>
@@ -185,7 +236,10 @@
 
         <div class="form-group">
             <h3>2. Number of Questions</h3>
-            <input type="number" id="q-amount" value="100" min="1">
+            <div>
+                <input type="number" id="q-amount" value="100" min="1">
+                <span class="max-hint" id="max-q-hint"></span>
+            </div>
         </div>
 
         <button onclick="startExam()">Start Exam</button>
@@ -204,7 +258,11 @@
     <div id="exam-view">
         <div class="sticky-header">
             <div class="timer" id="timer-display">00:00</div>
-            <button onclick="finishExam()" id="finish-btn">Finish Exam</button>
+            <div class="header-buttons">
+                <button id="pause-btn" onclick="togglePause()" class="btn-secondary btn-small">⏸️ Pause</button>
+                <button id="abort-btn" onclick="abortExam()" class="btn-danger btn-small">⏹️ Abort</button>
+                <button onclick="finishExam()" id="finish-btn" class="btn-small">Finish Exam</button>
+            </div>
         </div>
         <div id="questions-container"></div>
     </div>
@@ -212,29 +270,60 @@
     <div id="results-view">
         <h1>Exam Results</h1>
         <div id="score-display">-- / 10</div>
-        <div style="text-align: center; margin-bottom: 2rem;">
+        <div style="text-align: center;">
             <p id="stats-display" style="font-size: 1.1rem;"></p>
             <p id="time-display" style="color: #64748b; margin-bottom: 1.5rem;"></p>
-            <button onclick="location.reload()">Return to Menu</button>
+        </div>
+        <div class="results-actions">
+            <button id="toggle-mistakes-btn" onclick="toggleMistakes()" class="btn-secondary">🔍 Review Mistakes</button>
+            <button onclick="location.reload()">🏠 Return to Menu</button>
         </div>
         <hr>
     </div>
 </div>
 
+<button id="go-top-btn" onclick="scrollToTop()" title="Go to top">⬆️</button>
+
 <script>
     let allQuestions = [];
     let examQuestions = [];
+    let availableTopics = []; 
     let userAnswers = {}; 
     
     let timerInterval = null;
     let secondsElapsed = 0;
     let timerStarted = false;
+    let isExamActive = false;
+    let showingOnlyMistakes = false;
+    let isPaused = false;
 
     // --- Initialization & Data Loading ---
     window.onload = async () => {
         registerServiceWorker();
         renderHistory();
         await loadQuestions();
+        await checkForUpdates();
+        
+        window.addEventListener('scroll', toggleGoTopButton);
+
+        window.addEventListener('beforeunload', (e) => {
+            if (isExamActive) {
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        });
+
+        window.addEventListener('popstate', (e) => {
+            if (isExamActive) {
+                if (confirm("Are you sure you want to exit? Your exam progress will be lost.")) {
+                    abortExam(true);
+                } else {
+                    history.pushState({ page: 'exam' }, "", "");
+                }
+            } else if (document.getElementById('exam-view').classList.contains('active-view')) {
+                switchView('setup-view');
+            }
+        });
     };
 
     async function loadQuestions(forceReload = false) {
@@ -260,26 +349,82 @@
         }
     }
 
+    async function checkForUpdates() {
+        if (!navigator.onLine) return; 
+        
+        try {
+            const response = await fetch('./questions.json?v=' + new Date().getTime());
+            if (!response.ok) return;
+            
+            const onlineData = await response.text(); 
+            const localData = localStorage.getItem('pwa_exam_questions');
+            
+            if (localData && onlineData !== localData) {
+                if (confirm("A new version of the questions file is available online! Would you like to update now?")) {
+                    localStorage.setItem('pwa_exam_questions', onlineData);
+                    alert("Update successful! Reloading...");
+                    location.reload();
+                }
+            }
+        } catch (error) {
+            console.log("Silent update check failed or offline.", error);
+        }
+    }
+
     function populateSetup() {
-        const topics = [...new Set(allQuestions.map(q => q.tema))];
+        const topicCounts = {};
+        allQuestions.forEach(q => {
+            topicCounts[q.tema] = (topicCounts[q.tema] || 0) + 1;
+        });
+        
+        availableTopics = Object.keys(topicCounts);
+        const savedSelection = JSON.parse(localStorage.getItem('pwa_saved_topics'));
         const container = document.getElementById('topics-container');
         container.innerHTML = '';
         
-        topics.forEach((topic, index) => {
+        availableTopics.forEach((topic, index) => {
+            const isChecked = savedSelection ? savedSelection.includes(index) : true;
+            const count = topicCounts[topic];
+            
             const label = document.createElement('label');
             label.className = 'topic-label';
             label.innerHTML = `
-                <input type="checkbox" value="${index}" checked class="topic-checkbox">
-                <span>${topic}</span>
+                <input type="checkbox" value="${index}" ${isChecked ? 'checked' : ''} class="topic-checkbox" onchange="updateMaxQuestions()">
+                <span>
+                    ${topic} <br>
+                    <span class="topic-count">(${count} questions)</span>
+                </span>
             `;
             container.appendChild(label);
         });
         
-        document.getElementById('q-amount').max = allQuestions.length;
-        document.getElementById('q-amount').value = Math.min(100, allQuestions.length);
+        updateMaxQuestions();
     }
 
-    // --- Array Shuffling Utility (Fisher-Yates) ---
+    function updateMaxQuestions() {
+        const checkboxes = document.querySelectorAll('.topic-checkbox:checked');
+        const selectedTopicIndexes = Array.from(checkboxes).map(cb => parseInt(cb.value));
+        const selectedTopics = selectedTopicIndexes.map(index => availableTopics[index]);
+
+        let maxAvailable = 0;
+        allQuestions.forEach(q => {
+            if (selectedTopics.includes(q.tema)) maxAvailable++;
+        });
+
+        const qInput = document.getElementById('q-amount');
+        const qHint = document.getElementById('max-q-hint');
+
+        qInput.max = maxAvailable;
+        qHint.innerText = `(Max available: ${maxAvailable})`;
+
+        let currentValue = parseInt(qInput.value) || 0;
+        if (currentValue > maxAvailable) {
+            qInput.value = maxAvailable;
+        } else if (currentValue === 0 && maxAvailable > 0) {
+            qInput.value = Math.min(100, maxAvailable);
+        }
+    }
+
     function shuffleArray(array) {
         let currentIndex = array.length, randomIndex;
         while (currentIndex !== 0) {
@@ -290,16 +435,39 @@
         return array;
     }
 
-    // --- Topic Selection Utilities ---
     function selectAllTopics() {
         document.querySelectorAll('.topic-checkbox').forEach(cb => cb.checked = true);
+        updateMaxQuestions();
     }
 
     function selectNoneTopics() {
         document.querySelectorAll('.topic-checkbox').forEach(cb => cb.checked = false);
+        updateMaxQuestions();
     }
 
-    // --- History Logic ---
+    function toggleGoTopButton() {
+        const btn = document.getElementById('go-top-btn');
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            btn.style.display = 'flex';
+        } else {
+            btn.style.display = 'none';
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function escapeHTML(str) {
+        if (!str) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
     function saveHistory(score, right, wrong, blank, total, timeStr) {
         let history = JSON.parse(localStorage.getItem('pwa_exam_history')) || [];
         
@@ -366,23 +534,46 @@
         }
     }
 
-    // --- Exam Logic ---
     function startExam() {
         const checkboxes = document.querySelectorAll('.topic-checkbox:checked');
-        const selectedTopics = Array.from(checkboxes).map(cb => cb.nextElementSibling.innerText);
+        const selectedTopicIndexes = Array.from(checkboxes).map(cb => parseInt(cb.value));
         
-        if (selectedTopics.length === 0) return alert("Please select at least one topic.");
+        if (selectedTopicIndexes.length === 0) return alert("Please select at least one topic.");
 
-        // Filter and apply true Fisher-Yates shuffle to the questions
+        localStorage.setItem('pwa_saved_topics', JSON.stringify(selectedTopicIndexes));
+        const selectedTopics = selectedTopicIndexes.map(index => availableTopics[index]);
+
         let filtered = allQuestions.filter(q => selectedTopics.includes(q.tema));
         filtered = shuffleArray(filtered);
         
         const amount = parseInt(document.getElementById('q-amount').value);
+        if (amount <= 0 || isNaN(amount)) return alert("Please enter a valid number of questions.");
+        
         examQuestions = filtered.slice(0, amount);
 
         if(examQuestions.length === 0) return alert("No questions available for selected topics.");
 
+        showingOnlyMistakes = false;
+        document.getElementById('questions-container').classList.remove('show-mistakes-only');
+        document.getElementById('toggle-mistakes-btn').innerText = "🔍 Review Mistakes";
+
+        // Reset control buttons
+        document.getElementById('finish-btn').style.display = 'inline-block';
+        document.getElementById('pause-btn').style.display = 'inline-block';
+        document.getElementById('abort-btn').style.display = 'inline-block';
+        
+        const pauseBtn = document.getElementById('pause-btn');
+        pauseBtn.innerHTML = "⏸️ Pause";
+        pauseBtn.className = "btn-secondary btn-small";
+        isPaused = false;
+        document.getElementById('questions-container').style.opacity = '1';
+        document.getElementById('questions-container').style.pointerEvents = 'auto';
+
         renderExam();
+        
+        history.pushState({ page: 'exam' }, "", "");
+        isExamActive = true; 
+
         switchView('exam-view');
         
         secondsElapsed = 0;
@@ -402,7 +593,6 @@
                 originalIndex 
             }));
             
-            // Apply true Fisher-Yates shuffle to the answers
             answers = shuffleArray(answers);
             q.shuffledAnswers = answers; 
 
@@ -415,13 +605,13 @@
                 optionsHTML += `
                     <div class="option" id="opt-${qIndex}-${aIndex}" 
                          onclick="selectAnswer(${qIndex}, ${aIndex}, ${ans.isCorrect})">
-                        ${ans.text}
+                        ${escapeHTML(ans.text)}
                     </div>
                 `;
             });
 
             card.innerHTML = `
-                <div class="question-text">${qIndex + 1}. ${q.enunciat}</div>
+                <div class="question-text">${qIndex + 1}. ${escapeHTML(q.enunciat)}</div>
                 <div class="options-container">${optionsHTML}</div>
             `;
             container.appendChild(card);
@@ -442,8 +632,8 @@
         userAnswers[qIndex] = { selectedIndex: aIndex, isCorrect: isCorrect };
     }
 
-    // --- Timer ---
     function startTimer() {
+        if (timerInterval) clearInterval(timerInterval);
         timerStarted = true;
         timerInterval = setInterval(() => {
             secondsElapsed++;
@@ -453,12 +643,48 @@
         }, 1000);
     }
 
-    // --- Evaluation ---
+    function togglePause() {
+        if (!timerStarted) return; // Only pause if they've actually started the timer
+        
+        isPaused = !isPaused;
+        const pauseBtn = document.getElementById('pause-btn');
+        const container = document.getElementById('questions-container');
+        
+        if (isPaused) {
+            clearInterval(timerInterval);
+            pauseBtn.innerHTML = "▶️ Resume";
+            pauseBtn.className = "btn-success btn-small";
+            container.style.opacity = '0.1'; // Hide questions to prevent cheating
+            container.style.pointerEvents = 'none';
+        } else {
+            startTimer();
+            pauseBtn.innerHTML = "⏸️ Pause";
+            pauseBtn.className = "btn-secondary btn-small";
+            container.style.opacity = '1';
+            container.style.pointerEvents = 'auto';
+        }
+    }
+
+    function abortExam(skipConfirm = false) {
+        if (skipConfirm || confirm("Are you sure you want to abort the exam? No progress or score will be saved.")) {
+            isExamActive = false;
+            clearInterval(timerInterval);
+            switchView('setup-view');
+        }
+    }
+
     function finishExam() {
         if(!confirm("Are you sure you want to finish the exam?")) return;
         
         clearInterval(timerInterval);
+        isExamActive = false;
+        
         document.getElementById('finish-btn').style.display = 'none';
+        document.getElementById('pause-btn').style.display = 'none';
+        document.getElementById('abort-btn').style.display = 'none';
+        
+        // Ensure questions are visible in case they finished while paused somehow
+        document.getElementById('questions-container').style.opacity = '1';
         
         const finalTimeStr = document.getElementById('timer-display').innerText;
 
@@ -481,13 +707,16 @@
 
             if (!userAnswer) {
                 blank++;
+                card.classList.add('card-blank');
                 document.getElementById(`opt-${qIndex}-${correctIndex}`).classList.add('correct');
             } else {
                 if (userAnswer.isCorrect) {
                     right++;
+                    card.classList.add('card-correct');
                     document.getElementById(`opt-${qIndex}-${userAnswer.selectedIndex}`).classList.add('correct');
                 } else {
                     wrong++;
+                    card.classList.add('card-wrong');
                     document.getElementById(`opt-${qIndex}-${userAnswer.selectedIndex}`).classList.add('incorrect');
                     document.getElementById(`opt-${qIndex}-${correctIndex}`).classList.add('correct');
                 }
@@ -513,7 +742,22 @@
         window.scrollTo(0, 0);
     }
 
-    // --- Utilities ---
+    function toggleMistakes() {
+        showingOnlyMistakes = !showingOnlyMistakes;
+        const container = document.getElementById('questions-container');
+        const btn = document.getElementById('toggle-mistakes-btn');
+        
+        if (showingOnlyMistakes) {
+            container.classList.add('show-mistakes-only');
+            btn.innerText = "📄 Show All Questions";
+            btn.classList.remove('btn-secondary');
+        } else {
+            container.classList.remove('show-mistakes-only');
+            btn.innerText = "🔍 Review Mistakes";
+            btn.classList.add('btn-secondary');
+        }
+    }
+
     function switchView(viewId) {
         document.querySelectorAll('.container > div').forEach(el => el.classList.remove('active-view'));
         document.getElementById(viewId).classList.add('active-view');
