@@ -1,4 +1,4 @@
-const CACHE_NAME = 'exam-pwa-v1';
+const CACHE_NAME = 'exam-pwa-v2'; // Change this to v3, v4, etc. whenever you update the app!
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -36,8 +36,14 @@ self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
         .then(response => {
-            // Return cached version or fetch from network
             return response || fetch(event.request);
         })
     );
+});
+
+// --- NEW: Listen for the update command from the app ---
+self.addEventListener('message', event => {
+    if (event.data && event.data.action === 'skipWaiting') {
+        self.skipWaiting();
+    }
 });

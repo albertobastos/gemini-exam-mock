@@ -178,7 +178,6 @@
         .option.correct { border-color: var(--success) !important; background: var(--success-bg) !important; }
         .option.incorrect { border-color: var(--error) !important; background: var(--error-bg) !important; }
 
-        /* Hide correct cards when filter is active */
         .show-mistakes-only .card-correct { display: none !important; }
 
         #score-display {
@@ -189,7 +188,6 @@
             margin: 2rem 0;
         }
 
-        /* Floating Go To Top Button */
         #go-top-btn {
             position: fixed;
             bottom: 20px;
@@ -213,6 +211,30 @@
             gap: 1rem;
             margin-bottom: 2rem;
             flex-wrap: wrap;
+        }
+
+        /* NEW: Update Toast Notification */
+        #update-toast {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--text);
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            display: none;
+            align-items: center;
+            gap: 1rem;
+            z-index: 9999;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            width: 90%;
+            max-width: 400px;
+            justify-content: space-between;
+        }
+        #update-toast button {
+            background: var(--primary);
+            padding: 0.5rem 1rem;
         }
     </style>
 </head>
@@ -284,6 +306,11 @@
 
 <button id="go-top-btn" onclick="scrollToTop()" title="Go to top">⬆️</button>
 
+<div id="update-toast">
+    <span>A new app version is available!</span>
+    <button id="update-btn">Refresh</button>
+</div>
+
 <script>
     let allQuestions = [];
     let examQuestions = [];
@@ -296,13 +323,14 @@
     let isExamActive = false;
     let showingOnlyMistakes = false;
     let isPaused = false;
+    let newWorker; // Stores the incoming new service worker
 
     // --- Initialization & Data Loading ---
     window.onload = async () => {
         registerServiceWorker();
         renderHistory();
         await loadQuestions();
-        await checkForUpdates();
+        await checkForUpdates(); // Checks if questions.json changed
         
         window.addEventListener('scroll', toggleGoTopButton);
 
@@ -324,7 +352,41 @@
                 switchView('setup-view');
             }
         });
+
+        // Event listener for the new Update button
+        document.getElementById('update-btn').addEventListener('click', () => {
+            if (newWorker) {
+                newWorker.postMessage({ action: 'skipWaiting' });
+            }
+        });
     };
+
+    // --- Service Worker Registration & Update Logic ---
+    function registerServiceWorker() {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js').then(reg => {
+                // Check if there is an update waiting right now
+                reg.addEventListener('updatefound', () => {
+                    newWorker = reg.installing;
+                    newWorker.addEventListener('statechange', () => {
+                        // If the new worker is installed and a previous one already controls the page
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                            document.getElementById('update-toast').style.display = 'flex';
+                        }
+                    });
+                });
+            }).catch(err => console.error('Service Worker Registration Failed', err));
+
+            // Reload the page once the new Service Worker takes control
+            let refreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (!refreshing) {
+                    refreshing = true;
+                    window.location.reload();
+                }
+            });
+        }
+    }
 
     async function loadQuestions(forceReload = false) {
         const localData = localStorage.getItem('pwa_exam_questions');
@@ -362,7 +424,7 @@
             if (localData && onlineData !== localData) {
                 if (confirm("A new version of the questions file is available online! Would you like to update now?")) {
                     localStorage.setItem('pwa_exam_questions', onlineData);
-                    alert("Update successful! Reloading...");
+                    alert("Questions updated successfully! Reloading...");
                     location.reload();
                 }
             }
@@ -557,7 +619,6 @@
         document.getElementById('questions-container').classList.remove('show-mistakes-only');
         document.getElementById('toggle-mistakes-btn').innerText = "🔍 Review Mistakes";
 
-        // Reset control buttons
         document.getElementById('finish-btn').style.display = 'inline-block';
         document.getElementById('pause-btn').style.display = 'inline-block';
         document.getElementById('abort-btn').style.display = 'inline-block';
@@ -644,7 +705,7 @@
     }
 
     function togglePause() {
-        if (!timerStarted) return; // Only pause if they've actually started the timer
+        if (!timerStarted) return; 
         
         isPaused = !isPaused;
         const pauseBtn = document.getElementById('pause-btn');
@@ -654,7 +715,7 @@
             clearInterval(timerInterval);
             pauseBtn.innerHTML = "▶️ Resume";
             pauseBtn.className = "btn-success btn-small";
-            container.style.opacity = '0.1'; // Hide questions to prevent cheating
+            container.style.opacity = '0.1'; 
             container.style.pointerEvents = 'none';
         } else {
             startTimer();
@@ -683,7 +744,6 @@
         document.getElementById('pause-btn').style.display = 'none';
         document.getElementById('abort-btn').style.display = 'none';
         
-        // Ensure questions are visible in case they finished while paused somehow
         document.getElementById('questions-container').style.opacity = '1';
         
         const finalTimeStr = document.getElementById('timer-display').innerText;
@@ -761,13 +821,6 @@
     function switchView(viewId) {
         document.querySelectorAll('.container > div').forEach(el => el.classList.remove('active-view'));
         document.getElementById(viewId).classList.add('active-view');
-    }
-
-    function registerServiceWorker() {
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js')
-                .catch(err => console.error('Service Worker Registration Failed', err));
-        }
     }
 </script>
 </body>
