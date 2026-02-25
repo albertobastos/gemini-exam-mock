@@ -1,0 +1,472 @@
+[
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què defineix de manera precisa el concepte de 'tolerància a errors' en el disseny d'un sistema informàtic?",
+    "respostes": [
+      ["La capacitat tècnica d'un sistema per continuar funcionant correctament en presència de fallades esporàdiques o permanents en alguns dels seus components interns.", true],
+      ["L'estratègia d'emmagatzemar exclusivament totes les operacions lògiques en la memòria cau L1 per evitar la degradació del rendiment davant errors del bus extern.", false],
+      ["L'algorisme de detecció integrat a la Unitat Aritmètica i Lògica (UAL) encarregat de recalcular les instruccions de coma flotant si produeixen valors nuls.", false],
+      ["La propietat única i inherent a les arquitectures tipus Harvard que impedeix el creuament de variables gràcies a la separació física dels busos estructurals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "A quin tipus d'entorns s'indica al document que la implementació de la tolerància a errors és absolutament essencial?",
+    "respostes": [
+      ["Als sistemes definits com a crítics, tals com servidors corporatius, xarxes de comunicació i aplicacions de control industrial.", true],
+      ["A les estacions de treball domèstiques, on el protocol de resolució d'interrupcions (ISR) pateix constants caigudes de voltatge.", false],
+      ["Als canals autònoms d'Entrada/Sortida (E/S) dissenyats exclusivament per enviar instruccions de renderització a la GPU.", false],
+      ["En processadors compilats nativament en instruccions RISC on s'han suprimit les memòries de nivell 3 (L3) per guanyar cicles de rellotge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quines són les tres accions fonamentals que comprèn la implementació de tècniques de tolerància a errors?",
+    "respostes": [
+      ["Detectar, corregir i, en els casos que sigui possible, prevenir els errors abans que afectin la disponibilitat.", true],
+      ["Escalar, multiplicar i consolidar els busos d'adreces per eliminar el coll d'ampolla propi de l'arquitectura de von Neumann.", false],
+      ["Aplicar tècniques d'encadenament cap enrere al pipeline de la CPU per refer les operacions arxivades a l'Acumulador.", false],
+      ["Emmagatzemar, compilar i xifrar les dades de manera asíncrona utilitzant el controlador d'accés directe a memòria (DMA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina és la tècnica principal i més estesa per aconseguir que un sistema sigui tolerant a errors a la pràctica?",
+    "respostes": [
+      ["La gestió i integració de la redundància en els diversos components del sistema.", true],
+      ["L'ús exclusiu del processament matricial de caràcter escalar i vectorial.", false],
+      ["L'adopció de transferències mitjançant processos de sondeig actiu (polling).", false],
+      ["L'establiment d'arquitectures basades completament en el model d'execució MISD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En què es basa fonamentalment l'estratègia de la redundància?",
+    "respostes": [
+      ["En la duplicació intencionada de components crítics per garantir que, si un falla, un altre n'assumeixi les funcions sense interrompre el servei.", true],
+      ["En la fragmentació d'arxius pesats en blocs més petits per tal d'evitar la saturació del bus de dades bidireccional.", false],
+      ["En l'eliminació sistemàtica de les memòries cau L1 i L2 per forçar el càlcul d'errors directament a la memòria principal RAM.", false],
+      ["En forçar aturades programades del controlador del bus PCI per refredar el processador i evitar pèrdues de silici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Dins de la categoria de 'redundància en el maquinari', quins components físics són els que habitualment es dupliquen en un servidor?",
+    "respostes": [
+      ["Processadors, discs durs, fonts d'alimentació i targetes de xarxa.", true],
+      ["Perifèrics de sortida, com pantalles d'alta definició i impressores de xarxa.", false],
+      ["Xips de memòria CMOS de la placa base i els busos de control associats.", false],
+      ["Les unitats de memòria virtual asíncrones i el teclat del terminal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin és l'objectiu d'utilitzar la tecnologia RAID (Redundant Array of Independent Disks)?",
+    "respostes": [
+      ["Combinar múltiples discs durs en una única unitat lògica per millorar la fiabilitat de les dades, el rendiment, o ambdues coses.", true],
+      ["Comprimir la matriu lògica del sistema operatiu per encabir-la a la memòria cau L3 i estalviar accessos lents.", false],
+      ["Filtrar tots els accessos al bus de dades per prevenir l'escriptura d'arxius corruptes gràcies a l'arquitectura SIMD.", false],
+      ["Executar algorismes d'aprenentatge automàtic de baix nivell sense utilitzar l'Accés Directe a Memòria (DMA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quins nivells específics de RAID s'esmenten com a exemples principals per garantir la redundància a nivell d'emmagatzematge?",
+    "respostes": [
+      ["RAID 1 (mirroring) i RAID 5 (striping amb paritat).", true],
+      ["RAID 0 (striping net) i RAID 2 (càlcul basat en xarxa).", false],
+      ["RAID 60 (alta densitat asíncrona) i RAID 3 (sector dedicat).", false],
+      ["RAID JBOD (concatenació lineal) i RAID 10 (agrupació de nodes).", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Com es resol el problema d'una possible fallada elèctrica interna en el disseny d'un servidor corporatiu?",
+    "respostes": [
+      ["A través de la redundància de maquinari, integrant dues o més fonts d'alimentació independents.", true],
+      ["A través de bateries de liti inserides dins la pròpia CPU per sostenir el cicle d'instruccions Fetch.", false],
+      ["Connectant els cables d'alimentació directament al controlador DMA perquè reguli l'energia de la placa base.", false],
+      ["Assignar instruccions d'estalvi energètic RISC que apaguen la meitat dels nuclis en cas de baixada de tensió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Com s'aplica el concepte de redundància al programari segons el document d'estudi?",
+    "respostes": [
+      ["Mitjançant la utilització de múltiples còpies o instàncies d'un mateix programari operant simultàniament o en reserva.", true],
+      ["Obligant el sistema operatiu a treballar amb memòries no volàtils per emular les rutines ISR d'interrupció.", false],
+      ["Canviant el llenguatge de programació cada vegada que l'aplicació entra a la fase Execute del pipeline.", false],
+      ["Substituint les llicències privatives per alternatives de codi obert controlades per busos independents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què permet fer l'ús de la tècnica coneguda com 'checkpointing'?",
+    "respostes": [
+      ["Crear punts de recuperació periòdics que permeten reprendre el procés des de l'últim estat segur en cas de fallada.", true],
+      ["Dividir l'ample de banda del bus de xarxa per protegir la memòria RAM de desbordaments per atacs DDoS.", false],
+      ["Enviar senyals elèctrics de sincronització entre la memòria cau L2 i el disc dur mecànic.", false],
+      ["Xifrar blocs sencers d'informació abans que passin pel bus d'adreces utilitzant l'algorisme AES-256.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què busca l'estratègia anomenada 'Diversitat del Programari'?",
+    "respostes": [
+      ["Utilitzar diferents versions d'un programari, desenvolupades independentment, per evitar que un mateix error o bug afecti totes les instàncies.", true],
+      ["Combinar sistemes d'escriptori i sistemes mòbils dins d'un mateix entorn operatiu per flexibilitzar el maquinari.", false],
+      ["Programar una meitat del codi en instruccions CISC i l'altra meitat en instruccions RISC per avaluar-ne el rendiment.", false],
+      ["Desenvolupar només sota el model d'accés híbrid, utilitzant canals d'E/S en comptes de targetes PCI externes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Per tal d'aplicar correctament la 'Diversitat del Programari', quina pràctica de desenvolupament és habitual?",
+    "respostes": [
+      ["Que diferents equips de programadors escriguin el codi utilitzant fins i tot llenguatges o dissenys diferents per a la mateixa funció.", true],
+      ["Compilar el codi font tres vegades seguides a la mateixa màquina per generar registres d'error predictius.", false],
+      ["Obligar els desenvolupadors a no utilitzar biblioteques gràfiques de tercers a la interfície d'usuari.", false],
+      ["Restringir el desenvolupament a arquitectures de maquinari basades únicament en la taxonomia MIMD.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin és l'objectiu fonamental de la 'redundància en les dades'?",
+    "respostes": [
+      ["Duplicar la informació per garantir la seva disponibilitat, fins i tot si un dispositiu d'emmagatzematge físic s'espatlla completament.", true],
+      ["Evitar l'accés no autoritzat xifrant els arxius abans de guardar-los en les memòries de suport.", false],
+      ["Accelerar els càlculs matricials en les Unitats Aritmètiques i Lògiques agrupant múltiples fitxers en un de sol.", false],
+      ["Eliminar l'ús del processament paral·lel i delegar l'emmagatzematge al node mestre d'un clúster centralitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Com funciona tècnicament el mètode de 'Mirroring' en la protecció de dades?",
+    "respostes": [
+      ["Mantenint una còpia exacta i sincronitzada de les dades en un dispositiu d'emmagatzematge diferent o secundari.", true],
+      ["Fragmentant l'arxiu original en centenars de parts asíncrones i repartint-les per servidors web públics.", false],
+      ["Guardant exclusivament els canvis recents a la memòria RAM volàtil fins que el sistema operatiu decideixi tancar-se.", false],
+      ["Fent ús del processador vectorial per comprimir els arxius al 50% de la seva grandària nativa en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què aconsegueix la tècnica de codificació anomenada 'Erasure Coding' en relació a l'espai d'emmagatzematge?",
+    "respostes": [
+      ["Permet reconstruir les dades perdudes en cas de fallada d'un disc combinant fragments i paritat, utilitzant menys espai total que una còpia Mirroring exacta.", true],
+      ["Força el sistema a crear quatre rèpliques idèntiques del mateix document per accelerar els processos d'accés seqüencial.", false],
+      ["Desactiva la memòria de paginació per introduir les dades directament al canal d'E/S secundari del maquinari.", false],
+      ["Codifica les instruccions de xarxa per evitar l'escolta activa de paquets dades a través del bus de comunicacions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En termes generals de definició, què és exactament la 'Clusterització' (Clustering)?",
+    "respostes": [
+      ["L'agrupació de múltiples ordinadors independents que treballen junts per funcionar i comportar-se com si fossin un sol sistema integrat.", true],
+      ["La divisió d'un sol microprocessador físic en diverses màquines virtuals a través d'un hipervisor local.", false],
+      ["La sincronització de diversos usuaris connectats a una mateixa xarxa LAN a través d'un commutador (switch) comercial.", false],
+      ["El procés de compactar els busos d'adreces, dades i control en un sol cablejat d'alta capacitat de transmissió.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quins tres avantatges o beneficis principals busca oferir de manera genèrica un clúster informàtic?",
+    "respostes": [
+      ["Alta disponibilitat, escalabilitat senzilla i increment de la tolerància a errors.", true],
+      ["Reducció del pes físic dels servidors, eliminació del programari intermediari i reducció de components.", false],
+      ["Simplificació de l'arquitectura RISC, augment dels cicles de rellotge i xifratge quàntic.", false],
+      ["Omissió de les etapes Fetch/Decode, millora de l'escalfament termodinàmic i ús exclusiu de memòria SRAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Dins de la varietat de tipus existents, què persegueixen els Clústers d'Alt Rendiment (High-Performance Computing - HPC)?",
+    "respostes": [
+      ["Resoldre problemes complexos dividint una tasca de gran envergadura i realitzant càlculs massius en paral·lel utilitzant tots els nodes a l'uníson.", true],
+      ["Redirigir el trànsit d'usuaris des d'una pàgina web caiguda cap a una altra de recanvi ubicada en un territori aliè.", false],
+      ["Assegurar exclusivament que la base de dades corporativa de recursos humans no pateixi mai un reinici de sistema accidental.", false],
+      ["Reemplaçar els sistemes clàssics de Sondeig (Polling) per controladors DMA en aplicacions gràfiques bàsiques.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "A quin àmbit pràctic s'orienten els clústers HPC (Alt Rendiment) principalment?",
+    "respostes": [
+      ["S'utilitzen generalment en l'àmbit de la recerca científica, simulacions meteorològiques i models matemàtics complexos.", true],
+      ["Al món de l'ofimàtica domèstica per obrir arxius de text i de fulls de càlcul més ràpidament.", false],
+      ["Només en centres de trucades (Call Centers) per emmagatzemar registres d'àudio de forma local.", false],
+      ["Exclusivament a la gestió de perifèrics d'impressió i escàners a la xarxa local d'un ajuntament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina és la premissa funcional d'un Clúster d'Alta Disponibilitat (High Availability - HA)?",
+    "respostes": [
+      ["Tenir nodes redundants en espera preparats per assumir els serveis de forma automàtica si el node principal o actiu falla, minimitzant els temps de caiguda.", true],
+      ["Agrupar targetes gràfiques (GPU) per renderitzar la interfície visual del sistema operatiu en múltiples pantalles alhora.", false],
+      ["Obligar que totes les operacions d'escriptura a memòria passin forçosament pel mateix registre d'Instrucció (IR) per seguretat.", false],
+      ["Crear una xarxa tancada on els ordinadors només intercanvien adreces MAC sense compartir processos propis de CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En un entorn de comerç electrònic o portals web d'alta afluència, quin tipus de clúster ajuda a evitar la saturació del sistema i millora el temps de resposta?",
+    "respostes": [
+      ["El clúster de Balanç de Càrrega (Load Balancing), que distribueix les peticions dels usuaris de manera eficient entre els diferents servidors disponibles.", true],
+      ["El clúster d'Alt Rendiment (HPC), encarregat de calcular el pronòstic de vendes dels propers anys en temps real.", false],
+      ["Un clúster purament geomètric basat en sistemes MISD per interpretar gràfics en pantalles d'alta definició.", false],
+      ["El sistema autònom per canals d'E/S individuals sense connexió directa al Node Mestre per evitar interrupcions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En l'arquitectura d'un clúster, amb quin nom es coneix a cadascun dels ordinadors individuals que en formen part?",
+    "respostes": [
+      ["Nodes (o computadors autònoms).", true],
+      ["Pipelines secundaris.", false],
+      ["Registres d'Acumulador expandits.", false],
+      ["Sectors de paritat magnètica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Per tal que un clúster operi amb eficàcia, com han d'estar connectats els nodes entre si?",
+    "respostes": [
+      ["Han d'estar interconnectats a través d'una xarxa d'alta velocitat i baixa latència (com Ethernet d'alt rendiment o InfiniBand) per garantir una comunicació veloç.", true],
+      ["S'han de connectar exclusivament utilitzant cables serials i busos PCI de la placa base de manera física.", false],
+      ["Mitjançant l'assignació d'una única adreça lògica al bus de control compartit a la xarxa domèstica de l'empresa.", false],
+      ["A través de l'emmagatzematge en memòries cau externes, obviant qualsevol connexió de xarxa per cablejat extern.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin component de programari especialitzat és l'encarregat d'emmascarar la complexitat de múltiples màquines físiques i presentar el clúster com un únic recurs unificat als usuaris?",
+    "respostes": [
+      ["El Middleware.", true],
+      ["El Firmware de la BIOS/UEFI.", false],
+      ["El Controlador DMA d'accés a xarxa.", false],
+      ["La Rutina de Servei d'Interrupcions (ISR).", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Entre els mecanismes de tolerància a errors als clústers, què descriu específicament l'acció anomenada 'Failover'?",
+    "respostes": [
+      ["La transferència i migració automàtica de les tasques i càrregues de treball d'un node defectuós cap a un node de suport sa i disponible.", true],
+      ["L'apagat automàtic d'emergència de tot el centre de dades davant d'una fluctuació greu d'alimentació al node mestre.", false],
+      ["La divisió de la instrucció base en tres fragments operatius que s'envien a la memòria cau de tres nodes a l'atzar.", false],
+      ["El canvi forçat d'arquitectura de memòria RAM d'estat sòlid a lectura mecànica en el node que experimenta saturació.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin mètode fan servir constantment els nodes d'un clúster per supervisar la salut, connectivitat i estat d'activitat dels seus companys de xarxa?",
+    "respostes": [
+      ["El sistema de missatges constants tipus batec de cor (Heartbeat).", true],
+      ["El protocol de sondeig local sobre ports USB compartits.", false],
+      ["L'anàlisi predictiu de vectors per l'arquitectura SIMD.", false],
+      ["La consulta seqüencial al registre d'adreces del Controlador d'E/S mestre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Si en un Clúster d'Alta Disponibilitat el node A no envia el seu 'Heartbeat' en el temps establert, quina decisió pren el sistema automàticament?",
+    "respostes": [
+      ["Interpreta que el node A ha fallat o ha caigut i inicia ràpidament el procés de Failover cap a un altre node (com el node B).", true],
+      ["Apaga per prevenció tots els altres nodes per no contagiar possibles fallades al maquinari adjacent.", false],
+      ["Envia un senyal de reset complet directament al bus de control del processador esborrant les taules d'enrutament de la xarxa.", false],
+      ["Congela el processament de les etapes del pipeline i demana autorització manual de l'administrador informàtic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què garanteix el mecanisme de 'Replication' o Replicació dins l'esquema d'un clúster distribuït?",
+    "respostes": [
+      ["Que tant els serveis com les dades es mantenen duplicades, propagades i sincronitzades en temps real entre els diferents nodes del sistema.", true],
+      ["Que cada procés generat a la memòria cau es transformi en instruccions RISC abans d'iniciar la càrrega inicial del node.", false],
+      ["Que el disc dur secundari d'un sol node rebi exclusivament la paritat magnètica de la dada originària sense alterar la xarxa.", false],
+      ["Que s'apliqui la tècnica d'Erasure Coding sense necessitat de dividir blocs gràcies al processador vectorial de suport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin és l'exemple il·lustratiu aportat sobre l'ús pràctic de clusterització al món real per part de Google?",
+    "respostes": [
+      ["La forma en què empren milers d'ordinadors (servidors) agrupats en centres de dades per processar cerques de manera extremadament ràpida a escala global.", true],
+      ["L'estratègia en la qual assignen a un únic ordinador mainframe la feina completa d'indexar cada nit tot el contingut creat al món.", false],
+      ["La creació de processadors mòbils dissenyats específicament per executar l'arquitectura de memòria Harvard tancada a usuaris.", false],
+      ["El disseny pioner per descartar els discs d'estat sòlid instal·lant només targetes gràfiques de càlcul numèric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "El fet que plataformes de contingut com Netflix o els servidors d'Amazon reparteixin dinàmicament el trànsit d'usuaris respon al concepte tècnic de...",
+    "respostes": [
+      ["Balanç de Càrrega, recolzat sobre una àmplia xarxa de clústers dissenyats per absorbir i redirigir pics d'alta demanda sense caure.", true],
+      ["Lògica d'Interrupcions prioritàries associada a controladors de perifèrics integrats en el pont nord de les seves plaques base.", false],
+      ["Ús exclusiu de memòria cau L1 d'alta densitat compartida massivament entre tots els dispositius clients que miren la pel·lícula.", false],
+      ["Recalibració escalar gràcies a l'arquitectura MISD orientada al visionat asíncron en entorns desconnectats de la xarxa global.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Tot i compartir un objectiu orientat a la continuïtat, en què diferiria principalment un sistema de RAID i un sistema de Clúster d'Alta Disponibilitat?",
+    "respostes": [
+      ["El RAID protegeix exclusivament contra la pèrdua d'unitats de disc en una mateixa màquina, mentre que el clúster protegeix contra la caiguda física i total del servidor o màquina sencera.", true],
+      ["El RAID només actua per accelerar l'ample de banda del bus de dades, i el clúster es limita exclusivament a crear memòries cau grans al núvol.", false],
+      ["Un clúster actua duplicant l'espai i el controlador d'accés directe (DMA) dins del PC domèstic, i el RAID unifica la potència de múltiples CPU llunyanes.", false],
+      ["No presenten cap diferència pràctica ni tècnica; són dos termes intercanviables que defineixen l'agrupació de discs a través del protocol TCP/IP.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què suposaria que un node integrat dins d'un clúster d'Alta Disponibilitat (HA) patís una fallada crítica de processador en plena operació i no existís el mecanisme de Failover?",
+    "respostes": [
+      ["Els usuaris patirien una interrupció o caiguda permanent del servei, ja que cap altre node assumiria el rol o les tasques de manera autònoma i intel·ligent.", true],
+      ["El middleware repararia màgicament l'estructura física danyada del microxip a través de l'escalat de codi màquina genèric al segon immediat.", false],
+      ["La xarxa passaria a utilitzar les rutes d'emmagatzematge asíncron dels perifèrics lents sense que l'usuari final ho arribi a notar mai.", false],
+      ["Es generaria exclusivament una alerta visual mentre el sistema continuarïa processant dades amb normalitat atès que cada node té tres nuclis idèntics redundants per obligació d'arquitectura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Una institució financera aplica la tolerància a errors duplicant les bases de dades clau a la ciutat de Madrid i a la ciutat de Barcelona. Quin tipus de redundància s'està aplicant prioritàriament per salvaguardar les transaccions?",
+    "respostes": [
+      ["Redundància en les dades (sovint a través de Mirroring geogràfic) per assegurar que si cau la localització primària, la informació no es perdi.", true],
+      ["Redundància de maquinari basada en l'aplicació tècnica del RAID 0 pur en matrius compartides transfrontereres.", false],
+      ["L'adopció del model teòric asíncron d'arquitectura Harvard dissenyat exclusivament per atendre peticions perifèriques en remot.", false],
+      ["Tècniques de diversitat en el programari on cada ciutat utilitza llenguatges de programació i sintaxis aleatòries per a les funcions comptables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Si configurem un sistema on hi ha un 'Node Actiu' gestionant tot l'operatiu i un 'Node Passiu' (en espera calenta) que únicament rep rèpliques del batec del primer, en quin format d'arquitectura de clúster estem?",
+    "respostes": [
+      ["En una arquitectura de Clúster d'Alta Disponibilitat (HA) sota el model de funcionament 'Active/Passive'.", true],
+      ["En un supercomputador sota el format d'Alt Rendiment (HPC) estructurat seqüencialment per a càlcul matricial.", false],
+      ["En un conjunt purament distribuït sota la denominació genèrica SIMD dissenyat únicament per tractament d'interrupcions hardware.", false],
+      ["En un sistema tancat on el Node Passiu actua fent la feina del controlador DMA connectat a memòria externa a la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què garanteix a grans trets l'etapa d'avaluació coneguda com a 'Detecció d'errors' en l'estratègia global de protecció?",
+    "respostes": [
+      ["L'ús de mecanismes que identifiquen que s'ha produït una anomalia, sent el pas previ i necessari per poder activar mesures correctores o de redundància.", true],
+      ["L'esborrat immediat de les instruccions alterades a través de l'escriptura per força al bus de control del dispositiu danyat.", false],
+      ["Aïllar el mòdul de memòria secundari per forçar tota la lectura i procés exclusivament a la memòria cau d'alta resposta.", false],
+      ["L'aturada de seguretat forçosa i immediata del sistema operatiu complet i de tots els nodes veïns a la mateixa xarxa local d'edifici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quina característica diferencia estructuralment un 'middleware' del clúster de la xarxa física que uneix els nodes?",
+    "respostes": [
+      ["El middleware és el programari especial encarregat d'orquestrar i integrar el conjunt d'equips informàtics, mentre que la xarxa física aporta només l'enllaç de maquinari subjacent.", true],
+      ["El middleware controla el voltatge assignat als discs magnètics de la màquina, en contrast amb la xarxa que controla exclusivament l'intercanvi del protocol IPv6 extern.", false],
+      ["El middleware és un microxip secundari soldat a les plaques base encarregat d'unificar memòries ROM, lligant completament la memòria al processador sense usar busos.", false],
+      ["No es diferencien ja que en entorns clusteritzats la xarxa física desapareix per ser substituïda completament per algoritmes d'emulació per senyals radiofònics d'alta freqüència.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En la gestió i control del 'Heartbeat', com viatgen generalment aquests senyals entre els servidors d'un Clúster d'Alta Disponibilitat?",
+    "respostes": [
+      ["S'acostumen a enviar a través de connexions de xarxa dedicades específicament a aquesta funció (o xarxes privades d'alta fiabilitat) per evitar interferències amb el trànsit d'usuaris.", true],
+      ["Utilitzen exclusivament els busos interns d'adreces de la placa base traslladant el senyal fins als controladors d'E/S de caràcter seqüencial dels dispositius secundaris.", false],
+      ["Via comunicació analògica simple emprant ports i cables estàndard tipus USB 2.0 directament connectats entre les caixes protectores de les CPU mestre.", false],
+      ["Per mitjà d'escriptures encriptades a discos durs externs que tots dos servidors llegeixen cada sis hores en un procés iteratiu clàssic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "L'escalabilitat és un dels grans atributs aportats pels clústers. Com s'entén l'escalabilitat horitzontal (Scale-out) en aquest context operatiu?",
+    "respostes": [
+      ["La capacitat d'ampliar el rendiment o la capacitat del sistema afegint progressivament nous nodes o servidors a l'agrupació existent segons les necessitats.", true],
+      ["L'obligació de substituir el processador de tots els nodes actuals per unitats més avançades (Scale-up) deixant intacte el nombre final de màquines unides.", false],
+      ["L'adopció d'una política informàtica per la qual el sistema operatiu utilitza cada vegada menys memòria RAM traslladant el pes operatiu a discs durs rotacionals lents.", false],
+      ["L'aplicació d'una connexió tipus RAID JBOD capaç d'ajuntar arxius esporàdics en blocs de memòria unificada sense capacitat autònoma d'increment processador de nucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "D'acord al disseny de la tolerància a errors i redundància informàtica, s'afirma sovint que és millor prevenir errors. Com contribueix el disseny RAID a aquest punt preventiu?",
+    "respostes": [
+      ["El RAID generalment no prevé i no soluciona corrupcions originades per software (virus, esborrats accidentals), el seu objectiu és purament suportar fallades a escala de maquinari sobre la base física del disc.", true],
+      ["Garanteix de forma matemàticament impecable i absoluta que qualsevol programari maliciós de xarxa o intrusió acabi rebotat abans que sobreescrigui les dades locals als discs rotacionals mecànics interns.", false],
+      ["Atura proactivament totes i cadascuna de les operacions de la Unitat Aritmètica i Lògica quan percep que el resultat de la suma serà inferior al valor d'una instrucció establerta pel comptador genèric.", false],
+      ["Altera la freqüència dels busos del sistema base per impedir qualsevol error humà quan es copia o mou la instància d'emmagatzematge dels nodes principals del centre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quan s'utilitza una arquitectura d'Alt Rendiment (HPC), per quin motiu principal les peces o nodes s'agrupen i s'organitzen dissenyades com un clúster i no es processa en una màquina enorme individual?",
+    "respostes": [
+      ["Perquè agrupar un alt nombre de servidors assequibles i comercials proporcionant rendiment de supercomputació és econòmicament i tècnicament més viable que intentar dissenyar o construir un únic processador gegant aïllat.", true],
+      ["Atès que l'arquitectura de memòria interna i de bus unificat von Neumann impedeix per llei física dotar una sola placa base amb més de quatre gigabytes d'espai adreçable operatiu i tancat per procés de procés d'usuari.", false],
+      ["Degut exclusivament a la prohibició dels models antics (com la classificació SISD de Flynn) d'assumir qualsevol mena d'operació de coma flotant a l'hora de resoldre problemes relacionats amb grans bases industrials d'emmagatzematge magnètic lent.", false],
+      ["Atesa la ineficiència on el protocol TCP/IP tradicional rebutja directament enviar senyals d'ample de banda entre les targetes instal·lades a la mateixa caixa central a causa dels límits introduïts en el controlador de temps PCI-E clàssic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Al relacionar la classificació de l'arquitectura (Flynn) amb la tolerància a errors actual, per quin motiu l'entorn de clústers s'associa molt fortament al model MIMD?",
+    "respostes": [
+      ["Perquè el clúster es conforma precisament de múltiples ordinadors (processadors separats) que actuen de forma paral·lela, operant i resolent mútiples instruccions diferents aplicades sobre fluxos de dades completament diversos alhora.", true],
+      ["Conseqüència del disseny asimètric intern on la CPU encarregada només i de forma aïllada rep ordres limitades d'un processador vector que emet les múltiples ordres orientades a una simple dada seqüencial tancada genèric de registre pur escalat base temporal.", false],
+      ["Atesa la incapacitat d'aquests grans esquemes d'agrupament de superar l'amplada i restricció imposada pel concepte clàssic de Single Instruction i pel limitat nombre d'emissors d'operacions procedents del model SIMD bàsic vinculat gràfic intern.", false],
+      ["Com a resultat i resolució lligada a la implementació de rutines basades exclusivament al canal pur d'accés síncron on l'entorn del node lligat s'orienta directament a desestimar l'aplicatiu base multiprocessador prioritzant memòries de model unificat autònom localitzat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Quin mètode tècnic ajuda a pal·liar el risc afegit i freqüent de col·lisió elèctrica i apagada general quan diverses màquines o d'alta densitat o consum es reuneixen en l'espai propi del centre de dades corporatiu?",
+    "respostes": [
+      ["L'adopció integral de redundància elèctrica utilitzant fonts dobles i sistemes d'alimentació ininterrompuda (SAI/UPS) lligats a diferents línies físiques del quadre d'energia.", true],
+      ["L'adquisició preferencial exclusivament d'arquitectures heretades de l'escala tipus CISC antiga on s'evitava per disseny implementar memòries internes altament volàtils de temps limitador reduint de pas ràpidament tota pressió calorífica.", false],
+      ["Utilitzant controladors passius basats a desviar forçadament i d'origen el rendiment elèctric del processador principal derivant cap a sistemes secundaris encarregats únicament al procés gràfic sense demanar mai corrent a la xarxa base per les funcions grans.", false],
+      ["Establir i obligar el processament exclusiu sota l'estratègia o eina de l'escombrada d'arxius en blocs purs on de forma natural o asíncrona es transfereix operació base del rellotge lligant l'execució d'espera temporal clàssic per interrupció base limitat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "D'acord a la definició global del clúster com 'ordinadors que operen connectats en grup actuant a nivell operatiu i funcional com un de sol', què impedeix o soluciona en l'àmbit visual i funcional per a l'usuari el fet de comptar o d'existir en pràctica el Middleware?",
+    "respostes": [
+      ["Oculta al client o usuari final quants servidors o nodes individuals formen part del grup; l'usuari es connecta i interactua percebent únicament que parla amb un sol recurs gegant unificat a l'altre costat sense importar de quin node rep resposta originalment.", true],
+      ["Força de forma visual a l'usuari a conèixer i gestionar exclusivament quins blocs o llistats d'arxius genèrics queden desats al disc D: i quins romanen allotjats a temps asíncron en l'estructura C: per evitar així trencar o degradar l'escriptura dels controladors integrats de xarxa pura asíncrona en entorn tancat darrer base clàssica autònoma.", false],
+      ["Eludeix la necessitat que la infraestructura o sistema aplegui múltiples connexions paral·leles atès que aglutina l'escriptura exclusivament dintre la memòria nativa d'un únic node forçant que tot s'executi utilitzant estrictament rutines seqüencials tradicionals per un únic processador en mode base tancat rutinari clàssic per sistema elèctric simple asíncrona.", false],
+      ["Soluciona en essència el requisit d'haver de fer front als mètodes basats estretament en l'acció per interrupcions bloquejant l'entorn de treball on els controladors de bus lliuren directament tots els senyals analògics al port universal a procediment darrer sense recórrer mai a la plataforma i suport genèric del sistema operatiu d'host i els nodes del temps asíncron elèctric intervingut de format aplicatiu de xarxa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Com avalua i quin benefici atorgaria al clúster el concepte conegut com a 'balanç de càrrega' en les dates prèvies o durant èpoques o esdeveniments de forta estacionalitat, com ho poden ser unes conegudes eleccions on el portal oficial rebi tràfic molt intens a la pàgina publicant resultats en xarxa?",
+    "respostes": [
+      ["Evita el sobreescalfament informàtic i les caigudes derivades repartint de manera equilibrada i àgil els milions de connexions a la xarxa entre la desena o centenes d'equipaments (nodes) connectats actius que componen d'ús del clúster de base temporal del grup de manera intel·ligent al context sencer rutinari.", true],
+      ["Permet reduir en format directe l'alta demanda convertint cada sessió gràfica complexa peticionada a l'entorn web en llenguatge i accions genèriques emeses en pur llenguatge ensamblador d'acord amb el protocol de senyals d'adreces analògic PCI, estalviant així tràfic darrer per sistema clàssic lligat.", false],
+      ["Elimina forçosament tota connexió paral·lela en benefici pur del node primari d'actuació obligant que de manera unívoca l'aplicació assoleixi fer la descàrrega i transferència massiva del servidor sense usar la infraestructura paral·lela evitant d'aquesta l'entorn model col·laboratiu genèric asíncron seqüencial rutinari temporal de procés exclusiu.", false],
+      ["Garanteix l'èxit i efecte de tancament operatiu aïllant ràpidament el directori arrel original i traslladant i copiant per síncron mètode el pes conjunt de les dades del maquinari mestre utilitzant exclusivament bus de model a adreces internes sense aplicatiu o processador autònom ni xarxa general elèctrica compartida base de darrer o arxiu darrer i a temps aplicatiu d'ús operatiu asíncron intervingut darrer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "En referència a l'emmagatzematge segur o de pèrdua massiva, per quin motiu principal les organitzacions prefereixen i opten molt cops per introduir i destinar esforços a dissenyar arquitectures on de formació o estructura d'ús el mètode predominant com el model Erasure Coding es fa fort o més present on les condicions imposen entorns lligats d'arxivament remot profund com al conegut emmagatzematge o ús comú als objectes dins el cloud o al núvol de dades?",
+    "respostes": [
+      ["Atès que on per regla natural, en aquests macroentorns la grandària requerida passa o es converteix en un enorme repte i per tant i com contrapartida realitzar de la dada un pur i exacte mirroring al pes del 100% lligat o completament del volum total duplicat suposaria una despesa i cost en discos realment altíssim i l'Erasure Coding permet protegir reconstruint sent més barat i estalviador de recursos a base constant aplicativa.", true],
+      ["Degut a la seva forta capacitat de base, de suport clàssic orientat on forçosament o al de format els darrers elements o dades en mode de paritat poden processar en paral·lel l'arquitectura d'informació a seqüencial en temps asíncron de la seqüència base a bus d'adreces de format analògic pur clàssic sense intervenció directa i on a ús exclusiu pel suport base del processador al moment establert per l'ordre rutinari genèric autònom de la mateixa base operatiu de canal de memòria intern tancat elèctric.", false],
+      ["Com a resultat on la introducció aplicativa requereix des de base desconnectar sistemàticament la utilització del bus per la xarxa local obligant en tots i a mode exclusivament i en procés que aquesta codificació adquireixi el recurs format de temps i on només darrer la dada d'arxiu és moguda en procés per operadors d'E/S en base a blocs sense connexió a la taula mestra i sense lligam estret de redundància al disc principal operatiu rutinari lliure del disseny clàssic originari asíncrona la mateixa clàssic genèric d'ordinador.", false],
+      ["Pel fet exclusiu i conegut segons document on i d'escala lligat on la base teòrica per programari o processament intern dissenya l'Erasure per bloquejar tota possibilitat tècnica on per format els elements passius d'interfícies i bus tancat asíncron intervingut es creuïn entre el senyal genèric procedent de l'usuari amb darrer de format en aplicatiu exclusiu al de format lligat a darrer rutinari temporal i exclusiu d'arxiu temps on tots aplicatius a memòries cau referent i el darrer suport a digital de temps asíncron en la i o en darrer el darrer rutinari de format PCI asíncron.", false]
+    ]
+  },
+  {
+    "tema": "Tema 4. Tolerància a errors. Gestió de la redundància. Clusterització.",
+    "enunciat": "Què suposaria exactament o quina representació prendria en la configuració dissenyada un element dins un clúster referit aplicatiu d'escala d'ús on l'aplicació s'ha preparat i establert prenent com opció el procés tècnic a mode conegut com model o tècnica de temps de funcionament 'Active/Active' respecte al de referent al com operen el conjunt complets els propis dels diferents ordinadors agregats o nodes al grup general de suport al model genèric descrit darrer de rutinari darrer?",
+    "respostes": [
+      ["Indica l'esquema d'arquitectura sota el qual o lligat directament, al temps on tots o bé una selecció molt gran o variada de diversos membres i nodes funcionals assignats dins de la mateixa xarxa del clúster romanen operatius completament i de manera real al mateix temps despatxant de base les instruccions en forma col·laborativa processant dades de forma simultània o distribuïts repartint càrregues eficientment lligades per assegurar agilitat general i estabilitat del conjunt sencer col·laboratiu i complet.", true],
+      ["Implica darrer la posada a format de temps de l'estructura i on exclusiu l'organització aplicatiu determina o disposa només d'un i sol equip a model mestre principal treballador operatiu complet en la xarxa deixant al seu complet de format els darrers com referit de fons d'aplicació base només apagats completament inactius darrer o a estats i als en espera passiva on inactius lligats lligats a suport fins error crític de l'aplicatiu mestre genèric a base seqüencial rutinari clàssic sense ús paral·lel referit de canal operatiu en general de temps i o exclusiu lligat i darrer aplicatiu base i el temps el aplicatiu a la darrer en a la i dades on darrer.", false],
+      ["Dibuixa o estableix que darrer per tipus on de model base la utilitat el procés en executa per mètode de temps i la senyal per interrupcions en on de format el temps darrer de base operatiu la seqüencial el mateix d'ordinador a procés seqüencial a senyal la on la connexió és la i on darrer a base a temps i o d'una la i on de lligats d'adreces a format d'ús rutinari darrer o en la i on darrer a la i o de darrer on darrer i de la i dades on de a la de dades a la en la a el format el darrer i el de temps on de la o a dades a darrer de la i o el darrer.", false],
+      ["Requereix la inclusió on un a l'adopció l'estratègia el temps o d'estructura un entorn lligat on la dels de l'exterior de format on darrer la el dispositiu i aplicatiu dels diferents o processadors en i a on a darrer de la i a on la o la i de darrer en a exclusivament de la i on de temps a la a el de la en el de darrer de la i a de la a on de temps i a la o de la a darrer la a darrer la de a la o darrer la i o de la darrer o la de darrer a la i o de darrer a darrer la a darrer la de o darrer la darrer la i de la o la darrer.", false]
+    ]
+  }
+]

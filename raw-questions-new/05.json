@@ -1,0 +1,312 @@
+[
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin és l'objectiu principal de la tecnologia RAID (Redundant Array of Independent Disks) a l'hora de gestionar l'emmagatzematge?",
+    "respostes": [
+      ["Combinar múltiples discos durs físics en una sola unitat lògica per tal de millorar la redundància de dades, el rendiment global, o ambdues característiques alhora.", true],
+      ["Virtualitzar les adreces MAC de la targeta de xarxa local per amagar la presència dels servidors d'emmagatzematge respecte als encaminadors i tallafocs externs.", false],
+      ["Executar un sistema d'arxius exclusiu que comprimeix automàticament totes les dades en blocs de 4KB abans d'enviar-les a través de la memòria cau L2 del processador.", false],
+      ["Transformar l'accés a dades de nivell de bloc a nivell de fitxer directament dins de la placa base sense necessitar cap controlador de domini dedicat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina característica tècnica defineix l'esquema de funcionament principal del nivell RAID 0?",
+    "respostes": [
+      ["Distribueix de manera fraccionada les dades en blocs entre dos o més discos (striping) sense generar ni emmagatzemar cap tipus d'informació de redundància.", true],
+      ["Crea una rèplica exacta i síncrona (mirroring) de cada sector del primer disc cap a la resta de discos connectats a la mateixa matriu d'emmagatzematge.", false],
+      ["Agrupa sistemes d'arxius dispars per generar una vista unificada aplicant una paritat senzilla que es desa de forma rotatòria en tots els discos de l'array.", false],
+      ["Restringeix l'escriptura a un únic disc mestre i utilitza els discos restants exclusivament com a memòria temporal d'alta velocitat per a les lectures freqüents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Segons l'anàlisi dels seus desavantatges, quin és el risc crític de configurar un sistema basant-se en RAID 0?",
+    "respostes": [
+      ["No proporciona cap tipus de tolerància a fallades; si un sol disc del conjunt s'espatlla, la totalitat de les dades distribuïdes es perden irremeiablement.", true],
+      ["La velocitat d'escriptura es veu dràsticament penalitzada a causa del temps necessari per processar i escriure els blocs de doble paritat.", false],
+      ["La capacitat d'emmagatzematge aprofitable queda reduïda exactament a la meitat, independentment del nombre total de discos durs que s'hi afegeixin.", false],
+      ["Resulta incompatible amb controladors moderns d'accés directe a memòria (DMA), limitant-se a entorns on el processador executa el sondeig continu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Dins de la jerarquia estàndard, en què consisteix específicament l'arquitectura del RAID 1?",
+    "respostes": [
+      ["Consisteix en la duplicació exacta o emmirallament (mirroring) de les mateixes dades alhora en dos discos independents.", true],
+      ["Distribueix franges de dades juntament amb blocs de paritat seqüencial al llarg d'un mínim de tres discos per garantir una reconstrucció asíncrona.", false],
+      ["Actua consolidant l'espai sobrant de diferents discos de capacitats variades (JBOD) per formar un sol volum lògic adreçable sense redundància.", false],
+      ["Realitza primerament una distribució de blocs i posteriorment xifra cadascun dels sectors utilitzant un algorisme AES-256 processat per maquinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "A nivell de capacitat neta utilitzable, com afecta el disseny d'un RAID 1 a l'espai d'emmagatzematge final obtingut?",
+    "respostes": [
+      ["Només permet utilitzar efectivament el 50% de la capacitat d'emmagatzematge total dels discos que integren el volum, ja que la resta conté la rèplica.", true],
+      ["Disminueix la capacitat d'un únic disc equivalent a l'espai que ocupa la paritat dedicada per tolerar fallades.", false],
+      ["No penalitza en absolut la capacitat total, permetent emmagatzemar dades en el 100% de la suma volumètrica dels discs físics connectats.", false],
+      ["L'espai d'arxiu queda restringit a l'equivalent d'una tercera part del conjunt, obligant a implementar tecnologies de compressió deduplicada en segon pla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Com organitza les dades i la protecció el nivell RAID 5 dins de la seva estructura interna?",
+    "respostes": [
+      ["Distribueix els blocs de dades (striping) i també la informació de paritat de manera rotatòria entre tots els discos que componen la matriu.", true],
+      ["Escriu els blocs de dades fragmentats de forma paral·lela, però reserva obligatòriament el disc dur final en exclusiva per desar-hi tots els càlculs de paritat.", false],
+      ["Estableix dos subgrups on primer clona la informació mitjançant el mirroring tradicional per després aplicar una funció lògica XOR al final de cada sector.", false],
+      ["Utilitza l'algoritme de codis de correcció d'errors (ECC) sobre la memòria virtual de la placa base abans de traslladar les dades al primer disc del clúster.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quantes unitats físiques pot suportar que fallin de forma simultània un conjunt configurat en RAID 5 sense patir cap pèrdua d'informació?",
+    "respostes": [
+      ["Pot suportar la fallada d'exactament un sol disc.", true],
+      ["Està dissenyat per suportar la fallada concurrent de fins a dos discos durs.", false],
+      ["Comporta una tolerància de pèrdua equivalent a la meitat de les unitats que formen el clúster complet.", false],
+      ["No té cap capacitat de tolerància a fallades; perd la matriu sencera si cau algun dels integrants.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin és el desavantatge operatiu principal que cal tenir present en un entorn on funciona un RAID 5 si falla una unitat i se substitueix?",
+    "respostes": [
+      ["El procés de reconstrucció de les dades en el nou disc és intensiu en càlcul de paritat i pot resultar significativament lent, impactant en el rendiment temporal del sistema.", true],
+      ["El sistema denegarà qualsevol nova operació de lectura per part dels usuaris fins que s'hagi completat el 100% de la sincronització de la xarxa local LAN.", false],
+      ["Requereix la inhabilitació del protocol Fibre Channel obligant l'administrador a fer la restauració mitjançant comandes asíncrones per cable serial tancat.", false],
+      ["La substitució forçarà la reconfiguració automàtica del volum passant-lo a RAID 0, exposant les dades a vulnerabilitats durant almenys trenta dies.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "En què difereix tècnicament el disseny i implementació del RAID 6 respecte al RAID 5 tradicional?",
+    "respostes": [
+      ["El RAID 6 afegeix un segon conjunt d'informació de paritat independent que es distribueix entre els discos, habilitant-lo per suportar la fallada de dos discos simultàniament.", true],
+      ["El RAID 6 elimina la paritat distribuïda a favor de dedicar dos discos exclusivament al Mirroring i dos addicionals per fer la funció d'Striping pur.", false],
+      ["El RAID 6 s'executa estrictament a nivell de programari del sistema operatiu, mentre que el RAID 5 requereix sempre un controlador físic instal·lat al bus PCIe.", false],
+      ["El RAID 6 només admet emmagatzematge adreçat per nivell de fitxer i no per nivell de bloc, aïllant completament el maquinari subjacent de l'hipervisor.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Com impacta l'arquitectura de doble paritat del RAID 6 en el rendiment rutinari de l'emmagatzematge?",
+    "respostes": [
+      ["Resulta més lent en les operacions d'escriptura a causa de la complexitat i el temps de computació addicional requerit per calcular els dos blocs de paritat per cada dada.", true],
+      ["Accelera dràsticament tant la lectura com l'escriptura perquè el controlador DMA assigna un fil de processament asíncron exclusiu a cada sector magnètic dividit.", false],
+      ["Augmenta la latència de la xarxa SAN encriptant tota la càrrega mitjançant l'algorisme de xifratge CHAP en comptes d'aplicar-ho sobre el disc directament.", false],
+      ["No presenta cap impacte en el rendiment, ja que la doble paritat és derivada automàticament de la memòria L3 del processador central abans de recórrer el bus d'adreces.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què representa un nivell RAID 10 (sovint anomenat RAID 1+0) i quines dues metodologies híbrides combina?",
+    "respostes": [
+      ["Combina el mirroring i el striping: primer les dades es dupliquen per garantir redundància i després es distribueixen de forma fraccionada entre els parells de discos.", true],
+      ["Consisteix a enllaçar diversos RAID 5 a través del mètode d'striping per formar un clúster secundari, guanyant taxa de paritat centralitzada i sumant l'estalvi de discos.", false],
+      ["Superposa exclusivament conjunts RAID 0 i els connecta a un arxiu zip d'alta densitat en format SAN on el processament està definit per maquinari i la xarxa virtualitzada.", false],
+      ["Unifica de forma jeràrquica deu discos on els primers nou mantenen escriptura lineal asíncrona i l'últim roman sempre inactiu per assumir tasques en cas d'error elèctric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Per a quins escenaris o tipus d'aplicacions és especialment adequat i sol·licitat l'ús del nivell RAID 10?",
+    "respostes": [
+      ["Per a sistemes de bases de dades de grans dimensions i altres aplicacions crítiques que exigeixen alhora una molt alta disponibilitat i un alt rendiment operatiu.", true],
+      ["Exclusivament per emmagatzemar còpies de seguretat arxivades on la rapidesa d'escriptura és irrellevant però es requereix la màxima utilització de l'espai al cost més reduït.", false],
+      ["Per al tractament de xarxes de virtualització a nivell de fitxer que s'allotgen únicament en discos basats en tecnologies d'enllaç d'àmbit analògic obsolet.", false],
+      ["Principalment per a infraestructures d'ofimàtica de petites empreses o estacions individuals que treballen únicament editant textos i navegant per entorns web públics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina és la diferència clau pel que fa a l'ordre de construcció lògica entre un RAID 10 i un RAID 01?",
+    "respostes": [
+      ["En el RAID 01 primer es distribueixen les dades entre els discos (striping) i després es dupliquen les franges (mirroring), a la inversa que el RAID 10, fet que el fa menys resilient.", true],
+      ["En el RAID 01 la paritat s'aplica obligatòriament a cada byte abans de generar el mirall, mentre que al RAID 10 s'omet la paritat totalment aprofitant el controlador DMA obert.", false],
+      ["El RAID 01 només pot gestionar emmagatzematge de tipus virtualitzat al núvol, delegant l'striping al proveïdor extern, mentre que el RAID 10 està dissenyat exclusivament on-premise.", false],
+      ["Cap, atès que ambdós són noms comercials equivalents per referir-se a un entorn on les rutines de bloqueig PCIe i el canal d'E/S actuen asíncronament com a màquina de redundància.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Per què el RAID 01 es considera menys eficient en termes de tolerància a fallades si es compara directament amb el RAID 10?",
+    "respostes": [
+      ["Perquè si un disc falla en un RAID 01, la meitat d'striping a la qual pertany queda inoperativa i depèn completament de l'altre parell de mirroring, augmentant la vulnerabilitat global.", true],
+      ["Com que les interfícies de connexió es col·lapsen a l'intentar recuperar blocs de doble paritat dispersos que el model 01 exigeix emmagatzemar fora del controlador local de bus.", false],
+      ["Atès que el mètode 01 delega forçosament la reescriptura dels arxius trencats al protocol Fibre Channel de la placa, el qual no pot restablir nodes quan no hi ha clúster actiu.", false],
+      ["Perquè la capacitat d'emmagatzematge efectiva d'un RAID 01 és equivalent només al 25% dels discos, front al 75% garantit del RAID 10 de manera invariable i estàndard.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina combinació estructural de funcions descriu de manera exacta la configuració coneguda com a RAID 50 (RAID 5+0)?",
+    "respostes": [
+      ["Consisteix a distribuir dades i paritat dins de diversos subgrups operant com a RAID 5 i, posteriorment, sobre aquests grups segurs aplicar-hi la distribució de blocs d'un RAID 0.", true],
+      ["Implica destinar el 50% dels discos a fer emmirallament i l'altre 50% exclusivament a funcions de memòria cau L2, emulant el comportament d'alta densitat gràfica de matrius SIMD.", false],
+      ["Agrupa estrictament 50 discs durs per connectar-los tots en un únic volum compartit mitjançant un adaptador de canal i forçant l'anul·lació del bus de control d'interrupcions perifèriques.", false],
+      ["Crea múltiples segments on cada fitxer és processat directament a nivell de programari (file-level virtualization) però excloent qualsevol divisió a nivell de bloc de la seva arquitectura.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quan és apropiat recórrer a un sistema RAID 60 (RAID 6+0) i què ofereix principalment malgrat el seu alt cost?",
+    "respostes": [
+      ["S'utilitza en entorns de dades summament crítics ja que ofereix la major redundància entre els híbrids, en combinar el striping de RAID 0 amb múltiples matrius de RAID 6 de doble paritat.", true],
+      ["Està ideat exclusivament per a estacions gràfiques de renderitzat on la seguretat no importa en absolut però es demana la velocitat de desplaçament d'escriptura màxima de tota la indústria actual.", false],
+      ["S'utilitza com a alternativa per a PIMES sense pressupost atès que només exigeix l'ús obligatori de dos discos de tipus econòmic per generar redundància en sistemes NAS de petita dimensió.", false],
+      ["Permet transformar per software servidors Linux genèrics en controladors de zonificació (Zoning) capaços d'impedir els ciberatacs a nivell de trama d'enrutador IP sense usar cap disc d'emmagatzematge.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Dins de l'àmbit corporatiu, com es defineix tècnicament i quin propòsit té una xarxa SAN (Storage Area Network)?",
+    "respostes": [
+      ["És una xarxa especialitzada d'alta velocitat dissenyada per connectar servidors directament amb els dispositius d'emmagatzematge de manera que permet l'accés consolidat a la informació a nivell de bloc.", true],
+      ["Representa una partició lògica i xifrada dins del disc dur local de la CPU on el sistema operatiu arxiva la memòria d'intercanvi (swap) per agilitzar el sondeig d'Entrada/Sortida (polling).", false],
+      ["Es defineix com l'extensió de codi utilitzada per abstraure sistemes d'arxius diversos aconseguint atorgar a tots els ordinadors del centre un accés d'emmagatzematge escalable orientat únicament a objectes.", false],
+      ["És un node d'Internet d'àrea pública habilitat exclusivament perquè els servidors d'aplicacions descarreguin i processin ràpidament noves versions dels controladors d'interrupció de la placa mare.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quina figura o component actua sota el nom de 'Hosts' dins d'una topologia de xarxa SAN?",
+    "respostes": [
+      ["Són els servidors que necessiten connectar-se a la infraestructura per llegir o escriure, consumint els recursos de l'emmagatzematge SAN.", true],
+      ["Representen la bateria principal de discos durs o cintes físiques (els dipòsits reals) d'on s'extreuen i desen permanentment tots els blocs actius.", false],
+      ["Acostumen a ser els dispositius que regulen la capa de seguretat encarregant-se de desxifrar asíncronament els vectors de les adreces lògiques emeses pels perifèrics.", false],
+      ["Són els protocols purament abstractes com l'iSCSI encarregats d'organitzar i establir el circuit dedicat pel qual discorre tot el munt de comunicacions òptiques associades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "En la jerarquia i comunicació d'una arquitectura SAN, què s'entén per la nomenclatura de 'Targets'?",
+    "respostes": [
+      ["Són els elements i dispositius receptors finals que proporcionen l'emmagatzematge efectiu, com poden ser les cabines de discs i les llibreries de cintes.", true],
+      ["Són els ordinadors i aplicacions clients encarregades d'originar les peticions inicials de demanda cap a la base de dades local emulant funcions de processador central mestre.", false],
+      ["Designen el lloc on s'aplica estrictament l'autenticació per clau simètrica establint nodes virtuals de defensa entre la xarxa d'usuaris LAN i la WAN d'Internet.", false],
+      ["Es correspon amb l'interruptor del bus de control encarregat d'aturar la transmissió de paquets durant tasques d'escombratge net en sectors danyats per sobreescalfament del hardware.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin protocol de comunicació de dades se cita expressament com l'estàndard clàssic i utilitzat freqüentment per dotar d'alta velocitat de transferència a l'ecosistema SAN?",
+    "respostes": [
+      ["El protocol Fibre Channel.", true],
+      ["El protocol asíncron TCP/IP bàsic domèstic.", false],
+      ["El mètode seqüencial basat exclusivament en l'ús d'un bus PCI de xarxa per cable coaxial de coure en passarel·la tancada i aïllada.", false],
+      ["L'algorisme obert de la capa d'enllaç i encaminament OSPF d'àrea local destinat a resoldre els conflictes a les adreces d'Internet IPv4 associades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Dins les metodologies per blindar un entorn SAN, què possibilita realitzar i implantar el mecanisme de 'Zoning'?",
+    "respostes": [
+      ["Permet segregar lògicament la xarxa per limitar la visibilitat, controlant des dels propis switches quins hosts poden parlar i accedir a determinats dispositius de la SAN.", true],
+      ["Es dedica a encriptar automàticament cada bloc informàtic en repòs mitjançant codificació RSA per impedir que els atacs de vectors paral·lels corrompin directament el disc.", false],
+      ["Aconsegueix enllaçar matrius RAID heterogènies procedents de diversos fabricants en una única vista unificada basada purament en nivell de fitxer sense tocar els components perifèrics base.", false],
+      ["Defineix un algoritme dissenyat per esborrar i purgar temporalment totes i cadascuna de les connexions no reconegudes pel processador anul·lant l'adreça lògica dels canals d'E/S actius.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "De quina manera el 'LUN Masking' complementa la seguretat de l'emmagatzematge en relació als servidors autoritzats?",
+    "respostes": [
+      ["Restringint i emmascarant l'accés a unitats lògiques (LUNs) concretes configurades al mateix dispositiu d'emmagatzematge de forma que només un servidor o clúster específic les pugui veure i muntar.", true],
+      ["Emmirallant les instruccions de xarxa en temps real cap a un servidor de registre central encarregat de bloquejar connexions per adreces MAC sense intervenció de cap hardware associat a la placa base d'origen.", false],
+      ["Comprimint les adreces dels usuaris al mateix temps que divideix la lectura en ràfegues curtes establint un mur lògic basat només en l'acció d'escriptura per control de DMA dedicat del servidor.", false],
+      ["Instal·lant aplicacions d'antivirus a cadascun dels nodes d'extracció de dades impedint-los obrir les carpetes protegides malgrat formar part d'un sistema col·laboratiu genèric del model MIMD central.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Què garanteix l'aplicació d'encriptació com a pilar de seguretat defensiva a l'entorn de les xarxes d'emmagatzematge massiu?",
+    "respostes": [
+      ["Que les dades queden completament protegides i indesxifrables en cas d'intercepció, aplicant-se tant quan aquestes viatgen en trànsit per la xarxa com quan es troben arxivades en repòs als discos.", true],
+      ["Que els canals interns del processador i els sistemes associats en les funcions ISR d'interrupció restin lliures d'executar tasques prioritàries atès que totes les dades queden emmascarades sense despesa tècnica de CPU.", false],
+      ["Que el protocol d'identitat central no demani autorització per entrar al servidor en evitar requerir l'ús d'estàndards com el format del procés handshake originari de les plataformes asíncrones de verificació de sessions connectades.", false],
+      ["La desaparició definitiva del coll d'ampolla de l'arquitectura de memòria clàssica convertint tota operació externa en un paquet elèctric comprimit immune als canvis sobtats d'alimentació de la base d'hostatge autònoma.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin protocol s'esmenta com un clar exemple per efectuar la correcta Autenticació que verifica la identitat entre dispositius al sistema d'emmagatzematge de la xarxa SAN?",
+    "respostes": [
+      ["El protocol d'intercanvi de claus anomenat CHAP (Challenge Handshake Authentication Protocol).", true],
+      ["L'algorisme seqüencial asíncron exclusivament basat en l'arquitectura de model clàssic MISD d'alta eficiència.", false],
+      ["El protocol de transferència obert de text sense xifratge previ basat en model d'adreçament OSPF per encaminadors i nodes IP.", false],
+      ["La tècnica interna i pura de sondeig freqüent reconeguda pel món de l'arquitectura informàtica com procés rutinari Polling-Connect de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "En comprendre el fenomen associat a la 'Virtualització de l'emmagatzematge', quin és el procés principal que té lloc?",
+    "respostes": [
+      ["El procés tècnic d'abstraure i amagar els detalls de múltiples dispositius físics agrupant-los en una mateixa capa de programari per oferir i presentar l'espai com una sola unitat lògica centralitzada.", true],
+      ["El trasllat del nucli principal del sistema operatiu hoste directament dins els blocs operatius de memòria RAM volàtil abandonant per complet qualsevol mena d'implicació amb el disc rotacional intern mecànic a temps síncron darrer i rutinari darrer format.", false],
+      ["La fragmentació automàtica i sense intervenció de l'administrador d'una enorme Base de Dades corporativa per allotjar cada taula d'arxiu directament a un port universal exclusivament tipus targeta expansiva asíncrona genèrica.", false],
+      ["Agafar el disc dur local d'un portàtil mononucli de tipus RISC i partir-lo lliurement establint-lo obligatòriament a dues meitats idèntiques configurant un mirall RAID exclusiu sense capacitat ni funcions al servidor mestre clàssic central limitador lligat de procés rutinari format clàssic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin dels següents s'enumera com a un avantatge cabdal directe a l'hora d'aplicar virtualització en l'emmagatzematge en grans dimensions?",
+    "respostes": [
+      ["Aporta una administració fortament simplificada permetent gestionar tot el recurs com un gran fons o volum únic central optimitzant així el rendiment operatiu lligat a flexibilitat escalable.", true],
+      ["Possibilita reduir la freqüència de rellotge o consum energètic inherent requerit al CPU principal pel fet de processar de manera nativa instruccions complexes exclusivament en l'interior dels components magnètics d'arxiu darrer temps.", false],
+      ["Facilita evitar haver de configurar les targetes PCI base i la connexió lligada per adreces MAC en convertir els sistemes d'estat sòlid directament en encaminadors o nodes operatius de trànsit web local aplicatiu genèric.", false],
+      ["Substitueix formalment tota necessitat que la placa mare de l'equip instal·li el mecanisme conegut com a DMA relegant tot trasllat pesat a una rutina intermèdia síncrona exclusiva dels processadors canal lligats i asíncrons paral·lels.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "L'aplicació d'un sistema anomenat com a IBM SAN Volume Controller estaria exemplificant operativament quina de les branques dins la virtualització dels discos de dades?",
+    "respostes": [
+      ["Correspon directament a l'esquema dissenyat i emmarcat com a Block-level virtualization (Virtualització a nivell de bloc), agrupant maquinari subjacent perquè es mostri de manera central com a volums lògics purs.", true],
+      ["Pertany a l'entorn exclusiu determinat amb el concepte establert del tipus File-level virtualization (Virtualització a nivell de fitxer) on les unitats agrupen les arquitectures sense atorgar l'espai i volum referit buit sinó els directoris concrets rutinaris.", false],
+      ["Identifica un mètode clàssic en programació on exclusivament les solucions RAID de caràcter híbrid substitueixen el procés de distribució d'arxius delegant les franges per l'algoritme de càlcul associat darrer lligat a darrer temps en memòries.", false],
+      ["Funciona en el temps darrer aplicant un canal exclusiu l'organització d'actuació de darrer de ús on lligats els components virtuals emulen operacions genèriques basades al pur model clàssic asíncron a de a memòries.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Per contrapartida, de quina manera gestiona el treball l'esfera de virtualització definida amb nom com 'File-level virtualization' (Virtualització a nivell de fitxer)?",
+    "respostes": [
+      ["S'encarrega d'agrupar i unificar diferents i dispars sistemes d'arxius proporcionant als clients un accés comú als fitxers independentment i amagant l'existència física del servidor d'on estan localitzats darrerament els mateixos.", true],
+      ["Centra la totalitat del seu disseny i arquitectura en forjar i preparar el conjunt global sota la regla de subministrar directament als controladors i bus de dades unitats buides pures o blocs amb format base per aplicatiu o ús exclusiu lligat i a de suport i lligat elèctric l'operatiu de dades.", false],
+      ["Implica descarregar instruccions directament del disc dur passant i obviar procediments per emular la cau interna lligant l'estructura on la informació requereix temps seqüencial sense procés d'usuari genèric darrer i on asíncron darrer de format en rutinari rutinari de la memòria asíncron temps clàssic temps.", false],
+      ["Adopta el mètode d'extracció de senyal darrer de la de format aplicatiu on el sistema genera còpies tipus snapshot per crear punts d'arxiu genèric al de a la dades lligat de darrer temps rutinari en format darrer temps i l'escala base en temps a rutinari i darrer a exclusivament de la a temps de format darrer aplicatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quin sistema i arquitectura s'anomena i exposa explícitament en qualitat de referent il·lustratiu capaç de suportar i aplicar aquest model associat per defecte al de 'Virtualització a nivell de fitxer' (File-level virtualization)?",
+    "respostes": [
+      ["La tecnologia i solució NetApp V-Series, encarregada amb claredat de posar sota un domini i agregació una visió de fitxers unificada als clients.", true],
+      ["L'eina denominada IBM SAN Volume Controller la qual pertany essencialment en la seva construcció a estructurar espais en blocs lliures de volum en grup clàssic de xarxa per usuari en entorn rutinari genèric.", false],
+      ["L'equipament basat al format de xarxa darrer a aplicatiu el lligat processador intern del disseny ARM Cortex operatiu exclusivament dissenyat per telèfon intel·ligent en processar i executar instruccions elèctriques vectoritzades complexes.", false],
+      ["L'estructura i de conjunt operatiu i de fons on a temps asíncron a de rutines darrer base i a el format a temps en els lligat de clàssic de canals asíncrona d'arquitectura tancada clàssic de canals el temps format de elèctric i els aplicatiu clàssic a darrer temps en memòries els de format a la a de suport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Dins les alternatives basades en núvol respecte a aquest àmbit formatiu tractat lligat a darrer, a quin producte conegut internacional es fa referència expressa de proporcionar de manera sòlida un model Storage as a Service (StaaS) destinat al concepte exclusiu vinculat a d'emmagatzematge on de tipus o mode als darrers objectes allotjats es presenta lligat?",
+    "respostes": [
+      ["Al producte de núvol Amazon S3, reconegut fortament pel fet de facilitar altament gran disponibilitat assequible emmagatzemant de forma completament escalable objectes mitjançant i en línia la virtualització i ús remot per internet.", true],
+      ["A les xarxes locals creades només per a sistemes Unix o basats rutinari en genèric lligat de darrer on darrer i de aplicació en suport de asíncrona la en darrer de canals E/S processador i darrer a dades la i format de digital i memòries a suport darrer temps lligats a memòries o en format a memòries o darrer temps lligats de la i on darrer a aplicatiu a darrer i a suport i de a darrer de la en la on de temps a de memòries en lligats.", false],
+      ["Al conegut i antic sistema a format darrer la en darrer on de a la de lligada i el on de temps a temps darrer i a el temps a temps aplicatiu darrer on a darrer on a temps i o darrer i aplicatiu on de la de a la o darrer a temps en a la i exclusivament de darrer i a temps i o de la i a de la a on de temps i a la o de la de a la o darrer la i a la a on darrer o darrer la darrer a la darrer la.", false],
+      ["L'agrupació tancada PCI i darrer i a els en lligats i on base o a els de a la darrer on de la en a darrer a de darrer on darrer i de la a la en a darrer a de darrer on darrer a la en darrer a de a la darrer o en la a de la darrer o en darrer a de la darrer o darrer la o la de darrer a darrer la i de la o la darrer la i o la de darrer a darrer o la de la darrer a darrer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 5. Nivells RAID estàndard i híbrids habituals. Arquitectura i seguretat en xarxes SAN. Virtualització de l'emmagatzematge.",
+    "enunciat": "Quan abordem la qüestió pràctica de les recomanacions descrites en les conclusions o taules adjuntes al document on es presenten utilitats, de cara al tractament de xarxes de fitxers generals de fitxer d'escriptura a servidors o el lloc per l'apropiat sistema pel món d'usuari a web clàssic o normal a on equilibrar el cost l'espai capacitat per manteniment redundància per servidor a utilitzar normal genèric clàssic a rutinari on de referit aplicatiu darrer per quin dels establerts ens decantem per a aplicar en general a disc?",
+    "respostes": [
+      ["Ens assenyala directament cap al RAID 5, per proporcionar sota aquest mètode el millor mix assequible amb tolerància al dany sense requerir excessiu cost pel balanç bo en rendiment al servidor web i els conjunts ordinaris a general del dia a dia format de la dada.", true],
+      ["Es posiciona prioritzant únicament en base genèrica darrer el nivell extrem i costós RAID 60 forçant tota placa on aplicatiu de darrer on en i darrer a darrer temps en memòries els de de la i on l'adopció l'estratègia o el disseny el darrer a exclusivament a l'àmbit darrer a darrer de a la en darrer a de a la o darrer la i o de darrer a la darrer la i a de a darrer la i darrer o darrer la darrer la de o a la i darrer darrer o a la.", false],
+      ["Decanta totalment i recomana que l'arquitectura el a darrer el de format darrer o l'obligació la de en on de a el de memòries els de a el format de la lligat de darrer on darrer de a de la en a darrer a de darrer a la en darrer la de o a la o en a la de la o en darrer a de a la darrer la o darrer la i darrer la darrer o a la o darrer la a darrer la o darrer darrer la de darrer la a darrer o de a la.", false],
+      ["Restringeix absolutament establir a base de a de a la darrer i a on de la o de darrer a darrer a darrer la i on a de la o a de la o a darrer i a de darrer a darrer a darrer o de a la o darrer darrer la a la i darrer a de darrer la o a la i a de la o darrer la darrer a darrer o de darrer darrer la a la o darrer darrer la a o la a de darrer darrer a de a darrer la i a de la a darrer la i a darrer a o darrer la darrer a la a on darrer o darrer a darrer.", false]
+    ]
+  }
+]

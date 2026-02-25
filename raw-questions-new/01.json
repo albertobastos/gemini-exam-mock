@@ -1,0 +1,502 @@
+[
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin és el principi fonamental que caracteritza el 'concepte de programa emmagatzemat' en l'arquitectura de von Neumann?",
+    "respostes": [
+      ["La utilització d'un espai de memòria únic i compartit per emmagatzemar tant les dades com les instruccions del programa.", true],
+      ["La separació física estricta entre la memòria d'instruccions i la memòria de dades mitjançant busos independents.", false],
+      ["L'execució directa d'instruccions des de dispositius d'entrada sense necessitat de passar per la memòria principal.", false],
+      ["L'ús exclusiu de memòria cau L1 per guardar els programes del sistema operatiu i accelerar-ne la càrrega.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina limitació estructural de disseny provoca el fenomen conegut com a 'coll d'ampolla de von Neumann'?",
+    "respostes": [
+      ["El fet que les dades i les instruccions comparteixen el mateix bus de comunicació, obligant la CPU a esperar per accedir a la memòria principal.", true],
+      ["La saturació de la Unitat Logicomatemàtica (UAL) quan processa nombres de punt flotant de 64 bits.", false],
+      ["La desincronització entre els cicles de rellotge de la memòria cau L3 i els registres interns del processador.", false],
+      ["L'ús d'un bus de control unidireccional que impedeix a la memòria enviar senyals d'interrupció a la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Com processa les instruccions per defecte un ordinador basat purament en el model de von Neumann?",
+    "respostes": [
+      ["Mitjançant un processament seqüencial, on les instruccions s'executen una darrere l'altra de manera lineal.", true],
+      ["Emprant un processament paral·lel massiu, executant diverses instruccions simultàniament a la mateixa unitat lògica.", false],
+      ["A través de l'execució fora d'ordre (out-of-order execution) prescindint del Comptador de Programa.", false],
+      ["Delegant les instruccions aritmètiques directament a la memòria principal mitjançant un controlador DMA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En l'estructura bàsica de la CPU, quina és la responsabilitat primordial de la Unitat de Control (UC)?",
+    "respostes": [
+      ["Recuperar les instruccions de la memòria, descodificar-les i coordinar les accions de la resta de components per executar-les.", true],
+      ["Emmagatzemar temporalment els resultats de les operacions aritmètiques per evitar accessos innecessaris a la RAM.", false],
+      ["Realitzar les operacions booleanes (AND, OR, NOT) sobre els operands carregats als registres interns.", false],
+      ["Sincronitzar la freqüència en hertzs de tots els components del sistema mitjançant l'emissió de polsos elèctrics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin valor específic s'emmagatzema dins del Comptador de Programa (Program Counter)?",
+    "respostes": [
+      ["L'adreça de memòria corresponent a la següent instrucció que el processador haurà d'executar.", true],
+      ["El codi binari complet de la instrucció que la Unitat de Control està descodificant en aquell mateix instant.", false],
+      ["El nombre total de cicles de rellotge transcorreguts des de l'inici de l'execució del fil del programa.", false],
+      ["El resultat numèric intermedi generat per l'última operació de la Unitat Aritmètica i Lògica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què succeeix de manera immediata amb el Comptador de Programa durant l'etapa de Cerca (Fetch) del cicle d'instrucció?",
+    "respostes": [
+      ["Un cop recuperada la instrucció apuntada, el Comptador de Programa s'incrementa per apuntar a la següent instrucció de la seqüència.", true],
+      ["El seu contingut es transfereix directament a l'Acumulador per procedir a la descodificació.", false],
+      ["Es posa a zero automàticament per preparar-se per al següent cicle de la memòria cau.", false],
+      ["Es bloqueja i resta inalterable fins que la instrucció actual arriba a l'etapa d'emmagatzematge (Write-back).", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component reté específicament la instrucció que s'està executant actualment dins la CPU?",
+    "respostes": [
+      ["El Registre d'Instrucció (IR).", true],
+      ["El Registre de Propòsit General (GPR).", false],
+      ["El Comptador de Programa (PC).", false],
+      ["La Unitat Aritmètica i Lògica (UAL).", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Dins de la jerarquia i tipologia de registres, quina funció clàssica compleix l'Acumulador?",
+    "respostes": [
+      ["Emmagatzemar els resultats intermedis derivats de les operacions processades per la Unitat Aritmètica i Lògica (UAL).", true],
+      ["Actuar com a memòria intermèdia entre el disc dur i la memòria RAM per a arxius de gran volum.", false],
+      ["Emmagatzemar únicament les adreces dels perifèrics d'Entrada/Sortida per agilitzar el bus de control.", false],
+      ["Rebre i traduir els senyals del rellotge del sistema per establir el multiplicador de freqüència de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina és la naturalesa de la Unitat Aritmètica i Lògica (UAL) segons l'arquitectura de von Neumann?",
+    "respostes": [
+      ["És la part de la CPU encarregada d'executar operacions matemàtiques, com sumes o restes, i operacions booleanes com AND, OR i NOT.", true],
+      ["És el microxip dedicat exclusivament a traduir llenguatge d'alt nivell a codi màquina executable.", false],
+      ["És un bus intern especialitzat en la transferència asíncrona de dades entre la memòria cau L1 i els registres.", false],
+      ["És el component de la memòria principal encarregat d'ordenar les adreces físiques disponibles per al sistema operatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Com es defineix genèricament el concepte de 'Bus' dins de l'estructura d'un ordinador?",
+    "respostes": [
+      ["Com un sistema de comunicació física i lògica que transfereix dades, adreces i senyals de control entre els diferents components.", true],
+      ["Com una memòria d'accés seqüencial utilitzada per encuar les interrupcions de maquinari del sistema.", false],
+      ["Com el programari de baix nivell (firmware) que inicialitza els perifèrics d'E/S durant l'arrencada de l'ordinador.", false],
+      ["Com l'espai físic de la placa base on s'allotgen exclusivament els mòduls de memòria cau L3 compartida.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Pel que fa a la seva direccionalitat, quina propietat caracteritza el Bus de Dades?",
+    "respostes": [
+      ["És de caràcter bidireccional, ja que permet transferir dades reals tant cap a la CPU com des de la CPU cap a la memòria o els perifèrics.", true],
+      ["És estrictament unidireccional, transportant informació únicament des de la memòria principal cap als registres de la CPU.", false],
+      ["És unidireccional, orientat exclusivament a enviar dades des de la Unitat de Control cap a la Unitat Aritmètica i Lògica.", false],
+      ["És asíncron i omnidireccional, permetent l'escriptura simultània des de múltiples perifèrics sense arbitratge previ.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Per què el Bus d'Adreces es considera un canal de comunicació unidireccional en l'arquitectura clàssica?",
+    "respostes": [
+      ["Perquè exclusivament transporta les ubicacions de memòria sol·licitades des de la CPU cap a la memòria principal o els perifèrics, i mai a la inversa.", true],
+      ["Perquè només s'utilitza per buidar la memòria cau (flush) en una única direcció lògica dictada pel rellotge.", false],
+      ["Perquè està dissenyat físicament per evitar col·lisions amb el Bus de Dades utilitzant un únic cable multiplexat.", false],
+      ["Perquè només s'activa durant l'operació d'escriptura (Store), estant inactiu durant l'operació de lectura (Load).", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina funció específica desenvolupa el Bus de Control dins del sistema de comunicació de l'ordinador?",
+    "respostes": [
+      ["Transmetre senyals de coordinació generats per la UC, com ara instruccions de lectura o escriptura, i senyals de reconeixement dels dispositius.", true],
+      ["Transferir el codi d'operació (opcode) de la instrucció actual des de la memòria principal directament a la Unitat Aritmètica i Lògica.", false],
+      ["Subministrar l'alimentació elèctrica necessària per mantenir l'estat volàtil dels registres i de la memòria RAM estètica.", false],
+      ["Connectar exclusivament la memòria cau L1 amb la memòria cau L2, aïllant-les de la resta de components de la placa base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin és el rol operatiu del 'Rellotge' dins d'una Unitat Central de Processament (CPU)?",
+    "respostes": [
+      ["Emetre polsos elèctrics a un ritme constant per sincronitzar l'execució de totes les operacions i passos dels components del sistema.", true],
+      ["Generar valors pseudoaleatoris que són requerits per la Unitat Aritmètica i Lògica en algorismes criptogràfics interns.", false],
+      ["Calcular en temps real la latència d'accés a la memòria principal per ajustar la velocitat del bus de dades de forma dinàmica.", false],
+      ["Registrar l'hora i la data del sistema operatiu mitjançant una bateria externa CMOS ubicada a la placa base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En quina unitat es mesura estàndardment la velocitat a la qual el rellotge d'un ordinador emet els seus polsos elèctrics?",
+    "respostes": [
+      ["En hertzs (Hz) i els seus múltiples com els gigahertzs (GHz).", true],
+      ["En bauds (Bd) per segon, representant la taxa de símbols transmesos.", false],
+      ["En bytes per segon (B/s), indicant l'amplada de banda del bus de dades.", false],
+      ["En operacions de coma flotant per segon (FLOPS).", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Per quin motiu s'introdueix el component de 'Memòria Cau' en l'arquitectura dels sistemes informàtics?",
+    "respostes": [
+      ["Per reduir l'impacte del coll d'ampolla, actuant com una memòria intermèdia d'accés molt ràpid per a les dades i instruccions més freqüents.", true],
+      ["Per substituir completament els registres de la CPU, ja que ofereix major capacitat mantenint exactament la mateixa latència d'accés.", false],
+      ["Per proporcionar un emmagatzematge no volàtil que conservi l'estat del processador quan l'ordinador es queda sense subministrament elèctric.", false],
+      ["Per aïllar el bus d'adreces del bus de dades i permetre la seva multiplexació en un únic canal compartit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Dins de la jerarquia de memòries cau d'un processador modern, quina característica defineix la memòria cau L1?",
+    "respostes": [
+      ["És la memòria cau més ràpida de totes, però alhora la que té menor capacitat d'emmagatzematge.", true],
+      ["És una memòria compartida entre tots els nuclis de la CPU, prioritzant la capacitat per sobre de la velocitat pura.", false],
+      ["És l'única memòria cau implementada físicament fora de la pastilla (die) del processador, integrada a la placa base.", false],
+      ["És la capa encarregada exclusivament de guardar les dades de paginació (swap) procedents de la memòria secundària.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què diferencia habitualment la memòria cau L3 de la memòria cau L1 i L2 dins d'un processador multinucli?",
+    "respostes": [
+      ["La cau L3 acostuma a ser compartida per tots els nuclis del processador i té major capacitat, mentre que la L1 i L2 solen ser exclusives de cada nucli.", true],
+      ["La cau L3 funciona exclusivament com a memòria d'instruccions, mentre que la L1 i L2 estan reservades exclusivament per a les dades operacionals.", false],
+      ["La cau L3 és construïda mitjançant memòria DRAM estàndard, mentre que la L1 s'implementa únicament amb registres de desplaçament.", false],
+      ["No hi ha diferència arquitectònica; la nomenclatura només fa referència al proveïdor que fabrica el xip de silici.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin és l'ordre correcte de les quatre etapes fonamentals que componen el cicle d'instrucció d'una CPU?",
+    "respostes": [
+      ["Cerca (Fetch), Descodificació (Decode), Execució (Execute), Emmagatzematge (Write-back).", true],
+      ["Descodificació (Decode), Cerca (Fetch), Emmagatzematge (Write-back), Execució (Execute).", false],
+      ["Cerca (Fetch), Execució (Execute), Descodificació (Decode), Emmagatzematge (Write-back).", false],
+      ["Emmagatzematge (Write-back), Cerca (Fetch), Descodificació (Decode), Execució (Execute).", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina acció clau té lloc durant l'etapa de 'Descodificació' (Decode) del cicle d'instrucció?",
+    "respostes": [
+      ["La Unitat de Control interpreta el codi de la instrucció recuperada per determinar quina operació cal realitzar i quins operands són necessaris.", true],
+      ["El Comptador de Programa envia l'adreça sol·licitada a través del bus d'adreces per iniciar la localització física de la dada a la RAM.", false],
+      ["La Unitat Aritmètica i Lògica avalua l'estat dels flags (zero, desbordament) generats en el cicle de rellotge anterior.", false],
+      ["El resultat de l'operació prèvia s'escriu de forma asíncrona a la memòria cau L2 abans de ser validat per l'Acumulador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En l'etapa d''Emmagatzematge' (Write-back) del cicle d'instrucció, on acostuma a guardar-se el resultat de l'operació executada?",
+    "respostes": [
+      ["Es pot escriure en un registre intern de la CPU o bé transferir-se a una adreça específica de la memòria principal.", true],
+      ["S'emmagatzema exclusivament al Comptador de Programa (PC) per forçar un salt incondicional a la següent línia de codi.", false],
+      ["S'escriu directament al bus de control sense passar per cap registre intermedi, estalviant així un cicle de rellotge.", false],
+      ["S'envia obligatòriament a la Unitat Logicomatemàtica (UAL) per ser verificat i destruït si la instrucció ha conclòs amb èxit.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Prenent com a exemple una instrucció de tipus 'Load' (càrrega), quin és el flux de dades que es produeix a l'etapa d'execució?",
+    "respostes": [
+      ["Es llegeix una dada emmagatzemada en una adreça de la memòria principal i es trasllada a un registre intern de la CPU.", true],
+      ["Es transfereix una dada des d'un registre intern de la CPU fins a una adreça determinada de la memòria principal.", false],
+      ["Se sumen els continguts de dos registres i s'emmagatzema el valor resultant directament a la memòria cau L1.", false],
+      ["S'extreu la instrucció següent de l'Acumulador per actualitzar forçosament el valor del Comptador de Programa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Prenent com a exemple una instrucció de tipus 'Store' (emmagatzematge), com opera el sistema a nivell de maquinari?",
+    "respostes": [
+      ["El valor emmagatzemat en un registre de la CPU (com l'Acumulador) es transfereix a través del bus de dades cap a una ubicació de la memòria principal.", true],
+      ["La Unitat de Control recupera una instrucció del disc dur magnètic i la desa temporalment al Registre d'Instrucció (IR).", false],
+      ["L'Acumulador obté un valor de la memòria i el combina immediatament amb l'operand de la Unitat Aritmètica i Lògica.", false],
+      ["Es realitza una operació booleana NOT sobre el valor de memòria i es retorna a la mateixa adreça sense utilitzar cap bus.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin component de la CPU és el responsable directe d'efectuar l'avaluació en una instrucció que requereix comparar dos valors lògics?",
+    "respostes": [
+      ["La Unitat Aritmètica i Lògica (UAL).", true],
+      ["El Registre d'Instrucció (IR).", false],
+      ["El Comptador de Programa (PC).", false],
+      ["El Bus de Control Multiplexat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Per tal que un ordinador pugui interactuar amb el món exterior sota l'arquitectura de von Neumann, quin component és estrictament necessari?",
+    "respostes": [
+      ["Els dispositius d'Entrada/Sortida (E/S).", true],
+      ["La connexió directa entre l'Acumulador i l'usuari mitjançant una memòria ROM de lectura.", false],
+      ["Una Unitat Aritmètica i Lògica especialitzada únicament en la compressió de vídeo.", false],
+      ["El registre intern de coma flotant dedicat exclusivament a les xarxes locals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "A l'hora de buscar (fetch) una instrucció a memòria, quin bus utilitza la CPU per indicar EXACTAMENT en quina posició es troba la instrucció desitjada?",
+    "respostes": [
+      ["El Bus d'adreces.", true],
+      ["El Bus de dades.", false],
+      ["El Bus de control.", false],
+      ["El Bus d'E/S asíncron.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Durant la fase de descodificació, quina és la font d'entrada d'informació que utilitza la Unitat de Control per saber què ha de fer?",
+    "respostes": [
+      ["Llegeix la instrucció que es troba emmagatzemada dins del Registre d'Instrucció (IR).", true],
+      ["Llegeix l'adreça numèrica apuntada pel Comptador de Programa (PC).", false],
+      ["Inspecciona l'últim bit modificat del Bus de Control.", false],
+      ["Llegeix l'estat del flag de desbordament integrat a la Unitat Aritmètica i Lògica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin efecte tècnic descriu la presència d'un 'concepte de programa emmagatzemat' respecte a la naturalesa física de la màquina?",
+    "respostes": [
+      ["Que el programari ja no requereix alterar les connexions físiques o el cablejat del maquinari per executar tasques diferents, sinó que es llegeix des de la memòria com a codi.", true],
+      ["Que l'ordinador pot funcionar sense necessitat de tenir memòria RAM, basant-se exclusivament en l'emmagatzematge magnètic de llarga durada.", false],
+      ["Que la CPU està obligada a utilitzar memòries en format ROM on el codi de l'usuari no pot ser esborrat mai.", false],
+      ["Que els perifèrics d'E/S formen part del mateix xip que la UAL, suprimint l'ús dels busos externs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Si s'està executant la instrucció ubicada a l'adreça de memòria 0x01A0 i és una instrucció seqüencial simple, quin valor contindrà normalment el Comptador de Programa al final de la fase Fetch?",
+    "respostes": [
+      ["Apuntarà a l'adreça següent, per exemple 0x01A1 (o la següent paraula), preparant la propera instrucció de la seqüència.", true],
+      ["Es quedarà en el valor 0x01A0 fins que l'etapa de Write-back hagi finalitzat completament per evitar col·lisions.", false],
+      ["Es reiniciarà al valor 0x0000 per començar el cicle d'execució d'interrupcions del maquinari de nou.", false],
+      ["Emmagatzemarà el codi d'operació de la instrucció extreta (com 'Add' o 'Load') perdent la referència a l'adreça.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En l'arquitectura teòrica de von Neumann, quin tipus d'elements poden conviure a l'adreça de memòria 0x1000 i a la 0x1001 respectivament?",
+    "respostes": [
+      ["Atès que utilitza una memòria unificada, a 0x1000 hi podria haver una instrucció de programa i a 0x1001 una variable de dades de l'usuari.", true],
+      ["Atès que separa físicament els busos, ambdues adreces estan forçades a contenir exclusivament dades i mai instruccions executables.", false],
+      ["Segons el disseny, només és possible desar instruccions de registre (com la UAL) en aquestes adreces, relegant les dades a la memòria secundària.", false],
+      ["La memòria unificada obliga a que tots els parells d'adreces continguin exactament la mateixa còpia de la instrucció per tolerància a errors.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què es necessita transmetre a través del Bus de Control perquè una instrucció 'Store' es completi satisfactòriament a la memòria?",
+    "respostes": [
+      ["Un senyal de control d'escriptura (Write Enable) enviat des de la Unitat de Control cap a la memòria principal.", true],
+      ["L'adreça de destinació física transmesa directament pel Bus de Control sense utilitzar el Bus d'Adreces.", false],
+      ["Un senyal d'interrupció del maquinari (IRQ) generat per la Unitat Aritmètica i Lògica de forma asíncrona.", false],
+      ["Un pols de lectura del rellotge que detingui el Comptador de Programa fins que el disc dur hagi escrit les dades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "A l'interior de la CPU, l'existència de petites àrees d'emmagatzematge anomenades registres es justifica per quin motiu tecnològic?",
+    "respostes": [
+      ["Proporcionen l'accés més ràpid possible a les dades operatives immediates, evitant l'alta latència que suposaria llegir la memòria principal constantment.", true],
+      ["Són l'únic mecanisme físic capaç d'emmagatzemar permanentment el sistema operatiu quan l'equip s'apaga.", false],
+      ["Substitueixen la funció del Bus de Dades, permetent a la CPU processar instruccions sense cap placa base externa.", false],
+      ["La seva latència elevada, superior a la de la memòria RAM, permet sincronitzar les operacions amb discos mecànics lents.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina analogia es podria aplicar a la Unitat de Control (UC) per entendre millor el seu paper dins la CPU?",
+    "respostes": [
+      ["Actua com el 'director d'orquestra', interpretant la partitura (instruccions) i indicant a la resta de components què han de fer en cada moment.", true],
+      ["Actua com un 'magatzem logístic', desant quantitats massives d'informació estructurada per al llarg termini.", false],
+      ["Actua com la 'calculadora científica', rebent operands i retornant el resultat matemàtic de funcions complexes.", false],
+      ["Actua com el 'cablejat de xarxa', transportant passivament les dades d'un lloc a l'altre sense analitzar-les ni descodificar-les.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "En executar una instrucció d'Addició (suma), quins components interactuen i com, d'acord amb el model bàsic descrit?",
+    "respostes": [
+      ["La Unitat de Control comanda l'operació, la UAL executa el càlcul matemàtic de la suma, i el resultat sol guardar-se a l'Acumulador o un altre registre.", true],
+      ["L'Acumulador descodifica l'operació matemàtica i envia un senyal al Comptador de Programa perquè executi la suma al Bus de Dades.", false],
+      ["La memòria cau L3 rep l'ordre directa de sumar dos blocs i els envia ja calculats al Registre d'Instrucció mitjançant el Bus d'Adreces.", false],
+      ["La UAL llegeix la instrucció del Bus de Control, incrementa el Comptador de Programa i desa el valor a la memòria ROM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Si un ordinador modern incrementa excessivament la velocitat del seu rellotge (overclocking) mantenint el mateix bus cap a la RAM, quin problema clàssic del model s'agreujarà?",
+    "respostes": [
+      ["El coll d'ampolla de von Neumann es farà més evident, ja que la CPU haurà d'esperar encara més cicles inactiva mentre les dades viatgen per la memòria més lenta.", true],
+      ["La Unitat de Control perdrà la capacitat de descodificar instruccions lògiques, passant a poder calcular només operacions aritmètiques de coma flotant.", false],
+      ["El Bus d'Adreces es convertirà automàticament en un canal bidireccional forçat, generant col·lisions amb el Bus de Dades.", false],
+      ["La memòria cau L1 es veurà forçada a comportar-se com a memòria ROM, impedint qualsevol escriptura per part de l'Acumulador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina és la seqüència funcional de l'etapa d'Execució (Execute) dins del cicle d'instrucció?",
+    "respostes": [
+      ["Rebre l'ordre descodificada i els operands, realitzar l'acció demandada (sovint a través de la UAL si és un càlcul) i establir el resultat preparat per ser emmagatzemat.", true],
+      ["Copiar el codi d'operació des del Bus de Dades, col·locar-lo al Registre d'Instrucció i augmentar en un el valor del Comptador de Programa.", false],
+      ["Interrogar el controlador de memòria cau per comprovar l'existència de la instrucció a la L1 i, en cas de fallada, aturar el rellotge de la placa base.", false],
+      ["Abocar el contingut complet de l'Acumulador cap als dispositius perifèrics de sortida i netejar el Registre d'Instrucció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Segons l'explicació de l'arquitectura, què diferencia estructuralment les dades de les instruccions emmagatzemades a la memòria principal?",
+    "respostes": [
+      ["Físicament i estructuralment no hi ha cap diferència; ambdues són seqüències de bits a la memòria. La diferència rau en com les tracta la Unitat de Control en cada fase del cicle.", true],
+      ["Les instruccions s'emmagatzemen sempre en adreces de memòria parells, mentre que les dades s'emmagatzemen obligatòriament en adreces imparelles.", false],
+      ["Les instruccions resideixen codificades en llenguatge d'alt nivell (com C++), i les dades s'escriuen exclusivament en format hexadecimal al disc.", false],
+      ["El bus d'adreces utilitza un senyal de voltatge negatiu per a les instruccions i un senyal de voltatge positiu per a les dades operatives.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què implica el terme de 'Bus del sistema' aplicat al model de CPU genèric?",
+    "respostes": [
+      ["És el conjunt o agregació dels tres busos principals: el bus de dades, el bus d'adreces i el bus de control, que operen de forma coordinada.", true],
+      ["És el cable extern que connecta la targeta gràfica amb el monitor, traslladant senyals visuals des de la UAL.", false],
+      ["És un microprocessador dedicat només a gestionar l'encesa i apagada programada de l'equip a través de la xarxa elèctrica.", false],
+      ["És la via unidireccional exclusiva per on viatgen els polsos del rellotge cap a la memòria cau de nivell 3.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Si un programa necessita recuperar dades repetidament de la mateixa matriu, quin component actua per evitar haver d'accedir a la RAM contínuament i accelerar el procés?",
+    "respostes": [
+      ["La memòria cau, gràcies a la seva proximitat o integració a la CPU i velocitat d'accés reduïda.", true],
+      ["El bus d'adreces, gràcies a la seva capacitat de memoritzar les últimes cinc ubicacions transmeses.", false],
+      ["El Comptador de Programa, que congela el seu avanç per forçar una lectura local en bucle tancat.", false],
+      ["El registre d'Instrucció (IR), que es divideix internament per allotjar les dades de la matriu en temps real.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina característica temporal té la fase Fetch en un cicle d'instrucció convencional de von Neumann?",
+    "respostes": [
+      ["És el primer pas ineludible de qualsevol instrucció, ja que sense portar l'ordre des de la memòria no hi ha res a descodificar o executar.", true],
+      ["És una fase purament opcional que només s'executa si la instrucció implica càlculs complexos de la UAL.", false],
+      ["S'executa sempre en paral·lel i simultàniament amb la fase Write-back de la mateixa instrucció per guanyar cicles de rellotge.", false],
+      ["Només té lloc quan la CPU es desperta d'un estat de suspensió per reiniciar els valors de la memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Si un ordinador teòric tingués memòries físicament separades i camins de dades aïllats per a instruccions i per a dades, estaríem parlant d'una arquitectura:",
+    "respostes": [
+      ["De tipus Harvard, que contrasta clarament amb el model unificat de von Neumann.", true],
+      ["De tipus von Neumann superescalar avançada amb multiprocessament asimètric.", false],
+      ["De tipus Turing-completa amb busos hiperconnectats i registre rotatiu integrat.", false],
+      ["De tipus RISC pur, on la separació de memòria és l'única condició per definir la mida del repertori d'instruccions.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "D'acord amb el funcionament de l'arquitectura, per què el Bus de Dades ha de ser necessàriament bidireccional?",
+    "respostes": [
+      ["Perquè la CPU requereix tant llegir (Load) dades de la memòria principal o perifèrics com escriure-hi (Store) els resultats obtinguts.", true],
+      ["Perquè la memòria cau L1 només admet instruccions de retorn quan el Bus de Control no s'està utilitzant.", false],
+      ["Perquè els polsos del rellotge han de viatjar en ambdues direccions per sincronitzar l'arrencada de la placa base i de la CPU a la vegada.", false],
+      ["Perquè les operacions lògiques de la UAL processen dos operands alhora, enviant la meitat dels bits per cada sentit de la via.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Durant l'execució seqüencial d'un programa, què podria alterar el flux lineal habitual del Comptador de Programa (PC) durant l'etapa d'Execució?",
+    "respostes": [
+      ["Una instrucció de salt (bifurcació) o crida a subrutina, que obliga a la Unitat de Control a sobreescriure el valor del PC amb la nova adreça d'execució.", true],
+      ["L'activació del Bus d'Adreces per una operació de lectura ordinària a la RAM, que atura l'avenç del PC temporalment.", false],
+      ["L'increment automàtic del Registre d'Instrucció en detectar una suma de l'Acumulador i de la UAL de manera síncrona.", false],
+      ["El canvi de sentit direccional del Bus de Control que bloqueja l'escriptura a la memòria cau de tercer nivell.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "El desenvolupament de l'arquitectura de von Neumann es remunta de forma oficial a:",
+    "respostes": [
+      ["Els anys 1940, moment fundacional per al disseny i estructura de la computació moderna que encara perviu.", true],
+      ["El canvi de mil·lenni a principis dels anys 2000, arran de la introducció dels processadors x86 comercials de 64 bits.", false],
+      ["El segle XIX, gràcies als plànols mecànics establerts juntament amb la màquina analítica de l'època victoriana.", false],
+      ["L'any 1985, vinculat a la fundació i establiment del concepte de les primeres memòries Flash programables.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin fenomen és fonamental en relació amb els dispositius d'E/S i l'arquitectura de von Neumann descrita?",
+    "respostes": [
+      ["S'accedeix a ells a través dels mateixos sistemes de busos de comunicació (com dades i control) guiats sota les ordres de la CPU i els seus programes emmagatzemats.", true],
+      ["Són processadors completament autònoms i aïllats que decideixen pel seu compte, independentment de la CPU, quin codi cal executar a la placa base.", false],
+      ["Només intervenen abans que l'ordinador s'engegui mitjançant connexions físiques tancades que no fan ús de cap bus estandarditzat del sistema.", false],
+      ["A causa del coll d'ampolla, els dispositius d'E/S tenen vetat qualsevol tipus de comunicació bidireccional utilitzant únicament el bus d'adreces per rebre els gràfics de pantalla.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Considerant la jerarquia i l'accessibilitat, per què la CPU no opera directament utilitzant els espais de memòria del disc dur magnètic o l'SSD secundari per als seus càlculs instantanis?",
+    "respostes": [
+      ["Són extremadament lents per operar en un cicle d'instrucció corrent; d'acord amb el model s'utilitzen els registres interns, la memòria cau i, finalment, la RAM principal, enllaçada a través dels busos.", true],
+      ["Atès que per la normativa d'arquitectura només és tècnicament possible emmagatzemar codi compilable als registres interns i la resta del maquinari queda reservat per a sistemes de refrigeració líquida.", false],
+      ["Com que l'Acumulador s'encarrega exclusivament de traduir senyals d'adreçament IP en un format entenedor per a les memòries RAM no volàtils de xarxa d'àrea local externa.", false],
+      ["Ja que el Bus de Dades de von Neumann té una naturalesa exclusivament de retorn, impedint la càrrega inicial des de dispositius d'E/S si no és amb l'aprovació d'un microprogramari de xarxa secundari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Què suposa el concepte de 'programa emmagatzemat' des del punt de vista pràctic del programador informàtic?",
+    "respostes": [
+      ["L'ordinador actua com una màquina de propòsit general, on carregar un programa diferent a la memòria altera completament el seu comportament funcional de procés, permetent desenvolupar infinitat de programari.", true],
+      ["El programador ha de construir manualment portes lògiques complexes utilitzant maquinari relacional dedicat cada vegada que vol canviar de sumar variables a restar-ne i així emular un sistema clàssic.", false],
+      ["Que cada instrucció inserida serà reescrita mitjançant làsers gravadors dins d'una pastilla inalterable abans d'iniciar el cicle Fetch pel Registre d'Instrucció intern de baixa latència.", false],
+      ["Un descens en l'eficiència dels llenguatges de programació, obligant els enginyers a escriure el codi únicament mitjançant valors direccionals asíncrons respecte el rellotge general limitador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quin és el rol primari que exerceix la UAL dins l'execució d'una instrucció condicional de l'estil (IF A > B) acompanyada d'una operació lògica de negació (NOT C)?",
+    "respostes": [
+      ["La UAL realitza les avaluacions lògiques o comparatives sobre les dades extretes dels registres (o l'Acumulador) generant el resultat veritatiu final que retornarà i s'emmagatzemarà a l'última fase.", true],
+      ["La UAL utilitza el Bus d'Adreces per comprovar si A i B es troben dins la memòria cau L2 abans de procedir forçosament a demanar permís d'execució a la Unitat de Control.", false],
+      ["La instrucció recau totalment sota la responsabilitat tècnica del Rellotge, el qual altera la seva freqüència polsant al voltatge del Bus de Control per resoldre l'operador lògic presentat.", false],
+      ["Aquest tipus d'instrucció s'executa prescindint completament de la UAL, delegant el càlcul matemàtic sencer al Registre d'Instrucció mitjançant la tècnica moderna de salt condicional sense paritat iterativa.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "Quina peça de l'engranatge general fa de pont de connexió per saber quin dispositiu físic o ubicació de la memòria serà el destinatari en l'operació establerta al cicle Write-back?",
+    "respostes": [
+      ["El Bus d'Adreces transporta la ubicació exacta seleccionada on la informació s'haurà de desar de manera unidireccional cap a l'exterior de la CPU.", true],
+      ["El Comptador de Programa transfereix en format de ràfega l'adreça concreta obtinguda directament d'ell mateix cap a dins del Bus de Control multiplexat temporalment.", false],
+      ["La memòria cau L1 genera automàticament i de forma asíncrona un mapa hash resolutiu que adreça la petició al perifèric vinculat a través de senyals lògics autònoms complexos sense intervenció de busos físics.", false],
+      ["S'utilitza l'Acumulador central com a bus intermediari de manera que envia, per un circuit paral·lel no descrit, l'adreça IP als dispositius de xarxa registrats com a principals segons l'estructura Harvard.", false]
+    ]
+  },
+  {
+    "tema": "Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann",
+    "enunciat": "A tall de resum del tema, de quina manera interacciona el ritme imposat pel 'Rellotge' respecte de les 4 fases de les quals consta el 'Cicle d'instrucció' (Fetch, Decode, Execute, Write-back)?",
+    "respostes": [
+      ["El Rellotge emet polsos continus als quals se subordinen els diferents components de la CPU, establint els temps i finestres on es poden i deuen executar, pas a pas, les fases del cicle.", true],
+      ["Les 4 fases s'executen primer ignorant el Rellotge per la velocitat d'operació pròpia del silici i és al final on envien al Rellotge el resultat numèric del temps en segons exactes transcorreguts.", false],
+      ["El Rellotge només s'encarrega de regular i validar l'última part de la fase (Write-back) atès que és on hi pot haver perill d'escriptures en col·lisió dins de l'estructura oberta per busos interns.", false],
+      ["Funciona com un comptador d'instruccions independents que quan arriba a un límit predeterminat, congela l'etapa Decode, generant així forçosament l'efecte del coll d'ampolla original del model teòric.", false]
+    ]
+  }
+]

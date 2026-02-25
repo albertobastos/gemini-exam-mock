@@ -1,0 +1,402 @@
+[
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Segons la introducció del tema, quina és la definició formal i primària d'un sistema operatiu (SO)?",
+    "respostes": [
+      ["Un conjunt de programes que actuen com a intermediari entre l'usuari i el maquinari de l'ordinador.", true],
+      ["Un microcodi incrustat exclusivament a la memòria ROM que tradueix el senyal de la font d'alimentació a la placa base.", false],
+      ["Un mòdul de programari compilat dissenyat per monitoritzar el trànsit d'arxius asíncrons a través del bus PCI-Express.", false],
+      ["Una interfície gràfica de baix nivell que permet a l'usuari final programar aplicacions utilitzant llenguatge d'assemblador directament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Entre les responsabilitats essencials esmentades, quins recursos gestiona de manera principal el sistema operatiu?",
+    "respostes": [
+      ["La CPU, la memòria principal, els dispositius d'emmagatzematge i els diversos dispositius d'entrada/sortida.", true],
+      ["Únicament els accessos als dispositius d'emmagatzematge magnètics, delegant el control de la memòria als controladors DMA.", false],
+      ["El subministrament elèctric i la freqüència dels cicles de rellotge exclusivament a les memòries cau L1 i L2 del processador.", false],
+      ["La distribució de les interfícies de xarxa en servidors web per a l'adreçament de paquets TCP/IP sense afectar el processador.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Què caracteritza tècnicament a un sistema operatiu classificat com a 'Monousuari'?",
+    "respostes": [
+      ["És un SO configurat i dissenyat d'origen per permetre l'accés i ús del sistema a només un usuari a la vegada.", true],
+      ["És un sistema basat en un nucli híbrid on els privilegis d'administració estan permanentment bloquejats per al compte root.", false],
+      ["És un entorn on només es permet l'execució d'una sola aplicació a memòria RAM, sense relació amb els comptes de sessió.", false],
+      ["És un disseny on totes les dades del sistema s'agrupen sota un sol compte en xarxa centralitzat al núvol sense opció a ús local.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin és l'exemple clàssic exposat al document com a representatiu d'un sistema operatiu monousuari?",
+    "respostes": [
+      ["MS-DOS.", true],
+      ["Unix.", false],
+      ["Windows Server.", false],
+      ["macOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "En la classificació per nombre d'usuaris, per què es destaca especialment el sistema operatiu Unix?",
+    "respostes": [
+      ["Perquè és un exemple clàssic de SO multiusuari, permetent que diversos usuaris es connectin i utilitzin els recursos del sistema al mateix temps.", true],
+      ["Perquè va ser el primer sistema operatiu comercialment exitós en implementar una arquitectura estrictament monousuari en entorns de xarxa.", false],
+      ["Atès que la seva estructura va prohibir completament els accessos concurrents a la memòria en benefici de la velocitat del processador d'escriptori.", false],
+      ["Per ser un sistema dissenyat exclusivament per a dispositius de l'Internet de les Coses (IoT) amb limitacions de concurrència d'usuaris.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quina diferència estructural bàsica existeix entre un SO monotasca i un SO multitasca segons l'índex de classificacions?",
+    "respostes": [
+      ["El monotasca només pot executar una tasca a la vegada, mentre que el multitasca pot gestionar i executar múltiples tasques simultàniament.", true],
+      ["El monotasca emmagatzema totes les dades al disc dur magnètic, i el multitasca utilitza de forma exclusiva la memòria cau L3 per als processos.", false],
+      ["El monotasca requereix múltiples processadors per funcionar, a diferència del multitasca que opera sempre sobre un micro-nucli mononucli.", false],
+      ["El monotasca reparteix el temps d'execució entre els usuaris de la xarxa, mentre el multitasca aïlla el codi en contenidors estancs al servidor mestre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin sistema operatiu s'assenyala al temari com a exemple freqüent de sistema multitasca al permetre executar navegadors, processadors de text i música alhora?",
+    "respostes": [
+      ["Windows 10.", true],
+      ["CP/M.", false],
+      ["MS-DOS.", false],
+      ["IBM OS/360.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Com es defineix un SO de tipus 'Uniprocessador'?",
+    "respostes": [
+      ["Com un SO dissenyat i orientat específicament per gestionar de manera eficaç un únic processador en el sistema.", true],
+      ["Com un nucli operatiu que força tots els fils d'execució a passar per un únic bus d'adreces bloquejant qualsevol transferència asíncrona.", false],
+      ["Com un sistema que destina tots els nuclis secundaris al processament gràfic, deixant les tasques d'E/S a un processador vectorial solitari.", false],
+      ["Com un tipus de clúster on cada node només pot resoldre instruccions de coma flotant a l'espera de rebre dades des del controlador mestre.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quina és la característica definitòria d'un sistema operatiu 'Multiprocessador'?",
+    "respostes": [
+      ["És capaç de gestionar múltiples processadors físics, distribuint i balancejant les tasques i càrregues de treball entre ells.", true],
+      ["Concentra tota la potència dels diferents xips a la memòria ROM per esquivar la necessitat d'utilitzar el programari del nucli (kernel).", false],
+      ["Fusiona múltiples sistemes operatius diferents en una sola màquina mitjançant la tècnica moderna coneguda com a contenidorització de Docker.", false],
+      ["Permet l'execució seqüencial d'un únic procés pesat a través del temps garantint que cap altre processador del sistema pugui alterar la RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Què implica arquitectònicament la classificació d'un sistema operatiu com a 'Monolític'?",
+    "respostes": [
+      ["Que l'estructura del seu nucli està dissenyada de tal manera que tots els components i serveis estan integrats funcionalment en un únic gran bloc de codi.", true],
+      ["Que el sistema delega la gestió de la memòria i els dispositius d'E/S directament als programes de l'espai d'usuari per evitar l'ús de crides al sistema.", false],
+      ["Que consta d'un micro-nucli minimalista envoltat de contenidors independents on cadascun controla una única interfície del maquinari en remot.", false],
+      ["Que l'arquitectura utilitza exclusivament llenguatge assemblador per generar rutes de temps d'accés fix a discs durs, descartant els sistemes d'arxius dinàmics.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Segons l'apartat de classificació per estructura, quin és l'exponent principal associat al model de nucli 'Monolític'?",
+    "respostes": [
+      ["Linux, el nucli del qual inclou la gestió de processos, la memòria, els dispositius d'E/S i altres elements al mateix espai integrat.", true],
+      ["Minix, famós per traslladar totes les funcionalitats d'E/S a un espai virtual d'usuari aïllat.", false],
+      ["QNX, dissenyat sobre una arquitectura embeguda altament restringida sense memòria virtual.", false],
+      ["Windows NT, que utilitza exclusivament el mòdul de crida remota per emular les aplicacions monolítiques heretades.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quina filosofia de disseny persegueix l'estructura basada en 'Micro-nucli'?",
+    "respostes": [
+      ["El nucli és molt reduït, englobant només les funcions completament bàsiques, i delega la resta de serveis importants perquè s'executin en espais d'usuari.", true],
+      ["Reuneix absolutament totes les funcions d'escriptura, xarxa i arxiu en una sola línia de procés que s'executa a la màxima velocitat al nucli de la CPU.", false],
+      ["Fusiona el sistema operatiu amb el programari de la BIOS per crear un hipervisor capaç de bloquejar qualsevol petició aliena a la placa base d'origen.", false],
+      ["S'encarrega d'ampliar artificialment la mida del codi font integrat al kernel per donar suport nadiu a ordinadors antics mononucli.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin exemple s'empra al text per il·lustrar un disseny on es fa servir l'estructura de Micro-nucli?",
+    "respostes": [
+      ["Minix.", true],
+      ["MS-DOS.", false],
+      ["Linux.", false],
+      ["Windows Server.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "En termes d'estructura del sistema operatiu, quin rol juga un 'Nucli híbrid'?",
+    "respostes": [
+      ["Combina elements propis dels nuclis monolítics amb característiques del micro-nucli per buscar un equilibri i oferir tant flexibilitat com eficiència.", true],
+      ["Substitueix la gestió del maquinari local per emular exclusivament entorns al núvol a través de l'ús de màquines virtuals com a hipervisor de tipus 1.", false],
+      ["Operativitza el codi font basant-se només en instruccions RISC mentre eludeix totes les rutines d'interrupció establertes pel bus de control general.", false],
+      ["Descarta totalment qualsevol comunicació entre els processos d'usuari i la memòria principal per evitar l'ús abusiu dels recursos gràfics del sistema.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin és el sistema operatiu representatiu citat al document per a l'arquitectura de Nucli híbrid?",
+    "respostes": [
+      ["Windows NT.", true],
+      ["IBM OS/360.", false],
+      ["FreeRTOS.", false],
+      ["Contiki.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Per a quines situacions o tipologia d'aplicacions es dissenyen de manera prioritària els SO 'en temps real' (RTOS)?",
+    "respostes": [
+      ["Per a aplicacions crítiques on el sistema està obligat a oferir i garantir respostes exactes i predictibles dins d'un temps i termini determinat.", true],
+      ["Per a estacions de treball d'oficina on s'exigeix renderitzar gràfics 3D d'alta definició utilitzant biblioteques asíncrones genèriques en línia.", false],
+      ["Per a servidors al núvol que actuen com a balancejadors de càrrega massiva on el temps de resposta no importa atès que la dada està duplicada per RAID.", false],
+      ["Per a equips personals que es troben contínuament executant processos batch amb la finalitat de compilar grans volums de dades documentals.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "A l'hora de parlar de la classificació segons l'oferta de serveis, quin d'aquests sistemes operatius és un exemple clar de 'SO en temps real'?",
+    "respostes": [
+      ["VxWorks, freqüentment utilitzat en sistemes embeguts on els temps de resposta són factors crítics d'operació.", true],
+      ["Windows 10, reconegut pel seu ús massiu en la sincronització de targetes perforades a temps real.", false],
+      ["macOS, enfocat especialment a controlar reactors nuclears gràcies a la seva absència d'interfícies gràfiques.", false],
+      ["AWS Lambda, sent una plataforma orientada a sistemes monolítics clàssics en la indústria de l'automoció tancada.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin és l'enfocament principal que diferencia un 'SO interactiu'?",
+    "respostes": [
+      ["Està creat expressament per permetre la interacció i comunicació constant de l'usuari amb el sistema, per exemple, a través d'una interfície gràfica.", true],
+      ["Obliga l'usuari a introduir instruccions exclusivament mitjançant targetes perforades per posteriorment esperar els resultats hores més tard.", false],
+      ["Treballa de manera totalment aïllada executant càlculs complexos sobre matrius en entorns de supercomputació on l'usuari no hi té accés directe actiu.", false],
+      ["Suprimeix la interfície gràfica d'usuari (GUI) delegant tota interacció al mode seqüencial que requereix només codi de màquina.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quina d'aquestes alternatives exemplifica de manera més adequada la definició d'un SO interactiu segons l'estudi?",
+    "respostes": [
+      ["Windows 10.", true],
+      ["MS-DOS.", false],
+      ["IBM OS/360.", false],
+      ["FreeRTOS.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Com funciona i què defineix estructuralment a un 'SO per lots' (Batch OS)?",
+    "respostes": [
+      ["És un sistema que executa conjunts de treballs de forma contínua i en sèrie (en lots) sense requerir ni permetre la interacció de l'usuari durant l'execució de la tasca.", true],
+      ["És un sistema on l'usuari ha de romandre present teclejant respostes de confirmació cada cinc segons per assegurar que el processador no aturi l'execució dels programes.", false],
+      ["És un model exclusiu de les interfícies mòbils basades en pantalles tàctils que permeten dividir la pantalla de l'smartphone en dos lots de memòria independents.", false],
+      ["És un tipus de nucli híbrid on els lots es refereixen a les divisions físiques que es fan al disc dur mecànic abans d'implementar un sistema de seguretat de paritat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin dels següents és considerat el sistema operatiu paradigmàtic esmentat al document com a dissenyat per al processament 'per lots'?",
+    "respostes": [
+      ["IBM OS/360, enfocat històricament a processar els grans volums de dades corporatius agrupats en lots o paquets d'execució.", true],
+      ["Windows 10, optimitzat expressament per al maneig exclusiu en consoles portàtils de videojocs i esbarjo digital.", false],
+      ["Android, ja que s'executa internament sense cap interfície que el client pugui tocar a les pantalles tàctils dels seus dispositius.", false],
+      ["Zephyr, donat que és el sistema més estés i utilitzat globalment per a servidors de correu d'alta densitat d'arquitectura web moderna.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quan avaluem l'entorn de maquinari, quin és el propòsit d'establir un 'SO de servidor'?",
+    "respostes": [
+      ["Està pensat i construït principalment per a l'administració, provisió i gestió eficient de recursos informàtics compartits i serveis dins d'un entorn de xarxa o corporatiu.", true],
+      ["Està destinat a limitar i anul·lar la connexió de l'ordinador cap a l'exterior, aïllant les dades dels busos centrals per servir com a còpia de seguretat inaccessible.", false],
+      ["El seu únic objectiu pràctic és facilitar les eines de disseny gràfic domèstic perquè un sol usuari pugui editar imatges renderitzades d'escriptori.", false],
+      ["Funciona tancant les opcions de multiprocessament del servidor forçant a tot l'equipament d'empresa a actuar sota un patró monousuari estricte temporal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin d'aquests representaria l'exponent adequat per a la branca classificada com a SO de servidor al currículum d'estudi?",
+    "respostes": [
+      ["Windows Server.", true],
+      ["Windows 7.", false],
+      ["Android.", false],
+      ["CP/M.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "A qui o a què va destinat i focalitzat el disseny d'un 'SO d'escriptori'?",
+    "respostes": [
+      ["A ser utilitzat i explotat en ordinadors personals per usuaris individuals, cobrint necessitats de sobretaula i equips portàtils típics.", true],
+      ["Als grans ordinadors i centres de dades massius (data centers) la tasca dels quals sigui exclusivament assignar l'ample de banda corporatiu per fibra òptica.", false],
+      ["Als dispositius industrials incrustats que gestionen la injecció de combustible en la branca o sector del desenvolupament d'automoció de l'estat.", false],
+      ["Als sensors autònoms climàtics d'escala agrària de l'Internet de les Coses que recullen humitat i s'alimenten de panells solars petits.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Entre les classificacions de maquinari, quines especificitats defineixen un 'SO mòbil'?",
+    "respostes": [
+      ["Que s'ha dissenyat des de zero prenent en compte la naturalesa de dispositius com telèfons intel·ligents i tauletes, adaptant-se a les pantalles i als recursos energètics limitats d'aquests.", true],
+      ["Que incorpora un hipervisor complet del tipus 1 per emular virtualment les funcions clàssiques del model d'arquitectura von Neumann directament dins de targetes gràfiques discretes.", false],
+      ["Que obliga l'usuari a treballar amb terminals d'escriptori tancats que processen dades exclusivament de manera asíncrona enviant-les per ports PCI-E del dispositiu físic connectat.", false],
+      ["Que s'instal·la per norma general als commutadors intel·ligents per tal d'administrar directament els paquets digitals de les xarxes locals i els entorns d'oficina domèstica grans.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "A quin tipus de màquines està orientada la implementació d'un 'SO embegut' (o encastat)?",
+    "respostes": [
+      ["Als dispositius electrònics especialitzats i sovint amb recursos computacionals limitats, com ara electrodomèstics, maquinària o sistemes de control de processos industrials determinats.", true],
+      ["A l'agrupació massiva de potents servidors interconnectats que actuen col·laborativament en centres de càlcul conformant el que comunament s'anomena i defineix com un clúster d'alt rendiment pur.", false],
+      ["Al desenvolupament d'eines ofimàtiques i de presentació visual avançada destinades exclusivament per donar ús de creació en els moderns i actuals sistemes de sobretaula i PC ordinaris domèstics.", false],
+      ["A les tasques i programari d'encaminament central (routing core) que regulen l'accés massiu i segur dels grans i complexos proveïdors de serveis d'Internet establerts al voltant de la xarxa síncrona general.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Segons s'indica a la llista d'exemples d'entorn d'execució, quin SO sol representar habitualment l'arquitectura de model embegut?",
+    "respostes": [
+      ["FreeRTOS.", true],
+      ["Windows Server.", false],
+      ["macOS.", false],
+      ["AWS Lambda.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Com es gestionaven els primers ordinadors a l'inici de la història de la computació abans de l'aparició formal dels Sistemes Operatius?",
+    "respostes": [
+      ["Eren màquines que es programaven físicament o s'utilitzava codi màquina pur sense la presència de cap SO estructurat de suport que actués d'intermediari o gestor.", true],
+      ["Confiaven exclusivament en hipervisors primitius per virtualitzar els recursos del maquinari a través de múltiples terminals connectats en una xarxa anella distribuïda global d'usuari a usuari.", false],
+      ["Des de la seva creació posseïen entorns gràfics complets que amagaven la complexitat mitjançant l'ús rutinari d'un micro-nucli altament evolucionat que interactuava amb el canal seqüencial obert.", false],
+      ["Substituïen la necessitat dels SO relegant qualsevol interacció lògica i matemàtica directament a l'escombrada d'arxius allotjada prèviament sobre les estructures fixes de targetes PCI en actiu autònom.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quins dos sistemes operatius pioners assenyala el document com a grans representants dels primers passos cap al programari monotasca i monousuari per gestionar operacions d'ordinador bàsiques?",
+    "respostes": [
+      ["El CP/M i l'icònic MS-DOS de l'època.", true],
+      ["El sistema operatiu Kubernetes juntament amb la implementació Docker d'escriptori domèstic obert asíncron.", false],
+      ["La plataforma gràfica i avançada d'escriptori comú de Windows 10 enllaçada en paral·lel amb l'estructura pròpia nativa del MacOS d'Apple.", false],
+      ["El conjunt de l'entorn dissenyat per processos industrials FreeRTOS paral·lelitzat estretament amb la versió clàssica i monolítica inicial de Windows NT.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin fenomen va marcar una autèntica revolució durant el període que originà i popularitzà Unix en l'evolució històrica establerta?",
+    "respostes": [
+      ["La instauració dels Sistemes Operatius concebuts per oferir temps compartit, obrint pas eficientment al concepte real de la multiprogramació en entorns d'ús multiusuari actius alhora.", true],
+      ["L'abandó total del multiprocessament i el retorn programat al mètode estricte d'execució seqüencial basada en rutines pures síncrones de lligam de sondeig per targetes físiques.", false],
+      ["La centralització extrema del maquinari on el sistema esdevenia absolutament i restringida en monousuari limitant tota interfície a dispositius aïllats sota comandament temporal.", false],
+      ["L'extinció i desaparició programada dels mètodes de gestió de memòria prioritzant enviar operacions complexes directament a aplicacions tipus de format per lots tancat a la placa evitant memòries cau.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quin element va apropar i afavorir de manera definitiva el sistema operatiu al món dels ordinadors personals i del gran públic obert?",
+    "respostes": [
+      ["El fet de dissenyar i desenvolupar interfícies gràfiques d'usuari (GUI), com les dutes a terme amb èxit als entorns i pantalles de Windows i posteriorment macOS de tipus visual amigable.", true],
+      ["La forta implementació generalitzada dels algorismes de doble paritat RAID 6 incrustats directament en placa base eliminant les antigues finestres d'errors físics de sistema pel terminal d'entorn text en consola.", false],
+      ["La decisió obligada de tots els dissenyadors on s'adopta la política de retornar funcionalment a la interacció pura d'escriptura per lots (batch execution mode) de temps lent exclusiu.", false],
+      ["L'ús i aplicació del controlador especial integrat conegut per establir comunicacions tancades sobre la base lligada del protocol per Internet d'Alta Disponibilitat asíncrona de la xarxa clàssica clau PCI.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Dins l'apartat relacionat amb les tendències informàtiques actuals, quin concepte teòric suporta pràcticament l'anomenada 'Virtualització'?",
+    "respostes": [
+      ["La capacitat d'utilitzar un únic recurs de maquinari i màquina física subjacent i alhora fer-hi córrer múltiples sistemes operatius aïllats en paral·lel o simultàniament a través d'hipervisors (p. ex. VMware).", true],
+      ["La pràctica d'agrupar dotzenes d'ordinadors totalment independents d'origen divers perquè funcionin des del punt de vista pràctic com si només es tractés d'una entitat aïllada pel servidor i processador vector.", false],
+      ["El mètode per el qual l'arquitectura d'una CPU es restringeix per maquinari obligant-la a transmetre únicament i només processos de text en text pla d'un bit de format a les memòries cau L1 de mode temporal.", false],
+      ["L'esquema de seguretat on tots els components es troben distribuïts en xarxes LAN separades d'oficina impedint-los en absolut que un programa local arribi a ser operatiu de format seqüencial desconnectat de control remot.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "De quina manera conceptual la tecnologia basada en 'Contenidors' divergeix i marca diferències amb la virtualització tradicional estàndard abans descrita?",
+    "respostes": [
+      ["En comptes de carregar un sistema operatiu invitat sencer per cada aplicació instanciada, els contenidors executen aquestes de manera autònoma compartint directament de forma lleugera el mateix nucli del SO amfitrió sota disseny.", true],
+      ["A l'exigir com a requisit ineludible que els controladors interns d'entrada adrecin per maquinari específic cada microxip al connector PCI forçant la divisió en temps síncron dels espais d'adreces a utilitzar.", false],
+      ["Converteix automàticament els micro-nuclis instal·lats en pesades interfícies monolítiques de procés tancat provocant el sobreescalfament del processador pel tractament seqüencial de les mateixes instruccions sobre plataformes d'ús RISC.", false],
+      ["A diferència del primer, aquest disseny exclou explícitament i per norma qualsevol opció informàtica relacionada que permeti encapsular sistemes per emprar el SO principal, requerint format darrer exclusiu de procés on l'emmagatzematge quedi asíncron.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quina aplicació de referència coneguda pel seu nom comercial s'acostuma a llistar com la icona habitual emprada en la generació o gestió popularitzada global de l'ús de Contenidors al servidor actual?",
+    "respostes": [
+      ["Docker.", true],
+      ["NetApp V-Series.", false],
+      ["VxWorks.", false],
+      ["MS-DOS clàssic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Sobre quin repte tècnic important estan i es dediquen a tractar principalment el segment dels Sistemes Operatius per a IoT (Internet de les Coses)?",
+    "respostes": [
+      ["Han de ser sistemes operatius altament esvelts programats i dirigits fonamentalment per poder ser incrustats controlant amb seguretat tota mena de dispositius i sensors amb capacitats limitadíssimes d'emmagatzematge i energia.", true],
+      ["Tenen la vocació i s'orienten estrictament a atorgar un immens nivell d'acceleració per renderitzar de manera paral·lelitzada el món digital tridimensional dels usuaris amb entorns de pantalla basats en gràfics (GPU).", false],
+      ["Ocupen en exclusivitat l'espectre encarregat del lligam per suport a gestionar unificadament la coordinació general complexa interna lligada amb la finalitat i funció que s'associa a matrius RAID operant elèctricament al sistema.", false],
+      ["Resulten ser models i versions orientades a transformar i refer els entorns de sistemes operatius lliures per passar al disseny asimètric a clàssic lligats per a aplicacions web de formularis massius processats per lots.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quins d'aquests SO es posen o il·lustren de prova al paràgraf referent a la formació corresponent al desenvolupament pur lligat als SO de propòsit orientat a la línia per a IoT?",
+    "respostes": [
+      ["Contiki i RIOT.", true],
+      ["macOS i CP/M.", false],
+      ["IBM OS/360 i Windows Server.", false],
+      ["Unix i Windows NT.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Quan parlem del concepte associat als 'Sistemes operatius en el núvol', a quina realitat o cas funcional ens estem referint d'acord amb el text d'introducció teòric estudiat?",
+    "respostes": [
+      ["Ens referim als casos o SO el disseny dels quals fa que operin desvinculats de la màquina local o orientats en entorns on les plataformes processen i executen els recursos principalment en xarxes de computació externes o remotes.", true],
+      ["Representen aquell sistema exclusiu que opera limitadament com hipervisor estricte de màquines monolítiques basant el control del temps asíncron en la memòria cau per rutinari del processador a bus PCI-E local d'usuari.", false],
+      ["Defineix els antics sistemes vinculats i exclusivament tancats que en format clàssic no disposaven de la possibilitat i lligats a suport d'afegir-hi cap tipus de maquinari relatiu o de format per aplicatiu per connectivitat a temps de xarxa encriptat.", false],
+      ["Agrupa l'entorn limitador de SO els quals no admeten l'ús operatiu de dispositius i pantalles limitant qualsevol registre darrer i obligant a instruccions exclusivament per lots d'adreces en darrer temps asíncron a format el base d'usuari tancat rutinari.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "D'acord a la definició global continguda al darrer mòdul sobre virtualització i el núvol de xarxa, quin parell de sistemes o plataformes s'adjunten a mode il·lustratiu de SO dissenyats i nascuts per a suport i operativitat remota en sistemes Cloud computing?",
+    "respostes": [
+      ["El servei conegut com a funcions al núvol per aplicació genèrica en línia tals i com AWS Lambda, i per extensió a processos en Google Cloud Functions.", true],
+      ["Els primitius i originals sistemes dissenyats específicament per emular pantalles per terminals tancats a l'origen als sistemes per lots batch tipus aplicatius de IBM o màquines basades només per suport intern rutinari darrer MS-DOS obert exclusiu.", false],
+      ["Aquells on es va permetre d'origen incorporar la primera interfície del món físic vinculat directament a la targeta d'estació de feina operatiu genèrica elèctrica associada únicament i limitada com en sistemes del Windows Vista o Mac System 7 autònoms.", false],
+      ["Els entorns restringits que de fet pertanyen i regeixen els espais per emmagatzematge local tancat pel mètode clàssic asíncron com els formats aplicatius orientats al disc rutinari de format pel lligam seqüencial com FreeBSD en memòria PCI a temps rutinari asíncrona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "A l'apartat de conclusions i síntesi final del document del curs, quina s'afirma amb vehemència tècnica d'afirmació genèrica global com una de les línies base a seguir i que marquen la pauta general que representa la gran direcció o tendència del desenvolupament actual dels SO moderns?",
+    "respostes": [
+      ["La seva evolució clara que es mou des dels models monousuari amb interfícies primàries en direcció als potents formats gràfics del present prenent relleu lligat cap a entorns de virtualització completa del hardware i gestió de xarxa per internet.", true],
+      ["L'obligatorietat històrica a causa de costos operatius per desprendre's definitivament i final del codi orientat a funcions multiprogramades limitant qualsevol entorn de sistema al patró tradicional i genèric de funcionament asíncron paral·lel tipus batch estricte únic per lot autònom de usuari a us genèric seqüencial format exclusiu darrer rutinari de temps d'us.", false],
+      ["Que l'aplicatiu base genèric lligat de darrer disseny operatiu força i restringeix que el SO del futur es compongui estrictament per nuclis híbrid de gran emmagatzematge deixant fora qualsevol compatibilitat lligada al tipus processador vectorial per ús genèric de format i memòria rutinari de senyal PCI exclusiu a format lliure per ordinador domèstic seqüencial clàssic.", false],
+      ["La pràctica tancada per obligar a la desaparició absoluta d'aplicacions empaquetades i els mateixos espais virtuals i instàncies de codi aïllades promovent el retorn en aplicatiu clàssic de darrer format d'unió global sense segregació i sense ús d'interfícies en temps per processador asíncron base de temps i lligat de canal de memòria a suport rutinari del darrer temps asíncrona el suport darrer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 6. El sistema operatiu (I): conceptes generals. Classificació dels SO",
+    "enunciat": "Respecte a la valoració del material per temps o dedicació al text, quin volum d'aprenentatge en dedicació horària s'ha fixat a tall indicatiu a causa l'extensió i detalls dels apartats presentats als alumnes en qüestió pel que fa a aquest primer dossier i introducció clàssica d'escala per sistema operatiu segons la informació afegida al darrer de suport?",
+    "respostes": [
+      ["Estableix com una previsió de temps necessari el voltant calculat aproximat d'un segment temporal dedicat i complet situat al marge d'entre unes 25 a 30 hores dedicades pel processament i l'estudi global del temari de conceptes bàsics a evolutius.", true],
+      ["Demana exclusivament assignar-hi d'immediat la durada d'un procés formatiu curt equivalent o lligat al darrer terme només unes franges establertes de dos a quatre dies naturals centrats i enfocats pràcticament en base només d'un mòdul a l'estudi rutinari del nucli genèric de temps a temps el format base a format exclusiu darrer a memòries a suport.", false],
+      ["Exigeix per part del procés estudiantil i acadèmic la inversió total superior al temps equivalent a sis mesos naturals a causa només del format i grau extrem darrer d'especialització lligada al fet de comprendre com els mètodes analògics tipus asíncron configuren el bucle rutinari del senyal lligat clàssic a dades la mateixa instrucció d'únic darrer a pas en memòries.", false],
+      ["Redueix en la meitat per decisió el bloc i la proposta inicial lligada a quinze hores aplicatives del format lligat a darrer temps en memòries atès que prescindeix i obvia completament estudiar el segment dedicat a l'Internet de les coses pel fet i decisió genèric i de format de que aquesta opció s'usa al model genèric darrer a de darrer on darrer temporal lligats exclusivament genèric de temps d'ús asíncron de format rutinari seqüencial a senyal PCI.", false]
+    ]
+  }
+]

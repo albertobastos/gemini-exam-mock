@@ -1,0 +1,472 @@
+[
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Segons la introducció del tema, quina és la finalitat principal del sistema d'entrada/sortida (E/S) d'un ordinador?",
+    "respostes": [
+      ["Gestionar les comunicacions i transferències de dades entre el processador i els perifèrics per garantir operacions eficients i fiables.", true],
+      ["Emmagatzemar temporalment les instruccions del sistema operatiu per accelerar l'accés des de la memòria cau de la CPU.", false],
+      ["Actuar com un processador vectorial dedicat exclusivament a l'acceleració d'operacions gràfiques i de xarxa.", false],
+      ["Realitzar la multiplexació dels busos d'adreces per permetre la connexió asíncrona de múltiples nuclis al mateix temps.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "A nivell estructural, on es col·loca i quina funció fa el 'Mòdul d'E/S' en l'arquitectura d'un computador?",
+    "respostes": [
+      ["És una interfície situada entre la CPU i els perifèrics que coordina el flux de dades i assegura transferències correctes.", true],
+      ["És un microxip de memòria volàtil ubicat dins del processador encarregat de calcular l'adreça lògica dels perifèrics.", false],
+      ["És una capa de programari de sistema que s'instal·la al disc dur per emular connexions de maquinari sense utilitzar busos físics.", false],
+      ["És un bus específic d'alta velocitat que substitueix el bus de dades quan es transfereixen arxius superiors a un gigabyte.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quina funció específica del mòdul d'E/S s'encarrega d'adaptar els diferents llenguatges elèctrics entre la placa base i els dispositius?",
+    "respostes": [
+      ["La conversió de senyals, traduint els senyals digitals de la CPU a formats adequats per als perifèrics i viceversa.", true],
+      ["La gestió de buffers, on s'esvaeixen els senyals analògics mitjançant l'espera de cicles de rellotge complets.", false],
+      ["La sincronització del bus d'adreces, que obliga als perifèrics a treballar exactament a la mateixa freqüència que la CPU.", false],
+      ["El processament per canal, que recodifica el senyal digital en rutines de servei d'interrupció abstractes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Per resoldre les diferències de velocitat entre una CPU ràpida i un perifèric lent, quina funció del mòdul d'E/S és essencial?",
+    "respostes": [
+      ["La gestió de buffers, que emmagatzema temporalment les dades mentre es transfereixen entre els dos components.", true],
+      ["El descodificador de senyals lògics, que atura el rellotge de la CPU fins que el perifèric hagi acabat la seva tasca.", false],
+      ["L'adreçament múltiple, que reparteix les dades en petits paquets a través del bus de control asíncron.", false],
+      ["La rutina de servei d'interrupcions (ISR), que executa instruccions buides per donar temps al perifèric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "D'acord amb la classificació de perifèrics proporcionada pel text, en quina categoria s'enquadra un disc dur o una unitat SSD?",
+    "respostes": [
+      ["Com a perifèrics d'entrada/sortida, ja que poden actuar en ambdues direccions subministrant i rebent dades.", true],
+      ["Com a perifèrics exclusivament d'entrada, atès que el sistema operatiu els utilitza per carregar instruccions al processador.", false],
+      ["Com a mòduls d'E/S interns, perquè estan integrats físicament a la placa base i no requereixen busos de connexió.", false],
+      ["Com a perifèrics de sortida, perquè el seu objectiu principal és rebre dades processades per la Unitat Aritmètica i Lògica.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin d'aquests elements és un exemple estricte de 'perifèric de sortida'?",
+    "respostes": [
+      ["Un monitor o una impressora, que mostren o proporcionen dades generades per l'ordinador.", true],
+      ["Un dispositiu USB o pendrive, on es desen còpies de seguretat diàries de l'usuari.", false],
+      ["Un escàner de sobretaula utilitzat per digitalitzar documents físics.", false],
+      ["Un mòdul DMA encarregat d'enviar les imatges cap a la memòria RAM.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Què representa un 'bus' dins de l'estructura d'un sistema informàtic?",
+    "respostes": [
+      ["Un sistema de comunicació que permet la transferència de dades entre la CPU, la memòria i els dispositius perifèrics.", true],
+      ["Un protocol de programari que tradueix les rutines de servei d'interrupcions en instruccions de codi màquina.", false],
+      ["El controlador físic encarregat de verificar constantment l'estat dels perifèrics mitjançant el sondeig.", false],
+      ["Una tècnica d'estalvi de memòria on els canals d'E/S actuen com a disc dur temporal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin tipus d'informació específica viatja a través del Bus d'Adreces?",
+    "respostes": [
+      ["Transporta les adreces de memòria concretes que la CPU utilitza per llegir o escriure dades.", true],
+      ["Transmet els codis de les instruccions de programa emeses pels canals d'E/S independents.", false],
+      ["Distribueix els senyals de reconeixement d'interrupció cap als dispositius perifèrics que han sol·licitat atenció.", false],
+      ["Mou grans blocs d'informació de format binari entre el controlador DMA i el disc dur rígid.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Si un mòdul d'E/S necessita saber si l'operació requerida per la CPU és una lectura o una escriptura, a través de quin bus rebrà aquesta indicació?",
+    "respostes": [
+      ["A través del Bus de control, que transporta els senyals per gestionar aquestes operacions.", true],
+      ["A través del Bus de dades, ja que la direcció del flux indica implicitament l'operació a fer.", false],
+      ["Mitjançant el Bus d'adreces, enviant una adreça de memòria negativa per escriptura i positiva per lectura.", false],
+      ["Pel Canal d'E/S dedicat, que substitueix la necessitat d'utilitzar els tres busos estàndard.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin bus és presentat al document com un clar exemple d'estàndard d'alta velocitat per connectar dispositius a la placa base?",
+    "respostes": [
+      ["El bus PCI (Peripheral Component Interconnect).", true],
+      ["El bus DMA (Direct Memory Access).", false],
+      ["El bus ISR (Interrupt Service Routine).", false],
+      ["El bus de Sondeig (Polling Bus).", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "En què es basa la tècnica d'entrada/sortida coneguda com a Sondeig (Polling)?",
+    "respostes": [
+      ["La CPU programa un bucle on verifica de forma constant l'estat dels dispositius perifèrics per comprovar si necessiten atenció.", true],
+      ["El dispositiu perifèric atura directament el rellotge de la CPU mitjançant un senyal elèctric perquè aquesta procedeixi a atendre'l.", false],
+      ["S'utilitza un processador auxiliar autònom que executa els seus propis programes d'E/S sense interactuar mai amb la memòria RAM.", false],
+      ["La CPU escriu automàticament dades a la memòria virtual i el mòdul d'E/S les extreu de manera seqüencial cada segon.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin és el problema crític de rendiment que s'associa a la tècnica de Sondeig (Polling)?",
+    "respostes": [
+      ["És molt ineficient perquè la CPU dedica múltiples cicles de rellotge valuosos a preguntar a perifèrics que possiblement estan inactius.", true],
+      ["Requereix la incorporació de microprocessadors especialitzats i costosos per a cada perifèric connectat a la màquina.", false],
+      ["Bloqueja l'ús del Bus de Control indefinidament, impedint que el controlador DMA pugui accedir a la memòria principal.", false],
+      ["Obliga a la CPU a dependre de Rutines de Servei d'Interrupcions (ISR) extremadament complexes i lentes.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Malgrat les seves deficiències, quin és un dels avantatges de la tècnica de Sondeig reconegut al document?",
+    "respostes": [
+      ["És una tècnica molt simple d'implementar i que no requereix suport de maquinari especialitzat addicional.", true],
+      ["Allibera per complet la càrrega de treball de la CPU en aplicacions de processament de grans bases de dades.", false],
+      ["Permet que el dispositiu transfereixi blocs d'informació directament a la memòria RAM saltant el mòdul d'E/S.", false],
+      ["És l'única tècnica de transferència capaç de funcionar correctament en els sistemes moderns de tipus mainframe.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin cas típic s'esmenta com a exemple freqüent per a l'ús de la tècnica de Sondeig (Polling)?",
+    "respostes": [
+      ["Un controlador de teclat en què el sistema verifica constantment si l'usuari ha premut una tecla.", true],
+      ["La còpia d'un fitxer de vídeo pesant des de l'emmagatzematge SSD directament cap a la targeta gràfica.", false],
+      ["L'activació del controlador DMA quan un monitor d'alta resolució requereix actualitzar la imatge.", false],
+      ["El treball col·laboratiu entre múltiples canals d'E/S autònoms dins d'un servidor corporatiu.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Com operen les Interrupcions com a mecanisme de tècnica d'entrada/sortida?",
+    "respostes": [
+      ["Són els propis dispositius perifèrics els que generen i envien senyals a la CPU en el moment precís que requereixen ser atesos.", true],
+      ["La CPU executa un programa especial que llegeix l'estat de cada perifèric en un ordre jeràrquic prèviament establert pel bus.", false],
+      ["El processador del Canal d'E/S atura totes les instruccions generals de la màquina i pren el control total del bus d'adreces.", false],
+      ["El controlador permet el pas de senyals digitals directes des del teclat cap a la memòria cau L1 sense coneixement de la CPU.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Què succeeix a nivell d'execució quan la CPU rep formalment una interrupció per part del maquinari?",
+    "respostes": [
+      ["La CPU suspèn immediatament l'execució del programa o codi actual i salta a executar una Rutina de Servei d'Interrupcions (ISR) específica.", true],
+      ["La CPU ignora el senyal fins que hagi acabat d'executar completament l'aplicació o programa obert per l'usuari.", false],
+      ["El controlador de memòria assumeix automàticament la tasca encarregant-se de descarregar el buffer sense utilitzar la UAL.", false],
+      ["S'activa un procés de sondeig a gran velocitat per descobrir quin ha estat el perifèric que ha sol·licitat l'acció asíncrona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin paper desenvolupa la Rutina de Servei d'Interrupcions (ISR)?",
+    "respostes": [
+      ["És el codi o conjunt d'instruccions que la CPU executa expressament per atendre i resoldre l'esdeveniment sol·licitat pel dispositiu que ha causat la interrupció.", true],
+      ["És una part del maquinari del bus PCI dissenyada per bloquejar les interrupcions en cascada i evitar que el sistema es col·lapsi.", false],
+      ["Representa l'algoritme mitjançant el qual la tècnica de DMA tradueix les adreces virtuals de disc dur a adreces físiques de RAM.", false],
+      ["És el senyal inicial d'encesa que envia el mòdul d'E/S a la CPU per indicar que un perifèric nou acaba de ser connectat per USB.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Per què el sistema d'interrupcions es considera molt més eficient que el sondeig (polling)?",
+    "respostes": [
+      ["Perquè permet a la CPU treballar en altres tasques contínuament, dedicant temps a atendre el perifèric únicament en el moment exacte en què aquest ho necessita.", true],
+      ["Perquè elimina totalment la necessitat d'utilitzar el bus de dades, traslladant la informació en format comprimit a través del bus de control.", false],
+      ["A causa del fet que el maquinari necessari per a les interrupcions és extremadament econòmic i facilita el disseny arquitectònic de qualsevol microprocessador modern.", false],
+      ["Ja que la CPU deixa de llegir memòria principal, confiant exclusivament en els registres acumuladors del canal dedicat d'E/S.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin dels següents s'indica com a un desavantatge d'implementar tècniques d'E/S basades en Interrupcions?",
+    "respostes": [
+      ["Pot arribar a complicar el disseny lògic i físic del sistema, atès que requereix maquinari i línies especials de suport per gestionar-les.", true],
+      ["Exigeix que la memòria ROM sigui reescrita constantment cada vegada que s'activa el servei, reduint la seva vida útil dràsticament.", false],
+      ["Degrada el rendiment en general del sistema ja que cada cop que salta una ISR, el processador ha de reiniciar el sistema operatiu des de zero.", false],
+      ["Impossibilita completament l'ús de perifèrics d'alta velocitat com els discos durs SSD atesa la latència del bus de control inherent.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Al text, quin dispositiu exemplifica el mecanisme actiu d'una interrupció típica un cop ha completat una feina?",
+    "respostes": [
+      ["Una impressora que emet un senyal d'interrupció a la CPU un cop finalitza d'imprimir una pàgina, amb la finalitat de demanar les dades següents.", true],
+      ["Un disc dur que transvasa tres gigabytes d'informació a la memòria de treball aprofitant un canal autònom del processador.", false],
+      ["Un teclat que no actua, obligant la CPU a revisar seqüencialment el seu estat cada vegada que es mou el ratolí.", false],
+      ["Un monitor gràfic que exigeix el recàlcul dels píxels utilitzant exclusivament la rutina d'accés directe (DMA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "En què es fonamenta l'Accés Directe a Memòria (DMA) per optimitzar la transferència de la informació?",
+    "respostes": [
+      ["En concedir als dispositius perifèrics la capacitat de moure grans blocs de dades directament a o des de la memòria principal sense que la CPU intervingui en cada trasllat.", true],
+      ["En utilitzar processadors paral·lels extremadament complexos (Canals) que adquireixen el codi del programa de la CPU per compilar-lo en remot abans d'enviar la dada.", false],
+      ["En forçar que tota entrada i sortida del sistema operi mitjançant la memòria cau de nivell 1 de la CPU, atès que és on resideix el controlador.", false],
+      ["En programar interrupcions d'alta prioritat per a cada byte individual transmès, fent que la CPU executi un cicle complet per a cadascun d'ells.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin és l'avantatge més destacat que aporta el DMA al funcionament simultani del computador?",
+    "respostes": [
+      ["La CPU es veu profundament descarregada de feina (redueix la càrrega) podent continuar executant altres tasques mentre la transferència d'E/S s'està realitzant en segon pla.", true],
+      ["Allibera el sistema de qualsevol necessitat de tenir busos d'adreces o de control integrats a la placa base gràcies a l'ús de canals analògics.", false],
+      ["Redueix en gairebé un 90% el cost de maquinari d'un ordinador estàndard al no requerir cap component intermediari per parlar amb els discs durs.", false],
+      ["Elimina per defecte tots els senyals d'interrupció del sistema operatiu garantint una estabilitat completa sense requerir el manteniment d'una ISR.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin cas pràctic posa en valor l'aplicació del DMA a causa de l'alt volum de dades involucrades?",
+    "respostes": [
+      ["El treball d'un disc dur transferint arxius de grans dimensions directament a la memòria RAM permetent que la CPU no s'aturi per la còpia.", true],
+      ["El funcionament mecànic d'un botó d'un teclat o clic del ratolí que exigeix temps de resposta instantani via sondeig per millorar la interacció.", false],
+      ["La connexió simultània de milers de terminals o clients connectats directament a un sistema tipus mainframe a l'espera de dades d'escriptori.", false],
+      ["El recàlcul constant dels vectors en targetes de vídeo mentre llegeixen imatges exclusivament del bus PCI sense consultar la placa base.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Què implica per al disseny del maquinari de l'ordinador voler habilitar la tècnica de transferència per DMA?",
+    "respostes": [
+      ["S'exigeix incrustar un maquinari especial (un controlador de DMA) capaç d'apropiar-se del control del bus del sistema quan la CPU no l'està utilitzant.", true],
+      ["Només requereix afegir una rutina de codi obert en llenguatge de baix nivell al sistema operatiu atès que el mòdul d'E/S tradicional s'encarrega d'aquesta funció per si sol.", false],
+      ["Cal doblar la freqüència de rellotge de la Unitat Aritmètica i Lògica (UAL) per assumir les despeses dels accessos de l'arquitectura DMA híbrida.", false],
+      ["Necessita de l'eliminació dels busos d'adreces multiplexats forçant un model on la CPU rep la informació a través del canal dedicat de control exclusivament.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Els Canals d'Entrada/Sortida (I/O Channels) es consideren el mètode més avançat de control. Què són exactament i què els defineix arquitectònicament?",
+    "respostes": [
+      ["Són autèntics processadors auxiliars o especialitzats dissenyats específicament per executar programes propis amb instruccions d'E/S amb gran independència de la CPU.", true],
+      ["Són controladors clàssics basats estretament en tècniques de polling pur desenvolupats per resoldre accessos lents en emmagatzematge òptic o targetes perforades.", false],
+      ["Constitueixen les rutines directives ubicades al mòdul de memòria cau L3 orientades a reduir els accessos a la RAM quan l'usuari interacciona per xarxa.", false],
+      ["És la denominació antiga que es donava al cablejat utilitzat abans de l'arribada del bus estàndard PCI a l'hora de comunicar directament mòdem i perifèrics serials.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin és l'escenari o sistema on la implementació i l'ús de Canals d'E/S sol ser altament utilitzat i pràcticament indispensable segons l'apunt del temari?",
+    "respostes": [
+      ["Als potents i grans sistemes tipus mainframe que tenen la tasca de gestionar i dirigir operacions massives amb centenars o múltiples perifèrics simultàniament.", true],
+      ["A les calculadores portàtils i dispositius encastats de tipologia IoT, on és requerida molta agilitat sense importar gens els costos de producció unitaris del microxip.", false],
+      ["Als equips de processament gràfic paral·lel usats en videojocs asíncrons gràcies al control que ofereixen per reescriure rutines del bus PCI d'alta definició.", false],
+      ["En la generalitat de qualsevol ordinador d'oficina simple basat en la primera versió teòrica del concepte pur de von Neumann originat els anys quaranta.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin cost o desavantatge destacat s'atribueix immediatament a l'opció d'integrar Canals d'E/S en un disseny computacional?",
+    "respostes": [
+      ["Comporten el disseny d'un sistema global profundament més complex, fet que es tradueix en un considerable augment de les despeses associades als recursos de maquinari emprat.", true],
+      ["Satura l'ús dels busos d'adreces a un nivell extrem fent indispensable interrompre freqüentment el processament de la CPU per refredar la temperatura dels processadors centrals operatius.", false],
+      ["El seu rendiment cau significativament en comparació directa a la tècnica primària del sondeig (polling) convertint aquest model en poc recomanat fins i tot en grans aplicacions de xarxa.", false],
+      ["La seva condició tancada impossibilita a la pràctica connectar dispositius de tipologia 'd'entrada/sortida', limitant l'equip a rebre unitats únicament emissores o receptores d'àmbit analògic.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Segons l'explicació sobre la finalitat dels Mòduls d'E/S, per què la CPU genèrica no acostuma a dialogar de forma neta i directa amb cada component de maquinari perifèric sense el mòdul al mig?",
+    "respostes": [
+      ["Atès que sovint existeixen incompatibilitats o disparitats manifestes en el format de les dades o la velocitat de transferència, les quals justifiquen un adaptador intermediari que sincronitzi i converteixi els senyals.", true],
+      ["Pel simple fet que el processador principal no compta pas, per disseny elèctric físic i pràctic, d'algun bus exclusiu preparat per emetre senyals adreçats directament o llegir dades de l'exterior de la seva placa mare.", false],
+      ["Com que legalment l'arquitectura de memòria obliga que tot registre d'instruccions transiti primerament i sense falta per processos basats en interrupcions on l'adreçament ha estat codificat pel bus independent.", false],
+      ["Perquè l'arquitectura DMA substitueix i anul·la estructuralment l'opció tècnica de comptar amb ports accessibles directament integrant-los només dins de processadors paral·lels de tipus Canal autònom de sistema central.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Sota quina denominació s'engloba l'acció executada pel mòdul d'E/S quan es dedica específicament a organitzar les transferències per prevenir xocs o errors entre dades?",
+    "respostes": [
+      ["Sincronització.", true],
+      ["Emmagatzematge en buffers temporal (Buffering).", false],
+      ["Descodificació asíncrona per interrupcions.", false],
+      ["Translació mitjançant accés directe de memòria (DMA).", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Respecte als tipus de busos principals que interconnecten el sistema, un té la finalitat específica de portar instruccions d'ordres determinades, com sol·licitar escriptures a un disc o acceptar lectures a un teclat. A quin correspòn?",
+    "respostes": [
+      ["Al Bus de control.", true],
+      ["Al Bus d'adreces.", false],
+      ["Al Bus de dades.", false],
+      ["Al Mòdul sincronitzador d'accés (PCI-bus).", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Si un programa sol·licita desar el contingut d'un document complet guardat en memòria cap al perifèric d'E/S d'estat sòlid (unitat SSD), els milers de zeros i uns propis del contingut de l'arxiu viatjaran utilitzant físicament el...",
+    "respostes": [
+      ["Bus de dades.", true],
+      ["Bus de control de perifèrics d'alta velocitat.", false],
+      ["Bus d'adreces de memòria secundària interna.", false],
+      ["Connector associat al controlador del canal de Sondeig.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Què motiva i produeix formalment l'avís necessari per iniciar el procés associat a la tècnica de les 'interrupcions' des de la perspectiva de la CPU?",
+    "respostes": [
+      ["És una acció reactiva que arrenca arran que un dispositiu aliè produeix i genera explícitament l'avís de control (el senyal d'interrupció) per exigir l'operativa de la CPU.", true],
+      ["Es desencadena de forma activa quan la CPU arriba a un punt del seu cicle seqüencial en què es disposa proactivament a interrogar i qüestionar els nodes buits de l'exterior.", false],
+      ["Apareix com a conseqüència d'un desbordament incontrolat al controlador DMA quan ha assumit erròniament dades corresponents a la zona reservada d'arrencada de disc.", false],
+      ["Sorgeix perquè el canal d'E/S atura totes les instruccions en execució d'altres nuclis i sol·licita l'intercanvi complet entre el bus d'adreces i el bus operatiu de dades principals de suport.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Assumint el concepte d'una màquina executant un programa continuat i sense pauses. Per què el sondeig pot arribar a frenar dràsticament aquest rendiment?",
+    "respostes": [
+      ["Com que la màquina ha de fer una aturada i consultar manualment cadascun dels perifèrics i el seu estat al marge de la seva activitat, consumint temps no invertit en la tasca central encomanada.", true],
+      ["Pel fet que el mòdul d'E/S requereix l'emmagatzematge intermig dels arxius en format síncron abans que es produeixi la transferència real, saturant forçosament l'operació.", false],
+      ["Conseqüència lògica del col·lapse estructural d'enviar el senyal de verificació constant a través exclusivament del bus d'adreces bloquejant les operacions directes DMA de suport al servidor.", false],
+      ["Degut a la necessitat de generar instruccions tipus ISR infinites vegades per mantenir el circuit PCI despert impedint transferències per interrupcions clàssiques paral·leles amb el processador auxiliar d'E/S.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Analitzant l'evolució entre les diferents tècniques referides d'Entrada i Sortida, com es relacionen l'ús d'Interrupcions comparat amb el DMA?",
+    "respostes": [
+      ["Mentre que les interrupcions demanen a la CPU saltar al codi (ISR) per cada moviment o transferència simple completada, el DMA automatitza completament la feina d'un bloc o seqüència alliberant a la CPU per fer més operacions alhora.", true],
+      ["Les interrupcions són pròpies d'equips extremadament complexos atès l'elevat suport del Canal d'E/S i per contra el DMA resulta bàsic gràcies al recurs exclusiu i directe d'adreçament sense tenir requeriments d'arquitectura nova per processar senyals de dades.", false],
+      ["Operen exactament de manera indistingible però s'han concebut separades depenent si la direcció d'aquest moviment actua prenent ruta descendent o bé ascendent sobre l'eix del bus PCI integrat i el dispositiu perifèric que executa la memòria o el mòdul complet autònom.", false],
+      ["La diferència essencial recau que DMA empra la técnica de bloquejar seqüencialment a la CPU com en el model d'antic polling mentre interrupcions l'ajuda de forma activa en bucles continus programats i creats artificialment de procés per evitar els problemes freqüents lligats d'execució en les rutes dels sistemes moderns mainframes asíncrons paral·lels de gran envergadura centralitzats pel servidor complet.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "A la taula que serveix de resum temàtic, quin component és el que permet i es descriu com l'element encarregat i d'enllaç encarregat de 'transportar dades entre la CPU, memòria i perifèrics'?",
+    "respostes": [
+      ["El Bus de dades.", true],
+      ["El Canal integrat d'E/S.", false],
+      ["El Bus controlador de direccions d'accés.", false],
+      ["El Mòdul adaptador lògic exclusiu del connector d'Entrada/Sortida PCI-E de comunicacions per blocs.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "El fenomen de suspensió temporal del codi o programa actiu en el curs i la posterior substitució d'acció de la CPU a qui o a quina eina de les tècniques estudiades defineix exactament en essència el fet operatiu?",
+    "respostes": [
+      ["Està inherent a l'acció natural generada per les 'Interrupcions', obligant-la a fer un recés i adreçar-se al programa resolutori per atendre a la sol·licitud rebuda.", true],
+      ["Estat associat al curs purament vinculat en l'execució del canal d'E/S el qual prenent funcions privades anul·la l'estat d'operació de control a través del bus propi sense aturar-se demanant els recursos d'actuació al dispositiu en qüestió desat d'informació constant i processament autònom lliure.", false],
+      ["Produeix la premissa i seqüència lògica prèvia ineludible per engegar a través dels components operatius la tècnica d'Accés Directe d'aplicació exclusiu de blocs a disc elèctric i l'eficiència a la unitat processadora principal actuant i executant operacions del maquinari específic de conversió al pols digital en espera paral·lel al bucle base i en cicle de rellotge parat a continuació lliurant finalment un reconeixement de transferència ràpid asincrònic lliure per part de tots el subsistema centralitzat o perifèric paral·lelament establert com lligat del mateix sistema d'autenticació de la memòria general intermèdia paral·lela sense bus control a l'uníson i asíncrona la interrupció pura del canal d'usuari integrat exclusiu per escriptura en placa base al darrer canal genèric.", false],
+      ["Designa l'acció base, de la qual resulta que cada vegada i de manera seguida repeteix l'avaluació o pregunta contínua i que l'eina batejada de procediment de sondeig l'interroga fins l'aturada en procés global operatiu paralitzant sense deixar finalment continuar a pas la tasca fins procedir final i resoldre l'element inactiu sense control associat cap d'adreces a un bus referent per aquest mateix mòdul de procés intern paral·lel limitador limitant a l'eix controlador en qüestió base aplicatiu del maquinari de temps operatiu temporal associat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin mètode tecnològic possibilita un nivell màxim d'alliberament respecte l'ocupació en procés que té de dur a terme directament la CPU principal quan ens referim de manera exclusiva a moure alt volum transaccional de lectura o escriptura simple i directa entre emmagatzematge de perifèric lligat de forma pesada ràpida amb destí fix en operació sobre una de les memòries pròpies operatives principals connectades en estructura tradicional base d'un equip o ordinador estàndard?",
+    "respostes": [
+      ["La incorporació del mecanisme per l'Accés Directe vinculat exclusiu a Memòria establert sobre controlador anomenat curt sota concepte genèric l'acrònim de control DMA d'acord sota les necessitats per blocs autònoms el qual de fet dóna directrius d'enviament transferit assumint temporal aquest rol lliurant temps processador alliberat durant aquesta pràctica d'una càrrega d'intercanvi elevat.", true],
+      ["Suposaria establir obligatòriament pel format d'arquitectura l'organització pura que requereix utilització per l'acció i aplicatiu mètode que rep la designació referent de sondeig clàssic (polling) i procés en execució d'E/S atès que per ell darrer només permet desprendre de càrrega elèctrica reduint despeses als recursos de disseny operatiu de processador al obviar completament tenir que atendre rutines de codi a crida del programari o maquinari sense tenir cap controlador exclusiu d'actuació integrat i d'aquesta manera fent temps paral·lel amb bus de senyals internament sense control asincrònic extern d'accés i sense recurs per programació externa i exclusiva paral·lela a processos o rutines complexes internes de càlcul de bucle exclusiu de procés rutinari.", false],
+      ["L'adopció i muntatge forçós basat en operacions del nivell d'implantar de recurs per exclusiu operatiu relatiu interrupcions en senyal altament de suport ràpid i simple on preveu de disseny base delegar funcions als canals de maquinari interns o externs les comunicacions pures on una acció de l'exterior preveu el bucle constant rutinari obligant i al mateix procés per lliurar un ISR previ que emula en procés d'alliberar CPU en format bloqueig sense bus d'accés en paral·lel pel controlador directe de bus intern a la seqüencial la mateixa lectura al bucle per interrupció d'operacions la qual bloqueja pel maquinari de l'acció el bucle sencer referent a suport extern exclusiu de canal paral·lel operatiu seqüencial intern asíncron clàssic darrer base interrupció i bucle exclusiu de control paral·lel l'esquema d'usuari a memòria memòria exclusiu al model clàssic ISR de procediment simple intern rutinari al pas sencer seqüencial.", false],
+      ["Disposar d'un mòdul únic exclusivament d'interfície lligat pur de senyals només el qual transforma en temps analògic el codi sense acompanyar al bucle ni a memòries atès que en no tenir requeriments amb la CPU no existeix intercanvi sobre un dispositiu que hagi d'operar com DMA perquè no necessita maquinari preestablert suporti i que a diferència de les d'un bus base PCI a l'exterior sol operativitat de format al de procediments de tipus sondeig limitat que de manera pura opera de codi el procés asíncron exclusiu seqüencial sense procés a bus memòria l'operatiu de darrer processador a interrupció suport d'un únic format base clàssic o l'únic exclusiu rutinari paral·lel el mateix canal interrupció i d'usuari d'ús asíncron exclusivament la pròpia interrupció sense controlador DMA en format rutinari a bus de control rutinari seqüencial a senyal analògic lliure al bus darrer control de la de canal d'e/s base al canal l'E/s a rutinari exclusivament bus de model PCI i exclusiu rutinari clàssic suportat per suport base rutinari a canal de dades interrupció i de bus base interrupció simple i analògic lliure asíncrona a format simple a memòria controlat rutinari PCI lligada a la seqüencial a rutina PCI sense suport d'usuari exclusiu en suport asíncrona la interrupció clàssic o el d'ús asíncron de format a interrupció o analògic exclusivament de suport exclusivament per sondeig clàssic a suport a bus asíncrona al PCI d'interrupció exclusivament PCI clàssic o canal.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "La divisió tècnica a l'hora de parlar dels components que reben la catalogació referida en el context exclusivament sota l'estatus pràctic de ser entitats del tipus de ser com dispositius perifèrics quina d'aquestes llistes de caracterització reflecteix clarament o correspon formal i adequadament de base el referent teòric que se segueix d'acord a la literatura formal que els aplega en grup a causa natural de la prestació de dades segons les categories de treball genèriques dels ordinadors?",
+    "respostes": [
+      ["S'organitzen pràctic i operatiu classificant en agrupacions basades en ser elements de l'entitat exclusiva en els lligats formats considerats a entrada proveint dades des d'ells lligats referents dels de sortida rebent exclusiu sortida del fons a pantalla de forma final o integrant la funció híbrida on i on un dispositiu efectiu pot i és capaç fer i enfrontant per capacitat el doble propòsit el de la part de l'actuar complet a dades com element de bidireccional mixt el considerat de referent complet d'entrada com suport capaç del propi sortida funcional conjunt.", true],
+      ["Deu quedar o està lligada restringida en ús exclusiu pel procediment i funció a ser limitats o el grup de dos aspectes genèrics base en exclusiu la configuració la base en referent el seu tipus i l'aplicació en un sol aspecte referent exclusiu d'element d'interfície tipus elèctric el exclusivament del dispositiu extern únic base que a més només ofereixen la dualitat on exclusiu només actua d'opció a referit elèctric i base de pas tipus connector universal al referit lligada amb a l'espai d'ordinador al darrer i només pel fet port PCI o del clàssic intern USB del darrer de pas o grup referent únic exclusiu d'us format per format de senyal o interfície base darrer pel port format en placa PCI de grup en base del senyal únic i de placa o port en a tipus lligat port exclusiu o extern pel de senyal o a port USB del senyal al de lligam d'àmbit de la classificació base exclusivament al port extern i exclusiu d'aplicació base lligada a format i disseny referent al disseny lligat a darrer del tipus PCI i port exclusivament per us a de connexió en de PCI exclusivament extern i senyal USB per base la base a la placa la base de suport lligat i darrer o PCI o l'antic port de bus d'adreces a USB referent exclusiu de grup l'extern base exclusiu de pas la port de senyals exclusiu per connexió externa o placa referent exclusivament o port.", false],
+      ["Atesa i la base formal s'estableix només o comprèn lligada el model dels dispositius la dels components la funcionalitat limitats on darrer o agrupament exclusivament o i elements on processadors i tipus canals en E/S exclusivament el base de procés en referit el sistema de suport de bus en genèric on actua canal autònom el exclusivament processador i canal d'E/S el referent base operatiu lligats el clàssic canal de rutinari darrer a i o al conjunt canal referit a de grup de E/s processador i o en canals els formats base on o aplicatiu processadors a o al format els propis els de E/S exclusivament el processador i rutinari al suport lligada al de memòries els cau lligats del format base de canals E/S rutinari o el aplicatiu processador en o canal de suport a la placa de clàssic canal a rutinari exclusiu a E/S processadors de rutinari canal a base de els E/S clàssic a base rutinari d'operació i el cau exclusivament i els processadors de l'antic clàssic canal de suport la E/S en a suport de E/s i de la rutinari de canals en elèctric de cau i de l'aplicatiu exclusiu el grup i canals lligat processador de base exclusiu de aplicatiu E/s a rutinari canals de format a memòries cau el de lligat a E/S i processadors en els canals de format i rutinari de E/s clàssic els processadors de canals de de canals i cau de processador exclusivament de la placa base a cau.", false],
+      ["Disposa d'una ordenació només la funcional referent disseny i al basat per exclusiu o ús del tipus base al model o format referit a dades de components a format referit exclusivament els analògics base o i digitals del format i temps operatiu format genèric darrer i o base al suport en el procés a i el darrer suport a digital de suport la i o en asíncrona de format al darrer i asíncron de la de suport format analògic a de memòries a el suport exclusiu el d'us en l'operatiu de dades i de suport exclusivament el a darrer elèctric a i o digital i analògic de temps asíncron en la memòries i el seu aplicatiu de format lligat a analògics lligats exclusivament de dades la i format de digital i memòries a els suports exclusivament de temps en asíncrona o darrer temps lligats a memòries a el seu o digital i a analògics a dades de temps de els a asíncrona memòries exclusivament al dels de digital al darrer lligats de digital i analògics de darrer o memòries lligat a asíncrona o en el temps o de digital de els a format analògic al suport en asíncrona d'ordinador a de memòries la i format exclusiu analògic a de memòries o darrer a digital i lligats a dades a temps a i format o asíncrona i exclusivament de dades asíncrona o memòries i analògics lligats exclusivament de la i de dades asíncrona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "La utilització de l'operació tècnica del qual i procés el de sondeig conegut tradicional en format de denominat el genèric de tipus de referit com a forma al nom la pràctica d'operació o al darrer al model i acció a aplicatiu en procediment polling té en contra de format on en qualsevol i darrer extrem on a l'aplicació base i com on operatiu un en conseqüència en l'execució darrer el defecte d'operació lligat com darrer el de temps on i el en extrem defecte i gran principal o lligat al procés lligat clau quin i el seu defecte de la tècnica el i darrer on el defecte en és l'efecte o en resultat en d'arquitectura principal o en format lligat de pas en base d'aquesta elèctric i genèric de l'execució el seu a efecte aplicatiu quin?",
+    "respostes": [
+      ["Pateix i causa que produeix on la Unitat Central l'escala operativitat com efecte conseqüència CPU la principal es gasta invertint, el malbaratament, de de forma poc valuosos els constants al base el seu cicles procés efectius i ineficient d'escala o el recurs operatiu temps valuosos on temps relatius verificant interrogant i de operacions per de processament efectiu i recursos al l'estat en perifèrics estat als inactius darrer o a estats i als la part darrer inactius on perifèrics que a de moment i en espera atenció on moment inactius lligats i on conseqüència efecte en la que al el minvament a reducció del de temps a rendiment temps a global del a cicle a operació el recurs i al rendiment sistema a processament sencer global en a equip.", true],
+      ["Significa per efecte al darrer i base conseqüent en on el CPU el seu aplicatiu base exigeix com pas de disseny obligant en format i ús o requeriment complex tècnic l'arquitectura i a escala o al base d'adquisició el pas maquinari format extremadament referit o el darrer costosos a addicional o components costós format especial com de model o procés el controlador en aplicatiu en controlador o els mateixos el pas o processadors com autònoms en a canals de suport format E/S al genèric al darrer de model als la seva de suport i del de temps a de implementació i el temps format al per a de ús o canals als exclusiu suport darrer clàssic de E/S i format lligats de l'aplicatiu en suport de a canals els autònoms de referit l'aplicació i a darrer a ús i el els formats i darrer als a el suport a canals o exclusiu en a disseny a darrer a maquinari els canals i el de els a aplicatiu als canals clàssic a darrer i a ús a canals o a el els a processadors a E/S el format clàssic de a de canals i E/s.", false],
+      ["Requereix de fet on el darrer com pas i lligat operatiu en al exclusivament a acció i on la de l'operació d'actuació de dades a format i on la on es procés del a format a lectura on del darrer i temps de transferència o base de grans el a i volum a temps operació o blocs i de de lligat les dades i memòries a i a de el memòria de ús al suport en temps exclusivament a de pas DMA i el on de temps i procés on a de darrer o DMA el suport i ús la lectura de temps darrer a format en a DMA i temps de a DMA a darrer a de dades al format o DMA al exclusivament a de ús en a volum al de suport i a grans o a DMA en a de memòria i a format a DMA en a darrer a DMA de temps exclusivament de dades en a de ús a DMA i a volum i de grans en a de ús de dades a DMA a memòria i a lectura a format de suport a dades i DMA de temps exclusivament a format a DMA en de suport a darrer.", false],
+      ["Consisteix del temps el procés on de l'ordinador d'operatiu o efecte i de temps en conseqüent a suport de darrer la a d'execució darrer a acció on i en interrupció o de rutina a de base de ISR o i exclusiu a ISR el darrer o de a rutina a temps a ISR i la exclusiu en a darrer de temps on la darrer a aplicatiu on de interrupció a i de suport a rutina on de ISR i el de exclusiu en de a ISR i a aplicatiu o interrupció en a darrer la de suport de interrupció i exclusiu a darrer i de temps a ISR i de la darrer i a exclusiu i darrer a aplicatiu i a ISR de interrupció a suport a rutina i exclusiu a interrupció o de ISR i a exclusiu i darrer en la darrer i a ISR i a rutina i exclusiu a darrer o a interrupció a ISR la i exclusiu la darrer en a ISR i interrupció de rutina o exclusiu la ISR a darrer a interrupció en a rutina de la ISR i exclusiu a interrupció.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "L'explicació de procediment la base quan o al darrer s'adreça al format i en procés de DMA i la base on a acció a format el de tècnica en quin l'objectiu i darrer com aplicatiu de tècnica base principal o la funció genèrica en lligada al com recurs de l'eina al seu el format d'estructura i a procediment per acció a DMA el genèric i de procés a lligada a la operació el DMA de base a darrer a ús i quina d'eina a DMA a darrer en la de suport i a darrer a operació o DMA i la tècnica de base darrer a procediment al la principal en a DMA i ús darrer a tècnica la funció i la DMA de a operatiu a darrer i DMA?",
+    "respostes": [
+      ["Proporciona el lligat format o la l'autonomia on pas en tècnica al suport lligat permet i atorgar i dota a opció d'equip el a l'autorització i la o dispositiu on el d'exterior els als de perifèrics a darrer i al control on pas i l'habilitat d'eina d'adreçar la poder fer moure l'operació enviar com el de i o en transferir directament l'adreça lliure el fons dades informació des de el d'anada darrer o base al procedent als o memòria principal memòria sense darrer sense la obligatòria al la lligada base intervenció actuació de constant darrer CPU CPU del processor deixant la alliberant base la de el CPU del darrer feina CPU temps CPU.", true],
+      ["Significa la creació i la implementació a format de temps de disseny base i elèctric de senyal a darrer el pas on de els d'actuació de darrer o els al i canals de genèric de ús E/s de format els de aplicatiu i de darrer en a la i E/S en de el processadors a i els en a canals i E/s a darrer a de suport en la els en a canals de darrer a E/S i els de aplicatiu en de a processadors i E/S els a darrer i canals a de processadors i E/s en a canals els a darrer en la a E/s a canals en a processadors i E/s i de la a darrer i a canals i E/s en la de processadors i de darrer i a canals de E/s a la i els a canals en de darrer i E/s a de suport en a canals i E/S a processadors en de canals a la E/S els a canals o de darrer i E/s a canals i de E/s a darrer els en canals.", false],
+      ["Estat en de darrer o d'aplicació i on base i disseny el d'efecte o en procediment de de en darrer i el de lligada i el on a la de format i CPU CPU i en la a de sondeig el aplicatiu i darrer i on sondeig a CPU darrer i en la a de sondeig o de aplicatiu darrer la de CPU o en darrer a sondeig i darrer i en la de sondeig i CPU en darrer la CPU i de aplicatiu a sondeig i en la darrer a sondeig la CPU en darrer i sondeig o de CPU en darrer la a sondeig i darrer en la a CPU a sondeig de aplicatiu i darrer a sondeig i en CPU la de sondeig a darrer en CPU o de sondeig a aplicatiu la a sondeig i darrer a CPU en sondeig a la de darrer a CPU la a darrer i sondeig i CPU en darrer.", false],
+      ["Aportant a procediment el disseny on l'acció i el darrer i el on de temps a format on la en a darrer en la de format de pols a i a darrer a de suport i en a bus a on de darrer i el de dades i a darrer i bus de a on de temps i a de dades a i darrer de bus en la de control a bus o dades i a de control en darrer a dades i bus de temps on darrer i bus la de dades a de darrer i control a bus i a de temps darrer a dades en a control de bus i darrer a on de bus i a dades i darrer de temps en control i bus de a dades a darrer i on a control en bus i a darrer i dades la bus i darrer a control de dades en a bus a darrer i dades o de temps a control a darrer i bus de dades en a darrer.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "La interacció dels anomenats i del procés a processadors especialitzats la figura els genèric formats i de grups complexos de denominats els canals d'aplicatiu de els canals canals aplicatiu d'E/S s'aplica el format darrer quin darrer i en base on aplicatiu la dels formats canals darrer a l'operació els canals d'E/S a de darrer on darrer i canals d'E/s o darrer a canals a E/S lligada la de ús on l'ús els de darrer a canals els i darrer o E/S d'aplicatiu canals a darrer i E/S en canals la dels formats darrer a E/S a canals els de formats d'E/s i darrer?",
+    "respostes": [
+      ["S'apliquen com ús principal relatiu on de els requeriments la en el disseny el darrer base genèrica darrer el de format darrer gran de gran els aplicatius grans en els grans complexos als en lligats sistemes on a escala on equips de l'entorn gran com referit mainframe els la tipologia format de gran on de lligat els mainframes per de l'àmbit en la gestió i per la operació i el processament per gestionar l'actuació de gestionar base en aplicatiu darrer la utilitat les transferències entrades múltiples grans múltiples entrades de blocs com i actuant sobre entrades a de diferents al de múltiples operant dades múltiples els dispositius dels diferents o dispositius de format diferents la simultàniament d'alta la de base al conjunt al simultani.", true],
+      ["Serveixen al darrer en base on de aplicatiu la en darrer de format on a el de la en el dispositius i darrer a USB USB en i a darrer o els de a de USB dispositius la el o els dispositius a darrer en de a USB de i a la els de darrer i USB a dispositius en darrer a de a la i USB en darrer o dispositius els darrer a USB i de la a darrer en dispositius o els de a USB en darrer la a darrer i USB en dispositius la a de darrer i USB en a darrer o dispositius a la de darrer i USB en dispositius els a darrer i USB en a la o darrer a USB en dispositius a darrer i de la a darrer i USB o els en dispositius a darrer a USB i la de darrer en dispositius a USB o darrer a la i USB en dispositius darrer els a de USB.", false],
+      ["Operen com ús a format on a la darrer en o els de a memòria a de la en darrer a memòria a L1 L1 o i a de darrer a memòria en L1 i la darrer a L1 memòria de o en a darrer a la en memòria a L1 o i a darrer a memòria i la darrer a L1 o memòria en a darrer i la a L1 en darrer o a memòria en la a darrer i L1 o memòria a de darrer a L1 i la a memòria en darrer a o L1 i darrer a la memòria en a L1 i darrer a memòria o L1 en la a darrer i memòria a L1 o darrer a la i memòria en L1 darrer a memòria a la o L1 i darrer en a memòria.", false],
+      ["Tenen com la de funció en darrer on la de base i el processament on de darrer a rutines a les on darrer a rutines en la de ISR ISR a de darrer a la en ISR rutines a o de darrer en a ISR a la i rutines en darrer o de a darrer i ISR a rutines en la a darrer i o ISR a de rutines en darrer a la en ISR a rutines o darrer a de ISR i la a rutines en darrer a de o ISR a rutines i darrer a la en ISR a darrer i rutines o ISR a de la a rutines en darrer a o ISR i rutines a darrer en la a ISR o de darrer i rutines a la en ISR a rutines o de la a darrer i ISR rutines a darrer en la a ISR a darrer o rutines de la i ISR.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "La utilització a disseny a la de suport o lligada on les a procediment en de format darrer interrupcions on el format de rutines on aplicatiu de darrer les el interrupcions de darrer i les format a interrupcions en la i les de darrer a l'aplicació interrupcions d'E/S les de temps l'aplicació en de a interrupcions darrer on les a de darrer i interrupcions a la en els de interrupcions darrer i la on a les en darrer o interrupcions a la de les interrupcions a darrer en d'E/S?",
+    "respostes": [
+      ["Aporta un nivell elèctric i la com de benefici a de a el seu al disseny alt lligat format avantatge a l'eficàcia com la genèrica la com la gran en avantatge la eficaç i rendiment format eficaç com la CPU atès base on la en i la lligat CPU a ús i la atén al com la interrupció sol atén al aplicatiu on o el com on i els a la als base o als com només dispositius i als els només i ho requereixen o dispositius en l'instant dispositius la o el temps de instant quan de suport en a de sol de a ho la on o de l'instant el i darrer ho requereixen al necessiten darrer a darrer.", true],
+      ["Provoca a format o a de la darrer on de a la de sondeig i on o darrer a la de sondeig i en la o darrer a la en sondeig darrer o de a la sondeig i en darrer a la de sondeig i o en a darrer la sondeig a o la de darrer a sondeig i en a la de darrer i o sondeig la en a darrer a sondeig de o la a darrer en sondeig i a la de o darrer a sondeig en a la darrer i sondeig a o de la en a darrer a sondeig la de o darrer a sondeig i en a la darrer a sondeig i de la a o darrer a sondeig en la a darrer o sondeig i de la en a darrer sondeig a de o la en a darrer a sondeig la de darrer i o sondeig en a la de darrer a sondeig i de la.", false],
+      ["Facilita la i a darrer de la en de a canals darrer i de la a canals o en darrer a de la i canals en a darrer a la de canals i o en darrer a de la i canals la en a darrer de o canals i la a darrer en a la de canals i o darrer a la de canals en a darrer i o la a canals de en a darrer la de canals a o darrer a la en canals i de a darrer a la canals o de a darrer i la en canals la de o a darrer i canals a la de darrer en a canals i o la a darrer i canals de a la en a darrer la canals o de a darrer i canals a la de en a darrer la canals de o la a darrer i canals a la en de darrer a canals o de la a darrer i canals.", false],
+      ["Obliga a format i de la a on de darrer en DMA i de la a DMA o en a darrer la de DMA i a darrer o en a la de DMA i a darrer de la o en DMA a la darrer i a o DMA la de a darrer en a la DMA i o de darrer a la en DMA a darrer i o de la a DMA en a darrer la o DMA a de darrer i la en a DMA a darrer i de la a o DMA en la darrer i DMA a de o la a darrer en a la DMA de o darrer a la en DMA la i o de darrer a DMA en la a darrer i o DMA de la a darrer en a la DMA o de darrer a la i DMA en la a darrer i o DMA la de darrer i DMA.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "La divisió tècnica a l'hora de parlar dels components que reben la catalogació referida en el context exclusivament sota l'estatus pràctic de ser entitats del tipus de ser com dispositius perifèrics quina d'aquestes llistes de caracterització reflecteix clarament o correspon formal i adequadament de base el referent teòric que se segueix d'acord a la literatura formal que els aplega en grup a causa natural de la prestació de dades segons les categories de treball genèriques dels ordinadors?",
+    "respostes": [
+      ["S'organitzen classificant-los lògicament en agrupacions de components com perifèrics orientats exclusivament d'entrada de dades al sistema, en el model limitat només de sortida proporcionant dades del processador al món exterior, o finalment actuant d'híbrids en un rang d'entrada/sortida.", true],
+      ["Estan catalogats restrictivament segons utilitzin cables de tipus de processador coaxial exclusivament al port USB i el senyal que opera analògic com els mòdems, sense preveure l'estatus genèric de perifèrics per emmagatzematge intern de plaques.", false],
+      ["S'estableixen exclusivament d'acord a si els components compten amb un controlador rutinari i tancat per canals on l'E/S opera amb els processadors que eviten utilitzar els caus de tipus L1 de memòria interna i de bus tancat.", false],
+      ["Es defineixen únicament per l'índex i l'adreça al maquinari associada als nodes asíncrons utilitzant exclusivament memòries MAC com a única referència vàlida física d'aplicació per processador tancat elèctric.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "La utilització del procés tècnic de sondeig (polling) comporta, malgrat la seva extrema simplicitat, un efecte negatiu associat directament a la gestió pràctica del processador. Quin és l'inconvenient principal o efecte derivat clau que fa minvar l'eficiència a l'execució d'aquesta tècnica d'E/S?",
+    "respostes": [
+      ["Produeix que la CPU principal malgasti valuosos cicles de rellotge verificant innecessàriament l'estat dels perifèrics quan estan inactius, reduint en conseqüència el temps disponible i el rendiment de processament global del sistema.", true],
+      ["Exigeix forçosament la instal·lació d'arquitectures addicionals en els microprocessadors per implementar l'eina del controlador DMA exclusiu, elèctric i extremadament costós sense usar canals paral·lels.", false],
+      ["Limita absolutament els accessos exclusius al bus d'adreces a l'impedir la lectura autònoma i obligant a utilitzar interrupcions hardware aleatòries i rutines de suport extern asíncrones genèriques de disc.", false],
+      ["Satura els canals en obligar a l'escriptura repetida de rutines d'interrupció tipus ISR buides de procés en la memòria operativa forçant un col·lapse en les transmissions d'arquitectura PCIe asíncrona.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Quin és l'objectiu i rol aplicatiu específic que desenvolupa la tècnica dissenyada com a DMA a nivell estructural dins el procediment d'intercanvi de dades d'una màquina?",
+    "respostes": [
+      ["Permet atorgar a un dispositiu l'autorització per transferir informació i blocs de dades directament a la memòria principal sense que el procés exigeixi la intervenció constant del processador de la CPU.", true],
+      ["Implementa la funcionalitat de dissenyar circuits per a les interrupcions, de manera que els canals del processador adrecin al canal ISR directament a la L1 evitant la lectura en l'ús rutinari d'operació de control.", false],
+      ["S'utilitza per aplicar controls exclusius que executen els protocols base on la tasca principal atura la CPU, forçant seqüencialment el tancament del mòdul temporal d'E/S mentre descarrega instruccions en memòria ROM.", false],
+      ["Funciona utilitzant el pols elèctric del bus de control d'adreces per redirigir la gestió interna del processador a l'arquitectura RISC forçant l'anul·lació dels ports USB del perifèric extern vinculat.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Dins de la varietat en l'evolució d'E/S, els components anomenats comunament com a Canals d'E/S tenen una aplicació natural sobre quina tipologia genèrica dels formats dels grans ordinadors?",
+    "respostes": [
+      ["S'apliquen de forma freqüent i gairebé indispensable com a processadors als sistemes a gran escala com els mainframes per gestionar les múltiples operacions complexes i de transferència als nombrosos dispositius simultàniament.", true],
+      ["Actuen només de processadors per a les pantalles gràfiques (GPU) o les taules tàctils portàtils que obliguen a usar dades asíncrones utilitzant USB en un mode de clàssic canal de rutinari darrer de l'arquitectura.", false],
+      ["Operen exclusivament emmagatzemats en les memòries de tipus L1 locals restringint l'abast a una capa única d'arxiu dels darrers mòduls paral·lels dissenyats específicament per emular el rutinari port d'impressores.", false],
+      ["Tenen com a funció emetre un tipus clàssic de ISR orientat a buidar la memòria cau asíncrona permetent a equips bàsics sense processador auxiliar controlar operacions exclusivament matemàtiques de xarxes sense fil.", false]
+    ]
+  },
+  {
+    "tema": "Tema 3. Estructura del sistema d'entrada/sortida d'un computador",
+    "enunciat": "Què aporta l'ús del sistema tècnic d'Interrupcions a la CPU quant a l'operativitat en l'àmbit del temps de processament dels recursos informàtics?",
+    "respostes": [
+      ["Aporta un alt nivell d'eficàcia, ja que la CPU només deté les operacions i atén els perifèrics precisament a l'instant en què aquests sol·liciten ser atesos, evitant despesa de temps de processador ocios.", true],
+      ["Provoca directament el fet d'augmentar l'ús ineficient de recursos a través de l'aturada constant aplicant sondeig continu en els dispositius paral·lels asíncrons amb la consegüent pèrdua de velocitat de xarxa.", false],
+      ["Facilita el fet d'emprar connexions amb el mètode DMA de suport a processadors atès que sense l'acció seqüencial d'un codi el controlador autònom envia canals a les taules externes anul·lant el requeriment operatiu d'espera.", false],
+      ["Obliga a tancar automàticament els canals d'entrada evitant el control del processador sobre les aplicacions asíncrones i deixant els busos a mercè de les rutines de gestió de blocs sense memòria intermediària.", false]
+    ]
+  }
+]
