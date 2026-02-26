@@ -1,0 +1,365 @@
+**Tema 1. Model genèric d'un ordinador: arquitectura de von Neumann**
+
+**Pregunta 1.** Quin és el principi fonamental o concepte general sobre el qual es basa l'arquitectura proposada per John von Neumann als anys 1940?
+* **A) (Correcta)** Es basa en la idea que un ordinador pot utilitzar una sola memòria per emmagatzemar tant les dades com les instruccions que s'han d'executar.
+* **B)** Proposa la separació estricta i física de les memòries de dades i instruccions per permetre el processament asíncron a través del bus PCI.
+* **C)** Estableix que el Rellotge del sistema ha de governar exclusivament l'adreçament de memòria cau L3 sense intervenció de la Unitat de Control.
+* **D)** Defineix un model on la targeta gràfica i el processador central comparteixen els registres d'Entrada/Sortida a través de memòria d'estat sòlid (SSD).
+
+**Pregunta 2.** Segons els principis de l'arquitectura de von Neumann, com es duen a terme o es processen les instruccions dins la màquina?
+* **A) (Correcta)** Les instruccions són processades de manera seqüencial i poden ser modificades durant el mateix processament.
+* **B)** Les instruccions s'executen obligatòriament en paral·lel mitjançant l'arquitectura SIMD, enviant polsos simultanis als busos de la placa.
+* **C)** S'executen de forma aleatòria (asíncrona) depenent de la latència d'emmagatzematge dels perifèrics connectats a la xarxa local.
+* **D)** S'envien directament al controlador d'interrupcions hardware (IRQ) on el processador les descarta si pertanyen a un clúster remot.
+
+**Pregunta 3.** Dins dels components principals de l'arquitectura de von Neumann, quina funció clau desenvolupen els Busos?
+* **A) (Correcta)** Canalitzen i transporten les dades, les adreces i els senyals de control entre la CPU, la memòria i els dispositius d'entrada/sortida.
+* **B)** Són les unitats lògiques encarregades d'executar operacions matemàtiques complexes que el processador delega per evitar el sobreescalfament.
+* **C)** Actuen exclusivament com a memòria d'intercanvi (swap) temporal entre el teclat de l'usuari i la Unitat Aritmètica i Lògica.
+* **D)** S'encarreguen de refredar el flux d'informació aïllant completament el nucli operatiu (Kernel) de la resta de components de la placa mare.
+
+**Pregunta 4.** Quina és la responsabilitat principal de la Unitat de Control (UC) dins de l'estructura bàsica de la CPU?
+* **A) (Correcta)** És responsable de dirigir les operacions de la CPU, interpretant les instruccions emmagatzemades a la memòria i enviant els senyals de control a la resta de components.
+* **B)** Té la tasca exclusiva de realitzar les operacions aritmètiques de coma flotant demanades pel programari d'usuari a través de la memòria de paginació.
+* **C)** Emmagatzema de forma permanent la direcció IP de l'equip informàtic per permetre la connexió segura amb els servidors d'Alta Disponibilitat (HA).
+* **D)** Evita que les dades de memòria s'esborrin en cas de tall elèctric, actuant com una font d'alimentació ininterrompuda (UPS) local.
+
+**Pregunta 5.** Què fa exactament el Comptador de Programa (PC) i com assegura l'execució contínua d'un programa?
+* **A) (Correcta)** Emmagatzema l'adreça de la següent instrucció a executar i s'incrementa automàticament després de cada lectura per apuntar a la instrucció següent, garantint-ne l'execució seqüencial.
+* **B)** Compta els mil·lisegons que el disc dur mecànic triga a respondre per aturar el processador en cas que la unitat assoleixi temperatures crítiques d'operació.
+* **C)** Mesura el trànsit general d'entrada i sortida per evitar la fragmentació de la memòria cau L1 enviant alertes directes al planificador (Scheduler).
+* **D)** Determina la freqüència en Hertzs (Hz) del rellotge central perquè aquest coincideixi exactament amb la velocitat de rotació dels perifèrics lents acoblats.
+
+**Pregunta 6.** Quin és el paper tecnològic que juguen els Registres en l'arquitectura interna del processador?
+* **A) (Correcta)** Són petits espais d'emmagatzematge dins de la CPU que guarden dades temporals i resultats intermedis durant l'execució, sent crucials per a la velocitat i eficiència del sistema.
+* **B)** Són discos magnètics miniaturitzats instal·lats a la Unitat de Control on s'arquiven permanentment els manuals de manteniment de la xarxa d'àrea local.
+* **C)** Constitueixen l'arxiu d'intercanvi (swap) on es descarreguen els paquets de dades d'Internet abans d'iniciar el cicle de Rellotge.
+* **D)** Són rutes físiques per on viatgen els cables de connexió asíncrona entre el node esclau i el node mestre en entorns de virtualització profunda.
+
+**Pregunta 7.** De què s'encarrega precisament la Unitat Aritmètica i Lògica (UAL) de la CPU?
+* **A) (Correcta)** Realitza operacions aritmètiques (com sumar i restar) i lògiques (com comparacions), sent essencial per al processament de dades i càlculs.
+* **B)** Dirigeix els senyals de reconeixement de xarxa perquè el sistema operatiu hoste accepti noves targetes gràfiques instal·lades als ports d'expansió.
+* **C)** Determina quin usuari té permisos d'accés per veure els arxius emmagatzemats a les particions del sistema gràcies a l'avaluació de llistes ACL.
+* **D)** Sincronitza exclusivament les funcions de renderització 3D amb el refresc vertical dels monitors connectats a la interfície d'escriptori.
+
+**Pregunta 8.** Segons s'especifica al text, quins tres tipus de senyals principals o rutes s'agrupen generalment sota el terme col·lectiu "Bus"?
+* **A) (Correcta)** El bus de dades, el bus d'adreces i el bus de control.
+* **B)** El bus de memòria virtual, el bus de xarxa SAN i el bus gràfic PCI.
+* **C)** El bus asíncron de disc, el bus de redundància RAID i el bus de processament per lots.
+* **D)** El bus de paginació, el bus de fragmentació externa i el bus del micro-nucli.
+
+**Pregunta 9.** Quin component s'encarrega de marcar el ritme a la CPU i com es mesura habitualment la seva velocitat?
+* **A) (Correcta)** El Rellotge, el qual coordina i sincronitza les operacions mitjançant pulsacions regulars; la seva freqüència es mesura en Hertz (Hz).
+* **B)** La Memòria Cau L2, que coordina la descodificació enviant blocs seqüencials cap al node passiu; la seva velocitat s'expressa en bytes per segon.
+* **C)** El Comptador de Programa, que estabilitza la latència de la placa base i s'avalua depenent de la quantitat d'usuaris per sessió activa.
+* **D)** El Controlador DMA (Accés Directe a Memòria), el qual marca els passos del microprocessador depenent de la temperatura global en graus Celsius.
+
+**Pregunta 10.** Amb quin propòsit i funcionament s'integra la Memòria Cau (Cache) a l'arquitectura computacional estudiada?
+* **A) (Correcta)** És una memòria d'alta velocitat que emmagatzema temporalment dades i instruccions freqüentment utilitzades per reduir el temps d'accés a la memòria principal i millorar el rendiment.
+* **B)** Té com a funció allotjar de manera permanent el codi font obert d'arrencada de la BIOS, protegint-lo contra atacs informàtics d'escriptura.
+* **C)** Substitueix per complet les unitats d'estat sòlid (SSD) emulant discs virtuals on els usuaris emmagatzemen les seves còpies de seguretat diàries de forma segura.
+* **D)** S'utilitza per forçar l'alentiment del procés en els ordinadors d'Alt Rendiment, evitant que els fils paral·lels destrueixin la informació d'altres aplicacions de xarxa.
+
+**Pregunta 11.** Què descriu exactament el concepte de 'cicle d'instrucció' en el funcionament intern de l'ordinador?
+* **A) (Correcta)** És el procés estructurat mitjançant el qual la CPU executa una instrucció, estant dividit de forma clàssica en quatre etapes principals consecutives.
+* **B)** És l'interval de temps exacte que triga el disc dur magnètic a localitzar un sector físic i transferir la dada a la targeta de xarxa per DMA.
+* **C)** És la seqüència elèctrica asíncrona utilitzada per la memòria cau L3 per netejar els registres obsolets sense dependre de la Unitat de Control.
+* **D)** És el bucle de programari dissenyat exclusivament per enviar i rebre paquets d'Internet utilitzant el protocol de comunicació TCP/IP.
+
+**Pregunta 12.** En què consisteix i quina acció té lloc durant l'etapa d'Obtenció (Fetch) dins d'aquest cicle?
+* **A) (Correcta)** La CPU obté i llegeix la instrucció des de la memòria principal utilitzant l'adreça que es troba emmagatzemada en aquell moment al Comptador de Programa (PC).
+* **B)** La Unitat Aritmètica processa els valors logicomatemàtics requerits per poder determinar si la instrucció ha provocat un desbordament a la memòria.
+* **C)** El sistema operatiu consolida i comprimeix els arxius lliures agrupant-los en un sector únic per facilitar-ne la lectura al controlador del bus PCI.
+* **D)** S'envia un senyal d'interrupció directa (IRQ) al teclat i al ratolí per comprovar l'estat dels perifèrics abans de continuar el cicle del Rellotge.
+
+**Pregunta 13.** Quin component de la CPU és l'encarregat directe de dur a terme l'etapa de Decodificació (Decode)?
+* **A) (Correcta)** La Unitat de Control (UC), que interpreta la instrucció obtinguda prèviament per determinar quines operacions s'han de realitzar a continuació.
+* **B)** El Bus d'Adreces, el qual tradueix automàticament els senyals gràfics en vectors processables per l'arquitectura paral·lela SIMD.
+* **C)** El Registre Acumulador temporal, que divideix el codi de la instrucció en franges o blocs aptes per a l'emmagatzematge magnètic extern.
+* **D)** El Rellotge del processador, atès que ajusta la velocitat dels Hertzs per interpretar de forma nativa l'idioma assemblador introduït a la matriu.
+
+**Pregunta 14.** Què succeeix físicament durant l'etapa d'Execució (Execute) en una instrucció de càlcul típica?
+* **A) (Correcta)** La Unitat Aritmètica i Lògica (UAL) pren el control temporalment per realitzar l'operació específica sol·licitada (com pot ser una suma, resta o comparació).
+* **B)** El sistema suspèn l'escriptura a la placa base i emula un espai virtual d'intercanvi a la targeta gràfica per evitar la pèrdua de dades per sobreescalfament.
+* **C)** La memòria ROM instal·la en calent un micro-nucli encarregat exclusivament d'accelerar el pas d'informació des del teclat fins al monitor d'escriptori.
+* **D)** S'esborra de forma definitiva el codi font emmagatzemat a les particions del disc dur SSD utilitzant un algorisme de xifratge quàntic asimètric.
+
+**Pregunta 15.** Quina és l'acció final que tanca el cicle de processament a l'etapa d'Escriptura (Write-back)?
+* **A) (Correcta)** Els resultats obtinguts i derivats de l'etapa d'execució es guarden de nou com a informació vàlida a la memòria principal o bé en un registre intern de la CPU.
+* **B)** Les dades innecessàries s'expulsen del sistema utilitzant el mètode de substitució de pàgines LRU (Least Recently Used) al disc dur.
+* **C)** El sistema entra en mode de suspensió (sleep) esperant que el teclat o el ratolí generin un nou senyal d'atenció mecànica a la placa.
+* **D)** S'enfila l'arxiu d'intercanvi a través del port de xarxa tancant el canal TCP per evitar pèrdues de seguretat en entorns corporatius.
+
+**Pregunta 16.** Si prenem l'exemple pràctic del document, quan l'equip ha de resoldre la instrucció de sumar dos números, què recull exactament la CPU a la fase d'Obtenció?
+* **A) (Correcta)** Obté directament la instrucció "SUMA" juntament amb les adreces on s'ubiquen els operands (els números concrets a sumar) a la memòria.
+* **B)** Capta exclusivament el pes en kilobytes de la instrucció per poder determinar en quina fracció del disc dur mecànic ha d'habilitar l'espai rotacional.
+* **C)** Carrega l'historial complet del registre d'esdeveniments d'usuari per auditar els permisos avançats tipus ACL abans d'iniciar cap mena de càlcul.
+* **D)** Registra el trànsit d'entrada i sortida generat pels controladors DMA evitant l'ús dels busos interns multiplexats del sistema operatiu base.
+
+**Pregunta 17.** Com condiciona el component conegut com a Rellotge el desenvolupament del cicle d'instrucció de la màquina?
+* **A) (Correcta)** A través de les seves pulsacions regulars (en Hertzs), marca el ritme i coordina totes les operacions, determinant la velocitat amb què la CPU pot processar les etapes.
+* **B)** Aïlla els sectors defectuosos de la targeta d'imatge 3D paral·lela perquè les etapes del pipeline no es col·lapsin per un error de geometria.
+* **C)** Genera senyals ininterromputs de tipus Heartbeat cap a la xarxa corporativa LAN per verificar l'existència de connexions asíncrones pendents.
+* **D)** Obliga al planificador a descartar sistemàticament totes les sol·licituds que arriben en primera instància per protegir la integritat del bloc FCFS.
+
+**Pregunta 18.** Quin benefici directe aporta la integració de la Memòria Cau (Cache) de cara a l'agilitat general del cicle d'instrucció?
+* **A) (Correcta)** Com que emmagatzema les dades o instruccions sol·licitades amb molta freqüència, redueix el temps de l'etapa d'Obtenció al no haver d'accedir a la memòria principal més lenta.
+* **B)** Impedeix de manera definitiva la presència del fenomen de la fragmentació externa en atorgar només blocs contigus a cada programa executat en lots.
+* **C)** Compacta el codi del sistema operatiu encarregat de l'arquitectura d'adreces permetent als usuaris no autenticats saltar les barreres del LUN Masking.
+* **D)** Incrementa radicalment la grandària de la instrucció permetent descarregar paquets massius d'arxius temporals per utilitzar funcions en entorns al núvol (StaaS).
+
+**Pregunta 19.** Quin és el temps estimat fixat al document com a necessari per cobrir i estudiar de manera detallada aquest primer tema?
+* **A) (Correcta)** Aproximadament entre 6 i 7 hores en total (sumant 3-4 hores per a la lectura inicial i unes 2-3 hores addicionals dedicades a la revisió i la pràctica).
+* **B)** Més de trenta hores d'estudi de laboratori a causa de la complexitat extrema on s'ha d'assolir entendre la programació nativa de controladors RAID.
+* **C)** Únicament quaranta minuts atès que l'arquitectura analògica von Neumann ha quedat completament obsoleta i no demana un abast d'estudi profund a l'actualitat.
+* **D)** Quinze hores destinades exclusivament a aprendre l'ús pràctic de les eines d'encriptació del sistema operatiu juntament amb la substitució de pàgines web.
+
+**Pregunta 20.** Segons les conclusions de l'arxiu, per a què resulta fonamental per als professionals entendre l'arquitectura de von Neumann i el cicle d'instrucció?
+* **A) (Correcta)** Proporciona una base sòlida essencial per al desenvolupament correcte de programari, per al disseny eficient de nous sistemes i per a la resolució pràctica de problemes informàtics.
+* **B)** Serveix únicament per aprendre com descartar processos actius i obligar les estructures d'Alta Disponibilitat a tancar ports físics PCI de manera manual.
+* **C)** Garanteix el domini i l'aprenentatge del desplegament de servidors gràfics (GPU) dedicats en exclusiva a renderitzar vectors matemàtics asíncrons.
+* **D)** Facilita aplicar tècniques de diversitat de programari utilitzant exclusivament màquines basades en processos analògics tancats i sense unitats de memòria virtual.
+
+**Tema 2. Arquitectura de CPU avançades**
+
+**Pregunta 1.** Quin és l'objectiu principal pel qual han evolucionat significativament les arquitectures de CPU modernes segons el document?
+* **A) (Correcta)** Per augmentar el rendiment i l'eficiència dels sistemes informàtics.
+* **B)** Per eliminar la dependència de les memòries cau L1 i L2, abaratint els costos de fabricació de les plaques base.
+* **C)** Per reduir exclusivament la latència de la memòria d'emmagatzematge secundària a través de controladors DMA.
+* **D)** Per unificar les arquitectures CISC i RISC en un únic estàndard de codi obert anomenat ARM64.
+
+**Pregunta 2.** Quina de les següents característiques defineix correctament l'arquitectura de processadors CISC (Complex Instruction Set Computer)?
+* **A) (Correcta)** Es caracteritza per tenir un conjunt d'instruccions ampli i complex, on cada instrucció pot realitzar múltiples operacions de baix nivell i trigar diversos cicles de rellotge.
+* **B)** Es basa en un conjunt reduït i petit d'instruccions, on cadascuna és simple i s'executa sempre en un únic cicle de rellotge.
+* **C)** Eludeix l'ús de la memòria principal (RAM) relegant totes les operacions lògiques als registres interns exclusius del Rellotge.
+* **D)** Està dissenyada exclusivament per a dispositius mòbils amb restriccions d'energia i sense capacitat d'executar el processament paral·lel.
+
+**Pregunta 3.** Quin exemple s'esmenta al text com a representant clàssic de la família d'arquitectura CISC en el mercat de la informàtica?
+* **A) (Correcta)** Les arquitectures x86 desenvolupades per empreses com Intel i AMD.
+* **B)** La família de processadors ARM Holdings dissenyada per a tauletes tàctils i telèfons intel·ligents.
+* **C)** Els sistemes de processament de senyals basats en l'arquitectura teòrica MISD.
+* **D)** Les unitats de processament gràfic (GPU) modernes utilitzades en la computació científica i vectorial.
+
+**Pregunta 4.** Quina premissa tècnica de disseny és la base de l'arquitectura RISC (Reduced Instruction Set Computer)?
+* **A) (Correcta)** Es basa en un conjunt d'instruccions petit, uniforme i reduït, on cada instrucció és simple i està dissenyada per executar-se ràpidament en un sol cicle de rellotge.
+* **B)** Es fomenta l'ús d'instruccions gegantines i complexes que, en un sol pas, poden carregar dades, sumar-les i emmagatzemar-les al disc dur rotacional.
+* **C)** Proposa eliminar l'etapa de descodificació (Decode) de la pipeline per evitar colls d'ampolla en entorns x64 i servidors web corporatius.
+* **D)** Assigna forçosament múltiples fils de dades a cada instrucció geomètrica, emulant el funcionament de les matrius SIMD pròpies de les GPU.
+
+**Pregunta 5.** Quin és l'objectiu general de la tècnica coneguda com a 'processament paral·lel' a les CPU avançades?
+* **A) (Correcta)** Permetre l'execució de múltiples operacions de forma simultània per tal d'augmentar el rendiment i la capacitat global del sistema.
+* **B)** Augmentar artificialment la freqüència en Hertzs del rellotge central apagant els nuclis inactius del processador.
+* **C)** Desviar les operacions logicomatemàtiques complexes exclusivament cap a la memòria cau de nivell 3 (L3) aïllant la Unitat Aritmètica (UAL).
+* **D)** Reemplaçar el controlador de memòria virtual per forçar una execució seqüencial contínua a través d'un únic flux de dades (SISD).
+
+**Pregunta 6.** Segons la Taxonomia de Flynn, quina arquitectura correspon a la classificació SISD (Single Instruction, Single Data)?
+* **A) (Correcta)** Un model on un únic flux d'instruccions opera sobre un únic flux de dades, com és el cas dels ordinadors tradicionals amb un sol processador.
+* **B)** Un sistema on múltiples instruccions completament diferents operen seqüencialment sobre un únic flux de dades procedent del mateix registre.
+* **C)** Una arquitectura on una única instrucció lògica s'aplica i opera de manera simultània i en paral·lel sobre múltiples elements de dades diferents.
+* **D)** Un disseny associat als clústers de computació en el qual múltiples processadors executen múltiples instruccions sobre fluxos de dades diversos alhora.
+
+**Pregunta 7.** Dins de la Taxonomia de Flynn, a quin model pertanyen les unitats de processament gràfic (GPU) o els processadors vectorials que acceleren el càlcul de matrius?
+* **A) (Correcta)** Al model SIMD (Single Instruction, Multiple Data), on una única instrucció opera simultàniament sobre múltiples dades.
+* **B)** Al model MISD (Multiple Instruction, Single Data), utilitzat gairebé exclusivament en antics microprocessadors CISC.
+* **C)** Al model SISD (Single Instruction, Single Data), atès que la GPU sempre processa una única instrucció gràfica per cada cicle seqüencial de rellotge.
+* **D)** Al model MIMD (Multiple Instruction, Multiple Data), el qual és l'únic format admès per l'arquitectura de memòria interna i de bus unificat von Neumann.
+
+**Pregunta 8.** Quina és l'estructura de funcionament que defineix el model MISD (Multiple Instruction, Single Data) segons les classificacions de la Taxonomia de Flynn?
+* **A) (Correcta)** Múltiples instruccions s'executen o operen sobre un únic flux de dades entrant, aplicant diferents processos a la mateixa dada (ex: sistemes de processament de senyals).
+* **B)** Una sola i única instrucció complexa actua repartint resultats logicomatemàtics sobre un conjunt enorme de dades o vectors independents.
+* **C)** Diversos processadors connectats en xarxa executen programes completament diferents intercanviant bases de dades a través de xarxes LAN d'Alta Disponibilitat.
+* **D)** El micro-nucli de l'equip unifica les memòries L1 i L2 perquè una instrucció escalar generi exclusivament processos per lots de caràcter seqüencial tancat.
+
+**Pregunta 9.** Quina classificació de la Taxonomia de Flynn encaixa perfectament amb l'arquitectura de sistemes multiprocessador contemporanis, com els clústers de computació i els servidors multi-core?
+* **A) (Correcta)** El model MIMD (Multiple Instruction, Multiple Data), on múltiples instruccions operen simultàniament sobre múltiples dades.
+* **B)** El model SISD (Single Instruction, Single Data), comú als antics entorns de terminals passius sense memòria ROM integrada a la placa base.
+* **C)** El model SIMD (Single Instruction, Multiple Data), que restringeix la màquina a avaluar vectors de geometria tridimensional sense accés d'usuaris.
+* **D)** El model RTOS (Real-Time Operating System), encarregat de bloquejar les interrupcions dels nodes esclaus fins que el clúster es sincronitzi en asíncron.
+
+**Pregunta 10.** Quina és la capacitat tècnica que distingeix un 'processador vectorial' front a un processador estrictament 'escalar'?
+* **A) (Correcta)** Els processadors vectorials tenen la capacitat de processar múltiples dades amb una sola instrucció (operant sobre vectors), mentre que els escalars executen una instrucció sobre un sol conjunt de dades per cicle.
+* **B)** El processador vectorial no requereix l'etapa de descodificació (Decode) del pipeline, permetent encadenar sumes en memòria virtual exclusivament.
+* **C)** Els processadors vectorials només funcionen en l'entorn de l'arquitectura x86, i els escalars estan restringits legalment als dissenys propis d'ARM64.
+* **D)** L'escalar utilitza memòria cau L3 asíncrona per obviar la latència de la xarxa, mentre el vectorial emmagatzema les operacions directament a la font d'alimentació UPS.
+
+**Pregunta 11.** Quin és el propòsit fonamental d'implementar la tècnica de 'Pipeline' (segmentació d'instruccions) en el disseny d'una CPU?
+* **A) (Correcta)** Divideix l'execució d'instruccions en diverses etapes independents, permetent que múltiples instruccions es processin simultàniament en diferents etapes del cicle, augmentant el rendiment global.
+* **B)** Agrupa diferents processadors físics per emular el funcionament seqüencial d'una arquitectura SISD clàssica a l'hora d'executar el sistema operatiu.
+* **C)** Tradueix de forma nativa el codi d'alt nivell directament a senyals elèctrics de la placa base, saltant-se per complet qualsevol etapa de descodificació.
+* **D)** Envia exclusivament les instruccions de coma flotant a la targeta gràfica externa per tal d'alliberar la càrrega de la memòria L1 interna.
+
+**Pregunta 12.** En una CPU amb un pipeline típic de 5 etapes, què passa específicament durant les etapes de 'Fetch' (Obtenció) i 'Decode' (Descodificació)?
+* **A) (Correcta)** A l'etapa Fetch s'extreu la instrucció des de la memòria, i a l'etapa Decode aquesta instrucció és descodificada per saber quina operació s'ha d'executar.
+* **B)** A l'etapa Fetch s'escriuen els resultats finals al registre, mentre que al Decode es valida la integritat matemàtica directament a la memòria secundària.
+* **C)** A l'etapa Fetch s'accedeix a la xarxa local LAN i al Decode es tradueixen els paquets d'Internet utilitzant el protocol asíncron TCP/IP.
+* **D)** A l'etapa Fetch s'emmagatzema l'adreça al disc dur mecànic i al Decode s'encripta la dada mitjançant el micro-nucli de seguretat del servidor.
+
+**Pregunta 13.** Dins de la jerarquia de memòries cau multinivell d'un processador modern, com es defineix i on se situa la Memòria Cau L1 (L1 Cache)?
+* **A) (Correcta)** És la memòria cau més ràpida i més petita del sistema, i es troba situada directament a l'interior del mateix nucli del processador per a un accés ultra ràpid.
+* **B)** És la memòria de suport més gran de l'arquitectura, utilitzada de manera exclusiva per gestionar l'arxiu d'intercanvi virtual (swap) del disc d'estat sòlid.
+* **C)** És una memòria de lectura mecànica secundària que s'encarrega de sincronitzar i compartir dades entre tots els nodes esclaus d'un clúster d'alt rendiment.
+* **D)** És un xip instal·lat a la targeta gràfica dedicat únicament a comunicar la GPU amb els dispositius d'entrada/sortida de l'escriptori.
+
+**Pregunta 14.** Quina és la característica distintiva de la Memòria Cau L3 en comparació amb els nivells L1 i L2?
+* **A) (Correcta)** És la més gran quant a capacitat i la més lenta de les memòries cau, i habitualment el seu espai es troba compartit entre múltiples nuclis del processador.
+* **B)** És l'única capa de memòria que l'usuari pot ampliar afegint mòduls de memòria RAM físics a les ranures d'expansió de la placa base.
+* **C)** És una memòria inalterable dedicada només a mantenir l'estat del Rellotge central quan es produeixen caigudes dràstiques de la tensió elèctrica.
+* **D)** Té la funció estricta i exclusiva de xifrar les connexions asíncrones de la xarxa local per protegir el nucli en les arquitectures MISD.
+
+**Pregunta 15.** Quines són les característiques principals que defineixen l'arquitectura x86, originalment desenvolupada per Intel?
+* **A) (Correcta)** És una família de microprocessadors de 32 bits amb un conjunt d'instruccions complex (CISC), àmpliament utilitzada en ordinadors personals i servidors, amb suport per a múltiples modes d'adreçament.
+* **B)** És un disseny de maquinari basat exclusivament en el joc d'instruccions reduït (RISC) de baix consum, orientat a dominar el mercat de la telefonia mòbil.
+* **C)** És una arquitectura purament vectorial dissenyada per processar acceleració 3D sense capacitat per executar operacions escalars de sistema operatiu.
+* **D)** És un estàndard de 64 bits de codi obert desenvolupat per ARM Holdings amb la finalitat de reduir l'escalfament termodinàmic de les targetes de xarxa.
+
+**Pregunta 16.** Quines millores tècniques essencials aporta l'arquitectura x64 (desenvolupada per Intel i AMD) respecte al tradicional x86?
+* **A) (Correcta)** És una extensió de 64 bits que amplia el conjunt d'instruccions de l'x86, permetent adreçar una quantitat de memòria molt més gran i proporcionant millores directes en rendiment i seguretat.
+* **B)** Elimina tota la complexitat del disseny CISC per adoptar el model de conjunts simples (RISC), aconseguint emular entorns mòbils als ordinadors de sobretaula antics.
+* **C)** Integra els discs durs a l'interior de la mateixa pastilla de la CPU per evitar del tot l'ús de la memòria RAM com a eina d'emmagatzematge principal.
+* **D)** Divideix l'ordinador en múltiples sistemes de placa base independents operant de forma obligatòria sota l'estàndard exclusiu de xarxa Fibre Channel d'alta velocitat.
+
+**Pregunta 17.** Per què l'arquitectura ARM ha esdevingut el disseny dominant i més utilitzat en dispositius mòbils (telèfons intel·ligents, tauletes) i sistemes embeguts?
+* **A) (Correcta)** Perquè està basada en RISC, la qual cosa ofereix un conjunt d'instruccions reduït que permet un disseny altament eficient en termes d'energia i baix consum de bateria.
+* **B)** Perquè el seu disseny CISC massiu incorpora operacions complexes que acceleren la representació gràfica pesada sense necessitar en absolut corrent elèctric directe.
+* **C)** Perquè obvia l'ús de la memòria RAM utilitzant únicament el registre d'estat de la Unitat Aritmètica per gestionar el sistema operatiu complet en viu.
+* **D)** Perquè té la capacitat d'escalar la seva freqüència de Rellotge fins a valors asíncrons extrems, mitjançant un sobreescalfament controlat dels busos d'adreces.
+
+**Pregunta 18.** Què representa l'arquitectura ARM64 i quins beneficis ofereix respecte a l'arquitectura ARM estàndard?
+* **A) (Correcta)** És una extensió de 64 bits d'ARM que amplia el seu conjunt d'instruccions per oferir un processament més ràpid i adreçar més memòria RAM, mantenint la seva característica eficiència energètica.
+* **B)** És l'adaptació forçosa d'ARM a les instruccions CISC exclusives d'Intel, eliminant les restriccions d'estalvi de bateria per aplicar-se únicament a grans mainframes industrials.
+* **C)** Transforma els telèfons mòbils en sistemes d'arquitectura purament MIMD, capaços de substituir completament l'ús de qualsevol GPU dedicada a la pantalla.
+* **D)** Redueix la mida global de l'adreçament a 16 bits per incrementar l'agilitat seqüencial dels missatges d'interrupció enviats pel controlador DMA de la xarxa.
+
+**Pregunta 19.** Segons la informació de tancament del document, quin és el temps d'aprenentatge estimat i el percentatge d'abast del Tema 2?
+* **A) (Correcta)** S'estima un temps d'aproximadament 15-20 hores d'estudi detallat per a la lectura, revisió i pràctica, cobrint prop del 95% dels conceptes essencials sobre arquitectures avançades.
+* **B)** Es requereixen un mínim de 50 hores ja que l'alumne ha d'aprendre obligatòriament a programar en assemblador els diferents nivells de la memòria cau L3 del servidor (abast del 100%).
+* **C)** Només comporta unes 3 hores i té un abast del 40%, ja que obvia completament l'explicació tècnica de les arquitectures x86 i s'enfoca únicament als commutadors (switches) de xarxa.
+* **D)** El document no fa referència a cap temps determinat atès que l'arquitectura RISC ja està descatalogada a nivell educatiu per la impossibilitat d'adreçar memòria virtual.
+
+**Pregunta 20.** A mode de conclusió final, de quina manera les arquitectures de conjunts d'instruccions (com CISC i RISC) han afectat la informàtica?
+* **A) (Correcta)** Han estat fonamentals i han influït de manera molt significativa en l'evolució del disseny, el rendiment superior i l'eficiència dels processadors moderns que utilitzem avui dia.
+* **B)** Han demostrat ser un obstacle a nivell pràctic, ja que han obligat a tots els fabricants a retrocedir cap a models de computació basats únicament en l'ús de processos escalars de la dècada de 1980.
+* **C)** L'aparició de la memòria cau multinivell les ha deixat sense efecte, forçant que els processadors processin exclusivament gràfics 3D directament als discos durs magnètics del sistema.
+* **D)** Han marcat l'inici de la decadència del processament paral·lel al restringir legalment qualsevol integració entre plataformes mòbils ARM i els sistemes embeguts lliures de la indústria.
+
+**Tema 3. Estructura del sistema d'entrada/sortida d'un computador**
+
+**Pregunta 1.** Quina és la funció principal del sistema d'entrada/sortida (E/S) dins de l'arquitectura d'un ordinador?
+* **A) (Correcta)** És el component clau que permet la interacció i gestiona les comunicacions i transferències de dades entre la CPU i els dispositius perifèrics externs.
+* **B)** És la memòria interna inalterable encarregada de subministrar energia elèctrica al rellotge de la placa base durant el procés d'arrencada del sistema.
+* **C)** Consisteix en una xarxa tancada que únicament permet dividir els nuclis de la Unitat Aritmètica per accelerar les instruccions de coma flotant.
+* **D)** És el micro-nucli de l'hipervisor de tipus 1 que s'activa únicament per emular el funcionament d'ordinadors d'arquitectura Harvard.
+
+**Pregunta 2.** Com defineix el document els 'Perifèrics' en el context informàtic?
+* **A) (Correcta)** Són dispositius externs connectats a un ordinador que permeten la interacció amb el món exterior, classificats principalment en entrada, sortida i emmagatzematge.
+* **B)** Són les particions virtuals ocultes del disc dur mecànic reservades exclusivament per desar la memòria de paginació i els arxius temporals.
+* **C)** Corresponen a les memòries cau multinivell (L1, L2, L3) incrustades directament dins de la pastilla de silici del processador central.
+* **D)** Són les instruccions de programari integrades a la memòria ROM que tradueixen els llenguatges de programació a codi màquina pur.
+
+**Pregunta 3.** Dins de la classificació de perifèrics, quina d'aquestes funcions correspon als 'Perifèrics d'emmagatzematge'?
+* **A) (Correcta)** Dispositius que permeten guardar dades de manera permanent o temporal, tant per a la seva lectura com per a la seva escriptura posterior (com discs durs i unitats flash).
+* **B)** Equips dissenyats exclusivament per transformar senyals elèctrics digitals en impulsos lluminosos vectorials projectats en pantalles 3D.
+* **C)** Components que actuen només com a pont de comunicació entre la xarxa LAN corporativa i l'entorn de virtualització de fitxers al núvol.
+* **D)** Dispositius encarregats de retenir l'estat del Rellotge de la CPU en cas de caiguda de tensió, utilitzant bateries d'ió liti de curta durada.
+
+**Pregunta 4.** Per què la CPU no es pot connectar ni comunicar directament amb els perifèrics de manera eficient sense un element intermediari?
+* **A) (Correcta)** Perquè els perifèrics tenen velocitats de transferència, formats de dades i mètodes d'operació molt diferents dels del processador i la memòria principal.
+* **B)** Atès que el sistema operatiu bloqueja qualsevol connexió física directa a la CPU per evitar que es vulnerin els protocols de xifratge quàntic extern.
+* **C)** Perquè els perifèrics només entenen instruccions programades sota el model d'arquitectura MISD, totalment incompatible amb el nucli del sistema.
+* **D)** Degut a què la memòria RAM SRAM no permet l'adreçament IP necessari per donar d'alta els dispositius USB a la xarxa local Ethernet.
+
+**Pregunta 5.** Quin element de maquinari fa d'interfície resolent la diferència de velocitats i formats entre el processador i un perifèric?
+* **A) (Correcta)** El Mòdul d'E/S (Controlador), que s'encarrega d'adaptar les senyals, controlar les transferències i actuar com a intèrpret entre la CPU i els dispositius externs.
+* **B)** La Unitat Aritmètica i Lògica (UAL), la qual tradueix forçosament totes les instruccions del teclat a un format de vector matemàtic de coma flotant.
+* **C)** L'arxiu de paginació (Swap) ubicat al sector zero del disc dur rotacional, que atura el sistema fins que el perifèric envia la contrasenya d'accés.
+* **D)** El sistema de refrigeració CRAC, el qual rebaixa la temperatura dels busos de dades per permetre que la informació viatgi més a poc a poc i se sincronitzi.
+
+**Pregunta 6.** A banda de la funció d'Interfície i Comunicació, quines altres dues funcions bàsiques desenvolupa el Mòdul d'E/S?
+* **A) (Correcta)** Actua com a Memòria d'emmagatzematge temporal (buffer) per ajustar velocitats i disposa de funcions de Detecció d'errors durant la transmissió de dades.
+* **B)** Exerceix la planificació d'algorismes Round Robin en la CPU i esborra els fitxers inactius mitjançant la compactació de la memòria externa.
+* **C)** Proporciona un aïllament d'adreces de xarxa encriptant tots els paquets TCP enviats cap al Middleware dels clústers de rendiment remot.
+* **D)** Actua dividint l'arquitectura del nucli de manera que la pantalla i la impressora utilitzin forçosament la memòria cau L3 sense permís del programari.
+
+**Pregunta 7.** En l'estructura d'interconnexió del computador, com es defineix el 'Bus de dades'?
+* **A) (Correcta)** És el conjunt de línies físiques dedicades exclusivament a transportar la informació útil (les dades reals) entre la CPU, la memòria i el mòdul d'E/S.
+* **B)** És el cablejat que s'utilitza només per connectar la font d'alimentació elèctrica amb la placa base per distribuir el voltatge corresponent als discos durs.
+* **C)** És el protocol lògic que envia senyals de reconeixement de xarxa (Heartbeat) cap a l'exterior de l'edifici per assegurar l'alta disponibilitat.
+* **D)** Constitueix una porció tancada de la memòria ROM dissenyada per emmagatzemar dades encriptades que el sistema llegeix durant la fase de l'arrencada inicial.
+
+**Pregunta 8.** Quina funció tècnica compleix el 'Bus d'adreces' durant una operació del sistema?
+* **A) (Correcta)** S'utilitza per transportar i especificar les adreces de memòria o les adreces dels ports d'E/S on s'ha de llegir o escriure la dada.
+* **B)** Té la funció de transmetre exclusivament la latència mecànica dels braços lectors dels discos durs magnètics cap a l'Acumulador del processador.
+* **C)** Aporta les rutes d'enllaç necessàries per connectar el node mestre del clúster amb els usuaris remots que demanen accés a la pàgina web corporativa.
+* **D)** Codifica els valors de la taula de paginació convertint-los en un registre alfanumèric comprensible només per la targeta d'adaptador de vídeo (GPU).
+
+**Pregunta 9.** Si la CPU necessita ordenar a un dispositiu que iniciï una lectura en lloc d'una escriptura, a través de quin bus envia aquesta instrucció d'ordre?
+* **A) (Correcta)** A través del 'Bus de control', que és el responsable de transportar els senyals de govern, sincronització i estat (com l'ordre de lectura/escriptura) per tota la placa.
+* **B)** Mitjançant el 'Bus asíncron de vídeo', reservat en exclusiva per separar les operacions matemàtiques de les instruccions direccionals dels perifèrics.
+* **C)** A través del 'Bus de redundància RAID', dissenyat per replicar ràpidament el codi d'ordre per assegurar que els sectors del disc no l'ignorin.
+* **D)** A través del 'Bus d'encriptació LUN', obligant que l'ordre passi abans pel tallafocs físic del maquinari abans d'arribar al ratolí o al teclat.
+
+**Pregunta 10.** En la tècnica de funcionament coneguda com a 'Sondeig' (Polling), com interactua la CPU amb el mòdul d'E/S?
+* **A) (Correcta)** La CPU s'encarrega de comprovar i llegir contínuament i de forma activa l'estat del dispositiu perifèric en un bucle fins que aquest està preparat per a la transferència.
+* **B)** La CPU s'atura completament, apagant els seus nuclis per estalviar energia i espera que el mòdul d'E/S reiniciï el sistema des de zero quan ha finalitzat.
+* **C)** El mòdul d'E/S usurpa les funcions del planificador del sistema, reordenant els processos de la memòria RAM segons el mètode d'assignació d'arxiu contigua.
+* **D)** La CPU delega el procés a la targeta de xarxa per tal de descarregar el controlador associat al dispositiu a través d'una connexió FTP externa i segura.
+
+**Pregunta 11.** Com millora el mètode basat en 'Interrupcions' l'eficiència general del processador en comparació amb el mètode de 'Sondeig' (Polling)?
+* **A) (Correcta)** El dispositiu perifèric envia un senyal a la CPU només quan requereix atenció, permetent que el processador dediqui el seu temps a executar altres tasques útils mentre espera.
+* **B)** Bloqueja completament la memòria secundària fins que l'usuari intervingui manualment a través de la línia de comandes per confirmar la seguretat de la transferència.
+* **C)** Assigna múltiples nuclis de processament gràfic a la mateixa instrucció de xarxa per evitar un possible desbordament de l'arxiu d'intercanvi de pàgines.
+* **D)** Converteix el bus de dades en un canal unidireccional d'alta velocitat que només accepta instruccions d'escriptura per lots (batch) per accelerar el disc.
+
+**Pregunta 12.** Què succeeix físicament i operativa immediatament després que la CPU rep un senyal d'interrupció vàlid provinent d'un dispositiu d'E/S?
+* **A) (Correcta)** La CPU atura la tasca actual, guarda l'estat del seu procés, i salta a executar una Rutina de Servei d'Interrupció (ISR) per atendre el dispositiu abans de reprendre la tasca anterior.
+* **B)** La CPU esborra immediatament la memòria cau L1 i reinicia l'adaptador de xarxa per assegurar que el paquet entrant no contingui codi maliciós d'execució o virus.
+* **C)** El sistema deriva l'operació completa al controlador de la targeta gràfica (GPU) perquè aquesta processi l'interrupció mitjançant l'arquitectura SIMD sense aturar el maquinari.
+* **D)** S'activa automàticament l'algorisme de planificació Round Robin per reordenar tots els sectors del disc dur mecànic abans d'acceptar llegir la nova dada entrant.
+
+**Pregunta 13.** Quina és la principal innovació i avantatge que introdueix la tecnologia de DMA (Accés Directe a Memòria) a l'arquitectura de l'ordinador?
+* **A) (Correcta)** Permet als dispositius transferir blocs sencers de dades directament de o cap a la memòria principal sense necessitar la intervenció de la CPU per a cada byte transferit.
+* **B)** Aconsegueix unificar de manera dinàmica totes les adreces lògiques i físiques del sistema en un únic directori arrel protegit per protocols d'encriptació asimètrica.
+* **C)** Elimina completament l'ús dels busos d'adreces i de control de la placa base, transmetent la informació exclusivament a través de connexions de ràdio sense fil de gran ample de banda.
+* **D)** Substitueix els controladors perifèrics d'entrada/sortida tradicionals per hipervisors virtualitzats que s'executen constantment a l'espai d'usuari (user space).
+
+**Pregunta 14.** En un escenari rutinari de transferència de dades massives utilitzant DMA, quin paper ha de jugar estrictament la Unitat Central de Processament (CPU)?
+* **A) (Correcta)** La CPU únicament s'encarrega d'iniciar la transferència enviant l'adreça d'inici i la mida del bloc al controlador DMA, i posteriorment rep una interrupció quan tota l'operació ha finalitzat.
+* **B)** La CPU ha de llegir i escriure de forma seqüencial i manual cadascun dels milions de bytes que formen l'arxiu directament als registres de la seva Unitat Aritmètica (UAL).
+* **C)** La CPU està obligada a congelar temporalment tots els processos del sistema operatiu per evitar que cap altre programa llegeixi la memòria RAM mentre el disc mecànic gira.
+* **D)** S'encarrega exclusivament de traduir de forma contínua les dades de format analògic a format digital utilitzant la memòria ROM durant tota la durada de la còpia de seguretat al servidor.
+
+**Pregunta 15.** Quina definició s'ajusta de forma més precisa a la figura dels 'Canals d'E/S' explicada dins de l'evolució de les tècniques d'entrada i sortida?
+* **A) (Correcta)** Són processadors especialitzats i independents que tenen el seu propi conjunt d'instruccions i que gestionen operacions d'E/S complexes de forma autònoma respecte a la CPU principal.
+* **B)** Són rutes físiques de fibra òptica encarregades exclusivament de connectar els diferents nuclis d'un processador domèstic multicore per tal de balancejar adequadament la seva càrrega tèrmica.
+* **C)** Són particions lògiques establertes dins del disc d'estat sòlid (SSD) dissenyades exclusivament per emmagatzemar còpies de seguretat redundants en temps real basant-se en l'estàndard RAID 1.
+* **D)** Fan referència pràctica als ports USB externs on l'usuari pot connectar lliurement dispositius d'emmagatzematge temporal sense la necessitat d'instal·lar prèviament controladors (drivers) al nucli.
+
+**Pregunta 16.** A quin tipus d'entorns o arquitectures informàtiques s'acostuma a destinar de forma històrica i pràctica la integració dels avançats 'Canals d'E/S'?
+* **A) (Correcta)** S'utilitzen fonamentalment en mainframes i grans servidors empresarials on és absolutament imperatiu gestionar de manera eficient múltiples dispositius d'E/S d'alta velocitat simultàniament.
+* **B)** Estan dissenyats específicament per optimitzar i reduir el consum de bateria en telèfons intel·ligents i dispositius de butxaca basats exclusivament en l'arquitectura RISC de baix consum energètic.
+* **C)** S'apliquen de manera exclusiva en ordinadors monousuari de generacions antigues que no disposaven de memòria RAM integrada i executaven els programes directament des de lectors de disquets.
+* **D)** Són propis de petits encaminadors de xarxa (routers) domèstics que només requereixen enviar paquets bàsics d'adreçament IP mitjançant l'algorisme de cua simple FIFO a la xarxa d'àrea local.
+
+**Pregunta 17.** Si el sistema operatiu ha de processar i carregar un fitxer de vídeo d'alta resolució des del disc dur cap a la memòria principal, per què el 'Sondeig' (Polling) seria una elecció ineficient i pèssima?
+* **A) (Correcta)** Perquè la CPU es passaria tot el temps tancada en un bucle d'espera comprovant contínuament si el disc està llest, malgastant un enorme potencial de càlcul que podria dedicar a l'execució d'altres processos actius.
+* **B)** Perquè el mètode de sondeig aturaria immediatament el rellotge de la placa base, provocant una caiguda forçosa i el tancament de tots els contenidors de programari associats a la memòria de paginació del sistema.
+* **C)** Perquè obligaria automàticament a comprimir el fitxer de vídeo en format de text pla abans que aquest pogués viatjar pel bus d'adreces, perdent tota la qualitat gràfica processada inicialment per la memòria cau L2.
+* **D)** Perquè el mètode de sondeig només està dissenyat a nivell de maquinari per permetre transferir dades cap als perifèrics de sortida, sent del tot impossible de base llegir cap dada procedent d'un dispositiu d'emmagatzematge.
+
+**Pregunta 18.** Segons descriu de manera exacta la taula resum del document, quina asseveració defineix la missió clau del component conegut com a 'Bus de control'?
+* **A) (Correcta)** És el bus encarregat de transportar els senyals de control necessaris per poder gestionar, coordinar i sincronitzar degudament totes les operacions d'E/S entre els components del sistema informàtic.
+* **B)** És el cablejat que condueix exclusivament els arxius de configuració del nucli (Kernel) cap a la targeta de xarxa per evitar possibles fraus d'identitat basats en la modificació d'adreces MAC.
+* **C)** És el sistema que manté constant la temperatura operativa del processador central mitjançant l'enviament continu de polsos elèctrics de freqüència variable als diferents ventiladors de l'equip local.
+* **D)** Consisteix en una àrea que emmagatzema de forma temporal els resultats de les operacions matemàtiques de l'Acumulador fins que l'usuari interactua de nou prement una tecla del perifèric d'entrada.
+
+**Pregunta 19.** A la secció de conclusions generals del Tema 3, què es destaca com a coneixement essencial i decisiu per dissenyar i optimitzar sistemes informàtics altament eficients?
+* **A) (Correcta)** Comprendre a fons les diferents tècniques de gestió d'E/S (sondeig, interrupcions, DMA i canals) i saber com es relacionen entre si, donat que cadascuna ofereix enfocaments diversos amb els seus propis avantatges i desavantatges.
+* **B)** Saber eliminar i prescindir per complet de qualsevol mena d'interrupció de maquinari a la placa base per forçar així l'ordinador a processar totes i cadascuna de les instruccions en un format rígid per lots d'execució seqüencial.
+* **C)** Adquirir i desplegar exclusivament perifèrics que operin basant-se en l'emmagatzematge per blocs de memòria, descartant oficialment qualsevol dispositiu d'entrada per caràcters per assegurar la integritat del protocol TCP/IP en xarxes LAN.
+* **D)** Unificar manualment els camins del bus de dades, el bus d'adreces i el bus de control per fondre'ls en un únic i exclusiu cable serial analògic, la qual cosa redueix de manera dràstica els costos de fabricació de les plaques base empresarials.
+
+**Pregunta 20.** Quina és l'estimació temporal i el percentatge de completesa teòrica indicats pel document referent a aquest bloc d'estudi sobre l'estructura d'Entrada/Sortida?
+* **A) (Correcta)** S'estima un temps d'aproximadament 20 hores d'estudi detallat i curós, establint que aquesta preparació abasta vora el 95% dels conceptes teòrics essencials relacionats amb els components i tècniques d'E/S del sistema.
+* **B)** S'hi indica un requeriment mínim de quaranta hores d'aprenentatge a l'aula atès que l'alumne ha d'aprendre necessàriament a programar de manera directa el firmware dels canals d'E/S fent ús exclusiu de llenguatge ensamblador de 64 bits.
+* **C)** Suposa de manera pràctica escassament unes dues hores de lectura de conceptes molt bàsics d'informàtica de consum, ja que actualment els sistemes DMA moderns es configuren de manera autònoma des del núvol i de forma totalment transparent a l'usuari.
+* **D)** El document omet especificar cap estimació de temps de manera explícita atès que la complexitat de gestió de les interrupcions i del bus PCI varia radicalment depenent de si el sistema s'executa allotjat en un disc SSD o en un antic model d'estat mecànic tancat.

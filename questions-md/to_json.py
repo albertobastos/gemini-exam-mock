@@ -11,7 +11,7 @@ def markdown_to_json(input_filepath, output_filepath):
     # Regular expressions to identify the different parts of the markdown
     topic_pattern = re.compile(r'^\*\*(Tema\s+.*?)\*\*$')
     # Captured group 1 is the question number, group 2 is the text
-    question_pattern = re.compile(r'^\*\*Pregunta\s+(\d+)\.\*\*\s+(.*)$')
+    question_pattern = re.compile(r'^\*\*Pregunta\s+(\d+)\.\s+(.*)\*\*$')
     answer_pattern = re.compile(r'^\*\s+\*\*([A-Z]\).*?)\*\*\s+(.*)$')
 
     def validate_question(q, q_num, topic):
