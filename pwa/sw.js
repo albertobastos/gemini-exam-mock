@@ -1,4 +1,4 @@
-const CACHE_NAME = 'exam-pwa-v2'; // Change this to v3, v4, etc. whenever you update the app!
+const CACHE_NAME = 'exam-pwa-v3'; // Change this to v3, v4, etc. whenever you update the app!
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
