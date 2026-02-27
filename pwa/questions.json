@@ -20442,5 +20442,5725 @@
         false
       ]
     ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina és la funció principal d'un Sistema de Gestió de Bases de Dades (SGBD)?",
+    "respostes": [
+      [
+        "Dissenyar la interfície gràfica d'una pàgina web.",
+        false
+      ],
+      [
+        "Proporcionar un entorn per emmagatzemar, recuperar i gestionar les dades de forma eficient, segura i consistent.",
+        true
+      ],
+      [
+        "Executar el codi binari directament al microprocessador.",
+        false
+      ],
+      [
+        "Netejar els fitxers temporals del navegador de l'usuari.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "En el model relacional, què representa una 'Taula' (o Relació)?",
+    "respostes": [
+      [
+        "Una connexió física entre el servidor i el disc dur.",
+        false
+      ],
+      [
+        "Una estructura de dades organitzada en files i columnes que conté informació sobre una entitat específica.",
+        true
+      ],
+      [
+        "Una llista de tiquets de suport oberts al Help Desk.",
+        false
+      ],
+      [
+        "El registre de logs del sistema operatiu host.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és una 'Clau Primària' (Primary Key)?",
+    "respostes": [
+      [
+        "La clau que obre la porta de la sala de servidors del CPD.",
+        false
+      ],
+      [
+        "Un atribut o conjunt d'atributs que identifica de manera única cada fila (tupla) d'una taula.",
+        true
+      ],
+      [
+        "Una etiqueta que indica que la base de dades és de codi obert.",
+        false
+      ],
+      [
+        "La contrasenya d'administrador del sistema gestor.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Per a què serveix una 'Clau Forana' (Foreign Key)?",
+    "respostes": [
+      [
+        "Per bloquejar l'accés a usuaris que no són de l'empresa.",
+        false
+      ],
+      [
+        "Per establir un vincle o relació entre dues taules, fent referència a la clau primària d'una altra taula.",
+        true
+      ],
+      [
+        "Per xifrar les dades que s'envien per una xarxa Extranet.",
+        false
+      ],
+      [
+        "Per accelerar les cerques de dades numèriques.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és l'objectiu principal de la 'Normalització' de bases de dades?",
+    "respostes": [
+      [
+        "Aconseguir que tots els noms de les taules estiguin en majúscules.",
+        false
+      ],
+      [
+        "Eliminar la redundància de dades i evitar anomalies en les operacions d'inserció, actualització i esborrat.",
+        true
+      ],
+      [
+        "Reduir el consum elèctric del servidor host segons el Green Computing.",
+        false
+      ],
+      [
+        "Convertir les dades de la base de dades a fitxers XML o JSON.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina regla defineix la 'Primera Forma Normal' (1FN)?",
+    "respostes": [
+      [
+        "Totes les taules han de tenir com a mínim deu columnes.",
+        false
+      ],
+      [
+        "Tots els atributs han de contenir valors atòmics (indivisibles) i no hi pot haver grups repetitius.",
+        true
+      ],
+      [
+        "La base de dades ha de estar instal·lada en un disc SSD.",
+        false
+      ],
+      [
+        "El protocol de comunicació ha de ser JDBC.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina condició s'afegeix en la 'Segona Forma Normal' (2FN)?",
+    "respostes": [
+      [
+        "Que la taula no contingui dades de text llarg.",
+        false
+      ],
+      [
+        "Que la taula estigui en 1FN i que cada atribut que no sigui clau depengui completament de tota la clau primària.",
+        true
+      ],
+      [
+        "Que les dades es guarden en un clúster d'alta disponibilitat.",
+        false
+      ],
+      [
+        "Que no hi hagi més de dues claus foranes per taula.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quan diem que una taula està en 'Tercera Forma Normal' (3FN)?",
+    "respostes": [
+      [
+        "Quan el sistema operatiu és de 64 bits.",
+        false
+      ],
+      [
+        "Quan està en 2FN i no existeixen dependències transitives (els atributs no clau només depenen de la clau primària).",
+        true
+      ],
+      [
+        "Quan totes les dades estan xifrades amb l'algorisme AES-256.",
+        false
+      ],
+      [
+        "Quan la base de dades s'ha copiat a la xarxa Intranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és la 'Forma Normal de Boyce-Codd' (BCNF)?",
+    "respostes": [
+      [
+        "Una versió simplificada de la 1FN per a bases de dades mòbils.",
+        false
+      ],
+      [
+        "Una versió més estricta de la 3FN que s'ocupa de taules amb múltiples claus candidates que es solapen.",
+        true
+      ],
+      [
+        "Un protocol de seguretat per a bases de dades de la CAIB.",
+        false
+      ],
+      [
+        "Una etiqueta Energy Star per a sistemes gestors de bases de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin benefici aporta seguir l'estàndard de bases de dades de la CAIB?",
+    "respostes": [
+      [
+        "Que el programari sigui més barat de comprar.",
+        false
+      ],
+      [
+        "Garantir la interoperabilitat, seguretat i coherència en la gestió de dades entre els diferents departaments de l'administració.",
+        true
+      ],
+      [
+        "Eliminar la necessitat de fer manteniment preventiu als servidors.",
+        false
+      ],
+      [
+        "Prohibir l'ús de qualsevol llenguatge que no sigui Java.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què s'entén per 'Integritat Referencial' en un SGBD relacional?",
+    "respostes": [
+      [
+        "Que el servidor mai s'apagui per error.",
+        false
+      ],
+      [
+        "Una regla que assegura que les relacions entre taules es mantenen consistents (no pot haver-hi una clau forana sense la seva primària corresponent).",
+        true
+      ],
+      [
+        "Que les dades de la base de dades només siguin llegibles pel cap de departament.",
+        false
+      ],
+      [
+        "L'obligació de fer servir el sistema de fitxers ext4.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què és una 'Tupla' en el context del model relacional?",
+    "respostes": [
+      [
+        "Una columna que defineix un tipus de dada.",
+        false
+      ],
+      [
+        "Una fila d'una taula, que representa un registre o instància concreta d'una entitat.",
+        true
+      ],
+      [
+        "Un tipus de cable de xarxa per connectar el clúster.",
+        false
+      ],
+      [
+        "Una interrupció de maquinari del bus d'adreces.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "En l'estàndard balear, com s'ha de gestionar l'accés a les dades?",
+    "respostes": [
+      [
+        "Donant accés total a tots els ciutadans per transparència.",
+        false
+      ],
+      [
+        "Mitjançant polítiques estrictes de seguretat, perfils d'usuari i auditoria d'accessos segons la normativa vigent.",
+        true
+      ],
+      [
+        "Guardant les contrasenyes en un fitxer de text pla al servidor web.",
+        false
+      ],
+      [
+        "Desactivant el tallafoc durant les hores d'oficina.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin és el desavantatge de tenir una base de dades 'Desnormalitzada'?",
+    "respostes": [
+      [
+        "Que les consultes de lectura són massa lentes.",
+        false
+      ],
+      [
+        "L'alt risc d'inconsistència de dades i l'augment innecessari de l'espai d'emmagatzematge per la redundància.",
+        true
+      ],
+      [
+        "Que el monitor del servidor s'escalfa massa.",
+        false
+      ],
+      [
+        "Que no es pot utilitzar el protocol TCP/IP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quina funció del SGBD permet recuperar la base de dades a un estat anterior en cas de fallada crítica?",
+    "respostes": [
+      [
+        "El diccionari de dades.",
+        false
+      ],
+      [
+        "El sistema de còpies de seguretat (Backup) i recuperació (Recovery).",
+        true
+      ],
+      [
+        "El traductor de SQL a Java.",
+        false
+      ],
+      [
+        "El monitor de Green Computing.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què representa un 'Atribut' en una taula relacional?",
+    "respostes": [
+      [
+        "El nom de la taula al disc dur.",
+        false
+      ],
+      [
+        "Una columna que defineix una propietat o característica de les dades emmagatzemades.",
+        true
+      ],
+      [
+        "El temps que el servidor triga a respondre a una consulta.",
+        false
+      ],
+      [
+        "Una etiqueta de seguretat per a la xarxa Extranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Quin tipus de relació es dóna quan un registre d'una taula A es relaciona amb un de sol d'una taula B?",
+    "respostes": [
+      [
+        "Relació Molts a Molts (N:M).",
+        false
+      ],
+      [
+        "Relació Un a Un (1:1).",
+        true
+      ],
+      [
+        "Relació Un a Molts (1:N).",
+        false
+      ],
+      [
+        "Relació Recursiva.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Per què és important el 'Diccionari de Dades' en un SGBD?",
+    "respostes": [
+      [
+        "Perquè l'usuari pugui cercar paraules en català mentre treballa.",
+        false
+      ],
+      [
+        "Perquè conté metadades que descriuen l'estructura, relacions i restriccions de tota la base de dades.",
+        true
+      ],
+      [
+        "Per guardar les dades personals dels empleats del Help Desk.",
+        false
+      ],
+      [
+        "Per configurar la velocitat del bus de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Segons l'estàndard de la CAIB, quina plataforma de base de dades és la referència corporativa?",
+    "respostes": [
+      [
+        "Bases de dades NoSQL basades en grafs.",
+        false
+      ],
+      [
+        "Sistemes de gestió de bases de dades relacionals (RDBMS) com Oracle o PostgreSQL.",
+        true
+      ],
+      [
+        "Fitxers de full de càlcul compartits en xarxa.",
+        false
+      ],
+      [
+        "Cintes magnètiques de lectura seqüencial.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 42. Els sistemes de gestió de bases de dades (I). El model relacional. Normalització. L'estàndard de bases de dades de la Comunitat Autònoma de les Illes Balears.",
+    "enunciat": "Què permet garantir el procés de normalització fins a la 3FN?",
+    "respostes": [
+      [
+        "Que la base de dades funcioni sense necessitat de memòria RAM.",
+        false
+      ],
+      [
+        "Una estructura neta, sense dades duplicades innecessàriament i preparada per a canvis futurs.",
+        true
+      ],
+      [
+        "Que el PUE del centre de dades sigui exactament 1.0.",
+        false
+      ],
+      [
+        "L'eliminació del nucli del sistema operatiu host.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què significa el terme 'NoSQL' en el context de les bases de dades modernes?",
+    "respostes": [
+      [
+        "Que està prohibit utilitzar el llenguatge SQL.",
+        false
+      ],
+      [
+        "'Not Only SQL', referint-se a sistemes que no utilitzen exclusivament el model relacional tradicional.",
+        true
+      ],
+      [
+        "Una base de dades que no requereix un sistema operatiu.",
+        false
+      ],
+      [
+        "Una base de dades que només funciona en el núvol (Cloud).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina és la principal necessitat que va impulsar el naixement de les bases de dades NoSQL?",
+    "respostes": [
+      [
+        "Reduir el preu de les llicències de programari.",
+        false
+      ],
+      [
+        "Gestionar grans volums de dades (Big Data), alta velocitat i dades no estructurades que el model relacional no podia manejar eficientment.",
+        true
+      ],
+      [
+        "Eliminar el paper del Project Manager en el desenvolupament.",
+        false
+      ],
+      [
+        "Facilitar l'ús de monitors de 8K al departament d'IT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Segons el 'Teorema CAP', quins són els tres atributs que un sistema distribuït intenta equilibrar?",
+    "respostes": [
+      [
+        "Cost, Abast i Temps.",
+        false
+      ],
+      [
+        "Consistència, Disponibilitat i Tolerància a la partició.",
+        true
+      ],
+      [
+        "CPU, RAM i Emmagatzematge.",
+        false
+      ],
+      [
+        "Seguretat, Usabilitat i Portabilitat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què significa que una base de dades NoSQL sigui 'Schema-less' (sense esquema)?",
+    "respostes": [
+      [
+        "Que no es pot dibuixar el seu disseny en un paper.",
+        false
+      ],
+      [
+        "Que no requereix una estructura fixa i predefinida per a les dades, permetent emmagatzemar documents amb diferents camps.",
+        true
+      ],
+      [
+        "Que les dades es guarden de forma aleatòria al disc dur.",
+        false
+      ],
+      [
+        "Que no es poden utilitzar claus primàries.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin tipus de base de dades NoSQL és el més simple i emmagatzema la informació com un conjunt d'identificadors únics i les seves dades associades?",
+    "respostes": [
+      [
+        "Basada en documents.",
+        false
+      ],
+      [
+        "Clau-Valor (Key-Value).",
+        true
+      ],
+      [
+        "Basada en grafs.",
+        false
+      ],
+      [
+        "Basada en columnes amples.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és el format més utilitzat per emmagatzemar dades en les 'Bases de Dades de Documents'?",
+    "respostes": [
+      [
+        "Fitxers .exe binaris.",
+        false
+      ],
+      [
+        "JSON o BSON.",
+        true
+      ],
+      [
+        "Taules de full de càlcul Excel.",
+        false
+      ],
+      [
+        "Codi font en llenguatge C.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin avantatge principal tenen les bases de dades de documents com MongoDB?",
+    "respostes": [
+      [
+        "Són les úniques que permeten fer servir el protocol SOAP.",
+        false
+      ],
+      [
+        "Ofereixen una gran flexibilitat per modelar dades complexes i jeràrquiques que canvien amb freqüència.",
+        true
+      ],
+      [
+        "Estan optimitzades per a microprocessadors de 8 bits.",
+        false
+      ],
+      [
+        "No consumeixen memòria RAM en repòs.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin tipus de base de dades NoSQL s'utilitza per gestionar relacions complexes entre entitats, com ara les xarxes socials?",
+    "respostes": [
+      [
+        "Clau-valor.",
+        false
+      ],
+      [
+        "Basada en Grafs.",
+        true
+      ],
+      [
+        "Columnar.",
+        false
+      ],
+      [
+        "Relacional de tipus 2.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quins són els dos elements bàsics que formen una 'Base de Dades de Grafs'?",
+    "respostes": [
+      [
+        "Taules i columnes.",
+        false
+      ],
+      [
+        "Nodes (entitats) i Arestes (relacions).",
+        true
+      ],
+      [
+        "Claves i atributs.",
+        false
+      ],
+      [
+        "Sectors i pistes magnètiques.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Per a què estan optimitzades les bases de dades de 'Columnes Amples' (Column-family)?",
+    "respostes": [
+      [
+        "Per llegir un sol registre molt ràpidament.",
+        false
+      ],
+      [
+        "Per realitzar consultes analítiques massives i escriure grans volums de dades de forma distribuïda.",
+        true
+      ],
+      [
+        "Per dissenyar interfícies d'usuari gràfiques.",
+        false
+      ],
+      [
+        "Per substituir la memòria cau L2.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què és l''Escalabilitat Horitzontal' en les bases de dades NoSQL?",
+    "respostes": [
+      [
+        "Comprar un servidor amb un monitor més ample.",
+        false
+      ],
+      [
+        "Augmentar la capacitat afegint més nodes (servidors) al sistema per treballar en conjunt.",
+        true
+      ],
+      [
+        "Instal·lar més memòria RAM en un únic servidor central.",
+        false
+      ],
+      [
+        "Girar els discs durs 90 graus per estalviar espai al rack.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què afirma el Teorema CAP sobre els sistemes distribuïts?",
+    "respostes": [
+      [
+        "Que es poden aconseguir els tres atributs simultàniament sense esforç.",
+        false
+      ],
+      [
+        "Que un sistema distribuït només pot garantir dos dels tres atributs alhora de forma òptima.",
+        true
+      ],
+      [
+        "Que les bases de dades NoSQL sempre són consistents al 100%.",
+        false
+      ],
+      [
+        "Que el protocol TCP/IP és incompatible amb NoSQL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és un cas d'ús ideal per a una base de dades 'Clau-valor' com Redis?",
+    "respostes": [
+      [
+        "Emmagatzemar tota la comptabilitat d'una gran empresa.",
+        false
+      ],
+      [
+        "Gestió de sessions d'usuari i memòria cau (caching) per a un alt rendiment.",
+        true
+      ],
+      [
+        "Analitzar rutes de transport entre ciutats.",
+        false
+      ],
+      [
+        "Crear manuals de procediments del Help Desk.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què defineix la 'Consistència Eventual' en moltes bases de dades NoSQL?",
+    "respostes": [
+      [
+        "Que les dades només es guarden si hi ha un esdeveniment especial.",
+        false
+      ],
+      [
+        "Que el sistema garanteix que, si no es fan noves actualitzacions, al final tots els nodes tindran la mateixa dada.",
+        true
+      ],
+      [
+        "Que la base de dades s'esborra cada nit per seguretat.",
+        false
+      ],
+      [
+        "Que el temps de resposta del servidor és sempre el mateix.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quina base de dades NoSQL és coneguda per ser de 'Columnes Amples'?",
+    "respostes": [
+      [
+        "MongoDB.",
+        false
+      ],
+      [
+        "Apache Cassandra o HBase.",
+        true
+      ],
+      [
+        "Neo4j.",
+        false
+      ],
+      [
+        "MySQL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és el principal desavantatge de les bases de dades NoSQL en comparació amb les relacionals?",
+    "respostes": [
+      [
+        "Són massa cares de mantenir per l'administració.",
+        false
+      ],
+      [
+        "Generalment no ofereixen el mateix nivell de transaccions ACID (Atomicitat, Consistència, Aïllament, Durabilitat).",
+        true
+      ],
+      [
+        "No permeten utilitzar llenguatges de programació com Java.",
+        false
+      ],
+      [
+        "Ocupen massa espai físic al centre de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Què s'entén per 'Partició' en el Teorema CAP?",
+    "respostes": [
+      [
+        "Dividir el disc dur en dues unitats lògiques C: i D:.",
+        false
+      ],
+      [
+        "Una fallada en la xarxa que impedeix la comunicació entre alguns nodes del clúster.",
+        true
+      ],
+      [
+        "El procés de repartir els tiquets del Help Desk entre els tècnics.",
+        false
+      ],
+      [
+        "L'esborrat segur de la memòria virtual.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Per què les bases de dades de 'Grafs' són eficients en la detecció de fraus?",
+    "respostes": [
+      [
+        "Perquè poden xifrar les dades millor que SQL.",
+        false
+      ],
+      [
+        "Per la seva capacitat per recórrer i analitzar relacions complexes i patrons sospitosos entre entitats en temps real.",
+        true
+      ],
+      [
+        "Perquè impedeixen que els usuaris externs es connectin a la Intranet.",
+        false
+      ],
+      [
+        "Perquè utilitzen el protocol de seguretat OLE.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Quin és un exemple popular de base de dades basada en 'Grafs'?",
+    "respostes": [
+      [
+        "Redis.",
+        false
+      ],
+      [
+        "Neo4j.",
+        true
+      ],
+      [
+        "CouchDB.",
+        false
+      ],
+      [
+        "Oracle DB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 43. Els sistemes de gestió de bases de dades (II). Bases de dades NoSQL. Conceptes generals. Tipus.",
+    "enunciat": "Segons les conclusions del Tema 43, l'elecció d'una base de dades NoSQL depèn de:",
+    "respostes": [
+      [
+        "La mida del microprocessador host del servidor.",
+        false
+      ],
+      [
+        "El model de dades, els requisits de rendiment, l'escalabilitat i el tipus de consistència necessària.",
+        true
+      ],
+      [
+        "El preu de la llicència del sistema operatiu Windows.",
+        false
+      ],
+      [
+        "La distància física entre el CPD i l'oficina del ciutadà.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què defineix exactament una 'Instància' de base de dades relacional?",
+    "respostes": [
+      [
+        "El conjunt de fitxers de dades emmagatzemats de forma permanent al disc dur.",
+        false
+      ],
+      [
+        "El conjunt d'estructures de memòria i processos de fons que gestionen l'accés a les dades mentre el sistema està en funcionament.",
+        true
+      ],
+      [
+        "Una còpia de seguretat completa realitzada en un dispositiu extern.",
+        false
+      ],
+      [
+        "El llenguatge SQL utilitzat per fer les consultes.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quin component de la instància s'encarrega d'emmagatzemar dades compartides, com el diccionari de dades i els blocs de dades llegits del disc?",
+    "respostes": [
+      [
+        "PGA (Program Global Area).",
+        false
+      ],
+      [
+        "SGA (System Global Area).",
+        true
+      ],
+      [
+        "Redo Log Buffer.",
+        false
+      ],
+      [
+        "L'intercanviador de processos (Dispatcher).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina és la funció dels 'Fitxers de Control' (Control Files) en una base de dades?",
+    "respostes": [
+      [
+        "Emmagatzemar les dades personals dels usuaris de l'administració.",
+        false
+      ],
+      [
+        "Mantenir la informació sobre l'estructura física de la base de dades, l'estat dels fitxers i els punts de control (checkpoints).",
+        true
+      ],
+      [
+        "Executar el codi Java dels Enterprise JavaBeans.",
+        false
+      ],
+      [
+        "Filtrar les peticions que arriben des de la xarxa Extranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina estructura física s'utilitza per registrar tots els canvis realitzats a la base de dades i permetre la recuperació en cas de fallada?",
+    "respostes": [
+      [
+        "Datafiles.",
+        false
+      ],
+      [
+        "Redo Log Files.",
+        true
+      ],
+      [
+        "Tempfiles.",
+        false
+      ],
+      [
+        "Arxius de configuració .ini.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "En la gestió de l'espai lògic, quina és la unitat més gran d'emmagatzematge que agrupa un o més fitxers de dades físics?",
+    "respostes": [
+      [
+        "Segment.",
+        false
+      ],
+      [
+        "Tablespace.",
+        true
+      ],
+      [
+        "Extent.",
+        false
+      ],
+      [
+        "Bloc de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què representa un 'Segment' dins de l'estructura lògica de la base de dades?",
+    "respostes": [
+      [
+        "Una partició física del disc dur del servidor.",
+        false
+      ],
+      [
+        "L'espai reservat per a un objecte específic de la base de dades, com ara una taula o un índex.",
+        true
+      ],
+      [
+        "Una línia de text dins del fitxer de logs.",
+        false
+      ],
+      [
+        "Un grup d'usuaris amb els mateixos permisos.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina és la unitat mínima d'E/S (Entrada/Sortida) amb la qual treballa el motor de la base de dades?",
+    "respostes": [
+      [
+        "El byte.",
+        false
+      ],
+      [
+        "El Bloc de dades (Data Block).",
+        true
+      ],
+      [
+        "L'extensió (Extent).",
+        false
+      ],
+      [
+        "El sector del disc dur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què s'entén per 'Privilegi de Sistema' en la gestió d'usuaris?",
+    "respostes": [
+      [
+        "El dret a veure les dades d'una taula concreta creada per un altre usuari.",
+        false
+      ],
+      [
+        "El dret a realitzar accions administratives a la base de dades, com crear taules, usuaris o connectar-se al sistema.",
+        true
+      ],
+      [
+        "El descompte que té el personal d'IT en la compra de maquinari.",
+        false
+      ],
+      [
+        "L'accés físic a la sala del centre de procés de dades (CPD).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quin mecanisme s'utilitza per agrupar un conjunt de privilegis i assignar-los de forma massiva a diversos usuaris?",
+    "respostes": [
+      [
+        "Perfil (Profile).",
+        false
+      ],
+      [
+        "Rol (Role).",
+        true
+      ],
+      [
+        "Esquema (Schema).",
+        false
+      ],
+      [
+        "Tablespace.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és un 'Privilegi d'Objecte'?",
+    "respostes": [
+      [
+        "El permís per reiniciar el servidor d'aplicacions Jakarta EE.",
+        false
+      ],
+      [
+        "El permís per realitzar accions específiques (SELECT, INSERT, UPDATE) sobre un objecte concret com una taula o vista.",
+        true
+      ],
+      [
+        "L'etiqueta Energy Star assignada a un microprocessador.",
+        false
+      ],
+      [
+        "El dret a modificar el fitxer de control de la instància.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Per què és crític aplicar 'Actualitzacions de Seguretat' (Critical Patch Updates) periòdicament?",
+    "respostes": [
+      [
+        "Perquè la base de dades ocupi menys espai al disc.",
+        false
+      ],
+      [
+        "Per corregir vulnerabilitats conegudes que podrien ser explotades per usuaris no autoritzats per accedir o danyar les dades.",
+        true
+      ],
+      [
+        "Per canviar la versió del llenguatge SQL a una més moderna.",
+        false
+      ],
+      [
+        "Per augmentar el cicle de rellotge de la CPU de forma artificial.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina estructura de memòria és privada per a cada procés de servidor i no es comparteix amb altres usuaris?",
+    "respostes": [
+      [
+        "SGA (System Global Area).",
+        false
+      ],
+      [
+        "PGA (Program Global Area).",
+        true
+      ],
+      [
+        "Buffer Cache.",
+        false
+      ],
+      [
+        "Shared Pool.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què succeeix quan un 'Tablespace' es queda sense espai lliure?",
+    "respostes": [
+      [
+        "El sistema operatiu Linux s'apaga per seguretat.",
+        false
+      ],
+      [
+        "No es poden realitzar noves insercions ni operacions que requereixin espai addicional en els objectes d'aquell tablespace.",
+        true
+      ],
+      [
+        "La base de dades esborra automàticament els registres més antics.",
+        false
+      ],
+      [
+        "El microprocessador host entra en mode de baix consum.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quina és la funció dels processos de fons (Background Processes) com el DBWn (Database Writer)?",
+    "respostes": [
+      [
+        "Escriure les consultes SQL que l'usuari tecleja al terminal.",
+        false
+      ],
+      [
+        "Escriure els blocs de dades modificats des de la memòria (SGA) cap als fitxers de dades al disc dur de forma asíncrona.",
+        true
+      ],
+      [
+        "Enviar correus electrònics al Project Manager en cas d'error.",
+        false
+      ],
+      [
+        "Netejar la pols de les targetes de xarxa físiques.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què defineix un 'Esquema' (Schema) de base de dades?",
+    "respostes": [
+      [
+        "El dibuix tècnic del rack on està instal·lat el servidor.",
+        false
+      ],
+      [
+        "La col·lecció d'objectes (taules, índexs, vistes) que pertanyen a un usuari concret.",
+        true
+      ],
+      [
+        "Una tècnica de virtualització de plataforma tipus hosted.",
+        false
+      ],
+      [
+        "El manual d'usuari del sistema de gestió de bases de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què és l''Auditoria' de base de dades?",
+    "respostes": [
+      [
+        "El procés de calcular el pressupost anual del departament d'IT.",
+        false
+      ],
+      [
+        "El seguiment i registre de les accions realitzades pels usuaris per garantir el compliment de les polítiques de seguretat.",
+        true
+      ],
+      [
+        "Una prova de benchmarking sintètic sobre el bus de dades.",
+        false
+      ],
+      [
+        "La mesura del PUE del centre de dades de tipus Tier III.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quin avantatge té utilitzar el 'Particionament' de taules en la gestió de l'espai lògic?",
+    "respostes": [
+      [
+        "Que les dades es guarden en fitxers XML més petits.",
+        false
+      ],
+      [
+        "Millorar el rendiment de les consultes i facilitar el manteniment en dividir taules grans en peces més petites i manejables.",
+        true
+      ],
+      [
+        "Eliminar la necessitat d'utilitzar claus primàries.",
+        false
+      ],
+      [
+        "Permetre que el sistema funcioni sense el protocol TCP/IP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Què garanteix el mecanisme d''Autenticació'?",
+    "respostes": [
+      [
+        "Que les dades estiguin sempre disponibles per a tothom.",
+        false
+      ],
+      [
+        "Verificar la identitat de l'usuari que intenta connectar-se a la base de dades (normalment mitjançant contrasenya).",
+        true
+      ],
+      [
+        "Que el programari sigui de tipus Green Computing.",
+        false
+      ],
+      [
+        "L'esborrat segur de la memòria cau L2.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Quin fitxer s'ha de protegir especialment perquè conté la llista de tots els canvis pendents d'escriure al disc en cas de caiguda de la instància?",
+    "respostes": [
+      [
+        "Fitxer de text .txt amb les notes del DBA.",
+        false
+      ],
+      [
+        "Online Redo Log.",
+        true
+      ],
+      [
+        "El manual de Mètrica v3.",
+        false
+      ],
+      [
+        "El log d'esdeveniments del navegador web.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 44. Administració de bases de dades relacionals (I). Instància de base de dades. Gestió de l'espai físic i lògic. Seguretat: gestió d´usuaris i permisos, actualitzacions de seguretat.",
+    "enunciat": "Segons el document, una bona administració de l'espai físic i lògic permet:",
+    "respostes": [
+      [
+        "Que el servidor pesi menys i sigui més fàcil de moure.",
+        false
+      ],
+      [
+        "Optimitzar el rendiment del sistema i assegurar que hi hagi recursos suficients per al creixement de les dades.",
+        true
+      ],
+      [
+        "Evitar l'ús de qualsevol tipus de xifratge de dades.",
+        false
+      ],
+      [
+        "Que els usuaris no hagin d'utilitzar el llenguatge SQL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què és el 'Tuning' o sintonització d'una base de dades relacional?",
+    "respostes": [
+      [
+        "El procés de pintar el servidor amb colors corporatius.",
+        false
+      ],
+      [
+        "L'ajustament dels components del sistema per millorar el rendiment i minimitzar els temps de resposta.",
+        true
+      ],
+      [
+        "L'esborrat de les dades més antigues per guanyar espai físic.",
+        false
+      ],
+      [
+        "La compra de noves llicències per a més usuaris.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Com ajuda l'ús d''Índexs' a l'optimització de les dades?",
+    "respostes": [
+      [
+        "Permet que les taules ocupin menys espai al disc dur.",
+        false
+      ],
+      [
+        "Accelera la recuperació de dades en evitar que el motor hagi de recórrer tota la taula (Full Table Scan) per trobar un registre.",
+        true
+      ],
+      [
+        "Canvia automàticament el tipus de dada de text a número.",
+        false
+      ],
+      [
+        "Protegeix la base de dades contra atacs de denegació de servei.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què és un 'Pla d'Execució' en l'optimització de consultes?",
+    "respostes": [
+      [
+        "Un cronograma d'activitats per a l'equip de desenvolupament.",
+        false
+      ],
+      [
+        "La seqüència de passos que l'optimitzador de la base de dades decideix seguir per executar una consulta SQL de la forma més eficient.",
+        true
+      ],
+      [
+        "El manual d'instal·lació del sistema gestor.",
+        false
+      ],
+      [
+        "Una llista de les sentències SQL més utilitzades pel Project Manager.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quin és l'objectiu de sintonitzar els paràmetres de memòria de la 'SGA' (System Global Area)?",
+    "respostes": [
+      [
+        "Reduir el voltatge de la memòria RAM per estalviar energia.",
+        false
+      ],
+      [
+        "Maximitzar l'ús de la memòria cau per reduir les operacions de lectura i escriptura físiques al disc dur, que són més lentes.",
+        true
+      ],
+      [
+        "Permetre que cada usuari tingui la seva pròpia còpia de la base de dades.",
+        false
+      ],
+      [
+        "Configurar el bus d'adreces per treballar en mode 32 bits.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què s'ha de revisar en l'optimització de paràmetres del 'Sistema Operatiu' per a una base de dades?",
+    "respostes": [
+      [
+        "El fons de pantalla de l'escriptori del servidor.",
+        false
+      ],
+      [
+        "La gestió del sistema de fitxers, els paràmetres del nucli (kernel), la memòria virtual i la planificació d'E/S.",
+        true
+      ],
+      [
+        "El nombre d'aplicacions ofimàtiques instal·lades.",
+        false
+      ],
+      [
+        "La versió del navegador d'Internet per defecte.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quina és la funció del 'Listener' en els serveis de xarxa d'una base de dades?",
+    "respostes": [
+      [
+        "Escuchar música mentre s'executen les consultes.",
+        false
+      ],
+      [
+        "Rebre i gestionar les peticions de connexió dels clients a través de la xarxa i dirigir-les a la instància correcta.",
+        true
+      ],
+      [
+        "Monitorar les trucades telefòniques del Help Desk.",
+        false
+      ],
+      [
+        "Traduir el codi SQL a llenguatge de signes.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quina és la principal diferència entre una 'Còpia de Seguretat Física' i una 'Lògica'?",
+    "respostes": [
+      [
+        "La física és per al programari i la lògica per al maquinari.",
+        false
+      ],
+      [
+        "La física copia els fitxers reals (datafiles, logs), mentre que la lògica exporta el contingut (taules, dades) mitjançant SQL.",
+        true
+      ],
+      [
+        "La lògica es fa només al núvol i la física en cintes.",
+        false
+      ],
+      [
+        "No hi ha cap diferència; són termes intercanviables.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què defineix una 'Còpia de Seguretat Incremental'?",
+    "respostes": [
+      [
+        "Una còpia que cada vegada és més gran que l'anterior.",
+        false
+      ],
+      [
+        "Una còpia que només emmagatzema les dades que han canviat des de l'última còpia de seguretat.",
+        true
+      ],
+      [
+        "Una còpia que es realitza mentre el microprocessador està en pic de càrrega.",
+        false
+      ],
+      [
+        "Una còpia que inclou exclusivament el diccionari de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quin paràmetre de recuperació defineix el temps màxim permès per restablir el servei després d'una fallada?",
+    "respostes": [
+      [
+        "RPO (Recovery Point Objective).",
+        false
+      ],
+      [
+        "RTO (Recovery Time Objective).",
+        true
+      ],
+      [
+        "PUE (Power Usage Effectiveness).",
+        false
+      ],
+      [
+        "SLA (Service Level Agreement).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què busca optimitzar l'estratègia de 'Particionament de Taules'?",
+    "respostes": [
+      [
+        "La quantitat d'usuaris que es poden connectar alhora.",
+        false
+      ],
+      [
+        "Millorar el rendiment de les consultes i la gestió de dades mitjançant la divisió física de taules molt grans en segments més petits.",
+        true
+      ],
+      [
+        "L'eliminació de la necessitat de fer servidors d'aplicacions.",
+        false
+      ],
+      [
+        "El xifratge de dades a la xarxa Intranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què és l''Optimitzador basat en Costos' (CBO)?",
+    "respostes": [
+      [
+        "Un programa que tria la base de dades més barata del mercat.",
+        false
+      ],
+      [
+        "Un component del motor que avalua diferents camins d'execució i tria el que té un cost de recursos (CPU, I/O) més baix segons les estadístiques.",
+        true
+      ],
+      [
+        "Un sensor que mesura el consum elèctric del CPD.",
+        false
+      ],
+      [
+        "El responsable de compres del departament d'IT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què s'entén per 'Hot Backup' (Còpia en calent)?",
+    "respostes": [
+      [
+        "Una còpia de seguretat que s'ha escalfat per l'ús intensiu del disc.",
+        false
+      ],
+      [
+        "Una còpia de seguretat que es realitza mentre la base de dades està oberta i disponible per als usuaris.",
+        true
+      ],
+      [
+        "Una còpia de seguretat que només es pot fer a l'estiu.",
+        false
+      ],
+      [
+        "El reinici forçós de la instància durant un procés d'escriptura.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Per a què serveixen els 'Arxius Redo Log' en mode ARCHIVELOG?",
+    "respostes": [
+      [
+        "Per guardar fotos de l'equip de sistemes.",
+        false
+      ],
+      [
+        "Per permetre la recuperació de la base de dades fins al moment exacte de la fallada (Point-in-Time Recovery).",
+        true
+      ],
+      [
+        "Per augmentar la velocitat del protocol TCP/IP.",
+        false
+      ],
+      [
+        "Per configurar el tallafoc de l'Extranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quina és la funció de la sentència SQL 'EXPLAIN PLAN'?",
+    "respostes": [
+      [
+        "Explicar a l'usuari com ha d'escriure la seva contrasenya.",
+        false
+      ],
+      [
+        "Mostrar el pla d'execució que l'optimitzador seguiria per a una consulta determinada sense arribar a executar-la.",
+        true
+      ],
+      [
+        "Esborrar les dades que no compleixen la normalització.",
+        false
+      ],
+      [
+        "Reiniciar el procés de fons DBWn.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quina configuració de xarxa permet repartir les peticions de connexió entre diverses instàncies de base de dades?",
+    "respostes": [
+      [
+        "RAID 10.",
+        false
+      ],
+      [
+        "Load Balancing (Equilibrament de càrrega).",
+        true
+      ],
+      [
+        "Virtualització tipus hosted.",
+        false
+      ],
+      [
+        "Connexió per cable serie.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què és el 'RPO' (Recovery Point Objective)?",
+    "respostes": [
+      [
+        "La velocitat de lectura del disc dur SSD.",
+        false
+      ],
+      [
+        "La quantitat màxima de dades (mesurada en temps) que l'organització està disposada a perdre en cas de fallada.",
+        true
+      ],
+      [
+        "El punt físic on es guarden les cintes de backup.",
+        false
+      ],
+      [
+        "L'objectiu de rendiment del processador host.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quin avantatge té una 'Còpia de Seguretat Diferencial' respecte a la Incremental?",
+    "respostes": [
+      [
+        "És molt més ràpida de realitzar cada dia.",
+        false
+      ],
+      [
+        "Simplifica la restauració, ja que només es necessita la darrera còpia completa i la darrera diferencial.",
+        true
+      ],
+      [
+        "No requereix espai al disc dur secundari.",
+        false
+      ],
+      [
+        "Es pot fer sense utilitzar el sistema operatiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Què s'ha de fer amb les 'Estadístiques' de la base de dades per a un bon rendiment?",
+    "respostes": [
+      [
+        "Amagar-les perquè ningú sàpiga quants errors hi ha.",
+        false
+      ],
+      [
+        "Mantenir-les actualitzades periòdicament perquè l'optimitzador pugui prendre decisions basades en la realitat de les dades.",
+        true
+      ],
+      [
+        "Enviar-les per correu electrònic a tots els ciutadans de les Illes Balears.",
+        false
+      ],
+      [
+        "Esborrar-les cada vegada que es reinicia el servidor.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Quin paràmetre del S.O. afecta directament a la capacitat de la base de dades per gestionar molts usuaris simultanis?",
+    "respostes": [
+      [
+        "El format de l'hora del rellotge del sistema.",
+        false
+      ],
+      [
+        "El límit de fitxers oberts (open files) i els semàfors de memòria compartida del kernel.",
+        true
+      ],
+      [
+        "El color dels cables de xarxa categoria 6.",
+        false
+      ],
+      [
+        "La mida de la paperera de reciclatge.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45. Administració de bases de dades relacionals (II). Rendiment:optimització de dades, de consultes, de paràmetres de la base de dades, de paràmetres del sistema operatiu. Serveis de xarxa. Còpia de seguretat (backup).",
+    "enunciat": "Segons el document, l'estratègia de Backup s'ha de:",
+    "respostes": [
+      [
+        "Deixar en mans de l'atzar i la bona sort.",
+        false
+      ],
+      [
+        "Planificar, automatitzar i, sobretot, provar periòdicament per garantir que les dades es poden recuperar realment.",
+        true
+      ],
+      [
+        "Realitzar només quan el servidor treu fum.",
+        false
+      ],
+      [
+        "Delegar exclusivament al proveïdor de Cloud Computing sense supervisió.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què garanteixen les propietats ACID en un sistema de base de dades?",
+    "respostes": [
+      [
+        "Que el sistema sigui ecològic (Green Computing).",
+        false
+      ],
+      [
+        "La fiabilitat de les transaccions: Atomicitat, Consistència, Aïllament (Isolation) i Durabilitat.",
+        true
+      ],
+      [
+        "Que les dades es guarden en format XML de forma nativa.",
+        false
+      ],
+      [
+        "La velocitat de connexió entre el client i el Listener.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quin fenomen de concurrència es produeix quan una transacció llegeix dades modificades per una altra que encara no ha fet 'commit'?",
+    "respostes": [
+      [
+        "Lectura no repetible (Non-repeatable read).",
+        false
+      ],
+      [
+        "Lectura bruta (Dirty read).",
+        true
+      ],
+      [
+        "Lectura fantasma (Phantom read).",
+        false
+      ],
+      [
+        "Bloqueig mutu (Deadlock).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què és un 'Deadlock' o bloqueig mutu?",
+    "respostes": [
+      [
+        "Una fallada física del disc dur que impedeix l'arrencada.",
+        false
+      ],
+      [
+        "Una situació on dues transaccions s'esperen mútuament per l'alliberament de recursos, impedint que cap de les dues avanci.",
+        true
+      ],
+      [
+        "El tancament de la sessió d'usuari per inactivitat.",
+        false
+      ],
+      [
+        "Un protocol de xifratge d'extrema seguretat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quina és la funció d'un 'Índex de Mapa de Bits' (Bitmap Index)?",
+    "respostes": [
+      [
+        "Guardar fotografies i imatges .bmp dins de la base de dades.",
+        false
+      ],
+      [
+        "Millorar el rendiment en columnes amb baixa cardinalitat (pocs valors diferents, com 'Sexe' o 'Estat Civil').",
+        true
+      ],
+      [
+        "Mapejar la posició física dels servidors al CPD.",
+        false
+      ],
+      [
+        "Substituir les claus primàries en taules grans.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què representa el nivell d'aïllament 'Serializable'?",
+    "respostes": [
+      [
+        "Que les dades es guarden en una cinta de lectura sèrie.",
+        false
+      ],
+      [
+        "El nivell més alt d'aïllament, on les transaccions s'executen com si fossin seqüencials, evitant qualsevol anomalia de concurrència.",
+        true
+      ],
+      [
+        "Que la base de dades només admet connexions per port sèrie.",
+        false
+      ],
+      [
+        "Un format de compressió de dades per a backups.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quina diferència hi ha entre un 'Truncate' i un 'Delete' en SQL?",
+    "respostes": [
+      [
+        "Són exactament el mateix.",
+        false
+      ],
+      [
+        "'Delete' esborra files una a una i genera logs de desfer (undo), mentre que 'Truncate' és una operació DDL més ràpida que buida la taula sense generar logs per cada fila.",
+        true
+      ],
+      [
+        "'Truncate' només funciona en bases de dades NoSQL.",
+        false
+      ],
+      [
+        "'Delete' requereix permisos de sistema i 'Truncate' no.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què és un 'Tablespace de desfer' (Undo Tablespace)?",
+    "respostes": [
+      [
+        "Un espai per guardar fitxers que l'administrador vol eliminar.",
+        false
+      ],
+      [
+        "Un espai on es guarden les versions anteriors de les dades modificades per permetre el 'Rollback' i la consistència de lectura.",
+        true
+      ],
+      [
+        "Una zona de memòria cau L3 del microprocessador.",
+        false
+      ],
+      [
+        "El lloc on es guarden els manuals del SGBD.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què permet la tecnologia 'Data Guard' o similars de replicació?",
+    "respostes": [
+      [
+        "Protegir el monitor del servidor contra radiacions.",
+        false
+      ],
+      [
+        "Mantenir una o més bases de dades en espera (Standby) sincronitzades per a recuperació davant desastres o alta disponibilitat.",
+        true
+      ],
+      [
+        "Validar que l'usuari no escrigui caràcters prohibits.",
+        false
+      ],
+      [
+        "Xifrar el tràfic de la xarxa Intranet amb el protocol OLE.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quina és la utilitat d'una 'Vista Materialitzada' (Materialized View)?",
+    "respostes": [
+      [
+        "Mostrar les dades en format 3D al navegador.",
+        false
+      ],
+      [
+        "Emmagatzemar físicament el resultat d'una consulta complexa per millorar el rendiment en aplicacions analítiques (Data Warehousing).",
+        true
+      ],
+      [
+        "Veure el contingut de la memòria RAM en temps real.",
+        false
+      ],
+      [
+        "Substituir els fitxers de control de la instància.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què succeeix durant un 'Checkpoint' a la base de dades?",
+    "respostes": [
+      [
+        "El sistema demana la contrasenya a tots els usuaris connectats.",
+        false
+      ],
+      [
+        "El procés de fons sincronitza la memòria amb el disc, forçant l'escriptura dels blocs bruts (dirty blocks) als fitxers de dades.",
+        true
+      ],
+      [
+        "Es realitza una còpia de seguretat diferencial automàtica.",
+        false
+      ],
+      [
+        "El servidor web Apache es reinicia per aplicar pegats.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què és el 'Log Mining'?",
+    "respostes": [
+      [
+        "L'extracció de criptomonedes utilitzant la potència del SGBD.",
+        false
+      ],
+      [
+        "La tècnica d'analitzar els Redo Logs per reconstruir canvis o auditar accions passades a la base de dades.",
+        true
+      ],
+      [
+        "Una etiqueta de Green Computing per reduir fitxers de text.",
+        false
+      ],
+      [
+        "El procés d'esborrar els logs d'esdeveniments del Help Desk.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què permet la 'Injecció de SQL' (SQL Injection) com a amenaça de seguretat?",
+    "respostes": [
+      [
+        "Injectar més memòria RAM al servidor mitjançant codi.",
+        false
+      ],
+      [
+        "Manipular les consultes de l'aplicació inserint codi SQL maliciós per accedir a dades no autoritzades.",
+        true
+      ],
+      [
+        "Netejar els virus de la base de dades automàticament.",
+        false
+      ],
+      [
+        "Accelerar l'execució de les sentències SELECT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quina és la funció de la clàusula 'GROUP BY' amb 'HAVING'?",
+    "respostes": [
+      [
+        "Agrupar usuaris de la CAIB per departament físic.",
+        false
+      ],
+      [
+        "Agrupar registres i aplicar un filtre sobre el resultat de les funcions d'agregació (com SUM o AVG).",
+        true
+      ],
+      [
+        "Ordenar la sortida del fitxer de control.",
+        false
+      ],
+      [
+        "Crear un clúster d'alta disponibilitat actiu/actiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què defineix el concepte de 'Sharding' en bases de dades?",
+    "respostes": [
+      [
+        "El xifratge de dades mitjançant claus compartides.",
+        false
+      ],
+      [
+        "Una tècnica de particionament horitzontal on les dades es distribueixen entre múltiples servidors independents per millorar l'escalabilitat.",
+        true
+      ],
+      [
+        "L'ús de discs durs de diferents marques en un sol RAID.",
+        false
+      ],
+      [
+        "La fragmentació del disc dur SSD.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què és un 'Cursor' en el context de la programació de bases de dades (PL/SQL o T-SQL)?",
+    "respostes": [
+      [
+        "La fletxa del ratolí que utilitza el DBA.",
+        false
+      ],
+      [
+        "Un punter a una àrea de memòria on es guarda el conjunt de resultats d'una consulta per ser processats fila a fila.",
+        true
+      ],
+      [
+        "Un sensor que mesura la càrrega de la xarxa Extranet.",
+        false
+      ],
+      [
+        "Una etiqueta per identificar la clau primària.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quina és la utilitat d'un 'Trigger' (Disparador)?",
+    "respostes": [
+      [
+        "Aturar la base de dades immediatament en cas d'incendi al CPD.",
+        false
+      ],
+      [
+        "Executar automàticament un bloc de codi en resposta a un esdeveniment (INSERT, UPDATE, DELETE) sobre una taula.",
+        true
+      ],
+      [
+        "Iniciar la còpia de seguretat incremental cada diumenge.",
+        false
+      ],
+      [
+        "Validar la llicència del sistema operatiu host.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què s'entén per 'Encapsulament' en utilitzar Procediments Emmagatzemats (Stored Procedures)?",
+    "respostes": [
+      [
+        "Guardar el servidor en una caixa estanca per evitar la humitat.",
+        false
+      ],
+      [
+        "Agrupar lògica de negoci dins de la base de dades, millorant la seguretat i reduint el tràfic de xarxa.",
+        true
+      ],
+      [
+        "Xifrar les taules amb protocols de capa 7.",
+        false
+      ],
+      [
+        "Utilitzar el format JSON per emmagatzemar el codi Java.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què és la 'Consistència de Lectura' (Read Consistency)?",
+    "respostes": [
+      [
+        "Que tots els usuaris llegeixen a la mateixa velocitat de bits.",
+        false
+      ],
+      [
+        "Garantir que una consulta veu una versió coherent de les dades tal com estaven en el moment de començar la consulta.",
+        true
+      ],
+      [
+        "L'obligació d'utilitzar l'estàndard de la CAIB per a la lectura.",
+        false
+      ],
+      [
+        "L'esborrat de la memòria cau L2 abans de cada SELECT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Quin tipus de còpia de seguretat permet recuperar dades eliminades accidentalment fa unes hores sense restaurar tot el sistema (tecnologia Flashback)?",
+    "respostes": [
+      [
+        "Còpia de seguretat diferencial freda.",
+        false
+      ],
+      [
+        "Recuperació basada en el temps o 'Flashback Query' utilitzant segments de desfer.",
+        true
+      ],
+      [
+        "Exportació lògica a fitxer .csv.",
+        false
+      ],
+      [
+        "Còpia de seguretat incremental de nivell 0.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 45b. Preguntes extra d'administració de bases de dades relacionatls.",
+    "enunciat": "Què mesura el 'Hit Ratio' de la memòria cau de la biblioteca (Library Cache)?",
+    "respostes": [
+      [
+        "El nombre de cops que un programador encerta la sintaxi SQL.",
+        false
+      ],
+      [
+        "El percentatge de vegades que una sentència SQL ja compilada es troba en memòria sense haver de tornar-la a analitzar (parsing).",
+        true
+      ],
+      [
+        "La probabilitat de fallada d'un sector del disc dur.",
+        false
+      ],
+      [
+        "L'èxit en l'aplicació de parches de seguretat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Què signifiquen les sigles SQL?",
+    "respostes": [
+      [
+        "System Query Logic.",
+        false
+      ],
+      [
+        "Structured Query Language.",
+        true
+      ],
+      [
+        "Simple Queue List.",
+        false
+      ],
+      [
+        "Standard Query Layout.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin subllenguatge de l'SQL s'utilitza per definir, modificar o eliminar l'estructura dels objectes de la base de dades?",
+    "respostes": [
+      [
+        "DML.",
+        false
+      ],
+      [
+        "DDL (Data Definition Language).",
+        true
+      ],
+      [
+        "DCL.",
+        false
+      ],
+      [
+        "TCL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DDL s'utilitza per crear una nova taula a la base de dades?",
+    "respostes": [
+      [
+        "NEW TABLE.",
+        false
+      ],
+      [
+        "CREATE TABLE.",
+        true
+      ],
+      [
+        "ADD TABLE.",
+        false
+      ],
+      [
+        "INSERT TABLE.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Per a què serveix el comandament 'ALTER' dins del DDL?",
+    "respostes": [
+      [
+        "Per esborrar totes les dades d'una taula.",
+        false
+      ],
+      [
+        "Per modificar l'estructura d'un objecte existent, com afegir o eliminar columnes d'una taula.",
+        true
+      ],
+      [
+        "Per canviar el nom d'un usuari del sistema.",
+        false
+      ],
+      [
+        "Per modificar el contingut d'una fila específica.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina és la funció del comandament 'DROP'?",
+    "respostes": [
+      [
+        "Aturar la base de dades momentàniament.",
+        false
+      ],
+      [
+        "Eliminar permanentment un objecte (com una taula o un índex) i tota la seva estructura de la base de dades.",
+        true
+      ],
+      [
+        "Esborrar les dades però mantenir l'estructura de la taula.",
+        false
+      ],
+      [
+        "Desconnectar un usuari que està provocant bloquejos.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina és la diferència principal entre 'TRUNCATE' i 'DELETE' (sense clàusula WHERE)?",
+    "respostes": [
+      [
+        "Són idèntics en funcionament i rendiment.",
+        false
+      ],
+      [
+        "TRUNCATE és un comandament DDL que buida la taula ràpidament sense generar logs per cada fila, mentre que DELETE és DML i és més lent.",
+        true
+      ],
+      [
+        "TRUNCATE permet recuperar les dades amb un ROLLBACK i DELETE no.",
+        false
+      ],
+      [
+        "DELETE elimina la taula de la base de dades i TRUNCATE no.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin subllenguatge s'encarrega de la recuperació i modificació de la informació continguda a les taules?",
+    "respostes": [
+      [
+        "DDL.",
+        false
+      ],
+      [
+        "DML (Data Manipulation Language).",
+        true
+      ],
+      [
+        "DCL.",
+        false
+      ],
+      [
+        "XML.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DML és el més utilitzat i serveix per extreure dades d'una o més taules?",
+    "respostes": [
+      [
+        "EXTRACT.",
+        false
+      ],
+      [
+        "SELECT.",
+        true
+      ],
+      [
+        "GET.",
+        false
+      ],
+      [
+        "FETCH.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Per a què serveix el comandament 'INSERT'?",
+    "respostes": [
+      [
+        "Per crear una columna nova en una taula existent.",
+        false
+      ],
+      [
+        "Per afegir noves files (registres) de dades a una taula.",
+        true
+      ],
+      [
+        "Per injectar codi Java al motor de la base de dades.",
+        false
+      ],
+      [
+        "Per actualitzar els permisos d'un usuari.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament s'utilitza per modificar els valors de les dades que ja existeixen en una taula?",
+    "respostes": [
+      [
+        "CHANGE.",
+        false
+      ],
+      [
+        "UPDATE.",
+        true
+      ],
+      [
+        "MODIFY.",
+        false
+      ],
+      [
+        "FIX.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina precaució s'ha de tenir sempre en utilitzar el comandament 'DELETE'?",
+    "respostes": [
+      [
+        "Cap, el sistema sempre demana confirmació.",
+        false
+      ],
+      [
+        "Utilitzar la clàusula WHERE per evitar esborrar tots els registres de la taula accidentalment.",
+        true
+      ],
+      [
+        "Tancar la sessió del Listener abans d'executar-lo.",
+        false
+      ],
+      [
+        "Que el servidor estigui en mode de baix consum.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin subllenguatge de l'SQL s'utilitza per gestionar els permisos i la seguretat dels usuaris?",
+    "respostes": [
+      [
+        "DML.",
+        false
+      ],
+      [
+        "DCL (Data Control Language).",
+        true
+      ],
+      [
+        "DDL.",
+        false
+      ],
+      [
+        "HTML.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DCL s'utilitza per donar permisos a un usuari sobre un objecte?",
+    "respostes": [
+      [
+        "GIVE.",
+        false
+      ],
+      [
+        "GRANT.",
+        true
+      ],
+      [
+        "ALLOW.",
+        false
+      ],
+      [
+        "PERMIT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina és la funció del comandament 'REVOKE'?",
+    "respostes": [
+      [
+        "Cancel·lar una transacció que ha donat error.",
+        false
+      ],
+      [
+        "Eliminar o retirar permisos que havien estat concedits prèviament a un usuari o rol.",
+        true
+      ],
+      [
+        "Expulsar un usuari de la xarxa Intranet.",
+        false
+      ],
+      [
+        "Esborrar la clau primària d'una taula.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quina paraula clau s'utilitza en un SELECT per eliminar els duplicats dels resultats?",
+    "respostes": [
+      [
+        "UNIQUE.",
+        false
+      ],
+      [
+        "DISTINCT.",
+        true
+      ],
+      [
+        "SINGLE.",
+        false
+      ],
+      [
+        "DIFFERENT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "En una sentència SELECT, quina clàusula s'utilitza per filtrar els resultats basant-se en una condició?",
+    "respostes": [
+      [
+        "HAVING.",
+        false
+      ],
+      [
+        "WHERE.",
+        true
+      ],
+      [
+        "FILTER.",
+        false
+      ],
+      [
+        "IF.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament DDL s'executa implícitament després de la majoria d'operacions d'estructura en molts motors (com Oracle), fent que no es pugui desfer?",
+    "respostes": [
+      [
+        "ROLLBACK.",
+        false
+      ],
+      [
+        "COMMIT.",
+        true
+      ],
+      [
+        "SAVEPOINT.",
+        false
+      ],
+      [
+        "EXIT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Per a què serveix la clàusula 'ORDER BY'?",
+    "respostes": [
+      [
+        "Per demanar un cafè al servei de càtering del CPD.",
+        false
+      ],
+      [
+        "Per ordenar els resultats d'una consulta de forma ascendent o descendent.",
+        true
+      ],
+      [
+        "Per establir l'ordre de prioritat dels tiquets del Help Desk.",
+        false
+      ],
+      [
+        "Per organitzar els fitxers físics al disc dur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "El comandament 'UPDATE' pot utilitzar la clàusula 'WHERE'?",
+    "respostes": [
+      [
+        "No, és exclusivament per al SELECT.",
+        false
+      ],
+      [
+        "Sí, i és fonamental per especificar quines files concretes s'han de modificar.",
+        true
+      ],
+      [
+        "Només si la taula té una clau primària de tipus text.",
+        false
+      ],
+      [
+        "Només en bases de dades NoSQL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Segons el document, quina és la combinació ideal per gestionar una base de dades?",
+    "respostes": [
+      [
+        "Utilitzar només DML per no complicar l'estructura.",
+        false
+      ],
+      [
+        "L'ús coordinat de DDL per a l'estructura, DML per a la informació i DCL per a la seguretat.",
+        true
+      ],
+      [
+        "Delegar tota la feina al Project Manager sense utilitzar SQL.",
+        false
+      ],
+      [
+        "Utilitzar fitxers XML en lloc de taules relacionals.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Si necessites afegir una columna nova anomenada 'telefon' a una taula d'usuaris ja existent, quin tipus de llenguatge estàs fent servir?",
+    "respostes": [
+      [
+        "DDL (Data Definition Language), perquè estàs modificant l'estructura de l'objecte amb un ALTER.",
+        true
+      ],
+      [
+        "DML (Data Manipulation Language), perquè estàs manipulant les dades de la taula.",
+        false
+      ],
+      [
+        "DCL (Data Control Language), perquè estàs controlant el contingut del sistema.",
+        false
+      ],
+      [
+        "TCL (Transaction Control Language).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "El comandament 'REVOKE' pertany al grup DCL perquè la seva funció principal és:",
+    "respostes": [
+      [
+        "Esborrar dades errònies que l'usuari ha introduït per error.",
+        false
+      ],
+      [
+        "Gestionar la seguretat eliminant privilegis o permisos prèviament concedits a un usuari o rol.",
+        true
+      ],
+      [
+        "Definir nous índexs de base de dades per accelerar les cerques.",
+        false
+      ],
+      [
+        "Desfer una transacció incompleta abans de tancar la sessió.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin d'aquests comandaments NO forma part del subllenguatge DDL?",
+    "respostes": [
+      [
+        "CREATE.",
+        false
+      ],
+      [
+        "DROP.",
+        false
+      ],
+      [
+        "UPDATE.",
+        true
+      ],
+      [
+        "TRUNCATE.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quan executes un 'INSERT INTO...', estàs treballant amb DML perquè:",
+    "respostes": [
+      [
+        "Estàs creant una nova estructura física de dades al disc dur.",
+        false
+      ],
+      [
+        "Estàs manipulant el contingut (les files) de la base de dades, no la seva definició estructural.",
+        true
+      ],
+      [
+        "Estàs definint el tipus de dada que pot contenir cada fila.",
+        false
+      ],
+      [
+        "Estàs donant permís d'escriptura a un usuari específic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "El comandament 'TRUNCATE' sovint es confon amb DML perquè buida dades, però realment és DDL. Per què?",
+    "respostes": [
+      [
+        "Perquè esborra les dades de forma molt lenta i segura.",
+        false
+      ],
+      [
+        "Perquè buida l'objecte a nivell d'estructura de dades i sol realitzar un commit implícit que no es pot desfer amb rollback.",
+        true
+      ],
+      [
+        "Perquè requereix permisos de visualització de l'esquema de dades.",
+        false
+      ],
+      [
+        "Perquè és un comandament que només s'aplica a nivell de sistema operatiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Si vols permetre que l'usuari 'Joan' pugui fer consultes a la taula 'FACTURES', quin comandament i categoria utilitzaràs?",
+    "respostes": [
+      [
+        "ALTER TABLE (categoria DDL).",
+        false
+      ],
+      [
+        "INSERT (categoria DML).",
+        false
+      ],
+      [
+        "GRANT (categoria DCL).",
+        true
+      ],
+      [
+        "SELECT (categoria DML).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "El subllenguatge DML s'encarrega exclusivament de:",
+    "respostes": [
+      [
+        "Definir els tablespaces i fitxers físics de la base de dades.",
+        false
+      ],
+      [
+        "El tractament de les dades: lectura (SELECT), inserció, modificació i eliminació d'informació.",
+        true
+      ],
+      [
+        "El control d'accés concurrent i bloquejos de seguretat.",
+        false
+      ],
+      [
+        "La creació inicial d'usuaris, perfils i rols del sistema.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Quin comandament s'ha d'utilitzar per eliminar completament una taula (tant les dades com la seva definició) de la base de dades?",
+    "respostes": [
+      [
+        "DELETE (és un comandament DML).",
+        false
+      ],
+      [
+        "DROP (és un comandament DDL).",
+        true
+      ],
+      [
+        "REVOKE (és un comandament DCL).",
+        false
+      ],
+      [
+        "REMOVE (és un comandament DML).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "Dins de l'SQL, el comandament 'SELECT' es classifica com a DML perquè:",
+    "respostes": [
+      [
+        "Defineix quines columnes són visibles per a tothom.",
+        false
+      ],
+      [
+        "Serveix per recuperar i manipular la manera com es presenten les dades emmagatzemades.",
+        true
+      ],
+      [
+        "Permet canviar el nom de les taules en temps real.",
+        false
+      ],
+      [
+        "Gestiona els permisos de lectura dels objectes de l'esquema.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 46. El llenguatge SQL: DDL, DCL i DML.",
+    "enunciat": "En un examen, si veus un comandament que fa referència a \"privilegis\", \"permisos\" o \"seguretat d'accés\", l'has de classificar com:",
+    "respostes": [
+      [
+        "DDL (Data Definition).",
+        false
+      ],
+      [
+        "DML (Data Manipulation).",
+        false
+      ],
+      [
+        "DCL (Data Control Language).",
+        true
+      ],
+      [
+        "DQL (Data Query Language).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és la finalitat principal de la gestió i l'arxivament electrònic de documents?",
+    "respostes": [
+      [
+        "Eliminar tots els documents en paper per estalviar espai físic immediatament.",
+        false
+      ],
+      [
+        "Garantir la integritat, l'autenticitat, la conservació i l'accés eficient a la documentació digital al llarg del seu cicle de vida.",
+        true
+      ],
+      [
+        "Convertir tots els fitxers de l'organització a format d'imatge .jpg.",
+        false
+      ],
+      [
+        "Publicar tota la documentació interna a les xarxes socials de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què signifiquen les sigles 'DMS'?",
+    "respostes": [
+      [
+        "Data Management Server.",
+        false
+      ],
+      [
+        "Document Management System (Sistema de Gestió Documental).",
+        true
+      ],
+      [
+        "Digital Media Storage.",
+        false
+      ],
+      [
+        "Direct Message Service.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina funcionalitat d'un DMS permet saber qui ha modificat un document i recuperar-ne una versió anterior?",
+    "respostes": [
+      [
+        "L'indexació semàntica.",
+        false
+      ],
+      [
+        "El control de versions (Versioning).",
+        true
+      ],
+      [
+        "El flux de treball (Workflow).",
+        false
+      ],
+      [
+        "El diccionari de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és un 'Workflow' o flux de treball en el context d'un DMS?",
+    "respostes": [
+      [
+        "El recorregut físic que fa el tècnic de Help Desk per l'oficina.",
+        false
+      ],
+      [
+        "L'automatització dels processos de negoci on els documents passen d'un participant a un altre segons regles definides.",
+        true
+      ],
+      [
+        "La velocitat de transferència de fitxers entre servidors.",
+        false
+      ],
+      [
+        "Una tècnica d'arxivament en cintes magnètiques.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "En què es diferencia principalment un 'CMS' (Content Management System) d'un DMS?",
+    "respostes": [
+      [
+        "El CMS només serveix per a bases de dades NoSQL.",
+        false
+      ],
+      [
+        "El CMS està més orientat a la creació, gestió i publicació de continguts digitals, especialment per a webs i portals.",
+        true
+      ],
+      [
+        "El DMS no permet l'arxivament de fitxers PDF i el CMS sí.",
+        false
+      ],
+      [
+        "El CMS és una eina exclusiva de maquinari Apple.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és un exemple popular de CMS de codi obert utilitzat per a la gestió de continguts web?",
+    "respostes": [
+      [
+        "Oracle DB.",
+        false
+      ],
+      [
+        "WordPress o Drupal.",
+        true
+      ],
+      [
+        "Microsoft Excel.",
+        false
+      ],
+      [
+        "Adobe Photoshop.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què s'entén per 'Metadades' en la gestió documental?",
+    "respostes": [
+      [
+        "Dades que s'han esborrat del disc dur però que encara es poden recuperar.",
+        false
+      ],
+      [
+        "Dades sobre les dades: informació estructurada que descriu el context, contingut i estructura del document (autor, data, títol).",
+        true
+      ],
+      [
+        "Un protocol de xarxa per enviar fitxers JSON.",
+        false
+      ],
+      [
+        "El resum de les llicències de programari utilitzades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "En els sistemes de recuperació d'informació, què és la 'Precisió' (Precision)?",
+    "respostes": [
+      [
+        "La velocitat en mil·lisegons que triga a carregar la pàgina de resultats.",
+        false
+      ],
+      [
+        "La proporció de documents recuperats que són realment rellevants per a la cerca de l'usuari.",
+        true
+      ],
+      [
+        "El nombre total de documents que conté la base de dades.",
+        false
+      ],
+      [
+        "La mida exacta en bytes del document recuperat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què mesura l''Exhaustivitat' (Recall) en una cerca documental?",
+    "respostes": [
+      [
+        "El nivell de cansament de l'usuari després de buscar informació.",
+        false
+      ],
+      [
+        "La capacitat del sistema per trobar tots els documents rellevants que existeixen en el fons documental.",
+        true
+      ],
+      [
+        "L'espai que ocupa l'índex al disc dur.",
+        false
+      ],
+      [
+        "El nombre de paraules clau utilitzades en la consulta.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és un 'Índex Invertit' en els sistemes d'indexació?",
+    "respostes": [
+      [
+        "Un índex on les paraules estan escrites al revés per seguretat.",
+        false
+      ],
+      [
+        "Una estructura que mapeja cada paraula o terme amb la llista de documents on apareix, accelerant les cerques de text.",
+        true
+      ],
+      [
+        "Una llista de documents ordenats de l'últim al primer.",
+        false
+      ],
+      [
+        "Un mètode de compressió de dades per a imatges .tiff.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina tècnica d'indexació utilitza una funció matemàtica per assignar una posició fixa a una clau i accedir-hi de forma gairebé instantània?",
+    "respostes": [
+      [
+        "Arbre B (B-Tree).",
+        false
+      ],
+      [
+        "Hashing.",
+        true
+      ],
+      [
+        "Cerca seqüencial.",
+        false
+      ],
+      [
+        "Arxiu cronològic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és la principal utilitat dels 'Arbres B' (B-Trees) en la indexació de la informació?",
+    "respostes": [
+      [
+        "Dibuixar l'organigrama de l'empresa.",
+        false
+      ],
+      [
+        "Mantenir les dades ordenades i permetre cerques, insercions i esborrats eficients en estructures jeràrquiques.",
+        true
+      ],
+      [
+        "Guardar les dades en servidors situats a l'exterior (jardins).",
+        false
+      ],
+      [
+        "Classificar els documents segons el color de la carpeta.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què permet la 'Recuperació Semàntica'?",
+    "respostes": [
+      [
+        "Recuperar documents que s'han escrit amb faltes d'ortografia.",
+        false
+      ],
+      [
+        "Trobar informació basada en el significat i el context de les paraules, no només en la coincidència exacta de caràcters.",
+        true
+      ],
+      [
+        "Traduir automàticament els documents al català.",
+        false
+      ],
+      [
+        "Cercar documents utilitzant el protocol OLE.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quina és una funcionalitat clau de seguretat en un DMS corporatiu?",
+    "respostes": [
+      [
+        "Que només es pugui accedir als documents en horari d'oficina.",
+        false
+      ],
+      [
+        "La gestió de permisos d'accés (qui pot llegir, editar o esborrar) i l'auditoria de logs d'accés.",
+        true
+      ],
+      [
+        "Que tots els documents estiguin guardats en una memòria USB externa.",
+        false
+      ],
+      [
+        "L'eliminació del protocol TCP/IP per evitar hackejos.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què s'entén per 'Captura de documents' en un sistema DMS?",
+    "respostes": [
+      [
+        "Fer fotos als empleats mentre treballen amb els documents.",
+        false
+      ],
+      [
+        "El procés d'incorporar documents al sistema, ja sigui mitjançant l'escaneig d'originals en paper o la importació de fitxers digitals.",
+        true
+      ],
+      [
+        "L'atrapament de virus informàtics dins d'un fitxer .zip.",
+        false
+      ],
+      [
+        "El bloqueig d'un document perquè ningú més el pugui llegir.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "En l'arxivament electrònic, què és la 'Preservació Digital'?",
+    "respostes": [
+      [
+        "Guardar els servidors en una sala amb aire condicionat.",
+        false
+      ],
+      [
+        "El conjunt d'estratègies (com la migració o l'emulació) per garantir que els documents siguin llegibles en el futur malgrat l'obsolescència tecnològica.",
+        true
+      ],
+      [
+        "Fer fotocòpies de seguretat de tots els CD-ROMs.",
+        false
+      ],
+      [
+        "Utilitzar el format de fitxer .doc en lloc del .docx.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin és el benefici de la 'Cerca de Text Complet' (Full-text search)?",
+    "respostes": [
+      [
+        "Que el sistema t'obliga a llegir tot el text abans de tancar-lo.",
+        false
+      ],
+      [
+        "Permet trobar documents cercant qualsevol paraula continguda dins del cos del text, no només en el títol o les metadades.",
+        true
+      ],
+      [
+        "Que el document ocupa tota la pantalla del monitor.",
+        false
+      ],
+      [
+        "L'eliminació de la necessitat de fer índexs.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Què és l'OCR (Reconeixement Òptic de Caràcters)?",
+    "respostes": [
+      [
+        "Un sistema de vigilància per càmeres al centre de dades.",
+        false
+      ],
+      [
+        "Tecnologia que converteix el text d'una imatge o document escanejat en text editable i cercable.",
+        true
+      ],
+      [
+        "Un mètode de correcció ortogràfica automàtica en Java.",
+        false
+      ],
+      [
+        "Un protocol de transmissió de dades sense fils.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Quin component del CMS permet als usuaris sense coneixements tècnics crear contingut web?",
+    "respostes": [
+      [
+        "El compilador de C++.",
+        false
+      ],
+      [
+        "L'editor WYSIWYG (What You See Is What You Get).",
+        true
+      ],
+      [
+        "El terminal de línia de comandes (CLI).",
+        false
+      ],
+      [
+        "El gestor de particions del disc dur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 47. Gestió i arxivament electrònic de documents. Sistemes de gestió documental (DMS). Sistemes de gestió de continguts (CMS). Sistemes de recuperació. Sistemes d'indexació de la informació.",
+    "enunciat": "Segons el document, la indexació de la informació és essencial perquè:",
+    "respostes": [
+      [
+        "Fa que els fitxers siguin més petits i ocupin menys espai.",
+        false
+      ],
+      [
+        "Sense índexs, la recuperació d'informació en grans volums de dades seria extremadament lenta i ineficient.",
+        true
+      ],
+      [
+        "Protegeix els documents contra l'esborrat accidental.",
+        false
+      ],
+      [
+        "Permet que el sistema funcioni sense necessitat d'utilitzar metadades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la funció principal dels sistemes 'OLTP' (Online Transaction Processing)?",
+    "respostes": [
+      [
+        "Analitzar tendències de mercat dels últims 10 anys.",
+        false
+      ],
+      [
+        "Gestionar les operacions i transaccions quotidianes d'una organització en temps real (vendes, inventari, etc.).",
+        true
+      ],
+      [
+        "Crear gràfics complexos per al director general.",
+        false
+      ],
+      [
+        "Emmagatzemar dades massives provinents de sensors de Big Data.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "En què es diferencia principalment l''OLAP' (Online Analytical Processing) de l'OLTP?",
+    "respostes": [
+      [
+        "L'OLAP és més ràpid per escriure dades noves a la base de dades.",
+        false
+      ],
+      [
+        "L'OLAP està optimitzat per a consultes complexes i anàlisi multidimensional de dades històriques.",
+        true
+      ],
+      [
+        "L'OLAP no utilitza servidors, funciona només al navegador.",
+        false
+      ],
+      [
+        "L'OLAP només serveix per gestionar el correu electrònic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un 'Cub OLAP'?",
+    "respostes": [
+      [
+        "Una peça de maquinari en forma de cub que es posa al rack.",
+        false
+      ],
+      [
+        "Una estructura de dades que permet visualitzar la informació des de múltiples perspectives o dimensions (temps, regió, producte).",
+        true
+      ],
+      [
+        "Un mètode de xifratge de dades per a la xarxa Intranet.",
+        false
+      ],
+      [
+        "Un clúster de servidors disposats en forma geomètrica.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la utilitat d'un sistema 'EIS' (Executive Information System)?",
+    "respostes": [
+      [
+        "Facilitar la feina dels programadors de Java.",
+        false
+      ],
+      [
+        "Proporcionar als alts executius un accés ràpid i fàcil a informació crítica resumida mitjançant indicadors clau (KPIs).",
+        true
+      ],
+      [
+        "Gestionar el manteniment preventiu del centre de dades.",
+        false
+      ],
+      [
+        "Automatitzar l'obertura de tiquets al Help Desk.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què defineix un sistema 'DSS' (Decision Support System)?",
+    "respostes": [
+      [
+        "Un sistema que pren les decisions automàticament sense intervenció humana.",
+        false
+      ],
+      [
+        "Una eina interactiva que ajuda els gestors a analitzar dades i simular escenaris per donar suport a la presa de decisions no estructurades.",
+        true
+      ],
+      [
+        "Un protocol de seguretat per a xarxes Extranet.",
+        false
+      ],
+      [
+        "Un sistema d'esborrat segur de dades al disc dur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un 'Data Warehouse' (Magatzem de Dades)?",
+    "respostes": [
+      [
+        "Una nau física on la CAIB guarda els servidors antics.",
+        false
+      ],
+      [
+        "Un dipòsit centralitzat de dades integrades de diverses fonts, dissenyat específicament per a l'anàlisi i la generació d'informes.",
+        true
+      ],
+      [
+        "Una base de dades NoSQL basada en grafs per a xarxes socials.",
+        false
+      ],
+      [
+        "Un programa per comprimir fitxers XML.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin procés s'encarrega de moure les dades des dels sistemes font cap al Data Warehouse?",
+    "respostes": [
+      [
+        "TCP/IP.",
+        false
+      ],
+      [
+        "ETL (Extracció, Transformació i Càrrega).",
+        true
+      ],
+      [
+        "HTML5.",
+        false
+      ],
+      [
+        "RAID 5.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un 'Data Mart'?",
+    "respostes": [
+      [
+        "Un supermercat on es venen llicències de programari.",
+        false
+      ],
+      [
+        "Una versió especialitzada i reduïda d'un Data Warehouse, centrada en una àrea o departament específic (com vendes o recursos humans).",
+        true
+      ],
+      [
+        "Una etiqueta de Green Computing per a bases de dades.",
+        false
+      ],
+      [
+        "Un sensor per mesurar el tràfic de la xarxa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la finalitat de la 'Mineria de Dades' (Data Mining)?",
+    "respostes": [
+      [
+        "Extreure minerals rars dels components electrònics vells.",
+        false
+      ],
+      [
+        "Descobrir patrons, relacions i coneixement ocult en grans volums de dades utilitzant tècniques estadístiques i d'IA.",
+        true
+      ],
+      [
+        "Netejar la base de dades de registres duplicats manualment.",
+        false
+      ],
+      [
+        "Configurar el firewall per evitar atacs externs.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina tècnica de Data Mining s'utilitza per predir un valor numèric futur basant-se en dades històriques?",
+    "respostes": [
+      [
+        "Agrupament (Clustering).",
+        false
+      ],
+      [
+        "Regressió.",
+        true
+      ],
+      [
+        "Associació.",
+        false
+      ],
+      [
+        "Indexació invertida.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què caracteritza el concepte de 'Big Data' segons la regla de les 3V (o més)?",
+    "respostes": [
+      [
+        "Valor, Virtualització i Velocitat.",
+        false
+      ],
+      [
+        "Volum, Velocitat i Varietat.",
+        true
+      ],
+      [
+        "Voltatge, Ventilació i Vapor.",
+        false
+      ],
+      [
+        "Verificació, Versatilitat i Visibilitat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què s'entén per la 'Varietat' en Big Data?",
+    "respostes": [
+      [
+        "Que hi ha servidors de moltes marques diferents.",
+        false
+      ],
+      [
+        "La diversitat de tipus de dades: estructurades, semi-estructurades (XML, JSON) i no estructurades (vídeo, àudio, text lliure).",
+        true
+      ],
+      [
+        "El nombre de llenguatges de programació que coneix l'equip.",
+        false
+      ],
+      [
+        "La varietat de preus de les llicències de programari.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "En l'arquitectura d'un Data Warehouse, on es troben les dades abans de ser carregades definitivament?",
+    "respostes": [
+      [
+        "A la memòria cau L2 del microprocessador.",
+        false
+      ],
+      [
+        "A l'àrea d'estatge (Staging Area).",
+        true
+      ],
+      [
+        "Al navegador web de l'usuari final.",
+        false
+      ],
+      [
+        "A la paperera de reciclatge del servidor.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina tècnica de Data Mining agrupa objectes similars en grups sense tenir categories predefinides?",
+    "respostes": [
+      [
+        "Classificació.",
+        false
+      ],
+      [
+        "Agrupament o Clúster (Clustering).",
+        true
+      ],
+      [
+        "Regla d'associació.",
+        false
+      ],
+      [
+        "Resum de metadades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina tecnologia és molt popular per al processament distribuït de Big Data en clústers de servidors?",
+    "respostes": [
+      [
+        "Microsoft Access.",
+        false
+      ],
+      [
+        "Apache Hadoop o Spark.",
+        true
+      ],
+      [
+        "Adobe Flash.",
+        false
+      ],
+      [
+        "Notepad++.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Per què els sistemes OLAP solen utilitzar un disseny en 'Estrella' o 'Floc de neu'?",
+    "respostes": [
+      [
+        "Perquè les dades es vegin més boniques a la pantalla.",
+        false
+      ],
+      [
+        "Per optimitzar les consultes analítiques, separant els fets (mesures) de les dimensions (context).",
+        true
+      ],
+      [
+        "Per estalviar energia segons els principis de Green Computing.",
+        false
+      ],
+      [
+        "Per evitar l'ús del protocol TCP/IP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la diferència entre dades estructurades i no estructurades?",
+    "respostes": [
+      [
+        "Les estructurades estan en català i les no estructurades en anglès.",
+        false
+      ],
+      [
+        "Les estructurades tenen un format fix (com taules SQL) i les no estructurades no tenen un esquema predefinit (com xarxes socials o vídeos).",
+        true
+      ],
+      [
+        "Les estructurades només es poden llegir en ordinadors de sobretaula.",
+        false
+      ],
+      [
+        "Les no estructurades no ocupen espai al disc dur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què mesura la 'Veracitat' en el context de Big Data?",
+    "respostes": [
+      [
+        "La velocitat de gir dels discs durs.",
+        false
+      ],
+      [
+        "La qualitat, fiabilitat i precisió de les dades recollides.",
+        true
+      ],
+      [
+        "El nombre de veritats que diu el Project Manager a les reunions.",
+        false
+      ],
+      [
+        "La llicència original del sistema operatiu host.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin és un exemple d'aplicació de 'Mineria de Dades' en l'administració pública?",
+    "respostes": [
+      [
+        "Canviar el tòner de les impressores de l'oficina.",
+        false
+      ],
+      [
+        "Detecció de patrons de frau fiscal o predicció de la demanda en serveis de salut.",
+        true
+      ],
+      [
+        "Instal·lar actualitzacions de seguretat a Windows 10.",
+        false
+      ],
+      [
+        "Netejar les sales fredes del centre de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Segons el document, la integració de Data Warehouse i Big Data permet:",
+    "respostes": [
+      [
+        "Que els usuaris no hagin de fer servir contrasenyes.",
+        false
+      ],
+      [
+        "Una presa de decisions molt més informada, basada tant en dades històriques internes com en grans volums de dades externes.",
+        true
+      ],
+      [
+        "Eliminar per complet la necessitat de fer proves de programari.",
+        false
+      ],
+      [
+        "Que el servidor web funcioni sense targeta de xarxa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és l'anàlisi 'Drill-down' en un entorn OLAP?",
+    "respostes": [
+      [
+        "Una tècnica per perforar els discs durs i destruir la informació sensible.",
+        false
+      ],
+      [
+        "L'acció de navegar des d'una dada resumida cap a una més detallada (per exemple, de vendes anuals a vendes mensuals).",
+        true
+      ],
+      [
+        "Un procés d'extracció de dades massives des d'un sensor de Big Data.",
+        false
+      ],
+      [
+        "La fragmentació d'una base de dades en múltiples servidors.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "En la mineria de dades, en què consisteix la 'Detecció d'Anomalies'?",
+    "respostes": [
+      [
+        "En trobar els usuaris que no han pagat la quota de la CAIB.",
+        false
+      ],
+      [
+        "En identificar elements, esdeveniments o observacions que no s'ajusten a un patró esperat (molt útil per detectar fraus).",
+        true
+      ],
+      [
+        "En corregir els errors de sintaxi del codi Java automàticament.",
+        false
+      ],
+      [
+        "En detectar quins servidors tenen la temperatura massa alta.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és un 'Data Lake' i en què es diferencia d'un 'Data Warehouse'?",
+    "respostes": [
+      [
+        "És un sistema de refrigeració per a servidors basat en aigua líquida.",
+        false
+      ],
+      [
+        "Un Data Lake emmagatzema dades en el seu format original (brutes) sense processar, mentre que el Data Warehouse les guarda ja estructurades i netes.",
+        true
+      ],
+      [
+        "El Data Lake només serveix per a dades de la xarxa Intranet.",
+        false
+      ],
+      [
+        "Són exactament el mateix, però el terme Data Lake s'usa només en Cloud Computing.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Dins de les 'V' del Big Data, què representa la 'Volatilitat'?",
+    "respostes": [
+      [
+        "La facilitat amb què els servidors es poden espatllar físicament.",
+        false
+      ],
+      [
+        "El període de temps durant el qual una dada és vàlida i rellevant per a l'anàlisi abans de quedar obsoleta.",
+        true
+      ],
+      [
+        "La velocitat amb què les dades viatgen pel bus de dades.",
+        false
+      ],
+      [
+        "La capacitat del sistema per canviar de base de dades relacional a NoSQL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quina és la principal diferència entre un sistema EIS i un DSS?",
+    "respostes": [
+      [
+        "L'EIS és per a operaris i el DSS per a directius.",
+        false
+      ],
+      [
+        "L'EIS se centra en el monitoratge i resum de l'estat de l'empresa, mentre que el DSS se centra en l'anàlisi de problemes concrets i simulació de solucions.",
+        true
+      ],
+      [
+        "El DSS només funciona amb bases de dades NoSQL i l'EIS amb SQL.",
+        false
+      ],
+      [
+        "L'EIS és un programari de codi obert i el DSS és de pagament.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és el 'Metadata Repository' en un Data Warehouse?",
+    "respostes": [
+      [
+        "Un lloc on es guarden les còpies de seguretat en cintes.",
+        false
+      ],
+      [
+        "Un directori que conté tota la definició de les dades (origen, regles de transformació, significat), essencial per a la governança.",
+        true
+      ],
+      [
+        "El registre d'usuaris que s'han connectat al sistema analític.",
+        false
+      ],
+      [
+        "Una carpeta dins del servidor web per als fitxers JSON.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "En el procés ETL, quina és la fase més crítica on es garanteix la qualitat de la dada?",
+    "respostes": [
+      [
+        "Extracció (Extraction).",
+        false
+      ],
+      [
+        "Transformació (Transformation), on es netegen, filtren i normalitzen les dades.",
+        true
+      ],
+      [
+        "Càrrega (Loading).",
+        false
+      ],
+      [
+        "Arxivament (Archiving).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Quin concepte descriu l'acció contrària al 'Drill-down' en un cub OLAP?",
+    "respostes": [
+      [
+        "Drill-up o Roll-up (Agregació de dades a un nivell superior).",
+        false
+      ],
+      [
+        "Slice and Dice (Tallar i trinxar).",
+        false
+      ],
+      [
+        "Pivot (Pivotar).",
+        false
+      ],
+      [
+        "Commit (Confirmar).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què és el 'Machine Learning' en relació amb el Data Mining?",
+    "respostes": [
+      [
+        "Un tipus de maquinari que aprèn a reparar-se sol.",
+        false
+      ],
+      [
+        "Un conjunt d'algorismes que permeten als ordinadors aprendre dels dades per fer prediccions o prendre decisions sense estar programats explícitament per a cada tasca.",
+        true
+      ],
+      [
+        "El procés de netejar els ventiladors dels servidors de Big Data.",
+        false
+      ],
+      [
+        "Una etiqueta de Green Computing per a sistemes d'IA.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 48. Eines d'anàlisi d'informació. OLTP i OLAP, sistemes EIS i DDS. Aplicació en la gestió de dades (datawarehouse), mineria de dades (data mining) i dades massives (big data).",
+    "enunciat": "Què s'entén per 'Anàlisi de Sentiment' en el context de Big Data i Mineria de Dades?",
+    "respostes": [
+      [
+        "Mesurar si els programadors estan contents amb el seu sou.",
+        false
+      ],
+      [
+        "L'ús de processament de llenguatge natural (NLP) per identificar l'actitud o l'emoció dels usuaris en textos (com xarxes socials o queixes).",
+        true
+      ],
+      [
+        "Un protocol de seguretat que detecta l'estrès a la xarxa Extranet.",
+        false
+      ],
+      [
+        "La validació de dades biomètriques per accés al CPD.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin principi de seguretat garanteix que la informació només sigui accessible per a les persones o sistemes autoritzats?",
+    "respostes": [
+      [
+        "Integritat.",
+        false
+      ],
+      [
+        "Confidencialitat.",
+        true
+      ],
+      [
+        "Disponibilitat.",
+        false
+      ],
+      [
+        "Traçabilitat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què garanteix el principi d''Integritat' en un sistema d'informació?",
+    "respostes": [
+      [
+        "Que el sistema estigui sempre encès i funcionant.",
+        false
+      ],
+      [
+        "Que la informació es mantingui exacta i completa, sense haver estat modificada de forma no autoritzada.",
+        true
+      ],
+      [
+        "Que es conegui l'autor de cada canvi en el sistema.",
+        false
+      ],
+      [
+        "Que les dades es guarden en format PDF/A.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin principi de seguretat s'assegura que la informació i els serveis estiguin accessibles quan els usuaris autoritzats els necessitin?",
+    "respostes": [
+      [
+        "Autenticitat.",
+        false
+      ],
+      [
+        "Disponibilitat.",
+        true
+      ],
+      [
+        "Confidencialitat.",
+        false
+      ],
+      [
+        "Encriptació.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què és la 'Traçabilitat' (o Accountabilty) segons el document?",
+    "respostes": [
+      [
+        "La capacitat d'enviar dades a través de cables de fibra òptica.",
+        false
+      ],
+      [
+        "La capacitat d'assegurar que les actuacions d'una entitat poden ser imputades exclusivament a aquesta, registrant qui ha fet què i quan.",
+        true
+      ],
+      [
+        "El procés de fer còpies de seguretat cada 24 hores.",
+        false
+      ],
+      [
+        "La mesura del consum elèctric dels servidors del CPD.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què signifiquen les sigles 'ENS'?",
+    "respostes": [
+      [
+        "Estàndard Nacional de Software.",
+        false
+      ],
+      [
+        "Esquema Nacional de Seguretat.",
+        true
+      ],
+      [
+        "Equip de Navegació Segura.",
+        false
+      ],
+      [
+        "Estructura de Nodes de Seguretat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin és l'objectiu principal de l'Esquema Nacional de Seguretat (ENS)?",
+    "respostes": [
+      [
+        "Obligar a totes les empreses privades a utilitzar antivirus espanyols.",
+        false
+      ],
+      [
+        "Establir una política de seguretat en l'ús de mitjans electrònics que proporcioni una protecció adequada de la informació i els serveis.",
+        true
+      ],
+      [
+        "Reduir el preu de la connexió a internet per als ciutadans.",
+        false
+      ],
+      [
+        "Eliminar la necessitat d'utilitzar servidors físics.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Segons l'ENS, quines són les tres categories en què es poden classificar els sistemes d'informació?",
+    "respostes": [
+      [
+        "Pública, Privada i Re restringida.",
+        false
+      ],
+      [
+        "Bàsica, Mitjana i Alta.",
+        true
+      ],
+      [
+        "Windows, Linux i macOS.",
+        false
+      ],
+      [
+        "Local, Nacional i Internacional.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què determina la 'Categoria' d'un sistema dins de l'ENS?",
+    "respostes": [
+      [
+        "El pressupost que s'ha gastat en el programari.",
+        false
+      ],
+      [
+        "L'impacte que tindria per a l'organització i els ciutadans un incident que afectés la seguretat de la informació o els serveis.",
+        true
+      ],
+      [
+        "El nombre de persones que treballen al departament d'IT.",
+        false
+      ],
+      [
+        "La versió del llenguatge Java utilitzada.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin és el primer pas en el procés d'adequació a l'ENS?",
+    "respostes": [
+      [
+        "Comprar el tallafoc més car del mercat.",
+        false
+      ],
+      [
+        "Realitzar un diagnòstic inicial o anàlisi de bretxes (Gap Analysis) per veure l'estat actual respecte als requisits.",
+        true
+      ],
+      [
+        "Contractar una assegurança contra ciberatacs.",
+        false
+      ],
+      [
+        "Reiniciar tots els servidors de la xarxa Intranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què estableix el principi de 'Seguretat com a procés integral' de l'ENS?",
+    "respostes": [
+      [
+        "Que la seguretat només és responsabilitat del tècnic de sistemes.",
+        false
+      ],
+      [
+        "Que la seguretat ha de considerar tots els elements humans, lògics, físics i organitzatius com un conjunt.",
+        true
+      ],
+      [
+        "Que un sistema és 100% segur un cop s'ha instal·lat l'antivirus.",
+        false
+      ],
+      [
+        "Que la seguretat s'ha de revisar només un cop a l'any.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin requisit mínim de l'ENS obliga a avaluar periòdicament les amenaces que afecten el sistema?",
+    "respostes": [
+      [
+        "Gestió de la configuració.",
+        false
+      ],
+      [
+        "Gestió dels riscos.",
+        true
+      ],
+      [
+        "Professionalitat.",
+        false
+      ],
+      [
+        "Existència de línies de defensa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què s'entén per 'Línies de Defensa' en l'arquitectura de seguretat de l'ENS?",
+    "respostes": [
+      [
+        "Posar policies a la porta del centre de dades.",
+        false
+      ],
+      [
+        "Implementar múltiples capes de seguretat (defensa en profunditat) perquè si una falla, les altres puguin aturar l'atac.",
+        true
+      ],
+      [
+        "Utilitzar cables de xarxa amb recobriment metàl·lic.",
+        false
+      ],
+      [
+        "Configurar el router per a tres connexions de fibra diferents.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina mesura operativa de l'ENS s'encarrega d'assegurar que els usuaris només tenen els permisos necessaris per a la seva feina?",
+    "respostes": [
+      [
+        "Còpies de seguretat.",
+        false
+      ],
+      [
+        "Control d'accés i gestió de privilegis.",
+        true
+      ],
+      [
+        "Monitoratge del sistema.",
+        false
+      ],
+      [
+        "Manteniment de suports.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què és l''Anàlisi de Riscos' segons l'ENS?",
+    "respostes": [
+      [
+        "Una assegurança financera per al Project Manager.",
+        false
+      ],
+      [
+        "El procés sistemàtic d'identificar amenaces, avaluar la probabilitat que passin i l'impacte que tindrien.",
+        true
+      ],
+      [
+        "L'esborrat de la memòria cau L3 per evitar fugues de dades.",
+        false
+      ],
+      [
+        "La revisió de les factures elèctriques del CPD.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina fase de l'adequació a l'ENS inclou la revisió formal per part d'un tercer per obtenir el segell oficial de conformitat?",
+    "respostes": [
+      [
+        "Diagnòstic inicial.",
+        false
+      ],
+      [
+        "Auditoria i Certificació.",
+        true
+      ],
+      [
+        "Pla d'adequació.",
+        false
+      ],
+      [
+        "Instal·lació de parches.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "En quina situació és obligatori realitzar una Auditoria de Seguretat externa segons l'ENS?",
+    "respostes": [
+      [
+        "Per a tots els sistemes de categoria Bàsica.",
+        false
+      ],
+      [
+        "Per als sistemes de categoria Mitjana i Alta, almenys cada dos anys.",
+        true
+      ],
+      [
+        "Només si el sistema ha patit un atac amb èxit.",
+        false
+      ],
+      [
+        "Quan el departament de Help Desk té molta feina acumulada.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina mesura organitzativa de l'ENS defineix el compromís de l'organització amb la seguretat?",
+    "respostes": [
+      [
+        "El reglament de vacances del personal.",
+        false
+      ],
+      [
+        "La Política de Seguretat de la Informació (PSI).",
+        true
+      ],
+      [
+        "El manual d'usuari del correu electrònic.",
+        false
+      ],
+      [
+        "La guia de Green Computing corporativa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què garanteix el principi d''Autenticitat' en l'ENS?",
+    "respostes": [
+      [
+        "Que el programari és una còpia original de Microsoft.",
+        false
+      ],
+      [
+        "La capacitat d'assegurar que un usuari o sistema és realment qui diu ser.",
+        true
+      ],
+      [
+        "Que les dades no s'esborren mai del disc dur.",
+        false
+      ],
+      [
+        "Que el temps de resposta del servidor web és constant.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina d'aquestes és una mesura de 'Recuperació' en l'adequació a l'ENS?",
+    "respostes": [
+      [
+        "Control de la xarxa per tallafocs.",
+        false
+      ],
+      [
+        "Planificació de la continuïtat del negoci i còpies de seguretat.",
+        true
+      ],
+      [
+        "Cifrat de la informació en trànsit.",
+        false
+      ],
+      [
+        "Formació del personal en seguretat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Segons el document, l'adequació a l'ENS millora principalment:",
+    "respostes": [
+      [
+        "La velocitat del microprocessador host.",
+        false
+      ],
+      [
+        "La confiança dels ciutadans en els serveis digitals de l'administració i la protecció de la seva privadesa.",
+        true
+      ],
+      [
+        "El preu de les llicències del sistema operatiu Windows.",
+        false
+      ],
+      [
+        "La mida de la memòria virtual al disc dur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quines són les cinc dimensions de seguretat que l'ENS obliga a avaluar en cada sistema?",
+    "respostes": [
+      [
+        "Volum, Velocitat, Varietat, Veracitat i Valor.",
+        false
+      ],
+      [
+        "Confidencialitat, Integritat, Disponibilitat, Autenticitat i Traçabilitat.",
+        true
+      ],
+      [
+        "Maquinari, Programari, Xarxa, Persones i Dades.",
+        false
+      ],
+      [
+        "Inici, Planificació, Execució, Control i Tancament.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Qui és el responsable de determinar els nivells de seguretat de la informació segons l'ENS?",
+    "respostes": [
+      [
+        "El Responsable de Seguretat.",
+        false
+      ],
+      [
+        "El Responsable de la Informació.",
+        true
+      ],
+      [
+        "El tècnic de Help Desk de guàrdia.",
+        false
+      ],
+      [
+        "L'auditor extern.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què estableix el 'Principi de Proporcionalitat' en l'aplicació de l'ENS?",
+    "respostes": [
+      [
+        "Que tots els sistemes han de tenir les mateixes mesures de seguretat per igual.",
+        false
+      ],
+      [
+        "Que les mesures de seguretat han d'estar en consonància amb els riscos i la categoria del sistema (Bàsica, Mitjana o Alta).",
+        true
+      ],
+      [
+        "Que el pressupost de seguretat ha de ser el 50% del pressupost total d'IT.",
+        false
+      ],
+      [
+        "Que la mida del tallafoc ha de ser proporcional al nombre de servidors.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Segons l'ENS, quina figura és la responsable d'adoptar les decisions que afecten la prestació dels serveis?",
+    "respostes": [
+      [
+        "El Responsable de la Informació.",
+        false
+      ],
+      [
+        "El Responsable del Servei.",
+        true
+      ],
+      [
+        "El Director de Projectes.",
+        false
+      ],
+      [
+        "El CCN-CERT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina és la missió del 'Responsable de Seguretat' en una organització que aplica l'ENS?",
+    "respostes": [
+      [
+        "Decidir quina informació és important i quina no.",
+        false
+      ],
+      [
+        "Determinar les decisions per satisfer els requisits de seguretat de la informació i dels serveis.",
+        true
+      ],
+      [
+        "Programar les actualitzacions del sistema operatiu Windows.",
+        false
+      ],
+      [
+        "Comprar les llicències d'antivirus.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina mesura de l'ENS estableix que s'ha de garantir que el personal coneix els seus deures i obligacions en matèria de seguretat?",
+    "respostes": [
+      [
+        "Control d'accés lògic.",
+        false
+      ],
+      [
+        "Gestió del personal i conscienciació.",
+        true
+      ],
+      [
+        "Seguretat física.",
+        false
+      ],
+      [
+        "Gestió de la configuració.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què és un 'Perfil de Compliment' en el context de l'ENS?",
+    "respostes": [
+      [
+        "Una fotografia de l'usuari en el seu carnet d'empleat.",
+        false
+      ],
+      [
+        "Un conjunt de mesures de seguretat predefinides i adaptades a un tipus de sistema o entitat específica per facilitar-ne l'adequació.",
+        true
+      ],
+      [
+        "El registre d'accés a la xarxa social corporativa.",
+        false
+      ],
+      [
+        "Un informe de benchmarking sobre el rendiment del firewall.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina obligació tenen les entitats públiques davant d'incidents de seguretat que tinguin un impacte significatiu?",
+    "respostes": [
+      [
+        "Publicar-ho immediatament al diari oficial.",
+        false
+      ],
+      [
+        "Notificar l'incident al CCN-CERT (Centro Criptológico Nacional).",
+        true
+      ],
+      [
+        "Esborrar tots els logs per evitar que l'atacant sigui descobert.",
+        false
+      ],
+      [
+        "No fer res si el sistema ja s'ha recuperat sol.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què estableix la mesura de 'Seguretat en el cicle de vida' de l'ENS?",
+    "respostes": [
+      [
+        "Que el maquinari s'ha de canviar cada 2 anys.",
+        false
+      ],
+      [
+        "Que la seguretat s'ha de tenir en compte des del disseny inicial, passant per l'adquisició, instal·lació i manteniment del sistema.",
+        true
+      ],
+      [
+        "Que les aplicacions s'han d'esborrar quan l'usuari es jubila.",
+        false
+      ],
+      [
+        "Que només es pot utilitzar el model de cascada per al desenvolupament.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què s'ha de fer amb els 'Suports d'Informació' (discs, USB, cintes) que contenen dades sensibles abans d'eliminar-los?",
+    "respostes": [
+      [
+        "Tirar-los al contenidor de reciclatge blau.",
+        false
+      ],
+      [
+        "Aplicar procediments d'esborrat segur o destrucció física per garantir que la informació no es pot recuperar.",
+        true
+      ],
+      [
+        "Guardar-los en una caixa tancada amb clau per sempre.",
+        false
+      ],
+      [
+        "Formatejar-los ràpidament amb el comandament de Windows.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina dimensió de l'ENS es veu afectada si un atacant modifica la nota d'un examen en una base de dades de la CAIB?",
+    "respostes": [
+      [
+        "Disponibilitat.",
+        false
+      ],
+      [
+        "Integritat.",
+        true
+      ],
+      [
+        "Traçabilitat.",
+        false
+      ],
+      [
+        "Seguretat física.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin és el període màxim per realitzar una auditoria de seguretat en sistemes de categoria Mitjana o Alta segons l'ENS?",
+    "respostes": [
+      [
+        "Cada 6 mesos.",
+        false
+      ],
+      [
+        "Cada 2 anys (auditoria ordinària).",
+        true
+      ],
+      [
+        "Un cop cada 5 anys.",
+        false
+      ],
+      [
+        "Només quan canvia el Govern de les Illes Balears.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què estableix el requisit de 'Professionalitat' en l'ENS?",
+    "respostes": [
+      [
+        "Que els tècnics han de portar uniforme corporatiu.",
+        false
+      ],
+      [
+        "Que la seguretat dels sistemes ha de ser gestionada per personal amb la qualificació i formació necessàries.",
+        true
+      ],
+      [
+        "Que el Project Manager ha de tenir un títol de postgrau.",
+        false
+      ],
+      [
+        "Que el Help Desk ha de contestar les trucades en menys de 10 segons.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina mesura operativa de l'ENS obliga a mantenir el sistema amb els darrers parches de seguretat instal·lats?",
+    "respostes": [
+      [
+        "Gestió de la continuïtat.",
+        false
+      ],
+      [
+        "Manteniment i actualització de programari.",
+        true
+      ],
+      [
+        "Control d'accessos.",
+        false
+      ],
+      [
+        "Protecció de la instal·lació.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què significa el concepte de 'Mínim Privilegi' en el control d'accés de l'ENS?",
+    "respostes": [
+      [
+        "Que l'usuari ha de pagar per tenir permisos especials.",
+        false
+      ],
+      [
+        "Que els usuaris només han de tenir els permisos estrictament necessaris per exercir les seves funcions.",
+        true
+      ],
+      [
+        "Que només els directius poden tenir accés a internet.",
+        false
+      ],
+      [
+        "Que els usuaris nous no tenen cap permís durant el primer mes.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Què és l'INÈDIT o l'estàndard d'informes de l'ENS?",
+    "respostes": [
+      [
+        "Un virus que ataca les bases de dades Jakarta EE.",
+        false
+      ],
+      [
+        "El sistema per recollir i lliurar les dades sobre l'estat de la seguretat a les Administracions Públiques (Informe Nacional d'Estat de Seguretat).",
+        true
+      ],
+      [
+        "Un procediment d'esborrat de la memòria cau L3.",
+        false
+      ],
+      [
+        "Un protocol de comunicació asíncrona tipus JMS.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quin és l'àmbit d'aplicació de l'ENS?",
+    "respostes": [
+      [
+        "Només els ministeris del Govern d'Espanya.",
+        false
+      ],
+      [
+        "Tot el sector públic espanyol i les entitats privades que col·laboren amb l'administració en l'exercici de potestats públiques.",
+        true
+      ],
+      [
+        "Qualsevol empresa privada que utilitzi ordinadors.",
+        false
+      ],
+      [
+        "Únicament les xarxes d'infraestructures crítiques com l'elèctrica.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Quina mesura de l'ENS s'encarrega d'evitar que una fallada en un segment de la xarxa afecti la resta del sistema?",
+    "respostes": [
+      [
+        "Gestió de logs.",
+        false
+      ],
+      [
+        "Protecció dels suports de xarxa i perímetre (segmentació).",
+        true
+      ],
+      [
+        "Backup incremental de nivell 1.",
+        false
+      ],
+      [
+        "Auditoria de codi font Java.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "En cas d'un conflicte de decisions entre el Responsable del Servei i el Responsable de Seguretat, qui sol resoldre segons el marc de governança de l'ENS?",
+    "respostes": [
+      [
+        "El tècnic de sistemes.",
+        false
+      ],
+      [
+        "El superior jeràrquic d'ambdós o el comitè de seguretat de l'entitat.",
+        true
+      ],
+      [
+        "L'auditor extern del sistema.",
+        false
+      ],
+      [
+        "El ciutadà mitjançant una consulta pública.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 49. Criteris genèrics de seguretat en els sistemes d'informació. L´esquema Nacional de Seguretat. Adequació a l´Esquema Nacional de seguretat.",
+    "enunciat": "Segons l'ENS, quina és la finalitat de les 'Còpies de seguretat'?",
+    "respostes": [
+      [
+        "Estalviar espai al servidor principal.",
+        false
+      ],
+      [
+        "Garantir la disponibilitat i la recuperació de la informació davant de pèrdues accidentals o atacs.",
+        true
+      ],
+      [
+        "Compartir dades amb altres departaments de la CAIB.",
+        false
+      ],
+      [
+        "Monitorar el rendiment del disc dur SSD.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin reglament europeu estableix el marc jurídic comú per als serveis d'identificació i confiança electrònica (eIDAS)?",
+    "respostes": [
+      [
+        "Reglament (UE) 2016/679 (RGPD).",
+        false
+      ],
+      [
+        "Reglament (UE) 910/2014.",
+        true
+      ],
+      [
+        "Reglament (UE) 2022/311 (ENS).",
+        false
+      ],
+      [
+        "Directiva 2000/31/CE de comerç electrònic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què garanteix el principi de 'No-repudi' en una signatura electrònica?",
+    "respostes": [
+      [
+        "Que el document no es pugui llegir sense autorització.",
+        false
+      ],
+      [
+        "Que l'emissor no pugui negar haver signat o enviat el document, ja que la signatura el vincula de forma única.",
+        true
+      ],
+      [
+        "Que el document no hagi estat modificat durant el transport.",
+        false
+      ],
+      [
+        "Que el certificat digital sigui d'una empresa espanyola.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin tipus de signatura electrònica té un valor jurídic equivalent a la signatura manuscrita segons eIDAS?",
+    "respostes": [
+      [
+        "Signatura electrònica simple.",
+        false
+      ],
+      [
+        "Signatura electrònica avançada.",
+        false
+      ],
+      [
+        "Signatura electrònica qualificada (basada en un certificat qualificat i creada amb un dispositiu segur).",
+        true
+      ],
+      [
+        "Signatura biomètrica sobre pantalla tàctil.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "En la criptografia asimètrica, quina clau s'utilitza per 'signar' un document i ha de ser mantinguda en secret pel seu propietari?",
+    "respostes": [
+      [
+        "La clau pública.",
+        false
+      ],
+      [
+        "La clau privada.",
+        true
+      ],
+      [
+        "La clau concertada.",
+        false
+      ],
+      [
+        "La clau simètrica de sessió.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina és la funció de la 'Clau Pública' en un procés de signatura electrònica?",
+    "respostes": [
+      [
+        "Permetre que qualsevol usuari pugui signar en nom del propietari.",
+        false
+      ],
+      [
+        "Permetre que qualsevol destinatari pugui verificar la validesa de la signatura realitzada amb la clau privada corresponent.",
+        true
+      ],
+      [
+        "Xifrar el disc dur del servidor de l'administració.",
+        false
+      ],
+      [
+        "Accedir a la xarxa Wi-Fi de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és un 'Certificat Digital'?",
+    "respostes": [
+      [
+        "Una imatge escanejada del DNI de l'usuari.",
+        false
+      ],
+      [
+        "Un fitxer electrònic signat per una Autoritat de Certificació que vincula unes dades de verificació de signatura amb un sotasignat.",
+        true
+      ],
+      [
+        "Una llicència d'ús del sistema operatiu Windows.",
+        false
+      ],
+      [
+        "Un rebut de pagament de taxes administratives.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Com s'anomena l'entitat de confiança encarregada d'emetre i revocar certificats digitals?",
+    "respostes": [
+      [
+        "Administrador de Sistemes.",
+        false
+      ],
+      [
+        "Autoritat de Certificació (CA) o Prestador de Serveis de Confiança.",
+        true
+      ],
+      [
+        "Comitè de l'ENS.",
+        false
+      ],
+      [
+        "Delegat de Protecció de Dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin format de signatura electrònica s'utilitza específicament per a documents en format PDF?",
+    "respostes": [
+      [
+        "CAdES.",
+        false
+      ],
+      [
+        "XAdES.",
+        false
+      ],
+      [
+        "PAdES (PDF Advanced Electronic Signatures).",
+        true
+      ],
+      [
+        "XML-Dsig.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina és la característica principal del format de signatura 'XAdES'?",
+    "respostes": [
+      [
+        "Que només es pot utilitzar en entorns Linux.",
+        false
+      ],
+      [
+        "Que la signatura s'estructura en format XML, sent ideal per a transaccions entre sistemes.",
+        true
+      ],
+      [
+        "Que la signatura s'incrusta dins d'una imatge .jpg.",
+        false
+      ],
+      [
+        "Que caduca automàticament en 24 hores.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què s'entén per 'Claus Concertades' segons el document?",
+    "respostes": [
+      [
+        "Claus que es compren en una botiga de programari.",
+        false
+      ],
+      [
+        "Sistemes d'identificació basats en coneixements compartits prèviament entre usuari i administració (com usuari/contrasenya o Cl@ve Pin).",
+        true
+      ],
+      [
+        "Claus que només funcionen si hi ha un concert de música en directe.",
+        false
+      ],
+      [
+        "Claus xifrades amb l'algorisme SHA-256.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què és una 'Funció Hash' en el procés de signatura?",
+    "respostes": [
+      [
+        "Un mètode per ordenar els fitxers al disc dur.",
+        false
+      ],
+      [
+        "Un algorisme que genera una \"empremta digital\" única i de mida fixa del document per garantir-ne la integritat.",
+        true
+      ],
+      [
+        "Una etiqueta que indica el preu del certificat.",
+        false
+      ],
+      [
+        "Un protocol de comunicació asíncrona.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què passa si el certificat digital s'ha 'Revocat'?",
+    "respostes": [
+      [
+        "Que l'usuari ha de pagar una multa.",
+        false
+      ],
+      [
+        "Que el certificat ha deixat de ser vàlid abans de la seva data de caducitat i les signatures fetes després ja no són vàlides.",
+        true
+      ],
+      [
+        "Que el certificat s'ha actualitzat automàticament.",
+        false
+      ],
+      [
+        "Que el certificat només funciona a la xarxa Intranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin format de signatura (CAdES) és el més adequat per signar fitxers binaris de grans dimensions?",
+    "respostes": [
+      [
+        "CAdES (CMS Advanced Electronic Signatures), ja que es basa en l'estàndard de missatgeria criptogràfica.",
+        true
+      ],
+      [
+        "PAdES.",
+        false
+      ],
+      [
+        "HTML5.",
+        false
+      ],
+      [
+        "JSON-SIG.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què defineix una 'Signatura Electrònica Avançada'?",
+    "respostes": [
+      [
+        "Una signatura que s'ha fet amb un ordinador molt modern.",
+        false
+      ],
+      [
+        "Una signatura vinculada al signant de manera única, que permet la seva identificació i detecta qualsevol canvi ulterior de les dades.",
+        true
+      ],
+      [
+        "Una signatura que utilitza tres claus diferents alhora.",
+        false
+      ],
+      [
+        "Una signatura que només poden fer els alts càrrecs de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quina és la funció d'un 'Segell de Temps' (Timestamping)?",
+    "respostes": [
+      [
+        "Posar l'hora de l'ordinador a la pantalla.",
+        false
+      ],
+      [
+        "Demostrar de forma fefaent que unes dades existien en un moment determinat i no han estat modificades des de llavors.",
+        true
+      ],
+      [
+        "Controlar el temps que triga un ciutadà a fer un tràmit.",
+        false
+      ],
+      [
+        "Mesurar el PUE del centre de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "En l'arquitectura PKI (Public Key Infrastructure), què és la 'Llista de Revocació de Certificats' (CRL)?",
+    "respostes": [
+      [
+        "Una llista de persones que no tenen permís per entrar al CPD.",
+        false
+      ],
+      [
+        "Una llista publicada per la CA que conté els certificats que han estat anul·lats i ja no són de confiança.",
+        true
+      ],
+      [
+        "Un llistat de tiquets de suport oberts.",
+        false
+      ],
+      [
+        "El registre d'usuaris de la xarxa Extranet.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin és l'element físic on sovint s'emmagatzema de forma segura el certificat qualificat (com en el DNIe)?",
+    "respostes": [
+      [
+        "Una targeta SD de gran capacitat.",
+        false
+      ],
+      [
+        "Una targeta intel·ligent (Smart Card) o un dispositiu criptogràfic segur (token).",
+        true
+      ],
+      [
+        "El disc dur principal del servidor web.",
+        false
+      ],
+      [
+        "Una memòria USB sense xifrar.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Què significa 'Integritat' en el context d'un document signat electrònicament?",
+    "respostes": [
+      [
+        "Que el document està escrit en un llenguatge honest.",
+        false
+      ],
+      [
+        "Que el document no ha estat alterat ni manipulat des del moment en què es va realitzar la signatura.",
+        true
+      ],
+      [
+        "Que el document es pot obrir amb qualsevol programari.",
+        false
+      ],
+      [
+        "Que el document és original de l'Administració de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Quin mètode d'autenticació es basa en \"alguna cosa que l'usuari és\"?",
+    "respostes": [
+      [
+        "Contrasenya alfanumèrica.",
+        false
+      ],
+      [
+        "Biometria (empremta dactilar, reconeixement facial).",
+        true
+      ],
+      [
+        "Targeta de coordenades.",
+        false
+      ],
+      [
+        "Token SMS.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 50. Identificació i signatura electrònica (I). Legislació europea i nacional. Certificats digitals. Claus privades, públiques i concertades. Formats de signatura electrònica.",
+    "enunciat": "Segons el document, la signatura electrònica és una eina clau per a:",
+    "respostes": [
+      [
+        "Eliminar la necessitat de fer còpies de seguretat.",
+        false
+      ],
+      [
+        "L'impuls de l'administració electrònica i la reducció del paper en els tràmits administratius.",
+        true
+      ],
+      [
+        "Augmentar la velocitat del microprocessador host.",
+        false
+      ],
+      [
+        "Que els ciutadans no hagin d'utilitzar el navegador web.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Què signifiquen les sigles 'PKI' en l'àmbit de la seguretat digital?",
+    "respostes": [
+      [
+        "Private Key Interface.",
+        false
+      ],
+      [
+        "Public Key Infrastructure (Infraestructura de Clau Pública).",
+        true
+      ],
+      [
+        "Password Kernel Integration.",
+        false
+      ],
+      [
+        "Personal Key Identifier.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quin component de la PKI és el responsable directe d'emetre, revocar i gestionar el cicle de vida dels certificats digitals?",
+    "respostes": [
+      [
+        "Autoritat de Registre (RA).",
+        false
+      ],
+      [
+        "Autoritat de Certificació (CA).",
+        true
+      ],
+      [
+        "Autoritat de Validació (VA).",
+        false
+      ],
+      [
+        "Repositori de Claus.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quina és la funció de l'Autoritat de Registre (RA) dins d'una PKI?",
+    "respostes": [
+      [
+        "Signar físicament els certificats amb la clau privada de l'arrel.",
+        false
+      ],
+      [
+        "Verificar la identitat del sol·licitant del certificat abans que la CA l'emeti.",
+        true
+      ],
+      [
+        "Publicar la llista de certificats revocats (CRL).",
+        false
+      ],
+      [
+        "Guardar les còpies de seguretat del servidor de base de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Què és l'Autoritat de Validació (VA) en una infraestructura de clau pública?",
+    "respostes": [
+      [
+        "L'entitat que fabrica les targetes intel·ligents físiques.",
+        false
+      ],
+      [
+        "El servei que respon en temps real sobre la validesa d'un certificat (sovint mitjançant el protocol OCSP).",
+        true
+      ],
+      [
+        "El departament que revisa els tiquets del Help Desk.",
+        false
+      ],
+      [
+        "El servidor web que allotja el portal de tràmits.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Què és la plataforma '@firma' del Govern d'Espanya?",
+    "respostes": [
+      [
+        "Una xarxa social per a empleats públics.",
+        false
+      ],
+      [
+        "Una plataforma multiformat de validació i signatura electrònica que facilita la interoperabilitat entre administracions.",
+        true
+      ],
+      [
+        "Un programari antivirus per a servidors de la CAIB.",
+        false
+      ],
+      [
+        "Una etiqueta de Green Computing per a impressores.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quin servei principal ofereix '@firma' a les entitats de l'administració pública?",
+    "respostes": [
+      [
+        "Emmagatzematge il·limitat de fitxers de vídeo.",
+        false
+      ],
+      [
+        "Validació de certificats i signatures en diversos formats (CAdES, XAdES, PAdES) de forma centralitzada.",
+        true
+      ],
+      [
+        "Creació de bases de dades NoSQL de forma automàtica.",
+        false
+      ],
+      [
+        "Traducció de documents del castellà al català.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quina és la principal diferència entre una targeta de memòria i una 'Targeta Intel·ligent' (Smart Card)?",
+    "respostes": [
+      [
+        "La mida física de la targeta.",
+        false
+      ],
+      [
+        "La targeta intel·ligent conté un microprocessador capaç d'executar operacions criptogràfiques de forma segura.",
+        true
+      ],
+      [
+        "La targeta intel·ligent és de color daurat i la de memòria blava.",
+        false
+      ],
+      [
+        "La targeta intel·ligent només funciona amb sistemes operatius Apple.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quants certificats digitals sol contenir el xip del DNI electrònic (DNIe) actual?",
+    "respostes": [
+      [
+        "Només un de signatura.",
+        false
+      ],
+      [
+        "Dos: un per a l'autenticació i un altre per a la signatura electrònica.",
+        true
+      ],
+      [
+        "Cap, els certificats es guarden al núvol de la Policia Nacional.",
+        false
+      ],
+      [
+        "Deu certificats, un per a cada dit de la mà.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Per a què serveix el certificat d''Autenticació' del DNIe?",
+    "respostes": [
+      [
+        "Per signar contractes de lloguer amb validesa jurídica.",
+        false
+      ],
+      [
+        "Per garantir la identitat del titular quan accedeix a serveis telemàtics.",
+        true
+      ],
+      [
+        "Per pagar impostos a l'Agència Tributària sense introduir el PIN.",
+        false
+      ],
+      [
+        "Per obrir la porta de casa si el pany és intel·ligent.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Què garanteix el xip criptogràfic del DNIe respecte a la clau privada de l'usuari?",
+    "respostes": [
+      [
+        "Que es pot copiar a una memòria USB per seguretat.",
+        false
+      ],
+      [
+        "Que la clau privada mai surt del xip i les operacions de signatura es realitzen a l'interior del maquinari segur.",
+        true
+      ],
+      [
+        "Que la clau privada es publica a la xarxa Intranet de la CAIB.",
+        false
+      ],
+      [
+        "Que la clau privada s'esborra cada vegada que s'apaga l'ordinador.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quin mecanisme d'identificació es basa en trets físics únics com l'empremta dactilar o l'iris?",
+    "respostes": [
+      [
+        "Targeta de coordenades.",
+        false
+      ],
+      [
+        "Mecanismes biomètrics.",
+        true
+      ],
+      [
+        "Clau concertada de nivell 1.",
+        false
+      ],
+      [
+        "Signatura avançada PAdES.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quina és la principal limitació o repte dels sistemes biomètrics?",
+    "respostes": [
+      [
+        "Que són massa barats i tothom els vol utilitzar.",
+        false
+      ],
+      [
+        "La taxa d'error (falsos positius/negatius) i les implicacions ètiques i de privadesa en la gestió de dades personals.",
+        true
+      ],
+      [
+        "Que només funcionen si l'usuari porta guants.",
+        false
+      ],
+      [
+        "Que no són compatibles amb el protocol TCP/IP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Què és un 'Certificat Arrel' en una jerarquia PKI?",
+    "respostes": [
+      [
+        "El certificat que es lliura a l'usuari final.",
+        false
+      ],
+      [
+        "El certificat que encapçala la jerarquia, se signa a si mateix (autosingat) i és la base de la confiança de tota l'estructura.",
+        true
+      ],
+      [
+        "Un certificat que ha caducat fa més de deu anys.",
+        false
+      ],
+      [
+        "El document que certifica que el servidor està lliure de virus.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quina tecnologia utilitza '@firma' per facilitar que els ciutadans signin des del navegador sense necessitat de Java?",
+    "respostes": [
+      [
+        "Flash Player 10.",
+        false
+      ],
+      [
+        "L'AutoFirma (aplicació d'escriptori que es comunica amb el navegador).",
+        true
+      ],
+      [
+        "Una extensió de Silverlight.",
+        false
+      ],
+      [
+        "El protocol FTP de baixa velocitat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Què s'entén per 'Interoperabilitat' en el context d'@firma?",
+    "respostes": [
+      [
+        "Que el sistema funciona igual de bé amb el monitor apagat.",
+        false
+      ],
+      [
+        "La capacitat que diferents administracions puguin acceptar i validar signatures fetes amb diferents certificats i proveïdors.",
+        true
+      ],
+      [
+        "Que el programari només funciona en el centre de dades de la CAIB.",
+        false
+      ],
+      [
+        "L'obligació d'utilitzar el mateix model de teclat a tota l'oficina.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "En una Smart Card, què és el 'Sistema Operatiu de la Targeta' (COS)?",
+    "respostes": [
+      [
+        "Una versió reduïda de Windows 10.",
+        false
+      ],
+      [
+        "El programari incrustat al xip que gestiona l'emmagatzematge de dades, la comunicació i l'execució d'algorismes.",
+        true
+      ],
+      [
+        "El navegador web que s'obre en introduir la targeta.",
+        false
+      ],
+      [
+        "El programa que controla el consum elèctric del lector.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quina és la funció de la 'Clau de Sessió' en algunes transaccions PKI?",
+    "respostes": [
+      [
+        "Guardar la contrasenya de l'usuari per sempre.",
+        false
+      ],
+      [
+        "Una clau simètrica temporal utilitzada per xifrar el contingut de la comunicació després de l'intercanvi de claus asimètriques.",
+        true
+      ],
+      [
+        "Accedir a la sessió de videoconferència del Project Manager.",
+        false
+      ],
+      [
+        "Reiniciar la instància de base de dades Jakarta EE.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Quin estàndard s'utilitza habitualment per a la comunicació entre la Smart Card i el lector?",
+    "respostes": [
+      [
+        "ISO 9001.",
+        false
+      ],
+      [
+        "ISO/IEC 7816.",
+        true
+      ],
+      [
+        "Bluetooth 5.2.",
+        false
+      ],
+      [
+        "Cable serie RS-232.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Per què és important l'ús de HSM (Hardware Security Modules) a la PKI de la CAIB?",
+    "respostes": [
+      [
+        "Perquè fan que el servidor pesi menys.",
+        false
+      ],
+      [
+        "Perquè són dispositius físics dedicats que protegeixen les claus privades de les Autoritats de Certificació contra robatoris o còpies.",
+        true
+      ],
+      [
+        "Perquè permeten imprimir els certificats en paper de seguretat.",
+        false
+      ],
+      [
+        "Perquè netegen automàticament la memòria cau L2.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema 51. Identificació i signatura electrònica (II). Prestació de serveis públics i privats. Infraestructura de clau pública (PKI). @firma. Mecanismes d'identificació i signatura: targetes intel•ligents (smart cards), DNI electrònic, mecanismes biomètrics.",
+    "enunciat": "Segons el document, quin és el benefici principal de la PKI en el sector privat?",
+    "respostes": [
+      [
+        "Permetre que les empreses no hagin de pagar impostos.",
+        false
+      ],
+      [
+        "Facilitar el comerç electrònic segur i la signatura de contractes digitals amb plena validesa legal.",
+        true
+      ],
+      [
+        "Augmentar el nombre de seguidors a les xarxes socials corporatives.",
+        false
+      ],
+      [
+        "Evitar l'ús del llenguatge SQL a les bases de dades internes.",
+        false
+      ]
+    ]
   }
 ]
