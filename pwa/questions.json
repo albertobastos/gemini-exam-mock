@@ -31566,7 +31566,7 @@
         false
       ],
       [
-        "El cable UTP és el millor per a entorns amb moltes interferències elèctriques (fals, seria l'STP).",
+        "El cable UTP és el millor per a entorns amb moltes interferències elèctriques.",
         true
       ],
       [
@@ -37066,7 +37066,7 @@
         false
       ],
       [
-        "És una xarxa pública i oberta a la qual qualsevol empresa privada pot demanar connexió (fals, és exclusiva per al sector públic).",
+        "És una xarxa pública i oberta a la qual qualsevol empresa privada pot demanar connexió.",
         true
       ],
       [
@@ -38430,7 +38430,7 @@
         false
       ],
       [
-        "És l'eina on el ciutadà emplena els seus formularis de sol·licitud (fals, això és SISTRA).",
+        "És l'eina on el ciutadà emplena els seus formularis de sol·licitud.",
         true
       ],
       [
