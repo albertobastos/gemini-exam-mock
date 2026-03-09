@@ -52784,5 +52784,973 @@
         false
       ]
     ]
+  },
+  {
+    "tema": "Tema Extra: Signatura Electrònica - Certificats Qualificats (eIDAS)",
+    "enunciat": "Segons el marc legal eIDAS i la Llei 6/2020, que es un certificat qualificat de signatura electronica?",
+    "respostes": [
+      [
+        "Un fitxer de text simple que qualsevol empresa pot emetre per a us intern.",
+        false
+      ],
+      [
+        "Un document electronic que vincula dades de verificacio amb una persona i es emes per una Autoritat de Certificacio Qualificada.",
+        true
+      ],
+      [
+        "Una imatge escanejada de la signatura manuscrita del titular del certificat.",
+        false
+      ],
+      [
+        "Un protocol de xifratge que nomes s'utilitza per a la transmissio de correus electronics personals.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Signatura Electrònica - Certificats Qualificats (eIDAS)",
+    "enunciat": "Quina es la diferencia principal respecte a l'emissor entre un certificat qualificat i un de no qualificat?",
+    "respostes": [
+      [
+        "Els qualificats nomes els pot emetre la propia CAIB des de les seves oficines.",
+        false
+      ],
+      [
+        "No hi ha diferencia, qualsevol entitat de certificacio pot emetre ambdos tipus.",
+        false
+      ],
+      [
+        "Els qualificats nomes els emeten Prestadors Qualificats de Serveis de Confiança que apareixen a la Llista de Confiança (TSL) de la UE.",
+        true
+      ],
+      [
+        "Els no qualificats han de passar auditories del Ministeri cada sis mesos.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Signatura Electrònica - Certificats Qualificats (eIDAS)",
+    "enunciat": "Quin es l'efecte juridic mes important d'una signatura electronica qualificada en comparacio amb una d'avancada?",
+    "respostes": [
+      [
+        "Cap, totes dues tenen exactament el mateix valor documental en un judici.",
+        false
+      ],
+      [
+        "La signatura avancada es l'unica que te equivalencia a la signatura manuscrita.",
+        false
+      ],
+      [
+        "La qualificada te l'equivalencia juridica a la signatura manuscrita i gaudeix de la presumpcio de validesa (inversio de la carrega de la prova).",
+        true
+      ],
+      [
+        "La qualificada nomes es valida si es realitza des d'una terminal fisica de l'Administracio.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Signatura Electrònica - Certificats Qualificats (eIDAS)",
+    "enunciat": "On s'ha d'allotjar un certificat qualificat per poder parlar de signatura qualificada de maxim nivell?",
+    "respostes": [
+      [
+        "En una carpeta publica del sistema operatiu sense xifratge.",
+        false
+      ],
+      [
+        "En un Dispositiu Qualificat de Creacio de Signatura (QSCD), com el xip del DNIe o un Modul de Seguretat de Hardware (HSM).",
+        true
+      ],
+      [
+        "En una unitat de xarxa compartida de la conselleria corresponent.",
+        false
+      ],
+      [
+        "En el cau (cache) del navegador web de l'usuari per facilitar-ne l'us.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Signatura Electrònica - Certificats Qualificats (eIDAS)",
+    "enunciat": "Segons l'Annex I de l'eIDAS, quin element ha de contenir obligatoriament un certificat per ser considerat qualificat?",
+    "respostes": [
+      [
+        "Una llista de totes les propietats immobiliaries del titular.",
+        false
+      ],
+      [
+        "La geolocalitzacio exacta del moment en que es va emetre.",
+        false
+      ],
+      [
+        "Una indicacio que el certificat ha estat emes com a qualificat i el codi d'identitat del certificat.",
+        true
+      ],
+      [
+        "El numero de telefon mobil personal del representant de l'Autoritat de Certificacio.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - DNSSEC",
+    "enunciat": "Quin es l'objectiu principal de les extensions DNSSEC segons el document?",
+    "respostes": [
+      [
+        "Xifrar les consultes DNS perque ningu pugui llegir quines pagines web visita l'usuari.",
+        false
+      ],
+      [
+        "Garantir la integritat i l'autenticitat de les dades enviades mitjançant el sistema DNS.",
+        true
+      ],
+      [
+        "Accelerar la velocitat de resolucio de noms de domini mitjançant una nova jerarquia de servidors.",
+        false
+      ],
+      [
+        "Permetre que qualsevol usuari pugui canviar la seva adreça IP de forma anonima.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - DNSSEC",
+    "enunciat": "Com funciona el proces de verificacio en DNSSEC per garantir que les dades no han estat modificades?",
+    "respostes": [
+      [
+        "Mitjançant un sistema de contrasenyes compartides entre el servidor i el client.",
+        false
+      ],
+      [
+        "El DNSSEC xifra totes les dades de la zona perque nomes el receptor pugui obrir-les.",
+        false
+      ],
+      [
+        "Utilitza criptografia de clau publica per signar digitalment els registres i verificar-los amb una clau publica.",
+        true
+      ],
+      [
+        "Es basa en l'adreça MAC de la targeta de xarxa per identificar el servidor oficial.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - DNSSEC",
+    "enunciat": "Quin nou registre de recurs (RR) s'utilitza per crear la Cadena de Confiança entre una zona pare i una zona filla?",
+    "respostes": [
+      [
+        "El registre RRSIG, que conte la signatura de tota la zona pare.",
+        false
+      ],
+      [
+        "El registre NSEC, que demostra que el nom de domini no existeix.",
+        false
+      ],
+      [
+        "El registre DS (Delegation Signer), que es un resum de la clau publica de la zona filla guardat a la zona pare.",
+        true
+      ],
+      [
+        "El registre MX, que gestiona les signatures dels servidors de correu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - DNSSEC",
+    "enunciat": "Quina es la funcio especifica de la clau KSK (Key Signing Key) dins d'una zona DNSSEC?",
+    "respostes": [
+      [
+        "Signar directament els registres de dades finals com A o MX.",
+        false
+      ],
+      [
+        "Signar el registre DNSKEY (la clau ZSK) i mantenir el hash DS enviat a la zona pare.",
+        true
+      ],
+      [
+        "Xifrar la comunicacio entre el navegador i el servidor web de la CAIB.",
+        false
+      ],
+      [
+        "Generar les alertes de seguretat en cas de detectar un atac Man-in-the-Middle.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - DNSSEC",
+    "enunciat": "Quin tipus d'atac evita directament l'implementacio de DNSSEC a la CAIB?",
+    "respostes": [
+      [
+        "Atacs de denegacio de servei (DDoS) contra el portal oficial.",
+        false
+      ],
+      [
+        "Atacs de enverinament de cau (DNS Cache Poisoning) i injeccio d'adreces IP falses.",
+        true
+      ],
+      [
+        "El robatori de claus d'acces dels funcionaris mitjançant programari malicios.",
+        false
+      ],
+      [
+        "L'acces fisic no autoritzat als centres de dades de l'administracio.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat de Xarxa - Sistemes IDS i IPS",
+    "enunciat": "Quina es la natura fonamental d'un sistema IDS (Intrusion Detection System)?",
+    "respostes": [
+      [
+        "Es un sistema de prevencio que bloqueja l'amenaça en el moment de la deteccio.",
+        false
+      ],
+      [
+        "Es un sistema de deteccio que actua com una alarma vigilant el transit, pero sense capacitat per aturar un atac de forma activa.",
+        true
+      ],
+      [
+        "Es un dispositiu que xifra tot el transit de la xarxa per complir amb l'ENS.",
+        false
+      ],
+      [
+        "Es un programari que nomes s'instal·la en els encaminadors per gestionar el transit passiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat de Xarxa - Sistemes IDS i IPS",
+    "enunciat": "Quina caracteristica defineix la monitoritzacio activa d'un sistema IPS (Intrusion Prevention System)?",
+    "respostes": [
+      [
+        "Es col·loca fora del flux de dades i rep una copia del transit mitjançant un port SPAN.",
+        false
+      ],
+      [
+        "Nomes analitza les signatures de virus un cop l'atac ha finalitzat per fer analisi forense.",
+        false
+      ],
+      [
+        "Es col·loca fisicament entre l'origen i el desti (inline), per on passa obligatoriament tot el transit.",
+        true
+      ],
+      [
+        "Utilitza exclusivament la intel·ligencia artificial per predir atacs abans que es produeixin.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat de Xarxa - Sistemes IDS i IPS",
+    "enunciat": "Quin es l'impacte en la xarxa d'un sistema IDS en cas de fallada o col·lapse?",
+    "respostes": [
+      [
+        "Es critic i pot tallar la connexio a Internet de tota la conselleria.",
+        false
+      ],
+      [
+        "Provoca un augment immediat de la larencia en analitzar cada paquet individual.",
+        false
+      ],
+      [
+        "Es nul, ja que el transit continua fluint sense problemes en no trobar-se en el cami directe dels paquets.",
+        true
+      ],
+      [
+        "Força el reinici de tots els servidors HIDS connectats a la xarxa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat de Xarxa - Sistemes IDS i IPS",
+    "enunciat": "Respecte als falsos positius, quina afirmacio es certa segons la comparativa entre IDS i IPS?",
+    "respostes": [
+      [
+        "En un IDS son molt greus perque bloquegen l'acces a usuaris legitims.",
+        false
+      ],
+      [
+        "En un IPS son molt greus perque el sistema talla el servei a un usuari legitim en detectar-lo erroniament com una amenaça.",
+        true
+      ],
+      [
+        "Ambdos sistemes ignoren els falsos positius per evitar la saturacio de la memoria RAM.",
+        false
+      ],
+      [
+        "El sistema IDS no pot generar falsos positius ja que nomes analitza signatures conegudes.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat de Xarxa - Sistemes IDS i IPS",
+    "enunciat": "Que defineix un sistema de tipus HIDS o HIPS (Host Based)?",
+    "respostes": [
+      [
+        "Vigila tot el transit d'un segment de xarxa sencer de forma perimetral.",
+        false
+      ],
+      [
+        "Es un maquinari fisic que es connecta entre el router i el switch principal.",
+        false
+      ],
+      [
+        "S'instal·la com un programari dins un servidor especific per vigilar nomes el que passa dins d'aquell equip.",
+        true
+      ],
+      [
+        "Es la unitat responsable de coordinar les alertes de seguretat de tota la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - IPsec",
+    "enunciat": "A quina capa del model OSI treballa el protocol IPsec segons el document?",
+    "respostes": [
+      [
+        "Capa d'aplicacio (Capa 7), igual que el protocol SSL/TLS.",
+        false
+      ],
+      [
+        "Capa de xarxa (Capa 3), cosa que el fa transparent per a les aplicacions.",
+        true
+      ],
+      [
+        "Capa d'enllaç de dades (Capa 2), per gestionar les adreces MAC.",
+        false
+      ],
+      [
+        "Capa de transport (Capa 4), utilitzant exclusivament el protocol UDP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - IPsec",
+    "enunciat": "Quin dels pilars de la ciberseguretat garantits per IPsec evita que un atacant suplanti una identitat retransmetent un paquet capturat anteriorment?",
+    "respostes": [
+      [
+        "Confidencialitat mitjançant xifratge AES.",
+        false
+      ],
+      [
+        "Integritat usant algorismes de hash com SHA-256.",
+        false
+      ],
+      [
+        "Autenticacio de l'origen del remitent.",
+        false
+      ],
+      [
+        "Proteccio antireproduccio (Anti-replay).",
+        true
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - IPsec",
+    "enunciat": "Quina es la diferencia principal entre els protocols AH (Authentication Header) i ESP (Encapsulating Security Payload)?",
+    "respostes": [
+      [
+        "L'AH es el mes utilitzat actualment perque permet travessar NATs.",
+        false
+      ],
+      [
+        "L'AH proporciona autenticacio i integritat pero no xifra les dades, mentre que l'ESP proporciona xifratge, autenticacio i integritat.",
+        true
+      ],
+      [
+        "L'ESP nomes pot protegir la capçalera del paquet, mentre que l'AH protegeix el paquet sencer.",
+        false
+      ],
+      [
+        "L'AH funciona en mode tunel i l'ESP nomes en mode transport.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - IPsec",
+    "enunciat": "En quin mode de funcionament d'IPsec es xifra el paquet IP sencer (capçalera + dades) i s'encapsula dins d'un nou paquet IP?",
+    "respostes": [
+      [
+        "Mode Transport, utilitzat per a comunicacions punt a punt entre dos hosts.",
+        false
+      ],
+      [
+        "Mode de Gestio, utilitzat exclusivament per a la fase 1 de l'IKE.",
+        false
+      ],
+      [
+        "Mode Tunel, utilitzat habitualment per crear VPNs (Site-to-Site) entre dos encaminadors.",
+        true
+      ],
+      [
+        "Mode Transparent, que manté la capçalera original visible per a la xarxa de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Xarxes - IPsec",
+    "enunciat": "Quina es la funcio del protocol IKE (Internet Key Exchange) dins de l'arquitectura IPsec?",
+    "respostes": [
+      [
+        "Xifrar directament els paquets de dades durant la transferencia real.",
+        false
+      ],
+      [
+        "Verificar la integritat de la càrrega util (payload) mitjançant hashes.",
+        false
+      ],
+      [
+        "Gestionar l'autenticacio i acordar els algorismes de xifratge i claus (creacio de les SA) en dues fases.",
+        true
+      ],
+      [
+        "Assignar les adreces IP privades als funcionaris que fan teletreball.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina es la funcio principal de la Llei 6/2020 respecte al Reglament Europeu eIDAS?",
+    "respostes": [
+      [
+        "Substituir completament el Reglament Europeu per una norma exclusivament espanyola.",
+        false
+      ],
+      [
+        "Complementar l'eIDAS en aquells aspectes on el Reglament deixa marge als Estats membres.",
+        true
+      ],
+      [
+        "Derogar totes les normes sobre signatura electronica de la Unio Europea a Espanya.",
+        false
+      ],
+      [
+        "Regular nomes el preu dels certificats digitals per als ciutadans de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina antiga norma va ser derogada per l'entrada en vigor de la Llei 6/2020?",
+    "respostes": [
+      [
+        "La Llei 39/2015 de Procediment Administratiu Comu.",
+        false
+      ],
+      [
+        "El Reglament (UE) 910/2014 (eIDAS).",
+        false
+      ],
+      [
+        "La vella Llei 59/2003 de Signatura Electronica.",
+        true
+      ],
+      [
+        "La Llei de Proteccio de Dades (LOPDGDD).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin es el periode obligatori de conservacio de la informacio relativa als certificats?",
+    "respostes": [
+      [
+        "5 anys des de l'emissio del certificat.",
+        false
+      ],
+      [
+        "10 anys des de la data de caducitat.",
+        false
+      ],
+      [
+        "15 anys des de la seva extincio o revocacio.",
+        true
+      ],
+      [
+        "De forma indefinida mentre el prestador estigui en actiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin metode d'identificacio remota permet la llei per a la comprovacio de la identitat?",
+    "respostes": [
+      [
+        "L'enviament d'una fotografia del DNI per correu electronic simple.",
+        false
+      ],
+      [
+        "Una trucada telefonica convencional des d'un numero oficial.",
+        false
+      ],
+      [
+        "La videoidentificacio autoritzada amb seguretat equivalent a la presencia fisica.",
+        true
+      ],
+      [
+        "L'autenticacio mitjançant xarxes socials verificades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quins efectes juridics te la signatura electronica qualificada segons la Llei 6/2020?",
+    "respostes": [
+      [
+        "Es una prova documental simple que sempre requereix un peritatge.",
+        false
+      ],
+      [
+        "Te el mateix valor legal que la signatura manuscrita.",
+        true
+      ],
+      [
+        "Nomes es valida per a tràmits interns dins de la propia CAIB.",
+        false
+      ],
+      [
+        "Te validesa legal pero no gaudeix de la presumpcio d'integritat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Qui te la carrega de la prova si es qüestiona una signatura qualificada en un judici?",
+    "respostes": [
+      [
+        "L'Administracio que ha rebut el document signat.",
+        false
+      ],
+      [
+        "El prestador de serveis de confiança que va emetre el certificat.",
+        false
+      ],
+      [
+        "Qui impugna la signatura es qui ha de carregar amb la prova de la seva falsedat.",
+        true
+      ],
+      [
+        "El propi signant ha de demostrar sempre que la signatura es seva.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina consideracio legal te el DNI electronic segons l'article 13 de la llei?",
+    "respostes": [
+      [
+        "Es un dispositiu de signatura avancada sense valor de signatura manuscrita.",
+        false
+      ],
+      [
+        "Es un dispositiu qualificat de creacio de signatura (QSCD) i les seves signatures son qualificades.",
+        true
+      ],
+      [
+        "Es un metode d'identificacio que nomes funciona a territori nacional.",
+        false
+      ],
+      [
+        "Es un certificat de nivell de seguretat \"Substancial\" pero no \"Alt\".",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin es l'import maxim d'una multa per una infraccio Molt Greu segons la llei?",
+    "respostes": [
+      [
+        "50.000 euros.",
+        false
+      ],
+      [
+        "150.000 euros.",
+        false
+      ],
+      [
+        "300.000 euros.",
+        true
+      ],
+      [
+        "600.000 euros.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin organisme es el responsable de mantenir la Llista de Confiança (TSL) a Espanya?",
+    "respostes": [
+      [
+        "La Secretaria de la CAIB.",
+        false
+      ],
+      [
+        "L'Agencia Espanyola de Proteccio de Dades (AEPD).",
+        false
+      ],
+      [
+        "El Ministeri d'Afers Economics i Transformacio Digital.",
+        true
+      ],
+      [
+        "La Fabrica Nacional de Moneda i Timbre (FNMT).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Que ha de fer un prestador de serveis de confiança en cas de cessament d'activitat?",
+    "respostes": [
+      [
+        "Eliminar tota la informacio dels certificats immediatament.",
+        false
+      ],
+      [
+        "Disposar d'un pla per transferir els certificats i la informacio a un altre prestador o a l'Estat.",
+        true
+      ],
+      [
+        "Tornar els diners de les taxes als usuaris afectats de la CAIB.",
+        false
+      ],
+      [
+        "Simplement tancar el servei web i enviar un correu electronic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina presumpcio gaudeixen els documents amb segells de temps qualificats?",
+    "respostes": [
+      [
+        "Presumpcio de veracitat del contingut del document.",
+        false
+      ],
+      [
+        "Presumpcio de data i hora exactes.",
+        true
+      ],
+      [
+        "Presumpcio de que el titular ha llegit tot el document.",
+        false
+      ],
+      [
+        "Presumpcio de que el document es immune a qualsevol virus.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quins metodes s'admeten per verificar la identitat del sol·licitant d'un certificat qualificat?",
+    "respostes": [
+      [
+        "Nomes la presencia fisica obligatoria.",
+        false
+      ],
+      [
+        "Mitjançant un certificat de nivell de seguretat \"Baix\".",
+        false
+      ],
+      [
+        "Presencia fisica, mitjans d'identificacio electronica d'alt nivell o videoidentificacio autoritzada.",
+        true
+      ],
+      [
+        "Únicament mitjançant el DNI electronic del sol·licitant.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin es l'objectiu principal del Reglament eIDAS dins el mercat interior de la Unio Europea?",
+    "respostes": [
+      [
+        "Substituir totes les lleis nacionals de procediment administratiu per una norma unica.",
+        false
+      ],
+      [
+        "Eliminar les barreres transfrontereres i regular la identificacio electronica i els serveis de confiança.",
+        true
+      ],
+      [
+        "Crear un impost unic per a totes les transaccions electroniques realitzades a la CAIB.",
+        false
+      ],
+      [
+        "Prohibir l'us de signatures manuscrites en qualsevol document oficial.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quins son els tres nivells de seguretat (Assurance Levels) que estableix el reglament per als sistemes d'identificacio?",
+    "respostes": [
+      [
+        "Basic, Mitja i Alt.",
+        false
+      ],
+      [
+        "Intern, Extern i Públic.",
+        false
+      ],
+      [
+        "Baix (Low), Substancial (Substantial) i Alt (High).",
+        true
+      ],
+      [
+        "Personal, Corporatiu i Administratiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Com es defineix una signatura electronica simple segons l'eIDAS?",
+    "respostes": [
+      [
+        "Una signatura creada amb un dispositiu qualificat de creacio de signatures.",
+        false
+      ],
+      [
+        "Una signatura que nomes pot utilitzar el personal de la CAIB.",
+        false
+      ],
+      [
+        "Dades en format electronic annexes a altres dades, com un peu de correu o una signatura escanejada.",
+        true
+      ],
+      [
+        "Una signatura vinculada al signant de manera unica i detectable.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina es la caracteristica principal de la signatura electronica avancada?",
+    "respostes": [
+      [
+        "Nomes te validesa legal si es realitza davant un notari electronic.",
+        false
+      ],
+      [
+        "Esta vinculada al signant de manera unica, permet la seva identificacio i qualsevol modificacio posterior es detectable.",
+        true
+      ],
+      [
+        "Es el nivell de signatura que nomes poden utilitzar les persones juridiques.",
+        false
+      ],
+      [
+        "No requereix que el signant tingui el control exclusiu de les dades de signatura.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin efecte juridic te la signatura electronica qualificada segons el reglament?",
+    "respostes": [
+      [
+        "Es una prova documental que sempre ha de ser validada per un perit judicial.",
+        false
+      ],
+      [
+        "Te un valor inferior a la signatura manuscrita si es fa fora d'Espanya.",
+        false
+      ],
+      [
+        "Te el mateix valor legal que una signatura manuscrita.",
+        true
+      ],
+      [
+        "Nomes es valida per a contractes privats, no per a l'Administracio Pública.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina es la diferencia principal entre una signatura electronica i un segell electronic?",
+    "respostes": [
+      [
+        "La signatura es per a documents en paper i el segell per a documents digitals.",
+        false
+      ],
+      [
+        "La signatura es per a persones fisiques i el segell es per a persones juridiques.",
+        true
+      ],
+      [
+        "El segell electronic no te nivells de seguretat com la signatura.",
+        false
+      ],
+      [
+        "La signatura electronica nomes la pot emetre la FNMT i el segell la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quina garantia ofereix el servei de segellat de temps (Time Stamping)?",
+    "respostes": [
+      [
+        "Que el document ha estat llegit per tots els receptors en una hora concreta.",
+        false
+      ],
+      [
+        "Que unes dades electroniques existien en un moment determinat i no han estat modificades des de llavors.",
+        true
+      ],
+      [
+        "Que el certificat del signant no caducara mai.",
+        false
+      ],
+      [
+        "Que el servidor de la CAIB esta sincronitzat amb el rellotge de l'Estat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Amb quina frequencia han de ser auditats els prestadors de serveis de confiança qualificats?",
+    "respostes": [
+      [
+        "Cada 12 mesos per part del Ministeri.",
+        false
+      ],
+      [
+        "Cada 24 mesos i han d'apareixer en les Llistes de Confiança (TSL) de la UE.",
+        true
+      ],
+      [
+        "Nomes quan hi ha una fallada de seguretat greu en el sistema.",
+        false
+      ],
+      [
+        "Una sola vegada en el moment de la seva inscripcio oficial.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Que introdueix l'evolucio del reglament coneguda com a eIDAS 2?",
+    "respostes": [
+      [
+        "L'eliminacio definitiva del DNI electronic en format fisic.",
+        false
+      ],
+      [
+        "La Cartera Digital Europea (European Digital Identity Wallet) per portar documents al mobil.",
+        true
+      ],
+      [
+        "L'obligacio de pagar una taxa per cada signatura electronica realitzada.",
+        false
+      ],
+      [
+        "Un nou sistema de xifratge que substitueix el protocol IPsec.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quin es el principi de no discriminacio que estableix el reglament?",
+    "respostes": [
+      [
+        "Totes les signatures han de ser gratuites per als ciutadans de les Illes Balears.",
+        false
+      ],
+      [
+        "No es pot denegar efectes juridics a una signatura pel sol fet de ser electronica.",
+        true
+      ],
+      [
+        "Qualsevol ciutadà del mon pot demanar un certificat de la FNMT sense requisits.",
+        false
+      ],
+      [
+        "Els funcionaris de la CAIB han d'utilitzar el mateix nivell de signatura que els ciutadans.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Per a que s'utilitza habitualment un segell electronic en l'administracio?",
+    "respostes": [
+      [
+        "Per identificar personalment al Director General en un decret.",
+        false
+      ],
+      [
+        "Per garantir l'origen i la integritat de documents automatitzats com una compulsa o un rebut de registre.",
+        true
+      ],
+      [
+        "Per bloquejar l'acces a la seu electronica durant el manteniment.",
+        false
+      ],
+      [
+        "Per signar correus electronics personals entre els treballadors de la conselleria.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "enunciat": "Quins nous serveis de confiança introdueix l'eIDAS 2 segons el document?",
+    "respostes": [
+      [
+        "El vot electronic per a les eleccions autonomiques.",
+        false
+      ],
+      [
+        "Els atributs electronics de dades, com demostrar la majoria d'edat sense revelar la data de naixement.",
+        true
+      ],
+      [
+        "La signatura per reconeixement de veu o empremta dactilar directa.",
+        false
+      ],
+      [
+        "El servei de missatgeria instantania xifrada entre administracions europees.",
+        false
+      ]
+    ]
   }
 ]
