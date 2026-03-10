@@ -246,18 +246,7 @@
         <button onclick="loadQuestions(true)" class="btn-secondary" style="margin-bottom: 1rem;">🔄 Force questions reload</button>
         
         <div class="form-group">
-            <div class="topic-header-flex">
-                <h3 style="margin: 0;">1. Select Topics</h3>
-                <div>
-                    <button type="button" class="btn-secondary btn-small" onclick="selectAllTopics()">All</button>
-                    <button type="button" class="btn-secondary btn-small" onclick="selectNoneTopics()">None</button>
-                </div>
-            </div>
-            <div id="topics-container">Loading topics...</div>
-        </div>
-
-        <div class="form-group">
-            <h3>2. Number of Questions</h3>
+            <h3>Number of Questions</h3>
             <div>
                 <input type="number" id="q-amount" value="100" min="1">
                 <span class="max-hint" id="max-q-hint"></span>
@@ -265,6 +254,17 @@
         </div>
 
         <button onclick="startExam()">Start Exam</button>
+
+        <div class="form-group">
+            <div class="topic-header-flex">
+                <h3 style="margin: 0;">Select Topics</h3>
+                <div>
+                    <button type="button" class="btn-secondary btn-small" onclick="selectAllTopics()">All</button>
+                    <button type="button" class="btn-secondary btn-small" onclick="selectNoneTopics()">None</button>
+                </div>
+            </div>
+            <div id="topics-container">Loading topics...</div>
+        </div>
 
         <div class="history-section">
             <div style="display: flex; justify-content: space-between; align-items: center;">

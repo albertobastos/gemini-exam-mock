@@ -53490,7 +53490,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quin es l'objectiu principal del Reglament eIDAS dins el mercat interior de la Unio Europea?",
     "respostes": [
       [
@@ -53512,7 +53512,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quins son els tres nivells de seguretat (Assurance Levels) que estableix el reglament per als sistemes d'identificacio?",
     "respostes": [
       [
@@ -53534,7 +53534,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Com es defineix una signatura electronica simple segons l'eIDAS?",
     "respostes": [
       [
@@ -53556,7 +53556,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quina es la caracteristica principal de la signatura electronica avancada?",
     "respostes": [
       [
@@ -53578,7 +53578,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quin efecte juridic te la signatura electronica qualificada segons el reglament?",
     "respostes": [
       [
@@ -53600,7 +53600,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quina es la diferencia principal entre una signatura electronica i un segell electronic?",
     "respostes": [
       [
@@ -53622,7 +53622,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quina garantia ofereix el servei de segellat de temps (Time Stamping)?",
     "respostes": [
       [
@@ -53644,7 +53644,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Amb quina frequencia han de ser auditats els prestadors de serveis de confiança qualificats?",
     "respostes": [
       [
@@ -53666,7 +53666,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Que introdueix l'evolucio del reglament coneguda com a eIDAS 2?",
     "respostes": [
       [
@@ -53688,7 +53688,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quin es el principi de no discriminacio que estableix el reglament?",
     "respostes": [
       [
@@ -53710,7 +53710,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Per a que s'utilitza habitualment un segell electronic en l'administracio?",
     "respostes": [
       [
@@ -53732,7 +53732,7 @@
     ]
   },
   {
-    "tema": "Tema Extra: Marc Legal - Llei 6/2020 de Serveis Electronics de Confiança",
+    "tema": "Tema Extra: Marc Legal Europeu - Reglament (UE) 910/2014 (eIDAS)",
     "enunciat": "Quins nous serveis de confiança introdueix l'eIDAS 2 segons el document?",
     "respostes": [
       [
@@ -53749,6 +53749,1436 @@
       ],
       [
         "El servei de missatgeria instantania xifrada entre administracions europees.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - Cablejat Estructurat vs. Enllaç",
+    "enunciat": "Quina es la diferencia principal en la composicio del coure entre un cable de distribucio i un d'enllaç?",
+    "respostes": [
+      [
+        "El cable de distribucio es multifilar i el d'enllaç es de nucli solid.",
+        false
+      ],
+      [
+        "El de distribucio es de nucli solid (un fil gruixut) i el d'enllaç es multifilar (fils fins trenats).",
+        true
+      ],
+      [
+        "Ambdos son de nucli solid per garantir la maxima velocitat de transmissio.",
+        false
+      ],
+      [
+        "El cable d'enllaç no utilitza coure, sino una aleacio d'alumini mes flexible.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - Cablejat Estructurat vs. Enllaç",
+    "enunciat": "Segons la normativa de cablejat estructurat, quina es la longitud maxima del tram de cablejat horitzontal?",
+    "respostes": [
+      [
+        "100 metres.",
+        false
+      ],
+      [
+        "10 metres.",
+        false
+      ],
+      [
+        "90 metres.",
+        true
+      ],
+      [
+        "50 metres per evitar la perdua de senyal en cables solids.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - Cablejat Estructurat vs. Enllaç",
+    "enunciat": "Per que els cables d'enllaç (patch cords) s'estructuren amb un nucli multifilar?",
+    "respostes": [
+      [
+        "Perque permeten arribar a distancies mes llargues que el cable solid.",
+        false
+      ],
+      [
+        "Per proporcionar una alta flexibilitat que permeti doblegar-los i moure'ls diariament sense rompre's.",
+        true
+      ],
+      [
+        "Perque el coure trenat es mes barat de fabricar que el coure solid.",
+        false
+      ],
+      [
+        "Per evitar interferencies electriques amb els servidors del rack.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - Cablejat Estructurat vs. Enllaç",
+    "enunciat": "En un supòsit practic, que conforma exactament l'anomenat Enllaç Permanent?",
+    "respostes": [
+      [
+        "La suma de la distribucio horitzontal i els cables d'enllaç (100 metres).",
+        false
+      ],
+      [
+        "Nomes els cables RJ45 que connecten l'ordinador a la roseta.",
+        false
+      ],
+      [
+        "Nomes els 90 metres del cable de distribucio que va del rack a la roseta.",
+        true
+      ],
+      [
+        "Tota la infraestructura de fibra optica que uneix diferents edificis de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - Cablejat Estructurat vs. Enllaç",
+    "enunciat": "Quina es la funcio especifica del cablejat de distribucio dins d'un edifici administratiu?",
+    "respostes": [
+      [
+        "Connectar directament l'ordinador de l'usuari amb l'switch del rack.",
+        false
+      ],
+      [
+        "Fer de pont temporal entre dos patch panels dins del mateix RAC.",
+        false
+      ],
+      [
+        "Formar l'esquelet fix i permanent de l'edifici, instal·lat en canalitzacions o falsos sostres.",
+        true
+      ],
+      [
+        "Substituir els elements fungibles de la xarxa quan aquests es fan malbe.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Algoritmia - Algoritme de Dijkstra",
+    "enunciat": "Quin es l'objectiu principal de l'algoritme de Dijkstra segons el document?",
+    "respostes": [
+      [
+        "Trobar el cami mes llarg possible per visitar tots els nodes d'un graf una sola vegada.",
+        false
+      ],
+      [
+        "Trobar el cami mes curt des d'un node origen fins a tots els altres nodes d'un graf amb pesos no negatius.",
+        true
+      ],
+      [
+        "Identificar si un graf es connex o si conte cicles tancats.",
+        false
+      ],
+      [
+        "Ordenar els nodes d'un graf de manera topologica segons les seves dependencies.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Algoritmia - Algoritme de Dijkstra",
+    "enunciat": "L'algoritme de Dijkstra es defineix com un algoritme de tipus:",
+    "respostes": [
+      [
+        "Divide and Conquer (Divideix i venceras).",
+        false
+      ],
+      [
+        "Greedy (Voraç), ja que en cada pas tria la millor opcio local.",
+        true
+      ],
+      [
+        "Programacio dinamica amb memoria intermedia.",
+        false
+      ],
+      [
+        "Cerca exhaustiva per força bruta.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Algoritmia - Algoritme de Dijkstra",
+    "enunciat": "Quina es la restriccio fonamental respecte als pesos de les arestes perque Dijkstra funcioni correctament?",
+    "respostes": [
+      [
+        "Els pesos han de ser exactament iguals a 1 en totes les arestes.",
+        false
+      ],
+      [
+        "Els pesos han de ser nombres enters i parells.",
+        false
+      ],
+      [
+        "Els pesos han de ser sempre positius o zero; no funciona amb pesos negatius.",
+        true
+      ],
+      [
+        "El graf no pot tenir mes de 100 arestes per node.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Algoritmia - Algoritme de Dijkstra",
+    "enunciat": "En el funcionament pas a pas, que es la \"Relaxacio\" (o actualitzacio)?",
+    "respostes": [
+      [
+        "El moment en que l'algoritme s'atura perque ha trobat un error en el graf.",
+        false
+      ],
+      [
+        "Marcar un node com a ja visitat per no tornar-lo a revisar mai mes.",
+        false
+      ],
+      [
+        "Calcular la distancia des de l'origen fins a un vei passant pel node actual i actualitzar-la si es menor que la guardada.",
+        true
+      ],
+      [
+        "Assignar una distancia de zero al node origen i infinit a la resta de nodes.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Algoritmia - Algoritme de Dijkstra",
+    "enunciat": "Quina es la complexitat computacional de l'algoritme si s'utilitza una implementacio optimitzada amb una cua de prioritat (Min-Heap)?",
+    "respostes": [
+      [
+        "O(V^2).",
+        false
+      ],
+      [
+        "O((V + E) log V).",
+        true
+      ],
+      [
+        "O(V + E).",
+        false
+      ],
+      [
+        "O(log V).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda free",
+    "enunciat": "Quina és la funció principal de la comanda free en un sistema Linux?",
+    "respostes": [
+      [
+        "Alliberar la memòria RAM tancant els processos que consumeixen més recursos.",
+        false
+      ],
+      [
+        "Comprovar l'estat de la memòria RAM i de l'espai d'intercanvi (Swap).",
+        true
+      ],
+      [
+        "Mostrar l'espai lliure que queda en les particions del disc dur.",
+        false
+      ],
+      [
+        "Escanejar el sistema a la cerca de virus que afectin a la memòria compartida.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda free",
+    "enunciat": "Quin paràmetre s'utilitza perquè les dades es mostrin en un format fàcil de llegir (human-readable) com MB o GB?",
+    "respostes": [
+      [
+        "free -s.",
+        false
+      ],
+      [
+        "free -t.",
+        false
+      ],
+      [
+        "free -h.",
+        true
+      ],
+      [
+        "free -l.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda free",
+    "enunciat": "Segons la documentació, quina és la columna més important per saber quanta memòria pot utilitzar realment una nova aplicació?",
+    "respostes": [
+      [
+        "Total (Memòria total instal·lada).",
+        false
+      ],
+      [
+        "Free (Memòria que no s'està utilitzant per a res).",
+        false
+      ],
+      [
+        "Available (Disponible).",
+        true
+      ],
+      [
+        "Shared (Memòria compartida).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda free",
+    "enunciat": "Què indica un valor alt (> 20-30%) en la fila Swap?",
+    "respostes": [
+      [
+        "Que el sistema funciona amb la màxima optimització de la cache.",
+        false
+      ],
+      [
+        "Que la memòria RAM física es troba totalment buida i disponible.",
+        false
+      ],
+      [
+        "Que el rendiment del servidor caurà dràsticament perquè s'està fent servir el disc dur com a RAM.",
+        true
+      ],
+      [
+        "Que el sistema ha de fer una reavaluació periòdica segons l'ENS.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda free",
+    "enunciat": "Per què es considera un error pensar que el servidor es quedarà sense memòria si la columna \"Free\" és baixa?",
+    "respostes": [
+      [
+        "Perquè la memòria lliure només es pot utilitzar després de reiniciar el sistema.",
+        false
+      ],
+      [
+        "Perquè Linux utilitza la RAM lliure per a la cache (buff/cache) i l'allibera instantàniament si una aplicació la necessita.",
+        true
+      ],
+      [
+        "Perquè la columna Free no inclou la memòria compartida tmpfs.",
+        false
+      ],
+      [
+        "Perquè la columna Total és la que realment marca el límit de les aplicacions.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Comunicació - Codis de Resposta HTTP",
+    "enunciat": "Quina categoria de codis HTTP indica que la peticio ha estat rebuda, entesa i acceptada correctament?",
+    "respostes": [
+      [
+        "1xx (Informatius).",
+        false
+      ],
+      [
+        "2xx (Exit).",
+        true
+      ],
+      [
+        "3xx (Redireccio).",
+        false
+      ],
+      [
+        "4xx (Error del Client).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Comunicació - Codis de Resposta HTTP",
+    "enunciat": "Quin codi s'utilitza quan un recurs s'ha mogut definitivament a una nova URI i les futures peticions han d'anar a la nova adreça?",
+    "respostes": [
+      [
+        "302 Found.",
+        false
+      ],
+      [
+        "304 Not Modified.",
+        false
+      ],
+      [
+        "301 Moved Permanently.",
+        true
+      ],
+      [
+        "307 Temporary Redirect.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Comunicació - Codis de Resposta HTTP",
+    "enunciat": "Quina es la diferencia principal entre els codis d'error 401 Unauthorized i 403 Forbidden?",
+    "respostes": [
+      [
+        "El 401 es per a errors de sintaxi i el 403 per a errors del servidor.",
+        false
+      ],
+      [
+        "El 401 indica que cal autenticacio, mentre que el 403 indica que el client no te permisos encara que estigui autenticat.",
+        true
+      ],
+      [
+        "El 401 es un error temporal i el 403 es un error permanent del recurs.",
+        false
+      ],
+      [
+        "No hi ha diferencia, ambdos codis s'utilitzen per a indicar que el recurs no s'ha trobat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Comunicació - Codis de Resposta HTTP",
+    "enunciat": "Quin codi d'error del servidor (5xx) indica que el servidor, actuant com a proxy, no ha rebut una resposta a temps del servidor de dades?",
+    "respostes": [
+      [
+        "500 Internal Server Error.",
+        false
+      ],
+      [
+        "502 Bad Gateway.",
+        false
+      ],
+      [
+        "503 Service Unavailable.",
+        false
+      ],
+      [
+        "504 Gateway Timeout.",
+        true
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Comunicació - Codis de Resposta HTTP",
+    "enunciat": "Per a que serveix el codi 429 Too Many Requests?",
+    "respostes": [
+      [
+        "Per a indicar que el servidor no reconeix el metode utilitzat pel client.",
+        false
+      ],
+      [
+        "Per a indicar que l'usuari ha enviat massa peticions en un periode de temps curt (rate limiting).",
+        true
+      ],
+      [
+        "Per a senyalar que el cos de la peticio es massa gran per al servidor.",
+        false
+      ],
+      [
+        "Per a forçar el canvi de protocol a WebSockets de manera immediata.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quina es la funcio principal de la comanda iptables en un sistema Linux?",
+    "respostes": [
+      [
+        "Configurar les adreces IP de les interficies de xarxa de manera estatica.",
+        false
+      ],
+      [
+        "Configurar les regles del filtratge de paquets del nucli de Linux mitjançant el mòdul Netfilter.",
+        true
+      ],
+      [
+        "Gestionar les claus de xifratge per a les comunicacions IPsec.",
+        false
+      ],
+      [
+        "Monitoritzar el consum de memoria RAM de les aplicacions de xarxa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Com es defineix la cadena INPUT en el flux d'un paquet?",
+    "respostes": [
+      [
+        "Paquets que el servidor ha de reenviar actuant com a router.",
+        false
+      ],
+      [
+        "Paquets que surten del servidor cap a l'exterior.",
+        false
+      ],
+      [
+        "Paquets que van destinats al propi servidor.",
+        true
+      ],
+      [
+        "Paquets que es troben en la memoria cau del tallafocs.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quin parametre s'utilitza per llistar les regles actuals sense resoldre les adreces IP perque sigui mes ràpid?",
+    "respostes": [
+      [
+        "iptables -F.",
+        false
+      ],
+      [
+        "iptables -P.",
+        false
+      ],
+      [
+        "iptables -L -n.",
+        true
+      ],
+      [
+        "iptables -A.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quina es l'accio mes recomanable per a una politica per defecte segons l'ENS?",
+    "respostes": [
+      [
+        "Una politica de Permis Implicit (ACCEPT).",
+        false
+      ],
+      [
+        "Una politica de Denegacio Implicita (DROP), tancant-ho tot i obrint nomes el necessari.",
+        true
+      ],
+      [
+        "Una politica de Redireccionament (REDIRECT) cap a un servidor extern.",
+        false
+      ],
+      [
+        "Una politica de registre de logs sense bloqueig de paquets.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Per a que serveix la regla que permet el transit de Bucle Local (Loopback)?",
+    "respostes": [
+      [
+        "Per permetre connexions des de qualsevol IP externa al port 80.",
+        false
+      ],
+      [
+        "Perque molts serveis interns del sistema funcionin correctament.",
+        true
+      ],
+      [
+        "Per bloquejar les adreces IP malicioses de forma automatica.",
+        false
+      ],
+      [
+        "Per redirigir el transit del port 22 al port 8080.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quin parametre s'utilitza per afegir una regla al final d'una cadena especifica?",
+    "respostes": [
+      [
+        "-I (Insert).",
+        false
+      ],
+      [
+        "-D (Delete).",
+        false
+      ],
+      [
+        "-A (Append).",
+        true
+      ],
+      [
+        "-j (Jump).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quina es la diferencia entre l'accio DROP i l'accio REJECT segons el parametre -j?",
+    "respostes": [
+      [
+        "No hi ha diferencia, ambdues accepten el paquet pero el registren.",
+        false
+      ],
+      [
+        "DROP descarta el paquet sense avisar, mentre que REJECT el descarta enviant un error al remitent.",
+        true
+      ],
+      [
+        "DROP s'utilitza per al protocol TCP i REJECT per al protocol UDP.",
+        false
+      ],
+      [
+        "DROP nomes s'utilitza en la cadena OUTPUT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "En quina taula s'han de configurar les regles de redireccionament de ports (Port Forwarding)?",
+    "respostes": [
+      [
+        "Taula filter.",
+        false
+      ],
+      [
+        "Taula nat.",
+        true
+      ],
+      [
+        "Taula mangle.",
+        false
+      ],
+      [
+        "Taula raw.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Que passa amb les regles d'iptables quan es reinicia el servidor si no s'han guardat especificament?",
+    "respostes": [
+      [
+        "Es mantenen actives perque s'escriuen directament al nucli.",
+        false
+      ],
+      [
+        "Es perden, ja que les comandes s'apliquen nomes a la memoria.",
+        true
+      ],
+      [
+        "El sistema es bloqueja i no permet l'arrancada fins que es tornen a escriure.",
+        false
+      ],
+      [
+        "Es guarden en un fitxer temporal que s'esborra cada 24 hores.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quin paquet s'acostuma a instal·lar en sistemes Debian/Ubuntu per fer les regles permanents?",
+    "respostes": [
+      [
+        "netfilter-persistent.",
+        false
+      ],
+      [
+        "iptables-save.",
+        false
+      ],
+      [
+        "iptables-persistent.",
+        true
+      ],
+      [
+        "firewall-config.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quina es la funcio principal de la comanda iptables en un sistema Linux?",
+    "respostes": [
+      [
+        "Configurar les adreces IP de les interficies de xarxa de manera estatica.",
+        false
+      ],
+      [
+        "Configurar les regles del filtratge de paquets del nucli de Linux mitjançant el mòdul Netfilter.",
+        true
+      ],
+      [
+        "Gestionar les claus de xifratge per a les comunicacions IPsec.",
+        false
+      ],
+      [
+        "Monitoritzar el consum de memoria RAM de les aplicacions de xarxa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Com es defineix la cadena INPUT en el flux d'un paquet?",
+    "respostes": [
+      [
+        "Paquets que el servidor ha de reenviar actuant com a router.",
+        false
+      ],
+      [
+        "Paquets que surten del servidor cap a l'exterior.",
+        false
+      ],
+      [
+        "Paquets que van destinats al propi servidor.",
+        true
+      ],
+      [
+        "Paquets que es troben en la memoria cau del tallafocs.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quin parametre s'utilitza per llistar les regles actuals sense resoldre les adreces IP perque sigui mes ràpid?",
+    "respostes": [
+      [
+        "iptables -F.",
+        false
+      ],
+      [
+        "iptables -P.",
+        false
+      ],
+      [
+        "iptables -L -n.",
+        true
+      ],
+      [
+        "iptables -A.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quina es l'accio mes recomanable per a una politica per defecte segons l'ENS?",
+    "respostes": [
+      [
+        "Una politica de Permis Implicit (ACCEPT).",
+        false
+      ],
+      [
+        "Una politica de Denegacio Implicita (DROP), tancant-ho tot i obrint nomes el necessari.",
+        true
+      ],
+      [
+        "Una politica de Redireccionament (REDIRECT) cap a un servidor extern.",
+        false
+      ],
+      [
+        "Una politica de registre de logs sense bloqueig de paquets.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Per a que serveix la regla que permet el transit de Bucle Local (Loopback)?",
+    "respostes": [
+      [
+        "Per permetre connexions des de qualsevol IP externa al port 80.",
+        false
+      ],
+      [
+        "Perque molts serveis interns del sistema funcionin correctament.",
+        true
+      ],
+      [
+        "Per bloquejar les adreces IP malicioses de forma automatica.",
+        false
+      ],
+      [
+        "Per redirigir el transit del port 22 al port 8080.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quin parametre s'utilitza per afegir una regla al final d'una cadena especifica?",
+    "respostes": [
+      [
+        "-I (Insert).",
+        false
+      ],
+      [
+        "-D (Delete).",
+        false
+      ],
+      [
+        "-A (Append).",
+        true
+      ],
+      [
+        "-j (Jump).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quina es la diferencia entre l'accio DROP i l'accio REJECT segons el parametre -j?",
+    "respostes": [
+      [
+        "No hi ha diferencia, ambdues accepten el paquet pero el registren.",
+        false
+      ],
+      [
+        "DROP descarta el paquet sense avisar, mentre que REJECT el descarta enviant un error al remitent.",
+        true
+      ],
+      [
+        "DROP s'utilitza per al protocol TCP i REJECT per al protocol UDP.",
+        false
+      ],
+      [
+        "DROP nomes s'utilitza en la cadena OUTPUT.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "En quina taula s'han de configurar les regles de redireccionament de ports (Port Forwarding)?",
+    "respostes": [
+      [
+        "Taula filter.",
+        false
+      ],
+      [
+        "Taula nat.",
+        true
+      ],
+      [
+        "Taula mangle.",
+        false
+      ],
+      [
+        "Taula raw.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Que passa amb les regles d'iptables quan es reinicia el servidor si no s'han guardat especificament?",
+    "respostes": [
+      [
+        "Es mantenen actives perque s'escriuen directament al nucli.",
+        false
+      ],
+      [
+        "Es perden, ja que les comandes s'apliquen nomes a la memoria.",
+        true
+      ],
+      [
+        "El sistema es bloqueja i no permet l'arrancada fins que es tornen a escriure.",
+        false
+      ],
+      [
+        "Es guarden en un fitxer temporal que s'esborra cada 24 hores.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Sistemes - Comanda iptables",
+    "enunciat": "Quin paquet s'acostuma a instal·lar en sistemes Debian/Ubuntu per fer les regles permanents?",
+    "respostes": [
+      [
+        "netfilter-persistent.",
+        false
+      ],
+      [
+        "iptables-save.",
+        false
+      ],
+      [
+        "iptables-persistent.",
+        true
+      ],
+      [
+        "firewall-config.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Identitat Digital - LDAP i SAML",
+    "enunciat": "Quina es la funcio principal del protocol LDAP segons la documentacio?",
+    "respostes": [
+      [
+        "Intercanviar autoritzacions entre sistemes web externs mitjançant tokens XML.",
+        false
+      ],
+      [
+        "L'acces, consulta i gestio de dades en directoris, actuant com una guia telefonica digital d'usuaris i rols.",
+        true
+      ],
+      [
+        "Permetre que l'usuari porti el carnet de conduir al mobil amb validesa europea.",
+        false
+      ],
+      [
+        "Xifrar la conexio de xarxa a la capa de transport per a aplicacions SaaS.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Identitat Digital - LDAP i SAML",
+    "enunciat": "Quin es l'objectiu fonamental de l'estandard SAML?",
+    "respostes": [
+      [
+        "Emmagatzemar de forma binaria les contrasenyes dels usuaris en una xarxa local.",
+        false
+      ],
+      [
+        "Gestionar el maquinari dels servidors de bases de dades de la CAIB.",
+        false
+      ],
+      [
+        "Permetre el SSO (Single Sign-On) mitjançant l'intercanvi de dades d'autenticacio i autoritzacio basades en XML.",
+        true
+      ],
+      [
+        "Substituir el protocol HTTP per una comunicacio binaria mes ràpida.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Identitat Digital - LDAP i SAML",
+    "enunciat": "Quina es una diferencia clau en la seguretat entre LDAP i SAML?",
+    "respostes": [
+      [
+        "LDAP es basa en signatures digitals i SAML en la conexio fisica del cable.",
+        false
+      ],
+      [
+        "SAML obliga a l'aplicacio a validar directament la contrasenya de l'usuari.",
+        false
+      ],
+      [
+        "En SAML l'aplicacio mai veu la contrasenya de l'usuari, mentre que en LDAP l'aplicacio pot arribar a tocar-la.",
+        true
+      ],
+      [
+        "LDAP nomes funciona sobre protocols sense estat com UDP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Identitat Digital - LDAP i SAML",
+    "enunciat": "Com interactuen LDAP i SAML en un flux d'autenticacio real?",
+    "respostes": [
+      [
+        "SAML consulta directament al Directori Actiu i LDAP genera el tiquet signat.",
+        false
+      ],
+      [
+        "L'IdP fa una consulta LDAP al directori per verificar les credencials i, si son correctes, genera un token SAML.",
+        true
+      ],
+      [
+        "Son tecnologies excloents i no poden funcionar mai en la mateixa arquitectura.",
+        false
+      ],
+      [
+        "LDAP s'utilitza per a l'extranet i SAML per a la validacio de la xarxa local.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Identitat Digital - LDAP i SAML",
+    "enunciat": "En quin escenari es mes probable que la resposta correcta en un examen sigui SAML?",
+    "respostes": [
+      [
+        "Quan el supòsit pràctic parli de gestio d'usuaris en una xarxa local d'oficina.",
+        false
+      ],
+      [
+        "Quan es vulgui configurar el filtratge de paquets del nucli de Linux.",
+        false
+      ],
+      [
+        "Quan es parli de federacio d'identitats o d'acces a aplicacions SaaS (al nuvol).",
+        true
+      ],
+      [
+        "Quan calgui definir la topologia en estrella jerarquica d'un edifici.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda ps",
+    "enunciat": "Quina és la diferència principal entre les comandes ps i top en un sistema Linux?",
+    "respostes": [
+      [
+        "ps mostra el consum de xarxa i top el consum de disc dur.",
+        false
+      ],
+      [
+        "ps proporciona una instantània de l'estat dels processos en un moment determinat, mentre que top ofereix una vista en temps real.",
+        true
+      ],
+      [
+        "ps només es pot utilitzar com a usuari root i top per qualsevol usuari.",
+        false
+      ],
+      [
+        "top és una eina de sintaxi BSD i ps és exclusivament de sintaxi GNU.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda ps",
+    "enunciat": "Quina combinació d'opcions s'utilitza habitualment per llistar tots els processos de tots els usuaris amb detalls de consum?",
+    "respostes": [
+      [
+        "ps -ef --forest.",
+        false
+      ],
+      [
+        "ps -u root.",
+        false
+      ],
+      [
+        "ps aux.",
+        true
+      ],
+      [
+        "ps -o pid,user,comm.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda ps",
+    "enunciat": "Dins de la columna STAT del resultat de ps aux, què indica la lletra Z?",
+    "respostes": [
+      [
+        "Que el procés s'està executant (Running).",
+        false
+      ],
+      [
+        "Que el procés està dormint (Sleeping).",
+        false
+      ],
+      [
+        "Que el procés és un zombi (Zombie).",
+        true
+      ],
+      [
+        "Que el procés ha finalitzat correctament.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda ps",
+    "enunciat": "Quin paràmetre permet personalitzar la sortida de ps per triar columnes específiques com el PID o l'usuari?",
+    "respostes": [
+      [
+        "L'opció --forest.",
+        false
+      ],
+      [
+        "L'opció --sort.",
+        false
+      ],
+      [
+        "L'opció -o.",
+        true
+      ],
+      [
+        "L'opció aux.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Administració de Sistemes - Comanda ps",
+    "enunciat": "Quina comanda faries servir per trobar els 10 processos que estan consumint més memòria RAM actualment?",
+    "respostes": [
+      [
+        "ps -ef --forest | head -n 10.",
+        false
+      ],
+      [
+        "ps aux --sort=-%mem | head -n 10.",
+        true
+      ],
+      [
+        "ps aux | grep mem.",
+        false
+      ],
+      [
+        "ps -eo pid,comm,etime.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Comunicacions - SSL vs TLS",
+    "enunciat": "Quina es la relacio real entre els protocols SSL i TLS segons la documentacio?",
+    "respostes": [
+      [
+        "Son protocols totalment diferents que no tenen cap connexio tecnica.",
+        false
+      ],
+      [
+        "TLS es el successor modern i segur de l'antic protocol SSL.",
+        true
+      ],
+      [
+        "SSL es la versio de pagament i TLS es la versio de codi obert.",
+        false
+      ],
+      [
+        "SSL s'utilitza per a xarxes locals i TLS nomes per a l'extranet de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Comunicacions - SSL vs TLS",
+    "enunciat": "Quina es la situacio actual de totes les versions del protocol SSL (1.0, 2.0 i 3.0)?",
+    "respostes": [
+      [
+        "Son les versions mes recomanades per la normativa CCN-STIC.",
+        false
+      ],
+      [
+        "Encara s'utilitzen per a comunicacions que no requereixen alta seguretat.",
+        false
+      ],
+      [
+        "Es consideren obsoletes i insegures a causa de vulnerabilitats critiques com l'atac POODLE.",
+        true
+      ],
+      [
+        "S'han fusionat en un unic protocol anomenat TLS 1.3.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Comunicacions - SSL vs TLS",
+    "enunciat": "Quin es el requisit minim recomanat actualment per complir amb l'ENS a l'Administracio?",
+    "respostes": [
+      [
+        "L'us de SSL 3.0 amb xifratge de 128 bits.",
+        false
+      ],
+      [
+        "L'us de TLS 1.0 per garantir la compatibilitat amb navegadors antics.",
+        false
+      ],
+      [
+        "L'us de TLS 1.2 com a minim, o preferiblement TLS 1.3.",
+        true
+      ],
+      [
+        "Qualsevol certificat que estigui etiquetat com a Certificat SSL.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Comunicacions - SSL vs TLS",
+    "enunciat": "Per que es segueix utilitzant el terme Certificat SSL si el protocol SSL esta obsolet?",
+    "respostes": [
+      [
+        "Perque els certificats moderns encara contenen codi SSL en el seu interior.",
+        false
+      ],
+      [
+        "Per una qüestio de marqueting i costum, tot i que realment son certificats X.509.",
+        true
+      ],
+      [
+        "Perque el protocol TLS no requereix l'us de cap certificat digital.",
+        false
+      ],
+      [
+        "Perque la llei 6/2020 obliga a anomenar-los aixi per a la seva validesa juridica.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Seguretat en Comunicacions - SSL vs TLS",
+    "enunciat": "Quin es l'objectiu del proces anomenat Handshake en aquests protocols?",
+    "respostes": [
+      [
+        "Verificar si el disc dur del servidor te prou espai per guardar els logs.",
+        false
+      ],
+      [
+        "Que el client i el servidor es posin d'acord sobre la versio del protocol i les claus de xifratge a utilitzar.",
+        true
+      ],
+      [
+        "Bloquejar de forma automatica totes les adreces IP que no pertanyin a la CAIB.",
+        false
+      ],
+      [
+        "Generar una signatura electronica qualificada per a cada paquet enviat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quin es l'objectiu principal de la normativa TIA/EIA-568 segons el document?",
+    "respostes": [
+      [
+        "Definir els protocols de seguretat per a la transmissio de dades inalambriques.",
+        false
+      ],
+      [
+        "Permetre el disseny i la instal·lacio de sistemes de cablejat estructurat que suportin multiples serveis independentment dels equips.",
+        true
+      ],
+      [
+        "Regular el preu del material de xarxa per a les administracions publiques.",
+        false
+      ],
+      [
+        "Establir les bases legals per a la contractacio de proveïdors d'Internet a la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quina part de la infraestructura connecta l'armari de telecomunicacions amb l'area de treball de l'usuari?",
+    "respostes": [
+      [
+        "Cablejat Vertical (Backbone).",
+        false
+      ],
+      [
+        "Entrada de serveis.",
+        false
+      ],
+      [
+        "Cablejat Horitzontal.",
+        true
+      ],
+      [
+        "Sala d'equips (ER).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quina es la longitud maxima permesa per al tram de cable fix en el cablejat horitzontal?",
+    "respostes": [
+      [
+        "100 metres.",
+        false
+      ],
+      [
+        "90 metres.",
+        true
+      ],
+      [
+        "10 metres.",
+        false
+      ],
+      [
+        "55 metres.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quina utilitat te principalment el cablejat vertical o Backbone?",
+    "respostes": [
+      [
+        "Connectar l'ordinador de l'usuari directament a la roseta de la paret.",
+        false
+      ],
+      [
+        "Connectar diferents armaris de telecomunicacions, sales d'equips i unir diferents plantes d'un edifici.",
+        true
+      ],
+      [
+        "Gestionar la xarxa WiFi 6 de les oficines de la CAIB.",
+        false
+      ],
+      [
+        "Mesurar l'atenuacio del senyal en els patch cords.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quina categoria de cable de coure es la recomanada per a noves instal·lacions i suporta 10 Gbps a 100 metres?",
+    "respostes": [
+      [
+        "Categoria 5e.",
+        false
+      ],
+      [
+        "Categoria 6.",
+        false
+      ],
+      [
+        "Categoria 6A.",
+        true
+      ],
+      [
+        "Categoria 7.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quin es l'esquema de conexio RJ45 mes estes i utilitzat actualment en la majoria d'instal·lacions de la CAIB?",
+    "respostes": [
+      [
+        "T568A.",
+        false
+      ],
+      [
+        "T568B.",
+        true
+      ],
+      [
+        "RJ11 de telefonia.",
+        false
+      ],
+      [
+        "Crossover (cable creuat).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Que verifica la prova de \"Mapa de cablejat\" durant la certificacio d'una xarxa?",
+    "respostes": [
+      [
+        "La longitud total del cable des del rack.",
+        false
+      ],
+      [
+        "Que els 8 fils estiguin connectats en l'ordre correcte.",
+        true
+      ],
+      [
+        "La perdua de potencia del senyal al llarg del trajecte.",
+        false
+      ],
+      [
+        "L'acoblament magnetic entre parells de fils veïns.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Com es defineix el concepte de \"Paradifonia\" (NEXT/FEXT) en les proves de certificacio?",
+    "respostes": [
+      [
+        "La resistencia electrica del cable de coure.",
+        false
+      ],
+      [
+        "El retard de propagacio de les dades.",
+        false
+      ],
+      [
+        "L'acoblament magnetic no desitjat entre els parells de fils veïns (diafonia).",
+        true
+      ],
+      [
+        "La capacitat del cable per resistir la humitat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quina es la topologia que defineix la norma TIA/EIA-568 per a la infraestructura de xarxa?",
+    "respostes": [
+      [
+        "Topologia en bus.",
+        false
+      ],
+      [
+        "Topologia en anell.",
+        false
+      ],
+      [
+        "Topologia en estrella jerarquica.",
+        true
+      ],
+      [
+        "Topologia de malla completa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Infraestructura de Xarxa - TIA/EIA-568",
+    "enunciat": "Quin es el valor de la impedancia que ha de tenir el cable de coure segons el resum de la norma?",
+    "respostes": [
+      [
+        "50 ohms.",
+        false
+      ],
+      [
+        "100 ohms.",
+        true
+      ],
+      [
+        "75 ohms.",
+        false
+      ],
+      [
+        "120 ohms.",
         false
       ]
     ]
