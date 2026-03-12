@@ -55182,5 +55182,1435 @@
         false
       ]
     ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Quin es l'enfocament fonamental de la IA Act segons el Reglament (UE) 2024/1689?",
+    "respostes": [
+      [
+        "Regular la tecnologia en si mateixa per limitar el seu desenvolupament a Europa.",
+        false
+      ],
+      [
+        "Regular els riscos derivats de l'us que es fa dels sistemes d'intel·ligencia artificial.",
+        true
+      ],
+      [
+        "Prohibir qualsevol tipus d'IA generativa que no estigui allotjada en servidors de la UE.",
+        false
+      ],
+      [
+        "Establir un impost especial per a les empreses que utilitzin algorismes de cerca.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Quin nivell de risc s'assigna als sistemes de puntuacio social (social scoring) segons la llei?",
+    "respostes": [
+      [
+        "Risc Alt.",
+        false
+      ],
+      [
+        "Risc Limitat.",
+        false
+      ],
+      [
+        "Risc Inacceptable (estan prohibits).",
+        true
+      ],
+      [
+        "Risc Minim.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Si la CAIB utilitza una IA per a la seleccio de personal o per atorgar subvencions, en quina categoria es classifica?",
+    "respostes": [
+      [
+        "Risc Inacceptable per tractar-se d'una administracio publica.",
+        false
+      ],
+      [
+        "Risc Alt, ja que pot impactar en l'ocupacio o els drets fonamentals.",
+        true
+      ],
+      [
+        "Risc Limitat, nomes requereix una declaracio de transparencia.",
+        false
+      ],
+      [
+        "Risc Minim, en tractar-se d'una eina de suport administratiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Quina es l'obligacio principal per als sistemes de Risc Limitat, com els chatbots?",
+    "respostes": [
+      [
+        "Mantenir una supervisio humana permanent de cada resposta.",
+        false
+      ],
+      [
+        "Realitzar una auditoria de ciberseguretat cada 24 mesos.",
+        false
+      ],
+      [
+        "La transparencia: l'usuari ha de saber que interactua amb una IA.",
+        true
+      ],
+      [
+        "Disposar d'un pla de cessament d'activitat davant l'Oficina de IA.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Quin organisme s'ha creat a Espanya per supervisar el compliment de la IA Act?",
+    "respostes": [
+      [
+        "L'Oficina Europea de IA (AI Office).",
+        false
+      ],
+      [
+        "L'AESIA (Agencia Española de Supervisión de la Inteligencia Artificial).",
+        true
+      ],
+      [
+        "La Secretaria d'Estat de Digitalitzacio i IA (SEDIA).",
+        false
+      ],
+      [
+        "L'Agencia Nacional de Ciberseguretat (INCIBE).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Segons l'article 10, que s'ha de garantir en la governança de dades dels sistemes de Risc Alt?",
+    "respostes": [
+      [
+        "Que totes les dades estiguin xifrades amb protocols SSL/TLS obsolets.",
+        false
+      ],
+      [
+        "Que les dades siguin representatives del grup de poblacio per evitar biaixos (genere, etnia, etc.).",
+        true
+      ],
+      [
+        "Que el volum de dades superi el petabyte per garantir la maxima precisio.",
+        false
+      ],
+      [
+        "Que les dades nomes provinguin de fonts oficials de la Unio Europea.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Que estableix l'article 14 respecte a la vigilancia humana (Human-in-the-loop)?",
+    "respostes": [
+      [
+        "Que la IA ha de supervisar les decisions que prenen els funcionaris de la CAIB.",
+        false
+      ],
+      [
+        "Que la IA no pot prendre decisions critiques de forma autonoma i una persona ha de tenir capacitat d'anul·lacio.",
+        true
+      ],
+      [
+        "Que cal un supervisor humà per cada 10 peticions processades pel sistema.",
+        false
+      ],
+      [
+        "Que els sistemes de Risc Alt s'han de desconnectar de la xarxa cada 8 hores.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Quina es la multa maxima prevista per l'us de practiques prohibides de risc inacceptable?",
+    "respostes": [
+      [
+        "Fins a 50.000 euros.",
+        false
+      ],
+      [
+        "Fins a 150.000 euros.",
+        false
+      ],
+      [
+        "Fins a 35 milions d'euros o el 7% de la facturacio anual global.",
+        true
+      ],
+      [
+        "La suspensio immediata del servei d'Internet de l'entitat infractora.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Que son els anomenats Sandboxes de seguretat mencionats al reglament?",
+    "respostes": [
+      [
+        "Dispositius fisics de seguretat per emmagatzemar dades sensibles de la CAIB.",
+        false
+      ],
+      [
+        "Espais de proves controlats per provar sistemes d'IA sota supervisio reglamentaria abans del seu llançament.",
+        true
+      ],
+      [
+        "Filtres de correu brossa obligatoris per a totes les administracions.",
+        false
+      ],
+      [
+        "Zones de proteccio de dades on la IA Act no te aplicacio legal.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal Europeu - Llei d'Intel·ligència Artificial (IA Act)",
+    "enunciat": "Quin es el calendari d'aplicacio per a la majoria d'obligacions de sistemes de risc alt?",
+    "respostes": [
+      [
+        "Febrer de 2025.",
+        false
+      ],
+      [
+        "Agost de 2025.",
+        false
+      ],
+      [
+        "Agost de 2026.",
+        true
+      ],
+      [
+        "Gener de 2030.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Quina es la relacio principal entre la norma ISO 23894 i la ISO 31000?",
+    "respostes": [
+      [
+        "La ISO 23894 substitueix completament la ISO 31000 en l'àmbit tecnològic.",
+        false
+      ],
+      [
+        "La ISO 23894 adapta la metodologia general de la ISO 31000 a les particularitats del cicle de vida de la IA.",
+        true
+      ],
+      [
+        "La ISO 23894 es una norma de seguretat fisica, mentre que la 31000 es de programari.",
+        false
+      ],
+      [
+        "No tenen cap relacio, ja que la ISO 23894 nomes s'aplica a la IA Act europea.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Quin risc especific de la IA es defineix com la degradacio del rendiment perque les dades del mon real canvien?",
+    "respostes": [
+      [
+        "Biaix algorítmic (Bias).",
+        false
+      ],
+      [
+        "Sobreajustament (Overfitting).",
+        false
+      ],
+      [
+        "Deriva del model (Model Drift).",
+        true
+      ],
+      [
+        "Atac adversari (Adversarial attack).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "En quina fase del proces de gestio del risc s'ha de considerar la gravetat dels danys sobre els drets fonamentals?",
+    "respostes": [
+      [
+        "Establiment del context.",
+        false
+      ],
+      [
+        "Identificacio del risc.",
+        false
+      ],
+      [
+        "Analisi i Avaluacio.",
+        true
+      ],
+      [
+        "Tractament del risc.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Que implica el concepte de Caixa Negra esmentat a l'Annex de Riscos Específics?",
+    "respostes": [
+      [
+        "Un dispositiu de seguretat on s'emmagatzemen els logs de la IA de la CAIB.",
+        false
+      ],
+      [
+        "El risc que una decisio de la IA no pugui ser explicada de manera comprensible per un humà.",
+        true
+      ],
+      [
+        "Un mètode de xifratge d'extrem a extrem per a models de llenguatge (LLM).",
+        false
+      ],
+      [
+        "La fase final de retirada del sistema de la xarxa corporativa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Segons la norma, qui es responsable de la gestio de riscos en una organitzacio?",
+    "respostes": [
+      [
+        "Exclusivament els enginyers i desenvolupadors del sistema.",
+        false
+      ],
+      [
+        "L'Oficina Europea de IA (AI Office) de forma externa.",
+        false
+      ],
+      [
+        "Tota l'organitzacio, des de la direccio (governança) fins al personal que supervisa la IA.",
+        true
+      ],
+      [
+        "Nomes l'AESIA en el cas d'Espanya.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Quin risc es caracteristic de la fase d'entrenament, on la IA aprèn de memoria les dades pero no sap generalitzar?",
+    "respostes": [
+      [
+        "Al·lucinacions.",
+        false
+      ],
+      [
+        "Sobreajustament (Overfitting).",
+        true
+      ],
+      [
+        "Enverinament de dades.",
+        false
+      ],
+      [
+        "Manca de transparencia.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Que son els Adversarial Attacks (atacs adversaris) esmentats a la fase d'explotacio?",
+    "respostes": [
+      [
+        "Errors de programacio en el codi font de l'algorisme.",
+        false
+      ],
+      [
+        "La perdua de dades per un tall de subministrament electric al CPD.",
+        false
+      ],
+      [
+        "Intents d'un tercer per manipular les entrades (inputs) per enganyar la IA.",
+        true
+      ],
+      [
+        "L'ús de la IA per a finalitats militars no autoritzades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Quin annex de la norma connecta directament amb l'avaluacio d'impacte requerida per la IA Act europea?",
+    "respostes": [
+      [
+        "Annex de Riscos en el Cicle de Vida.",
+        false
+      ],
+      [
+        "Annex de Metriques i Objectius.",
+        false
+      ],
+      [
+        "Annex d'Impacte en els Drets Fonamentals.",
+        true
+      ],
+      [
+        "Annex de Transparencia i Caixa Negra.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Com suggereix la norma mesurar que el sistema es just (Fairness)?",
+    "respostes": [
+      [
+        "Mitjançant el temps de resposta del servidor (latència).",
+        false
+      ],
+      [
+        "Mitjançant el nombre de vegades que el boto d'aturada es premut.",
+        false
+      ],
+      [
+        "Ús d'eines estadístiques per comprovar si dona resultats similars per a diferents perfils demogràfics.",
+        true
+      ],
+      [
+        "Mesurant el consum energetic del model durant l'entrenament.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestio del Risc en IA - ISO/IEC 23894:2023",
+    "enunciat": "Per a que serveixen els indicadors d'explicabilitat segons la norma?",
+    "respostes": [
+      [
+        "Per calcular la probabilitat de fallada del maquinari.",
+        false
+      ],
+      [
+        "Per mesurar el grau de confiança dels usuaris humans en les explicacions donades per la IA.",
+        true
+      ],
+      [
+        "Per identificar el propietari intel·lectual de les dades d'entrenament.",
+        false
+      ],
+      [
+        "Per determinar si un model es de Risc Alt o Risc Minim.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Quin es l'eix central de la Llei 39/2015 pel que fa a la gestio de la informacio?",
+    "respostes": [
+      [
+        "L'obligacio del ciutada d'aportar tota la documentacio original en paper.",
+        false
+      ],
+      [
+        "El dret del ciutada a no aportar documents que ja estiguin en mans de l'Administracio.",
+        true
+      ],
+      [
+        "El cobrament d'una taxa per cada consulta de dades entre administracions.",
+        false
+      ],
+      [
+        "La prohibicio d'utilitzar certificats digitals per a tràmits de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Que estableix l'article 28 respecte al consentiment del ciutada per consultar les seves dades?",
+    "respostes": [
+      [
+        "Cal una autoritzacio per escrit i davant notari per a cada consulta.",
+        false
+      ],
+      [
+        "L'Administracio no pot consultar mai les dades sense un consentiment expressat en un document apart.",
+        false
+      ],
+      [
+        "Existeix una presumpcio de consentiment, tret que el ciutada s'hi oposi expressament.",
+        true
+      ],
+      [
+        "El consentiment nomes es valid si es realitza mitjançant Cl@ve PIN.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Que ha de fer el ciutada si s'oposa expressament a que l'Administracio consulti les seves dades?",
+    "respostes": [
+      [
+        "L'Administracio ha de cercar les dades d'ofici de totes maneres.",
+        false
+      ],
+      [
+        "Te l'obligacio d'aportar ell mateix el document requerit.",
+        true
+      ],
+      [
+        "El tràmit queda immediatament anullat per falta de transparencia.",
+        false
+      ],
+      [
+        "Ha de pagar una sancio administrativa segons la Llei 39/2015.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Quina es la funcio de l'index electronic en un expedient administratiu electronic segons l'article 70?",
+    "respostes": [
+      [
+        "Mostrar una llista dels funcionaris que han llegit l'expedient.",
+        false
+      ],
+      [
+        "Garanteix que no s'ha alterat cap peça de l'expedient durant l'intercanvi de dades.",
+        true
+      ],
+      [
+        "Permetre que el ciutada pugi fitxers de mes de 10 MB.",
+        false
+      ],
+      [
+        "Servir de guia per al pagament de les taxes corresponents.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Que permet el Codi Segur de Verificacio (CSV) en els documents emesos per les administracions?",
+    "respostes": [
+      [
+        "Xifrar el contingut del document perque nomes el llegeixi el destinatari.",
+        false
+      ],
+      [
+        "Comprovar l'autenticitat del document consultant-lo en la seu electronica de l'organisme d'origen.",
+        true
+      ],
+      [
+        "Identificar el numero de serie de l'ordinador que ha creat el fitxer.",
+        false
+      ],
+      [
+        "Validar que el document s'ha guardat correctament en l'Arxiu Electronic Únic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Quin reglament defineix el \"com\" tecnic de l'intercanvi de dades que exigeix la Llei 39/2015?",
+    "respostes": [
+      [
+        "El Reglament (UE) 2024/1689 (IA Act).",
+        false
+      ],
+      [
+        "La Llei 6/2020 de serveis de confiança.",
+        false
+      ],
+      [
+        "L'Esquema Nacional d'Interoperabilitat (ENI / RD 4/2010).",
+        true
+      ],
+      [
+        "L'Esquema Nacional de Seguretat (ENS).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Quin tipus d'interoperabilitat garanteix que ambdues administracions entenguin el significat de la dada (ex: que es \"data de naixement\")?",
+    "respostes": [
+      [
+        "Interoperabilitat tecnica.",
+        false
+      ],
+      [
+        "Interoperabilitat semantica.",
+        true
+      ],
+      [
+        "Interoperabilitat organitzativa.",
+        false
+      ],
+      [
+        "Interoperabilitat temporal.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Que es la Plataforma d'Intermediacio de Dades (PID)?",
+    "respostes": [
+      [
+        "Un servei de correu electronic segur per a funcionaris de la CAIB.",
+        false
+      ],
+      [
+        "El node central que connecta totes les administracions per intercanviar dades sense necessitat de convenis individuals.",
+        true
+      ],
+      [
+        "Una base de dades on es guarden totes les contrasenyes dels ciutadans.",
+        false
+      ],
+      [
+        "El portal web on els ciutadans pugen els seus documents escanejats.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Segons l'article 46, on s'han de conservar tots els documents utilitzats en un procediment?",
+    "respostes": [
+      [
+        "En el disc dur local de cada departament de la CAIB.",
+        false
+      ],
+      [
+        "En un Arxiu Electronic Únic.",
+        true
+      ],
+      [
+        "Nomes en format paper en els arxius historics de la comunitat.",
+        false
+      ],
+      [
+        "En una base de dades externa gestionada per una empresa privada.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Que ha de permetre l'Arxiu Electronic Únic per garantir la llegibilitat de la informacio al llarg del temps?",
+    "respostes": [
+      [
+        "La duplicacio de dades en servidors de diferents paisos.",
+        false
+      ],
+      [
+        "La migracio de dades entre formats (preservacio digital).",
+        true
+      ],
+      [
+        "L'eliminacio automatica de documents cada 5 anys.",
+        false
+      ],
+      [
+        "El xifratge de les dades amb claus que nomes coneix l'usuari.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Per que es diu que la Llei 39/2015 transforma l'Administracio en una entitat proactiva?",
+    "respostes": [
+      [
+        "Perque obliga als ciutadans a utilitzar la IA en totes les peticions.",
+        false
+      ],
+      [
+        "Perque obliga les administracions a intercanviar dades entre elles per evitar demanar papers al ciutada.",
+        true
+      ],
+      [
+        "Perque augmenta el nombre de funcionaris destinats a l'atencio presencial.",
+        false
+      ],
+      [
+        "Perque permet que l'Administracio prengui decisions sense cap base legal previa.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Quina es la condicio perque l'enviament d'un expedient administratiu electronic sigui valid entre administracions?",
+    "respostes": [
+      [
+        "Que s'enviï en format PDF sense signatura per estalviar espai.",
+        false
+      ],
+      [
+        "Que es faci per mitjans electronics que garanteixin la integritat i la recuperacio de la informacio.",
+        true
+      ],
+      [
+        "Que s'adjunti una copia compulsada en paper per correu postal.",
+        false
+      ],
+      [
+        "Que el ciutada hagi pagat previament la taxa d'intercanvi de dades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Quin article de la Llei 39/2015 es considera el mes important per a la interoperabilitat?",
+    "respostes": [
+      [
+        "Article 1.",
+        false
+      ],
+      [
+        "Article 15.",
+        false
+      ],
+      [
+        "Article 28.",
+        true
+      ],
+      [
+        "Article 100.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "Que garanteix l'ús de protocols estandard i serveis web en l'intercanvi de dades?",
+    "respostes": [
+      [
+        "La interoperabilitat semantica.",
+        false
+      ],
+      [
+        "La interoperabilitat tecnica.",
+        true
+      ],
+      [
+        "La interoperabilitat organitzativa.",
+        false
+      ],
+      [
+        "La proteccio antireproduccio (Anti-replay).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Marc Legal - Llei 39/2015 i Intercanvi de Dades",
+    "enunciat": "En resum, en que es converteix la dada segons la Llei 39/2015?",
+    "respostes": [
+      [
+        "En un obstacle per a la transformacio digital.",
+        false
+      ],
+      [
+        "En l'actiu principal de la gestio administrativa.",
+        true
+      ],
+      [
+        "En una propietat exclusiva del funcionari que tramita l'expedient.",
+        false
+      ],
+      [
+        "En un element secundari respecte al document original en paper.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina es considerada la \"norma mare\" del marc europeu en materia de reutilitzacio?",
+    "respostes": [
+      [
+        "La Directiva 2003/98/CE, que va establir les regles minimes per evitar la discriminacio i els acords d'exclusivitat.",
+        true
+      ],
+      [
+        "El Reglament d'Execucio (UE) 2023/138.",
+        false
+      ],
+      [
+        "La Directiva (UE) 2019/1024 de Dades Obertes.",
+        false
+      ],
+      [
+        "La Llei 37/2007 estatal.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quin gir clau va introduir la Directiva 2013/37/UE respecte a la reutilitzacio de documents?",
+    "respostes": [
+      [
+        "Va prohibir l'us de dades geospacials per a finalitats comercials.",
+        false
+      ],
+      [
+        "La reutilitzacio va passar de ser una opcio a ser una obligacio per a les administracions.",
+        true
+      ],
+      [
+        "Va limitar l'accés a les dades nomes als ciutadans de la Unio Europea.",
+        false
+      ],
+      [
+        "Va obligar a xifrar totes les dades publiques abans de la seva publicacio.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quin concepte tecnic fonamental introdueix la Directiva (UE) 2019/1024?",
+    "respostes": [
+      [
+        "El xifratge de dades de nivell \"Alt\" segons l'ENS.",
+        false
+      ],
+      [
+        "L'obligacio de cobrar una taxa per cada descarrega de dades.",
+        false
+      ],
+      [
+        "El concepte de dades d'alt valor, que han de ser gratuïtes i disponibles via API.",
+        true
+      ],
+      [
+        "L'ús exclusiu de servidors fisics dins del territori nacional.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quines categories de dades identifica el Reglament d'Execucio (UE) 2023/138 com a \"dades d'alt valor\"?",
+    "respostes": [
+      [
+        "Nomes les dades relatives a la salut publica i expedients judicials.",
+        false
+      ],
+      [
+        "Dades sobre contractacio publica i sous dels funcionaris de la CAIB.",
+        false
+      ],
+      [
+        "Geospacials, observacio de la terra, estadistiques, empreses i mobilitat.",
+        true
+      ],
+      [
+        "Totes les dades publicades en el BOIB des de l'any 2003.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina va ser la primera llei estatal a Espanya que va transposar la Directiva de 2003?",
+    "respostes": [
+      [
+        "La Llei 18/2015.",
+        false
+      ],
+      [
+        "La Llei 37/2007.",
+        true
+      ],
+      [
+        "El Reial Decret llei 24/2021.",
+        false
+      ],
+      [
+        "La Llei 39/2015 de Procediment Administratiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quin portal estatal va ser creat mitjançant el RD 1495/2011?",
+    "respostes": [
+      [
+        "boe.es.",
+        false
+      ],
+      [
+        "sede.administracion.gob.es.",
+        false
+      ],
+      [
+        "datos.gob.es.",
+        true
+      ],
+      [
+        "dadesobertes.caib.es.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina norma estatal va establir el principi de que la informacio ha de ser \"oberta per defecte\"?",
+    "respostes": [
+      [
+        "La Llei 37/2007.",
+        false
+      ],
+      [
+        "La Llei 18/2015 (transposicio de la Directiva de 2013).",
+        true
+      ],
+      [
+        "La Llei 4/2011 balear.",
+        false
+      ],
+      [
+        "El Reglament (UE) 2023/138.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina es la norma estatal de referencia actual que transposa la Directiva 2019/1024?",
+    "respostes": [
+      [
+        "La Llei 11/2013.",
+        false
+      ],
+      [
+        "El RD 1495/2011.",
+        false
+      ],
+      [
+        "El Reial Decret llei 24/2021.",
+        true
+      ],
+      [
+        "La Llei 12/2014 balear.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina llei balear va ser la primera a esmentar el dret a accedir a la informacio en formats que permetin el seu tractament?",
+    "respostes": [
+      [
+        "Llei 4/2011, de bona administracio i bon govern de les Illes Balears.",
+        true
+      ],
+      [
+        "Llei 12/2014 d'autoritzacio i transparencia.",
+        false
+      ],
+      [
+        "Decret 11/2021 del Portal de Transparencia.",
+        false
+      ],
+      [
+        "Llei 6/2020 de serveis de confiança.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quin article de la Llei 12/2014 de les Illes Balears estableix l'obligacio de publicar dades en formats oberts?",
+    "respostes": [
+      [
+        "Article 1.",
+        false
+      ],
+      [
+        "Article 17.",
+        true
+      ],
+      [
+        "Article 28.",
+        false
+      ],
+      [
+        "Article 100.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quin decret regula actualment el funcionament del portal dadesobertes.caib.es?",
+    "respostes": [
+      [
+        "Decret 14/2011.",
+        false
+      ],
+      [
+        "Decret 11/2021, de 15 de març.",
+        true
+      ],
+      [
+        "RD 1495/2011 estatal.",
+        false
+      ],
+      [
+        "Reglament (UE) 2024/1689.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Segons la cronologia legislativa, que caracteritza l'etapa de \"L'Origen\" (2003-2007)?",
+    "respostes": [
+      [
+        "L'obligacio de publicar dades en temps real via API.",
+        false
+      ],
+      [
+        "La reutilitzacio es considera un \"dret d'accés ampliat\".",
+        true
+      ],
+      [
+        "La gratuïtat total de totes les dades del sector public.",
+        false
+      ],
+      [
+        "L'enfocament exclusiu en les dades de mobilitat i transport.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Com es defineix la reutilitzacio en l'etapa de \"L'Expansio\" (2011-2015) a nivell estatal?",
+    "respostes": [
+      [
+        "Un dret opcional per a les biblioteques i museus.",
+        false
+      ],
+      [
+        "Un deure administratiu: tot el que es public s'ha de poder reutilitzar, excepte limits de privacitat.",
+        true
+      ],
+      [
+        "Una activitat prohibida per a les empreses publiques.",
+        false
+      ],
+      [
+        "Un servei que nomes poden utilitzar les universitats publiques.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "En quina tecnologia s'enfoca principalment l'era actual de les dades d'alt valor (2019-2023)?",
+    "respostes": [
+      [
+        "En el format PDF per a la lectura humana.",
+        false
+      ],
+      [
+        "En les APIs i la disponibilitat de dades en temps real.",
+        true
+      ],
+      [
+        "En el correu electronic per a l'enviament de fitxers.",
+        false
+      ],
+      [
+        "En el paper oficial amb Codi Segur de Verificacio (CSV).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "A quin cost s'ha de limitar la tarifa de reutilitzacio segons la Directiva de 2013?",
+    "respostes": [
+      [
+        "Al valor de mercat de la dada segons l'oferta i la demanda.",
+        false
+      ],
+      [
+        "Al cost marginal de la reproduccio i difusio de la dada.",
+        true
+      ],
+      [
+        "A una taxa fixa de 300.000 euros per a grans empreses.",
+        false
+      ],
+      [
+        "La reutilitzacio ha de ser sempre totalment gratuita sense excepcions.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina obligacio tenen les conselleries de la CAIB segons el Decret 11/2021?",
+    "respostes": [
+      [
+        "Crear el seu propi portal de dades obertes independent.",
+        false
+      ],
+      [
+        "Mantenir actualitzats els seus conjunts de dades dins del catàleg.",
+        true
+      ],
+      [
+        "Cobrar una taxa per cada consulta realitzada pel ciutada.",
+        false
+      ],
+      [
+        "Eliminar les dades que tinguin mes de 15 anys d'antiguitat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quin es l'objectiu principal de la Unio Europea al regular la RISP?",
+    "respostes": [
+      [
+        "Limitar l'accés a la informacio per motius de seguretat nacional.",
+        false
+      ],
+      [
+        "Crear un mercat únic de dades a tota la UE.",
+        true
+      ],
+      [
+        "Afavorir els acords d'exclusivitat amb empreses tecnologiques.",
+        false
+      ],
+      [
+        "Recaptar fons mitjançant la venda de dades estadistiques.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Per a quin tipus de dades es necessari consultar el Reglament Europeu 2023/138 a la CAIB?",
+    "respostes": [
+      [
+        "Per a les dades d'identificacio biometrica en espais publics.",
+        false
+      ],
+      [
+        "Per a dades estadistiques, cartogràfiques o de mobilitat d'alt valor.",
+        true
+      ],
+      [
+        "Per a la gestio interna de les nòmines del personal docent.",
+        false
+      ],
+      [
+        "Per a la regulacio dels chatbots d'atencio al ciutada.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina norma balear s'ha de consultar per a l'obligacio de publicitat activa?",
+    "respostes": [
+      [
+        "Llei 4/2011.",
+        false
+      ],
+      [
+        "Llei 12/2014 balear.",
+        true
+      ],
+      [
+        "RD-Llei 24/2021.",
+        false
+      ],
+      [
+        "Llei 37/2007.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Normativa de Reutilització i Obertura de Dades (Open Data)",
+    "enunciat": "Quina es la definicio de \"formats llegibles per maquina\" segons la normativa actual?",
+    "respostes": [
+      [
+        "Documents escanejats en format JPG d'alta resolucio.",
+        false
+      ],
+      [
+        "Formats estructurats que permeten que una aplicacio informatica identifiqui i extregui les dades facilment.",
+        true
+      ],
+      [
+        "Qualsevol document imprès que pugui ser llegit per un funcionari.",
+        false
+      ],
+      [
+        "Nomes els fitxers xifrats amb el protocol IPsec.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Quina es la norma de referencia a Espanya per donar compliment al Reial Decret 1112/2018 sobre accessibilitat del sector public?",
+    "respostes": [
+      [
+        "ISO 9001:2015.",
+        false
+      ],
+      [
+        "UNE-EN 301549:2019.",
+        true
+      ],
+      [
+        "WCAG 1.0.",
+        false
+      ],
+      [
+        "Llei 39/2015 de Procediment Administratiu.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "En quines pautes internacionals es basa la norma UNE-EN 301549:2019 segons el document?",
+    "respostes": [
+      [
+        "ISO/IEC 27001 sobre seguretat.",
+        false
+      ],
+      [
+        "IEEE 802.11 per a xarxes sense fils.",
+        false
+      ],
+      [
+        "WCAG 2.1 (Web Content Accessibility Guidelines).",
+        true
+      ],
+      [
+        "Esquema Nacional d'Interoperabilitat (ENI).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Quin dels 4 principis fonamentals exigeix que la informacio i els components de la interficie s'han de mostrar de manera que els usuaris puguin percebre'ls?",
+    "respostes": [
+      [
+        "Percebible (ex: text alternatiu o subtitols).",
+        true
+      ],
+      [
+        "Operable (ex: navegacio per teclat).",
+        false
+      ],
+      [
+        "Comprensible (ex: llenguatge senzill).",
+        false
+      ],
+      [
+        "Robust (ex: compatibilitat amb lectors de pantalla).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Quin nivell de conformitat es l'obligatori per a les Administracions Publiques segons la llei?",
+    "respostes": [
+      [
+        "Nivell A (Requisits minims).",
+        false
+      ],
+      [
+        "Nivell AA (Requisits mitjans).",
+        true
+      ],
+      [
+        "Nivell AAA (Nivell mes alt i complex).",
+        false
+      ],
+      [
+        "Nivell A+ (Combinacio d'accessibilitat i seguretat).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "A que s'aplica especificament el Capítol 10 de la norma UNE-EN 301549?",
+    "respostes": [
+      [
+        "A la configuracio de servidors de correu electronic.",
+        false
+      ],
+      [
+        "A les aplicacions mobils (Apps) instal·lades al telefon.",
+        false
+      ],
+      [
+        "A documents no web, com fitxers PDF o Word descarregables.",
+        true
+      ],
+      [
+        "Al disseny del maquinari de les pantalles tactils.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Quin es el requisit tecnic de contrast de color minim per al text segons el nivell AA?",
+    "respostes": [
+      [
+        "Una relacio de 1:1.",
+        false
+      ],
+      [
+        "Una relacio de 10:1 per a persones amb baixa visio.",
+        false
+      ],
+      [
+        "Una relacio de, com a minim, 4.5:1.",
+        true
+      ],
+      [
+        "No hi ha un requisit numeric, nomes que sigui llegible pel funcionari.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Que es una \"trampa de teclat\" segons els requisits d'accessibilitat?",
+    "respostes": [
+      [
+        "Un error de programari que bloqueja l'ordinador sencer.",
+        false
+      ],
+      [
+        "Quan un usuari queda bloquejat en un element (com un calendari) sense poder sortir-ne usant nomes el teclat.",
+        true
+      ],
+      [
+        "Una drecera de teclat que executa una accio no desitjada.",
+        false
+      ],
+      [
+        "Un mecanisme de seguretat per evitar atacs de força bruta.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Quina va ser la novetat mes important introduïda en la versio 2019 de la norma respecte a les anteriors?",
+    "respostes": [
+      [
+        "L'eliminacio de l'obligacio de subtitular els videos.",
+        false
+      ],
+      [
+        "La introduccio de les WCAG 2.1 i criteris nous per a dispositius mobils.",
+        true
+      ],
+      [
+        "La prohibicio d'utilitzar fitxers PDF en la seu electronica.",
+        false
+      ],
+      [
+        "L'obligacio d'utilitzar exclusivament el nivell de conformitat AAA.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "El principi \"Robust\" de la norma garanteix que el contingut pugui ser interpretat de manera fiable per:",
+    "respostes": [
+      [
+        "Qualsevol funcionari de la CAIB sense formacio previa.",
+        false
+      ],
+      [
+        "Únicament pels navegadors d'ultima generacio.",
+        false
+      ],
+      [
+        "Una gran varietat de navegadors i tecnologies d'assistencia (com lectors de pantalla).",
+        true
+      ],
+      [
+        "Els sistemes d'intel·ligencia artificial de risc inacceptable.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Accessibilitat TIC - UNE-EN 301549:2019",
+    "enunciat": "Quin capitol de la norma s'ocupa de la documentacio i els serveis de suport (manuals, ajuda tecnica, etc.)?",
+    "respostes": [
+      [
+        "Capitol 5.",
+        false
+      ],
+      [
+        "Capitol 9.",
+        false
+      ],
+      [
+        "Capitol 11.",
+        false
+      ],
+      [
+        "Capitol 12.",
+        true
+      ]
+    ]
   }
 ]
