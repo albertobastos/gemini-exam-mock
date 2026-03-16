@@ -56612,5 +56612,445 @@
         true
       ]
     ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Quines sigles componen els drets ARSLOP segons la normativa actual?",
+    "respostes": [
+      [
+        "Accés, Registre, Seguretat, Llei, Ordre i Protecció.",
+        false
+      ],
+      [
+        "Accés, Rectificació, Supressió, Limitació, Oposició i Portabilitat.",
+        true
+      ],
+      [
+        "Arxiu, Recuperació, Selecció, Lògica, Operació i Privacitat.",
+        false
+      ],
+      [
+        "Accés, Rectificació, Cancel·lació i Oposició (els antics ARCO).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "En què consisteix el dret de Limitació del tractament?",
+    "respostes": [
+      [
+        "En el dret a rebre les dades en un format estructurat com XML o JSON.",
+        false
+      ],
+      [
+        "En el dret a demanar que s'eliminin les dades quan el tractament sigui il·lícit.",
+        false
+      ],
+      [
+        "En el dret a marcar les dades per suspendre'n el tractament, per exemple, mentre s'impugna la seva exactitud.",
+        true
+      ],
+      [
+        "En la facultat de demanar que no es realitzi un tractament per motius de màrqueting.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Quin és el termini màxim que té l'Administració de la CAIB per respondre a una sol·licitud d'aquests drets?",
+    "respostes": [
+      [
+        "15 dies naturals sense possibilitat de pròrroga.",
+        false
+      ],
+      [
+        "1 mes, prorrogable a 2 mesos més en casos complexos informant l'interessat.",
+        true
+      ],
+      [
+        "3 mesos segons el procediment administratiu comú de la Llei 39/2015.",
+        false
+      ],
+      [
+        "Immediatament o en un màxim de 48 hores per motius de transparència.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Quina és la condició econòmica general per a l'exercici dels drets ARSLOP davant la CAIB?",
+    "respostes": [
+      [
+        "Cal pagar una taxa administrativa de gestió de dades.",
+        false
+      ],
+      [
+        "És gratuït només per a la primera sol·licitud de l'any.",
+        false
+      ],
+      [
+        "L'exercici del dret és gratuït, tret que les sol·licituds siguin manifestament infundades o excessives.",
+        true
+      ],
+      [
+        "Depèn de si el ciutadà s'oposa o no a la consulta de dades via PID.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Per què un ciutadà no podria exercir el Dret de Supressió (\"Dret a l'oblit\") sobre les seves dades fiscals a la CAIB?",
+    "respostes": [
+      [
+        "Perquè les dades fiscals sempre es consideren de Risc Alt.",
+        false
+      ],
+      [
+        "Perquè el dret no s'aplica si les dades són necessàries per al compliment d'una obligació legal o poders públics.",
+        true
+      ],
+      [
+        "Perquè la Llei 12/2014 de transparència obliga a mantenir-les durant 15 anys.",
+        false
+      ],
+      [
+        "Perquè el dret de supressió només existeix en l'àmbit de les empreses privades.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Segons l'article 20 del RGPD, en quin cas NO s'aplica el dret a la Portabilitat?",
+    "respostes": [
+      [
+        "Quan les dades estan guardades en formats binaris com LDAP.",
+        false
+      ],
+      [
+        "Quan el ciutadà no disposa d'un certificat digital vàlid.",
+        false
+      ],
+      [
+        "Quan el tractament és necessari per a una missió en interès públic o l'exercici de poders públics.",
+        true
+      ],
+      [
+        "Quan l'Administració ha d'enviar les dades a una empresa de fora de la Unió Europea.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Davant quin organisme pot reclamar un ciutadà si la CAIB denega la seva petició de rectificació?",
+    "respostes": [
+      [
+        "Davant l'Oficina Europea de IA (AI Office).",
+        false
+      ],
+      [
+        "Davant l'AEPD (Agència Espanyola de Protecció de Dades).",
+        true
+      ],
+      [
+        "Davant la Secretaria d'Estat de Digitalització.",
+        false
+      ],
+      [
+        "Davant el registre general de la Policia Nacional.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Quina figura de l'Administració pot intentar solucionar el conflicte abans d'anar a l'AEPD?",
+    "respostes": [
+      [
+        "El responsable del servidor on es troben les dades.",
+        false
+      ],
+      [
+        "El servei d'atenció al ciutadà del 012.",
+        false
+      ],
+      [
+        "El Delegat de Protecció de Dades (DPD) de l'Administració de la Comunitat Autònoma.",
+        true
+      ],
+      [
+        "El gestor del Portal de Dades Obertes de la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Quin dret permet a l'interessat rebre les seves dades per transmetre-les a un altre responsable en un format com JSON?",
+    "respostes": [
+      [
+        "Dret d'Accés.",
+        false
+      ],
+      [
+        "Dret de Limitació.",
+        false
+      ],
+      [
+        "Dret de Portabilitat.",
+        true
+      ],
+      [
+        "Dret de Rectificació.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protecció de Dades - Drets ARSLOP",
+    "enunciat": "Què ha de fer l'Administració si decideix denegar una petició d'exercici de drets?",
+    "respostes": [
+      [
+        "Simplement ignorar la petició si és manifestament infundada.",
+        false
+      ],
+      [
+        "Motivar la resposta i informar el ciutadà de la possibilitat de reclamar davant l'AEPD.",
+        true
+      ],
+      [
+        "Aplicar l'atenuació segons la norma ISO 31000.",
+        false
+      ],
+      [
+        "Eliminar les dades de l'usuari per seguretat.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quines son les tres caracteristiques fonamentals del teletreball segons el Decret 36/2022?",
+    "respostes": [
+      [
+        "Obligatorietat, permanencia i exclusivitat de drets.",
+        false
+      ],
+      [
+        "Voluntarietat, reversibilitat i igualtat de drets.",
+        true
+      ],
+      [
+        "Jerarquia, control presencial i disponibilitat 24 hores.",
+        false
+      ],
+      [
+        "Temporalitat, digitalitzacio i aïllament laboral.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quin es el requisit d'antiguitat minima en el lloc de treball per poder sol·licitar el teletreball?",
+    "respostes": [
+      [
+        "1 mes de serveis efectius.",
+        false
+      ],
+      [
+        "3 mesos de serveis efectius.",
+        false
+      ],
+      [
+        "6 mesos de serveis efectius en el lloc de treball o funcions analogues.",
+        true
+      ],
+      [
+        "1 any de serveis efectius des de l'entrada a la CAIB.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quina es la formula ordinaria de repartiment de la jornada segons el decret?",
+    "respostes": [
+      [
+        "5 dies de teletreball a la setmana.",
+        false
+      ],
+      [
+        "2 dies de teletreball i 3 dies presencials.",
+        false
+      ],
+      [
+        "Un maxim de 3 dies de teletreball i un minim de 2 dies presencials.",
+        true
+      ],
+      [
+        "4 dies de teletreball i 1 dia presencial obligatori.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Es pot fraccionar la jornada diaria entre teletreball i presencia fisica?",
+    "respostes": [
+      [
+        "Si, es pot anar al mati a l'oficina i teletreballar a l'horari d'horabaixa.",
+        false
+      ],
+      [
+        "No; o es teletreballa tot el dia o es va a l'oficina tot el dia.",
+        true
+      ],
+      [
+        "Nomes si el cap de servei ho autoritza per motius d'urgencia.",
+        false
+      ],
+      [
+        "Si, sempre que es compleixi el total d'hores de la jornada setmanal.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Qui te la responsabilitat de proporcionar l'ordinador portatil i les eines de programari?",
+    "respostes": [
+      [
+        "L'empleat, com a part del seu compromis de voluntarietat.",
+        false
+      ],
+      [
+        "L'Administracio de la CAIB.",
+        true
+      ],
+      [
+        "L'empresa externa de manteniment informatic.",
+        false
+      ],
+      [
+        "La DGTIC mitjançant un lloguer mensual al funcionari.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quin es el sentit del silenci administratiu en les sol·licituds d'autoritzacio de teletreball?",
+    "respostes": [
+      [
+        "Positiu (s'enten concedida si no hi ha resposta).",
+        false
+      ],
+      [
+        "Negatiu (s'enten denegada si no hi ha resposta).",
+        true
+      ],
+      [
+        "No existeix silenci, l'Administracio esta obligada a respondre en 15 dies.",
+        false
+      ],
+      [
+        "Depen de la conselleria on es presenti la sol·licitud.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quina es la vigencia ordinaria de l'autoritzacio per teletreballar?",
+    "respostes": [
+      [
+        "6 mesos, sense possibilitat de prorroga.",
+        false
+      ],
+      [
+        "1 any, prorrogable automaticament si no hi ha canvis.",
+        true
+      ],
+      [
+        "Indefinida mentre no canviï el lloc de treball.",
+        false
+      ],
+      [
+        "2 anys, subjecte a una nova avaluacio de riscos laborals.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "En quina d'aquestes situacions es podria autoritzar el 100% de la jornada en modalitat de teletreball?",
+    "respostes": [
+      [
+        "Per desig de l'empleat per millorar la seva conciliacio personal.",
+        false
+      ],
+      [
+        "Per motius de salut, risc durant l'embaras o rehabilitacio de victimes de violencia de genere.",
+        true
+      ],
+      [
+        "Quan l'oficina estigui en obres de remodelacio estetica.",
+        false
+      ],
+      [
+        "Nomes durant els mesos d'estiu per estalvi energetic.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quin dret garanteix que l'Administracio no pugui exigir tasques fora de l'horari laboral?",
+    "respostes": [
+      [
+        "Dret a la reversibilitat.",
+        false
+      ],
+      [
+        "Dret a la desconnexio digital.",
+        true
+      ],
+      [
+        "Dret a la igualtat de tracte.",
+        false
+      ],
+      [
+        "Dret a la flexibilitat horaria.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
+    "enunciat": "Quina formacio es obligatori haver superat abans de començar a teletreballar?",
+    "respostes": [
+      [
+        "Un curs de nivell alt de l'Esquema Nacional de Seguretat.",
+        false
+      ],
+      [
+        "Cursos de formacio especifica en teletreball i riscos laborals de l'EBAP.",
+        true
+      ],
+      [
+        "Un master oficial en administracio electronica.",
+        false
+      ],
+      [
+        "No cal formacio si l'empleat demostra competencies digitals previes.",
+        false
+      ]
+    ]
   }
 ]
