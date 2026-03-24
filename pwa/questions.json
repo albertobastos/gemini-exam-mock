@@ -56834,221 +56834,771 @@
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quines son les tres caracteristiques fonamentals del teletreball segons el Decret 36/2022?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quina és la relació entre el Decret 3/2023 i l'anterior Decret 36/2022?",
     "respostes": [
       [
-        "Obligatorietat, permanencia i exclusivitat de drets.",
+        "El Decret 3/2023 és una norma secundària que s'aplica només en casos de pandèmia.",
         false
       ],
       [
-        "Voluntarietat, reversibilitat i igualtat de drets.",
+        "El Decret 3/2023 substitueix i corregeix l'aspecte organitzatiu del 36/2022, esdevenint la norma vigent definitiva.",
         true
       ],
       [
-        "Jerarquia, control presencial i disponibilitat 24 hores.",
+        "Ambdós decrets conviuen i s'apliquen segons la categoria del funcionari.",
         false
       ],
       [
-        "Temporalitat, digitalitzacio i aïllament laboral.",
+        "El Decret 3/2023 només s'aplica al personal laboral i el 36/2022 al personal funcionari.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quin es el requisit d'antiguitat minima en el lloc de treball per poder sol·licitar el teletreball?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quin és l'objectiu principal del naixement del Decret 3/2023?",
     "respostes": [
       [
-        "1 mes de serveis efectius.",
+        "Reduir el nombre de dies que els funcionaris poden estar a casa.",
         false
       ],
       [
-        "3 mesos de serveis efectius.",
-        false
-      ],
-      [
-        "6 mesos de serveis efectius en el lloc de treball o funcions analogues.",
+        "Donar més seguretat jurídica, detallar millor els procediments i unificar la doctrina a totes les conselleries.",
         true
       ],
       [
-        "1 any de serveis efectius des de l'entrada a la CAIB.",
+        "Obligar a tots els treballadors a teletreballar per estalviar costos d'oficina.",
+        false
+      ],
+      [
+        "Eliminar la figura del Pla Personal de Teletreball.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quina es la formula ordinaria de repartiment de la jornada segons el decret?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quin document guanya importància i ha de ser més detallat en el Decret 3/2023 respecte a la norma anterior?",
     "respostes": [
       [
-        "5 dies de teletreball a la setmana.",
+        "El certificat de residència de l'empleat.",
         false
       ],
       [
-        "2 dies de teletreball i 3 dies presencials.",
+        "L'informe de vida laboral de la Seguretat Social.",
         false
       ],
       [
-        "Un maxim de 3 dies de teletreball i un minim de 2 dies presencials.",
+        "El Pla Personal de Teletreball.",
         true
       ],
       [
-        "4 dies de teletreball i 1 dia presencial obligatori.",
+        "El contracte de la línia d'internet domèstica.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Es pot fraccionar la jornada diaria entre teletreball i presencia fisica?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quin és el termini de preavís general establert per a la reversibilitat del teletreball?",
     "respostes": [
       [
-        "Si, es pot anar al mati a l'oficina i teletreballar a l'horari d'horabaixa.",
+        "24 hores.",
         false
       ],
       [
-        "No; o es teletreballa tot el dia o es va a l'oficina tot el dia.",
+        "7 dies naturals.",
+        false
+      ],
+      [
+        "15 dies.",
         true
       ],
       [
-        "Nomes si el cap de servei ho autoritza per motius d'urgencia.",
-        false
-      ],
-      [
-        "Si, sempre que es compleixi el total d'hores de la jornada setmanal.",
+        "1 mes.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Qui te la responsabilitat de proporcionar l'ordinador portatil i les eines de programari?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Què reforça el Decret 3/2023 respecte al control del rendiment?",
     "respostes": [
       [
-        "L'empleat, com a part del seu compromis de voluntarietat.",
+        "Que el teletreball és un dret adquirit per antiguitat.",
         false
       ],
       [
-        "L'Administracio de la CAIB.",
+        "Que és una modalitat de prestació de serveis que exigeix el compliment d'objectius mesurables.",
         true
       ],
       [
-        "L'empresa externa de manteniment informatic.",
+        "Que el funcionari ha de tenir la càmera de l'ordinador oberta durant tota la jornada.",
         false
       ],
       [
-        "La DGTIC mitjançant un lloguer mensual al funcionari.",
+        "Que el rendiment només es mesura mitjançant l'assistència als dies presencials.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quin es el sentit del silenci administratiu en les sol·licituds d'autoritzacio de teletreball?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quina és la fórmula general de dies de teletreball que manté el decret vigent?",
     "respostes": [
       [
-        "Positiu (s'enten concedida si no hi ha resposta).",
+        "Mínim 3 dies presencials i màxim 2 de teletreball.",
         false
       ],
       [
-        "Negatiu (s'enten denegada si no hi ha resposta).",
+        "Màxim 3 dies de teletreball i mínim 2 dies presencials.",
         true
       ],
       [
-        "No existeix silenci, l'Administracio esta obligada a respondre en 15 dies.",
+        "Teletreball total (5 dies) si es disposa de VPN.",
         false
       ],
       [
-        "Depen de la conselleria on es presenti la sol·licitud.",
+        "4 dies de teletreball i 1 dia de presència per a reunions de coordinació.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quina es la vigencia ordinaria de l'autoritzacio per teletreballar?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quina condició s'ha de garantir en els llocs de treball amb atenció directa al públic?",
     "respostes": [
       [
-        "6 mesos, sense possibilitat de prorroga.",
+        "Que el públic sigui atès exclusivament per mitjans telemàtics.",
         false
       ],
       [
-        "1 any, prorrogable automaticament si no hi ha canvis.",
+        "Que el servei presencial estigui cobert al 100% en tot l'horari d'atenció.",
         true
       ],
       [
-        "Indefinida mentre no canviï el lloc de treball.",
+        "Que el funcionari que teletreballa atengui les cites des del seu telèfon personal.",
         false
       ],
       [
-        "2 anys, subjecte a una nova avaluacio de riscos laborals.",
+        "Aquests llocs de treball no poden teletreballar en cap cas.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "En quina d'aquestes situacions es podria autoritzar el 100% de la jornada en modalitat de teletreball?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quin és el requisit d'antiguitat en el lloc de treball que estableix el Decret 3/2023?",
     "respostes": [
       [
-        "Per desig de l'empleat per millorar la seva conciliacio personal.",
+        "3 mesos.",
         false
       ],
       [
-        "Per motius de salut, risc durant l'embaras o rehabilitacio de victimes de violencia de genere.",
+        "6 mesos.",
         true
       ],
       [
-        "Quan l'oficina estigui en obres de remodelacio estetica.",
+        "1 any.",
         false
       ],
       [
-        "Nomes durant els mesos d'estiu per estalvi energetic.",
+        "No es requereix antiguitat si s'ha superat el curs de l'EBAP.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quin dret garanteix que l'Administracio no pugui exigir tasques fora de l'horari laboral?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Qui es fa càrrec del cost de la connexió a internet segons el decret?",
     "respostes": [
       [
-        "Dret a la reversibilitat.",
+        "L'Administració de la CAIB mitjançant un plus en la nòmina.",
         false
       ],
       [
-        "Dret a la desconnexio digital.",
+        "La DGTIC a través d'un conveni amb les operadores.",
+        false
+      ],
+      [
+        "L'empleat.",
         true
       ],
       [
-        "Dret a la igualtat de tracte.",
-        false
-      ],
-      [
-        "Dret a la flexibilitat horaria.",
+        "Es comparteix al 50% entre l'administració i el treballador.",
         false
       ]
     ]
   },
   {
-    "tema": "Tema Extra: Gestió de Personal - Decret 36/2022 de Teletreball",
-    "enunciat": "Quina formacio es obligatori haver superat abans de començar a teletreballar?",
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quina eina és d'ús obligatori per a la connexió segura segons el Decret 3/2023?",
     "respostes": [
       [
-        "Un curs de nivell alt de l'Esquema Nacional de Seguretat.",
+        "Un navegador web en mode incògnit.",
         false
       ],
       [
-        "Cursos de formacio especifica en teletreball i riscos laborals de l'EBAP.",
+        "La VPN (Virtual Private Network).",
         true
       ],
       [
-        "Un master oficial en administracio electronica.",
+        "El correu electrònic personal de l'empleat.",
         false
       ],
       [
-        "No cal formacio si l'empleat demostra competencies digitals previes.",
+        "Una connexió de fibra òptica de més de 1 Gbps.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Respecte a la seguretat de la informació, què queda prohibit expressament?",
+    "respostes": [
+      [
+        "Teletreballar en horari d'horabaixa.",
+        false
+      ],
+      [
+        "Traslladar dades sensibles en suports físics (com pendrives) sense xifrar.",
+        true
+      ],
+      [
+        "Utilitzar el teclat de l'ordinador portàtil sense protector.",
+        false
+      ],
+      [
+        "Connectar-se a la VPN des de fora de les Illes Balears.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quina és l'obligació de l'empleat durant la seva jornada de teletreball respecte a la comunicació?",
+    "respostes": [
+      [
+        "Ha d'enviar un correu cada hora al seu superior.",
+        false
+      ],
+      [
+        "Ha de ser localitzable per telèfon o mitjans telemàtics com Teams.",
+        true
+      ],
+      [
+        "Ha de respondre a les xarxes socials de la conselleria.",
+        false
+      ],
+      [
+        "No té cap obligació de comunicació per garantir la desconnexió digital.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "En quina situació excepcional es pot autoritzar el 100% de la jornada en teletreball?",
+    "respostes": [
+      [
+        "Per viure a més de 50 km de la seu administrativa.",
+        false
+      ],
+      [
+        "Per motius de violència de gènere, salut pròpia o familiar, o amenaces de seguretat.",
+        true
+      ],
+      [
+        "Quan l'empleat ho sol·liciti per motius de formació externa.",
+        false
+      ],
+      [
+        "Per decisió unànime de tots els treballadors d'un mateix servei.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Quina entitat és la responsable d'impartir la formació obligatòria per teletreballar?",
+    "respostes": [
+      [
+        "La Universitat de les Illes Balears (UIB).",
+        false
+      ],
+      [
+        "L'EBAP (Escola Balear d'Administració Pública).",
+        true
+      ],
+      [
+        "L'AEPD (Agència Espanyola de Protecció de Dades).",
+        false
+      ],
+      [
+        "La Secretaria d'Estat de Digitalització.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Gestió de Personal - Decret 3/2023 de Teletreball (Vigent)",
+    "enunciat": "Com es defineix el teletreball en el resum final de la norma?",
+    "respostes": [
+      [
+        "Com un dret fonamental del personal funcionari.",
+        false
+      ],
+      [
+        "Com una modalitat voluntària, reversible, que exigeix 2 dies presencials i un Pla Personal aprovat.",
+        true
+      ],
+      [
+        "Com un procediment d'intercanvi de dades basat en el CSV.",
+        false
+      ],
+      [
+        "Com una situació administrativa de serveis especials.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quina es la funcio principal dels ports TCP i UDP en una comunicacio de xarxa?",
+    "respostes": [
+      [
+        "Assignar una adreça IP unica a cada dispositiu de la CAIB.",
+        false
+      ],
+      [
+        "Permetre al protocol de transport saber a quina aplicacio o servei ha de lliurar els paquets de dades.",
+        true
+      ],
+      [
+        "Xifrar el contingut dels paquets de dades abans d'enviar-los per Internet.",
+        false
+      ],
+      [
+        "Establir la ruta fisica mes curta entre dos nodes d'un graf.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port i protocol s'utilitzen per a l'acces remot segur, SFTP i tunelings?",
+    "respostes": [
+      [
+        "Port 21 / TCP.",
+        false
+      ],
+      [
+        "Port 22 / TCP (SSH).",
+        true
+      ],
+      [
+        "Port 23 / TCP (Telnet).",
+        false
+      ],
+      [
+        "Port 25 / TCP (SMTP).",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin servei utilitza els ports UDP 67 i 68 per a l'assignacio dinamica de configuracio de xarxa?",
+    "respostes": [
+      [
+        "DNS.",
+        false
+      ],
+      [
+        "DHCP.",
+        true
+      ],
+      [
+        "SNMP.",
+        false
+      ],
+      [
+        "NTP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quins ports s'utilitzen per a la resolucio de noms de domini a IPs (DNS)?",
+    "respostes": [
+      [
+        "Port 80 / TCP.",
+        false
+      ],
+      [
+        "Port 443 / TCP.",
+        false
+      ],
+      [
+        "Port 53 / TCP i UDP.",
+        true
+      ],
+      [
+        "Port 389 / TCP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin es el port per defecte per a la navegacio web segura (HTTPS)?",
+    "respostes": [
+      [
+        "Port 80.",
+        false
+      ],
+      [
+        "Port 8080.",
+        false
+      ],
+      [
+        "Port 443.",
+        true
+      ],
+      [
+        "Port 143.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin protocol s'utilitza en el port TCP 143 per a la sincronitzacio de correus al servidor?",
+    "respostes": [
+      [
+        "POP3.",
+        false
+      ],
+      [
+        "IMAP.",
+        true
+      ],
+      [
+        "SMTP.",
+        false
+      ],
+      [
+        "RADIUS.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port utilitza el motor de base de dades Oracle DB per al seu Listener?",
+    "respostes": [
+      [
+        "Port 1433.",
+        false
+      ],
+      [
+        "Port 1521.",
+        true
+      ],
+      [
+        "Port 3306.",
+        false
+      ],
+      [
+        "Port 5432.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port TCP s'utilitza per a l'Escriptori Remot de Windows (RDP)?",
+    "respostes": [
+      [
+        "Port 22.",
+        false
+      ],
+      [
+        "Port 389.",
+        false
+      ],
+      [
+        "Port 3389.",
+        true
+      ],
+      [
+        "Port 445.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Per a que serveix el protocol NTP que utilitza el port UDP 123?",
+    "respostes": [
+      [
+        "Per monitoritzar dispositius de xarxa.",
+        false
+      ],
+      [
+        "Per a la sincronitzacio de l'hora del sistema.",
+        true
+      ],
+      [
+        "Per a l'autenticacio d'usuaris en xarxes WiFi.",
+        false
+      ],
+      [
+        "Per a l'enviament de registres d'esdeveniments.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin servei s'associa habitualment al port TCP 445 en xarxes Windows?",
+    "respostes": [
+      [
+        "Syslog.",
+        false
+      ],
+      [
+        "SIP (telefonia IP).",
+        false
+      ],
+      [
+        "SMB/CIFS (comparticio de fitxers).",
+        true
+      ],
+      [
+        "LDAP segur.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Segons la IANA, quin es el rang dels anomenats \"Ports Ben Coneguts\" (Well Known)?",
+    "respostes": [
+      [
+        "Del 0 al 1023.",
+        true
+      ],
+      [
+        "Del 1024 al 49151.",
+        false
+      ],
+      [
+        "Del 49152 al 65535.",
+        false
+      ],
+      [
+        "Qualsevol port per sota del 65535.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Com es classifiquen els ports que van del 49152 al 65535?",
+    "respostes": [
+      [
+        "Ports Ben Coneguts.",
+        false
+      ],
+      [
+        "Ports Registrats.",
+        false
+      ],
+      [
+        "Ports Dinamics o Privats.",
+        true
+      ],
+      [
+        "Ports de control de protocols de transport.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port utilitza el protocol SMTP per a l'enviament de correu amb xifratge STARTTLS?",
+    "respostes": [
+      [
+        "Port 25.",
+        false
+      ],
+      [
+        "Port 587.",
+        true
+      ],
+      [
+        "Port 110.",
+        false
+      ],
+      [
+        "Port 993.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port s'utilitza per a l'acces a directoris d'usuaris de forma segura (LDAPS)?",
+    "respostes": [
+      [
+        "Port 389.",
+        false
+      ],
+      [
+        "Port 636.",
+        true
+      ],
+      [
+        "Port 161.",
+        false
+      ],
+      [
+        "Port 1812.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port utilitza la base de dades Open Source MySQL o MariaDB?",
+    "respostes": [
+      [
+        "Port 1433.",
+        false
+      ],
+      [
+        "Port 1521.",
+        false
+      ],
+      [
+        "Port 3306.",
+        true
+      ],
+      [
+        "Port 5432.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin protocol de telefonia IP (VoIP) utilitza habitualment els ports 5060 i 5061?",
+    "respostes": [
+      [
+        "RADIUS.",
+        false
+      ],
+      [
+        "SIP.",
+        true
+      ],
+      [
+        "Syslog.",
+        false
+      ],
+      [
+        "SNMP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port utilitza el protocol POP3S per a la descarrega segura de correus?",
+    "respostes": [
+      [
+        "Port 110.",
+        false
+      ],
+      [
+        "Port 995.",
+        true
+      ],
+      [
+        "Port 993.",
+        false
+      ],
+      [
+        "Port 143.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port s'utilitza per a l'enviament de registres d'esdeveniments (Syslog)?",
+    "respostes": [
+      [
+        "Port 123 / UDP.",
+        false
+      ],
+      [
+        "Port 161 / UDP.",
+        false
+      ],
+      [
+        "Port 514 / UDP o TCP.",
+        true
+      ],
+      [
+        "Port 1812 / UDP.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quin port s'associa a la base de dades relacional avançada PostgreSQL?",
+    "respostes": [
+      [
+        "Port 3306.",
+        false
+      ],
+      [
+        "Port 5432.",
+        true
+      ],
+      [
+        "Port 6379.",
+        false
+      ],
+      [
+        "Port 1433.",
+        false
+      ]
+    ]
+  },
+  {
+    "tema": "Tema Extra: Protocols de Xarxa - Ports per Defecte",
+    "enunciat": "Quina es una de les primeres mesures de seguretat en la normativa ENS i el Decret 3/2023?",
+    "respostes": [
+      [
+        "Obrir tots els ports per defecte.",
+        false
+      ],
+      [
+        "El tancament de ports innecessaris.",
+        true
+      ],
+      [
+        "Utilitzar exclusivament ports dinamics.",
+        false
+      ],
+      [
+        "Desactivar el protocol TCP.",
         false
       ]
     ]
